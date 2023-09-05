@@ -12,6 +12,7 @@ application:
   rule:
     #远程规则
     remote:
+      - 'https://raw.githubusercontent.com/ImAubrey/AdGuard-Rule/main/custom-block.txt' #name: custom-block
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt' #name: AdAway Default Blocklist
       - 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt' #name: AdGuard CNAME 伪装跟踪器列表
       - 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt' #name: 去除禁止广告拦截提示规则
