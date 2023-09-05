@@ -12,16 +12,18 @@ application:
   rule:
     #远程规则
     remote:
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt' #AdAway Default Blocklist
-      - 'https://easylist.to/easylist/easyprivacy.txt' #Privacy EasyList
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt' #Dan Pollock's List
-      - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/ad-domains.txt' #CatChinaRule
-      - 'https://anti-ad.net/adguard.txt' #anti-ad.net
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_32.txt' #The NoTracking blocklist
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt' #Phishing URL Blocklist (PhishTank and OpenPhish)
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt' #The Big List of Hacked Malware Web Sites
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt' #Peter Lowe's Blocklist
-      - 'https://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt' #每日规则
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt' #name: AdAway Default Blocklist
+      - 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt' #name: AdGuard CNAME 伪装跟踪器列表
+      - 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt' #name: 去除禁止广告拦截提示规则
+      - 'https://easylist.to/easylist/easyprivacy.txt' #name: Privacy EasyList
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt' #name: Dan Pollock's List
+      - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/ad-domains.txt' #name: CatChinaRule
+      - 'https://anti-ad.net/adguard.txt' #name: anti-ad.net
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_32.txt' #name: The NoTracking blocklist
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt' #name: Phishing URL Blocklist (PhishTank and OpenPhish)
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt' #name: The Big List of Hacked Malware Web Sites
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt' #name: Peter Lowe's Blocklist
+      - 'https://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt' #name: 每日规则
 
     #本地规则
     local: #本地规则请将文件移动到项目路径rule目录中
