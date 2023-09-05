@@ -1,1 +1,48 @@
+spring:
+  application:
+    名字: adg-rule
+  profiles:
+    已激活: prod  #切换至 dev 即可输出调试信息
 
+logging:
+  file:
+    path: ./logs
+
+application:
+  rule:
+    #远程规则
+    remote:
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt' #AdAway Default Blocklist
+      - 'https://easylist.to/easylist/easyprivacy.txt' #Privacy EasyList
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt' #Dan Pollock's List
+      - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/ad-domains.txt' #CatChinaRule
+      - 'https://anti-ad.net/adguard.txt' #anti-ad.net
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_32.txt' #The NoTracking blocklist
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt' #Phishing URL Blocklist (PhishTank and OpenPhish)
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt' #The Big List of Hacked Malware Web Sites
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt' #Peter Lowe's Blocklist
+      - 'https://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt' #每日规则
+
+    #本地规则
+    local: #本地规则请将文件移动到项目路径rule目录中
+      - 'mylist.txt'
+  output:
+    path: rule   #规则文件输出路径，相对路径默认从 项目目录开始
+    files:
+      all.txt:    #输出文件名
+        - DOMAIN  #域名规则，仅完整域名
+        - REGEX   #正则规则，包含正则的域名规则，AdGH支持
+        - MODIFY  #修饰规则，添加了一些修饰符号的规则，AdG支持
+        - HOSTS   #Hosts规则
+      adgh.txt:
+        - DOMAIN
+        - REGEX
+#        - HOSTS
+      hosts.txt:
+        - HOSTS
+      regex.txt:
+        - REGEX
+      domain.txt:
+        - DOMAIN
+      modify.txt:
+        - MODIFY
