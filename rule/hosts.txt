@@ -1,4 +1,4 @@
-# Update time: 2023-09-06 20:24:33
+# Update time: 2023-09-07 08:55:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12731,6 +12731,7 @@
 0.0.0.0 server-uk.imrworldwide.com
 0.0.0.0 image.linkexchange.com
 0.0.0.0 oas-central.east.realmedia.com
+0.0.0.0 canadapost-paymentservice.com
 0.0.0.0 pointclicktrack.com
 0.0.0.0 metrics.womansday.com
 0.0.0.0 www.phonejapan.com
@@ -22727,6 +22728,7 @@
 0.0.0.0 synergonline.com
 0.0.0.0 runescape-autominer.info
 0.0.0.0 topsecret.x.fc2.com
+0.0.0.0 iubridges.org
 0.0.0.0 formatwerbung.de
 0.0.0.0 www.sirigor.republika.pl
 0.0.0.0 guardmonitoring-africa.com

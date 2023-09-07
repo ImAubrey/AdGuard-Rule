@@ -1,4 +1,4 @@
-# Update time: 2023-09-06 20:24:33
+# Update time: 2023-09-07 08:55:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5518,6 +5518,7 @@ _webanalytics.
 /realtimeapi/impression?
 ||toast.com/log
 /track_event.
+||waaw1.tv/cdn-cgi/trace
 ||trackedlink.net^$third-party
 /ga/yap.js
 /stat-analytics/*
@@ -11702,7 +11703,6 @@ _c.gif?c=
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 ||line.me/tag.gif$image
 .doubleclick.net/$image
-||trafficbass.com^$third-party
 @@||caf.fr^*/smarttag.js$script,~third-party
 ||clickdimensions.com^$third-party
 ||mofa.go.jp^*/count.cgi?
@@ -12396,6 +12396,7 @@ _WebVitalsReporter_
 ||referforex.com^$third-party
 ||audience.systems^$third-party
 ||legitscript.com/seals/
+||pulpulyy.club/cdn-cgi/trace
 ||logentries.com^$third-party
 ||dmtracker.com^$third-party
 ||tracking202.com^$third-party

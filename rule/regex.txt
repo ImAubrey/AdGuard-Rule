@@ -1,4 +1,4 @@
-# Update time: 2023-09-06 20:24:33
+# Update time: 2023-09-07 08:55:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -164,4 +164,5 @@
 ||vhee.o6cc.cfgliders.com.^
 go-mpulse
 solutions.|pages.indigovision.com
+spryptvqguhpwt
 epochtimes
