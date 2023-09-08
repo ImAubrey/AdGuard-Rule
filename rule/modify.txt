@@ -1,4 +1,4 @@
-# Update time: 2023-09-08 08:55:07
+# Update time: 2023-09-08 20:23:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1286,6 +1286,7 @@ _vercel/insights/
 /sometrics/*
 ||linkwithin.com/pixel.png
 /ebs/tracking/*
+@@||player.smotrim.ru/js/piwik.js$~third-party
 /d.gif?
 /c2_count.js
 ||siteswithcontent.com^$third-party
@@ -1882,7 +1883,6 @@ _metric_collect.
 @@||chat.d-id.com/assets/mixpanel.$~third-party
 ||clickprotector.com^$third-party
 ||streamta.site/stat/
-/eftracking.
 ||virgingames.com/tracker/
 ||smetrics.teambeachbody.com^.com^
 ||pushly.com/pushly-event-tracker
@@ -2751,7 +2751,6 @@ _metric_collect.
 /teal-gcianalytics-
 ||spamanalyst.com^$third-party
 ||marketing-page.de^$third-party
-/ecossurvey.
 /PingPixel.
 ||websolutions.it/statistiche/
 /event?stat_
@@ -2849,7 +2848,6 @@ _metric_collect.
 /ArticleCounterLogger.
 ||partners.etoro.com^$script
 ||ok.ru/dk?cmd=videoStatNew
-/EDigitalSurvey_
 ||sojern.com^$third-party
 ||taboola.com^*/json?tim=
 @@||s.thebrighttag.com/tag?site=$domain=sephora.com
@@ -3590,7 +3588,6 @@ _impression_analytics/
 -ga-tracking/
 /pcookie_get_key
 /sophus/logging.js
-/other-analitycs/*
 ||terabox.fun/api/analytics
 @@||lightning.bleacherreport.com/launch/*-source.min.js$~third-party
 ||hello.myfonts.net/count/
@@ -4638,6 +4635,7 @@ _stat_counter.php?
 /stat2.js
 ||mtvnservices.com/measurements/
 /log_impressions
+/edAnalyticsWrapper.js
 /logExecutionStats?
 /webmnr.min.js
 ||nprove.com^$third-party
@@ -5375,7 +5373,6 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 @@||wargag.ru/public/js/counter.js?
 /tracklog.
 /rt_tag.
-/eheat.js
 ||performancerevenues.com^$third-party
 ||promo.ge/res/delivery/delivery.js
 ||bubblestat.com^$third-party
@@ -5742,7 +5739,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||brightside.me/metric-collector
 ||123-counter.de^$third-party
 ||snapkit.com/v1/sdk/metrics/
-/output-stats-
 /NielsenData/*
 /MailIsRead?$image
 _trackWebtrekkEvents.
@@ -7213,6 +7209,7 @@ _hits_stat.
 ||tripadvisor.*/GARecord^
 /ajax/eulerian/*
 ||gsght.com^$third-party
+||expedia.com/static/default/default/scripts/siteAnalytics.js
 ||amung.us^$third-party
 /addlogdetails.
 /rum/performance
@@ -7369,7 +7366,6 @@ _bnTracker.min.js?
 ||doda.jp/DodaFront/Html/js/dodaPrime_pc_aaTag.js
 ||multicounter.de^$third-party
 /naytev.min.js
-/ecos-surveycode.
 /vTracker_
 ||pocitadlo.sk^$third-party
 /cgi-bin/CP/*
@@ -7910,7 +7906,6 @@ _ga-events_
 ||bdg.com/event?
 ||zazzle.fr/botdefender/init.js
 ||developpez.com/public/js/log.js
-/siteAnalytics.
 ||stonecalcom.com^$third-party
 /siteAnalytics-
 /srp.gif?
@@ -8168,7 +8163,6 @@ _ga-events_
 /beacon/collector/*
 ||digital.flytedesk.com/js/head.js
 /analytics/script/*
-/edateAdTrack?
 /log/init?
 ||notix.io^$third-party
 ||splyt.com^$third-party
@@ -8324,7 +8318,6 @@ _ga-events_
 /c.gif?
 ||tvpage.com/tvpa.min.js
 ||affiliateedge.eu^$third-party
-/ecos_surveycode_
 ||showheroes.com^$third-party
 /healthanalytics.js
 ||8020solutions.net^$third-party
@@ -8384,7 +8377,6 @@ _ga-events_
 ||dataroid.com^$third-party
 ||grapheffect.com^$third-party
 ||dditscdn.com/?a=
-/ecos_survey.
 /fb_pixel_page_
 ||segment.com^$third-party
 ||instapage.com^$third-party,domain=~pagedemo.co
@@ -10345,6 +10337,7 @@ _imp?Log=
 ||kieskeurig.nl/collect
 -analytics-events.
 ||vivocha.com^$third-party
+||github.dev/diagnostic?
 /hit.xiti?
 ||jsuol.com.br/aud/$script
 @@||builder.lift.acquia.com/lift.js$script,domain=edwardjones.com
@@ -10454,7 +10447,6 @@ _mongo_stats/
 /stats-collect
 ||redtram.com/px/
 /_tracking/*
-/ecos.js
 ||exacttarget.com^$~subdocument,third-party
 ||butterly.com/node_modules/detect.js/detect.min.js
 /pixel1/impression.
@@ -11420,7 +11412,6 @@ _ad_impression.
 ||webleads-tracker.com^$third-party
 ||smarketer.de^$third-party
 /HitCounter.
-/outbrainClientPixels.
 ||baptisttop1000.com^$third-party
 ||vimeocdn.com/js_opt/logging_combined.min.js
 ||webhits.de^$third-party
@@ -11552,7 +11543,6 @@ _ad_impression.
 ||ad.mail.ru/static/sync-loader.js
 /addLinkerEvents-ga.
 /beacon/affiliates
-/hit.png?
 ||live2support.com^*/js_lstrk.
 ||m-oo-m.com/data/report/
 /coretracking.php?
@@ -12260,7 +12250,6 @@ _WebVitalsReporter_
 ||geolocation-db.com^$third-party
 ||flixfacts.co.uk^$third-party
 ||cloudfront.net/vis_opt.js
-/edAnalyticsWrapper.
 ||oracle.com/visitorinfo/
 /amp-access/set/*
 ||clinch.co/a_js/client_pixels/
