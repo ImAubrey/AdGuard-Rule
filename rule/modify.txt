@@ -1,4 +1,4 @@
-# Update time: 2023-09-07 20:24:13
+# Update time: 2023-09-08 08:55:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1849,6 +1849,7 @@ _logHuman=
 /countstat.php?
 /piNctTracking.js
 @@||chart-embed.service.newrelic.com^$subdocument,xmlhttprequest
+||ebay.com/gh/dfpsvc?
 /vimn_tracking.
 ||top100bloggers.com^$third-party
 ||replyat.com/gadgetpagecounter.asp?
@@ -9425,7 +9426,6 @@ _ntpagetag.
 ||tubepornstars.com/js/analytics
 /datacollectionapi-client/*
 /plingatracker.
-://utm.$domain=~utm.akindi.com|~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.lol|~utm.md|~utm.openskies.sh|~utm.pansa.pl|~utm.pharos360.com|~utoronto.ca
 ||socialannex.com/c-sale-track/$script
 ||company-target.com^$third-party
 @@||firebase.google.com/docs/analytics/$~third-party
