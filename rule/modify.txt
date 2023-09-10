@@ -1,4 +1,4 @@
-# Update time: 2023-09-09 20:21:18
+# Update time: 2023-09-10 08:58:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1787,6 +1787,7 @@ _logHuman=
 /libs/tracker.js
 ||exelator.com^$third-party
 ||gtop.ro^$third-party
+@@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
 ||ebay.com/delstats/
 ||bonuscounter.de^$third-party
 /check.php?referrer=
