@@ -1,4 +1,4 @@
-# Update time: 2023-09-11 08:56:03
+# Update time: 2023-09-11 20:24:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5413,6 +5413,7 @@ _webanalytics.
 ||confirmational.com^$third-party
 ||atcdn.co.uk/frostbite/
 ?event=performance&
+||cidrap.umn.edu/core/modules/statistics
 ||pendo.scopus.com/data/ptm.gif
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 /nx_stat.
