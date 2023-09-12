@@ -1,4 +1,4 @@
-# Update time: 2023-09-11 20:24:45
+# Update time: 2023-09-12 08:54:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1491,6 +1491,7 @@ _logHuman=
 ||inferclick.com^$third-party
 ||mehrwertdienstekompetenz.de/cp/$third-party
 ://tracking.*/event
+||0123movie.net/cdn-cgi/trace
 ||sciencechannel.com/events/
 ||visualrevenue.com^$domain=prosieben.at|prosieben.ch|prosieben.de
 ||statistik.motorpresse.de^$third-party
@@ -3251,7 +3252,6 @@ _Clicktale.
 /analytics.*/track
 ||ml.com/enterprisetagging/
 /event_logger
-||intuitcdn.net/analytics/
 /trace/mail/*$image
 ||raygun.io/events?
 ||webpushs.com^$third-party
@@ -4114,6 +4114,7 @@ _stat_counter.php?
 /rtac/gif?
 ||flux.com/geo.html?
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
+||noblocktape.com/stat/
 -tracking-pixel.
 ||rocks.io^$third-party
 ||search.brave.com/serp/v1/static/serp-js/telemetry/
@@ -10019,6 +10020,7 @@ _hitcount1.
 /gweb/analytics/*
 ||smarthint.co/track/
 ||dsparking.com^$third-party
+||playvideohd.com/cdn-cgi/trace
 /piwik2.
 ||appmetrica.yandex.com^$third-party
 ||static-od.com/setup/$third-party
