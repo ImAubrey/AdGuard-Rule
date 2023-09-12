@@ -1,4 +1,4 @@
-# Update time: 2023-09-12 08:54:26
+# Update time: 2023-09-12 20:24:23
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10625,6 +10625,7 @@ _event_tracking?
 @@||codicefl.shinystat.com/cgi-bin/getserver.cgi?$script,domain=3bmeteo.com|quotidiano.net
 ||c-date.it/tracking?
 ||getbackstory.com^$third-party
+||prod.benchmarkemail.com/tracker.bundle.js
 /wp-counter.php
 /api/pageview?
 ||ip-label.net^$third-party
