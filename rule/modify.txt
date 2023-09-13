@@ -1,4 +1,4 @@
-# Update time: 2023-09-12 20:24:23
+# Update time: 2023-09-13 08:56:41
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3580,7 +3580,6 @@ _impression_analytics/
 .ne16.com/do/
 ||193.197.158.209^$third-party,domain=~statistik.lubw.baden-wuerttemberg.de.ip
 /wh_tracking.
--ga-tracking/
 /pcookie_get_key
 /sophus/logging.js
 ||terabox.fun/api/analytics
@@ -3663,6 +3662,7 @@ omni.soundestlink.com$image
 ||facebook.com/tr?$domain=tvspielfilm.de
 @@||analytics.itunes.apple.com^$~third-party
 /tracker/event?
+/ecg-js-ga-tracking/*
 ||figpii.com^$third-party
 /hitslink.
 /referrer.js
