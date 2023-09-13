@@ -1,4 +1,4 @@
-# Update time: 2023-09-13 08:56:41
+# Update time: 2023-09-13 20:24:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4460,6 +4460,7 @@ _stat_counter.php?
 ||cache.am^$third-party
 ||flipkart.com/api/3/data/collector/
 ||pubplus.com^$third-party
+||anonymised.io^$third-party
 ||strossle.it^$third-party
 ||ew3.io^$third-party
 ||marketshot.com^$third-party
@@ -6555,6 +6556,7 @@ _beacon?
 /cxf-tracking@
 ||7x4.fr^$third-party
 ||export.newscube.de^$~subdocument
+||ingest-lr.com^$third-party
 ||presspage.com/statistics/
 /trigger-visit-event
 ||mutinyhq.io^$third-party
@@ -9016,7 +9018,6 @@ _analytics.php?
 /trck/eclick/*
 ||adx.com.ru^$third-party
 ||extendoffice.com/analytics.js
-@@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
 ||logicsfort.com^$third-party
 /csi?v=*&action=
 ||retargettracker.com^$third-party
@@ -9298,6 +9299,7 @@ _analytics.php?
 /log/impression/*
 ||push.delivery^$third-party
 /kameleoon/script.
+@@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 ||ourstats.de^$third-party
 /media-analytics.min.
 /googleTracker.
@@ -9891,6 +9893,7 @@ _hitcount1.
 /salog.js
 /tracker/app.
 ||pyroactive.de/counter/
+||dtksoft.com/ajax/log^
 ||altruja.de/js/micro/integration-ga.js
 ||distribeo.com^$third-party
 ||auction.co.kr/ad/log.js
