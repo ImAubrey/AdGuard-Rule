@@ -1,4 +1,4 @@
-# Update time: 2023-09-13 20:24:44
+# Update time: 2023-09-14 08:55:24
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1153,6 +1153,7 @@ _vercel/insights/
 @@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
 ||accessintel.com^$third-party
 /stats.*/hits/*
+@@||service-public.fr^*/assets/js/eulerian/eulerian.js$~third-party
 /videojs-tracking.
 ||dropbox.com/jse
 /revtracking/*
@@ -4617,7 +4618,6 @@ _stat_counter.php?
 /newrelic-gpt.
 .klclick.com/$image
 ||synergy-e.com^$third-party
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 ||srchoffer.com/tracking/
 /gen204?
 ||engageya.com^$third-party
@@ -9559,6 +9559,7 @@ _hitcount1.
 ||trustiseverything.de^$third-party
 ||find-ip-address.org^$third-party
 ||adcrowd.com^$third-party
+||starzplay.com/resources/js/analytics.js
 /track/site/*
 /nm_ga_bottom.
 /trkga.
@@ -11671,6 +11672,7 @@ _c.gif?c=
 ||trace-2000.com^$third-party
 /AccessCounter/*
 /mmcore.js
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|ssrn.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com
 ||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 /utrack.js?
 /rollbar-snippet.
