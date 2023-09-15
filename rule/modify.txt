@@ -1,4 +1,4 @@
-# Update time: 2023-09-15 08:56:33
+# Update time: 2023-09-15 20:24:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -949,7 +949,6 @@ _vercel/insights/
 /counter/collect?
 /affiliate/track?
 ||webest.info^$third-party
-/famobi_tracking_
 /ping?token=
 ||toast.com/sendid?
 @@||pladform.ru/player$subdocument
@@ -1142,7 +1141,6 @@ _vercel/insights/
 ||eacla.com^$third-party
 ||getambassador.com^$third-party
 -monero-miner/
-/exittraffic.
 -monero-miner-
 ||hqq.tv/cdn-cgi/trace
 /log/counter?
@@ -2553,7 +2551,6 @@ _metric_collect.
 ||aax-us-iad.amazon.com^$script
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|capital.fr|voici.fr
 /getlog.gif?
-/faciliti-tag.
 ||zirve100.com^$third-party
 ||mymarketing.co.il/Include/tracker.js
 ||conductrics.com^$third-party
@@ -2831,7 +2828,6 @@ _metric_collect.
 ||tetoolbox.com^$third-party
 ||carbon38.com/A44kxi5a/init.js
 ||goodfon.com/stat/
-/exelator.
 /ezytrack.
 ||jal.co.jp/common_rn/img/rtam.gif
 ||dataunion.com.br^$third-party
@@ -3022,6 +3018,7 @@ _Clicktale.
 ||ru.net^$third-party
 ||hunt-leads.com^$third-party
 ||msecure108.com^$third-party
+@@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 /log?track_
 ||prtracker.com^$third-party
 /collect/kf?
@@ -3406,7 +3403,6 @@ _Clicktale.
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
 ||hashing.win^$third-party
 ||researchgate.net/track/
-/experiment/impressions.js
 /site_stats.
 ||ebaystatic.com^*/pulsar.js
 /jquery.trackstar.
@@ -5642,7 +5638,6 @@ _view_pixel&$image
 ||thestat.net^$third-party
 ||cdnopw.com^$third-party
 /?sentry_key=
-/fb-ga-track-
 ||interakt.ru^$third-party
 /analytics/event
 ||prospecteye.com^$third-party
@@ -7251,6 +7246,7 @@ _hits_stat.
 ||easyhash.io^$third-party
 .tripadvisor.com/MptUrl?$image
 ||abema-tv.com/v1/stats/
+/fp2.min.js
 ||cya2.net^$third-party
 /api/bfb_write_log
 ||siteimproveanalytics.com^$third-party
@@ -7477,6 +7473,7 @@ _bnTracker.min.js?
 ||idio.co^$third-party
 /keywee.js
 ?action=saveViewStat&
+/faciliti-tag.min.js
 ||easyhitcounters.com^$third-party
 ||cloudfront.net/js/grin-sdk.js
 /awstats.js
@@ -8910,7 +8907,6 @@ $ping,third-party
 ||d2nq0f8d9ofdwv.cloudfront.net/track.js
 ||pushsquare.com/blank.gif
 /cgi/trk.js
-/bicomscore_
 /adobe/VisitorAPI_$script
 ||pixelinteractivemedia.com^$third-party
 ||carambo.la/logging/
@@ -8972,7 +8968,6 @@ _rpc/log?
 /revenuescience_
 ||b1img.com^$third-party
 ||htm1.ch^$third-party
-/bicomscore.
 ||lancome-usa.com/IZ/PXq99AlOxk/init.js
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 _analytics.php?
@@ -9364,6 +9359,7 @@ _ntpagetag.
 ||hyfntrak.com^$third-party
 /rtoaster.js
 ||ioam.de/tx.io?$domain=planetsnow.de
+||pagecloud.com/event
 ||591.com.tw/stats/
 /smartpixel-1.js
 ||fullstory.com^$third-party
@@ -9637,7 +9633,6 @@ _hitcount1.
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 /resource?zones=
 /skype-analytics.
-/fb_pixel-
 .inxserver.com/transparent.gif
 ||citygridmedia.com/tracker/
 ||trakken.de^$third-party
@@ -10835,7 +10830,6 @@ img.promio-connect.com$image
 ||getpocket.com/web-client-api/braze
 /divolte.js
 ||arcadeweb.com^$third-party
-/fb-app-tracker.
 ||waaw.ac/cdn-cgi/trace
 ||suumo.jp^*/tag/
 ||ibpxl.com^$third-party
