@@ -1,4 +1,4 @@
-# Update time: 2023-09-15 20:24:04
+# Update time: 2023-09-16 08:54:35
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11468,7 +11468,6 @@ _ad_impression.
 ||sogou.com/cl.gif?
 ||splunkcloud.com/services/collector/
 ||volantix.com^$third-party
-@@||ikea.com^*/assets/analyticsEvent.component-$script,~third-party
 ||pagefly.io/pagefly/core/analytics.js
 ||arkoselabs.com/metrics/
 ||1worldsync.com/log?
@@ -11572,6 +11571,7 @@ _ad_impression.
 /fpcookie?
 /socialtracking.min.js
 /visualsciences_
+@@||ikea.com^*/analyticsEvent.$script,~third-party
 /eo?_t=$image
 ||dropbox.com/alternate_
 ||recruitics.com^$third-party
