@@ -1,4 +1,4 @@
-# Update time: 2023-09-16 08:54:35
+# Update time: 2023-09-16 20:21:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1003,6 +1003,7 @@ _vercel/insights/
 ||callrail.com^$third-party
 -ga-tracker.
 ||pi-stats.com^$third-party
+||kudoslabs.gg/track/
 ||vvvvid.it^$ping
 /CreateAnalytics.js
 ||sas15k01.com^$third-party
