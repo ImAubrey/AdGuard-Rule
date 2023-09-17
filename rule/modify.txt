@@ -1,4 +1,4 @@
-# Update time: 2023-09-16 20:21:19
+# Update time: 2023-09-17 08:58:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1047,6 +1047,7 @@ _vercel/insights/
 ||clicktime.symantec.com^$script,third-party
 /eventing.coursera.org/img/*
 /webcounter/*
+/AccessCounter/index.cgi?
 ||vercel-analytics.com^$third-party
 ||google-analytics.com/collect$domain=stern.de
 ||distiltag.com^$third-party
@@ -1134,7 +1135,6 @@ _vercel/insights/
 ||bfoleyinteractive.com^$third-party
 ||affilimate.io^$third-party
 ||seomoz.org^$third-party
-.tv/log?event
 @@||ezodn.com/cmp/gvl.json$xmlhttprequest
 /pubimppixel/*
 ||web-stat.com^$third-party
@@ -1340,7 +1340,6 @@ _vercel/insights/
 ||bizo.com^$third-party
 ||populr.me^$third-party
 ||vmweb.net/identity.min.js
-/adwords-tracker.
 /scripts/clickjs.php
 ||dawin.tv^$third-party
 /chicken.gif?*=
@@ -1886,7 +1885,6 @@ _metric_collect.
 ||smetrics.teambeachbody.com^.com^
 ||pushly.com/pushly-event-tracker
 ||goatcounter.com^$third-party
-@@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 ||bidderrtb.com^$third-party
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js$~third-party
 /php-stats.recjs.php?
@@ -2441,7 +2439,6 @@ _metric_collect.
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 ||newbie.dk^*/counter.php?
 ||goodreads.com/report_metric
-/adx_remote.
 ||azureedge.net/javascripts/Tracking.
 ||californiatimes.com/privacy/$image
 ||inbox.lv^*/ga.js
@@ -2557,7 +2554,6 @@ _metric_collect.
 ||conductrics.com^$third-party
 /mpulse.min.js
 ||myvisitors.se^$third-party
-@@/friendbuy.min.js$script,domain=butcherbox.com
 /a.gif?
 ||a-calc.com^$third-party
 ||spotpass.com/api/log
@@ -2896,7 +2892,6 @@ _adblock_stat.
 ||mediaplex.com^*?mpt=
 /piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /track-opening/*
-@@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
 /track?referer=
 /clicktracking/*
 /Engagement/TrackEventAsync
@@ -3285,7 +3280,6 @@ _Clicktale.
 ||waaw.to/cdn-cgi/trace
 ||build.com/2Ztkihy4/init.js
 @@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|wsj.com
-.siteclarity.
 /event/impression/*
 ||klaviyo.com/onsite/js/sentry.
 ||geistm.com^$third-party
@@ -4666,6 +4660,7 @@ _stat_counter.php?
 ||protectcrev.com^$third-party
 ://www.vinted.*/relay/events
 /dot.asp?
+||passeidireto.com/pd-tracking-lib/
 /skstats-
 ||projectsunblock.com^$third-party
 ||gofundme.com/track
@@ -4979,7 +4974,6 @@ _stat_counter.php?
 /CofinaHits.
 ||howsmyssl.com^$third-party
 ||tarteaucitron.io/log/
-.sitecatalyst.js
 ||adregain.ru^$third-party
 ||aktion.esprit-club.com^$image
 /reporting/metrics
@@ -5056,7 +5050,6 @@ _stat_counter.php?
 /ajax/counter?ctr=
 ||tagstaticx.com^$third-party
 ||hot-count.com^$third-party
-/ad/statistic
 /__utm.gif$domain=woxikon.de
 ||neulion.vo.llnwd.net^*/track.js
 ||dforum.net/counter/
@@ -5151,7 +5144,6 @@ _stat_counter.php?
 ||imgfarm.com/images/trk/myexcitetr.gif?
 /track?event_id=
 /global_tracking.js
-@@||hirosystems.vscode-unpkg.net/*/clarity-lsp/$domain=github.dev|vscode.dev
 /js/dart.js
 ||sharpspring.com^$third-party
 ||yachtingnetwork.it/stat/
@@ -5991,7 +5983,6 @@ _trackWebtrekkEvents.
 ||geojs.io^$third-party
 /logging-code.
 ||edkt.io^*/edgekit.min.js
-.web-vitals-reporting.
 .warehousefashion.com/warehouse/e/$image
 /statblog/pws.php?
 ||princetonreview.com/logging/
@@ -7759,7 +7750,6 @@ _analytics-tracking?
 ||foodpanda.pk/lJuB4eTB/init.js
 ||pia.jp/images/pt.gif$image
 ||marketshot.fr^$third-party
-@@||cloudfront.net/vis_opt.js$script,domain=gre.magoosh.com
 ||touchclarity.com^$third-party
 /analytics/tagx-
 /printpixel.js
@@ -8736,6 +8726,7 @@ _ga-events_
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 /v1/log_event
 ||vimeo.com/ablincoln/
+/analytics.sitecatalyst.js
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 /wtbase.js
 ||tinyurl.com/pixel.gif/
@@ -10511,7 +10502,6 @@ _analytics/lib/
 ||formulawire.com^$third-party
 ||amcdn.vn^$third-party
 /discourse-fingerprint_
-.sitetracking.
 /wpengine-analytics/*
 ||google-analytics.com/analytics.js$domain=boote-forum.de
 ||docomo-analytics.com^$third-party
@@ -10878,7 +10868,6 @@ img.promio-connect.com$image
 ||cts.businesswire.com^$third-party
 ||factors.ai/sdk/event/
 ||sawpf.com/1.0.js$third-party
-@@||udottraffic.utah.gov/javascripts/Piwik.js
 ||concert.io/lookup/
 /roi_tracker.
 ||pushbird.com^$third-party
@@ -11666,7 +11655,6 @@ _c.gif?c=
 ||a013.com^$third-party
 /tracking_pixel
 ||trace-2000.com^$third-party
-/AccessCounter/*
 /mmcore.js
 @@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|ssrn.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com
 ||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
@@ -12024,7 +12012,6 @@ _WebVitalsReporter_
 /eloqua.
 ||zope.net/resources/global/ghs_wa.js
 ||netaffiliation.com^$script,third-party
-@@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 ||recapture.io^$third-party
 ||iivt.com^$third-party
 ||gooo.al^$third-party
