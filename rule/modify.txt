@@ -1,4 +1,4 @@
-# Update time: 2023-09-17 08:58:56
+# Update time: 2023-09-17 20:21:38
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1126,6 +1126,7 @@ _vercel/insights/
 ||amazonaws.com/new.cetrk.com/
 ||seitwert.de^$third-party
 ||vm5apis.com^$third-party
+/openpixel.gif?
 ||24log.fr^$third-party
 ||wiztube.xyz/cdn-cgi/trace
 ||wgsas.com^$third-party
@@ -2671,6 +2672,7 @@ _metric_collect.
 ||terra.com.mx/js/metricspar_
 /base/es5/bundle.js
 ||freecounter.it^$third-party
+||mrf.io/statics/marfeel-sdk.js
 ||widgetbox.com/syndication/track/
 @@||user.userguiding.com/sdk/identify$xmlhttprequest,domain=xaris.ai
 ||tget.me^$third-party
@@ -3963,6 +3965,7 @@ omni.soundestlink.com$image
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 /event?event_id=
 ||kissmetrics.io^$third-party
+/cf-analytics/*
 -universal-analytics/
 ||eluxer.net^$third-party
 /gcount.pl?
@@ -9208,6 +9211,7 @@ _analytics.php?
 ||aftonbladet.se/cnp-assets/glimr-sdk.js
 ||d1z2jf7jlzjs58.cloudfront.net^$rewrite=abp-resource:blank-js,domain=voici.fr
 ||webtrends.com^$third-party
+/openpixel.js
 ||geo-targetly.com^$third-party
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 ||moengage.com^$third-party
