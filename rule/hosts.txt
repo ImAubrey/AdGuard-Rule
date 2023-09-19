@@ -1,4 +1,4 @@
-# Update time: 2023-09-19 08:56:35
+# Update time: 2023-09-19 20:25:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -14162,6 +14162,7 @@
 0.0.0.0 metrics.al.com
 0.0.0.0 napimigrans.info
 0.0.0.0 media2.popmarker.com
+0.0.0.0 winner-prize.com
 0.0.0.0 www.schwule-boys-nackt.cxa.de
 0.0.0.0 nomorewarnow.com
 0.0.0.0 messagent.duvalguillaume.com
@@ -16057,6 +16058,7 @@
 0.0.0.0 bontril.ourtablets.com
 0.0.0.0 i4.vaishnaviinterior.com
 0.0.0.0 adnexus.net
+0.0.0.0 thickporter.sa.com
 0.0.0.0 apps-blue.com
 0.0.0.0 ejs.hitbox.com
 0.0.0.0 frenchbweb.fr
@@ -19122,6 +19124,7 @@
 0.0.0.0 beautifulhosting.com.au
 0.0.0.0 www.erretisnc.it
 0.0.0.0 52uo5k3t73ypjije.lwbi59.top
+0.0.0.0 project-romania.com
 0.0.0.0 bundooraaccounting.com
 0.0.0.0 arhlit.ru
 0.0.0.0 mintthaicafe.com
