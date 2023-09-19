@@ -1,4 +1,4 @@
-# Update time: 2023-09-18 20:25:09
+# Update time: 2023-09-19 08:56:35
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -13682,6 +13682,7 @@
 0.0.0.0 static.scanscout.com
 0.0.0.0 www.adserver.com.my
 0.0.0.0 2perc.info
+0.0.0.0 mechtech.za.com
 0.0.0.0 a.webwise.org
 0.0.0.0 emagicone.fr
 0.0.0.0 www.tracklead.net
