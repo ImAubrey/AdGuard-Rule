@@ -1,4 +1,4 @@
-# Update time: 2023-09-19 20:25:13
+# Update time: 2023-09-20 08:56:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1470,6 +1470,7 @@ _logHuman=
 ||thesmilingpencils.com^$third-party
 ||trackfeed.com^$third-party
 ||azureedge.net/track
+/tracking/cookies?
 ||hotels.com/api/bucketing/v1/evaluateExperimentsAndLog
 /visit/log.js?
 ||safe-click.net^$third-party
@@ -4343,6 +4344,7 @@ _stat_counter.php?
 ||otto.de^$ping
 /white_pixel.gif?
 /adb1.gif?
+/ms-widgets/tracking-cookies/*
 /cookie_ga.js
 .members.babbel.com/mo/
 ||yieldify.com^$third-party
@@ -7478,6 +7480,7 @@ _bnTracker.min.js?
 ||gammachug.com^$third-party
 ||tinypass.com^*/track?
 ||uriports.com/reports/$third-party
+||img.syosetu.org/js/c_
 /valueclickbrands/*
 /parsely-events.
 /events-tracker/*
@@ -10546,6 +10549,7 @@ _newrelic_min.
 ||delta.com/datacollect
 /vs-track.js
 ||alpixtrack.com^$third-party
+&EventType=DataDealImpression&
 @@||static.amazon.jobs/assets/analytics-$script,domain=amazon.jobs
 ||rejestr.org^$third-party
 /facebookpixel/*
