@@ -1,4 +1,4 @@
-# Update time: 2023-09-21 08:55:43
+# Update time: 2023-09-21 20:25:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -20716,6 +20716,7 @@
 0.0.0.0 52uo5k3t73ypjije.whosewine.lol
 0.0.0.0 expert-as.ru
 0.0.0.0 networkthai.org
+0.0.0.0 temai1.com
 0.0.0.0 bredabeckerle.com
 0.0.0.0 gallato.com
 0.0.0.0 chambresdhotesbruges.fr
