@@ -1,4 +1,4 @@
-# Update time: 2023-09-21 20:25:22
+# Update time: 2023-09-22 08:56:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5789,6 +5789,7 @@ _trackWebtrekkEvents.
 ||lookawoman.com/t/
 /video/tracking.js
 ||pushpushgo.com^$third-party
+/api/event-rfkj/*
 ||pc-agency24.de^$third-party
 ||livecounter.dk^$third-party
 ||acint.net^$third-party
@@ -10116,6 +10117,7 @@ _imp?Log=
 ||lookery.com^$third-party
 ||wickedreports.com^$third-party
 /pinger.cgi?
+||groceries.asda.com/px/PX1UGLZTko/init.js
 /api/drpStats
 ||topmalaysia.com^$third-party
 ||mystat-in.net^$third-party
