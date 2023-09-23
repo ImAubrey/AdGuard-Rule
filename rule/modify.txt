@@ -1,4 +1,4 @@
-# Update time: 2023-09-23 08:54:35
+# Update time: 2023-09-23 20:21:39
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5383,6 +5383,7 @@ _webanalytics.
 /ww-performance-
 ||th.bing.com/th/*&riu=$image,third-party
 /sdc.js
+||d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js
 @@||townwork.net/js/AppMeasurement.js$~third-party
 ||gowatchit.com/analytics.js
 /visitorcountry.svc/*
@@ -5593,6 +5594,7 @@ _view_pixel&$image
 ||cdnopw.com^$third-party
 /?sentry_key=
 ||interakt.ru^$third-party
+||barrons.com/cookies/pixel.gif
 /analytics/event
 ||prospecteye.com^$third-party
 /yna_stat.
@@ -5930,6 +5932,7 @@ _trackWebtrekkEvents.
 ||cargurus.com/tr/
 /collect/?dp=
 ||interhits.de^$third-party
+||sfstatic.net/build/js/basicMetricsTracking.
 ||vtracker.net^$third-party
 ||ibm.com/analytics/build/bluemix-analytics.min.js
 /pixel-render/*
@@ -6242,6 +6245,7 @@ _beacon?
 ||myblueday.com^*/count.asp?
 @@||new.abb.com/ruxitagentjs_$~third-party
 ||modanisa.com/al/j/analytics.js
+||stayz.com.au/cl/data/omgpixel.json
 ||openlog.in^$third-party
 ||indeed.com/cmp/_rpc/flog
 /analytics-ping.
@@ -7508,6 +7512,7 @@ _analytics-tracking?
 ||felix.data.tm-awx.com/batch
 ||counteronline.de^$third-party
 ||gvisit.com^$third-party
+||clevertap-prod.com^$third-party
 .everestengagement.com/$image
 @@||cdnb.4strokemedia.com/carousel/v4/comscore-JS-$script
 ||getelevar.com^$third-party
@@ -8892,6 +8897,7 @@ _rpc/log?
 ||lancome-usa.com/IZ/PXq99AlOxk/init.js
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 _analytics.php?
+/facebookproductad/views/js/pixel.
 ||mail.proton.me/api/data/v1/stats
 /solarcode.js
 /cedexisus.
@@ -9521,7 +9527,6 @@ _hitcount1.
 /event_logging/*
 /web_answertip.
 ||infostroy.nnov.ru^$third-party
-/fb-pixel-scripts?
 ||automate-prod.s3.amazonaws.com^$~script
 @@||maxmind.com^*/geoip2.js$domain=bandai-hobby.net|boostedboards.com|donorschoose.org|driftinnovation.com|fallout4.com|ibanez.com|instamed.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
 /js/indextools/*
@@ -11827,6 +11832,7 @@ _WebVitalsReporter_
 /travel-pixel-
 /s_code_global_context.js
 ||bachecaannunci.it/statins3.php?
+/fb-pixel-$script
 ||whoaremyfriends.com^$third-party
 ||tracking*.euroads.fi^$third-party
 ||avencio.de^$third-party
@@ -12181,6 +12187,7 @@ _WebVitalsReporter_
 ||optimix.asia^$third-party
 ||statcounterfree.com^$third-party
 ||bmoharris.com/www/assets/analytics/loader.js
+/fairfax_tracking.js
 ||wbtrk.net^$third-party
 ||webvisor.com^$third-party
 ||fmnetwork.nl/tracking/
