@@ -1,4 +1,4 @@
-# Update time: 2023-09-24 08:59:24
+# Update time: 2023-09-24 20:21:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2096,7 +2096,6 @@ _metric_collect.
 ||conductrics.net^$third-party
 ||googleapis.com/gadasource/gada.js
 ||babator.com^$domain=focus.de
-@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 ||imgur.com/albumview.gif?
 ||webcounter.ws^$third-party
 /status/impression?
@@ -2170,6 +2169,7 @@ _metric_collect.
 ||intelligencefocus.com^$third-party
 ||swarm.video/track/
 ||js.tag24.de/main.js
+@@||ci-mpsnare.iovation.com/snare.js$domain=equifax.ca
 ||mercedes-benz.com/datadog-
 /p1x1.gif
 ||eanalyzer.de^$third-party
@@ -5935,6 +5935,7 @@ _trackWebtrekkEvents.
 ||sfstatic.net/build/js/basicMetricsTracking.
 ||vtracker.net^$third-party
 ||ibm.com/analytics/build/bluemix-analytics.min.js
+@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 /pixel-render/*
 ||akamaihd.net/p1lakjen.gif
 ||vendri.io^$third-party
