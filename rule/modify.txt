@@ -1,4 +1,4 @@
-# Update time: 2023-09-25 08:56:56
+# Update time: 2023-09-25 20:25:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4795,6 +4795,7 @@ _stat_counter.php?
 ||stathat.com^$third-party
 .sparkpostmail.com/q/$image
 /logging/ClientEvent
+||mundodesconocido.com/tracker/
 ||nuggad.net^$domain=prosieben.at|prosieben.ch|prosieben.de
 /fp/clear1.png
 ||non.li^$third-party
@@ -5879,6 +5880,7 @@ _trackWebtrekkEvents.
 ||shopeemobile.com/*/tr/
 ||walbusch.de^$ping
 @@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
+@@||smog.moja-ostroleka.pl/mapa/sensorsdata.json$~third-party
 ||zazzle.de/svc/px
 ||meta.ua/c.asp?
 ||baikalize.com^$third-party
@@ -6359,6 +6361,7 @@ _beacon?
 /readtracker-
 ||viously.com^*/mt?
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
+||smartlink-api.amuse.io/api/analytics/
 ||bnamic.com/referrer/
 ||sedotracker.de^$third-party
 ||organicfruitapps.com/analytics/
@@ -11703,6 +11706,7 @@ _WebVitalsReporter_
 ||sinajs.cn/open/api/js/wb.js
 ||devatics.com^$third-party
 ||40svintageporn.com/hit
+||smutty.com/ajax/trcking/
 /busting/facebook-tracking/*
 ||epromote.co.za/track/
 /ga-tracking.js
