@@ -1,4 +1,4 @@
-# Update time: 2023-09-26 08:56:43
+# Update time: 2023-09-26 20:25:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9215,6 +9215,7 @@ _analytics.php?
 /exmo.email/open.html
 /log/impression/*
 ||push.delivery^$third-party
+/elastic-apm-rum.umd.min.js
 /kameleoon/script.
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 ||ourstats.de^$third-party
