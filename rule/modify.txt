@@ -1,4 +1,4 @@
-# Update time: 2023-09-26 20:25:11
+# Update time: 2023-09-27 08:56:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12431,6 +12431,7 @@ _WebVitalsReporter_
 /^appsflyer\./
 /^guanggao\./
 /^adsage\./
+||*-ad-sign.byteimg.com^
 /^adsserving\./
 /^adwords\./
 /^supersonicads\./
@@ -12438,6 +12439,7 @@ _WebVitalsReporter_
 /^socdm\./
 /^omniture\./
 /^zjtoolbar\./
+||*-ad.a.yximgs.com^
 /^adsmogo\./
 /^omgmta\./
 /^wlmonitor\./
