@@ -1,4 +1,4 @@
-# Update time: 2023-09-27 08:56:49
+# Update time: 2023-09-27 20:24:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2666,6 +2666,7 @@ _metric_collect.
 ||tget.me^$third-party
 ||tercept.com^$third-party
 ||containers.appdomain.cloud/api/send-log$domain=ibm.com
+||clickdimensions.com/ts.js
 ||thedailybeast.com/static/js/thirdparty.
 @@||vidible.tv^*/ComScore.StreamSense.js
 ||ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js
@@ -8181,6 +8182,7 @@ _ga-events_
 @@||krok8.com/wp-content/plugins/pageviews/pageviews.min.js$script,~third-party
 /onl/track.php?
 ||24log.es^$third-party
+||rbc.ua/enghits/
 /pf?pid=
 ||linktr.ee/events
 ||averoconnector.com^$third-party
@@ -11579,7 +11581,6 @@ _c.gif?c=
 ||line.me/tag.gif$image
 .doubleclick.net/$image
 @@||caf.fr^*/smarttag.js$script,~third-party
-||clickdimensions.com^$third-party
 ||mofa.go.jp^*/count.cgi?
 /email-pixel?
 ||redretarget.com^$third-party
