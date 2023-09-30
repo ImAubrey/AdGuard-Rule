@@ -1,4 +1,4 @@
-# Update time: 2023-09-29 20:24:23
+# Update time: 2023-09-30 08:55:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1049,6 +1049,7 @@ _vercel/insights/
 ||clicktime.symantec.com^$script,third-party
 /eventing.coursera.org/img/*
 /webcounter/*
+||mobadme.jp^$third-party
 /AccessCounter/index.cgi?
 ||vercel-analytics.com^$third-party
 ||google-analytics.com/collect$domain=stern.de
@@ -2076,6 +2077,7 @@ _metric_collect.
 ||linkedin.com/li/track$xmlhttprequest
 ||buzzdeck.com^$third-party
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
+@@||privatbank.ua/content/*/fp2.min.js$~third-party
 ||cvtr.io^$third-party
 ||onefeed.co.uk^$third-party
 ||newsmax.com/js/analytics.js
@@ -3047,6 +3049,7 @@ _Clicktale.
 ||app-bnkr.b-cdn.net/js/lv.js
 /eventproxy/track
 ||searchiq.co/api/tr?
+||consentmanager.net/delivery/info/$third-party
 ||godaddy.com/js/gdwebbeacon.js
 ||facil-iti.com^$third-party
 ||amnet.tw^$third-party
@@ -4862,6 +4865,7 @@ _stat_counter.php?
 ||kitcode.net^$third-party
 ||paginegialle.it/cgi-bin/jimpres.cgi?
 ||awswaf.com^*/telemetry
+||teltarif.de/scripts/fb.js
 /ncj-pixel.js
 ||zoomino.com^$third-party
 /stdlog?
@@ -6583,6 +6587,7 @@ _beacon?
 /analyticsScript.
 /trackpix.
 ||memecounter.com^$third-party
+||kemono.party/api/event
 ||cdnmaster.cn^$third-party
 ||walmartimages.com/dfw/4ff9c6c9-d9a0/$domain=walmart.com
 ||adform.net^$third-party
@@ -6643,6 +6648,7 @@ _beacon?
 ||trkjmp.com^$third-party
 /track_views.
 ||pgs.io^$third-party,domain=~publicgood.com
+||tapeblocker.com/stat/
 ||connecteam.com/bi/api/ReportHit/
 ||deepl.com/web/statistics
 /ztracker.js
@@ -10644,6 +10650,7 @@ _event_tracking-
 ||everestjs.net^$third-party
 ||contentexchange.me/static/tracker.js
 /beacon.cgi?
+||terabox.com/api/analytics?
 ||tubemogul.com^$third-party
 ||bnqt.com^$third-party
 ||norton.com/service/norton/head?
@@ -10918,6 +10925,7 @@ img.promio-connect.com$image
 ||audacy.com/data-events/
 ||widerplanet.com^$third-party
 /analytics-tag.
+||burstcloud.co/jwe?
 /pg_pixel?
 ||justanswer.com/jatag/
 ||gc.zgo.at^$third-party
@@ -12157,6 +12165,7 @@ _WebVitalsReporter_
 ||shinystat.it^$third-party
 ||crowdscience.com^$third-party
 ||webstat.fr^$third-party
+||teltarif.de/scripts/ttt.js
 /traxis-logger.
 /cnt.aspx?
 /pubtag.js?
