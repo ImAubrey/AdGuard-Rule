@@ -1,4 +1,4 @@
-# Update time: 2023-10-03 20:25:33
+# Update time: 2023-10-04 08:57:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1363,6 +1363,7 @@ _vercel/insights/
 _gpt_bootstrap_
 /sitecatalist.js
 ||4stats.de^$third-party
+||m.diyibanzhu.buzz/17mb/script/wap.js
 ||55labs.com^$third-party
 /analytics-ingestion/*
 ||wieistmeineip.de/ip-address/$third-party
@@ -2567,6 +2568,7 @@ _metric_collect.
 ||wetpaint.com^*/track?
 /prodtracker?
 /rivraddon.js
+||m.diyibanzhu.buzz/17mb/script/tj.js
 @@||plugins.matomo.org^$image,~third-party
 ||supportxmr.com^$third-party
 ||leaddyno.com^$third-party
@@ -4125,7 +4127,6 @@ _stat_counter.php?
 /trackit.php?
 ||protecmedia.com^$third-party
 ||adm24.de/hp_counter/$third-party
-||m.diyibanzhu.buzz/17mb/script/
 @@||mbe.modelica.university/_next/static/*/pages/pageview.js$~third-party
 /stat?track=
 ||analyticson.com^$third-party
