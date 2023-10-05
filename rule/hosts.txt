@@ -1,4 +1,4 @@
-# Update time: 2023-10-05 08:56:58
+# Update time: 2023-10-05 20:26:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -23908,7 +23908,6 @@
 0.0.0.0 www.orchidealito.it
 0.0.0.0 p27dokhpz2n7nvgr.14ewqv.top
 0.0.0.0 nuendo.ir
-0.0.0.0 cloudafis.com
 0.0.0.0 52uo5k3t73ypjije.1g0vo2.bid
 0.0.0.0 homevegtz.com
 0.0.0.0 kuangfenxian.com
