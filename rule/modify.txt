@@ -1,4 +1,4 @@
-# Update time: 2023-10-05 20:26:29
+# Update time: 2023-10-06 08:56:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -983,6 +983,7 @@ _vercel/insights/
 /x_track.php?
 /planetstat.php
 ||onesignal.com/api/v1/sync/
+||rts.ch^*/boreas_b01.js
 ||sundaysky.com^$third-party
 ||the-group.net/aether/
 ||mobtop.az^$third-party
@@ -3995,6 +3996,7 @@ omni.soundestlink.com$image
 ||rutarget.ru^$third-party
 ?sponsor_pixel=
 ||threatbook.cn^$third-party
+@@||cleverpush.com/sdk/$script,domain=heise.de
 @@||mapquestapi.com/logger/$domain=hertz.com
 /adds/counter.js
 ||museter.com/track.php?
@@ -5704,7 +5706,6 @@ _trackWebtrekkEvents.
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 /newrelicKpis-
 ||deepc.cc^$third-party
-@@||cleverpush.com/channel/$script,domain=bsdex.de
 ||videa.hu/flvplayer_setcookie.php?
 /bsp-analytics.
 ||aghtag.tech^$third-party
@@ -8451,6 +8452,7 @@ _ga-events_
 ||netscape.com/c.cgi?
 ||vidazoo.com/aggregate?
 ||totaljobs.com/chatbot/webhook/logger
+@@||liveapi.cleverpush.com/websocket$websocket,domain=heise.de
 /cgi-bin/count/*
 /gaCustom.
 /tnsmetrix/*
@@ -10905,6 +10907,7 @@ img.promio-connect.com$image
 /clickctrl.js
 ||didit.com^$third-party
 /RevenueScienceAPI.
+||srf.ch/udp/tracking/
 ||dynamicyield.com/dpx?
 /track_video.php?id=
 /klicks.nebenan.de/q/*$image
@@ -11652,6 +11655,7 @@ _WebVitalsReporter_
 ||gobankingrates.com/fp/
 ||kickstarter.com/Uy3R669N/init.js
 /newslink.reuters.com/img/*$image
+@@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 /retarget_pixel.
 /tilda-stat-
 ||zazzle.com.au/svc/px
