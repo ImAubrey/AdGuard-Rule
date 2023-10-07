@@ -1,4 +1,4 @@
-# Update time: 2023-10-06 20:25:25
+# Update time: 2023-10-07 08:56:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2321,6 +2321,7 @@ _metric_collect.
 /x.gif?
 ||volkswagen-italia.it^*/tracking/
 /angular-tag.
+||wogaa.sg/scripts/wogaa.js
 ||slack.com/clog/track/
 /api/v2/jsonlogger
 ||go.fap18.net/ftt2/js.php
@@ -5404,7 +5405,6 @@ _webanalytics.
 ||tag4arm.com^$third-party
 ||rockincontent.net^$third-party
 /gtm.js
-||wogaa.sg^$third-party
 /hg?hc=&hb=*&vjs=
 ||monstat.com^$third-party
 @@||trackonomics.net/client/$script,domain=popsugar.com
