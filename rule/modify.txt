@@ -1,4 +1,4 @@
-# Update time: 2023-10-09 08:56:57
+# Update time: 2023-10-09 20:26:54
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7119,6 +7119,7 @@ _hits_stat.
 /track_outbound_
 ||eastmoney.com/web/prd/jump_tracker.js
 ||iplogger.org^$third-party,domain=~iplogger.com
+||shrtfly.vip/js/tag.js
 ||flux-cdn.com/client/ukiuki/flux_wikiwiki_AS_TM_AT.min.js
 ||sol-data.com^$third-party
 ||tribl.io^$third-party
@@ -7923,6 +7924,7 @@ _ga-events_
 /analyticstracking?
 ||ipinfo.io^$third-party
 ||raiplay.it/hit-service/
+/stats/collect/*
 ||freshplum.com^$third-party
 ||dealer.com^*/tracker/
 /pixy.gif?
