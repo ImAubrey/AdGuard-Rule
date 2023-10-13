@@ -1,4 +1,4 @@
-# Update time: 2023-10-12 20:25:18
+# Update time: 2023-10-13 08:58:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1112,6 +1112,7 @@ _vercel/insights/
 ||roispy.com^$third-party
 ||klix.ba/pixel/
 /in.getclicky.com/*
+/referral_tracking.js
 ||trafficby.net^$third-party
 ||weborama.design^$third-party
 ||klarnaservices.com/v1/osm-client-script/
@@ -1532,7 +1533,6 @@ _logHuman=
 ||hostcontent.live^$third-party
 @@||tms.oracle.com/main/prod/utag.sync.js$~third-party
 ||ooyala.com/authorized?analytics
-/RemoteTargetingService.
 ||glassdoor.*/geb/events/
 ||twitter.com^*/log.json
 @@||dev.visualwebsiteoptimizer.com/j.php$script,domain=gravitydefyer.com|wakefit.co
@@ -2026,6 +2026,7 @@ _metric_collect.
 ||chartsurfer.de/uscoll.php?
 ||coomer.party/api/event
 ||iheart.com/api/v3/playback/reporting
+/report_visit.php
 /AdobeAnalyticsAndTargetOverwrites.
 ||webtraxs.com^$third-party
 ||plista.com/iframeShowItem.php$domain=planetsnow.de
@@ -2391,7 +2392,6 @@ _metric_collect.
 ||uol.com.br/stats?
 ||lockview.cn^$third-party
 /acounter.php?
-/ResonateAnalytics.
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
 /trk.php?
 ||getclicky.com^$third-party
@@ -2592,7 +2592,6 @@ _metric_collect.
 @@||hvemder.no/js/hitcount.min.js$~third-party
 /counter.js.php
 ||adyapper.com^$third-party
-/referral_tracking.
 .php?ping=
 ||affiliatly.com^$third-party
 ||paypalobjects.com^*/pixel.gif
@@ -2765,7 +2764,6 @@ _metric_collect.
 ||klik.nrc.nl/ping?
 @@||nelonenmedia.fi/logger/logger-ini.json$xmlhttprequest,domain=embed.sanoma-sndp.fi|supla.fi
 ||lentainform.com^$third-party
-/resxclsa_
 /stats/pageview
 ||redgifs.com/v2/metrics/
 ||mdstrm.com/js/lib/streammetrics.js
@@ -2851,7 +2849,6 @@ _metric_collect.
 ||rettica.com^$third-party
 ||stat.4u.pl^$third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
-/refererRecord.
 ||bm324.com^$third-party
 ||hexagon-analytics.com^$third-party
 ||anametrix.net^$third-party
@@ -2912,7 +2909,6 @@ _adblock_stat.
 ||catalove.com/bimp/
 ||terra.com/js/metrics/
 ||lmiutil.com^$third-party
-/resxclsa.
 ||basilic.io^$third-party
 ||fd.nl/pixel/
 ||caanalytics.com^$third-party
@@ -3143,7 +3139,6 @@ _Clicktale.
 ||intergient.com^$third-party
 /fingerprint2.js
 ||jsdelivr.net/gh/sensitiveio/sbtracker@master/
-/redis_stats/*
 ||leadforensics.com^$third-party
 /stats/adonis_
 ||dashboard.io^$third-party
@@ -3871,7 +3866,6 @@ omni.soundestlink.com$image
 /netmining.js
 ||curalate.com^$third-party
 ||roblox.com^*/_/1px.gif
-/RegisterWebPageVisit.
 ||bidsimulator.com^$third-party
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 ||hotjar.com^$domain=quoka.de
@@ -4015,6 +4009,7 @@ omni.soundestlink.com$image
 ||rsvpgenius.com^$third-party
 ||performgroup.com/metrics/
 /stats_js.asp
+/referrer_tracking.js
 /webtag.js
 .com/clk?
 ||blog-webkatalog.de^$third-party
@@ -4034,7 +4029,6 @@ omni.soundestlink.com$image
 ||codata.ru^$third-party
 ||fastly-analytics.com^$third-party
 ||script.idgentertainment.de/gt.js
-/report/impression?
 ||sharethis.com/increment_clicks?
 .starbucks.com/a/
 ||tagcdn.com^$third-party
@@ -4130,7 +4124,6 @@ _stat_counter.php?
 ||instadia.net^$third-party
 /exactag.js
 ||static-fra.de^*/targeting.js
-/registeradevent?
 /trackit.php?
 ||protecmedia.com^$third-party
 ||adm24.de/hp_counter/$third-party
@@ -4272,7 +4265,6 @@ _stat_counter.php?
 ||ltwebstatic.com^*/libs/sensors/
 ||stat.www.fi^$third-party
 ||lecho.be/tag/tag-
-/referral_tracker.
 ||themesltd.com/online-users-counter/$third-party
 @@||digitale-sammlungen.gwlb.de^*/pageview.js$script,domain=digitale-sammlungen.gwlb.de
 ||poki.com/observer/
@@ -4420,6 +4412,7 @@ _stat_counter.php?
 ||mpstat.us^$third-party
 ||speedtracker.de^$third-party
 ||widgetserver.com/metrics/
+/retarget_pixel.php
 ||iherb.com/VtidNbtC/init.js
 ||realtor.com/rdc_user_check/init.js
 ||spreewaldkarte.de/t.gif
@@ -4499,7 +4492,6 @@ _stat_counter.php?
 @@||thron.com/shared/plugins/tracking/current/tracking-library-min.js$domain=dainese.com
 ||kmib.co.kr/ref/
 ||xero.com/api/events/
-/reg_stat.php?
 ||uarating.com^$third-party
 ||prime.rambler.ru^$~script
 ||api.nexx.cloud/*/session/
@@ -4520,7 +4512,6 @@ _stat_counter.php?
 /analytics/comscore.js
 ||avsplow.com^$third-party
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
-/reelevant.js
 ||9gag.com/track/
 /mail.sparksport.co.nz/forms/read/*
 /metric/gauge
@@ -4707,7 +4698,6 @@ _stat_counter.php?
 ||jstracker.com^$third-party
 ||pr-sunshine.de^$third-party
 ||popup.laybuy.com^$subdocument,third-party
-/report_visit.
 ||azureedge.net^*/fnix.js
 /mongoose.fp.js
 /TouchClarity.
@@ -4923,7 +4913,6 @@ _stat_counter.php?
 ||cloud-exploration.com^$third-party
 ||findmatches.com/t/tr/lp/intg.js?
 /__ssobj/core.js
-/reftracker.
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 ||mha.fi/simple.gif?
 ||tinystat.ir^$third-party
@@ -5088,6 +5077,7 @@ _stat_counter.php?
 ||youtubekids.com/ptracking?
 ||e-referrer.com^$third-party
 ||manua.ls/gtag
+/reftracker.js
 ||easydmp.net/get_delivery_data.
 ||capitalone.com/collector/
 ||anormal-tracker.de^$third-party
@@ -5419,7 +5409,6 @@ _webanalytics.
 /event/tracking
 /monitor_analytic.
 /mcookie.aspx
-/request_tracker+
 /sdcTrackingCode.
 /writelog.js
 ||trmads.eu^$third-party
@@ -6004,7 +5993,6 @@ _trackWebtrekkEvents.
 /visual_revenue.
 /numericAnalyticsFramework.
 /access.php?referrer=
-/revenue-science.
 ?event=pageview&
 ||check.deadlinefunnel.com^$third-party
 ||inq.com/tagserver/logging/logline
@@ -6067,6 +6055,7 @@ _trackWebtrekkEvents.
 /autotrack.min.js
 ||xxxcounter.com^$third-party
 ||zarget.com^$third-party
+/referral-tracking.js
 /triggertag.js
 /?log=experiment&
 ||consultant.ru/js/counter.js
@@ -6227,7 +6216,6 @@ _beacon?
 ||sphostserver.com^$third-party
 /TealeafTarget.
 ||cloudflare.com/cdn-cgi/trace$third-party,domain=~isbgpsafeyet.com|~wyndhamdestinations.com
-/register_pageview?
 ||infox.sg^$third-party
 @@||rtoaster.jp^$script,domain=jreastmall.com|lexus.jp|melonbooks.co.jp
 ||research-tool.com^$third-party
@@ -6263,7 +6251,6 @@ _beacon?
 ||openlog.in^$third-party
 ||indeed.com/cmp/_rpc/flog
 /analytics-ping.
-/reporting/analytics.js
 ||scorecardresearch.com^$third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/gaAnalytics.js$~third-party
 /page_counter.
@@ -6282,7 +6269,6 @@ _beacon?
 ||yelp.*/sit_rep
 ||fugetech.com^$third-party
 ||blacktri.com^$third-party
-/refresh_uid?$script
 ||1pel.com^$third-party
 ||ist-track.com^$third-party
 /1px.gif?
@@ -6297,8 +6283,6 @@ _beacon?
 /client-metrics/?target
 ||hadrianpaywall.com/views
 .keap-link009.com/$image
-/redirectexittrack.php?
-/referal-cookie.
 ||hashcoin.co^$third-party
 ||disqus.com/stats.html
 ||adobe.io/web/v1/metrics
@@ -6412,7 +6396,6 @@ _beacon?
 /metrica/sp.js
 .goodwell18.com/track/
 ||nordicresearch.com^$third-party
-/referer.gif?
 /nielsen.min.
 ||mpio.io^$third-party
 ||e.zg-api.com/event$domain=zillow.com
@@ -6554,6 +6537,7 @@ _beacon?
 ||citibank.com.sg/jso/js/fp.js
 ||foursquare.com/v2/private/logactions
 /ntpagetag_
+/retargeting-pixels.php
 ||halldata.com^$third-party
 ||consent.trustarc.com/bannermsg?
 /printtracker.js
@@ -6684,7 +6668,6 @@ _beacon?
 ||youtube-nocookie.com/api/stats/delayplay?
 ||gamedock.io/gamemonkey-web-tracker/
 ||zooplus.io/static/js/tracking-min.js
-/referrer_tracking.
 ||studocu.com/27m703Hm/init.js
 ||collserve.com^$third-party
 ||saletrack.co.uk^$third-party
@@ -6738,7 +6721,6 @@ _beacon?
 ||tunein.com/api/v1/log/
 @@||chartbeat.com/js/chartbeat_brightcove_plugin.js$domain=capital.it|deejay.it|m2o.it
 ||secure.trust-guard.com^$third-party
-/revsci.
 ||e-goi.com^$third-party,domain=~e-goi.com.br|~e-goi.pt
 /track_clicks_
 ||shinobi.jp/track?
@@ -7120,7 +7102,6 @@ _hits_stat.
 /realytics-
 ||doda.jp/DodaCommon/Html/js/RtoasterTrack.js
 ||atatus.com^$third-party
-/reporting.do?
 /track_outbound_
 ||eastmoney.com/web/prd/jump_tracker.js
 ||iplogger.org^$third-party,domain=~iplogger.com
@@ -7466,7 +7447,6 @@ _bnTracker.min.js?
 /analytics_tracker
 ||criteo.com^$third-party
 ||dashboard.nowdialogue.com/api/events/
-/register_stats.php?
 /sitestat.
 /pageviews?token=
 ||rss-loader.com/track/
@@ -7757,7 +7737,6 @@ _analytics-tracking?
 ||ml-attr.com^$third-party
 @@||cdn-net.com/cc.js
 /pointeur.gif?
-/refer-tracking.
 /users/track?
 /dot.gif?
 /ga_no_cookie.
@@ -7956,7 +7935,6 @@ _ga-events_
 ||guarantee-cdn.com^$third-party
 .ntpagetag.
 /videojs-analytics.
-/refstats.asp?
 /evergage.js
 ||netmng.com^$third-party
 /pubstats.$domain=~pubstats.dev
@@ -8117,7 +8095,6 @@ _ga-events_
 ||speedcounter.net^$third-party
 ||ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||mhxk.com^*/main/entry.common.$script
-/restats_
 ||sohu.com/ip/$script
 ||gwmtracking.com^$third-party
 ||placemypixel.com^$third-party
@@ -8252,7 +8229,6 @@ _ga-events_
 ||8020solutions.net^$third-party
 /analyticsjs.
 ||komtrack.com^$third-party
-/render?trackingId=
 /scripts/xiti/*
 ||jdsports.co.kr/collect.php
 ||uniconsent.com^$third-party
@@ -8446,7 +8422,6 @@ _ga-events_
 ||nyxcosmetics.com/IZ/PXLZNv2dn4/init.js
 ||s.pixfs.net/js/pixlogger.min.js
 @@||dev.visualwebsiteoptimizer.com/web/$script,domain=gravitydefyer.com|wakefit.co
-/referrer_invisible.js?
 ||synthasite.net^$third-party
 /analytics/dist/*
 /stats/v2/visit?
@@ -8536,6 +8511,7 @@ _ga-events_
 @@||maxmind.com/geoip/$xmlhttprequest,domain=ibanez.com
 /get_geoip?
 ||zhihu.com/collector/
+/referrer_invisible.js
 ||dmpprof.com^$third-party
 ||wowanalytics.co.uk^$third-party
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
@@ -8775,7 +8751,6 @@ $ping,third-party
 ||customerlobby.com/ctrack-
 /facebook_fbevents.js
 ||stated.io^$third-party
-/revenuescience.
 ||interstateanalytics.com^$third-party
 ||xiaomi.com/js/mstr.js?
 .eviq.org.au/CMSModules/$image
@@ -8911,7 +8886,6 @@ _rpc/log?
 /pixels/track?
 ||mediaplan.ru^$third-party
 ||parametre.online^$third-party
-/revenuescience_
 ||b1img.com^$third-party
 ||htm1.ch^$third-party
 ||lancome-usa.com/IZ/PXq99AlOxk/init.js
@@ -9041,7 +9015,6 @@ _analytics.php?
 ||geoip-db.com^$third-party
 ||adoric-om.com^$third-party
 /springmetrics.
-/ref_analytics.
 ||dialogtech.com^$third-party
 /fingerprint3.min.js
 ||noowho.com^$third-party
@@ -9070,6 +9043,7 @@ _analytics.php?
 ||homedepot.ca/mr/thd-ca-prod.js
 ||zontera.com^$third-party
 ||ppx.com/tracking/
+@@||services.chipotle.com/__imp_apg__/$~third-party
 /VideoTracking.
 ||fruitflan.com^$third-party
 ||politico.com/resource/assets/js.min/video-tracking.
@@ -9111,7 +9085,6 @@ _analytics.php?
 ||nytlog.com^$third-party
 ||canstockphoto.com/server.php?rqst=track
 /countly.js
-/resourcestat.
 ||oo-syringe.com/prod/moat.js
 /link_track.
 ||trakzor.com^$third-party
@@ -9616,7 +9589,6 @@ _hitcount1.
 /xtcore.js
 ||mmpool.org^$third-party
 ||cultofmac.com/djrxqhzkbsgf.js
-/RequestTrackerServlet?
 ||leadsrx.com^$third-party
 /kaiseki/script.php
 @@||toplay.biz/log_event$~third-party,xmlhttprequest
@@ -9933,7 +9905,6 @@ _hitcount1.
 /rook.tracking.
 ||aimtell.com^$third-party
 /compile/AppMeasurement.
-/resmeter.js
 ||consumer.org.nz/session/ping/
 ||duckdns.org^$third-party,websocket
 /meta-analytics/*
@@ -10095,6 +10066,7 @@ _imp?Log=
 ||adtriba.com^$third-party
 ||demandmedia.s3.amazonaws.com^$third-party
 ||userdive.com^$third-party
+/resxclsa.js
 /status-beacon/*
 ||simpleanalytics.com^$third-party,domain=~simpleanalyticscdn.com
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=kleinanzeigen.de
@@ -10561,7 +10533,6 @@ _event_tracking?
 ||indeed.com/rpc/pageload/perf
 ||wheredoyoucomefrom.ovh^$third-party
 ||micodigo.com^$third-party
-/report?event_
 ||bbthat.com^$script,third-party
 ||antiblock.info^$third-party
 ||relaymedia.com/ping?$third-party
@@ -10916,7 +10887,6 @@ img.promio-connect.com$image
 .substackcdn.com/open?$image
 /clickctrl.js
 ||didit.com^$third-party
-/RevenueScienceAPI.
 ||srf.ch/udp/tracking/
 ||dynamicyield.com/dpx?
 /track_video.php?id=
@@ -10977,7 +10947,6 @@ img.promio-connect.com$image
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
 /collectStats;
 ||akamaihd.net^$image,domain=globalnews.ca|nycgo.com|stcatharinesstandard.ca
-/retargeting-pixels.
 ||t-analytics.com^$third-party
 ||careermatch.com/oGckki0e/init.js
 .php?tracking=
@@ -11004,6 +10973,7 @@ _impressions.gif?
 ||meetrics.net^$domain=spiegel.de|stern.de
 /configuration-stat.js
 ||juno.com/start/javascript.do?message=
+/ResonateAnalytics.min.js
 ||getstats.org^$third-party
 ||porngraph.com^$third-party
 ||adthletic.com^$third-party
@@ -11080,7 +11050,6 @@ _impressions.gif?
 ||bigmining.com^$third-party
 ||belstat.com^$third-party
 /eatms.js
-/retargetingScript/*
 ||pimpmypr.de^$third-party
 ||105app.com/report/?
 ||livesegmentservice.com^$third-party
@@ -11666,7 +11635,6 @@ _WebVitalsReporter_
 ||kickstarter.com/Uy3R669N/init.js
 /newslink.reuters.com/img/*$image
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
-/retarget_pixel.
 /tilda-stat-
 ||zazzle.com.au/svc/px
 ||mkt6333.com^$third-party
@@ -11852,7 +11820,6 @@ _WebVitalsReporter_
 ||vrbo.com/edap/elo/v1/event/beacon
 ||uptolike.com/widgets/*/imp?
 ||xiaohongshu.com/api/collect
-/referral-tracking.
 ||hankookilbo.com/service/kt/trk.js$script,domain=koreatimes.co.kr
 ||ameba.jp/cookie/
 /VisitLog.asmx
@@ -12021,7 +11988,6 @@ _WebVitalsReporter_
 ||touchcommerce.com/tagserver/logging/
 ||firecrux.com/track/$xmlhttprequest
 /stats/bezoek_count.php
-/report/click?
 ||qiota.com/api/event
 @@||akamaihd.net/nbad/player/*/visitorapi.js$domain=watch.nba.com
 /1pixel.php
@@ -12338,7 +12304,6 @@ _WebVitalsReporter_
 /misites/*
 ||lead-123.com^$third-party
 ||exitmonitor.com^$third-party
-/ret_pixels/*
 ||coremotives.com^$third-party
 ||akamai.com/crs/lgsitewise.js
 ||weborama.com^$third-party
