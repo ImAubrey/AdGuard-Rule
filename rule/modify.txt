@@ -1,4 +1,4 @@
-# Update time: 2023-10-13 08:58:09
+# Update time: 2023-10-13 20:25:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7175,6 +7175,7 @@ _hits_stat.
 ||hocalwire.com/tracking-
 ||easyhash.io^$third-party
 .tripadvisor.com/MptUrl?$image
+@@||nationwide.com/myaccount/includes/images/x.gif$~third-party
 ||abema-tv.com/v1/stats/
 /fp2.min.js
 ||cya2.net^$third-party
