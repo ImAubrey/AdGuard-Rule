@@ -1,4 +1,4 @@
-# Update time: 2023-10-13 20:25:17
+# Update time: 2023-10-14 08:55:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -736,7 +736,6 @@ in-trend.biz##body > [id][style^="z-index"]
 @@||pstream.net/js/prebid35.js$~third-party
 ###adb-enabled
 natural-cosmetology.ru##body > div[style*="background-color:#ff0000;color:#ffffff;"]
-go.mail.ru##.js-adb-msg
 ##.kill-adblock-container
 ||anivisual.net/mim*.js|$script,domain=anivisual.net
 ###box-adblocker-wrap
@@ -3054,6 +3053,7 @@ _Clicktale.
 ||searchiq.co/api/tr?
 ||consentmanager.net/delivery/info/$third-party
 ||godaddy.com/js/gdwebbeacon.js
+/dcs.gif?
 ||facil-iti.com^$third-party
 ||amnet.tw^$third-party
 ||clickguardian.co.uk^$third-party
@@ -3192,7 +3192,6 @@ _Clicktale.
 /autotrack.carbon.js
 ||streem.com.au^$third-party
 /btrack.php?
-@@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,third-party
 /measure/pixel/*
 /pphlogger.
 /gaEventTracking.
@@ -3805,6 +3804,7 @@ omni.soundestlink.com$image
 ||thermstats.com^$third-party
 /google/autotrack.
 ||deprecated-custom-domains.b-cdn.net^$third-party
+@@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 /pageCounter.adp?
 ||volvelle.tech^$third-party
 ||fc2.com/ana/analyzer.php
@@ -5845,6 +5845,7 @@ _trackWebtrekkEvents.
 ||netmera-web.com^$third-party
 ||calcul-pagerank.fr/client/$third-party
 ||popin.cc/test/popin_send_cookie_set_fail.js
+||11st.co.kr/st/
 /event-log?
 /iperceptions_
 ||freecounterstat.com^$third-party
@@ -7904,7 +7905,6 @@ _ga-events_
 ||cquotient.com^$third-party
 ||omiki.com^$third-party
 ?action=tracking_script
-@@||static.atgsvcs.com/js/atgsvcs.js$domain=officedepot.com|shop.lego.com
 @@||tagcommander.com^*/tc_$script
 /analyticstracking?
 ||ipinfo.io^$third-party
