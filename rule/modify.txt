@@ -1,4 +1,4 @@
-# Update time: 2023-10-14 08:55:19
+# Update time: 2023-10-14 20:22:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1246,7 +1246,6 @@ _vercel/insights/
 /tealium-utag-
 ||booking.com/pxpixel.html
 ||pippio.com^$domain=disqus.com
-/trackimps?
 /afftrack.
 ||knotch-cdn.com^$third-party
 @@||seg-cdn.pumpkin.care/next-integrations/integrations/mixpanel/$domain=get.pumpkin.care
@@ -1459,7 +1458,6 @@ _logHuman=
 ||tripadvisor.*/wm/record
 ||prisjakt.nu/js.php?p=trafikfonden
 @@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com
-/tracking.*/impression?
 ||btncdn.com^$third-party
 /newrelic.min.js
 ||sitetistik.com^$third-party
@@ -1519,6 +1517,7 @@ _logHuman=
 ||rating.in^$third-party
 ||solucx.com.br^$third-party
 ||excited.me^$third-party
+/tracker_async.js
 ||socialrank.fr/client/$third-party
 ||healte.de^$third-party
 /track_framework_metrics?
@@ -1707,7 +1706,6 @@ _logHuman=
 ||brownsshoes.com/IZ/2tcS0qiG/init.js
 /TealeafSDKConfig.js
 ||seal.digicert.com^$third-party
-/trackerpixel.js
 ||zerkalo.io/stat/
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
 ||netmonitor.fi^$third-party
@@ -2269,10 +2267,8 @@ _metric_collect.
 ||adblockplustape.xyz/stat/
 ||omataloyhtio.fi/statb.asp
 ||crall.io/beacon/
-/tracker/trackView?
 /wp-statistics/v2/hit?
 ||apple.com/hvr/mw/v1/spile
-/tracker_pageview.
 ||wt-eu02.net^$domain=stern.de
 ||instant.page^$third-party
 ||conde.io/beacon
@@ -3681,12 +3677,12 @@ omni.soundestlink.com$image
 ||awesomelytics.com^$third-party
 ||akamaized.net/?u=
 ||metricswave.com^$third-party
-/tracking-pixel/*
 /ruxitagentjs_
 ||ex.co/content/monetization/legacy-pixels/
 /tacoda_
 ||contentspread.net^$third-party
 ||streamtheworld.com/imp?
+/trackEvent.js
 /webiq.$domain=~webiq.co.nz
 ||linkedin.com/countserv/count/$third-party
 ||facebook.com/method/links.getstats?
@@ -3763,7 +3759,6 @@ omni.soundestlink.com$image
 /geoLocationData/v1/*
 /pageviews.gif?
 ||extreme-ip-lookup.com^$third-party
-/tracker_async.
 /geo.php?
 /visits_contor.
 ||accengage.net^$third-party
@@ -4119,6 +4114,7 @@ _stat_counter.php?
 ||countby.com^$third-party
 ||web-visor.com^$third-party
 ||virgilio.it/clientinfo.gif?
+/trackga.min.js
 ||giga-abs.de^$third-party
 ||lastminute.com/ose/processEvent
 ||instadia.net^$third-party
@@ -4519,7 +4515,6 @@ _stat_counter.php?
 /friendbuy.min.js
 /track_visitor?
 @@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
-/tracking-info.gif?
 ||coremetrics.com^$third-party
 ?[AQB]&ndh=1&t=
 ||affilbox.cz^$third-party
@@ -4723,7 +4718,6 @@ _stat_counter.php?
 ||clearsale.com.br^$third-party
 /update_hits3/*
 ||macromill.com/imp/
-/tracking-pixel.
 ||simpleanalyticsexternal.com^$third-party
 @@||widget.myrentacar.me^$script,subdocument
 .theatlantic.com/email.gif?
@@ -5240,7 +5234,6 @@ _adobe_analytics_
 ||tgtag.io^$third-party
 ||early-birds.fr/tracker/
 ||promotionengine.com^$third-party
-/tracker_pixel.
 ||callreports.com^$third-party
 ||zazzle.co.uk/svc/px
 ||spring.de^$third-party
@@ -5470,7 +5463,6 @@ _webanalytics.
 /neilson.js
 /track-pixel.
 ||affiliation.planethoster.info^$third-party
-/trackImpression/*
 ||visualwebsiteoptimizer.com^$domain=wetter.com
 /sophus.js
 ||counter-kostenlos.info^$third-party
@@ -5880,6 +5872,7 @@ _trackWebtrekkEvents.
 /doctracking.js
 ||xlisting.jp^$third-party
 ||aprtx.com^$third-party
+/tracking-analytics-events.js
 ||quitsnap-blue.com^$third-party
 ||studiostack.com^$third-party
 ||autoaudience.com^$third-party
@@ -5975,7 +5968,6 @@ _trackWebtrekkEvents.
 /analytics_v2.js
 ||videos.oms.eu^$third-party
 ||go.com/capmon/GetDE/?
-/tracker/visitor/*
 /sourcepoint.js
 ||convertro.com^$third-party
 ||keen.io^$third-party,domain=~keen.github.io|~keen.io
@@ -6178,7 +6170,6 @@ _trackWebtrekkEvents.
 ||top.mail.ru/tc?js
 /api-analytics.
 /viewerimpressions?
-/tracker_article
 /TrackView/*$xmlhttprequest
 ||gaug.es^$third-party
 ||yimg.com/ss/vops.js
@@ -6189,7 +6180,6 @@ _trackWebtrekkEvents.
 /tracker.ga.
 ||recipefy.net/analytics.js
 ||pto-slb-09.com^$third-party
-/trackEvent.min.js?
 ||maxymiser.net^$third-party
 ||naver.com/PostView.nhn?$image
 @@||ensighten.com^*/serverComponent.php?$script
@@ -6515,7 +6505,6 @@ _beacon?
 ||getlasso.co^$third-party
 /analytics-sdk.
 /js/livestats_
-/tracker/track?
 ||quadran.eu^$third-party
 ||fansedge.com/api/track
 /at-composer.js
@@ -6840,7 +6829,6 @@ _hits_stat.
 ||freedom.com^*/analytic/
 /emtj_tracker.min.js
 /csi?v=2&s=
-/tracking-cookie.
 ||vwdealerdigital.com/cdn/sd.js
 ||inaudium.com^$third-party
 ||cloudfront.net/js/reach.js
@@ -7657,7 +7645,6 @@ _analytics-tracking?
 ||wmcdp.io^$third-party
 ||snoobi.com^$third-party
 ||ranker.com/api/px
-/trackerGif?
 /utag_data.
 /wz_logging.
 ://analytics.*/hits/
@@ -7686,6 +7673,7 @@ _analytics-tracking?
 ||trk.mail.ru^$image,script
 /elqcfg.min.js
 ||choicestream.com^*/pixel/
+/trackga.js
 @@||nypost.com/blaize/datalayer$~third-party
 ||tracking.sembox.it^$third-party
 ||tellerreport.com/react/pixel
@@ -8529,7 +8517,6 @@ _ga-events_
 ||cshield.io^$third-party
 ||dcdn.lt/g.js
 ||ela-3-tnk.com^$third-party
-/trackGAEvents.
 /trackmerchant.js
 ||youtubekids.com/api/stats/qoe?
 ||gigya.com^*/cimp.gif?
@@ -9352,7 +9339,6 @@ _ntpagetag.
 ||statun.com^$third-party
 ||veille-referencement.com^$third-party
 ||res-x.com^$third-party
-/trackEvent.js?
 ||messari.io/js/wutangtrack.js
 ||freshclip.tv/tracking/
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
@@ -9988,7 +9974,6 @@ _hitcount1.
 ||nhk.or.jp^*/bc.js
 /pageview;
 ||uplift-platform.com^$third-party
-/trackga.
 ||estat.com^$third-party
 ||enticelabs.com^$third-party
 ||birdsend.email/pixel
@@ -10892,6 +10877,7 @@ img.promio-connect.com$image
 ||dynamicyield.com/dpx?
 /track_video.php?id=
 /klicks.nebenan.de/q/*$image
+/tracking-cookie.js
 /C4ATracker.
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=kleinanzeigen.de
 ||ifeng.com/i?p=
@@ -11363,7 +11349,6 @@ _ad_impression.
 @@||adobedtm.com^*_source.min.js$domain=ally.com|americanexpress.com|backcountry.com|crave.ca|disneyplus.disney.co.jp|hilton.com|hl.co.uk|homedepot.ca|kroger.com|mora.jp|nbarizona.com|pnc.com|telus.com
 ||wee.dk/modules/$third-party
 ||hubspot.com/cs/loader-v2.js
-/tracker/log?
 ||heyflow.co/pixel/
 ||master-push.net^$third-party
 ||servestats.com^$third-party
@@ -11963,7 +11948,6 @@ _WebVitalsReporter_
 /omniture/uuid.
 @@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
 /perf-beacon-
-/tracking-analytics-
 /collector/beacon
 /pixel.cgi?
 ||etyper.com^$third-party
