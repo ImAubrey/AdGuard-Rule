@@ -1,4 +1,4 @@
-# Update time: 2023-10-15 20:22:28
+# Update time: 2023-10-16 08:58:06
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1021,6 +1021,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||t-online.de/to/web/click?
 ||nedstatpro.net^$third-party
 /webstats.js
+/ga_event_tracking.js
 ||h.seznam.cz/js/dot-small.js
 ||users-api.com^$third-party
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
@@ -1565,6 +1566,7 @@ _logHuman=
 ||fiverr.com/api/v1/activities
 ||belstat.nl^$third-party
 /php-stats.js
+||jetbluevacations.com/apis/v2-analytics/
 ||199.116.177.156^$domain=~fc2.jp.ip
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
 /pageview?pageId=
@@ -3832,6 +3834,7 @@ omni.soundestlink.com$image
 /pixel-track/*
 /mms.*/pv?
 /tealeaftarget?
+/wp-content/plugins/s2f-referral-tracking/*
 /trackconversion?
 ||authorinsights.com^$third-party
 ||zynga.com/track/
@@ -4389,6 +4392,7 @@ _stat_counter.php?
 ||mpwe.net^$third-party
 /gv-analytics/*
 /track?*&event=
+||bigw.com.au/api/event/
 /impression?rkey=
 ||app.posthog.com/static/array.js
 ||browser-update.org^$third-party
@@ -5756,6 +5760,7 @@ _trackWebtrekkEvents.
 /metrics/event?
 ||sociaplus.com^$third-party
 ||gtags.net^$third-party
+||bigw.com.au/events/
 ||appspot.com/take?
 @@||mlbstatic.com/mlb.com/adobe-analytics/$script,domain=mlb.com
 /bc/clk?
@@ -5780,6 +5785,7 @@ _trackWebtrekkEvents.
 ||s.pixfs.net/visitor.pixplug.in/
 /iperceptions.
 ||tda.io^$third-party
+||progressive.com/Log/
 ||coinwebmining.com^$third-party
 /udctrack.
 ||stat24.ru^$third-party
@@ -9597,6 +9603,7 @@ _rpc/log?
 ||mongoosemetrics.com^$third-party
 ||getviously.com^$third-party
 ||livelib.ru/service/traffic
+/_ga?sponsor_pixel=
 /log_hit.
 .googleanalytics.prod.
 /collect_stat.
