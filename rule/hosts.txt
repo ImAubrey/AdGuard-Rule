@@ -1,4 +1,4 @@
-# Update time: 2023-10-17 08:57:27
+# Update time: 2023-10-17 20:25:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -26653,6 +26653,7 @@
 0.0.0.0 bioperfect.pl
 0.0.0.0 isumisilvergarden.web.fc2.com
 0.0.0.0 www.0898tz.com
+0.0.0.0 samuday.org
 0.0.0.0 kittoyakudatu.web.fc2.com
 0.0.0.0 nutrizionistaroma.net
 0.0.0.0 swarctz.com
