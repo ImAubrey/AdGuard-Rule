@@ -1,4 +1,4 @@
-# Update time: 2023-10-18 20:25:17
+# Update time: 2023-10-19 08:56:55
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1310,7 +1310,6 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||isacglobal.com/sa.js
 /trackpixel?
 ||livelyvideo.tv/lb/logger
-/webtrends.min.
 /track/open.php?
 ||livecount.fr^$third-party
 /nr-spa-1216.min.js
@@ -1656,7 +1655,6 @@ _logHuman=
 ||taiwanplus.com/api/video/startVideo
 @@||cmp.telerama.fr/js/telerama.min.js$~third-party
 &ev=PageView&
-/webtraxs.
 /owa.tracker-combined-min.js
 ||kommersant.ru/a.asp?p=
 ||privacy-policy.truste.com^$third-party
@@ -3174,6 +3172,7 @@ _Clicktale.
 /analytics/pageview
 /DNSChecker.js
 /AdCount/*
+/collect?v=
 /stats/footer.
 /talpa-analytics-
 /autotrack.carbon.js
@@ -3809,6 +3808,7 @@ omni.soundestlink.com$image
 /ecom/status.jsp?
 /pic.gif?m=
 ||databrain.com^$third-party
+/marfeelanalytics.js
 /fkounter/counter.js
 ||counter-gratis.com^$third-party
 ||builder.io/api/v1/track
@@ -5820,7 +5820,6 @@ _trackWebtrekkEvents.
 ||adsolutions.com^$third-party
 ||semasio.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 /certona.
-/weizenbock/dist/*
 ||track-web.net^$third-party
 ||humanclick.com^$third-party
 ||zebestof.com^$third-party
@@ -6017,6 +6016,7 @@ _trackWebtrekkEvents.
 ||su.pr/hosted_js$third-party
 ||cnnx.io^*/tracker.js
 ||akstat.com^$third-party
+/webtrends.min.js
 /event.gif?
 ||clickiocdn.com/clickiotag_log/
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
@@ -6342,6 +6342,7 @@ _beacon?
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
 /readtracker-
 ||viously.com^*/mt?
+||umnico.com/tracker/
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
 ||smartlink-api.amuse.io/api/analytics/
 ||bnamic.com/referrer/
@@ -6786,6 +6787,7 @@ _hits_stat.
 /presslabs.js$script,~third-party
 ||countomat.com^$third-party
 ||rapidstats.net^$third-party
+/webtrends.js
 ||hiperstat.com^$third-party
 ||dealnews.com/lw/ul.php
 ||thebrighttag.com^$third-party
@@ -8463,6 +8465,7 @@ _track_pixel.gif?
 ||onescreen.net/os/static/pixels/
 ||surace-jujitsu.fr/outils/compteur_php/
 ||tentaculos.net^$third-party
+/webtraxs.js
 ||hitmatic.com^$third-party
 ||spanishdict.com/page-view-metadata
 /smart-pixel.min.
@@ -8943,7 +8946,6 @@ _rpc/log?
 /push-analytics.js
 ||traq.li/tracker/
 ||criteo.com^$domain=fanfiktion.de
-/webtracker.
 ||absolstats.co.za^$third-party
 ||perfalytics.com^$third-party
 /pageview_candidate.
@@ -9645,6 +9647,7 @@ _rpc/log?
 .iframetracker/
 ||nexx360.io^$third-party
 /csp_log?
+/webtracker.dll
 /audienceScience.js
 ||wts.one^$third-party
 ||reproio.com^$third-party
@@ -10294,7 +10297,6 @@ _mongo_stats/
 ||pluso.ru/ping.php?
 ||trackset.it^$third-party
 /collect.gif?
-/webtrends/webtrends.
 /logjs.php
 ||defacto-analytics.net^$third-party
 /pc-log?
@@ -10601,6 +10603,7 @@ _event_tracking?
 ||everestjs.net^$third-party
 ||contentexchange.me/static/tracker.js
 /beacon.cgi?
+/cache_warmer/track/*
 ||terabox.com/api/analytics?
 ||tubemogul.com^$third-party
 ||bnqt.com^$third-party
@@ -11632,6 +11635,7 @@ _WebVitalsReporter_
 ||unsplash.com/nmetrics
 ||fernomius.com^$third-party
 ||booking.com/logo?
+||tieszhu.com/e.html
 /webiq/*
 /adblocker/pixel.
 ||botsvisit.com^$third-party
