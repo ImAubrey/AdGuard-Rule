@@ -1,4 +1,4 @@
-# Update time: 2023-10-19 20:25:35
+# Update time: 2023-10-20 08:56:59
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2647,6 +2647,7 @@ _logHuman=
 ||paypal.com/webapps/mch/cmd/?
 ||walmart.com/px/PXu6b0qd2S/init.js
 ||terra.com.mx/js/metricspar_
+||libs.platform.californiatimes.com/meteringjs/
 /base/es5/bundle.js
 ||freecounter.it^$third-party
 ||mrf.io/statics/marfeel-sdk.js
@@ -4007,6 +4008,7 @@ omni.soundestlink.com$image
 /frontend-sentry-
 ||vo.msecnd.net/api/beYableJSv2.js
 ||msecnd.net/jscripts/HA-$script
+||clixtell.com/track.js
 /hmapxy.js
 /metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
 _stat_counter.php?
@@ -6759,6 +6761,7 @@ _hits_stat.
 ||thebrighttag.com^$third-party
 ||hushforms.com/visitorid?
 ||le.com/op/
+||pop6serve.com^$third-party
 ||xtremline.com^$third-party
 ||17173.com/ping.js
 /wpstatistics/*
@@ -9356,6 +9359,7 @@ _rpc/log?
 ||hulkshare.com/ajax/tracker.php
 /neocounter.
 ||nuggad.net^$third-party
+||agency360.io^$third-party
 ||mpianalytics.com^$third-party
 ||die-rankliste.com^$third-party
 /googleAnalyticsTracking.
@@ -12220,6 +12224,7 @@ _WebVitalsReporter_
 .php?logRefer=
 ||rng-snp-003.com^$third-party
 /impression.gif?
+||fudge.ai/metrics?
 /analytic/context?
 /trackui.min.js
 ||lastminute.com/s/hdp/hotel-details/api/logs
