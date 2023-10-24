@@ -1,4 +1,4 @@
-# Update time: 2023-10-23 20:25:14
+# Update time: 2023-10-24 08:56:39
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -31281,7 +31281,6 @@
 0.0.0.0 natural-skin.com.au
 0.0.0.0 2y-americanas.com
 0.0.0.0 lilxtreme.com
-0.0.0.0 lightoflife.com.au
 0.0.0.0 zerodotzero.eu
 0.0.0.0 alrawfed.com
 0.0.0.0 lfm360.com
