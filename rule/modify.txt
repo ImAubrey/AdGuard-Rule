@@ -1,4 +1,4 @@
-# Update time: 2023-10-30 08:57:15
+# Update time: 2023-10-30 20:24:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1098,6 +1098,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /in.getclicky.com/*
 /referral_tracking.js
 ||trafficby.net^$third-party
+/counter2.gif?
 ||weborama.design^$third-party
 ||klarnaservices.com/v1/osm-client-script/
 ||btttag.com^$third-party
@@ -1319,6 +1320,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||anti-cheat.info^$third-party
 ||bizo.com^$third-party
 ||populr.me^$third-party
+/boost-sd-analytic.js
 ||vmweb.net/identity.min.js
 /scripts/clickjs.php
 ||dawin.tv^$third-party
@@ -1430,6 +1432,7 @@ _logHuman=
 ||prisjakt.nu/js.php?p=trafikfonden
 @@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com
 ||btncdn.com^$third-party
+/bootstrap/metrics.js
 /newrelic.min.js
 ||sitetistik.com^$third-party
 ||priceline.com/9aTjSd0n/init.js
@@ -3142,6 +3145,7 @@ _Clicktale.
 /gd_tracker_events.js
 /track/visitors/?
 ||googleapis.com/ivc.js
+||klaviyo.com/onsite/track-analytics?
 ||usemaxserver.de^$third-party
 ||adten.eu^$third-party
 /valnet-header.
@@ -4989,7 +4993,6 @@ _stat_counter.php?
 /sp_tracker.js
 ||airtel.in/analytics/
 ||wumii.com/images/pixel.png
-/AkamaiAnalytics.
 ||bolt.com/v1/log?
 ||jiji.co.ke/tag_event
 /_/api/v2/analytics/?
@@ -5263,7 +5266,6 @@ _webanalytics.
 /realytics-1.2.min.js
 ||trmads.eu^$third-party
 ||geckofoot.com/gfcounterimg.aspx?
-/akamai_analytics_
 ||burpee.xyz^$third-party
 /collect/view?
 /clickheat^
@@ -5476,7 +5478,6 @@ _view_pixel&$image
 /collectsysteminfo?
 ||contactatonce.com/VisitorContext.aspx?
 ||schnaeppchenfuchs.com/js/default-
-/bootstrap/metrics.
 ||index.ru^$third-party
 /akam/13/*
 ||storage.googleapis.com/afs-prod/tags
@@ -5922,7 +5923,6 @@ _trackWebtrekkEvents.
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
 ||invitemedia.com^$third-party
 /stats.wp.com/*
-/boost_stats.
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
 /cms/stats/*
 ||maxmind.com/app/$third-party
@@ -5975,7 +5975,6 @@ _trackWebtrekkEvents.
 ||cnhv.co^$third-party
 ||houzz.com/js/log?
 ||pussy.org^*/track.php
-/amazon-affiliate-
 ||cdn-net.com^$third-party
 ||vepxl1.net^$third-party
 ||verifypow.com^$third-party
@@ -6434,6 +6433,7 @@ _beacon?
 ||reverbnation.com/api/user/app_events
 /analytics-ping.js
 ||riastats.com^$third-party
+/boost_stats.php
 ||counthis.com^$third-party
 ||flex.msn.com/mstag/
 ||trkjmp.com^$third-party
@@ -7108,6 +7108,7 @@ _track_pixel.gif?
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 ||digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||thisiswhyimbroke.com/api/user/gift-guide-thumbnail-homepage/tracking
+||lfeeder.com^$third-party
 ||streamtapeadblockuser.monster/stat/
 /link_tracking/*
 ||bigcattracks.com^$third-party
@@ -9061,6 +9062,7 @@ _rpc/log?
 /hit/?r=
 ||pussy.org^*.cgi?pid=
 ||qualifioapp.com/egw/events
+/amazon_linker.min.js
 ||hscta.net^$third-party
 ||leadpages.net^*/tracking.js
 ||azointel.com^$third-party
