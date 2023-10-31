@@ -1,4 +1,4 @@
-# Update time: 2023-10-30 20:24:32
+# Update time: 2023-10-31 08:57:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4902,6 +4902,7 @@ _stat_counter.php?
 ||nytimes.com/v1/purr-cache
 ||rays-counter.com^$third-party
 ||imrworldwide.com^$domain=prosieben.at|prosieben.ch|prosieben.de
+||huggingface.co/js/script.js
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||plausible.io/js/p.js
 ||hatarako.net/api/recommend/analyze_logger
@@ -7263,6 +7264,7 @@ _track_pixel.gif?
 /track/event/*
 ||brainsland.com^$third-party
 ||ns-cdn.com^*/ns_vmtag.js
+||naver.com/mcollector/
 ||newscom.com/js/v2/ga.js
 /liferay-analytics-processor.js
 ||pjatr.com^$third-party
@@ -9511,6 +9513,7 @@ _rpc/log?
 ||iraiser.eu/analytics.js
 /mmclient.js
 @@||naver.net/wcslog.js$domain=m.tv.naver.com
+||igen.fr/modules/statistics/statistics.php
 ||qq.com/kvcollect?
 /view-tracking/*$image
 @@||targetimg1.com/webui/$script,domain=target.com
@@ -12035,6 +12038,7 @@ _WebVitalsReporter_
 /^partnerad\./
 /^duomeng\./
 /^adsrvmedia\./
+||*-applog.fqnovel.com^
 /^omgmtaw\./
 /^admarvel\./
 /^applovin\./
