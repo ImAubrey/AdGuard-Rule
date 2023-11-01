@@ -1,4 +1,4 @@
-# Update time: 2023-10-31 20:24:24
+# Update time: 2023-11-01 09:00:35
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3296,7 +3296,6 @@ _Clicktale.
 ||tgdaudience.com^$third-party
 ||ethtrader.de^$third-party
 .secureserver.net/bbimage.aspx?
-@@||twicli.neocat.jp/plugins/geomap.js
 /statscript.js
 ||opbandit.com^$third-party
 /v1/stats/track
@@ -10317,7 +10316,6 @@ _event_tracking?
 ||cactusmedia.com^$third-party
 ||connatix.com/scripts/$~third-party
 /fingerprint2.min.js
-/geomap.js
 @@||onenote.com^*/aria-web-telemetry
 ||wc.yahoodns.net^$image
 @@||zinro.net/m/log.php
