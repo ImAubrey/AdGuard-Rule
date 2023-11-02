@@ -1,4 +1,4 @@
-# Update time: 2023-11-02 08:56:59
+# Update time: 2023-11-02 20:24:21
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -844,17 +844,6 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /AdblockMessage.
 ||paintpear.com^$third-party
 ##.svg-adblock-full
-||api.zhihu.com/commercial_api/launch_v2^
-|api.zhihu.com/fringe/ad
-||api.zhihu.com/commercial_api/real_time_launch_v2^
-|api.zhihu.com/ad-style-service/request
-||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
-||api.zhihu.com/answers/*/comments/featured-comment-ad
-||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
-@@||www.zhihu.com/api/v4/search_v3*
 ||mmccint.com^$third-party
 ||zucks.net^$third-party
 ||contiamo.com^$third-party
@@ -1594,6 +1583,7 @@ _logHuman=
 ||control.cityofcairns.com^$third-party
 ||youjizzlive.com/api/metrics
 ||gleam.io/seen?
+||bearblog.dev/hit/
 .mozilla.org/eos/$image
 /yell-analytics-min.js
 ||spotifycdn.com/cdn/js/retargeting-pixels-
@@ -2364,7 +2354,6 @@ _logHuman=
 ||freeprivacypolicy.com/track/
 ||ixiaa.com^$third-party
 /pvevents.gif?
-&callback=hitStats_
 /WebStat2.asmx
 ||facebook.com*/impression.php
 ||wantlive.com/pixel/
@@ -2480,7 +2469,6 @@ _logHuman=
 /ga.gif?
 @@||showheroes.com/pubtag.js$domain=rollingstone.de
 /videojs-analytics.js
-/bundles/metrics.
 ||tracemyip.org/vlg/
 ||stuttgarter-nachrichten.de/cre-1.0/tracking/device.js
 ||ipinyou.com^$third-party
@@ -4327,7 +4315,6 @@ _stat_counter.php?
 ||tianxun.com/ajax_website_statistics.
 /coinimp-cache/*
 ||facebook.com/tr/?$domain=metal-hammer.de|musikexpress.de|rollingstone.de
-/adobe-analytics/*$script
 ||ohnorobot.com/verify.pl?
 /log_amp_item_set?
 ||mialbj6.com^$third-party
@@ -5130,7 +5117,6 @@ _stat_counter.php?
 ||novanthealth.org/v1/tagular/beam
 ||emarketeer.com/tracker/
 /track_click?
-&action=js_stats_
 ||kemono.su/api/v1/event
 ||pubperf.com^$third-party
 /ljcounter/*
@@ -9233,6 +9219,7 @@ _rpc/log?
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 /resource?zones=
 /skype-analytics.
+||ch3ngl0rd.com/hit/
 .inxserver.com/transparent.gif
 ||citygridmedia.com/tracker/
 ||trakken.de^$third-party
@@ -10469,6 +10456,7 @@ img.promio-connect.com$image
 ||streamtape.to/stat/
 ||seoparts.net^$third-party
 /mnppixellibrary.min.js
+@@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 /getbglog.js
 /tjx-tracking-
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
@@ -10490,7 +10478,6 @@ img.promio-connect.com$image
 ||edigitalsurvey.com^$third-party
 ||netgraviton.net^$third-party
 ||music.163.com/weapi/pl/count
-&action=confection_send_data&
 ||leadelephant.com^$third-party
 ||prebidmanager.com^$third-party
 ||amazonaws.com/js/reach.js
@@ -12017,3 +12004,14 @@ _WebVitalsReporter_
 /^admarvel\./
 /^applovin\./
 /^.+stat\.kugou\.com/
+||api.zhihu.com/commercial_api/launch_v2^
+|api.zhihu.com/fringe/ad
+||api.zhihu.com/commercial_api/real_time_launch_v2^
+|api.zhihu.com/ad-style-service/request
+||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
+||api.zhihu.com/answers/*/comments/featured-comment-ad
+||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
+@@||www.zhihu.com/api/v4/search_v3*
