@@ -1,4 +1,4 @@
-# Update time: 2023-11-02 20:24:21
+# Update time: 2023-11-03 08:57:20
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -844,6 +844,17 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /AdblockMessage.
 ||paintpear.com^$third-party
 ##.svg-adblock-full
+||api.zhihu.com/commercial_api/launch_v2^
+|api.zhihu.com/fringe/ad
+||api.zhihu.com/commercial_api/real_time_launch_v2^
+|api.zhihu.com/ad-style-service/request
+||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
+||api.zhihu.com/answers/*/comments/featured-comment-ad
+||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
+@@||www.zhihu.com/api/v4/search_v3*
 ||mmccint.com^$third-party
 ||zucks.net^$third-party
 ||contiamo.com^$third-party
@@ -920,6 +931,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||w3track.com/newtrk/$third-party
 ||trrsf.com.br/metrics/
 ||adc-srv.net/retargeting.php
+/shinystat.cgi
 ||getmetrical.com/storagesync
 ||stackadapt.com^$third-party
 ||connatix.com/tr/
@@ -1810,7 +1822,6 @@ _logHuman=
 ||carters.com/0F3091f3/init.js
 ||snva.jp/javascripts/reco/
 ||geo.query.yahoo.com^$~xmlhttprequest,domain=~mail.yahoo.com
-/shinystat.
 ||kxcdn.com/prj/
 ||kdata.fr^$third-party
 /HitTracking.
@@ -6782,6 +6793,7 @@ _hits_stat.
 ||footballmedia.com/tracking/
 ||mediaite.com^*/track/
 ||78.46.19.203^$third-party,domain=~sprueche-zitate.net.ip
+||api.rtl.nl/monitoring/
 ||ptengine.cn^$third-party
 /gasocialtracking.js
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
@@ -9375,6 +9387,7 @@ _rpc/log?
 ||thesun.co.uk/assets/client/newrelicExperimentTracking~
 ||call-tracking.co.uk^$third-party
 ||natpal.com^$third-party
+/tracking.asmx/AddTrack?
 ||zcool.com.cn/track/
 ||access-analyze.org^$third-party
 ||teljari.is^$third-party
@@ -10016,6 +10029,7 @@ _mongo_stats/
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||vk.com/videostats.php
 ||auth.services.adobe.com/signin/v1/audit
+||posthog.com^$third-party
 ||e.m6web.fr/events
 .zippingcare.com/beacon/$image
 /angular-tag.js
@@ -10387,6 +10401,7 @@ img.promio-connect.com$image
 ||sync.outbrain.com^$third-party
 ||ebis.ne.jp^$third-party
 ||pubexchange.com^$third-party
+||exitgames.com/photon/m/?ping
 /vissense.js
 ||backlink-test.de^$third-party
 /google_analytics3_v2.js
@@ -11189,6 +11204,7 @@ _c.gif?c=
 ||msgfocus.com^$third-party
 /statistics/pixel/*
 _WebVitalsReporter_
+||tripadvisor.*/BALinkImpressionTracking/
 ||events.launchdarkly.com^$third-party
 ||navlink.com/__utmala.js
 /mnt/imp?
@@ -12004,14 +12020,3 @@ _WebVitalsReporter_
 /^admarvel\./
 /^applovin\./
 /^.+stat\.kugou\.com/
-||api.zhihu.com/commercial_api/launch_v2^
-|api.zhihu.com/fringe/ad
-||api.zhihu.com/commercial_api/real_time_launch_v2^
-|api.zhihu.com/ad-style-service/request
-||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
-||api.zhihu.com/answers/*/comments/featured-comment-ad
-||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
-@@||www.zhihu.com/api/v4/search_v3*
