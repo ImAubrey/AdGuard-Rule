@@ -1,4 +1,4 @@
-# Update time: 2023-11-04 20:21:44
+# Update time: 2023-11-05 09:01:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -844,17 +844,6 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /AdblockMessage.
 ||paintpear.com^$third-party
 ##.svg-adblock-full
-||api.zhihu.com/commercial_api/launch_v2^
-|api.zhihu.com/fringe/ad
-||api.zhihu.com/commercial_api/real_time_launch_v2^
-|api.zhihu.com/ad-style-service/request
-||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
-||api.zhihu.com/answers/*/comments/featured-comment-ad
-||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
-@@||www.zhihu.com/api/v4/search_v3*
 ||mmccint.com^$third-party
 ||zucks.net^$third-party
 ||contiamo.com^$third-party
@@ -4449,6 +4438,7 @@ _stat_counter.php?
 ||footprintlive.com^$third-party
 ||octopart.com/kdRQnL15/init.js
 ||cptrack.de^$third-party
+||nullitics.com^$third-party
 /ga_setup.js
 ||tnctrx.com^$third-party
 /stat2.js
@@ -7992,6 +7982,7 @@ _track_pixel.gif?
 @@||businessclick.ch/index.js$domain=finanzen.ch
 ||terabox.com/abdr?
 ||r2b2.cz/events.php?
+/analytics-helper.js
 ||retty.me/javascripts/common/logging.js
 @@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
 ||mygtmn.com^$third-party
@@ -11086,7 +11077,6 @@ _stat.php?referer=
 /estat.js
 ||sim-technik.de^*&uniqueTrackId=
 /twiga.js
-/analytics-helper.
 ||bm23.com^$third-party
 ||escalated.io^$third-party
 ||iolam.it/service/trk
@@ -12002,3 +11992,14 @@ _WebVitalsReporter_
 /^admarvel\./
 /^applovin\./
 /^.+stat\.kugou\.com/
+||api.zhihu.com/commercial_api/launch_v2^
+|api.zhihu.com/fringe/ad
+||api.zhihu.com/commercial_api/real_time_launch_v2^
+|api.zhihu.com/ad-style-service/request
+||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
+||api.zhihu.com/answers/*/comments/featured-comment-ad
+||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
+@@||www.zhihu.com/api/v4/search_v3*
