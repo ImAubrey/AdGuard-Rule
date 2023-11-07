@@ -1,4 +1,4 @@
-# Update time: 2023-11-06 20:26:19
+# Update time: 2023-11-07 08:58:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,6 +47,10 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+||xlsv.oalt.cfgliders.com.^
+||j3.4z0vc.chileinsumos.cl.^
+||vhee.o6cc.cfgliders.com.^
+||confirmascredenciales.cony-15-heart.repl.co.^
 ||bc.geocities.
 ||solutions.|pages.indigovision.com^
 ||collector-*.px-client.net^
@@ -68,10 +72,6 @@
 ||pixel.archive.
 ||log-*.previewnetworks.com^
 ||analytics.ticketmaster.
-||xlsv.oalt.cfgliders.com.^
-||j3.4z0vc.chileinsumos.cl.^
-||vhee.o6cc.cfgliders.com.^
-||confirmascredenciales.cony-15-heart.repl.co.^
 ||da.hornbach.*^
 ||appsflyer*.*^
 ||brucelead*.com^
@@ -165,10 +165,6 @@
 ||analyzer*.fc2.com^
 ||lianmeng*.*^
 ||tracker*.qcloud.com^
-go-mpulse
-solutions.|pages.indigovision.com
-spryptvqguhpwt
-epochtimes
 ||liveweb*.msstatic.com^
 ||pangolin-sdk-toutiao*.com^
 ||ads.*.kugou.com^
@@ -181,3 +177,7 @@ epochtimes
 ||log*-normal-lq.toutiaoapi.com^
 ||ads*.zijieapi.com^
 ||w*.*skwai.com^
+go-mpulse
+solutions.|pages.indigovision.com
+spryptvqguhpwt
+epochtimes
