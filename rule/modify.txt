@@ -1,4 +1,4 @@
-# Update time: 2023-11-07 20:24:28
+# Update time: 2023-11-08 08:57:50
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3122,7 +3122,6 @@ _Clicktale.
 ||mps.nbcuni.com/request/page/json/params/*&adunits=$xmlhttprequest
 /aptrk.js
 ||pcmag.com/js/ga.js
-.com/log?event
 ||contx.net/collect.js
 ||dxlive.com/js/dtrace.js
 ||mail-app.com/pvtracker/
@@ -5193,7 +5192,6 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 ||zoomanalytics.co^$third-party
 ||coin-have.com^$third-party
 /analytics-cdn.
-.com/tracking?
 ||sapha.com^$third-party
 ||installiq.com/Pixels/
 ||livestory.io/*/collect
@@ -5724,6 +5722,7 @@ _trackWebtrekkEvents.
 ||yextevents.com^$third-party
 ||usabilitytools.com^$third-party
 ||visitorjs.com^$third-party
+/leage.google.tracker.js
 /statcount.
 ||counting4free.com^$third-party
 /tiara/tracker/*
@@ -6067,7 +6066,6 @@ _beacon?
 /1px.gif?
 ||maptrackpro.com/track/
 ||arte.tv/log-player/
-.com/stats.ashx?
 ||overstat.com^$third-party
 .skimlinks.js
 ||oracleimg.com^*/metrics/
@@ -6615,7 +6613,6 @@ _hits_stat.
 ||slant.co/js/track.min.js
 ||edgesuite.net^*/googleanalyt
 ||gsght.com/twizards.js
-.com/pvlog?
 /cdn-cgi/apps/head/*$script,~third-party
 ||vizzit.se^$third-party
 /pingd?
@@ -7886,7 +7883,6 @@ _track_pixel.gif?
 ||accaii.com^$third-party
 ||scoot.co.uk/ajax/log_
 /log/track/*
-.com/vtrack|
 ||onet.pl^*/tags?
 ||altpool.pro^$third-party
 /null.gif?
@@ -9288,7 +9284,6 @@ _rpc/log?
 ||gamestar.de/_misc/tracking/$domain=gamestar.de
 ||copperegg.com^$third-party
 ||xplosion.de^$domain=focus.de
-.com/hitlog?
 ||analytics.facebook.com^$third-party
 ||webstatistika.lv^$third-party
 /ga-lite.js
@@ -9403,7 +9398,6 @@ _rpc/log?
 ||vs4.com/impr.php?
 /gp/r.html?$image
 ||clickpathmedia.com^$third-party
--amp-error-reporting.
 ||amatomu.com/log.php?
 /wstat.pl
 ||esearchvision.com^$third-party
@@ -9757,7 +9751,6 @@ _imp?Log=
 /stats-tracking.js
 ||freegeoip.app^$third-party
 ||orcapia.com^$third-party
-.Google.Tracker.js
 ||medium.com/_/clientele/reports/performance/
 /ipdvdc.min.js
 ||mapmyuser.com^$third-party
@@ -10343,6 +10336,7 @@ img.promio-connect.com$image
 /pixel.fingerprint.
 /googleAnalytics4.js
 /sdctag1.js
+||wattpad.com/js/tracker/app.
 ||userzoom.com^$third-party
 ||digitaladvisor.dk^$third-party
 ||getpocket.com/web-client-api/braze
@@ -10489,6 +10483,7 @@ img.promio-connect.com$image
 ||srf.ch/udp/tracking/
 ||dynamicyield.com/dpx?
 /js_tracker.min.js
+/track_video.php?id=
 /klicks.nebenan.de/q/*$image
 /tracking-cookie.js
 /utm_cookie.js
@@ -10557,7 +10552,6 @@ img.promio-connect.com$image
 ||europuls.eu^$third-party
 ||streambeam.io^$third-party
 ||cardinalcommerce.com/prod/log
-.com/stats.aspx?
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 /eventsBeacon?
 ||foxsports.com.au/akam/
@@ -10736,6 +10730,7 @@ img.promio-connect.com$image
 /valnetinccom-adapter.js
 ||yahoo.com/beacon/
 /BKVTrack.js
+/pvlog.js
 ||af-z.jp^$third-party
 ||trafficfuel.com^$third-party
 ||thesearchagency.net^$third-party
