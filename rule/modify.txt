@@ -1,4 +1,4 @@
-# Update time: 2023-11-08 20:24:03
+# Update time: 2023-11-09 08:57:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -844,17 +844,6 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /AdblockMessage.
 ||paintpear.com^$third-party
 ##.svg-adblock-full
-||api.zhihu.com/commercial_api/launch_v2^
-|api.zhihu.com/fringe/ad
-||api.zhihu.com/commercial_api/real_time_launch_v2^
-|api.zhihu.com/ad-style-service/request
-||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
-||api.zhihu.com/answers/*/comments/featured-comment-ad
-||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
-@@||www.zhihu.com/api/v4/search_v3*
 ||mmccint.com^$third-party
 ||zucks.net^$third-party
 ||contiamo.com^$third-party
@@ -1160,6 +1149,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||dengage.com^$third-party
 /stat_js.asp?
 /web-analytics.js
+/link.email.usmagazine.com/img/*$image
 ||superstat.info^$third-party
 ||bz-berlin.de/_stats/
 /click_stats.js
@@ -2825,6 +2815,7 @@ _adblock_stat.
 /track?referer=
 /getlog.gif
 /Engagement/TrackEventAsync
+/notifications.google.com/g/img/*$image
 /count.png?
 ||siberiantimes.com/counter/
 /in.php?referer=
@@ -4000,6 +3991,7 @@ _stat_counter.php?
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 ||trackmytarget.com^$third-party
 /smartpixel.$domain=~smartpixel.com|~smartpixel.tv
+/rum-collector/*
 ||countby.com^$third-party
 ||web-visor.com^$third-party
 ||virgilio.it/clientinfo.gif?
@@ -4297,6 +4289,7 @@ _stat_counter.php?
 ||criteo.com^$domain=spiegel.de
 ||esm1.net^$third-party
 ||cache.am^$third-party
+||envoke.com^$third-party
 ||flipkart.com/api/3/data/collector/
 ||pubplus.com^$third-party
 ||anonymised.io^$third-party
@@ -5670,6 +5663,7 @@ _trackWebtrekkEvents.
 ||calcul-pagerank.fr/client/$third-party
 ||popin.cc/test/popin_send_cookie_set_fail.js
 /visitor-params.js
+||insideevs.com/analytics.js
 ||11st.co.kr/st/
 /event-log?
 ||freecounterstat.com^$third-party
@@ -5999,6 +5993,7 @@ _trackWebtrekkEvents.
 /site_statistics.
 /tracker.ga.
 ||recipefy.net/analytics.js
+@@||groupbycloud.com/gb-tracker-client-3.min.js$domain=officedepot.co.cr
 ||pto-slb-09.com^$third-party
 ||maxymiser.net^$third-party
 ||naver.com/PostView.nhn?$image
@@ -7495,6 +7490,7 @@ _track_pixel.gif?
 ||estara.com^$third-party
 ||kavijaseuranta.fi^$third-party
 .keap-link012.com/$image
+||dnnapi.com/analytics/
 ||copush.com^$third-party
 /counter.cgi?
 /addLinkerEvents.js
@@ -8537,6 +8533,7 @@ $ping,third-party
 ||newegg.com/gfplib.js
 ||fingerprintjs.com/visitors/
 ||fastly.net/i?
+||adoberesources.net^$third-party,domain=~adobe.com
 ||elastx.net^$third-party
 @@||s.btstatic.com/tag.js$domain=sephora.com
 ||europuls.net^$third-party
@@ -11991,3 +11988,14 @@ _WebVitalsReporter_
 /^admarvel\./
 /^applovin\./
 /^.+stat\.kugou\.com/
+||api.zhihu.com/commercial_api/launch_v2^
+|api.zhihu.com/fringe/ad
+||api.zhihu.com/commercial_api/real_time_launch_v2^
+|api.zhihu.com/ad-style-service/request
+||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
+||api.zhihu.com/answers/*/comments/featured-comment-ad
+||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
+@@||www.zhihu.com/api/v4/search_v3*
