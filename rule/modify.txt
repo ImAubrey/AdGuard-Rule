@@ -1,4 +1,4 @@
-# Update time: 2023-11-11 08:57:01
+# Update time: 2023-11-11 20:22:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1152,6 +1152,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 @@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
 ||accessintel.com^$third-party
 /stats.*/hits/*
+.com/vtrack
 @@||service-public.fr^*/assets/js/eulerian/eulerian.js$~third-party
 ||dropbox.com/jse
 /revtracking/*
@@ -7899,7 +7900,6 @@ _track_pixel.gif?
 ||accaii.com^$third-party
 ||scoot.co.uk/ajax/log_
 /log/track/*
-.com/vtrack|
 ||onet.pl^*/tags?
 ||altpool.pro^$third-party
 /null.gif?
