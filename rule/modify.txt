@@ -1,4 +1,4 @@
-# Update time: 2023-11-10 20:24:04
+# Update time: 2023-11-11 08:57:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6736,6 +6736,7 @@ _hits_stat.
 ||mediaglacier.com^$third-party
 /assets/smarttag-$script
 /shareCounts.
+/clicktrack.min.js
 ||metacrawler.com/pingback
 ://segment-cdn.
 /audience.gif?
@@ -7898,6 +7899,7 @@ _track_pixel.gif?
 ||accaii.com^$third-party
 ||scoot.co.uk/ajax/log_
 /log/track/*
+.com/vtrack|
 ||onet.pl^*/tags?
 ||altpool.pro^$third-party
 /null.gif?
@@ -10138,6 +10140,7 @@ _newrelic_min.
 _event_tracking?
 ||medals.bizrate.com^$third-party
 ||cnobi.jp^*/js/imp.
+/bluekai.min.js
 ||cloudfront.net/i?v=
 /homeCounter.php
 ||9gag.com/event/
@@ -10569,6 +10572,7 @@ img.promio-connect.com$image
 ||europuls.eu^$third-party
 ||streambeam.io^$third-party
 ||cardinalcommerce.com/prod/log
+.com/stats.aspx?
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 /eventsBeacon?
 ||foxsports.com.au/akam/
