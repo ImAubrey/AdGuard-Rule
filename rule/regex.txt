@@ -1,4 +1,4 @@
-# Update time: 2023-11-12 20:22:35
+# Update time: 2023-11-13 08:59:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -48,7 +48,6 @@
 # 每12小时同步一次、如有误杀、请手动解除
 
 ||j3.4z0vc.chileinsumos.cl.^
-||confirmascredenciales.cony-15-heart.repl.co.^
 ||bc.geocities.
 ||solutions.|pages.indigovision.com^
 ||collector-*.px-client.net^

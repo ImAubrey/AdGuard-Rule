@@ -1,4 +1,4 @@
-# Update time: 2023-11-12 20:22:35
+# Update time: 2023-11-13 08:59:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2546,6 +2546,7 @@ _logHuman=
 ||cbsi.com.cn/js/dw.js
 ||uncn.jp^$third-party
 ||countok.de^$third-party
+||foxsports.com/static/orion/js/segment-analytics.js
 /honeybadger.js
 ||rollbar.com^$third-party
 @@||pushpushgo.com/js/$script,domain=centrumriviera.pl
@@ -6302,6 +6303,7 @@ _beacon?
 ||presspage.com/statistics/
 /trigger-visit-event
 ||mutinyhq.io^$third-party
+||app.posthog.com/e/?ip=
 ||medoucine.com/tracking/
 ||worldflagcounter.com^$third-party
 ||cloudfront.net/esf.js
@@ -10012,7 +10014,6 @@ _mongo_stats/
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||vk.com/videostats.php
 ||auth.services.adobe.com/signin/v1/audit
-||posthog.com^$third-party
 ||e.m6web.fr/events
 .zippingcare.com/beacon/$image
 /angular-tag.js
@@ -10249,6 +10250,7 @@ _event_tracking?
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
 ||koddi.com^$third-party
 ||woopra.com^$third-party
+||app.posthog.com/e/?compression=
 @@||pendo.io/agent/static/$script,domain=recruiting.adp.com
 ||todomercadoweb.es/pixel
 /hit_count?
@@ -11871,6 +11873,7 @@ _WebVitalsReporter_
 ||qortex.ai^$third-party
 /scripts/hbx.js
 /magento2.js
+||xapi.ozon.ru^$ping
 ://track.opentable.
 ||about.me/track?
 /prime-email-metrics/*$image
