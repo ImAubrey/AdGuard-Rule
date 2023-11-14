@@ -1,4 +1,4 @@
-# Update time: 2023-11-14 08:57:50
+# Update time: 2023-11-14 20:24:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5397,6 +5397,7 @@ _view_pixel&$image
 /analytics/click?
 /post.pinterest.com/q/*$image
 ||atsptp.com^$third-party
+/cmanalytics.min.js
 ||mkcms.com/stats.js
 /tracking/open?
 /webtrack.js
