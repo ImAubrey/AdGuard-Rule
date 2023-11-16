@@ -1,4 +1,4 @@
-# Update time: 2023-11-16 09:00:02
+# Update time: 2023-11-16 20:25:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4694,6 +4694,7 @@ _stat_counter.php?
 ||cpx.to^$domain=quoka.de
 /streamsense.min.js
 ||lr-intake.com^$third-party
+||listen.audiohook.com/*/pixel.png
 /eventtracking/*
 ||wondershare.es/jslibs/track.js
 ||insitemetrics.com^$third-party
@@ -5990,6 +5991,7 @@ _trackWebtrekkEvents.
 ||adabra.com^$third-party
 /monitus.js
 ||103bees.com^$third-party
+||finalyticsdata.com^$third-party
 ||rodale.com/ga/
 ||siteplug.com^$third-party
 ||mediaquark.com/tracker.js
@@ -9628,6 +9630,7 @@ _rpc/log?
 ||mateti.net^$third-party
 /piwik1.
 ||clustrmaps.com/counter/$third-party
+@@||geolocation-db.com/json/$domain=admanager.line.biz
 /StatsPixel?
 ||brandlock.io^$third-party
 ||wymiana.org/stat/
@@ -11280,7 +11283,6 @@ _WebVitalsReporter_
 ||ioam.de/?$domain=notebookcheck.com
 ||c1exchange.com^$third-party
 ||clickbrainiacs.com^$third-party
-||mp3vizor.com^$third-party
 ||easy.lv^$third-party
 ||evt.collarity.com^$image
 ||imagetwistcams.com/pixel/
