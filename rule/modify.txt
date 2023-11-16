@@ -1,4 +1,4 @@
-# Update time: 2023-11-15 20:25:19
+# Update time: 2023-11-16 09:00:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2051,6 +2051,7 @@ _logHuman=
 ||all-top.ru/cgi-bin/topcount.cgi?
 ||baidu.com/hm.gif?
 ||conductrics.net^$third-party
+||dubz.live/analytics/
 ||googleapis.com/gadasource/gada.js
 ||babator.com^$domain=focus.de
 ||imgur.com/albumview.gif?
@@ -2827,6 +2828,7 @@ _adblock_stat.
 /piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /track-opening/*
 /track?referer=
+||aim.cloudflare.com/__log
 /getlog.gif
 /Engagement/TrackEventAsync
 /notifications.google.com/g/img/*$image
@@ -9540,6 +9542,7 @@ _rpc/log?
 ||indeed.com/m/rpc/frontendlogging
 /atatus.js
 ||sitecompass.com^$third-party
+||algolia.net/1/isalive?
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 ||canem-auris.com^$third-party
 ||freedom.com^*/analytics/
@@ -9648,6 +9651,7 @@ _rpc/log?
 ||nhk.or.jp^*/bc.js
 /pageview;
 ||uplift-platform.com^$third-party
+||developer.mozilla.org/submit/
 ||estat.com^$third-party
 ||enticelabs.com^$third-party
 ||birdsend.email/pixel
