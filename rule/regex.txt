@@ -1,4 +1,4 @@
-# Update time: 2023-11-17 20:24:50
+# Update time: 2023-11-18 08:59:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -165,7 +165,6 @@
 ||liveweb*.msstatic.com^
 ||pangolin-sdk-toutiao*.com^
 ||ads.*.kugou.com^
-||pangolin-sdk-toutiao*.com^ 
 ||ads*-normal*.zijieapi.com^
 ||log*-misc-lq.amemv.com^
 ||v*-ad.video.yximgs.com^
