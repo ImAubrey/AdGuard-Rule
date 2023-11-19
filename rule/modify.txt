@@ -1,4 +1,4 @@
-# Update time: 2023-11-18 20:22:36
+# Update time: 2023-11-19 09:03:54
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2432,6 +2432,7 @@ _logHuman=
 ||etrigue.com^$third-party
 ||roosterfirework.com^$third-party
 ||smtrk.net^$third-party
+||hyteck.de/count.js
 @@||adobetag.com/d2/telecomitalia/live/Aggregato119TIM.js$domain=tim.it
 /pvcounter.js
 ||fensi.plus^*/tracking/
@@ -8027,7 +8028,6 @@ _track_pixel.gif?
 ||toutiao.com^*/user_log/
 /fbcounter/counter.cgi
 ||fndrsp.net^$third-party
-||xp.apple.com^$~ping
 /kameleoon/script.js
 ||wbdx.fr^$third-party
 ||hrbpark.bid^$third-party
@@ -8255,6 +8255,7 @@ _track_pixel.gif?
 /eva-analytics.min.js
 ||uai.com.br^*/analytics.js
 ||wrating.com^$third-party
+||mo8it.com/count.js
 ||retargetapp.com^$third-party
 ||uadx.com^$third-party
 /impression?mkevt=
