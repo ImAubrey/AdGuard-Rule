@@ -1,4 +1,4 @@
-# Update time: 2023-11-19 09:03:54
+# Update time: 2023-11-19 20:22:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2803,6 +2803,7 @@ _logHuman=
 ||free-counter.co.uk^$third-party
 ||compteur-fr.com^$third-party
 ||funneld.com^$third-party
+/api/metrics/collect
 ||mibatech.com/track/
 /LogRecorder.php
 ||consent.trustarc.com/noticemsg?
@@ -3394,6 +3395,7 @@ _Clicktale.
 /analyticsFooter.js
 ||yandex.ru/log?
 ||run.app/metrics/
+||analytics-debugger.com^$third-party
 ||mql5.com/tr?
 ||inside-graph.com^$third-party
 ||evidon.com/pub/
@@ -6099,6 +6101,7 @@ _beacon?
 .skimlinks.js
 ||oracleimg.com^*/metrics/
 ||ranking-charts.de^$third-party
+||crashlytics.com^$third-party
 /client-metrics/?target
 ||hadrianpaywall.com/views
 .keap-link009.com/$image
@@ -6451,6 +6454,7 @@ _beacon?
 ||deepl.com/web/statistics
 /ztracker.js
 ||200summit.com^$third-party
+||perplexity.ai/api/$xmlhttprequest
 /analytics.bundled.js
 /ajaxlog?
 ||freshcounter.com^$third-party
@@ -11925,6 +11929,7 @@ _WebVitalsReporter_
 /inpl.measure.jssc
 ||bing.com/rewardsapp/reportActivity?
 ||bhphotovideo.com/3D8mkYG1/init.js
+||deepnote.com/api/track
 ||whattomine.com/stats
 /uedata?
 ||pushbullet.com^$third-party
