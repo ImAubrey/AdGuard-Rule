@@ -1,4 +1,4 @@
-# Update time: 2023-11-20 20:26:46
+# Update time: 2023-11-21 09:01:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1578,6 +1578,7 @@ _logHuman=
 ||needle.com/pageload?
 ||hornymatches.com^*/visit.php?
 ||arrowpushengine.com^$third-party
+@@||api-mg2.db-ip.com^$xmlhttprequest,domain=journal-news.com
 ||metro.co.uk/base/rta/
 ||alooma.io/track/?
 ||rampanel.com^$third-party
@@ -9790,6 +9791,7 @@ _imp?Log=
 /stat/count
 ||drudgereport.com/204.png
 ||baidu.com/kan/api/ipLocation
+://email.*/o/$image
 ||b.px-cdn.net/api/v1/PXrf8vapwA/
 ||admetric.io^$third-party
 /pixeltrack.
