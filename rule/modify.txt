@@ -1,4 +1,4 @@
-# Update time: 2023-11-21 09:01:09
+# Update time: 2023-11-21 20:26:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6457,7 +6457,6 @@ _beacon?
 ||deepl.com/web/statistics
 /ztracker.js
 ||200summit.com^$third-party
-||perplexity.ai/api/$xmlhttprequest
 /analytics.bundled.js
 /ajaxlog?
 ||freshcounter.com^$third-party
@@ -8812,6 +8811,7 @@ _rpc/log?
 ||iplocationtools.com^$third-party
 ||h2porn.com/new-hit/?
 ||sl-ct5.com^$third-party
+||342251b-beta.perplexity.ai/api/$xmlhttprequest
 ||openhit.com^$third-party
 ||trafficscanner.pl^$third-party
 /pv/?aid=
