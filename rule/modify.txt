@@ -1,4 +1,4 @@
-# Update time: 2023-11-21 20:26:16
+# Update time: 2023-11-22 09:02:00
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -178,6 +178,7 @@ retinaboys.com###screen_block
 ###detection-block-overlay
 wotactions.com###ads_warning
 2ip.me,2ip.ua##.alert-mess > .row
+filmix.biz,filmix.life,filmix.tech,filmix.zone##.remove-sda-wrap
 sostav.ru###rek_blocker
 ||honorableland.com^$third-party
 /adbclk2.
@@ -253,6 +254,7 @@ cyberscore.live##.wrapper-partner-rb
 ||smilingswim.com^$third-party
 pkmods.com##body > div[style*="z-index"][style*="background"]
 /blockadblock.$script,xmlhttprequest
+filmix.biz,filmix.life,filmix.tech,filmix.zone###oframeplayer > #player_control_play-icon ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
 nexusmods.com##.areplacer
 ||gameblog.fr/images/ablock/
 ||questionableobservation.com^$third-party
@@ -505,7 +507,6 @@ biggestplayer.me##.soret
 ###adblockpopup
 ceesty.com,clkme.me,clkmein.com,cllkme.com,corneey.com,destyy.com,festyy.com,gestyy.com,jigbig.tk,newsfortrump.ga,sh.st,shorte.st,skiip.me,skipp.io,viid.me,wiid.me##.information-container
 admin.rainbow-online.ru,fastpic.ru,gitjournal.tech,logist.uxxo.ru,maxpark.com,meteoservice.ru,newsland.com,pawno-info.ru,smolensk-auto.ru,smolensk-auto.site##body > div[id]:not([class])[style="display: block;"]
-filmix.ac,filmix.gay,filmix.homes,filmix.life,filmix.tech,filmix.zone###oframeplayer > #player_control_play-icon ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
 ||hollowafterthought.com^$third-party
 /wp-content/plugins/ad-block-defender/*
 monacomatin.mc,nicematin.com,varmatin.com##.modalRhoo
@@ -789,7 +790,6 @@ fstore.biz#@##adblockinfo
 gamaniak.com#@#.adsbygoogle
 hypebeast.com,hypebeast.kr#@#.ad-blocked
 myanimelist.net##._unit
-filmix.ac,filmix.gay,filmix.homes,filmix.life,filmix.tech,filmix.zone##.remove-sda-wrap
 gdekluet.ru##body > div[class^="stop-block"]
 ||vazhno.ru/cdn-cgi/apps/head/*.js
 ||shakegoldfish.com^$third-party
@@ -1604,6 +1604,7 @@ _logHuman=
 .mozilla.org/eos/$image
 /yell-analytics-min.js
 ||spotifycdn.com/cdn/js/retargeting-pixels-
+||sensor.grubhub.com/O97ybH4J/init.js
 ||letv.com/env/
 ||histats.com^$third-party
 ||mail.qq.com/cgi-bin/getinvestigate?
@@ -8288,6 +8289,7 @@ _track_pixel.gif?
 ||schoolyeargo.com^$third-party
 /1px.php?
 ||salesviewer.org^$third-party
+||videoamp.com^$third-party
 /nielsen.htm
 /web_answertip.js
 ||jeremiahlee.com/fanboynz.js
