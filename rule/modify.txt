@@ -1,4 +1,4 @@
-# Update time: 2023-11-22 20:25:59
+# Update time: 2023-11-23 08:59:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2655,6 +2655,7 @@ _logHuman=
 ||simplycast.us^$third-party
 ||offerstrategy.com^$third-party
 ||cbsi.com/lib/api/client-info
+||clubic.com/tview
 /tracking/log?
 ||livehelpnow.net/lhn/handler/$image
 ||xplosion.de^$domain=comunio.de
@@ -4389,6 +4390,7 @@ _stat_counter.php?
 ||facebook.com/platform/scribe_endpoint.php/
 ||repstatic.it^*/nielsen_static_mapping_repubblica_
 ||yandex.ru/cycounter?
+||weibo.cn/h5logs/
 ||events.release.narrativ.com^$subdocument,xmlhttprequest
 ||forms.aweber.com^*/displays.htm?id=
 ||vooxe.com/analytics.js
@@ -5599,6 +5601,7 @@ _trackWebtrekkEvents.
 /google_tracker.js
 ||walla.co.il/CountsHP.asp?
 ||clickcease.com^$third-party
+||inmobi.com/?log
 ||mmtro.com^$third-party
 ||csdn.net^*/counter.js
 /StatsCollector/*
@@ -11364,6 +11367,7 @@ _WebVitalsReporter_
 /api/v1/streamtelemetry
 ||denakop.com^$third-party
 ||facebook.com/tr/
+/pixel_tracker_cpm_
 ||compteur.fr^$third-party
 ||estrack.net^$third-party
 /brandAnalytics.js
@@ -11646,6 +11650,7 @@ _WebVitalsReporter_
 /emos2.js
 ||cloudapp.net/l/
 ||peruse.ai^$third-party
+||cdn.sourcesync.io/open-pixel/source-pixel.js
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
 ||ncom.dk^$third-party
 ||adpies.com^$third-party
