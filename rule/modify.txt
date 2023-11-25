@@ -1,4 +1,4 @@
-# Update time: 2023-11-25 08:57:18
+# Update time: 2023-11-25 20:22:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1321,7 +1321,6 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||fandommetrics.com^$third-party
 ||veinteractive.com^$third-party
 /stats.*/tracker.
-||clicker.com^*pageurl$third-party
 ||api64.com^$third-party
 ||gameforge.de/init.gif?
 /api_ip_info.php
@@ -2443,7 +2442,6 @@ _logHuman=
 /analytics-reporter/*
 ||plug.it/tracks/
 /gaCustom.js
-||clickfunnels.com/userevents/
 /Tracking?id=
 /stats_img.png?
 ||warnermedia.com/api/v1/events?
@@ -3887,7 +3885,6 @@ omni.soundestlink.com$image
 ||traceworks.com^$third-party
 ||bloggeramt.de^$third-party
 ||dmcdn.net/behavior/
-||hsforms.com^*/timings.gif$image
 ||capture.trackjs.com^$third-party
 ||getpublica.com^$third-party
 ||decideinteractive.com^$third-party
@@ -4230,7 +4227,6 @@ _stat_counter.php?
 ||thecounter.com^$third-party
 ||pushdom.co^$third-party
 ||affistats.com^$third-party
-||hsforms.com^*/counters.gif
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
 /AppMeasurement.min.js
 ||scloud.online/stat/
@@ -4586,7 +4582,6 @@ _stat_counter.php?
 ||vcita.com/tr_
 ||get4click.ru^$third-party
 ||i2ad.jp^$third-party
-||clickfunnels.com^*/track?
 /UniqueUserVisit?
 ||tamgrt.com^$third-party
 ||domainit.com/scripts/track.js
@@ -5514,7 +5509,6 @@ _view_pixel&$image
 @@||gemius.pl/gstream.js
 ||ecustomeropinions.com^*/i.php?
 /tagAnalyticscnil.php
-||clickfunnels.com/cf.js
 ||flixcart.com/px/gNtTli3A/init.js
 /record.do?
 ||campaigncog.com^$third-party
@@ -5828,7 +5822,6 @@ _trackWebtrekkEvents.
 ||azurewebsites.net/api/views?
 /PageHit.ashx
 ||acsbap.com^$third-party
-||clickiocdn.com/consent/log/
 ||bam-x.com^$third-party
 ||marmiton.org/reloaded/errpix.php
 /geoip_cc
@@ -5871,7 +5864,6 @@ _trackWebtrekkEvents.
 ||akstat.com^$third-party
 /webtrends.min.js
 /event.gif?
-||clickiocdn.com/clickiotag_log/
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
 ||os-data.com^$third-party
 ||douyucdn.cn/fish3/1.gif
@@ -9100,7 +9092,6 @@ _rpc/log?
 /js/admiral-
 ||radiateb2b.com^$third-party
 /s.gif?
-||clickfunnels.com/assets/pushcrew.js$third-party
 /IPbeacon.min.js
 /videojs.ga.
 /clicklog.
@@ -10215,6 +10206,7 @@ _event_tracking?
 /loggingService.js
 @@||adobedtm.com/launch-$script,xmlhttprequest
 ||gm99.com^$third-party
+||hsforms.com/embed/v3/counters.gif
 ||1freecounter.com^$third-party
 /googletrack.js
 ||p-td.com^$third-party
@@ -10318,6 +10310,7 @@ _event_tracking?
 /wtid.js
 @@||channel.images.production.web.w4a.tv^*/ard.png?$domain=yallo.tv
 ||suntcontent.se^$third-party
+@@||src.litix.io/videojs/*/videojs-mux.js$domain=plus.nasa.gov
 ||wallkit.net^*/user/event
 /stat_click.
 ||snaps.vidiemi.com^$third-party
