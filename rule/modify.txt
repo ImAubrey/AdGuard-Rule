@@ -1,4 +1,4 @@
-# Update time: 2023-11-24 20:24:34
+# Update time: 2023-11-25 08:57:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -864,6 +864,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||coinpot.co^$third-party
 ||smartctr.com^$third-party
 /wreport.js
+||amazonaws.com/webengage-files/
 /iMAWebCookie.js
 /page/page_view
 ||navilytics.com^$third-party
@@ -2728,6 +2729,7 @@ _logHuman=
 ||cuntador.com^$third-party
 ||fullscreen.nz/v1/tracking/$domain=threenow.co.nz
 @@||cnet.com/a/video-player/uvpjs-rv/$script,~third-party
+||kemono.su/api/v1/%D0%B5vent
 ||gml-grp.com^*&affid=$subdocument,third-party
 ||leadforce1.com^$third-party
 ||img-static.com/CERISE.gif?
@@ -3025,6 +3027,7 @@ _Clicktale.
 ||calvinklein.us/n8ANl15k/init.js
 ||workers.dev/api/event
 ||skoom.de/gratis-counter/
+@@||iwrite.unipus.cn/js/main/GPT.js$~third-party
 ||coherentpath.com/tracker/
 ||webtrackingservices.com^$third-party
 ||easytracking.de^$third-party
@@ -5135,7 +5138,6 @@ _stat_counter.php?
 ||novanthealth.org/v1/tagular/beam
 ||emarketeer.com/tracker/
 /track_click?
-||kemono.su/api/v1/event
 ||pubperf.com^$third-party
 ||eage.it/count2.php?
 ||tripcdn.com/bee/collect$domain=trip.com
@@ -7511,6 +7513,7 @@ _track_pixel.gif?
 @@||karte.io/libs/tracker.$domain=zf1.tohoku-epco.co.jp|zozo.jp
 ||links.strava.com^$image
 ||segmetrics.io^$third-party
+||webengage.co^$third-party
 ||wenku.baidu.com/tongji/
 /pixel_iframe.php
 /stat.htm?$domain=~192.168.0.1|~192.168.1.1
@@ -7837,6 +7840,7 @@ _track_pixel.gif?
 /pagestat?
 ||amarfa.ir^$third-party
 /segment/js/*
+||apibaza.com/pixel/
 ||belstat.fr^$third-party
 /analytics-prod.js
 /amp-call-tracking-
@@ -9903,7 +9907,6 @@ _imp?Log=
 /logviewedpage?
 /beacon/error?
 ||blasterzone.it/analytics/
-||coomer.su/api/v1/event
 /new-relic.min.js
 /pixels.jsp?
 /web-data-ingress?
@@ -10762,6 +10765,7 @@ img.promio-connect.com$image
 ||sni-dat.com^$third-party
 /awstats_misc_tracker
 ||inboxtag.com^$third-party
+||coomer.su/api/v1/%D0%B5vent
 ||imagefap.com/images/yes.gif?
 /api/pageactivity
 ||my-ranking.de^$third-party
