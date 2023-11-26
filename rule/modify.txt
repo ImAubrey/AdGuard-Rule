@@ -1,4 +1,4 @@
-# Update time: 2023-11-26 09:03:06
+# Update time: 2023-11-26 20:22:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8213,6 +8213,7 @@ _track_pixel.gif?
 /pagedot.gif?$domain=focus.de
 ||waplog.net^$third-party
 @@||trackjs.com/agent/$script,domain=delta.com
+||petametrics.com^$domain=meidastouch.com
 ||count.ly^$third-party
 ||agrvt.com^$third-party
 /owa.Analytics.m.js
@@ -8643,6 +8644,7 @@ _rpc/log?
 /csi?v=*&action=
 ||retargettracker.com^$third-party
 /addLinker.js
+/pixelyoursite/dist/scripts/public.js
 ||reachlocalservices.com^$third-party
 /ga-track-external.js
 ||bigtracker.com^$third-party
@@ -11660,6 +11662,7 @@ _WebVitalsReporter_
 ||connatix.com/rtb/
 ||hasbro.com/includes/js/metrics/
 ||plausibleio.workers.dev^$third-party
+||redditstatic.com/shreddit/sentry-
 ||streamtape.xyz/stat/
 ||opendesktop.org/l/fp
 /log.php?*http
