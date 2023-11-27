@@ -1,4 +1,4 @@
-# Update time: 2023-11-27 08:59:56
+# Update time: 2023-11-27 20:25:39
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2574,7 +2574,6 @@ _logHuman=
 /pixel/visit?
 ||cmptch.com^$third-party
 ||tracking.tuobenessere.it^$script
-@@||js.monitor.azure.com/scripts/$script,domain=microsoft.com|rubex.efilecabinet.net
 /stats/lookup?
 ||netclickstats.com^$third-party
 ||laregione.ch/ext/av.php?
@@ -3100,6 +3099,7 @@ _Clicktale.
 /cgi-bin/ctasp-server.cgi?
 ||geni.us/snippet.js
 /adobe-analytics2.js
+@@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
 ||qiyukf.com/webda/da.gif$domain=youdao.com
 ||more-data.ru^$third-party
 ||cartstack.com^$third-party
@@ -4278,6 +4278,7 @@ _stat_counter.php?
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
 ||waust.at^$third-party
 ||mpwe.net^$third-party
+@@||src.litix.io/videojs/*/videojs-mux.js
 /track?*&event=
 ||bigw.com.au/api/event/
 ||app.posthog.com/static/array.js
@@ -9423,6 +9424,7 @@ _rpc/log?
 ||alicdn.com/f/pcdn/i.php?
 /ba_tracking.js
 ||vbanalytics.com^$third-party
+||appspot.com/track-analytics-event
 ||hub.reacti.co/index.js
 ||porzo.com/js/analytics
 ||pptv.com/stg/add?
@@ -10314,7 +10316,6 @@ _event_tracking?
 /wtid.js
 @@||channel.images.production.web.w4a.tv^*/ard.png?$domain=yallo.tv
 ||suntcontent.se^$third-party
-@@||src.litix.io/videojs/*/videojs-mux.js$domain=plus.nasa.gov
 ||wallkit.net^*/user/event
 /stat_click.
 ||snaps.vidiemi.com^$third-party
