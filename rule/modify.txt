@@ -1,4 +1,4 @@
-# Update time: 2023-11-28 09:00:31
+# Update time: 2023-11-28 20:25:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2065,6 +2065,7 @@ _logHuman=
 ||star-cntr-5.com^$third-party
 ||h-bid.com^$third-party
 ||trilogyed.com^$third-party
+||walmartethics.com/px/PXcfrcFEfA/init.js
 ||mapandroute.de/log.xhr?
 ||qzzr.com/_uid.gif
 ||formstack.com/forms/js/*/analytics_
@@ -4066,6 +4067,7 @@ _stat_counter.php?
 ||outbound.io/v2/identify
 ||tapewithadblock.org/stat/
 ||youtube.com/get_video?
+||walmartcareerswithamission.com/px/PXcfrcFEfA/init.js
 ||clubcollector.com^$third-party
 ||lancenet.com.br/pw.js
 ||emetriq.de^$domain=focus.de
@@ -5134,6 +5136,7 @@ _stat_counter.php?
 ||novanthealth.org/v1/tagular/beam
 ||emarketeer.com/tracker/
 /track_click?
+||walmartcanada.ca/px/PXcfrcFEfA/init.js
 ||pubperf.com^$third-party
 ||eage.it/count2.php?
 ||tripcdn.com/bee/collect$domain=trip.com
@@ -7478,6 +7481,7 @@ _track_pixel.gif?
 ||geniuslinkcdn.com^$third-party
 ||ptengine.com^$third-party
 /onestat.js
+||walmartrealty.com/px/PXcfrcFEfA/init.js
 ||raiplaysound.it/hit-service/
 /cdn-cgi/pe/bag2?r[]=*eth-pocket.de
 ||tp88trk.com^$third-party
@@ -8889,6 +8893,7 @@ _rpc/log?
 ||pxaction.com^$third-party
 ||getsentry.com^$third-party,domain=~sentry.dev|~sentry.io
 ||saasexch.com/bapi/fe/usd/report/
+||sams.com.mx/px/PX87wpO5aK/init.js
 ||ss.lv/counter/
 ||insightgrit.com^$third-party
 ||byteoversea.com/captcha/report
@@ -11873,6 +11878,7 @@ _WebVitalsReporter_
 ||refericon.pl^$third-party
 ||avmws.com^$third-party
 ||talpa-analytics.com^$third-party
+||discount.hk-hotel.com/QUkd4lO9/init.js
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||webminepool.com^$third-party
 ||iogous.com^$third-party
@@ -11987,6 +11993,7 @@ _WebVitalsReporter_
 ||mdxprod.io/analytics.js
 ||madkudu.com^$third-party
 /smmch-mine.js
+||asda.com/px/PX1UGLZTko/init.js
 /trkga.js
 ||devtribu.fr/t.php?
 ||abebooks.com/timer.gif?
