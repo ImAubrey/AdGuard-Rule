@@ -1,4 +1,4 @@
-# Update time: 2023-11-27 20:25:39
+# Update time: 2023-11-28 09:00:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5593,6 +5593,7 @@ _trackWebtrekkEvents.
 ||mybbc-analytics.files.bbci.co.uk/reverb-client-js/smarttag-
 /google_tracker.js
 ||walla.co.il/CountsHP.asp?
+||ebaystatic.com^*tracking/configuration.js
 ||clickcease.com^$third-party
 ||inmobi.com/?log
 ||mmtro.com^$third-party
@@ -7870,6 +7871,7 @@ _track_pixel.gif?
 ||audiens.com^$third-party
 /blaize/datalayer
 ||ongsono.com^$third-party
+@@||e.cquotient.com/recs/$script,domain=fender.com
 @@||addthis.com/*-angularjs.min.js$script,domain=ead.senac.br|missingkids.com|missingkids.org
 ||data.tm-awx.com/smile-web.min.js
 ||3ng6p6m0.de^$third-party
@@ -8370,6 +8372,7 @@ _track_pixel.gif?
 ||icbdr.com/images/pixel.gif
 ||rktu.com^$third-party
 /cp.gap.com/o/*$image
+@@||cdn.cquotient.com/js/$domain=fender.com
 ||pingagenow.com^$third-party
 ||silverpop.com^$third-party
 @@||detik.com/urchin.js
