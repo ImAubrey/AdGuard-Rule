@@ -1,4 +1,4 @@
-# Update time: 2023-11-28 20:25:19
+# Update time: 2023-11-29 09:00:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3347,6 +3347,7 @@ _Clicktale.
 ||bugherd.com^$third-party
 ||xfinity.com/event/
 ||adtimaserver.vn^$third-party
+||google.com/ads/measurement/
 ||searchplow.com^$third-party
 /amp-access/cta/*
 ||link.realself.com^$image
