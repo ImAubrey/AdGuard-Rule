@@ -1,4 +1,4 @@
-# Update time: 2023-12-02 20:22:14
+# Update time: 2023-12-03 09:03:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3874,6 +3874,7 @@ omni.soundestlink.com$image
 ||appinthestore.com/click/
 ||listenlayer.com^$third-party
 .php?notrack=
+/adobeanalytics.js
 ||app.carnow.com/dealers/track_visitor
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
 ||rfksrv.com/rfkj/$image
@@ -6949,6 +6950,7 @@ _hits_stat.
 ||stats4free.de^$third-party
 @@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair.resmed.com
 ||mineralt.io^$third-party
+||ashleyfurniture.com/ouqLB4fq/init.js
 ||splittag.com^$third-party
 /stats?object
 ||client.tahono.com^$third-party
@@ -8633,6 +8635,7 @@ _rpc/log?
 ||geckofoot.com/gfvisitormap.aspx?
 ||bonitrust.de^$third-party
 ||hubspot.com/analytics/
+||ktla.com/CvbtpUrj/init.js
 ||web-boosting.net^$third-party
 ||change.org/api-proxy/-/bandit/pull
 ||stat.ustore.bz^$third-party
@@ -9704,6 +9707,7 @@ _imp?Log=
 ||optimizely.com/public/
 .eventim.de/op/$image
 ||tns-cs.net^$third-party
+||wgno.com/CvbtpUrj/init.js
 ||servebom.com^$third-party
 /cookieAnalytics.js
 ||dimestore.com^$third-party
