@@ -1,4 +1,4 @@
-# Update time: 2023-12-03 09:03:10
+# Update time: 2023-12-03 20:22:58
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2062,6 +2062,7 @@ _logHuman=
 ||maxmind.com^*/geoip2.js
 /segmentio.js
 ||edt02.net^$third-party
+||target.com/consumers/v1/ttms/events?
 ||screen13.com^$image
 ||247-inc.com^$third-party
 ||star-cntr-5.com^$third-party
@@ -4177,6 +4178,7 @@ _stat_counter.php?
 /api/v3/trackSegmentEvent
 ||anametrix.com^$third-party
 ||accesstrade.net^$third-party
+||turbobit.*/fdUserFingerprintToken.js
 ||rackcdn.com/gate.js
 /stats?ev=
 @@||8tm.net/static/img/fbpixel.png$~third-party
@@ -4472,6 +4474,7 @@ _stat_counter.php?
 ||tnctrx.com^$third-party
 /stat2.js
 ||mtvnservices.com/measurements/
+||target.com/rum_analytics/
 /edAnalyticsWrapper.js
 /logExecutionStats?
 /webmnr.min.js
@@ -4668,6 +4671,7 @@ _stat_counter.php?
 /hittrack.cgi?
 ||impdesk.com/smartpix/
 @@||sohotheatre.com^*/PageView.js$~third-party
+/dwanalytics.js
 /ga_helper.js
 ||digitaloptout.com^$third-party
 ||ccrtvi.com^$third-party
@@ -5608,6 +5612,7 @@ _trackWebtrekkEvents.
 /StatsCollector/*
 /analytics/analytics.js
 @@||swa.mail.ru/cgi-bin/counters?$script
+||skiphop.com/0F3091f3/init.js
 ||svc.dynamics.com/f/m/$third-party
 /traffic_record.php?
 ||webservis.gen.tr^$third-party
@@ -5700,6 +5705,7 @@ _trackWebtrekkEvents.
 ||domodomain.com^$third-party
 ||statistiche-free.com^$third-party
 ||digitaloceanspaces.com/pixel/
+||files.envoke.com^*_nvk_tracking.js
 /boomerang-latest.js
 ||altervista.org/js/contatore.js
 ||first-id.fr^$third-party
@@ -5939,6 +5945,7 @@ _trackWebtrekkEvents.
 ||theadex.com^$domain=prosieben.at|prosieben.ch|prosieben.de
 ||octaneai.com^*/utrk
 /LogImpression?
+||target.com/telemetry_data/
 .email.*/tr/op/$image
 /session/referer
 /scriptAnalytics.
@@ -6913,6 +6920,7 @@ _hits_stat.
 ||stattrax.com^$third-party
 ||mytictac.com^$third-party
 ||mepirtedic.com^$third-party
+||configurator.ecom-mobile-samsung.com/api/logger
 ||free-counters.co.uk^$third-party
 ||tiser.com.au^$third-party
 ||referer.org^$third-party
@@ -7034,7 +7042,6 @@ _track_pixel.gif?
 ||bestcontactform.com^$~image,third-party
 ||mktoresp.com^$third-party
 ||datafront.co^$third-party
-||files.envoke.com^*/adt_nvk_tracking.js
 /adobe-prd/*
 @@||c.lytics.io/api/tag/$script,domain=time.com
 /rtm-tracking.
@@ -9315,6 +9322,7 @@ _rpc/log?
 ||baidu.com/js/o.js
 /pxlctl.gif
 ||semanticverses.com^$third-party
+||samsung.com/us/web/internal/logger
 ||hif.to^$third-party
 ||nordstrom.com/api/cupcake/
 ||iubenda.com/write?
@@ -10003,6 +10011,7 @@ _mongo_stats/
 /viewTracking.min.js
 ||halifax-online.co.uk/scripts/16c9d93d/
 ||pluso.ru/ping.php?
+||target.com/consumers/v1/ingest/web/eventstream?
 ||trackset.it^$third-party
 /collect.gif?
 /js/analitics.js
@@ -10049,6 +10058,7 @@ _mongo_stats/
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||vk.com/videostats.php
 ||auth.services.adobe.com/signin/v1/audit
+||oshkosh.com/0F3091f3/init.js
 ||e.m6web.fr/events
 .zippingcare.com/beacon/$image
 /angular-tag.js
@@ -11387,7 +11397,6 @@ _WebVitalsReporter_
 ||disqus.com/event.js?$script
 ||trustarc.com/cap?
 ||worldlogger.com^$third-party
-||turbobit.*/js/analytics/
 ||joka.it/inquiero/isapi/csf.dll?
 ||stascorp.com/stat/
 /analytics-amplitude-
