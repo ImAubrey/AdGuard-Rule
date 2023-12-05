@@ -1,4 +1,4 @@
-# Update time: 2023-12-05 09:00:40
+# Update time: 2023-12-05 20:25:20
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2452,6 +2452,7 @@ _logHuman=
 ||zlx.com.br^$third-party
 /submission/pageview
 ||redditstatic.com/accountmanager/sentry.
+||newsnationnow.com/yZuPxxW0/init.js
 ?logType=trackEvent&
 @@||blackcircles.ca^$script,~third-party
 ||trick17.it^$third-party
