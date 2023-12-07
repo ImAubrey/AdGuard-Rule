@@ -1,4 +1,4 @@
-# Update time: 2023-12-07 09:00:08
+# Update time: 2023-12-07 20:25:21
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3003,6 +3003,7 @@ _Clicktale.
 ||9nl.eu^$third-party
 ||qualtrics.com/sie/$script,third-party
 ||localytics.com^$third-party
+||aachener-zeitung.de/zva/drive.js
 /safelinkconverter.js
 ||recurly.com/js/v1/events
 /sauron-analytics/*
@@ -4577,6 +4578,7 @@ _stat_counter.php?
 ||drupal.org/VnPBBfwe/init.js
 /track?events=
 /gs-analytics-init.js
+||prod-mhaa.mhtr.be/public/tr/tracker.min.js
 ||gtcslt-di2.com^$third-party
 ||vcita.com/tr_
 ||get4click.ru^$third-party
