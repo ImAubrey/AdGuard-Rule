@@ -1,4 +1,4 @@
-# Update time: 2023-12-06 20:25:39
+# Update time: 2023-12-07 09:00:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -213,13 +213,11 @@ redtube.com##.qb
 @@||dbz-fantasy.com/ads.css
 ||rangeplayground.com^$third-party
 ||unadvisedengine.com^$third-party
-reshuct.by,reshuolymp.ru,sdamgia.ru#@#.googlead
 exler.ru##.adblock-pls
 freestore.app##.adbn2-wrap2
 delfi.ee###ab--notification-ribbon
 ||hystericalcloth.com^$third-party
 @@||nouvelle-fiat500.fr/ad-pub.js$script
-reshuct.by,sdamgia.ru##div[class$="-BlockDetect"]
 @@||ptitchef.com/js/ads.js
 journaldugeek.com##.banner__content
 ##.AdblockMessage
@@ -562,6 +560,7 @@ closermag.fr##div[id^="detection-block"]
 /adblock_alerter/*
 gismeteo.by,gismeteo.ru##div[class^="stopblock"]
 ||amazonaws.com^*/abb-msg.js$domain=hardocp.com
+reshu.by,sdamgia.ru##div[class$="-BlockDetect"]
 ||fearfulmint.com^$third-party
 besplatka.ua##.adBl
 /adblock-alerter/js/adblock_alerter.js
@@ -668,6 +667,7 @@ fightnews.info##body > blockquote
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=shahid4u1.vip|elktob.online
 ||clumsycar.com^$third-party
 ##.modal__body-adblock
+reshu.by,reshuent.kz,reshuolymp.ru,sdamgia.ru#@#.googlead
 ||expansioneggnog.com^$third-party
 ||jappy.tv/i/wrbng/abb.png
 ###mdp-deblocker-js-disabled
@@ -9775,6 +9775,7 @@ _imp?Log=
 /monetate.js
 ||linksynergy.com^$third-party
 ||amazonaws.com/prod/entities
+@@||stats.sports.bellmedia.ca^$domain=rds.ca|tsn.ca
 ||adsensedetective.com^$third-party
 ||apextwo.com^$third-party
 /keen-tracking.js
@@ -11813,7 +11814,6 @@ _WebVitalsReporter_
 /__wsm.gif
 ||d2-apps.net^$third-party
 ||clarium.io^$third-party
-@@||stats.sports.bellmedia.ca^$domain=tsn.ca
 ||cp.finanzfrage.net/stats
 ||performtracking.com^$third-party
 ||aruba.it/servlet/counterserver?
@@ -11968,6 +11968,7 @@ _WebVitalsReporter_
 ||onetrust.com^$ping
 ||d1f1eryiqyjs0r.cloudfront.net^*/track.
 /comscore?
+||iqzone.com^$third-party
 /pagelogger/connector.php?
 /track/batch?
 /amp-access/set?
