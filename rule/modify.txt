@@ -1,4 +1,4 @@
-# Update time: 2023-12-09 08:58:49
+# Update time: 2023-12-09 20:22:50
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1436,7 +1436,6 @@ _logHuman=
 /bootstrap/metrics.js
 /newrelic.min.js
 ||sitetistik.com^$third-party
-||kemono.su/api/v1/gevent
 ||priceline.com/9aTjSd0n/init.js
 ||whoisonline.net^$third-party
 ||thesmilingpencils.com^$third-party
@@ -7152,6 +7151,7 @@ _track_pixel.gif?
 /vtrack?vid=
 ||sddan.com^$third-party
 @@||optimove.net^$domain=app.touchnote.com
+||coomer.su/api/v1/coomernumba1
 .mgmailer.binance.com/o/$image
 /site_statistics.js
 /ga-local.js
@@ -9205,7 +9205,6 @@ _rpc/log?
 ||baidu.com/pixel?
 ||alljapanesepass.com/rstat
 /s.aspx?r=
-||solidtorrents.to/ping
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
 ||insbergs.lv/ins_statistics/
 /goAnalytics.js
@@ -10756,7 +10755,6 @@ img.promio-connect.com$image
 ||spaziogames.it/ajax/player_impression.ashx?
 ||lomadee.com^$third-party
 /utag.loader.js
-||coomer.su/api/v1/gevent
 /prod/ncg/*
 ||ibpxl.net^$third-party
 ||n74s9.com^$third-party
@@ -10851,6 +10849,7 @@ _ad_impression.
 ||optimizely.com/log
 ||sunios.de^$third-party
 @@||wpfc.ml/b.gif$image,domain=holybooks.com
+||kemono.su/api/v1/kemononumba1
 ||hybrid.ai^$third-party
 ||useinsider.com^$third-party
 ||onestat.com^$third-party
