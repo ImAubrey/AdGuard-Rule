@@ -1,4 +1,4 @@
-# Update time: 2023-12-08 20:24:58
+# Update time: 2023-12-09 08:58:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1436,6 +1436,7 @@ _logHuman=
 /bootstrap/metrics.js
 /newrelic.min.js
 ||sitetistik.com^$third-party
+||kemono.su/api/v1/gevent
 ||priceline.com/9aTjSd0n/init.js
 ||whoisonline.net^$third-party
 ||thesmilingpencils.com^$third-party
@@ -2724,7 +2725,6 @@ _logHuman=
 ||cuntador.com^$third-party
 ||fullscreen.nz/v1/tracking/$domain=threenow.co.nz
 @@||cnet.com/a/video-player/uvpjs-rv/$script,~third-party
-||kemono.su/api/v1/%D0%B5vent
 ||gml-grp.com^*&affid=$subdocument,third-party
 ||leadforce1.com^$third-party
 ||img-static.com/CERISE.gif?
@@ -5470,7 +5470,6 @@ _view_pixel&$image
 ://parcel-api.delivery-status.*/open/$image
 ||discovery.com^*/events
 /lib/analytics.js
-/metrics-reporter-bundle.js
 ||p24.hu^$third-party
 /ahoy/visits
 ||f.cdngeek.com^$domain=edugeek.net
@@ -8338,6 +8337,7 @@ _track_pixel.gif?
 /pr.php?
 ||naturaltracking.com^$third-party
 ||statpipe.ru^$third-party
+||visualwebsiteoptimizer.com/j.php
 ||vidazoo.com/event/
 ||kiva.org/r3pNVz1F/init.js
 /emtj_tracker.js
@@ -10756,6 +10756,7 @@ img.promio-connect.com$image
 ||spaziogames.it/ajax/player_impression.ashx?
 ||lomadee.com^$third-party
 /utag.loader.js
+||coomer.su/api/v1/gevent
 /prod/ncg/*
 ||ibpxl.net^$third-party
 ||n74s9.com^$third-party
@@ -10766,7 +10767,6 @@ img.promio-connect.com$image
 ||sni-dat.com^$third-party
 /awstats_misc_tracker
 ||inboxtag.com^$third-party
-||coomer.su/api/v1/%D0%B5vent
 ||imagefap.com/images/yes.gif?
 /api/pageactivity
 ||my-ranking.de^$third-party
