@@ -1,4 +1,4 @@
-# Update time: 2023-12-10 09:04:16
+# Update time: 2023-12-10 20:22:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2024,6 +2024,7 @@ _logHuman=
 /stattag.js
 ||paypal.com/platform/tealeaftarget
 ||upravel.com^$third-party
+/stats/events
 ||hrzn-nxt.com/pxl?
 ||airpr.com^$third-party
 ||mediatraffic.com.ua^$third-party
@@ -11332,6 +11333,7 @@ _WebVitalsReporter_
 ||p30rank.ir^$third-party
 ||otoshiana.com/ufo/
 /collect?tid=
+||camgirls.casa/p.php
 ||amazonaws.com/storejs/a/JKRHRQG/ge.js
 ||de17a.com^$third-party
 ||ensighten.com^$third-party
