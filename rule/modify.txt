@@ -1,4 +1,4 @@
-# Update time: 2023-12-10 20:22:43
+# Update time: 2023-12-11 09:00:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4875,6 +4875,7 @@ _stat_counter.php?
 /segment/api/*
 ||truenat.bid^$third-party
 /pushly-sw.
+||atlas.samsung.com/dls2/dtransf/wl?
 ||kinesis.eu-west-1.amazonaws.com^$third-party,domain=~amazon.com
 @@||iwa.iplsc.com/iwa.js$script
 ||mtvnservices.com/metrics/
@@ -6535,6 +6536,7 @@ _beacon?
 ||shinobi.jp/track?
 ||pcspeedup.com^$third-party
 /v1/adn/visit|
+/tr.gif?
 ||hitcounterstats.com^$third-party
 /cklog.js
 ||tracking.interweave.com^$third-party
@@ -7970,6 +7972,7 @@ _track_pixel.gif?
 ||connect.facebook.net^*/fbds.js$third-party
 ||truepush.com^$third-party
 ||olgtex.com^$third-party
+/intake/v2/rum.js
 ||heapanalytics.com^$third-party
 ||ooyala.com^*/report?log
 ||crmmetrix.fr^$third-party
@@ -10852,6 +10855,7 @@ _ad_impression.
 ||sunios.de^$third-party
 @@||wpfc.ml/b.gif$image,domain=holybooks.com
 ||kemono.su/api/v1/kemononumba1
+||tapenoads.com/stat/
 ||hybrid.ai^$third-party
 ||useinsider.com^$third-party
 ||onestat.com^$third-party
