@@ -1,4 +1,4 @@
-# Update time: 2023-12-13 09:00:17
+# Update time: 2023-12-13 20:25:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8198,7 +8198,6 @@ _track_pixel.gif?
 /tnsmetrix/*
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
 ||erate.co.il^$third-party
-@@||munchkin.marketo.net/munchkin.js$domain=telus.com
 ||brightedge.com^$third-party
 .ct.sendgrid.net/$image
 ||tracker.stats.in.th^$third-party
@@ -11658,6 +11657,7 @@ _WebVitalsReporter_
 ||altastat.com^$third-party
 ||trackmyweb.net^$third-party
 /phpmyvisites.js
+@@||munchkin.marketo.net/munchkin.js$domain=st.com|telus.com
 /ab_track.js
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at|teddyfood.com|xxl.se
 ||irs.gov/h4z97Hz8jMrNO/
