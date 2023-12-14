@@ -1,4 +1,4 @@
-# Update time: 2023-12-14 08:59:29
+# Update time: 2023-12-14 20:25:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1429,6 +1429,7 @@ _logHuman=
 ||btncdn.com^$third-party
 /bootstrap/metrics.js
 /newrelic.min.js
+||pixeltracker.co^$third-party
 ||sitetistik.com^$third-party
 ||priceline.com/9aTjSd0n/init.js
 ||whoisonline.net^$third-party
@@ -1692,6 +1693,7 @@ _logHuman=
 ||yahoo.co.jp/js/retargeting.js
 ||service-webmaster.fr/cpt-visites/$third-party
 ||govmetric.com^$third-party
+||popin.cc/js/pixel.js
 ||myomnistar.com^$third-party
 ||alex.leonard.ie/misc-images/transparent.png
 ||onesignal.com/webPushAnalytics
@@ -2688,6 +2690,7 @@ _logHuman=
 ||netzstat.ch^$third-party
 /mpulse.js
 ||gtopstats.com^$third-party
+/api/async.php?t=user&m=pagehits&
 ||amazonaws.com/appmonitors/
 ||united-infos.net/event?
 /wp-statistics-tracker.min.js
@@ -3232,7 +3235,6 @@ _Clicktale.
 /nm_trck.gif?$domain=spiegel.de
 ||adgainersolutions.com^$third-party
 /ppms.js
-.snowplowanalytics.$domain=~snowplowanalytics.com
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
 ||beyondsecurity.com^$third-party
 ||apartmenttherapy.com/jAYekY18/init.js
@@ -5639,6 +5641,7 @@ _trackWebtrekkEvents.
 ||fishki.net/counter/
 ||benchtag2.co^$third-party
 ||byteoversea.com/monitor_web/
+/com.snowplowanalytics.snowplow/*
 ||countar.de^$third-party
 ||tantifilm.top^*/ping
 ||linezing.com^$third-party
@@ -5770,6 +5773,7 @@ _trackWebtrekkEvents.
 ||akamaihd.net/p1lakjen.gif
 ||vendri.io^$third-party
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|gymshark.com|motortrendondemand.com
+/events/tracking
 /cfformprotect/js/cffp.js
 /track_general_stat.php
 /tracking/freewheel/*
@@ -6831,6 +6835,7 @@ _hits_stat.
 ||actu.fr/assets/js/smarttag5280-1.js
 ||affilizr.com^$third-party
 ||alipay.com/service/clear.png?
+||storage.googleapis.com/snowplow-cto-office-tracker-bucket/
 ||orts.wixawin.com^$third-party
 ||t.felmat.net^$third-party
 @@||bdash-cloud.com/recommend-script/$script,domain=junonline.jp
@@ -7015,6 +7020,7 @@ _track_pixel.gif?
 .intercom-mail.com/via/$image
 ||sexystat.com^$third-party
 ||connect.bolt.com/v1/log
+||realtimewebstats.com^$third-party
 ||bestcontactform.com^$~image,third-party
 ||mktoresp.com^$third-party
 ||datafront.co^$third-party
@@ -9684,6 +9690,7 @@ _imp?Log=
 ||wgno.com/CvbtpUrj/init.js
 ||servebom.com^$third-party
 /cookieAnalytics.js
+@@||addthis.com/js/*/addthis_widget.js$script,domain=stagecoachbus.com
 ||dimestore.com^$third-party
 @@||asadcdn.com/adlib/$domain=computerbild.de
 /DynamicAnalytics.js
@@ -11554,6 +11561,7 @@ _WebVitalsReporter_
 /weblog.js?
 @@||tennispro.eu/min/?$script,~third-party
 ||creately.com/static/js/creately-analytics-
+||pixeltracker.im^$third-party
 ||growingio.com^$third-party
 ||mon-pagerank.com^$third-party
 /RcAnalyticsEvents.js
