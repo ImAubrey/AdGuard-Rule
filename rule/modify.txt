@@ -1,4 +1,4 @@
-# Update time: 2023-12-16 08:59:13
+# Update time: 2023-12-16 20:22:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -109,6 +109,7 @@ play44.net,videobug.net,videofun.me,vidzur.com,yucache.net##[style^="position: a
 leechyscripts.com##div[class^="chp_ads_block_modal"]
 audio-hi-fi.ru,electro-sila.ru##.blok_new > div[style]
 ||rhetoricalloss.com^$third-party
+filmix.biz,filmix.date,filmix.life,filmix.tech,filmix.zone###oframeplayer > #player_control_play-icon ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
 ##.ad_block_off
 @@||free-reseau.fr/css/publicite.css|$stylesheet
 slivap.ru##.svg-adblock
@@ -152,6 +153,7 @@ ppc.world##.js-detected-block
 pln-pskov.ru###check_ad_block
 ##.adblock-warning-partial-component
 @@||qpython.club^$generichide
+filmix.biz,filmix.date,filmix.life,filmix.tech,filmix.zone##.remove-sda-wrap
 ma.by###bodysubcont > div[style^="padding"]:not([id]):not([class])
 scantrad.net##.adbon
 savevideo.me##td > div[class]:not([id])[style*="important"]
@@ -178,7 +180,6 @@ retinaboys.com###screen_block
 ###detection-block-overlay
 wotactions.com###ads_warning
 2ip.me,2ip.ua##.alert-mess > .row
-filmix.biz,filmix.life,filmix.tech,filmix.zone##.remove-sda-wrap
 sostav.ru###rek_blocker
 ||honorableland.com^$third-party
 /adbclk2.
@@ -252,7 +253,6 @@ cyberscore.live##.wrapper-partner-rb
 ||smilingswim.com^$third-party
 pkmods.com##body > div[style*="z-index"][style*="background"]
 /blockadblock.$script,xmlhttprequest
-filmix.biz,filmix.life,filmix.tech,filmix.zone###oframeplayer > #player_control_play-icon ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
 nexusmods.com##.areplacer
 ||gameblog.fr/images/ablock/
 ||questionableobservation.com^$third-party
@@ -4559,7 +4559,6 @@ _stat_counter.php?
 @@||ukw.jp^*/?cbk=$script,domain=system5.jp
 ||wawacity.*/bypass
 ||drupal.org/VnPBBfwe/init.js
-/vwFiles/analytics/$file/analytics.js
 /track?events=
 /gs-analytics-init.js
 ||prod-mhaa.mhtr.be/public/tr/tracker.min.js
@@ -9730,6 +9729,7 @@ _imp?Log=
 /trackingpixel.php
 ||heatmap.it^$third-party
 ||top.mail.ru/tpc.js
+/vwFiles/analytics/*
 ||mapquest.com/logger
 /bk-coretag.js
 ||directprimal.com^$third-party
