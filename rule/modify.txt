@@ -1,4 +1,4 @@
-# Update time: 2023-12-16 20:22:34
+# Update time: 2023-12-17 09:04:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -844,17 +844,6 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /AdblockMessage.
 ||paintpear.com^$third-party
 ##.svg-adblock-full
-||api.zhihu.com/commercial_api/launch_v2^
-|api.zhihu.com/fringe/ad
-||api.zhihu.com/commercial_api/real_time_launch_v2^
-|api.zhihu.com/ad-style-service/request
-||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
-||api.zhihu.com/answers/*/comments/featured-comment-ad
-||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
-@@||www.zhihu.com/api/v4/search_v3*
 ||mmccint.com^$third-party
 ||zucks.net^$third-party
 ||contiamo.com^$third-party
@@ -1075,7 +1064,6 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||yahoo.com/pageview?
 ||24log.com^$third-party
 ||kctag.net^$third-party
-://tracking.*/tracking.js
 ||liverail.com/track/?
 /email_open_log_
 ||adxcel-ec2.com^$third-party
@@ -1406,7 +1394,6 @@ _logHuman=
 ||crunchbase.com/rw7M6iAV/init.js
 /ping.gif?$domain=gamestar.de
 /StatV1?
-||archive.org^*/analytics.js
 ||xapkgame.com^$third-party
 ||salesviewer.com^$third-party
 ||inspectlet.com^$third-party
@@ -2884,7 +2871,6 @@ _logHuman=
 ||vmmpxl.com^$third-party
 ||sharethis.com/pageviews?
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com|digikey.at|digikey.be|digikey.bg|digikey.ca|digikey.ch|digikey.cn|digikey.co.il|digikey.co.nz|digikey.co.th|digikey.co.uk|digikey.co.za|digikey.com|digikey.com.au|digikey.com.br|digikey.com.mx|digikey.cz|digikey.de|digikey.dk|digikey.ee|digikey.es|digikey.fi|digikey.fr|digikey.gr|digikey.hk|digikey.hu|digikey.ie|digikey.in|digikey.it|digikey.jp|digikey.kr|digikey.lt|digikey.lu|digikey.lv|digikey.my|digikey.nl|digikey.no|digikey.ph|digikey.pl|digikey.pt|digikey.ro|digikey.se|digikey.sg|digikey.si|digikey.sk|digikey.tw
-||channel.io^*/events
 /open.aspx?
 ||pingclock.net^$third-party
 ||meteorsolutions.com^$third-party
@@ -3196,6 +3182,7 @@ _logHuman=
 ||waaw.to/cdn-cgi/trace
 ||build.com/2Ztkihy4/init.js
 @@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|wsj.com
+||channel.io/front/v6/channels/1/events
 ||klaviyo.com/onsite/js/sentry.
 ||geistm.com^$third-party
 ||seedr.ru^*/stats/
@@ -3755,7 +3742,6 @@ omni.soundestlink.com$image
 ||wtmtrack.com^$third-party
 /netmining.js
 ||curalate.com^$third-party
-||roblox.com^*/_/1px.gif
 ||bidsimulator.com^$third-party
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 ||hotjar.com^$domain=quoka.de
@@ -3945,6 +3931,7 @@ _stat_counter.php?
 ||lucidel.com^$third-party
 /trackingVtm.js
 /stats?aid=
+||turbobit.net/js/analytics/
 .kijiji.ca/r/
 /rudder-analytics.min.js
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
@@ -4156,7 +4143,6 @@ _stat_counter.php?
 /api/v3/trackSegmentEvent
 ||anametrix.com^$third-party
 ||accesstrade.net^$third-party
-||turbobit.*/fdUserFingerprintToken.js
 ||rackcdn.com/gate.js
 /stats?ev=
 @@||8tm.net/static/img/fbpixel.png$~third-party
@@ -4218,6 +4204,7 @@ _stat_counter.php?
 ||scloud.online/stat/
 ||upapi.net^$third-party
 /beaconimages.netflix.net/*$image
+||roblox.com/_/_/1px.gif
 ||alvenda.com^$third-party
 ||hub.com.pl^$third-party
 ||marinsm.com^$third-party
@@ -5710,7 +5697,6 @@ _trackWebtrekkEvents.
 ||autoaudience.com^$third-party
 ||realtimewebstats.net^$third-party
 /pvnoju.js
-||shopeemobile.com/*/tr/
 ||walbusch.de^$ping
 @@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
 @@||smog.moja-ostroleka.pl/mapa/sensorsdata.json$~third-party
@@ -5848,6 +5834,7 @@ _trackWebtrekkEvents.
 /webtrends.min.js
 /event.gif?
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
+||oracleimg.com/us/assets/metrics/ora_docs.js
 ||os-data.com^$third-party
 ||douyucdn.cn/fish3/1.gif
 /generate_204?$image
@@ -6080,7 +6067,6 @@ _beacon?
 ||arte.tv/log-player/
 ||overstat.com^$third-party
 .skimlinks.js
-||oracleimg.com^*/metrics/
 ||ranking-charts.de^$third-party
 ||crashlytics.com^$third-party
 /client-metrics/?target
@@ -9301,7 +9287,6 @@ _rpc/log?
 ||offermatica.com^$third-party
 ||ldlc.com/V4px/js/ldlcmachine.js
 ||google.com/gen_204?
-||realestate.com.au^*/p.js
 /amp-skimlinks-
 ||qualtrics.com/jfe/$script,third-party
 ||rbc.ru/click?
@@ -10286,6 +10271,7 @@ _event_tracking?
 ||vinted.nl/relay/events
 ||admo.tv^$third-party
 ||zx-adnet.com^$third-party
+||archive.org/includes/analytics.js
 /beacon.krxd.net/*
 ||cactusmedia.com^$third-party
 ||connatix.com/scripts/$~third-party
@@ -10536,6 +10522,7 @@ img.promio-connect.com$image
 ||c.ypcdn.com^*&ptid
 ||audacy.com/data-events/
 ||widerplanet.com^$third-party
+||roblox.com/www/e.png?
 ||burstcloud.co/jwe?
 ||justanswer.com/jatag/
 ||gc.zgo.at^$third-party
@@ -11214,7 +11201,6 @@ _WebVitalsReporter_
 ||customer.homedepot.com^$script
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 /fbevents.js
-/jquery.iframetracker.min.js
 ||llama.fi/script.js
 ||visualstudio.com/_da.gif?
 ||bhphotovideo.com/imp/
@@ -11981,6 +11967,17 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||api.zhihu.com/commercial_api/launch_v2^
+|api.zhihu.com/fringe/ad
+||api.zhihu.com/commercial_api/real_time_launch_v2^
+|api.zhihu.com/ad-style-service/request
+||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
+||api.zhihu.com/answers/*/comments/featured-comment-ad
+||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
+@@||www.zhihu.com/api/v4/search_v3*
 ||*tsdk.vivo.com.cn^
 ||*.mmstat.com^
 ||*serror*.wo.com.cn^
