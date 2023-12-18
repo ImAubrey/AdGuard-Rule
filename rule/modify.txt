@@ -1,4 +1,4 @@
-# Update time: 2023-12-17 20:22:41
+# Update time: 2023-12-18 09:01:23
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4030,7 +4030,6 @@ _stat_counter.php?
 ||licdn.com/*.gif?rnd=
 ||visualwebsiteoptimizer.com/server-side/track-user?
 @@||picsearch.com/js/comscore.js$domain=dn.se
-||app.posthog.com^$script,xmlhttprequest
 ||avitop.com/aviation/hitlist.asp
 ||tracead.com^$third-party
 ||speedcount.de^$third-party
@@ -4266,6 +4265,7 @@ _stat_counter.php?
 @@||src.litix.io/videojs/*/videojs-mux.js
 /track?*&event=
 ||bigw.com.au/api/event/
+||app.posthog.com/static/array.js
 ||browser-update.org^$third-party
 ||namethatporn.com/assets/imgs/1x1.gif
 ||countergeo.com^$third-party
@@ -6293,6 +6293,7 @@ _beacon?
 ||presspage.com/statistics/
 /trigger-visit-event
 ||mutinyhq.io^$third-party
+||app.posthog.com/e/?ip=
 ||medoucine.com/tracking/
 ||worldflagcounter.com^$third-party
 ||cloudfront.net/esf.js
@@ -7327,6 +7328,7 @@ _track_pixel.gif?
 ||bp01.net^$third-party
 ||dropbox.com/2/pap_event_logging
 /gaaddons_univ.js
+||app.posthog.com/static/recorder-v2.js
 /coinhive.min.js
 ||primedia.co.za/analytics/
 ||lecho.be/fb2?
@@ -10251,6 +10253,7 @@ _event_tracking?
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
 ||koddi.com^$third-party
 ||woopra.com^$third-party
+||app.posthog.com/e/?compression=
 @@||pendo.io/agent/static/$script,domain=recruiting.adp.com
 ||game-i.daa.jp/skin/analytics.php
 ||todomercadoweb.es/pixel
