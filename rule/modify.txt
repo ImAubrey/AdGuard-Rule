@@ -1,4 +1,4 @@
-# Update time: 2023-12-19 08:59:54
+# Update time: 2023-12-19 20:24:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6778,6 +6778,7 @@ _beacon?
 ||metrics0.com^$third-party
 /analytics_prod.js
 ?act=counter&
+||suaurl.com/adblock/js/smarttag.js
 ||nrich.ai^$third-party
 ||primer.typekit.net^$xmlhttprequest
 /visitinfo.js
@@ -9088,6 +9089,7 @@ _rpc/log?
 /s.gif?
 /IPbeacon.min.js
 /tracking/thirdpartytag.js
+||tapeantiads.com/stat/
 ||refersion.com^$third-party
 ||rtoaster.jp^$third-party
 ||rome.api.flipkart.com/api/1/fdp
@@ -11849,6 +11851,7 @@ _WebVitalsReporter_
 ||avmws.com^$third-party
 ||talpa-analytics.com^$third-party
 ||discount.hk-hotel.com/QUkd4lO9/init.js
+||azurewaf.microsoft.com/event?
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||webminepool.com^$third-party
 ||iogous.com^$third-party
