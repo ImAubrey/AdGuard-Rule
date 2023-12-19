@@ -1,4 +1,4 @@
-# Update time: 2023-12-18 20:25:39
+# Update time: 2023-12-19 08:59:54
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -638,6 +638,7 @@ myshared.ru###download_form > .uk-margin-top[style]
 101.ru##.showMessageAdBlock
 forum.bestflowers.ru##.xenOverlay
 ||selfishsnake.com^$third-party
+forum.flprog.ru###phpbb_announcement
 ||shellcat.ru^$third-party
 findretros.com##.fuck-adblock
 forum.virtualdjing.com#@#.adFrame
@@ -2177,7 +2178,6 @@ _logHuman=
 /pxl.cgi?
 /localga.js
 ||techtarget.com^*/GetCookiesWithCallback?
-||onetag.io^$third-party
 ||webengage.com^$third-party
 ||dealerfire.com/analytics/
 ||t.7sur7.be^$image
@@ -5352,7 +5352,6 @@ _view_pixel&$image
 /AnalyticsDataLayer.min.
 ||manua.ls/g/collect?
 /stats.cgi$image
-||omarsys.com^$third-party
 ||flags.es^$third-party
 ||daiichi-kamotsu.co.jp/js/google_analytics.js
 ||openstat.net^$third-party
@@ -7865,7 +7864,6 @@ _track_pixel.gif?
 /wp-content/plugins/wp-clickmap/clickmap.js
 ||audiens.com^$third-party
 /blaize/datalayer
-||ongsono.com^$third-party
 @@||e.cquotient.com/recs/$script,domain=fender.com
 @@||addthis.com/*-angularjs.min.js$script,domain=ead.senac.br|missingkids.com|missingkids.org
 ||data.tm-awx.com/smile-web.min.js
@@ -9686,6 +9684,7 @@ _imp?Log=
 ||e.ebidtech.com/cv/
 /flying-analytics/*
 ||recosenselabs.com^$third-party
+||medibot.delling.care/api/counts/
 /rudder-analytics.js
 ||x-stat.de^$third-party
 ||edge-hls.doppiocdn.com/ping
@@ -10386,7 +10385,6 @@ img.promio-connect.com$image
 @@||googleoptimize.com/optimize.js$domain=binglee.com.au|grasshopper.com|in.bookmyshow.com|inquirer.com|investing.com|lacomer.com.mx|lodgecastiron.com|tentree.ca|virginmedia.com
 /pub/as?_ri_=$image
 ||freesitemapgenerator.com^$third-party
-||omtvxcle.com^$third-party
 /action-impressions/*
 ||dditscdn.com/log/
 ||sync.outbrain.com^$third-party
@@ -10494,7 +10492,6 @@ img.promio-connect.com$image
 /stat/event?
 ||soccer.ru/counter/
 ||leparking.fr/*/Tracker.js
-||oneimpress.io^$third-party
 ||leadlab.click^$third-party
 ||flipboard.com/usage?
 /stats/ping?
@@ -10723,7 +10720,6 @@ img.promio-connect.com$image
 ||netmining.com^$third-party
 ||realtracker.com^$third-party
 ||andyhoppe.com^$third-party
-||onetag-sys.com^$third-party
 ||vdo.ai/core/logger.php?
 ||tio.ch/ext/u.php?
 ||content22.citibank.com.sg^$script
