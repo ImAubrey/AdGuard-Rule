@@ -1,4 +1,4 @@
-# Update time: 2023-12-20 08:49:33
+# Update time: 2023-12-20 20:20:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2216,6 +2216,7 @@ _logHuman=
 ||slogantrend.de^$third-party
 ||adblockplustape.xyz/stat/
 ||omataloyhtio.fi/statb.asp
+/plow.lite.js
 ||crall.io/beacon/
 /wp-statistics/v2/hit?
 ||apple.com/hvr/mw/v1/spile
@@ -7322,6 +7323,7 @@ _track_pixel.gif?
 ||schibsted.com/autoTracker
 ||a-calc.de^$third-party
 ||surveywall-api.survata.com^$third-party
+||g123.jp/stats?
 @@||parcel.app/webtrack.php?$~third-party
 ||crtx.info^$third-party
 ||taobao.com/tracker.
@@ -7449,6 +7451,7 @@ _track_pixel.gif?
 ||spring-tns.net^$third-party
 /pagestats/*
 /count.gif?
+||fraud0.com^$third-party
 /gascript.js
 ||myvisitorcounter.com^$third-party
 /analytics/dist/analytics.min.js
