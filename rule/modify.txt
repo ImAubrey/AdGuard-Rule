@@ -1,4 +1,4 @@
-# Update time: 2023-12-21 08:58:52
+# Update time: 2023-12-21 20:24:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3307,6 +3307,7 @@ _logHuman=
 ||navrcholu.cz^$third-party
 @@||vidible.tv^*/ComScore.Viewability.js
 ||cloudfront.net/lp.js
+/pxrc.php
 ||fansshare.com/t.gif
 ||twitter.com/1.1/attribution
 ||dynatrace-managed.com^$third-party
@@ -5758,6 +5759,7 @@ _trackWebtrekkEvents.
 ||cargurus.com/tr/
 /collect/?dp=
 ||interhits.de^$third-party
+||listrak.com/api/Activity/impression
 ||sfstatic.net/build/js/basicMetricsTracking.
 ||vtracker.net^$third-party
 ||ibm.com/analytics/build/bluemix-analytics.min.js
@@ -7074,6 +7076,7 @@ _track_pixel.gif?
 /RecordHit?
 ||audiencemanager.de^$third-party
 ||streamtape.com/stat/
+||afterpay.com^*/v1/event
 /counter.asp?
 /nlogger.js
 ||instreamatic.com^$third-party
@@ -7686,6 +7689,7 @@ _track_pixel.gif?
 ||gotrk.net^$third-party
 ||inimbus.com.au^$third-party
 ||iprotrk.com^$third-party
+/header-pixels.min.js
 ||mobtop.com^$third-party
 ||video.oms.eu^$third-party
 ||freestats.biz^$third-party
@@ -9853,6 +9857,7 @@ _imp?Log=
 ||report-uri.com^$third-party
 @@||sascdn.com/tag/$script,domain=filmweb.pl
 /publisher:getClientId?key=
+||quadpay.com/analytics/
 /stats/log.
 .tripadvisor.com/q/$image
 ||content22.citi.eu^$script
