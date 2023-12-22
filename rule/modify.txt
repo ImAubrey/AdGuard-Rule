@@ -1,4 +1,4 @@
-# Update time: 2023-12-21 20:24:19
+# Update time: 2023-12-22 08:58:35
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1883,7 +1883,6 @@ _logHuman=
 /visitcounter.js
 ||frontlineshop.com/ev/co/frontline?*&uid=
 ||aliexpress.com/ts?
-/batch/1/OP/*
 ||clickchatsold.com/d0/
 /gigyaGAIntegration.js
 /track_page_view?
@@ -2340,6 +2339,7 @@ _logHuman=
 /trk.php?
 ||getclicky.com^$third-party
 ||cloudfront.net/track?
+||extrawatch.com^$third-party
 ||reliablecounter.com^$third-party
 ||sermoncloud.com/logger/
 ||futurecdn.net/bordeaux.js$xmlhttprequest
@@ -9727,6 +9727,7 @@ _imp?Log=
 ||visitor-analytics.io^$third-party
 ||cdnplanet.com/static/rum/rum.js
 ||adtriba.com^$third-party
+||stockx.com/16uD0kOF/init.js
 ||demandmedia.s3.amazonaws.com^$third-party
 ||userdive.com^$third-party
 /resxclsa.js
@@ -10399,7 +10400,6 @@ img.promio-connect.com$image
 @@||googleoptimize.com/optimize.js$domain=binglee.com.au|grasshopper.com|in.bookmyshow.com|inquirer.com|investing.com|lacomer.com.mx|lodgecastiron.com|tentree.ca|virginmedia.com
 /pub/as?_ri_=$image
 ||freesitemapgenerator.com^$third-party
-/action-impressions/*
 ||dditscdn.com/log/
 ||sync.outbrain.com^$third-party
 ||ebis.ne.jp^$third-party
@@ -11050,6 +11050,7 @@ _ad_impression.
 /coretracking.php?
 ||dealer.com^*/tracking/
 ||speed-trap.com^$third-party
+||usizy.com/external/pageview
 @@||app.clarity.so^$~third-party
 /counter?action=
 ||unity3d.com/v1/events
