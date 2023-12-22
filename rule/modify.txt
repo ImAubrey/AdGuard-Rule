@@ -1,4 +1,4 @@
-# Update time: 2023-12-22 08:58:35
+# Update time: 2023-12-22 20:23:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1808,6 +1808,7 @@ _logHuman=
 ||top100bloggers.com^$third-party
 ||replyat.com/gadgetpagecounter.asp?
 @@||att.tv^*/VisitorAPI.js$script,~third-party
+/apmrum.min.js
 ||ilcdn.fi^*/Bootstrap.js
 ||stat.media^$third-party
 ||carters.com/0F3091f3/init.js
@@ -3768,6 +3769,7 @@ omni.soundestlink.com$image
 ||streamtape.cc/stat/
 /elt.gif?
 .smartrmail.co/o/$image
+/__ssobj/rum?
 ||oniad.com^$third-party
 ||meetrics.net^$third-party
 ||nflshop.com/api/track
@@ -3984,6 +3986,7 @@ _stat_counter.php?
 ||qlitics.com^$third-party
 ||serious-partners.com^$third-party
 ||ethereum-cashcard.eu^$third-party
+||route.com/collect
 ||list-manage.com/track/
 .sendibm1.com/mk/
 ||securitytrfx.com^$third-party
@@ -9997,6 +10000,7 @@ _imp?Log=
 ||popsample.com^$third-party
 ||mbww.com^$third-party
 /counter?id=
+/spresso.sdk.tracking.web.js
 ||discovertrail.net^$third-party
 ||uhit.eu/id/$third-party
 /beacon/v1/batch?
@@ -11471,6 +11475,7 @@ _WebVitalsReporter_
 ||retargeting.biz^$third-party
 ||vizury.com/analyze/
 ||glami.gr/js/compiled/pt.js
+||spresso.com/pim/public/events
 /apilog?
 ||hypestat.com^$third-party
 ||patreon.com/api/tracking
