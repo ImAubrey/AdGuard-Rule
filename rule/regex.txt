@@ -1,4 +1,4 @@
-# Update time: 2023-12-24 09:03:13
+# Update time: 2023-12-24 20:22:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -70,6 +70,11 @@
 ||pixel.archive.
 ||log-*.previewnetworks.com^
 ||analytics.ticketmaster.
+    <head>
+<!DOCTYPE html>
+            function do_onload() {
+            }
+        <noscript>
 ||da.hornbach.*^
 ||appsflyer*.*^
 ||brucelead*.com^

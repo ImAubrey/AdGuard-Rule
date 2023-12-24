@@ -1,4 +1,4 @@
-# Update time: 2023-12-24 09:03:13
+# Update time: 2023-12-24 20:22:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9701,7 +9701,6 @@
 0.0.0.0 metrics.dallasnews.com
 0.0.0.0 lrpoint.fr
 0.0.0.0 ads.simtel.com
-0.0.0.0 members.chello.at
 0.0.0.0 www.merijntjeaanderijn.nl
 0.0.0.0 www.vilaglato.info
 0.0.0.0 tramadol2006.3xforum.ro
@@ -10428,6 +10427,7 @@
 0.0.0.0 ads.nola.com
 0.0.0.0 ads.theindependent.com
 0.0.0.0 netcomm.spinbox.net
+0.0.0.0 interac1-ssl2.info
 0.0.0.0 baramije.net
 0.0.0.0 chch.fr
 0.0.0.0 truecrypt.fr
@@ -11924,6 +11924,7 @@
 0.0.0.0 zevents.com
 0.0.0.0 aresweb.fr
 0.0.0.0 web4.realtracker.com
+0.0.0.0 optionmodifycanitem.info
 0.0.0.0 ads.lzjl.com
 0.0.0.0 buildingcarpet.com
 0.0.0.0 e-2dj6wjkycpdzckp.stats.esomniture.com
@@ -13096,6 +13097,7 @@
 0.0.0.0 reklamtrk.com
 0.0.0.0 homehre.tripod.com
 0.0.0.0 adimages.go.com
+0.0.0.0 fedex-rescheduel-delivery-date.com
 0.0.0.0 track.msadcenter.mur.com
 0.0.0.0 www.bowlgirl.com
 0.0.0.0 techms-shop.su
@@ -17699,6 +17701,7 @@
 0.0.0.0 i2.vaishnaviinterior.com
 0.0.0.0 cdn.freefarcy.com
 0.0.0.0 shareaholic.com
+0.0.0.0 alert1dhlshipment.info
 0.0.0.0 www.japscat.org
 0.0.0.0 dimeprice.com		# "spam bugs"
 0.0.0.0 t-ads.adap.tv
@@ -20068,6 +20071,7 @@
 0.0.0.0 lanphuong.vn
 0.0.0.0 newbostonvillage.com
 0.0.0.0 umihaku000time.web.fc2.com
+0.0.0.0 members.chello.at
 0.0.0.0 ubermensch.altervista.org
 0.0.0.0 ffoqr3ug7m726zou.tx0igu.bid
 0.0.0.0 ubisortdasert.top
