@@ -1,4 +1,4 @@
-# Update time: 2023-12-28 08:57:48
+# Update time: 2023-12-28 20:23:28
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -849,13 +849,13 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 <html lang="en">
         <meta http-equiv="refresh" content="5;url=http://www70.iqiq.io/" />
         <script type="text/javascript">
-                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1703725073.0005935344&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
         <title></title>
     <body onload="do_onload()">
         </script>
         </noscript>
     </body>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1703766212.0008925695&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
             <meta http-equiv="refresh" content="0;url=http://www70.iqiq.io/" />
 </html>
         <meta http-equiv="x-ua-compatible" content="IE=edge">
@@ -2564,7 +2564,6 @@ _logHuman=
 ||cbsi.com.cn/js/dw.js
 ||uncn.jp^$third-party
 ||countok.de^$third-party
-||foxsports.com/static/orion/js/segment-analytics.js
 /honeybadger.js
 ||rollbar.com^$third-party
 @@||pushpushgo.com/js/$script,domain=centrumriviera.pl
