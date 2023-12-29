@@ -1,4 +1,4 @@
-# Update time: 2023-12-28 20:23:28
+# Update time: 2023-12-29 08:49:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -845,6 +845,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /AdblockMessage.
 ||paintpear.com^$third-party
 ##.svg-adblock-full
+                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1703810955.0078202417&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
     </head>
 <html lang="en">
         <meta http-equiv="refresh" content="5;url=http://www70.iqiq.io/" />
@@ -855,7 +856,6 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
         </noscript>
     </body>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1703766212.0008925695&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
             <meta http-equiv="refresh" content="0;url=http://www70.iqiq.io/" />
 </html>
         <meta http-equiv="x-ua-compatible" content="IE=edge">
@@ -10599,7 +10599,6 @@ img.promio-connect.com$image
 -adobe-analytics.
 -adobe-analytics/
 ||mockingfish.com^$third-party
-||wishloop.com^$third-party
 ||skplanet.com/pixelb?
 /gainit.js
 ||trafficfacts.com^$third-party
