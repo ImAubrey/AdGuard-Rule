@@ -1,4 +1,4 @@
-# Update time: 2023-12-30 20:22:21
+# Update time: 2023-12-31 09:03:37
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -846,7 +846,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
     </head>
-                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1703938947.0056127542&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
+                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1703984623.0002878845&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
 <html lang="en">
         <meta http-equiv="refresh" content="5;url=http://www70.iqiq.io/" />
         <script type="text/javascript">
@@ -3514,6 +3514,7 @@ _logHuman=
 /tck/gif/*
 /sTrackStats.js
 ||stats4you.com^$third-party
+||matelso.de^$third-party
 ||pbbl.co^$third-party
 ||statistiche.it^$third-party
 ||b2w.io/event/
@@ -8150,6 +8151,7 @@ _track_pixel.gif?
 ||db-ip.com^$third-party
 ||loginhood.io^$third-party
 ||ventunotech.com/beacon/
+||ucoz.net/stat/
 ||smart-bdash.com/receptions/action/impression
 /wf/open?upn=$image
 ||r7ls.net^$third-party
@@ -9336,6 +9338,7 @@ _rpc/log?
 /_ga?sponsor_pixel=
 ||offermatica.com^$third-party
 ||ldlc.com/V4px/js/ldlcmachine.js
+||mts.ru/fe-api/logger
 ||google.com/gen_204?
 /amp-skimlinks-
 ||qualtrics.com/jfe/$script,third-party
@@ -9490,6 +9493,7 @@ _rpc/log?
 ||adsmatcher.com^$third-party
 ||xplosion.de^$domain=spiegel.de|stern.de
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
+@@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
 /inline-pixel.js
 ||theardent.group^$third-party
 ||recognified.net^$third-party
