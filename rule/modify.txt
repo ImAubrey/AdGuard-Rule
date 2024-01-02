@@ -1,4 +1,4 @@
-# Update time: 2024-01-02 08:58:23
+# Update time: 2024-01-02 20:24:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -849,7 +849,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 <html lang="en">
         <meta http-equiv="refresh" content="5;url=http://www70.iqiq.io/" />
         <script type="text/javascript">
-                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1704157108.0099451824&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
+                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1704198260.0013222377&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
         <title></title>
     <body onload="do_onload()">
         </script>
@@ -3091,6 +3091,7 @@ _logHuman=
 ||leadforensics.com^$third-party
 /stats/adonis_
 ||dashboard.io^$third-party
+||one.store/v1/analytics/
 /quant.js
 ||lingows.appspot.com/page_data/?
 /taevents-c.js
