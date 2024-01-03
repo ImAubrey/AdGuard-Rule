@@ -1,4 +1,4 @@
-# Update time: 2024-01-02 20:24:15
+# Update time: 2024-01-03 08:59:37
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -849,11 +849,11 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 <html lang="en">
         <meta http-equiv="refresh" content="5;url=http://www70.iqiq.io/" />
         <script type="text/javascript">
-                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1704198260.0013222377&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
         <title></title>
     <body onload="do_onload()">
         </script>
         </noscript>
+                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1704243582.0071878500&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
     </body>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="refresh" content="0;url=http://www70.iqiq.io/" />
@@ -1728,7 +1728,6 @@ _logHuman=
 ||nabaza.com^$third-party
 ||generalblue.com/js/pages/shared/analytics.min.js
 /beacon/media?
-||adtlgc.com^$third-party
 ||visx.net^$third-party
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 .bmetrack.com/c/$image
@@ -2580,7 +2579,6 @@ _logHuman=
 ||rambler.ru/counter.js
 ||mvilivestats.com^$third-party
 ||space-link.de^$third-party
-||eyeota.net^$third-party
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|tatacliq.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
 ||webstatistik.odav.de^$third-party
 ||interceptum.com^$third-party
@@ -3701,7 +3699,6 @@ omni.soundestlink.com$image
 ||goaffpro.com/track
 ||ad-track.jp^$third-party
 ||gcion.com/gcion.ashx?
-||clickiocdn.com/utr/
 ||netne.net/stats/
 ||talkingdata.com^*/sdk_release.js
 ||www.mouser.*/4UAZUiaI/init.js
@@ -5007,7 +5004,6 @@ _stat_counter.php?
 ||terra.com.mx^*/metrics_begin.js
 ||sportnews.bz/pcookie?
 ||shiekh.com/iJ55yhVs/init.js
-||ctnsnet.com^$third-party
 ||ontraport.com/track.php
 ||epitrack.com^$third-party
 /tongji.js
@@ -5055,7 +5051,6 @@ _stat_counter.php?
 ||heatmap.com^$third-party
 /utm_cookie.min.js
 /visit.gif?
-||postaffiliatepro.com^$third-party
 ||baidu.com/js/m.js
 @@||a8.net/svt/$image,domain=samplefan.com
 ||technolutions.net/ping?
@@ -5133,7 +5128,6 @@ _stat_counter.php?
 /rgea.min.js
 ||whooshkaa.com/listen/track
 /wp-coin-hive.js
-||exitbee.com^$third-party
 ||vmm-satellite1.com^$third-party
 /Log?entry=
 ||segmentify.com^$third-party
@@ -5508,7 +5502,6 @@ _view_pixel&$image
 ||holder.com.ua^$third-party
 ||streamta.pe/stat/
 ||angorch-cdr7.com^$third-party
-||acuityplatform.com^$third-party
 ||m6web.fr/statsd/
 ||fathomseo.com^$third-party
 ||mercadolibre.com/tracks^
@@ -6052,6 +6045,7 @@ _beacon?
 ||sphostserver.com^$third-party
 /google_analitycs.js
 ||cloudflare.com/cdn-cgi/trace$third-party,domain=~isbgpsafeyet.com|~wyndhamdestinations.com
+@@||awswaf.com/*/telemetry$domain=platform.ledn.io
 ||infox.sg^$third-party
 ||netlog.ru^$third-party
 ||research-tool.com^$third-party
@@ -8721,7 +8715,6 @@ _rpc/log?
 ||hitwebcounter.com^$third-party
 ||vizcloud.co/ping/
 /netresults.js
-||analitits.com^$third-party
 ||semasio.net^$third-party
 @@||cdn.usefathom.com/script.js$domain=sharpen-free-design-generator.netlify.app
 ||dataxpand.com^$third-party
@@ -8899,7 +8892,6 @@ _rpc/log?
 ||crazyegg.com^$third-party
 /_/trace/trace/*
 ||cargurus.com/cars/cganalyticspageview.action
-||aidata.io^$third-party
 ||onlex.de/_counter.php
 @@||kameleoon.io/ip^$domain=welt.de
 ||noibu.com^$third-party
@@ -9298,7 +9290,6 @@ _rpc/log?
 ||pingdom.net^$domain=musikexpress.de
 ||browser-statistik.de^$third-party
 /Track/Capture.aspx?
-||traffer.net^$third-party
 /shared/sentry/*
 /xtcore.js
 ||mmpool.org^$third-party
@@ -9621,7 +9612,6 @@ _rpc/log?
 ||aspservice.jp^$third-party
 ||awe.sm/conversions/
 ||piano.io/tracker/
-||ad-score.com^$third-party
 ||trustedform.com/trustedform.js?provide_referrer
 /stats/record/*
 ||beanstock.com^$third-party
