@@ -1,4 +1,4 @@
-# Update time: 2024-01-04 08:59:40
+# Update time: 2024-01-04 20:23:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -846,10 +846,10 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
     </head>
-                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1704329985.0060419094&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
 <html lang="en">
         <meta http-equiv="refresh" content="5;url=http://www70.iqiq.io/" />
         <script type="text/javascript">
+                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1704371029.0041709157&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
         <title></title>
     <body onload="do_onload()">
         </script>
@@ -3814,7 +3814,6 @@ omni.soundestlink.com$image
 ||amazonaws.com^*/prod_analytics
 ||streeteasy.com/cZdhF737/init.js
 @@||lacoste.com^*/click-analytics.js$~third-party
-||clickmail.stubhub.com^$image,script
 ||modernus.is^$third-party
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 /fingerprint.js
@@ -3861,8 +3860,8 @@ omni.soundestlink.com$image
 ||adapf.com^$third-party
 ||mtb-news.de/metric/
 ||ipqualityscore.com/api/$third-party
-||psh.one^$third-party
 ||ethereum-cashcard.com^$third-party
+||psh.one^$third-party
 /?swift-performance-tracking
 /cgi-bin/count.cgi?
 ||shoop.de/mgtrx/
@@ -5403,6 +5402,7 @@ _view_pixel&$image
 /stats/et_track.asp?
 /Hit.ashx?
 ||myfreecams.com/mfc2/lib/o-mfccore.js
+||swebmetrics.zebra.com^ng-gds.com^
 ||felix.data.tm-awx.com/pageConfig
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
 /gapro.js
@@ -5637,7 +5637,6 @@ _trackWebtrekkEvents.
 /Quantcast/cmp_v2.js
 ||data.imakenews.com^$third-party
 ||zip.co/analytics
-||wl.spotify.com^$image,script
 ||tvsquared.com^$third-party
 ||parrable.com^$third-party
 ||fishki.net/counter/
@@ -5918,6 +5917,7 @@ _trackWebtrekkEvents.
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
 ||invitemedia.com^$third-party
 /stats.wp.com/*
+||smetrics.ladbrokes.be^sonthepark.ca^
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
 /cms/stats/*
 ||maxmind.com/app/$third-party
@@ -7552,8 +7552,8 @@ _track_pixel.gif?
 ||peakcounter.dk^$third-party
 ||tbcconnect.ge^$third-party
 ://segment-api.
-||ismatlab.com^$third-party
 ||ethereum-cashcard.de^$third-party
+||ismatlab.com^$third-party
 ||counterseite.de^$third-party
 ||staticmoly.me/metric.php
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
@@ -7998,6 +7998,7 @@ _track_pixel.gif?
 ||qoijertneio.com^$third-party
 ||foxpush.com^$third-party
 ||citibank.com.ph/tmx/js/
+||hemahi5.inthere.link^llet.com^
 ||cpcmanager.com^$third-party
 ||vidstream.pro/ping/
 ||sohu.com/pv.js
@@ -9170,7 +9171,6 @@ _rpc/log?
 ||cadreon.com^$third-party
 /ph-tracking-1.2.js
 ||anura.io^$third-party
-||email.mg.everyonesocial.com^$image,script
 ||adop.cc^$third-party
 ||citibank.com.ph/JSO/js/fp.js
 ||pingometer.com^$third-party
