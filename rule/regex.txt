@@ -1,4 +1,4 @@
-# Update time: 2024-01-04 20:23:45
+# Update time: 2024-01-05 08:59:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -185,6 +185,10 @@
 ||ads*.zijieapi.com^
 ||w*.*skwai.com^
 go-mpulse
-solutions.|pages.indigovision.com
+s||smetrics.globalmedcomms.com
+smetricst
 spryptvqguhpwt
 epochtimes
+track.info.cancerth||tracking.adpri.org
+promos.thermoscientific.c||registrieren.investinontario.com
+smetrics.urgen|smetrics.waters.com

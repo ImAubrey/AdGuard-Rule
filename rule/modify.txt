@@ -1,4 +1,4 @@
-# Update time: 2024-01-04 20:23:45
+# Update time: 2024-01-05 08:59:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -846,10 +846,10 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
     </head>
+                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1704416393.0049670057&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
 <html lang="en">
         <meta http-equiv="refresh" content="5;url=http://www70.iqiq.io/" />
         <script type="text/javascript">
-                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1704371029.0041709157&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
         <title></title>
     <body onload="do_onload()">
         </script>
@@ -2064,6 +2064,7 @@ _logHuman=
 ||target.com/consumers/v1/ttms/events?
 ||screen13.com^$image
 ||247-inc.com^$third-party
+/open/?ot=$image
 ||star-cntr-5.com^$third-party
 ||h-bid.com^$third-party
 ||trilogyed.com^$third-party
@@ -4671,8 +4672,8 @@ _stat_counter.php?
 .sparkpostmail.com/q/$image
 /logging/ClientEvent
 ||mundodesconocido.com/tracker/
-||uuu9.com/s.php?
 ||nuggad.net^$domain=prosieben.at|prosieben.ch|prosieben.de
+||uuu9.com/s.php?
 /fp/clear1.png
 ||non.li^$third-party
 ||streamoptim.com/log/report?
@@ -6994,6 +6995,7 @@ _track_pixel.gif?
 ||cpro.baidustatic.com^$script,domain=sohu.com
 /stat-dfp.js
 /metrics/survey/*
+@@||cxense.com/cx.cce.js$domain=13.cl|bizjournals.com|businessinsider.de|cxpublic.com|handelsblatt.com|mainichi.jp|marketwatch.com|tarzanweb.jp|tn.com.ar|wpb.shueisha.co.jp|wsj.com
 ||reelevant.dev/tracker
 /cgi/stats.pl?
 ||trafficjoint.com^$third-party
@@ -10365,7 +10367,6 @@ _event_tracking?
 ||caramel.press^$third-party
 ||idot.cz^$third-party
 ||bridge-ashiato.appspot.com/beacon/
-@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|handelsblatt.com|mainichi.jp|marketwatch.com|tarzanweb.jp|tn.com.ar|wpb.shueisha.co.jp|wsj.com
 ||esputnik.com^$third-party
 ||sptag1.com^$third-party
 ||s.pinimg.com/ct/core.js
