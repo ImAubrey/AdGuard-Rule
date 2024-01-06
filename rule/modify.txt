@@ -1,4 +1,4 @@
-# Update time: 2024-01-06 08:59:03
+# Update time: 2024-01-06 20:22:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -310,6 +310,7 @@ kimo.ma##.adb
 andevice.ru,dietdo.ru##.adb-def
 1snau.ru,bychico.net,dyrik.ru,ecosounds.net,in-drive.ru,inforpost.com,musecube.org,obozrevatel.com,oknotivi.ru,pogodnik.com,sandero.ru,turbominer.ru##body > div[style*="z-index"][style*="9999"]
 pvcalc.ru##div[style^="position:fixed; top:0px; left:0px; opacity: 0.9;"]
+||baeldung.com/*/library/dist/js/ad-recovery.min.js
 ||curvycry.com^$third-party
 ###adbpopup
 ||stingsquirrel.com^$third-party
@@ -852,13 +853,13 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
         <title></title>
     <body onload="do_onload()">
         </script>
+                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1704543757.0088498342&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
         </noscript>
     </body>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="refresh" content="0;url=http://www70.iqiq.io/" />
 </html>
         <meta http-equiv="x-ua-compatible" content="IE=edge">
-                window.top.location.href = "http://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt?gp=1&js=1&uuid=1704502748.0017643539&other_args=eyJ1cmkiOiAiL2lseHAva29vbHByb3h5L21hc3Rlci9ydWxlcy9kYWlseS50eHQiLCAiYXJncyI6ICIiLCAicmVmZXJlciI6ICIiLCAiYWNjZXB0IjogInRleHQvaHRtbCxhcHBsaWNhdGlvbi9qc29uLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44In0=";
         <meta charset="UTF-8">
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
@@ -5607,6 +5608,7 @@ _trackWebtrekkEvents.
 ||userlook.com^$third-party
 ||hqq.tv/js/counters.js
 /adobe-analytics.js
+||djuf7jb483wz1.cloudfront.net/p/l.jpg
 ||equalweb.com/statistics.taf
 ||gmx.net/monitoring/
 /cgi-bin/lcpnp/*
@@ -6603,6 +6605,7 @@ _beacon?
 /events?data=
 ||itrac.it^$third-party
 ||walmeric.com^$third-party
+@@||js-agent.newrelic.com^$script,domain=abema.tv
 ||blozoo.info/js/ranktool/
 /trackBatchEvents?
 /unbxdAnalytics.js
@@ -7548,6 +7551,7 @@ _track_pixel.gif?
 ||inn.co.il/Controls/HPJS.ashx?act=log
 /rot_in.php
 ||avapartner.com^$third-party
+abema.tv##^script:has-text(NREUM)
 /visit?id=
 @@||spoc.sydtrafik.dk/CherwellPortal/dist/app/common/analytics/Analytics.js$~third-party
 ||huuto.net/js/analytic/
@@ -7598,6 +7602,7 @@ _track_pixel.gif?
 ||appier.net^$third-party
 ||botndm.nl^*/init.min.js
 /hubspot-ga-tracking.js
+abema.tv##+js(rmnt, script, NREUM)
 ||cloudfront.net/sitegainer_
 /social_tracking.js
 ||pushengage.com^$third-party
@@ -9875,6 +9880,7 @@ _imp?Log=
 ||perfops.io^$third-party
 ||wwgate.ru^$third-party
 ||incapdns.net/monitor.js
+@@||bam.nr-data.net^$xmlhttprequest,domain=abema.tv
 @@||bam.nr-data.net^$script,domain=kapwing.com
 /googleEventTracking.js
 /medialaanUniversalTracker.js
@@ -11487,6 +11493,7 @@ _WebVitalsReporter_
 ||whoaremyfriends.net^$third-party
 ||weblist.de^$third-party
 ||youtube.com/api/stats/qoe?
+||jsdelivr.net/npm/navigator.sendbeacon
 ||statistiche.ws^$third-party
 /trovit-analytics.js
 ||targetfuel.com^$third-party
