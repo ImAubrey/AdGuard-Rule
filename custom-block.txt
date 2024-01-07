@@ -1,1 +1,2 @@
 ||dns.weixin.qq.com^$important
+||httpdns.*^$important
