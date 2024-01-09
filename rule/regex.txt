@@ -1,4 +1,4 @@
-# Update time: 2024-01-09 09:01:08
+# Update time: 2024-01-09 20:25:03
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -86,18 +86,6 @@
 ||build|click.signaturemarket.co^
 ||stats.zone-annuaire.
 ||pixel.archive.
-||liveweb*.msstatic.com^
-||pangolin-sdk-toutiao*.com^
-||ads.*.kugou.com^
-||ads*-normal*.zijieapi.com^
-||log*-misc-lq.amemv.com^
-||v*-ad.video.yximgs.com^
-||firebaselogging-*.googleapis.com^
-||ulog*.*^
-||adsfilebssdlbig.*.kugou.com^
-||log*-normal-lq.toutiaoapi.com^
-||ads*.zijieapi.com^
-||w*.*skwai.com^
 ||da.hornbach.*^
 ||appsflyer*.*^
 ||brucelead*.com^
@@ -193,6 +181,18 @@
 ||analyzer*.fc2.com^
 ||lianmeng*.*^
 ||tracker*.qcloud.com^
+||liveweb*.msstatic.com^
+||pangolin-sdk-toutiao*.com^
+||ads.*.kugou.com^
+||ads*-normal*.zijieapi.com^
+||log*-misc-lq.amemv.com^
+||v*-ad.video.yximgs.com^
+||firebaselogging-*.googleapis.com^
+||ulog*.*^
+||adsfilebssdlbig.*.kugou.com^
+||log*-normal-lq.toutiaoapi.com^
+||ads*.zijieapi.com^
+||w*.*skwai.com^
 smcom
 link.localmasters.co||link.plazahogar.com.py
 welcome..org
