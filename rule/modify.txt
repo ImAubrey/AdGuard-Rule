@@ -1,4 +1,4 @@
-# Update time: 2024-01-10 20:25:27
+# Update time: 2024-01-11 09:01:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3700,7 +3700,6 @@ omni.soundestlink.com$image
 /cgi-bin/online/uos.cgi?
 ||acq.io^$third-party
 ||proext.com^$third-party
-||foxnews.com/static/isa/app/lib/afpid.js
 ||traceparts.com/logs
 ||buzzurl.jp/api/counter/
 ||spider-mich.com^$third-party
@@ -5751,6 +5750,7 @@ _trackWebtrekkEvents.
 ||keen.io^$third-party,domain=~keen.github.io|~keen.io
 /e.gif?
 /pixeltracker.js
+||cmp.vg.no^*/metrics/
 ||rztrkr.com^$third-party
 ||gc.newsweek.com/front/js/counter.js
 ||azurewebsites.net/api/views?
