@@ -1,4 +1,4 @@
-# Update time: 2024-01-11 20:25:08
+# Update time: 2024-01-12 09:01:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3975,6 +3975,7 @@ _stat_counter.php?
 ||instadia.net^$third-party
 /exactag.js
 ||static-fra.de^*/targeting.js
+||yourupload.com/jwe?
 /trackit.php?
 ||protecmedia.com^$third-party
 ||adm24.de/hp_counter/$third-party
@@ -5254,6 +5255,7 @@ _webanalytics.
 /stat-analytics/*
 /global_analytics/s_code.js
 /pvcounter.cgi
+.pstmrk.it/open^
 /neilson.js
 /track-pixel.
 ||affiliation.planethoster.info^$third-party
@@ -5265,7 +5267,6 @@ _webanalytics.
 ||realcounters.com^$third-party
 /ajax/log?
 ||s3s-main.net^$third-party
-.pstmrk.it/open/
 ||streamtapeadblock.art/stat/
 /collect.php?tid=
 ||m.facebook.com/ajax/weblite_load_logging/
