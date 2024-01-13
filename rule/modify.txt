@@ -1,4 +1,4 @@
-# Update time: 2024-01-13 09:00:20
+# Update time: 2024-01-13 20:23:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1738,6 +1738,7 @@ _logHuman=
 @@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
 ||ebay.com/delstats/
 ||bonuscounter.de^$third-party
+||coomer.su/api/v1/andagain
 /check.php?referrer=
 ||intrastats.com^$third-party
 ||geolid.com^$third-party
@@ -3982,7 +3983,6 @@ _stat_counter.php?
 @@||mbe.modelica.university/_next/static/*/pages/pageview.js$~third-party
 /stat?track=
 ||analyticson.com^$third-party
-||kemono.su/api/v1/tryagain
 ||zipstat.dk^$third-party
 /link.oneplus.com/mo$image
 ||foodpanda.ph/lJuB4eTB/init.js
@@ -10011,6 +10011,7 @@ _imp?Log=
 ||followistic.com/widget/stat/
 ||stackshare.io/analytics.
 ||coinimp.com$third-party
+||kemono.su/api/v1/andagain
 ||lego.com/api/dl-event-ingest
 /clicktale.js
 /ajax/stat/*
@@ -10249,7 +10250,6 @@ _event_tracking?
 ||userreplay.net^$third-party
 ||coursera.org/eventing
 ||app.chat.xiaomi.net^$third-party
-||coomer.su/api/v1/tryagain
 ||parklogic.com^$third-party
 ||ezec.co.uk^$third-party
 ||rankinteractive.com^$third-party
