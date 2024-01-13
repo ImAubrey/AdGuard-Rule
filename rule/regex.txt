@@ -1,4 +1,4 @@
-# Update time: 2024-01-12 20:24:47
+# Update time: 2024-01-13 09:00:20
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -188,17 +188,3 @@
 ||analyzer*.fc2.com^
 ||lianmeng*.*^
 ||tracker*.qcloud.com^
-smcom
-link.localmasters.co||link.plazahogar.com.py
-welcome..org
-spryptvqguhpwt
-metrics.gali|metrics.reallymoving.com
-aa.dyson.es||adbmetrics.koreanair.com
-images.contacto.uni|images.e.seagate.com
-smetrics.suncorpbank.com.au||smetrics.viabcp.com
-go-mpulse
-build|click.signaturemarket.co
-smetriccom
-emam
-epochtimes
-xxlef||xyhojp.lacoste.com
