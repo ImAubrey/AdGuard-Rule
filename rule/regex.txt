@@ -1,4 +1,4 @@
-# Update time: 2024-01-14 20:23:04
+# Update time: 2024-01-15 09:03:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -81,6 +81,18 @@
 ||build|click.signaturemarket.co^
 ||stats.zone-annuaire.
 ||pixel.archive.
+||liveweb*.msstatic.com^
+||pangolin-sdk-toutiao*.com^
+||ads.*.kugou.com^
+||ads*-normal*.zijieapi.com^
+||log*-misc-lq.amemv.com^
+||v*-ad.video.yximgs.com^
+||firebaselogging-*.googleapis.com^
+||ulog*.*^
+||adsfilebssdlbig.*.kugou.com^
+||log*-normal-lq.toutiaoapi.com^
+||ads*.zijieapi.com^
+||w*.*skwai.com^
 ||da.hornbach.*^
 ||appsflyer*.*^
 ||brucelead*.com^
@@ -176,15 +188,3 @@
 ||analyzer*.fc2.com^
 ||lianmeng*.*^
 ||tracker*.qcloud.com^
-||liveweb*.msstatic.com^
-||pangolin-sdk-toutiao*.com^
-||ads.*.kugou.com^
-||ads*-normal*.zijieapi.com^
-||log*-misc-lq.amemv.com^
-||v*-ad.video.yximgs.com^
-||firebaselogging-*.googleapis.com^
-||ulog*.*^
-||adsfilebssdlbig.*.kugou.com^
-||log*-normal-lq.toutiaoapi.com^
-||ads*.zijieapi.com^
-||w*.*skwai.com^

@@ -1,4 +1,4 @@
-# Update time: 2024-01-14 20:23:04
+# Update time: 2024-01-15 09:03:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11889,14 +11889,6 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -11927,3 +11919,11 @@ _WebVitalsReporter_
 /^admarvel\./
 /^applovin\./
 /^.+stat\.kugou\.com/
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
