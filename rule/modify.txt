@@ -1,4 +1,4 @@
-# Update time: 2024-01-16 09:00:47
+# Update time: 2024-01-16 20:25:55
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1656,6 +1656,7 @@ _logHuman=
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 /tr/pageview/*
 ||intelligencefocus.com^*/websensor.aspx?
+||roadster.com/roadster_dealer_analytics
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 ||skypack.dev/@amplitude/
 ||hcmanager.swifteq.com/hc_events/
@@ -1731,7 +1732,6 @@ _logHuman=
 ||usa.cc^$third-party
 ||widgets.solutions^$third-party
 ||citiservi.es/adstrack?
-||kemono.su/api/v1/welcomeback
 /libs/tracker.js
 ||exelator.com^$third-party
 /anclytic-ajax.html
@@ -1846,6 +1846,7 @@ _logHuman=
 ||titag.com^$third-party
 ||theblock.co/api/analytics
 /perfmetrics.js
+||kemono.su/api/v1/YourRetardAssBrokeActualSiteFunctionality-
 ||bobparsons.com/image.aspx?
 ||gotdns.com/track/blank.aspx?
 ?action=statsjs&
@@ -2377,7 +2378,6 @@ _logHuman=
 ||californiatimes.com/privacy/$image
 ||inbox.lv^*/ga.js
 ||datayi.cn^$third-party
-://kemono.su^$xmlhttprequest,method=post
 /link.divenewsletter.com/img/*$image
 ||myprivacy.dpgmedia.net/audits
 ||onlinesucces.nl^$third-party
@@ -3537,6 +3537,7 @@ omni.soundestlink.com$image
 ||fouanalytics.com^$third-party
 ||semiocast.com^$third-party
 ||sambaads.com^$third-party
+://kemono.su^$xmlhttprequest,method=patch|post
 /pageTracking.js
 /track_js/?
 /monitor?rtype=
@@ -3614,6 +3615,7 @@ omni.soundestlink.com$image
 ||followercounter.com^$third-party
 ||impression.link^$third-party
 ||d.rcmd.jp^$image
+://coomer.su^$xmlhttprequest,method=patch|post
 ||unibet.de/stan/campaign.do?*&affiliateId=$subdocument,third-party
 ||pointmediatracker.com^$third-party
 ||geoplugin.net^$third-party
@@ -3748,6 +3750,7 @@ omni.soundestlink.com$image
 ||nflshop.com/api/track
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 ||particularaudience.com^$third-party
+||webd-assets.cdn4dd.com/s.js$domain=doordash.com
 ||eltex.co.jp^$third-party
 ||static.parsely.com^$third-party
 /ga-se-async.js
@@ -3926,7 +3929,6 @@ _stat_counter.php?
 /pphlogger.js
 /batch/1/OE/*
 ||ati-host.net/event?
-://coomer.su^$xmlhttprequest,method=post
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/app-measurement.html$xmlhttprequest
 /google_tag.script.js
 /trackstats?
@@ -5904,7 +5906,6 @@ _trackWebtrekkEvents.
 /pixelNew.js
 /track/client-event/*
 ||analytics.praetor.im^$third-party
-||coomer.su/api/v1/welcomeback
 ||fluidsurveys.com^$third-party
 ||sendtonews.com/stn_trk.gif?
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
@@ -6237,6 +6238,7 @@ _beacon?
 /min/gtm/*
 ||secureprovide1.com/*=tracking$image
 ||webmd.com/static/v/c?
+||coomer.su/api/v1/YourRetardAssBrokeActualSiteFunctionality-
 /clickcount.php
 ||websuccess-data.com/tracker.js
 /pxre.php
@@ -11899,6 +11901,14 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -11929,11 +11939,3 @@ _WebVitalsReporter_
 /^admarvel\./
 /^applovin\./
 /^.+stat\.kugou\.com/
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
