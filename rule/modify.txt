@@ -1,4 +1,4 @@
-# Update time: 2024-01-15 20:25:58
+# Update time: 2024-01-16 09:00:47
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1731,6 +1731,7 @@ _logHuman=
 ||usa.cc^$third-party
 ||widgets.solutions^$third-party
 ||citiservi.es/adstrack?
+||kemono.su/api/v1/welcomeback
 /libs/tracker.js
 ||exelator.com^$third-party
 /anclytic-ajax.html
@@ -1738,7 +1739,6 @@ _logHuman=
 @@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
 ||ebay.com/delstats/
 ||bonuscounter.de^$third-party
-||coomer.su/api/v1/andagain
 /check.php?referrer=
 ||intrastats.com^$third-party
 ||geolid.com^$third-party
@@ -2377,6 +2377,7 @@ _logHuman=
 ||californiatimes.com/privacy/$image
 ||inbox.lv^*/ga.js
 ||datayi.cn^$third-party
+://kemono.su^$xmlhttprequest,method=post
 /link.divenewsletter.com/img/*$image
 ||myprivacy.dpgmedia.net/audits
 ||onlinesucces.nl^$third-party
@@ -3771,6 +3772,7 @@ omni.soundestlink.com$image
 ||brightfunnel.com^$third-party
 ||amazonaws.com^*/prod_analytics
 ||streeteasy.com/cZdhF737/init.js
+@@||coomer.su/.well-known/ddos-guard/mark/|
 @@||lacoste.com^*/click-analytics.js$~third-party
 ||modernus.is^$third-party
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
@@ -3924,6 +3926,7 @@ _stat_counter.php?
 /pphlogger.js
 /batch/1/OE/*
 ||ati-host.net/event?
+://coomer.su^$xmlhttprequest,method=post
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/app-measurement.html$xmlhttprequest
 /google_tag.script.js
 /trackstats?
@@ -5052,6 +5055,7 @@ _stat_counter.php?
 ||sugodeku.com^$third-party
 /Log?act=$image
 ||atom-data.io/session/latest/track.html?$third-party
+||mssdk.tiktokw.us/web/report?
 ||newser.com/utility.aspx?
 ||stapadblockuser.click/stat/
 /disp_cnt.php
@@ -5176,6 +5180,7 @@ _webanalytics.
 ||exorigos.com^$third-party
 /tailtarget.js
 ||marktplaats.nl/px/
+||mowplayer.com/media/statistics/
 ||th.bing.com/th/*&riu=$image,third-party
 /sdc.js
 ||d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js
@@ -5899,6 +5904,7 @@ _trackWebtrekkEvents.
 /pixelNew.js
 /track/client-event/*
 ||analytics.praetor.im^$third-party
+||coomer.su/api/v1/welcomeback
 ||fluidsurveys.com^$third-party
 ||sendtonews.com/stn_trk.gif?
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
@@ -6065,6 +6071,7 @@ _beacon?
 ||visualstudio.com/v2/track
 /SSOCore/update?
 ||push-free.com^$third-party
+@@||kemono.su/.well-known/ddos-guard/mark/|
 ||aaddzz.com^$third-party
 /analytics.prod.$domain=~fifteen.eu
 /log?event=
@@ -7386,6 +7393,7 @@ _track_pixel.gif?
 ||mediagauge.com^$third-party
 ||trk.mail.ru^$image,script
 /elqcfg.min.js
+||laposte.fr/cdp/events?
 /trackga.js
 @@||nypost.com/blaize/datalayer$~third-party
 ||tracking.sembox.it^$third-party
@@ -8386,6 +8394,7 @@ $ping,third-party
 ||aid-ad.jp^$third-party
 ||usage.seibert-media.io^$third-party
 ||plexop.com^$third-party
+/track/pageviews/*
 /stats/lp.min.
 ||amplify.outbrain.com^$third-party
 ||vidigital.ru^$third-party
@@ -10011,7 +10020,6 @@ _imp?Log=
 ||followistic.com/widget/stat/
 ||stackshare.io/analytics.
 ||coinimp.com$third-party
-||kemono.su/api/v1/andagain
 ||lego.com/api/dl-event-ingest
 /clicktale.js
 /ajax/stat/*
@@ -10834,6 +10842,7 @@ _ad_impression.
 ||tes-game.ru/stat/
 ||soundcloud.com^$ping
 /PageTrack.js
+||servernews.ru/track?
 /jscripts/analytics.js
 ||leokross.com^$third-party
 ||timesunion.com/413gkwMT/init.js
@@ -11433,6 +11442,7 @@ _WebVitalsReporter_
 ||hitmaster.de^$third-party
 ||treasuredata.com^$third-party
 ||streetmetrics.io^$third-party
+||redaktionstest.net/cdn/$ping
 ||a2z.com/sping?
 ||stroeerdigitalmedia.de^$third-party
 ||italiaonline.it/script/ga.
