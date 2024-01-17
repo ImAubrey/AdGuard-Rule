@@ -1,4 +1,4 @@
-# Update time: 2024-01-16 20:25:55
+# Update time: 2024-01-17 09:01:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2931,6 +2931,7 @@ _logHuman=
 ||cloudfront.net/analyticsengine/
 ||googlerank.info^$third-party
 ||couchsurfing.com/bEcn7fQX/init.js
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/(?:creator|post)\/(?:[a-z]{6,16}\/){1,2}\d{8,9}$/$xhr,1p,match-case,method=post
 ||autohome.com.cn/impress?
 ||minkou.jp/js/tracking.js
 /analytics/tracker.js
@@ -3439,6 +3440,7 @@ _logHuman=
 ||amazonpay.com/customerInsight?
 .ne16.com/do/
 ||193.197.158.209^$third-party,domain=~statistik.lubw.baden-wuerttemberg.de.ip
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/(?:creator|post)\/(?:[a-z]{6,16}\/){1,2}\d{8,9}$/$xhr,1p,match-case,method=post
 ||terabox.fun/api/analytics
 @@||lightning.bleacherreport.com/launch/*-source.min.js$~third-party
 ||hello.myfonts.net/count/
@@ -3516,6 +3518,7 @@ omni.soundestlink.com$image
 ||enquisite.com^$third-party
 @@||analytics.itunes.apple.com^$~third-party
 /tracker/event?
+||cue.search.naver.com/api/*/log/
 ||figpii.com^$third-party
 /referrer.js
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
@@ -3537,7 +3540,6 @@ omni.soundestlink.com$image
 ||fouanalytics.com^$third-party
 ||semiocast.com^$third-party
 ||sambaads.com^$third-party
-://kemono.su^$xmlhttprequest,method=patch|post
 /pageTracking.js
 /track_js/?
 /monitor?rtype=
@@ -3615,7 +3617,6 @@ omni.soundestlink.com$image
 ||followercounter.com^$third-party
 ||impression.link^$third-party
 ||d.rcmd.jp^$image
-://coomer.su^$xmlhttprequest,method=patch|post
 ||unibet.de/stan/campaign.do?*&affiliateId=$subdocument,third-party
 ||pointmediatracker.com^$third-party
 ||geoplugin.net^$third-party
@@ -4443,6 +4444,7 @@ _stat_counter.php?
 ||adnz.co^$third-party
 /dpistat/updater.php
 ||knorex.com^$third-party
+://kemono.su^$xhr,method=patch|post
 ||ancestrycdn.com/tao/at/
 ||ondigitalocean.app/insight-analytics.js
 ||dmpcounter.com^$third-party
@@ -4947,6 +4949,7 @@ _stat_counter.php?
 ||jiji.co.ke/tag_event
 /_/api/v2/analytics/?
 ||terra.com.mx^*/metrics_begin.js
+://cmpworker.
 ||sportnews.bz/pcookie?
 ||shiekh.com/iJ55yhVs/init.js
 ||ontraport.com/track.php
@@ -5319,6 +5322,7 @@ _view_pixel&$image
 ||manua.ls/g/collect?
 /stats.cgi$image
 ||flags.es^$third-party
+://coomer.su^$xhr,method=patch|post
 ||daiichi-kamotsu.co.jp/js/google_analytics.js
 ||openstat.net^$third-party
 /sessioncam.recorder.js
@@ -6091,6 +6095,7 @@ _beacon?
 /ecanalytics.js
 ||mobalyzer.net^$third-party
 ||gameanalytics.com^$third-party
+@@/^https:\/\/kemono\.su\/[a-z]{6,16}\/user\/[a-z]{6,16}\/post\/\d{8,9}$/$xhr,1p,match-case,method=post
 &event=view&
 /logging/v1/log|
 /CustomTrackingScript.js
@@ -8228,6 +8233,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /counter5.min.js
 ||attn.tv^*/dtag.js
 /fp/tags.js
+@@||creditas.cz/cb/public/assets/SmartTag-$script,~third-party
 ||foodpanda.bg/lJuB4eTB/init.js
 ||schoolyeargo.com^$third-party
 /1px.php?
@@ -9752,6 +9758,7 @@ _imp?Log=
 ||addtoany.com/menu/transparent.gif
 /DG/DEFAULT/rest/*
 ||zapcdn.space/zapret.js
+@@/^https:\/\/coomer\.su\/[a-z]{6,16}\/user\/[a-z]{6,16}\/post\/\d{8,9}$/$xhr,1p,match-case,method=post
 @@||netcoresmartech.com/smartechclient.js$domain=hdfcfund.com
 ||ts.fi^*/spring.js
 ||faphouse.com/api/collector/
@@ -10539,6 +10546,7 @@ img.promio-connect.com$image
 /aff_i?offer_id=
 ||iyzipay.com/buyer-protection/assets/js/analytics.js
 ||caprofitx.com^$third-party
+||interfax.ru/cnt/
 /Hit.aspx?
 ||twitter.com/9/measurement/
 /wpstatistics/v1/hit?
