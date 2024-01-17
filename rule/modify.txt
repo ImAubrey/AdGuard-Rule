@@ -1,4 +1,4 @@
-# Update time: 2024-01-17 09:01:22
+# Update time: 2024-01-17 20:25:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -846,6 +846,31 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /AdblockMessage.
 ||paintpear.com^$third-party
 ##.svg-adblock-full
+/torrenttrackerlist.com\/(wp-content)\/(uploads)\/[a-zA-Z0-9]{10,}\/[a-zA-Z0-9]{10,}.js/
+-shareWidget.
+/doseofporn.com\/[a-z]{0,5}[1-9]{0,5}[a-z]{0,5}[1-9][s\S]*.js/
+*ContentAD.
+/^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/$badfilter
+.shareCounts.
+-ShareButton2.
+^interfaceAdMonitor^
+-cookiePolicy.
+-unbxdAnalytics.
+||*-ad-sign.byteimg.com^
+.pluckCount.
+.facebookLikePopUp.
+/Adloader/
+-facebook-likeButton-
+.EuCookieCompliance.
+^interfaceAd^
+||*-ad.a.yximgs.com^
+-Web-Advert.
+-PcmModule-Taboola-
+||*-applog.fqnovel.com^
+.PrivacyDataNotice.
+-CookieInfo.
+.EuCookieCompliance.min.js
+.cookiesPolicy.
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
@@ -11917,33 +11942,3 @@ _WebVitalsReporter_
 ||*mistat*.xiaomi.com^
 ||*log.droid4x.cn^
 ||*-analytics*.huami.com^
-/^adsensor\./
-/^dwtrack\./
-/^domob\./
-/^pingfore\./
-/^adservice\./
-/^appsflyer\./
-/^guanggao\./
-/^adsage\./
-||*-ad-sign.byteimg.com^
-/^adsserving\./
-/^adwords\./
-/^supersonicads\./
-/^openx\./
-/^socdm\./
-/^omniture\./
-/^zjtoolbar\./
-||*-ad.a.yximgs.com^
-/^adsmogo\./
-/^omgmta\./
-/^wlmonitor\./
-/^admaster\./
-/^adsystem\./
-/^partnerad\./
-/^duomeng\./
-/^adsrvmedia\./
-||*-applog.fqnovel.com^
-/^omgmtaw\./
-/^admarvel\./
-/^applovin\./
-/^.+stat\.kugou\.com/
