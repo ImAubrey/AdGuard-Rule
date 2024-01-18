@@ -1,4 +1,4 @@
-# Update time: 2024-01-17 20:25:48
+# Update time: 2024-01-18 09:00:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -48,26 +48,9 @@
 # 每12小时同步一次、如有误杀、请手动解除
 
 ||httpdns.*^$important
-||liveweb*.msstatic.com^
-rgmechanicsgames.com*VPN.exe
-||pangolin-sdk-toutiao*.com^
-MRelateFeedAd
-||ads*-normal*.zijieapi.com^
-||log*-misc-lq.amemv.com^
-||ulog*.*^
-||adsfilebssdlbig.*.kugou.com^
-||log*-normal-lq.toutiaoapi.com^
-||ads*.zijieapi.com^
-||w*.*skwai.com^
-||ads.*.kugou.com^
-||v*-ad.video.yximgs.com^
-||firebaselogging-*.googleapis.com^
-Banner468x60
-getAds|
 ||j3.4z0vc.chileinsumos.cl.^
 ||bc.geocities.
 ||smetriccom^
-||images.contacto.uni|images.e.seagate.com^
 ||matt.mercadolibre.
 ||stats*.credit-cooperatif.coop^
 ||hn-ping*.hashnode.com^
@@ -75,9 +58,7 @@ getAds|
 ||adservice.google.
 ||servo-report.dvdfab.
 ||smetrics.suncorpbank.com.au||smetrics.viabcp.com^
-||link.localmasters.co||link.plazahogar.com.py^
 ||analytics-api.dvdfab.
-||metrics.gali|metrics.reallymoving.com^
 ||geotargetly-api-*.com^
 ||smcom^
 ||emam^
@@ -93,8 +74,6 @@ getAds|
 ||stats.zone-telechargement.
 ||tracker.twenga.
 ||aff*.kolektiva.net^
-||aa.dyson.es||adbmetrics.koreanair.com^
-||build|click.signaturemarket.co^
 ||stats.zone-annuaire.
 ||pixel.archive.
 ||da.hornbach.*^
@@ -192,3 +171,31 @@ getAds|
 ||analyzer*.fc2.com^
 ||lianmeng*.*^
 ||tracker*.qcloud.com^
+||onedmp.com.^
+||cpng.lol.^
+||wwydakja.org.^
+||bakjaqa.net.^
+||wwydakja.net.^
+||twerwew.org.^
+||wasqimet.net.^
+||agweaaf.org.^
+||vxzcvks.org.^
+||semqraso.net.^
+||iopiopiop.net.^
+||wolsretet.net.^
+||hqhjjha.org.^
+||raosmeac.net.^
+||ertewqas.net.^
+||rewqpqa.link.^
+||rewqpqa.net.^
+||iopiopiop.org.^
+||agweaaf.net.^
+||mosrtaek.net.^
+||mesqwrte.net.^
+||vxzcvks.net.^
+||bakjaqa.org.^
+||osarmapa.net.^
+||yeioreo.net.^
+||temksrtd.net.^
+||ertewqas.org.^
+||rewqpqa.org.^

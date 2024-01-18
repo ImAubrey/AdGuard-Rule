@@ -1,4 +1,4 @@
-# Update time: 2024-01-17 20:25:48
+# Update time: 2024-01-18 09:00:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9704,7 +9704,6 @@
 0.0.0.0 metrics.dallasnews.com
 0.0.0.0 lrpoint.fr
 0.0.0.0 ads.simtel.com
-0.0.0.0 members.chello.at
 0.0.0.0 www.merijntjeaanderijn.nl
 0.0.0.0 www.vilaglato.info
 0.0.0.0 tramadol2006.3xforum.ro
@@ -15823,6 +15822,7 @@
 0.0.0.0 crwdcntrl.net
 0.0.0.0 im.52441.com
 0.0.0.0 rads.stackoverflow.com
+0.0.0.0 sitesofa.za.com
 0.0.0.0 toolbar.soso.com
 0.0.0.0 static.plugrush.com
 0.0.0.0 tranisere.fr
@@ -20076,6 +20076,7 @@
 0.0.0.0 lanphuong.vn
 0.0.0.0 newbostonvillage.com
 0.0.0.0 umihaku000time.web.fc2.com
+0.0.0.0 members.chello.at
 0.0.0.0 ubermensch.altervista.org
 0.0.0.0 ffoqr3ug7m726zou.tx0igu.bid
 0.0.0.0 ubisortdasert.top

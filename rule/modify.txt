@@ -1,4 +1,4 @@
-# Update time: 2024-01-17 20:25:48
+# Update time: 2024-01-18 09:00:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -846,31 +846,6 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /AdblockMessage.
 ||paintpear.com^$third-party
 ##.svg-adblock-full
-/torrenttrackerlist.com\/(wp-content)\/(uploads)\/[a-zA-Z0-9]{10,}\/[a-zA-Z0-9]{10,}.js/
--shareWidget.
-/doseofporn.com\/[a-z]{0,5}[1-9]{0,5}[a-z]{0,5}[1-9][s\S]*.js/
-*ContentAD.
-/^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/$badfilter
-.shareCounts.
--ShareButton2.
-^interfaceAdMonitor^
--cookiePolicy.
--unbxdAnalytics.
-||*-ad-sign.byteimg.com^
-.pluckCount.
-.facebookLikePopUp.
-/Adloader/
--facebook-likeButton-
-.EuCookieCompliance.
-^interfaceAd^
-||*-ad.a.yximgs.com^
--Web-Advert.
--PcmModule-Taboola-
-||*-applog.fqnovel.com^
-.PrivacyDataNotice.
--CookieInfo.
-.EuCookieCompliance.min.js
-.cookiesPolicy.
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
@@ -2478,6 +2453,7 @@ _logHuman=
 /tracking/networktrackingservlet
 /pixel/email/*$image
 ||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/post\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/\d+\/[0-9a-zA-Z]+$/$xhr,1p,match-case,method=post
 ||bukalapak.com/banner-redirector/impression
 ||rumanalytics.com^$third-party
 ||dropbox.com/prompt/log_impression?
@@ -2632,6 +2608,7 @@ _logHuman=
 ||tbskip.taobao.com^$script
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
 ||yieldbot.com^$third-party
+@@/^https:\/\/kemono\.su\/api\/v1\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/user\/\d+\/post\/[0-9a-zA-Z]+\/flag$/$xhr,1p,match-case,method=post
 /thermostat.js
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 /videojs.ga.videocloud.js
@@ -2898,7 +2875,6 @@ _logHuman=
 ||pingclock.net^$third-party
 ||meteorsolutions.com^$third-party
 ||stats21.com^$third-party
-||dii3.zooplus.it^m^
 ||attracta.com^$third-party
 /livezilla/server.php?request=track&
 ||autoaffiliatenetwork.com^$third-party
@@ -2956,7 +2932,6 @@ _logHuman=
 ||cloudfront.net/analyticsengine/
 ||googlerank.info^$third-party
 ||couchsurfing.com/bEcn7fQX/init.js
-@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/(?:creator|post)\/(?:[a-z]{6,16}\/){1,2}\d{8,9}$/$xhr,1p,match-case,method=post
 ||autohome.com.cn/impress?
 ||minkou.jp/js/tracking.js
 /analytics/tracker.js
@@ -3465,7 +3440,6 @@ _logHuman=
 ||amazonpay.com/customerInsight?
 .ne16.com/do/
 ||193.197.158.209^$third-party,domain=~statistik.lubw.baden-wuerttemberg.de.ip
-@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/(?:creator|post)\/(?:[a-z]{6,16}\/){1,2}\d{8,9}$/$xhr,1p,match-case,method=post
 ||terabox.fun/api/analytics
 @@||lightning.bleacherreport.com/launch/*-source.min.js$~third-party
 ||hello.myfonts.net/count/
@@ -5401,6 +5375,7 @@ _view_pixel&$image
 /impression.track?
 ||andyhoppe.com/count/
 ||dps-reach.com^$third-party
+||adyen.com/checkoutshopper/images/analytics.png?
 ||gostats.de^$third-party
 /sranalytics.js
 ||platform.twitter.com/impressions.js
@@ -6120,7 +6095,6 @@ _beacon?
 /ecanalytics.js
 ||mobalyzer.net^$third-party
 ||gameanalytics.com^$third-party
-@@/^https:\/\/kemono\.su\/[a-z]{6,16}\/user\/[a-z]{6,16}\/post\/\d{8,9}$/$xhr,1p,match-case,method=post
 &event=view&
 /logging/v1/log|
 /CustomTrackingScript.js
@@ -6576,6 +6550,7 @@ _beacon?
 ||rapidstats.net^$third-party
 /webtrends.js
 ||hiperstat.com^$third-party
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/post\/(?:fansly|onlyfans)\/[a-z]+\/\d+$/$xhr,1p,match-case,method=post
 ||dealnews.com/lw/ul.php
 ||thebrighttag.com^$third-party
 ||hushforms.com/visitorid?
@@ -6599,7 +6574,6 @@ _beacon?
 ||conversionlogic.net^$third-party
 ||cv.ee/static/stat.php
 /rollbar.min.js
-||trk.drdobbs.com^com^
 /satismeter.js
 ||allo-media.net^$third-party
 ||netease.com/web/performance?
@@ -7163,7 +7137,6 @@ _track_pixel.gif?
 ://piwik.$domain=~matomo.org|~piwik.pro
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 ||seondnsresolve.com^$third-party
-||mail.dolce-gusto.cz^wp-tw.americanexpress.com^
 ||pm0.net^$third-party
 ||storage.syncmedia.io/libs/sm_capture_
 ||wunderloop.net^$third-party
@@ -8263,6 +8236,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||schoolyeargo.com^$third-party
 /1px.php?
 ||salesviewer.org^$third-party
+@@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[a-z]+\/post\/[0-9a-zA-Z]+\/flag$/$xhr,1p,match-case,method=post
 ||videoamp.com^$third-party
 /nielsen.htm
 /web_answertip.js
@@ -8500,6 +8474,7 @@ $ping,third-party
 ||4shared.com/js/d1VisitsCounter.4min.js
 ||canlytics.com^$third-party
 ||awfonts.com^$script,third-party
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/creator\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/\d+$/$xhr,1p,match-case,method=post
 /fp/top_fp.
 ||yektanet.com^$third-party
 ||trbo.com^$third-party
@@ -8525,7 +8500,6 @@ $ping,third-party
 ||t.hln.be^$image
 /publishertag.js
 ||kaminari.click^$third-party
-||msvdn.net/api/v2/heartbeat/
 ||bettermeter.com^$third-party
 ||gez.io^$third-party
 ||aolcdn.com/omniunih_int.js
@@ -9448,6 +9422,7 @@ _rpc/log?
 ||auction.co.kr/ad/log.js
 ||trustarc.com/log?
 /page-view.gif?
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/creator\/(?:fansly|onlyfans)\/[a-z]+\/\d+$/$xhr,1p,match-case,method=post
 /track/imp?
 ||coll2onf.com^$third-party
 /analytics-secure.js
@@ -9626,6 +9601,7 @@ _imp?Log=
 ||bing.com/fd/ls/l?IG=
 /stattracker-
 ||zoosnet.net^$third-party
+||adyen.com/checkoutshopper/v2/analytics/log?
 ||aax-eu-dub.amazon.com^$script
 ||24counter.com^$third-party
 ||scriptshead.com^$third-party
@@ -9783,7 +9759,6 @@ _imp?Log=
 ||addtoany.com/menu/transparent.gif
 /DG/DEFAULT/rest/*
 ||zapcdn.space/zapret.js
-@@/^https:\/\/coomer\.su\/[a-z]{6,16}\/user\/[a-z]{6,16}\/post\/\d{8,9}$/$xhr,1p,match-case,method=post
 @@||netcoresmartech.com/smartechclient.js$domain=hdfcfund.com
 ||ts.fi^*/spring.js
 ||faphouse.com/api/collector/
@@ -11942,3 +11917,30 @@ _WebVitalsReporter_
 ||*mistat*.xiaomi.com^
 ||*log.droid4x.cn^
 ||*-analytics*.huami.com^
+/^adsensor\./
+/^dwtrack\./
+/^domob\./
+/^pingfore\./
+/^adservice\./
+/^appsflyer\./
+/^guanggao\./
+/^adsage\./
+/^adsserving\./
+/^adwords\./
+/^supersonicads\./
+/^openx\./
+/^socdm\./
+/^omniture\./
+/^zjtoolbar\./
+/^adsmogo\./
+/^omgmta\./
+/^wlmonitor\./
+/^admaster\./
+/^adsystem\./
+/^partnerad\./
+/^duomeng\./
+/^adsrvmedia\./
+/^omgmtaw\./
+/^admarvel\./
+/^applovin\./
+/^.+stat\.kugou\.com/
