@@ -1,4 +1,4 @@
-# Update time: 2024-01-18 09:00:31
+# Update time: 2024-01-18 20:25:28
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3783,6 +3783,7 @@ omni.soundestlink.com$image
 ||useproof.com^$third-party
 ||txt.eu^$third-party
 ||topsite.lv^$third-party
+@@||letmegpt.com/js/gpt.js$~third-party
 /aggbug.aspx?
 ||taps.io^$third-party
 /seo/pageStat/*
@@ -5128,6 +5129,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 /silveregg/js/cookie_lib.js
 ||livetrafficfeed.com^$third-party
 ||cftrack.com^$third-party
+/fp3.min.js
 @@||wargag.ru/public/js/counter.js?
 ||performancerevenues.com^$third-party
 ||promo.ge/res/delivery/delivery.js
@@ -8823,6 +8825,7 @@ _rpc/log?
 /clicktracker.js
 /ping/?url=
 ||toyota.com/analytics/
+/nlRUM.js
 ||lastpass.com/lpapi/content/pixels
 ||etsy.com/bcn/beacon
 @@||gemius.pl/gplayer.js$domain=tsn.ua
@@ -9389,6 +9392,7 @@ _rpc/log?
 ||slashdot.org/country.js
 ||naytev.com^$third-party
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
+||upwork.com/upi/jslogger
 /jump/clk1.php
 ||yandexcdn.com/cdn-cgi/trace
 ||we-stats.com^$third-party

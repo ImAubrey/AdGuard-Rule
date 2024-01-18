@@ -1,4 +1,4 @@
-# Update time: 2024-01-18 09:00:31
+# Update time: 2024-01-18 20:25:28
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -171,31 +171,3 @@
 ||analyzer*.fc2.com^
 ||lianmeng*.*^
 ||tracker*.qcloud.com^
-||onedmp.com.^
-||cpng.lol.^
-||wwydakja.org.^
-||bakjaqa.net.^
-||wwydakja.net.^
-||twerwew.org.^
-||wasqimet.net.^
-||agweaaf.org.^
-||vxzcvks.org.^
-||semqraso.net.^
-||iopiopiop.net.^
-||wolsretet.net.^
-||hqhjjha.org.^
-||raosmeac.net.^
-||ertewqas.net.^
-||rewqpqa.link.^
-||rewqpqa.net.^
-||iopiopiop.org.^
-||agweaaf.net.^
-||mosrtaek.net.^
-||mesqwrte.net.^
-||vxzcvks.net.^
-||bakjaqa.org.^
-||osarmapa.net.^
-||yeioreo.net.^
-||temksrtd.net.^
-||ertewqas.org.^
-||rewqpqa.org.^
