@@ -1,4 +1,4 @@
-# Update time: 2024-01-18 20:25:28
+# Update time: 2024-01-19 09:01:27
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4152,6 +4152,7 @@ _stat_counter.php?
 ||bloomberg.com/8FCGYgk4/init.js
 ||leadvision.dotmailer.co.uk^$third-party
 ||rejoiner.com/tracker/
+||dzeninfra.ru/ping?
 ||kitbit.net^$third-party
 /simtracker.min.js
 ||ecommstats.com^$third-party
@@ -4996,6 +4997,7 @@ _stat_counter.php?
 ||trackcb.com^$third-party
 /log?action=
 ||heatmap.com^$third-party
+@@||googletagmanager.com/gtag/js$domain=academy.com|acornonline.com|afisha.timepad.ru|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|factory.pixiv.net|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|oko.sh|panflix.com.br|papajohns.com|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|seatmaps.com|skylar.com|starblast.io|timparty.tim.it|toptal.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
 /utm_cookie.min.js
 /visit.gif?
 ||baidu.com/js/m.js
@@ -5373,7 +5375,6 @@ _view_pixel&$image
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|vmware.com
 ||virgul.com^$third-party
 ||kmtx.io^$third-party
-||ria.ru/counter?
 /impression.track?
 ||andyhoppe.com/count/
 ||dps-reach.com^$third-party
@@ -5428,7 +5429,6 @@ _view_pixel&$image
 ||tracking.donnemagazine.it^$script
 /jquery.iframetracker-
 ||hop.clickbank.net^$script
-@@||googletagmanager.com/gtag/js$domain=academy.com|acornonline.com|afisha.timepad.ru|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|factory.pixiv.net|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|inforesist.org|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|oko.sh|panflix.com.br|papajohns.com|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|seatmaps.com|skylar.com|starblast.io|timparty.tim.it|toptal.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
 /collectsysteminfo?
 ||contactatonce.com/VisitorContext.aspx?
 ||schnaeppchenfuchs.com/js/default-
@@ -9434,7 +9434,6 @@ _rpc/log?
 /vastlog.txt?
 .maillist-manage.com/click/$image
 ||dynamicyield.com/imp?
-||ria.ru/ping?
 ||iraiser.eu/analytics.js
 /mmclient.js
 @@||naver.net/wcslog.js$domain=m.tv.naver.com
@@ -9813,6 +9812,7 @@ _imp?Log=
 /collect?appName
 /TouchClarity.js
 ||notifadz.com^$third-party
+||dzen.ru/pingx
 ||counter-go.de^$third-party
 ||flagcounter.com^$third-party
 ||mezzobit.com^$third-party
@@ -10816,6 +10816,7 @@ _ad_impression.
 /pixel.*/track/*
 ||showroomlogic.com^$third-party
 ||ipfind.com^$third-party
+||dzen.ru/api/*/stats/
 ||freestat.ws^$third-party
 ||l.fairblocker.com^$third-party
 ||50bang.org^$third-party
