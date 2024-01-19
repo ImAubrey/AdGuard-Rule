@@ -1,4 +1,4 @@
-# Update time: 2024-01-19 09:01:27
+# Update time: 2024-01-19 20:25:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1419,7 +1419,6 @@ _logHuman=
 /b/ss?AQB=
 ||tripadvisor.*/wm/record
 ||prisjakt.nu/js.php?p=trafikfonden
-@@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com
 ||btncdn.com^$third-party
 /bootstrap/metrics.js
 /newrelic.min.js
@@ -1906,6 +1905,7 @@ _logHuman=
 /bluekai.js
 /boomerang-latest.min.js
 ||share-online.biz/affiliate/$third-party
+androidpolice.com,makeuseof.com,cbr.com,collider.com,thegamer.com,simpleflying.com,stealthoptional.com,xda-developers.com,howtogeek.com,screenrant.com##+js(abort-on-property-read, googletag)
 ||fanplayr.com^$third-party
 ||publishflow.com^$third-party
 ||sajari.com/js/sj.js$third-party
@@ -7981,6 +7981,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /h.gif?
 ||mp.weixin.qq.com/mp/appmsgreport?
 ||dn.pt/tag/
+247sports.com,androidpolice.com,arstechnica.com,audiotools.pro,audizine.com,blackenterprise.com,boston.com,britannica.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,download.mokeedev.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,pastes.io,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,usatoday.com,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acis, document.createElement, admiral)
 ||dataroid.com^$third-party
 ||grapheffect.com^$third-party
 ||dditscdn.com/?a=
@@ -8227,6 +8228,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /log_stats.php?
 /wf-beacon-
 ||link2.strawberrynet.com^$image
+||analyzee.io^$third-party
 ||subscribers.com^$third-party
 /js/_analytics.js
 ||dbfocus.jp^$third-party
@@ -9136,6 +9138,7 @@ _rpc/log?
 ||rightstats.com^$third-party
 ||baidu.com/pixel?
 ||alljapanesepass.com/rstat
+@@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com|uphold.com
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
 ||insbergs.lv/ins_statistics/
 /goAnalytics.js
@@ -9197,6 +9200,7 @@ _rpc/log?
 ||fusevideo.io/api/event
 ||mypagerank.net^$third-party
 ||virtueworldwide.com/ga-test/
+thegamer.com##+js(abort-current-script, document.createElement, admiral)
 ||neatstats.com^$third-party
 ||rt.rakuten.co.jp^$~xmlhttprequest
 ||btbuckets.com^$third-party
@@ -9601,6 +9605,7 @@ _imp?Log=
 ||adinsight.co.kr^$third-party
 ||tomonline-inc.com^$third-party
 ||stats2.algo.at^$third-party
+gbatemp.net##+js(set, admiral, noopFunc)
 ||bing.com/fd/ls/l?IG=
 /stattracker-
 ||zoosnet.net^$third-party
@@ -11922,30 +11927,86 @@ _WebVitalsReporter_
 ||*mistat*.xiaomi.com^
 ||*log.droid4x.cn^
 ||*-analytics*.huami.com^
-/^adsensor\./
+||*.cnzz.kld666.com^
+||*.mxmrt.com^
+||*.yicang8.com^
+||*.openxt.cn^
+||*.wzhuze.com^
 /^dwtrack\./
-/^domob\./
-/^pingfore\./
+||*.jinchaoyu.com^
+||*.66san.com^
 /^adservice\./
+||*.prodsell.com^
 /^appsflyer\./
 /^guanggao\./
+||*.uissm.com^
 /^adsage\./
-/^adsserving\./
+||*.hzht666.com^
 /^adwords\./
+||*.88rpg.net^
 /^supersonicads\./
+||*.dkdlsj.com^
+||*.yunanfuwuqi.com^
+||*.yoiur.com^
+||*.edo5.com^
+||*.adm-cnzz.net^
+||*.xlmc.sandai.net^
+/^zjtoolbar\./
+||*-ad.a.yximgs.com^
+/^omgmta\./
+||*.anreson.net^
+/^adsystem\./
+||*.ydqzkj.com^
+||*.wap.xsbiquge.com^
+/^admarvel\./
+||*.gyhzr.com^
+||*.qiujinxiao.com^
+/^applovin\./
+||*.sysal.cn^
+/^.+stat\.kugou\.com/
+||*.exaapi.com^
+||*.mobad.ijinshan.com^
+/^adsensor\./
+||*.hgrqp.com^
+||*.houyi.baofeng.net^
+||*.improvbeams.com^
+||*.kyad88.com^
+/^domob\./
+||*.popupad.cn^
+||*.ad-cloud.jp^
+||*.zhiong.net^
+||*.yzh360.com^
+||*.yunos.com^
+/^pingfore\./
+||*.symae.cn^
+||*.wgnlz.com^
+||*.cferw.com^
+||*-ad-sign.byteimg.com^
+||*.mmkvi.com^
+||*.nxrhs.com^
+/^adsserving\./
+||*.qtmojo.cn^
 /^openx\./
 /^socdm\./
+||*.alimama.com^
+||*.csyueye.com^
+||*.anmeilai.net^
 /^omniture\./
-/^zjtoolbar\./
+||*.jbzj.com^
+||*.3ygww.com^
+||*.ysdhe.com^
+||*.zhudiaosz.com^
+||*.chaojilamei.cn^
 /^adsmogo\./
-/^omgmta\./
 /^wlmonitor\./
 /^admaster\./
-/^adsystem\./
 /^partnerad\./
 /^duomeng\./
 /^adsrvmedia\./
+||*-applog.fqnovel.com^
+||*.mlt01.com^
 /^omgmtaw\./
-/^admarvel\./
-/^applovin\./
-/^.+stat\.kugou\.com/
+||*.njmpacc.com^
+||*.omega7o.com^
+||*.pwjhg.com^
+||*.yongkang6.com^
