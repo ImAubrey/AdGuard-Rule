@@ -1,4 +1,4 @@
-# Update time: 2024-01-20 20:23:14
+# Update time: 2024-01-21 09:05:55
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -932,6 +932,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||w3track.com/newtrk/$third-party
 ||trrsf.com.br/metrics/
 ||adc-srv.net/retargeting.php
+si.com,androidpolice.com,makeuseof.com,cbr.com,collider.com,thegamer.com,simpleflying.com,stealthoptional.com,xda-developers.com,howtogeek.com,screenrant.com##+js(abort-on-property-read, googletag)
 /shinystat.cgi
 ||getmetrical.com/storagesync
 ||connatix.com/tr/
@@ -1859,6 +1860,7 @@ _logHuman=
 @@||spiegel.de/layout/js/http/netmind-$script
 ||avazudsp.net^$third-party
 ||ptrk-wn.com^$third-party
+@@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
 /sdk/impressions
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 /b/ss/*&ndh=
@@ -1905,7 +1907,6 @@ _logHuman=
 /bluekai.js
 /boomerang-latest.min.js
 ||share-online.biz/affiliate/$third-party
-androidpolice.com,makeuseof.com,cbr.com,collider.com,thegamer.com,simpleflying.com,stealthoptional.com,xda-developers.com,howtogeek.com,screenrant.com##+js(abort-on-property-read, googletag)
 ||fanplayr.com^$third-party
 ||publishflow.com^$third-party
 ||sajari.com/js/sj.js$third-party
@@ -8993,7 +8994,6 @@ _rpc/log?
 ||feedjit.com^$third-party
 ||actirinius.com^$third-party
 /tracking/jitney/*
-@@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[0-9A-Z_a-z]+\/post\/[0-9A-Za-z]+\/flag$/$xhr,1p,match-case,method=post
 ||statun.com^$third-party
 ||veille-referencement.com^$third-party
 ||res-x.com^$third-party
@@ -10619,7 +10619,6 @@ img.promio-connect.com$image
 ||sankei-digital.co.jp/log?
 ||pan.baidu.com/recent/report?
 ||barilliance.net^$third-party
-@@/^https:\/\/kemono\.su\/api\/v1\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/user\/[0-9A-Z_a-z]+\/post\/[0-9A-Za-z]+\/flag$/$xhr,1p,match-case,method=post
 /eventtracking-
 /collector/pageview
 ||stats.fr^$third-party
@@ -11200,6 +11199,7 @@ _WebVitalsReporter_
 ||zazzle.co.nz/svc/px
 ||unsplash.com/nmetrics
 ||fernomius.com^$third-party
+@@/^https:\/\/kemono\.su\/api\/v1\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/user\/[0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
 ||booking.com/logo?
 ||tieszhu.com/e.html
 ||botsvisit.com^$third-party
