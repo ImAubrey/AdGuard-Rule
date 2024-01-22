@@ -1,4 +1,4 @@
-# Update time: 2024-01-21 20:23:17
+# Update time: 2024-01-22 09:03:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2333,7 +2333,6 @@ _logHuman=
 ||cloudfront.net/track?
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
 ||extrawatch.com^$third-party
-brobible.com,dualshockers.com,si.com,androidpolice.com,makeuseof.com,cbr.com,collider.com,thegamer.com,simpleflying.com,stealthoptional.com,xda-developers.com,howtogeek.com,screenrant.com##+js(abort-on-property-read, googletag)
 ||reliablecounter.com^$third-party
 ||sermoncloud.com/logger/
 ||futurecdn.net/bordeaux.js$xmlhttprequest
@@ -3835,6 +3834,7 @@ omni.soundestlink.com$image
 ||listenlayer.com^$third-party
 .php?notrack=
 /adobeanalytics.js
+247sports.com,androidpolice.com,mensjournal.com,arstechnica.com,audiotools.pro,audizine.com,blackenterprise.com,boston.com,britannica.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,download.mokeedev.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,pastes.io,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,usatoday.com,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acis, document.createElement, admiral)
 ||app.carnow.com/dealers/track_visitor
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
 ||rfksrv.com/rfkj/$image
@@ -4032,6 +4032,7 @@ _stat_counter.php?
 ||c.paypal.com^$image,script
 ||tapewithadblock.org/stat/
 ||youtube.com/get_video?
+@@||collect.igodigital.com/collect.js$domain=berkley-fishing.com|enoteca.co.jp|goodwillfinds.com|samash.com|viajeguanabara.com.br|vitalsource.com|wilsonparking.com.au
 ||walmartcareerswithamission.com/px/PXcfrcFEfA/init.js
 ||clubcollector.com^$third-party
 ||lancenet.com.br/pw.js
@@ -5198,6 +5199,7 @@ _webanalytics.
 ||gowatchit.com/analytics.js
 /visitorcountry.svc/*
 ||communicatorcorp.com^*/conversiontracking.js
+brobible.com,mensjournal.com,dualshockers.com,si.com,androidpolice.com,makeuseof.com,cbr.com,collider.com,thegamer.com,simpleflying.com,stealthoptional.com,xda-developers.com,howtogeek.com,screenrant.com##+js(abort-on-property-read, googletag)
 ||flare-analytics.com^$third-party
 /ystat.js
 ||ip-tracker.org^$third-party
@@ -5509,7 +5511,6 @@ _trackWebtrekkEvents.
 ||zongheng.com^*/logger.min.js
 ||swisscom.ch/eumcollector/beacons/
 @@||getpublica.com/playlist.m3u8$xmlhttprequest
-@@||collect.igodigital.com/collect.js$domain=enoteca.co.jp
 ||vmixcore.com/vmixcore/playlog?
 ||carsandbids.com/a/p
 ||scupio.com^$third-party
@@ -7689,6 +7690,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /pv.gif?
 ||mail.yahoo.com/f/track/
 ||freepeople.com/tN88Q85M/init.js
+||yottaa.net/log-jh
 ||b5media.com/bbpixel.php
 ||netusia.xyz/cdn-cgi/trace
 ||belk.com/0iiey9LM/init.js
@@ -7980,7 +7982,6 @@ abema.tv##+js(rmnt, script, NREUM)
 /h.gif?
 ||mp.weixin.qq.com/mp/appmsgreport?
 ||dn.pt/tag/
-247sports.com,androidpolice.com,arstechnica.com,audiotools.pro,audizine.com,blackenterprise.com,boston.com,britannica.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,download.mokeedev.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,pastes.io,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,usatoday.com,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acis, document.createElement, admiral)
 ||dataroid.com^$third-party
 ||grapheffect.com^$third-party
 ||dditscdn.com/?a=
@@ -8940,7 +8941,6 @@ _rpc/log?
 ||shoelace.com^$third-party
 ||imgsmail.ru/gstat?
 ||eth-pocket.eu^$third-party
-@@||collect.igodigital.com/collect.js$domain=berkley-fishing.com|goodwillfinds.com|samash.com|vitalsource.com|wilsonparking.com.au
 @@||tinypass.com^*/logAutoMicroConversion?$domain=chicago.suntimes.com
 /fp2.compressed.js
 ||admatrix.jp^$third-party
@@ -11835,6 +11835,7 @@ _WebVitalsReporter_
 /rt_tag.js
 ||zero.kz^$third-party
 ||grafana.net/collect/
+||mensjournal.com/.bootscripts/analytics.min.js
 &t=pageview&
 ||hyperactivate.com^$third-party
 ://matomo.$domain=~matomo.org
