@@ -1,4 +1,4 @@
-# Update time: 2024-01-23 09:02:41
+# Update time: 2024-01-23 20:25:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8510,6 +8510,7 @@ $ping,third-party
 /rainbow/master-js
 ||newegg.com/gfplib.js
 ||fingerprintjs.com/visitors/
+||dpg.danawa.com/*/rest/*getStampEvent
 ||fastly.net/i?
 ||adoberesources.net^$third-party,domain=~adobe.com
 ||elastx.net^$third-party
