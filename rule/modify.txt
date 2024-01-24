@@ -1,4 +1,4 @@
-# Update time: 2024-01-24 09:02:11
+# Update time: 2024-01-24 20:26:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1378,6 +1378,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||apkonline.ru^$third-party
 /impression.ashx
 ||mynewcounter.com^$third-party
+@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|ringcentral.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 ||sfgate.com/413gkwMT/init.js
 ||crowdfactory.com/tracker/
 ||ohayoo.io^$third-party
@@ -5730,7 +5731,6 @@ _trackWebtrekkEvents.
 ||sfstatic.net/build/js/basicMetricsTracking.
 ||vtracker.net^$third-party
 ||ibm.com/analytics/build/bluemix-analytics.min.js
-@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 ||akamaihd.net/p1lakjen.gif
 ||autoscout24.de^$ping
 ||vendri.io^$third-party
@@ -8806,6 +8806,7 @@ _rpc/log?
 /stats/api/collect
 ||bignutty.xyz^$third-party
 ||triggertag.gorillanation.com^$third-party
+||backend.verbolia.com/content/js/velw.min.js
 /trace?sessionid=
 ||gravity4.com^$third-party
 ||livechatinc.com^*/control.cgi?
@@ -11088,7 +11089,6 @@ fedex.com##+js(set-local-storage-item, fdx_enable_new_detail_page, true)
 ||nbcudigitaladops.com/hosted/util/geo_data.js
 ||c3tag.com^$third-party
 ||yarpp.org/pixels/
-||verbolia.com^$third-party
 ||metarouter.io^$third-party
 ||cloudfront.net/code/keen-2.1.0-min.js
 /web_analytics/*
