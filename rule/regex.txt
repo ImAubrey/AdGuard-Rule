@@ -1,4 +1,4 @@
-# Update time: 2024-01-25 20:25:55
+# Update time: 2024-01-26 08:57:23
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -413,6 +413,7 @@
 ||bdlm*.hc360.com^
 ||jtbo*.nqxvevk.cn^
 ||analytics*.carambo.la^
+||aan.amazon.*^
 ||ya*.dwstatic.com^
 ||iad-*.braze.com^
 ||ms*.applvn.com^
