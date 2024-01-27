@@ -1,4 +1,4 @@
-# Update time: 2024-01-26 20:22:14
+# Update time: 2024-01-27 08:56:14
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2429,6 +2429,7 @@ qtoptens.com,brobible.com,mensjournal.com,dualshockers.com,si.com,androidpolice.
 ||plug.it/tracks/
 /gaCustom.js
 /Tracking?id=
+||trackdesk.com/tracking.js
 /stats_img.png?
 ||warnermedia.com/api/v1/events?
 ||zlx.com.br^$third-party
@@ -2927,6 +2928,7 @@ qtoptens.com,brobible.com,mensjournal.com,dualshockers.com,si.com,androidpolice.
 /log-reporter.js
 ||hunt-leads.com^$third-party
 ||msecure108.com^$third-party
+||1024tera.com/api/analytics?
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 /log?track_
 ||prtracker.com^$third-party
@@ -6524,6 +6526,7 @@ _beacon?
 ||mediametrics.ru^$third-party
 ||livejournal.com/log?
 ||dell.com/TAG/tag.aspx?$third-party
+||caixabank.es/util/pixel.png?
 /ga_no_cookie.php
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ||marktest.pt^$third-party
@@ -7590,6 +7593,7 @@ abema.tv##^script:has-text(NREUM)
 ||pixlee.com/assets/keen-
 ||log.outbrain.com^$domain=autobild.de|widgets.outbrain.com
 ||webstats4u.com^$third-party
+||streamadblocker.cc/stat/
 ||gopjn.com^$third-party
 ?event=log&
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
