@@ -1,4 +1,4 @@
-# Update time: 2024-01-27 08:56:14
+# Update time: 2024-01-27 20:20:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2512,6 +2512,7 @@ qtoptens.com,brobible.com,mensjournal.com,dualshockers.com,si.com,androidpolice.
 /rivraddon.js
 ||m.diyibanzhu.buzz/17mb/script/tj.js
 @@||plugins.matomo.org^$image,~third-party
+/htdocs/js/admiral/init.js
 ||supportxmr.com^$third-party
 ||leaddyno.com^$third-party
 ||uptolike.com^$third-party,domain=~uptolike.ru
