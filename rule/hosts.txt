@@ -1,4 +1,4 @@
-# Update time: 2024-01-28 20:20:20
+# Update time: 2024-01-29 08:57:14
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -14236,6 +14236,7 @@
 0.0.0.0 theappanalytics.com
 0.0.0.0 bbelements.com
 0.0.0.0 oascentral.sfgate.com
+0.0.0.0 twitchindoor.best
 0.0.0.0 ads.webheat.com
 0.0.0.0 bigfreelotto.com
 0.0.0.0 images.conduit-banners.com

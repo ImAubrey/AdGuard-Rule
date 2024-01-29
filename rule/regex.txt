@@ -1,4 +1,4 @@
-# Update time: 2024-01-28 20:20:20
+# Update time: 2024-01-29 08:57:14
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -51,29 +51,27 @@
 ||j3.4z0vc.chileinsumos.cl.^
 ||bc.geocities.
 ||smetriccom^
+||collector-*.px-client.net^
+||stat.*.v-56.com^
 ||matt.mercadolibre.
+||stats-*.p2pnow.ru^
 ||stats*.credit-cooperatif.coop^
 ||hn-ping*.hashnode.com^
 ||mcdp-*.outbrain.com^
+||stats2.*.fdnames.com^
 ||adservice.google.
 ||servo-report.dvdfab.
-||analytics-api.dvdfab.
-||geotargetly-api-*.com^
-||smcom^
-||emam^
-||sta.zone-telechargement.
-||log-*.previewnetworks.com^
-||analytics.ticketmaster.
-||collector-*.px-client.net^
-||stat.*.v-56.com^
-||stats-*.p2pnow.ru^
-||stats2.*.fdnames.com^
-||welcome..org^
 ||stats.zone-telechargement.
 ||tracker.twenga.
+||analytics-api.dvdfab.
 ||aff*.kolektiva.net^
 ||stats.zone-annuaire.
+||geotargetly-api-*.com^
+||smcom^
+||sta.zone-telechargement.
 ||pixel.archive.
+||log-*.previewnetworks.com^
+||analytics.ticketmaster.
 ||da.hornbach.*^
 ||appsflyer*.*^
 ||brucelead*.com^
