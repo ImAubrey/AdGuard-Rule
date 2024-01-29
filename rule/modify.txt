@@ -1,4 +1,4 @@
-# Update time: 2024-01-29 08:57:14
+# Update time: 2024-01-29 20:23:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5561,7 +5561,6 @@ _trackWebtrekkEvents.
 /production/analytics.min.js
 ||sohu.com/adgtr/
 /azion-pulse.js
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|fedex.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|ssrn.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com
 /event/pageview?
 @@||howtonote.jp/google-analytics/$image,~third-party
 /metrics/event?
@@ -7790,6 +7789,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /analyticstrack.js
 ||foundry42.com^$third-party
 ||getrockerbox.com^$third-party
+||wipo.int/wipo-analytics/
 ||counterstatistik.de^$third-party
 ||flxpxl.com^$third-party
 ||hstrck.com^$third-party
@@ -8904,6 +8904,7 @@ _rpc/log?
 ||eastmoney.com/usercollect/
 ||faibl.org^$third-party
 ||youtube.com/ptracking?
+||sales-crowd.jp/js/sc-web-access-analysis.js
 ||strtapeadblocker.xyz/stat/
 ||plexworks.de^$third-party
 @@||b-cloud.templatebank.com/js/gtag.js$~third-party
@@ -9552,6 +9553,7 @@ thegamer.com##+js(abort-current-script, document.createElement, admiral)
 @@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 ||pointillist.com^$third-party
 ||neeva.com/logql/log
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|fedex.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|ssrn.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com
 /TealeafSDK.js
 ||k.p-n.io/event-stream
 ||splitbee.io^$third-party
@@ -10328,7 +10330,6 @@ img.promio-connect.com$image
 /divolte.js
 ||arcadeweb.com^$third-party
 ||waaw.ac/cdn-cgi/trace
-||suumo.jp^*/tag/
 ||ibpxl.com^$third-party
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||yandex.ru/webvisor/$xmlhttprequest,domain=anoncer.net
@@ -10512,6 +10513,7 @@ img.promio-connect.com$image
 -adobe-analytics/
 ||mockingfish.com^$third-party
 ||skplanet.com/pixelb?
+@@||cxense.com/document/search?
 /gainit.js
 ||trafficfacts.com^$third-party
 ||d-1.co^$third-party
