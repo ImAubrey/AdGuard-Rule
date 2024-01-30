@@ -1,4 +1,4 @@
-# Update time: 2024-01-30 08:56:24
+# Update time: 2024-01-30 20:22:21
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1268,6 +1268,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||veoxa.com/get_trackingcode.
 ||linkwithin.com/pixel.png
 @@||player.smotrim.ru/js/piwik.js$~third-party
+||skyscanner.*/rf8vapwA/init.js
 /d.gif?
 /c2_count.js
 ||siteswithcontent.com^$third-party
@@ -3870,6 +3871,7 @@ omni.soundestlink.com$image
 ||browserpusher.com^$third-party
 .de/h.gif?
 ||rsvpgenius.com^$third-party
+||t*.daumcdn.net/adfit/static/kp.js
 ||performgroup.com/metrics/
 /stats_js.asp
 /referrer_tracking.js
