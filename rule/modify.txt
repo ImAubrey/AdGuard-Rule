@@ -1,4 +1,4 @@
-# Update time: 2024-01-29 20:23:07
+# Update time: 2024-01-30 08:56:24
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6309,6 +6309,7 @@ _beacon?
 ||kinoprofi.org^$third-party
 ||licensing.bitmovin.com/impression
 ||retargetly.com^$third-party
+||overtracking.com^$third-party
 ||d-stats.com^$third-party
 /trans_pixel.asp
 /sst8.js
@@ -7440,7 +7441,6 @@ _track_pixel.gif?
 ||ptengine.com^$third-party
 /onestat.js
 ||walmartrealty.com/px/PXcfrcFEfA/init.js
-||raiplaysound.it/hit-service/
 /frontend-gtag.js
 /cdn-cgi/pe/bag2?r[]=*eth-pocket.de
 ||tp88trk.com^$third-party
@@ -7631,7 +7631,6 @@ abema.tv##+js(rmnt, script, NREUM)
 @@||tagcommander.com^*/tc_$script
 /analytics-minimal-v4.js
 ||ipinfo.io^$third-party
-||raiplay.it/hit-service/
 /stats/collect/*
 ||freshplum.com^$third-party
 ||dealer.com^*/tracker/
