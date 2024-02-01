@@ -1,4 +1,4 @@
-# Update time: 2024-01-31 20:22:31
+# Update time: 2024-02-01 08:59:23
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -49,6 +49,7 @@
 
 ||movemeal.com^$third-party
 ##.ad-blocking-advisor-wrapper
+azrotv.com##div[id^="laoad_Adb"]
 closermag.fr,grazia.fr,topsante.com##.dfp-slot
 ##.dispositifAdblockMessageBox
 ##.ad_blocker
@@ -341,6 +342,7 @@ aratta-ukraine.com,drawnstories.ru,gisclub.tv,kinda.media,teremok.org.ua,webos-f
 ||overconfidentfood.com^$third-party
 @@||cyberdean.fr/js/advertisement.js
 ucoin.net###bottom-notice
+azrotv.com##.adbn-wrap
 ||floweryfact.com^$third-party
 ria.ru##.antiblock
 alexfilm.cc##.panel-primary
@@ -372,6 +374,7 @@ brazzers-hdx.club##.adblck
 animedub.ru##.poverh
 ||i140.ru/js/etxm*.js|$script
 ivi.ru##.ivi-footer ~ div[class] > style + div[class]
+fctvhd.com##.mw-adblock
 megogo.net##[data-widget*="adblockOverlayEnabled"] .notifications
 ||generalprose.com^$third-party
 byzoo.org,videobug.net##div[style^="position: absolute; width: 300px;"]
@@ -3117,6 +3120,7 @@ _logHuman=
 ||streem.com.au^$third-party
 /btrack.php?
 /measure/pixel/*
+||api.channel.io/*/events
 ||mps.nbcuni.com/request/page/json/params/*&adunits=$xmlhttprequest
 /aptrk.js
 ||pcmag.com/js/ga.js
@@ -3184,7 +3188,6 @@ _logHuman=
 ||nimiq.com^$third-party
 ||waaw.to/cdn-cgi/trace
 ||build.com/2Ztkihy4/init.js
-||channel.io/front/v6/channels/1/events
 ||klaviyo.com/onsite/js/sentry.
 ||geistm.com^$third-party
 ||seedr.ru^*/stats/
@@ -5598,6 +5601,7 @@ _trackWebtrekkEvents.
 ||relevant-digital.com^$third-party
 ||sundaysky.com/sst.gif?
 ||siteimproveanalytics.io^$third-party
+||channel.io/front/v*/channels/*/events
 /ga1.js
 ||is.fi/stats/
 /Quantcast/cmp_v2.js
