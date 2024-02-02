@@ -1,4 +1,4 @@
-# Update time: 2024-02-02 08:56:46
+# Update time: 2024-02-02 20:22:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4876,6 +4876,7 @@ _stat_counter.php?
 ||hatarako.net/api/recommend/analyze_logger
 ||webads.eu^$third-party
 ||newsletters.nationalgeographic.com^$image,third-party
+||bm.paypal.com/spd3TxHV/init.js
 ||drugs.com/img/pixel.gif
 ||esomniture.com^$third-party
 ||myusersonline.com^$third-party
