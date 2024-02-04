@@ -1,4 +1,4 @@
-# Update time: 2024-02-04 09:00:41
+# Update time: 2024-02-04 20:20:50
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1321,7 +1321,6 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /chicken.gif?*=
 ||indicative.com^$third-party
 ||threedy.ai/api/event/
-||g.delivery.net^$third-party
 ||arena-quantum.co.uk^$third-party
 ||mgtmod01.com^$third-party
 /clear.gif?
@@ -1584,7 +1583,6 @@ _logHuman=
 ||mediaarmor.com^$third-party
 ||tcimg.com^$third-party
 ||bcs-computersysteme.com/cgi-local/hiddencounter/
-||union.360.cn/1899.js
 ||daumcdn.net^*/awsa.js
 ||piccy.org.ua/c?
 /ntpagetag.js
@@ -2521,7 +2519,6 @@ _logHuman=
 ||mvilivestats.com^$third-party
 ||space-link.de^$third-party
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|tatacliq.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
-||webstatistik.odav.de^$third-party
 ||interceptum.com^$third-party
 ||topdepo.com^$third-party
 /Events/Impression?
@@ -4059,6 +4056,7 @@ _stat_counter.php?
 ||poki.com/observer/
 ||yahoo.net/pixel.gif
 ||flixcar.com/*/tracking/
+||lacoccinelle.net/tools.js
 /log?data=
 /plugins/wordfence/visitor.php?
 ||di-capt.com^$third-party
@@ -4512,7 +4510,6 @@ _stat_counter.php?
 ||traders.co.kr/common/js/makePCookie.js
 ||simpli.fi^$third-party
 ||videostat.com^$third-party
-||mikeneko.apollo.moe/js/script.js
 /revinit.js
 ||k-analytix.com^$third-party
 ||nedstatbasic.net^$third-party
@@ -4754,7 +4751,6 @@ _stat_counter.php?
 /segment/api/*
 ||truenat.bid^$third-party
 /pushly-sw.
-||atlas.samsung.com/dls2/dtransf/wl?
 ||kinesis.eu-west-1.amazonaws.com^$third-party,domain=~amazon.com
 @@||iwa.iplsc.com/iwa.js$script
 ||mtvnservices.com/metrics/
@@ -5281,7 +5277,6 @@ _view_pixel&$image
 /stats/et_track.asp?
 /Hit.ashx?
 ||myfreecams.com/mfc2/lib/o-mfccore.js
-||felix.data.tm-awx.com/pageConfig
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
 /gapro.js
 ||smart-ip.net^$third-party
@@ -5639,6 +5634,7 @@ _trackWebtrekkEvents.
 ||vtracker.net^$third-party
 ||ibm.com/analytics/build/bluemix-analytics.min.js
 ||akamaihd.net/p1lakjen.gif
+||navan.com/api/analytics
 ||autoscout24.de^$ping
 ||vendri.io^$third-party
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|gymshark.com|motortrendondemand.com
@@ -5784,6 +5780,7 @@ _trackWebtrekkEvents.
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
 ||invitemedia.com^$third-party
 /stats.wp.com/*
+||newscgp.com/cs/sync/
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
 /cms/stats/*
 ||maxmind.com/app/$third-party
@@ -5867,7 +5864,6 @@ _trackWebtrekkEvents.
 ||pravda.com.ua/counter/
 /tracker.ga.
 ||recipefy.net/analytics.js
-@@||groupbycloud.com/gb-tracker-client-3.min.js$domain=officedepot.co.cr
 /track-the-click-public.js
 ||pto-slb-09.com^$third-party
 ||maxymiser.net^$third-party
@@ -5949,6 +5945,7 @@ _beacon?
 /counter/stat.php
 ||maptrackpro.com/track/
 ||arte.tv/log-player/
+||feedly.com/mxpnl/
 ||overstat.com^$third-party
 .skimlinks.js
 ||ranking-charts.de^$third-party
@@ -6045,6 +6042,7 @@ _beacon?
 ||o2.cz^*-ga_o2cz_bundle.js?
 ||blink.net/e/
 ||shopify.com/shopifycloud/web-pixels-manager/
+@@||groupbycloud.com/gb-tracker-client-3.min.js
 ||xstats.net^$third-party
 ||99counters.com^$third-party
 ||thisiswhyimbroke.com/api/user/tracking
@@ -7101,7 +7099,6 @@ _track_pixel.gif?
 /video-ga.js
 ||lndata.com^$third-party
 /wizrocketmail.net/r?$image
-||felix.data.tm-awx.com/batch
 ||counteronline.de^$third-party
 ||gvisit.com^$third-party
 ||clevertap-prod.com^$third-party
@@ -7443,7 +7440,6 @@ abema.tv##^script:has-text(NREUM)
 /vestigo/v1/measure
 /accessanalyzer/tracker?
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
-||mts.mansion.com^$third-party
 ||prfct.co^$third-party
 /pageview.ashx
 ||tealiumiq.com^$domain=autobild.de
@@ -8490,7 +8486,6 @@ _rpc/log?
 ||trendcounter.com^$third-party
 ||adblockstreamtape.fr/stat/
 /action/analytics
-||mcloud.to/ping/
 ||media-imdb.com/twilight/?
 @@||kaptcha.com/collect/sdk?$domain=palmettostatearmory.com|wyze.com
 ||hitwebcounter.com^$third-party
@@ -8830,7 +8825,6 @@ _rpc/log?
 ||cloudfront.net^$script,domain=gentside.com
 ||cognitivematch.com^$third-party
 ||cloudfront.net/uba.js
-||p.delivery.net^$third-party
 /swell-ct-ad-data
 ||marketizator.com^$third-party
 ||pico.tools/metrics/
@@ -10097,7 +10091,6 @@ givemesport.com,qtoptens.com,brobible.com,mensjournal.com,dualshockers.com,si.co
 ||snaps.vidiemi.com^$third-party
 .netcologne.de/-open2/$image
 ||triggit.com^$third-party
-||secure.ed4.net/GSI/$third-party
 ||weibo.com/aj/log/
 /cedexis.radar.js
 ||richard-group.com^$third-party
@@ -11603,7 +11596,6 @@ _WebVitalsReporter_
 ||avmws.com^$third-party
 ||talpa-analytics.com^$third-party
 ||discount.hk-hotel.com/QUkd4lO9/init.js
-||azurewaf.microsoft.com/event?
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||webminepool.com^$third-party
 ||iogous.com^$third-party
@@ -11656,7 +11648,6 @@ _WebVitalsReporter_
 ||baifendian.com^$third-party
 ||svc.dynamics.com/t/w$third-party
 ||aixifan.com/acsdk/log.min.js?
-||mcloud.to/log/
 /hints.netflame.cc/*
 ||srpx.net^$third-party
 ||adxvip.com^$third-party
