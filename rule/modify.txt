@@ -1,4 +1,4 @@
-# Update time: 2024-02-05 08:58:22
+# Update time: 2024-02-05 20:23:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2839,6 +2839,7 @@ _logHuman=
 ||autoaffiliatenetwork.com^$third-party
 ||callmeasurement.com^$third-party
 ||lrytas.lt/counter/
+||api.litres.ru/tracker/
 /count?pid=
 ||cafe24.com/weblog.js
 @@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
