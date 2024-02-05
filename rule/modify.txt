@@ -1,4 +1,4 @@
-# Update time: 2024-02-04 20:20:50
+# Update time: 2024-02-05 08:58:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7938,7 +7938,6 @@ abema.tv##+js(rmnt, script, NREUM)
 /hitCount.php
 @@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com
 @@||plplayer.online/log_event$~third-party,xmlhttprequest
-||d3nn82uaxijpm6.cloudfront.net^$script
 ||resultspage.com/js/sli-spark.js
 .php?p=stats&
 ||clicksagent.com^$third-party
@@ -8472,6 +8471,7 @@ _rpc/log?
 /_gz/counter.php?
 /trackingDTM.js
 ||smartselling.cz^$third-party
+||d3nn82uaxijpm6.cloudfront.net/8f96b1247cf4359f8fec.js
 ||odoscope.cloud^$third-party
 ||flaghit.com^$third-party
 ||stattooz.com^$third-party
