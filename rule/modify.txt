@@ -1,4 +1,4 @@
-# Update time: 2024-02-07 08:54:52
+# Update time: 2024-02-07 20:22:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3333,6 +3333,7 @@ _logHuman=
 ||polymorphicads.jp^$third-party
 /keypress.js$script
 ||ledevoir.com/js/pianoAnalyticsTags.js
+@@||helix.videotron.com/js/api/fingerprint.js$~third-party
 ||amoad.com^$third-party
 ||sncf-connect.com/bff/api/v1/t/events
 ||sync.tv^$third-party
@@ -9913,6 +9914,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||up-rank.com^$third-party
 ||ncdn22.xyz/cdn-cgi/trace
 ||onepush.app^$third-party
+||tadpull.com^$third-party
 /batch/action/_:
 ||stathound.com^$third-party
 ||desipearl.com/tracker/
