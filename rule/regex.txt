@@ -1,4 +1,4 @@
-# Update time: 2024-02-08 08:55:56
+# Update time: 2024-02-08 20:23:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -50,7 +50,6 @@
 ||httpdns.*^$important
 ||j3.4z0vc.chileinsumos.cl.^
 ||bc.geocities.
-||smetriccom^
 ||collector-*.px-client.net^
 ||stat.*.v-56.com^
 ||matt.mercadolibre.
@@ -67,7 +66,6 @@
 ||aff*.kolektiva.net^
 ||stats.zone-annuaire.
 ||geotargetly-api-*.com^
-||smcom^
 ||sta.zone-telechargement.
 ||pixel.archive.
 ||log-*.previewnetworks.com^

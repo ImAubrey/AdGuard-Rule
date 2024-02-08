@@ -1,4 +1,4 @@
-# Update time: 2024-02-08 08:55:56
+# Update time: 2024-02-08 20:23:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3864,7 +3864,6 @@ _stat_counter.php?
 ||lucidel.com^$third-party
 /trackingVtm.js
 /stats?aid=
-||turbobit.net/js/analytics/
 .kijiji.ca/r/
 /rudder-analytics.min.js
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
@@ -6053,6 +6052,7 @@ _beacon?
 /csi_204?$image,other,ping,script
 ||hostip.info^$third-party
 ||stapadblockuser.art/stat/
+||expressnews.com/413gkwMT/init.js
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||adobedtm.com^*_source.min.js$domain=ally.com|americanexpress.com|as.com|backcountry.com|crave.ca|disneyplus.disney.co.jp|hilton.com|hl.co.uk|homedepot.ca|kroger.com|mora.jp|nbarizona.com|pnc.com|tatacliq.com|telus.com
 /linktrack.js
@@ -11582,6 +11582,7 @@ _WebVitalsReporter_
 ||t.bndestem.nl^$image
 /api-insights/log?
 @@||10086.cn/framework/modules/sdc.js$script,~third-party
+||sfchronicle.com/413gkwMT/init.js
 /px_trans.gif
 /snowman.gif?p=
 ||revprotect.com^$third-party
