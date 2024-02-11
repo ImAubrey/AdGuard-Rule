@@ -1,4 +1,4 @@
-# Update time: 2024-02-10 20:21:24
+# Update time: 2024-02-11 09:00:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3366,7 +3366,6 @@ _logHuman=
 ||libhunt.com/api/ahoy/event
 ||adwstats.com^$third-party
 ||tscounter.com^$third-party
-||research.de.com^$third-party
 ||buzzfeed.com/destination-sync.html
 ||usercentrics.eu/session/$image
 ||smileyhost.net^$third-party
@@ -5019,7 +5018,6 @@ _stat_counter.php?
 /fptrk.min.js
 @@||polfan.pl/app/vendor/fingerprint2.min.js$~third-party
 /metrics/rum
-||v-h.tv/pixel/
 @@||bluecore.com/triggermail.js$script,domain=fcpeuro.com
 ||folderz.nl/clickstream/
 ||apexstats.com^$third-party
@@ -5061,6 +5059,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 ||nuloox.com^$third-party
 ||atraxio.com^$third-party
 ||typepad.com/t/stats?
+@@||commerce.adobe.io^$xmlhttprequest,domain=superbrightleds.com
 ||hotjar.com^$third-party
 .com/_.gif?
 ||snva.jp/api/bcon/basic?
@@ -5953,7 +5952,6 @@ _beacon?
 /v.gif?
 /logcollect.js
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
-||trackmyusers.com^$third-party
 ||contadorweb.com^$third-party
 /track?name=
 ||salecycle.com^$third-party
@@ -6646,7 +6644,6 @@ _beacon?
 /leadtag.js
 ||merriam-webster.com/lapi/v1/mwol-search/stats/lookup
 /pqt.email/o/*$image
-||aa.hwigroup.com^$domain=hardware.info
 /cwTRACK.js
 ||trackedweb.net^$third-party
 ||dugout.co/das2.js
@@ -6687,6 +6684,7 @@ _beacon?
 ||p0.com/1x1
 ||bronto.com^$third-party
 ||tedo-stats.de^$third-party
+@@||magento-recs-sdk.adobe.net/v2/index.js$script,domain=superbrightleds.com
 ||pix.speedbit.com^$third-party
 ||hits2u.com^$third-party
 ||ztsrv.com^$third-party
@@ -8572,7 +8570,6 @@ _rpc/log?
 /countly.js
 ||oo-syringe.com/prod/moat.js
 /analytics-data-collector.min.js
-||mine.torrent.pw^$third-party
 /scriptAnalytics.js
 ||tsk5.com^$third-party
 /dtrack.js
@@ -8633,6 +8630,7 @@ _rpc/log?
 ||wundercounter.com^$third-party
 ||travix.com/log
 ||sciencerevenue.com^$third-party
+||fr.shopping.rakuten.com/rakuten-static-deliver/mob/*/js/track.js
 /HeatmapSessionRecording/configs.php
 ||audioeye.com/frame/cookieStorage.html
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
@@ -10450,7 +10448,6 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 @@||loader-cdn.azureedge.net/prod/smi/loader.min.js$domain=pressdemocrat.com
 ||braze.eu/api/v3/data/
 /cgi-bin/ctn?
-||shopping.rakuten.com/rakuten-static-deliver/mob/*/js/track.js
 ||nbcudigitaladops.com/hosted/housepix.gif
 ||aftonbladet.se/trafikfonden/
 /analytics-js/*
@@ -11706,14 +11703,6 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -11797,3 +11786,11 @@ _WebVitalsReporter_
 ||*.omega7o.com^
 ||*.pwjhg.com^
 ||*.yongkang6.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
