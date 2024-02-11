@@ -1,4 +1,4 @@
-# Update time: 2024-02-11 09:00:49
+# Update time: 2024-02-11 20:20:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1898,7 +1898,6 @@ _logHuman=
 ||bildirt.com^$third-party
 /o.gif?
 /uisprime/track
-@@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com
 ||personyze.com^$third-party
 ||syteapi.com/et?
 ||adinsight.com^$third-party
@@ -2427,6 +2426,7 @@ _logHuman=
 ||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
 ||bukalapak.com/banner-redirector/impression
 ||rumanalytics.com^$third-party
+||notyf.com/pixel/
 ||dropbox.com/prompt/log_impression?
 ||loomia.com^*/setcookie.html
 ||countus.fr^$third-party
@@ -2959,6 +2959,7 @@ _logHuman=
 ||vesti.ru/counter/
 ||calvinklein.us/n8ANl15k/init.js
 ||workers.dev/api/event
+@@||board-game.co.uk/cdn-cgi/zaraz/s.js$script,~third-party
 ||skoom.de/gratis-counter/
 @@||iwrite.unipus.cn/js/main/GPT.js$~third-party
 ||coherentpath.com/tracker/
@@ -3343,6 +3344,7 @@ _logHuman=
 ||cesu.urssaf.fr/clm10
 ||piwik.pro^$third-party,domain=~clearcode.cc|~clearcode.pl|~piwikpro.de
 ||i2i.jp^$third-party
+||ouest-france.fr/v1/javascripts/*-googletag-
 ||jscdndel.com^$third-party
 ||lloogg.com^$third-party
 ||profitshare.ro^$third-party
@@ -3959,6 +3961,7 @@ _stat_counter.php?
 ||akamaihd.net/javascripts/browserfp.
 /cookie.gif?
 ||smartertravel.com/ext/pixel/
+||iphoneaddict.fr/wp-content/*/counter.php
 ||rambler.ru/metrics/
 @@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com|xe.com
 ||pinkoi.com/_log/
@@ -7012,6 +7015,7 @@ _track_pixel.gif?
 ||ftbpro.com^$third-party
 /omniture_tracking.js
 /servlet/Cookie?
+||ouest-france.fr/v1/javascripts/*-prebid-
 /EndpointTracker/allendpoints?
 ||ws.sharethis.com^$script
 @@||get.geojs.io/v1/ip/geo.json$domain=namlih.my.id|shop.critrole.com
@@ -10302,6 +10306,7 @@ img.promio-connect.com$image
 /mtracking.gif?
 /statcollector.
 ||twitter.com/oct.js
+@@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
 ||sascdn.com/mh_audience/
 ||jsecoin.com^$third-party
 /api/v1/metrics
@@ -11117,6 +11122,7 @@ _WebVitalsReporter_
 /count.fcg?
 ||ninjacat.io^$third-party
 @@||leanplum.com^$domain=arkadium.com
+||netclick.io/pixel/
 @@||content.gap.com/fp/check.js$script,domain=oldnavy.gap.com
 ||vertical-leap.co.uk^$third-party
 @@||res-x.com^*/Resonance.aspx?
@@ -11703,6 +11709,14 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -11786,11 +11800,3 @@ _WebVitalsReporter_
 ||*.omega7o.com^
 ||*.pwjhg.com^
 ||*.yongkang6.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
