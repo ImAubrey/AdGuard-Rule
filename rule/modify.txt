@@ -1,4 +1,4 @@
-# Update time: 2024-02-11 20:20:49
+# Update time: 2024-02-12 08:56:52
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1157,6 +1157,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||superstat.info^$third-party
 /analytics-library.js
 ||bz-berlin.de/_stats/
+/ope-adalliance.js
 /click_stats.js
 ||aemet.es/js/stats.js
 ||verify.authorize.net^$third-party
@@ -2603,6 +2604,7 @@ _logHuman=
 ||clubic.com/tview
 /tracking/log?
 ||livehelpnow.net/lhn/handler/$image
+||chefkoch.de/search/tracking/
 ||ppdb.pl^$third-party
 /chcounter/counter.php
 ||secure.ifbyphone.com^$third-party
@@ -9639,6 +9641,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||cloudfront.net/test.png
 /stats?blog_
 /collect?appName
+||chefkoch-cdn.de/agf/agf.js
 /TouchClarity.js
 ||notifadz.com^$third-party
 ||dzen.ru/pingx
