@@ -1,4 +1,4 @@
-# Update time: 2024-02-12 20:23:11
+# Update time: 2024-02-13 08:57:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2512,7 +2512,6 @@ _logHuman=
 @@||sephora-track.inside-graph.com/gtm/$domain=sephora.com
 /2x2.gif?$image
 ||akamaihd.net/paay6hyr.gif?
-/event-tracking/*
 @@||siteapps.com^$script,domain=netcombo.com.br
 /bf.gif?ac=
 ||99stats.com^$third-party
@@ -7119,6 +7118,7 @@ _track_pixel.gif?
 ||masterstats.com^$third-party
 ||sentry-cdn.top^$third-party
 ||p0y.cn^$third-party
+/event-tracking/*$domain=~github.com
 @@||mxpnl.com^$domain=mixpanel.com
 ||blogranking.net^$third-party
 /log/?pixel=
@@ -11678,6 +11678,7 @@ _WebVitalsReporter_
 /readthedocs-analytics.js
 ||braunschweiger-zeitung.de/stats/
 ||tellapart.com^$third-party
+||thekitchn.com/jAYekY18/init.js
 ||venturify.at/pixel/
 ||c.ypcdn.com^$domain=yellowpages.com
 ||onetrust.com^$ping
