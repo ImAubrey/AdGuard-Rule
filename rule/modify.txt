@@ -1,4 +1,4 @@
-# Update time: 2024-02-13 08:57:07
+# Update time: 2024-02-13 20:22:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1659,7 +1659,6 @@ _logHuman=
 ||netmonitor.fi^$third-party
 /vs.gif?
 /StatsService.RecordStats?
-||tanx.com/t/tanxclick.js
 /swell-ct-pv^
 ||brat-online.ro^$third-party
 ||adobetag.com^$third-party
@@ -8262,7 +8261,6 @@ $ping,third-party
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 ||realist.gen.tr^$third-party
 /pixel_tracking.js
-||tanx.com/t/tanxcollect.js
 ||wp.com/wp-content/js/bilmur.min.js
 .keap-link003.com/$image
 ||obozrevatel.com/pixel.png
@@ -10828,7 +10826,6 @@ _ad_impression.
 ||dropbox.com/alternate_
 ||recruitics.com^$third-party
 ||thoughtmetric.io^$third-party
-||tanx.com^$third-party
 ||circle.am^$third-party
 /probance_tracker.js
 _stat.php?referer=
