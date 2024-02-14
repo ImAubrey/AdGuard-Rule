@@ -1,4 +1,4 @@
-# Update time: 2024-02-14 08:57:08
+# Update time: 2024-02-14 20:23:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11055,7 +11055,6 @@
 0.0.0.0 ads4.advance.net
 0.0.0.0 cnhv.co
 0.0.0.0 syndication.exosrv.com
-0.0.0.0 slowmacfaster.trade
 0.0.0.0 bitsoin.fr
 0.0.0.0 ph-ad14.focalink.com
 0.0.0.0 tibetnews365.net
@@ -16369,6 +16368,7 @@
 0.0.0.0 sec.hit.gemius.pl
 0.0.0.0 lbrtry.com
 0.0.0.0 protection.LCpolice.com
+0.0.0.0 healpublic.best
 0.0.0.0 cspix.media6degrees.com
 0.0.0.0 hst.tradedoubler.com
 0.0.0.0 ads.champs-elysees.com
@@ -27535,6 +27535,7 @@
 0.0.0.0 mansolution.in.th
 0.0.0.0 vps14472.inmotionhosting.com
 0.0.0.0 appsecurityr.com
+0.0.0.0 slowmacfaster.trade
 0.0.0.0 shopro.ir
 0.0.0.0 skyboxtraders.co.ke
 0.0.0.0 ajooma.nl
