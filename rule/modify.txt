@@ -1,4 +1,4 @@
-# Update time: 2024-02-16 08:56:20
+# Update time: 2024-02-16 20:22:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5498,6 +5498,7 @@ _trackWebtrekkEvents.
 /ga1.js
 ||is.fi/stats/
 /Quantcast/cmp_v2.js
+||ubereats.com/_events
 ||zip.co/analytics
 ||tvsquared.com^$third-party
 ||parrable.com^$third-party
@@ -7958,6 +7959,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||socsi.in^$third-party
 ||webmine.cz^$third-party
 ||culturaltracking.ru^$third-party
+||ubereats.com/_errors
 @@||smotrim.ru/js/stat.js$script
 /pinterest-pixels.js
 ||fraudjs.io^$third-party
@@ -10198,6 +10200,7 @@ img.promio-connect.com$image
 /cn-track?
 ||drugs.com/api/logger/
 /ping/show?
+||scarf.sh^$third-party
 ||counter-treff.de^$third-party
 ||analytics-cdiscount.com^$third-party
 ||wootric.com^$third-party
@@ -10353,6 +10356,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||cardinalcommerce.com/prod/log
 .com/stats.aspx?
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
+||stat.re^$third-party
 /eventsBeacon?
 ||foxsports.com.au/akam/
 ||sportsmansguide.com/scripts/vendor/at_
@@ -10540,6 +10544,7 @@ _ad_impression.
 ||conversionly.com^$third-party
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
 ||prism.app-us1.com^$script,third-party
+||paddle.com/paddle/assets/images/health-check.gif?
 ||listrakbi.com/api/ActivityEvents/
 /pvcount.php
 ||emediatrack.com^$third-party

@@ -1,4 +1,4 @@
-# Update time: 2024-02-16 08:56:20
+# Update time: 2024-02-16 20:22:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -50,28 +50,30 @@
 ||httpdns.*^$important
 ||j3.4z0vc.chileinsumos.cl.^
 ||bc.geocities.
-||collector-*.px-client.net^
-||stat.*.v-56.com^
 ||matt.mercadolibre.
-||stats-*.p2pnow.ru^
 ||stats*.credit-cooperatif.coop^
 ||hn-ping*.hashnode.com^
 ||sta.extreme-down.
 ||mcdp-*.outbrain.com^
-||stats2.*.fdnames.com^
 ||adservice.google.
 ||servo-report.dvdfab.
-||stats.zone-telechargement.
-||tracker.twenga.
 ||analytics-api.dvdfab.
-||aff*.kolektiva.net^
-||stats.zone-annuaire.
 ||geotargetly-api-*.com^
 ||sta.zone-telechargement.
-||sta.wawacity.
-||pixel.archive.
 ||log-*.previewnetworks.com^
 ||analytics.ticketmaster.
+||collector-*.px-client.net^
+||stat.*.v-56.com^
+||stats-*.p2pnow.ru^
+||ubt.tracking.shopee.
+||stats2.*.fdnames.com^
+||stats.zone-telechargement.
+||tracker.twenga.
+||aff*.kolektiva.net^
+||stats.zone-annuaire.
+||sta.wawacity.
+||pixel.archive.
+||df.infra.shopee.
 ||da.hornbach.*^
 ||appsflyer*.*^
 ||brucelead*.com^
