@@ -1,4 +1,4 @@
-# Update time: 2024-02-15 20:22:31
+# Update time: 2024-02-16 08:56:20
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2574,6 +2574,7 @@ _logHuman=
 ||p.a2d.io/plx.js
 ||tbskip.taobao.com^$script
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
+||ya.ru/clck/
 ||yieldbot.com^$third-party
 /thermostat.js
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
@@ -3143,6 +3144,7 @@ _logHuman=
 ||futurehybrid.tech^$third-party
 ||cloudfront.net*/trk.js
 ||kk-resources.com/ks.js
+||abadis.ir/ajaxcmd/setvisit/
 /logpv.aspx?
 /metrics/init?
 ||measured.com^$third-party
@@ -5206,6 +5208,7 @@ _webanalytics.
 ||globalsiteanalytics.com^$third-party
 ||propps.com/v1/referrer/
 ||lemonde.fr/*&cts=
+||namnak.com/ga.js
 ||fmhy.net^$third-party
 ||paddle.com^*/analytics.js
 _view_pixel&$image
@@ -7724,6 +7727,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||canada.com/js/analytics/
 ||xdisctracking.pw^$third-party
 ||granify.com^$third-party
+||aparat.com/gogol/
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 /events/track/*
 ||generic-function-log-data-7il2midpaa-nn.a.run.app^$domain=telus.com
@@ -7997,6 +8001,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||totaljobs.com/chatbot/webhook/logger
 @@||liveapi.cleverpush.com/websocket$websocket,domain=heise.de
 /cgi-bin/count/*
+||namnak.com/act/stats.json
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
 ||erate.co.il^$third-party
@@ -9991,7 +9996,6 @@ _event_tracking?
 ||tenmax.io^$third-party
 /cdn-cgi/beacon/*
 ||beemrdwn.com^$third-party
-||flippback.com/m/config
 ||metaffiliation.com^*^mclic=
 ||sweet-candy.jp/c.php?$third-party
 /imp_check.php
@@ -10224,7 +10228,6 @@ img.promio-connect.com$image
 ||dotmetrics.net^$third-party
 /sessioncam.min.$script
 @@||logging.apache.org^$~third-party
-||sabavision.com^$third-party
 ||streamtape.to/stat/
 ||seoparts.net^$third-party
 /mnppixellibrary.min.js
@@ -11671,6 +11674,7 @@ _WebVitalsReporter_
 ||sponsorcounter.de^$third-party
 /eloqua.js
 ||go.theregister.com^$image
+||abadis.ir/ajaxcmd/stat/
 ||wideangle.co^$third-party
 ||adstat.4u.pl^$third-party
 ||tns-sifo.se^$third-party
