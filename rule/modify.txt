@@ -1,4 +1,4 @@
-# Update time: 2024-02-17 08:55:32
+# Update time: 2024-02-17 20:20:40
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8736,6 +8736,7 @@ _rpc/log?
 /traffic/status.gif?
 ||rlcdn.com^$domain=autobild.de|widgets.outbrain.com
 /statsd_proxy
+||pinkvilla.com/comscore_response.php
 ||tonkosti.ru/go.php?
 ||invoca.net^$third-party
 /keen.min.js
