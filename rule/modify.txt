@@ -1,4 +1,4 @@
-# Update time: 2024-02-16 20:22:22
+# Update time: 2024-02-17 08:55:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1475,6 +1475,7 @@ _logHuman=
 ||plerdy.com^$third-party
 ||bangkokpost.com/hits/
 ||rating.in^$third-party
+||youtube.com/youtubei/v1/log_event?
 ||solucx.com.br^$third-party
 ||excited.me^$third-party
 /tracker_async.js
@@ -7887,6 +7888,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /log-nt/*
 /dmu2panalytics/ajax_call.php?
 /analytics-events-
+||youtube-nocookie.com/youtubei/v1/log_event?
 ||yldr.io^$third-party
 ||cbsivideo.com/measurements/
 /gv-analytics/riveted.js
@@ -10544,7 +10546,6 @@ _ad_impression.
 ||conversionly.com^$third-party
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
 ||prism.app-us1.com^$script,third-party
-||paddle.com/paddle/assets/images/health-check.gif?
 ||listrakbi.com/api/ActivityEvents/
 /pvcount.php
 ||emediatrack.com^$third-party
