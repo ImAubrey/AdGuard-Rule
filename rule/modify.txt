@@ -1,4 +1,4 @@
-# Update time: 2024-02-17 20:20:40
+# Update time: 2024-02-18 08:59:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1158,6 +1158,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /analytics-library.js
 ||bz-berlin.de/_stats/
 /ope-adalliance.js
+/gtm-data-layer-$script
 /click_stats.js
 ||aemet.es/js/stats.js
 ||verify.authorize.net^$third-party
@@ -1841,7 +1842,6 @@ _logHuman=
 @@||spiegel.de/layout/js/http/netmind-$script
 ||avazudsp.net^$third-party
 ||ptrk-wn.com^$third-party
-@@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
 /sdk/impressions
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 /b/ss/*&ndh=
@@ -1924,7 +1924,6 @@ _logHuman=
 /stats/welcome.php?
 ||whoseesyou.com^$third-party
 ||www.digikey.*/lO2Z493J/init.js
-@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/creator\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[0-9A-Z_a-z]+$/$xhr,1p,match-case,method=post
 ||adrta.com^$third-party
 ||nexstardigital.net/segment.js
 ||gravitec.net^$third-party
@@ -1998,6 +1997,7 @@ _logHuman=
 ||onefeed.co.uk^$third-party
 /bundle-analytics.js
 ||newsmax.com/js/analytics.js
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/post\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[.0-9A-Z_a-z]+\/[0-9A-Za-z]+$/$xhr,1p,match-case,method=post
 /hit.asp?
 ||shopimind.com^$third-party
 ||pair.com/itero/tracker_ftc/
@@ -2275,6 +2275,7 @@ _logHuman=
 ||tmtarget.com/tracking/
 /event/track?
 ||gbotvisit.com^$third-party
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/post\/(?:fansly|onlyfans)\/[.0-9A-Z_a-z]+\/\d+$/$xhr,1p,match-case,method=post
 /e.customeriomail.com/e/o/*$image
 ||seehits.com^$third-party
 ||tsk4.com^$third-party
@@ -2542,7 +2543,6 @@ _logHuman=
 ||mql5.com/st?
 ||publicbroadcasting.net/analytics/
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
-@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/creator\/(?:fansly|onlyfans)\/[0-9A-Z_a-z]+$/$xhr,1p,match-case,method=post
 /analytics/call-tracking.js
 ||nojscontainer.pepperjam.com^$third-party
 ||webeyez.com^$third-party
@@ -2594,6 +2594,7 @@ _logHuman=
 ||adku.co^$third-party
 /default/pAnalytics
 /pxl.png?
+||api.rivpoint.com/*/event/
 ?action=track_visitor&
 /tagmanager/pptm.js
 ||twcount.com^$third-party
@@ -2879,7 +2880,6 @@ _logHuman=
 ||clearbit.com^$third-party
 ||blogoutils.com/online-$third-party
 ||meucdn.vip/cdn-cgi/trace
-@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/post\/(?:fansly|onlyfans)\/[0-9A-Z_a-z]+\/\d+$/$xhr,1p,match-case,method=post
 /analytics.do
 ||ru.net^$third-party
 /log-reporter.js
@@ -3968,6 +3968,7 @@ _stat_counter.php?
 @@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com|xe.com
 ||pinkoi.com/_log/
 /ping?utm_
+/rnb/events
 ||plausible.io^$third-party
 ||amazonaws.com/prod/main?ref=$image,third-party
 ||basicthinking.de/stats/
@@ -4335,6 +4336,7 @@ _stat_counter.php?
 /impression.js?
 ||engineering.com/scripts/$script,domain=eng-tips.com
 ||withcabin.com^$third-party
+@@/^https:\/\/kemono\.su\/api\/v1\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/user\/[.0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 ||callisto.fm^$third-party
 ||bloggerei.de^$third-party
@@ -5875,6 +5877,7 @@ _beacon?
 ||c212.net^$third-party
 ||mixpanel.com/track?
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
+.js?id=GTM-
 ||veeseo.com^*/url.gif?
 /unagi.amazon.
 /splunk-logging-v2.js
@@ -7672,6 +7675,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||belstat.fr^$third-party
 /analytics-prod.js
 /amp-call-tracking-
+@@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[.0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
 ||speedcounter.net^$third-party
 ||mhxk.com^*/main/entry.common.$script
 ||sohu.com/ip/$script
@@ -9907,6 +9911,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||up-rank.com^$third-party
 ||ncdn22.xyz/cdn-cgi/trace
 ||onepush.app^$third-party
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/creator\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[.0-9A-Z_a-z]+$/$xhr,1p,match-case,method=post
 ||tadpull.com^$third-party
 /batch/action/_:
 ||stathound.com^$third-party
@@ -10647,7 +10652,6 @@ _ad_impression.
 ||dzen.ru/api/*/stats/
 ||freestat.ws^$third-party
 ||l.fairblocker.com^$third-party
-@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/post\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[0-9A-Z_a-z]+\/[0-9A-Za-z]+$/$xhr,1p,match-case,method=post
 ||50bang.org^$third-party
 ||lnkd.in/li/track
 /ntrack.asp?
@@ -11015,7 +11019,6 @@ _WebVitalsReporter_
 ||zazzle.co.nz/svc/px
 ||unsplash.com/nmetrics
 ||fernomius.com^$third-party
-@@/^https:\/\/kemono\.su\/api\/v1\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/user\/[0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
 ||booking.com/logo?
 ||tieszhu.com/e.html
 ||botsvisit.com^$third-party
@@ -11131,6 +11134,7 @@ _WebVitalsReporter_
 /postview.gif?
 ||countertracker.com^$third-party
 /count.fcg?
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/creator\/(?:fansly|onlyfans)\/[.0-9A-Z_a-z]+$/$xhr,1p,match-case,method=post
 ||ninjacat.io^$third-party
 @@||leanplum.com^$domain=arkadium.com
 ||netclick.io/pixel/
