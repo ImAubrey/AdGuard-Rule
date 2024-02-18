@@ -1,4 +1,4 @@
-# Update time: 2024-02-18 08:59:51
+# Update time: 2024-02-18 20:21:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5947,6 +5947,7 @@ _beacon?
 ||maptrackpro.com/track/
 ||arte.tv/log-player/
 ||feedly.com/mxpnl/
+weather.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 ||overstat.com^$third-party
 .skimlinks.js
 ||ranking-charts.de^$third-party
@@ -8269,6 +8270,7 @@ $ping,third-party
 /track/pageviews/*
 /stats/lp.min.
 ||amplify.outbrain.com^$third-party
+weather.com##+js(set, navigator.globalPrivacyControl, false)
 ||vidigital.ru^$third-party
 ||ereportz.com^$third-party
 /confiant.js
@@ -9020,6 +9022,7 @@ _rpc/log?
 ||core-cen-54.com^$third-party
 ||alljapanesepass.com/ascripts/gcu.js
 ||citibank.com.sg/tmx/
+||visumo.jp/Content/js/tracking.js
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 /resource?zones=
 ||ch3ngl0rd.com/hit/
@@ -10243,6 +10246,7 @@ img.promio-connect.com$image
 ||seoparts.net^$third-party
 /mnppixellibrary.min.js
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
+||revico.jp/providejs/revico_tracking.js
 /getbglog.js
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
 /email/open?
@@ -11007,6 +11011,7 @@ _WebVitalsReporter_
 ||on-line.lv^$third-party
 ||directcrm.ru^$third-party
 ||seal.qualys.com^$third-party
+||event.lib.visumo.io/js/hbn_track.js
 ||avito.ru/stat/
 ||deep-content.io^$third-party
 /seo.taCo.min.js
