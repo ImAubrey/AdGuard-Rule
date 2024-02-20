@@ -1,4 +1,4 @@
-# Update time: 2024-02-20 08:55:35
+# Update time: 2024-02-20 20:22:50
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3707,6 +3707,7 @@ omni.soundestlink.com$image
 ||particularaudience.com^$third-party
 ||webd-assets.cdn4dd.com/s.js$domain=doordash.com
 ||eltex.co.jp^$third-party
+||cdn.one.store/xdomain_cookie.html
 ||static.parsely.com^$third-party
 /ga-se-async.js
 ||forethought.ai/workflow/tracking-event
@@ -5950,7 +5951,6 @@ _beacon?
 ||maptrackpro.com/track/
 ||arte.tv/log-player/
 ||feedly.com/mxpnl/
-weather.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 ||overstat.com^$third-party
 .skimlinks.js
 ||ranking-charts.de^$third-party
@@ -6588,6 +6588,7 @@ weather.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 ||successfultogether.co.uk^$third-party
 ||spylog.com^$third-party
 ||mtvnservices.com/aria/projectX/
+weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 /shopify/track.js
 ||aralego.net^$third-party
 ||ga-analytics.com^$third-party
@@ -6828,6 +6829,7 @@ _track_pixel.gif?
 ||msgs.jp^$third-party
 /log.jsp?
 ||xplosion.de^$domain=spiegel.de
+weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||iper2.com^$third-party
 ||viralninjas.com^$third-party
 ||adquality.ch^$third-party
@@ -8274,7 +8276,6 @@ $ping,third-party
 /track/pageviews/*
 /stats/lp.min.
 ||amplify.outbrain.com^$third-party
-weather.com##+js(set, navigator.globalPrivacyControl, false)
 ||vidigital.ru^$third-party
 ||ereportz.com^$third-party
 /confiant.js
