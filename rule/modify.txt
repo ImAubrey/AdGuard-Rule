@@ -1,4 +1,4 @@
-# Update time: 2024-02-19 20:23:35
+# Update time: 2024-02-20 08:55:35
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -85,6 +85,7 @@ anticollector.biz.ua,cnc3018.ru,factorio.su##body > div[class][style*="backgroun
 @@||jeux.meteocity.com^$generichide
 fotoshop-online.org##.aslot
 biggestplayer.me##.adblock + *
+##.ab-detector-wrap
 patrioty.org.ua###ad_pu_modal
 mnogoto4ka.ru###sb-site > div[class][style*="z-index"][style*="999999"]
 ||colossalcoat.com^$third-party
@@ -6063,6 +6064,7 @@ weather.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 ||nordicresearch.com^$third-party
 ||mpio.io^$third-party
 ||e.zg-api.com/event$domain=zillow.com
+@@||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de
 /csi_204?$image,other,ping,script
 ||hostip.info^$third-party
 ||stapadblockuser.art/stat/
