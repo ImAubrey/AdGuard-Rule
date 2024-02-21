@@ -1,4 +1,4 @@
-# Update time: 2024-02-20 20:22:50
+# Update time: 2024-02-21 08:56:39
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1928,6 +1928,7 @@ _logHuman=
 ||www.digikey.*/lO2Z493J/init.js
 ||adrta.com^$third-party
 ||nexstardigital.net/segment.js
+||trackingapi.trendemon.com/api/events/pageview?
 ||gravitec.net^$third-party
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 /geoip/detect?
@@ -3723,6 +3724,7 @@ omni.soundestlink.com$image
 ||wizaly.com^$third-party
 ||user-api.com^$third-party
 ||convertflow.co^*/visitors/
+||oval.id/tracker/
 ||brightdata.de^$third-party
 ||akamaihd.net/*.gif?e=
 ||pubstack.io^$third-party
@@ -6436,6 +6438,7 @@ _beacon?
 ||ippen.space/idat
 /trackingp.gif
 ||mediaforgews.com^$third-party
+/affiliate:link_visit?
 /anonymous_user_guid.gif?
 /fp2.min.js$domain=~spweb.auction.co.kr|~spweb.gmarket.co.kr
 ||engagio.com^$third-party
