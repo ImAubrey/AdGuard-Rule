@@ -1,4 +1,4 @@
-# Update time: 2024-02-21 08:56:39
+# Update time: 2024-02-21 20:23:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3062,6 +3062,7 @@ _logHuman=
 ||audrte.com^$third-party
 ||cooladata.com^$third-party
 ||graphcomment.com/api/thread/*/stats
+||static.chartbeat.com/js/chartbeat_mab.js$script,redirect=chartbeat.js
 ||flockrocket.io^$third-party
 ||posst.co^$third-party
 ||covery.ai/fp/$third-party
@@ -4284,6 +4285,7 @@ _stat_counter.php?
 /logstats.php
 ||facebook.com/platform/scribe_endpoint.php/
 ||repstatic.it^*/nielsen_static_mapping_repubblica_
+@@||lightning.cnn.com^$script,domain=wfmz.com
 ||yandex.ru/cycounter?
 ||weibo.cn/h5logs/
 ||events.release.narrativ.com^$subdocument,xmlhttprequest
@@ -7252,6 +7254,7 @@ weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||lsfinteractive.com^$third-party
 ||ninestats.com^$third-party
 ||so-zou.jp/js/ga.js
+||static.chartbeat.com/js/chartbeat.js$script,redirect=chartbeat.js
 ||datacaciques.com^$third-party
 ||amazonaws.com/iglu.acme.com.dev.clixtream/tracker.js
 /trackmvisit?
