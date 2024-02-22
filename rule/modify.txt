@@ -1,4 +1,4 @@
-# Update time: 2024-02-21 20:23:04
+# Update time: 2024-02-22 08:55:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -571,6 +571,7 @@ besplatka.ua##.adBl
 /adblock-alerter/js/adblock_alerter.js
 webofcomics.ru##.reklandvipinfo
 /npsblocker/js/ads.
+@@||yacine-app.com^$generichide
 ###adb-warning
 dz-android.com,freeiphone.fr,hommedumatch.fr,jetetroll.com,testious.com#@##adsense
 asn.in.ua,beadeath.dclans.ru###mdl_ctnr
@@ -2783,6 +2784,7 @@ _logHuman=
 ||aim.cloudflare.com/__log
 /getlog.gif
 /Engagement/TrackEventAsync
+||pji.nu/libs/pjpixel/
 /notifications.google.com/g/img/*$image
 /count.png?
 ||siberiantimes.com/counter/
@@ -2935,6 +2937,7 @@ _logHuman=
 ||app-bnkr.b-cdn.net/js/lv.js
 /eventproxy/track
 ||searchiq.co/api/tr?
+||bonmed.se/monitoring?
 ||consentmanager.net/delivery/info/$third-party
 ||godaddy.com/js/gdwebbeacon.js
 /dcs.gif?
@@ -6168,6 +6171,7 @@ _beacon?
 ||presspage.com/statistics/
 /trigger-visit-event
 ||mutinyhq.io^$third-party
+||api.ouedkniss.com^*&xTrackId=
 ||app.posthog.com/e/?ip=
 ||medoucine.com/tracking/
 ||worldflagcounter.com^$third-party
@@ -6222,6 +6226,7 @@ _beacon?
 ||rossel.tech^$third-party
 /kaizentrack/resources/scripts/script.js
 ||vinsight.de^$third-party
+||api.ouedkniss.com/health/
 /lhnhelpouttab-current.min.js
 ||leadbi.com^$third-party
 ||telize.com^$third-party
