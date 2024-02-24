@@ -1,4 +1,4 @@
-# Update time: 2024-02-24 08:53:57
+# Update time: 2024-02-24 20:20:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1276,6 +1276,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /c2_count.js
 ||siteswithcontent.com^$third-party
 ||attr-2p.com^$third-party
+/if/services/tdg?hs=
 /ajax_video_counter.php?
 ||akanoo.com^$third-party
 /rum-telemetry/*
@@ -1981,6 +1982,7 @@ _logHuman=
 @@||thomas.co/sites/default/files/google_tag/primary/google_tag.script.js$script,~third-party
 /nm/itracking?
 ||logcounter.com^$third-party
+||whale.camera^$third-party
 ||phywi.org^$third-party
 ||bonnieradnetwork.se^$third-party
 ||auto.ru/-/ajax/$~xmlhttprequest
@@ -5190,6 +5192,7 @@ _webanalytics.
 /pxtrack.js
 /realtimeapi/impression?
 ||toast.com/log
+||outbrainimg.com^$third-party
 /track_event.
 ||waaw1.tv/cdn-cgi/trace
 ||trackedlink.net^$third-party
@@ -5425,6 +5428,7 @@ _trackWebtrekkEvents.
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 ||videa.hu/flvplayer_setcookie.php?
 ||aghtag.tech^$third-party
+||renderbetter.net^$third-party
 ||qhupdate.com^$third-party
 ||mayla.jp/TRACKING/
 ||compteur-visite.com^$third-party
@@ -5843,6 +5847,7 @@ _trackWebtrekkEvents.
 ||t.dgm-au.com^$third-party
 ||cnhv.co^$third-party
 ||houzz.com/js/log?
+/track.php?toggle=
 ||pussy.org^*/track.php
 ||cdn-net.com^$third-party
 ||html5games.com/event/
@@ -6187,6 +6192,7 @@ _beacon?
 ||quadran.eu^$third-party
 ||fansedge.com/api/track
 /at-composer.js
+||polaranalytics.com^$third-party
 /t?tcid=
 ||mystat.hu^$third-party
 ||limbik.com/static/tracking-script.js
@@ -6511,6 +6517,7 @@ _beacon?
 ||55bbs.com/east.html
 /session/update-beacon
 ||mysociety.org/track/
+||knewz.com/api/event
 /events?data=
 ||itrac.it^$third-party
 ||walmeric.com^$third-party
@@ -10383,6 +10390,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||minero-proxy-*.sh^$third-party
 /monsido.js
 ||europuls.eu^$third-party
+||sparkasse.de/frontend/setTrackingCookie.htm
 ||cardinalcommerce.com/prod/log
 .com/stats.aspx?
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
