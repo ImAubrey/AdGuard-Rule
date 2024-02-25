@@ -1,4 +1,4 @@
-# Update time: 2024-02-24 20:20:26
+# Update time: 2024-02-25 09:00:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2546,6 +2546,7 @@ _logHuman=
 @@||clerk.io/clerk.js$script,domain=trony.it
 ||qchannel03.cn^$third-party
 /webtraffic.js
+@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|handelsblatt.com|inquirer.com|mainichi.jp|marketwatch.com|tarzanweb.jp|tn.com.ar|tvnet.lv|wpb.shueisha.co.jp|wsj.com
 ||trackingpro.pro^$third-party
 ||mql5.com/st?
 ||publicbroadcasting.net/analytics/
@@ -4165,6 +4166,7 @@ _stat_counter.php?
 ||tourradar.com/def/partner?$third-party
 /newrelic.js
 /beacon/timing?
+||medal.tv^$ping
 ||amazonaws.com/avsmetrics/
 ||retty.me/gen204.php
 /cmp3.js
@@ -8033,6 +8035,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||adpaths.com^$third-party
 ||netscape.com/c.cgi?
 ||vidazoo.com/aggregate?
+||justdial.com/jd-trkr
 ||totaljobs.com/chatbot/webhook/logger
 @@||liveapi.cleverpush.com/websocket$websocket,domain=heise.de
 /cgi-bin/count/*
@@ -9332,6 +9335,7 @@ thegamer.com##+js(abort-current-script, document.createElement, admiral)
 ||pswec.com/px/$third-party
 /trckUtil.min.js
 ||trugaze.io^$third-party
+@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 /__ssobj/sync?$image
 ||ctrmi.cn/t/
 ||iovation.com^$third-party
@@ -9404,7 +9408,6 @@ thegamer.com##+js(abort-current-script, document.createElement, admiral)
 ||mmstat.com^$third-party
 ||adelixir.com^$third-party
 ||affilae.com^$third-party
-@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|computerbild.de|cyclestyle.net|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|wsj.com
 ||pushwize.com^$third-party
 ||100widgets.com^$third-party
 ||osano.com/js/?action_name=
@@ -9635,7 +9638,6 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||addtoany.com/menu/transparent.gif
 /DG/DEFAULT/rest/*
 ||zapcdn.space/zapret.js
-@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|wsj.com
 @@||netcoresmartech.com/smartechclient.js$domain=hdfcfund.com
 ||ts.fi^*/spring.js
 ||faphouse.com/api/collector/
@@ -10784,6 +10786,7 @@ _ad_impression.
 /showcounter.php
 ||sterlingwoods.com^$third-party
 /matomo/*$domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
+@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|computerbild.de|cyclestyle.net|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
 ||leadlife.com^$third-party
 ||statistiche-web.com^$third-party
 ||mparticle.weather.com/identity/
@@ -11214,7 +11217,6 @@ _WebVitalsReporter_
 ||gacraft.jp^$third-party
 ||top-ro.ro^$third-party
 ||blip.bizrate.com^$script
-@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|handelsblatt.com|inquirer.com|mainichi.jp|marketwatch.com|tarzanweb.jp|tn.com.ar|wpb.shueisha.co.jp|wsj.com
 @@||n8s.jp^$script,domain=nikkei.com
 /statstracker/*
 ||flya.me/eventtrack
