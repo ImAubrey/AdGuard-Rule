@@ -1,4 +1,4 @@
-# Update time: 2024-02-26 20:23:08
+# Update time: 2024-02-27 08:55:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -55,6 +55,7 @@ closermag.fr,grazia.fr,topsante.com##.dfp-slot
 ##.ad_blocker
 ##.adblock-warning-teaser
 ##.adblockOverlay
+||alertarithmetic.com^$third-party
 daz3d.ru,portfel.info##body > div[id][style="display: block;"]
 ||cmath.fr/images/fond2.gif
 ||plausiblecable.com^$third-party
@@ -71,9 +72,11 @@ dealerdunet.fr#@#.text_ads
 ||inconclusiveaction.com^$third-party
 ||producecopy.com^$third-party
 comptoir-info.com#@#.textad
+||devilishdinner.com^$third-party
 /cookie_check.min.js$domain=acetv.me
 ||kontrolnaya-rabota.ru^*/fuckadblock.$script
 shadbase.com##img[alt="adblock"]
+||enchantingenchantment.com^$third-party
 @@||ktu.sv2.biz/sv3/advertisement.js
 /forum/docs/requests.js$script,domain=nnm-club.lib|nnm-club.me|nnm-club.ws|nnmclub.ro|nnmclub.to|nontorclub.in.net
 /adblock-notify-by-bweb/*
@@ -139,11 +142,15 @@ cxem.net###antiAdBlock
 ||cherriescare.com^$third-party
 ppc.world##.js-detected-block
 ||fairtop.in/template/js/fdetect.js
+||majesticmountainrange.com^$third-party
 ||shakysurprise.com^$third-party
 ||pluckypocket.com^$third-party
+||gladglen.com^$third-party
 /adbl_dtct1.
 /js/1.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
+||worriedwine.com^$third-party
 /adblock_alerter.
+||zephyrlabyrinth.com^$third-party
 ||materialparcel.com^$third-party
 @@||item-voyage.fr/ads.css
 ||debonairtree.com^$third-party
@@ -159,11 +166,14 @@ filmix.biz,filmix.date,filmix.life,filmix.tech,filmix.zone##.remove-sda-wrap
 ma.by###bodysubcont > div[style^="padding"]:not([id]):not([class])
 scantrad.net##.adbon
 savevideo.me##td > div[class]:not([id])[style*="important"]
+||memorizematch.com^$third-party
 ||secretivestick.com^$third-party
 ||sensorsmile.com^$third-party
 shahid4u.club#@#.adsBox
 ##.adblocker-message
 dressupmix.ru,teensgames.ru###adblock_popup
+||nebulacrescent.com^$third-party
+||materialmilk.com^$third-party
 ||ticketaunt.com^$third-party
 ||adscat.ru^$third-party
 ||warmafterthought.com^$third-party
@@ -176,8 +186,10 @@ artfile.me###jadb
 ##adblock-modal-component
 imgrutor.com,playtor.tv##div[class^="adblock-warning"]
 ||vsthouse.ru/a-detector/
+||superviseshoes.com^$third-party
 retinaboys.com###screen_block
 ||seashoreturn.com^$third-party
+||tranquilarchipelago.com^$third-party
 /adbDetect.
 ###detection-block-overlay
 wotactions.com###ads_warning
@@ -191,6 +203,7 @@ sostav.ru###rek_blocker
 minimultik.ru###abDetected
 ||stakingsmile.com^$third-party
 biggestplayer.me##.masr
+||oafishchance.com^$third-party
 gisher.org##body > div[id^="ban"][style]
 ||whispermeeting.com^$third-party
 ||sheltercellar.com^$third-party
@@ -205,12 +218,14 @@ piratia.su###block-warning
 wikihow.com###contribute_footer
 ||nnm-club.ws/forum/docs/requests.js
 ||pocketfaucet.com^$third-party
+||fabulousterritory.com^$third-party
 delfi.lv##.notification-widget
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 igorchernomoretz.com##body > div[id^="ab"] + div[style*="cursor"]
 @@/ads.js$script,~third-party,domain=abcbourse.com|action-sociale.org|anime-vf.fr|impactmangas.fr|presse-algerie.net|primfx.com|undernews.fr
 medical-club.net##.blocker-notice,.blocker-overlay
 ##.adBlock-banner
+||etherealquasar.com^$third-party
 ostroh.info###modal.modal-bg
 redtube.com##.qb
 @@||dbz-fantasy.com/ads.css
@@ -227,6 +242,7 @@ journaldugeek.com##.banner__content
 ###adblock-box
 ||scaredsnake.com^$third-party
 ukr.net##body > .yellow-die
+||spookystitch.com^$third-party
 audiotag.info##.dialog-fog
 ||guidecent.com^$third-party
 ||firstfrogs.com^$third-party
@@ -236,6 +252,7 @@ sdamgia.ru##main > div[class*=" "]:nth-child(-n+2) > div ~ div
 ##adblocker
 /SvgAdblockDetected/*
 /abb-msg.js
+||sprydelta.com^$third-party
 ||telephoneapparatus.com^$third-party
 playonlinux.com##div[style="text-align:center;  border-radius:7px; width:160px;  border:1px solid #666666;  margin-left:5px;padding-right:5px;color:#FFF;  background-color:#666;font-family:Maven Pro,century gothic, arial, helvetica, sans serif;padding-top:94px;  height:600px;  padding-left:5px; font-size:18px; "]
 dropmefiles.com.ua,dropmefiles.net##.intro
@@ -266,6 +283,7 @@ auto62rus.ru,eset-key.ru,mycrib.ru,piggy-bank.online,politonline.ru,showmehow.ru
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
 ##.ab-detected
 space.utema.ru##.main-content-padding > div[class]:not([itemprop])
+||tediousbear.com^$third-party
 czx.to###vdl_ctnr
 poznamka.ru##body > [id]:not([class])[style^="z-index"]
 ##.dispositifAdblock
@@ -287,6 +305,7 @@ wowhead.com##.block-bgimg
 freelogovectors.net##div[class^="popup"]
 ##.no-ad-reminder
 ||buhgalter911.com^*/blocker.
+||stockingsleet.com^$third-party
 dtf.ru,vc.ru##.layout__right-column > div[class*=" "][style] > div[class*=" "] > div:only-child
 ##.wp_adblock_detect
 liga.net#@#div[id^="div-gpt-ad"]
@@ -327,12 +346,14 @@ audiotag.info###dclaim
 @@||universfreebox.com/js/advertisement.js
 flightradar24.com###responsiveBottomPanel
 veseloeradio.ru##.racy_sidebar
+||meadowlullaby.com^$third-party
 ||sinceresubstance.com^$third-party
 ||needyneedle.com^$third-party
 ||sugarfriction.com^$third-party
 ||pointlesshour.com^$third-party
 ###AdBlockDialog
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=shahid.mbc.net
+||unaccountablepie.com^$third-party
 videofun.me###flowplayer > div[class][style]:first-child
 ###mdp-deblocker-ads
 novostroy-m.ru###advert_result
@@ -351,14 +372,19 @@ rusopen.com##.classblsi.addshr
 ##adblock-detect
 ||bawdybalance.com^$third-party
 ||acceptableauthority.com^$third-party
+||mistyhorizon.com^$third-party
 shuba.life##img[height][src^="https://shuba.life/static/banners/placeholders/"]
 ||cowscrayon.com^$third-party
+||faucetfoot.com^$third-party
+||substantialgrade.com^$third-party
 ||tastelesstrucks.com^$third-party
 ||delicateducks.com^$third-party
 ###adBlockAlert
 ###adblocker_announce
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rockmods.net
+||subletyoke.com^$third-party
 @@||v.fwmrm.net/ad/g/1?$xmlhttprequest,domain=www.mycanal.fr
+||carpentercolor.com^$third-party
 @@||jeuxvideo-live.com/js/ads.js
 frkp.lol###film > #content > span[style="color:#ff6a00;"]
 ||dustydime.com^$third-party
@@ -366,9 +392,11 @@ frkp.lol###film > #content > span[style="color:#ff6a00;"]
 swaego.ru##body > .special-message-wrapper
 ||causecherry.com^$third-party
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=shahid.mbc.net
+||stepcattle.com^$third-party
 kissvk.com###madBlockModal,.modal-backdrop
 ||static.game-state.com/images/main/alert/replacement/
 ||muterange.com^$third-party
+||platescarecrow.com^$third-party
 brazzers-hdx.club##.adblck
 ###adblock_message
 ##.remove-adblock-msg
@@ -382,6 +410,7 @@ byzoo.org,videobug.net##div[style^="position: absolute; width: 300px;"]
 ||bleachmx.fr/wp-content/plugins/yeptmixnsykgrb/bjns-fcknj.js
 ##.BrokenAd
 ###notify-adblock
+||admiral.pub^$third-party
 /wutime_adblock/*
 /adblock-img.
 drive2.ru#?#div[class]:-abp-has(> div[id][class] > a[href] > img[src^="https://avatars.mds.yandex.net/get-adfox-content/"])
@@ -426,6 +455,7 @@ _adblocker_detected
 @@||pagerank.fr/js*/advert.js?$script
 iwin.com#@##sponsorText
 darkteam.net##.pls_rmv
+||nebulousamusement.com^$third-party
 ###adblockWrap
 ||ambitiousanimal.com^$third-party
 lagrosseradio.com###warn
@@ -457,6 +487,7 @@ ykt.ru##.n-banner--adblocked
 euroiphone.eu##.div-download-v
 ##.adBlockDetectModal
 ||differentcoat.com^$third-party
+||franticroof.com^$third-party
 euroiphone.eu##.div-download-h
 mail.rambler.ru##.notification-warning
 ||tiredthroat.com^$third-party
@@ -492,9 +523,11 @@ tvcook.ru##.cat
 nexusmods.com##div[style="float: left; width: 728px; height: 90px; background: #313131;"]
 ##.msg-adblock
 ||strangesink.com^$third-party
+||ambrosialsummit.com^$third-party
 fotoshop-online.org##section > .col-full + script + center[class]
 animeland.su,itcats.ru,nekto.me,noadsradio.ru,sharkgame.ru,studies.in.ua,w10.jeanzzz.ru##.no-adb
 sdamgia.ru##div[style^="text-align:center; color:red;"][style*="font-size:16px"]
+||piquantvortex.com^$third-party
 /bloackdas.js
 /nonAdBlock/*
 /google-adblock.
@@ -535,12 +568,14 @@ finget.ru,katalog-aktsii.ru,rp5.by,rp5.kz,rp5.ru,sms24.info,sms24.me,vikings-war
 ###fondAdblock
 ##.adblocker-wrap
 sprashivalka.com##.ad
+||speakgrandfather.com^$third-party
 ||childlikecrowd.com^$third-party
 ||corrosif.science^$domain=filerev.cc|pencurimovie.pw
 nautiljon.com###cmsg
 ||conditionchange.com^$third-party
 /adblockDetector.
 @@||proxy.ads.canalplus-bo.net/web/undefined/v1/adserver/info/?asset=*&channel=$xmlhttprequest,domain=www.mycanal.fr
+||friendlycrayon.com^$third-party
 ||unwieldyhealth.com^$third-party
 /levelmaxblock.js
 newnavitel.blogspot.com##.post-body > div[dir] > div[dir] > h1#result
@@ -559,8 +594,10 @@ ganoderma-mushrooms.com,korrektor.name,varicream.org###turn_advert.adblock
 cs-amba.ru##.banka
 alensat.org,forummikrotik.ru###phpbb-ads-ab
 ||cmath.fr/images/fondsticky.gif
+||placidactivity.com^$third-party
 ###wrapperBlocker
 closermag.fr##div[id^="detection-block"]
+||seemlysuggestion.com^$third-party
 ||handsomelyhealth.com^$third-party
 /adblock_alerter/*
 gismeteo.by,gismeteo.ru##div[class^="stopblock"]
@@ -579,6 +616,7 @@ bookskeeper.ru,e-xecutive.ru##.warning
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[style^="min-height"] > .notify *
 sanstv.ru###adblock
 ||rottenray.com^$third-party
+||fadechildren.com^$third-party
 ||uninterestedquarter.com^$third-party
 kubik3.ru##.adbs
 /adsmatcher-anti-adblock/*
@@ -588,6 +626,7 @@ kubik3.ru##.adbs
 ||outstandingsnails.com^$third-party
 ###anti_adblock
 usgang.ch###rectangle-wrapper
+||neatshade.com^$third-party
 ###adblock_msg
 ||kontrolnaya-rabota.ru^*/toastr.$script,stylesheet
 pausecafein.fr###adb-pop
@@ -611,6 +650,7 @@ pastenow.ru###google-block
 ||slimyseashore.com^$third-party
 /inc/antiblock.
 ##.ad-blocked-wrapper
+||knitstamp.com^$third-party
 /adblocker/modal.
 ##.test-adblock-overlay
 ph4.ru##table[width][height="90"][style]
@@ -667,6 +707,7 @@ gamesubject.com###headb
 ||habitualhumor.com^$third-party
 technologypep.com##.main-container-wrap > div[class$="-bg"]
 fightnews.info##body > blockquote
+||muddledmemory.com^$third-party
 ###adb-actived
 ###adblock_tooltip
 ||lovelydrum.com^$third-party
@@ -682,12 +723,15 @@ gta.com.ua##body > div[id][style*="background"][style*="visible"]
 it-enginer.ru##body > #modal[style*="blur"]
 ||skyrock.net/img/*/adblock/
 @@||manga-news.com/js/advert.js$script
+||stimulatingsneeze.com^$third-party
 /adb-watch.
 ||bedsberry.com^$third-party
 ||squirrelhands.com^$third-party
 ||sparklingshelf.com^$third-party
+||stingyspoon.com^$third-party
 chahid4u.tk###unblocker
 megatest.online##.msg-AdBlock
+||exhibitsneeze.com^$third-party
 ||cavecurtain.com^$third-party
 irk.ru##.b-adblock-message
 ||gamemag.ru/assets/*/js.cookie.js
@@ -699,6 +743,7 @@ tproger.ru#?#article.type-post:-abp-has([href="/adblock"])
 /adblock_notify.js
 vsadu.ru##.adb-block
 winzoro.net##.isadNotif
+||roughharmony.com^$third-party
 @@||wamiz.com/css/ads.css
 ##.adblock_floating_message
 ||steepsister.com^$third-party
@@ -706,6 +751,7 @@ winzoro.net##.isadNotif
 ||blesspizzas.com^$third-party
 d3.ru##.b-promo__placeholder
 ||auspiciousyard.com^$third-party
+||recessrain.com^$third-party
 llifle.com###ad_blocker_found
 ideya-biznesa.ru##.admania_adblock_detector
 peers.tv##.moanerwrap
@@ -719,6 +765,7 @@ factorio.su##body > div[id][class][style*="background"][style*="visible"]
 ||pastcabbage.com^$third-party
 newkaliningrad.ru##body > .soclinks + script + div[class]:not([id])
 ||hocgeese.com^$third-party
+||soggyzoo.com^$third-party
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 ##.adBlockWarning
 ||ipprof.ru/wp-content/plugins/ad-blocking-advisor/
@@ -729,6 +776,7 @@ yarik-sat.com##.noadb
 hearthhead.com,wowhead.com##.block-bg
 zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: dashed; border-color: red;"]
 @@||ams.cdn.arkadiumhosted.com/assets/arena-4/arena/heap/advertisements.js$script,domain=jeux.lemonde.fr
+||childlikeexample.com^$third-party
 ||badgeboat.com^$third-party
 @@||jeux-geographiques.com/js/adblock_detector.js
 ###checkadblockernow
@@ -746,6 +794,7 @@ in-trend.biz##body > [id][style^="z-index"]
 natural-cosmetology.ru##body > div[style*="background-color:#ff0000;color:#ffffff;"]
 ##.kill-adblock-container
 ||anivisual.net/mim*.js|$script,domain=anivisual.net
+||smilewound.com^$third-party
 ###box-adblocker-wrap
 @@||fusacq.com/javascript/advertising.js|$script
 nv.ua##img[src="/images/dis_blocker_big.jpg"]
@@ -772,6 +821,7 @@ pr-cy.ru##div[id^="aabb"]
 tassbiz.ru##.adblock_notif
 torrnado.win##body > div > .a-overlay
 finfront.ru##div[class^="swal2"]
+||grumpydime.com^$third-party
 mel.fm##.b-ad-space__placeholder
 l-a-w.ru,mhelp.kz##.swal2-container
 ##.ad_block_detected
@@ -779,6 +829,7 @@ l-a-w.ru,mhelp.kz##.swal2-container
 ||dockdigestion.com^$third-party
 ||sombersticks.com^$third-party
 ||developpez.com/template/*.jpg$xmlhttprequest
+||matchjoke.com^$third-party
 ###adblock-warning
 goha.ru#@#.goha_ads
 ||creditcreature.com^$third-party
@@ -799,6 +850,7 @@ hypebeast.com,hypebeast.kr#@#.ad-blocked
 myanimelist.net##._unit
 gdekluet.ru##body > div[class^="stop-block"]
 ||vazhno.ru/cdn-cgi/apps/head/*.js
+||lumberrule.com^$third-party
 ||shakegoldfish.com^$third-party
 @@||animedigitalnetwork.fr/templates/*/js/advertising.min.js?$script,~third-party
 ||pricklypies.com^$third-party
@@ -812,6 +864,7 @@ i.factor.ua##[data-place-block]
 ||tastelesstoes.com^$third-party
 lostfilm.tv##div[class^="alarm"]
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
+||slinksuggestion.com^$third-party
 @@/advertisement.js$script,~third-party,domain=fun-animes.fr|macupload.net|majorgeeks.com|upload.ac
 vesti-ukr.com###adblockpopup
 ||ancientact.com^$third-party
@@ -829,11 +882,15 @@ fairytailmx.com#@##sponsored-ad
 @@||cdn4.tennistemple.com/js/advert.js|$script,~third-party
 /adblocker-detected.
 bouweenpc.nl###header-banner
+||dreamycanyon.com^$third-party
+||eminentend.com^$third-party
 stroi-help.ru##.alert_warn
 painart.ru##body > div[id][style^="display: block"][style*="background: red"]
 forum.bestflowers.ru###exposeMask
+||testadmiral.com^$third-party
 ||poeticpackage.com^$third-party
 ||railwayreason.com^$third-party
+||kindhush.com^$third-party
 chipinfo.pro###content-container > div[style^="position: fixed;"]
 ||tritebadge.com^$third-party
 ##.diysdk_webServices_banners1und1MainContent
@@ -851,6 +908,17 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /AdblockMessage.
 ||paintpear.com^$third-party
 ##.svg-adblock-full
+<div id="target" style="opacity: 0"></div>
+<script src="/bKbvzMlhE.js"></script>
+<script>window.park = "eyJ1dWlkIjoiNWNiYTUxMDktODgzMS00NmE1LWIwNWYtN2RiYzZlMTQ0NGIzIiwicGFnZV90aW1lIjoxNzA4OTk1MzM3LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI1Mi4yMzguMjkuMTkzIn0K";</script>
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
+</head>
+</html>
+</body>
+    <link rel="preconnect" href="https://www.google.com" crossorigin>
+<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
