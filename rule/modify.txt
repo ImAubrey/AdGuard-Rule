@@ -1,4 +1,4 @@
-# Update time: 2024-02-27 08:55:34
+# Update time: 2024-02-27 20:22:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -909,13 +909,13 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
 <div id="target" style="opacity: 0"></div>
-<script src="/bKbvzMlhE.js"></script>
-<script>window.park = "eyJ1dWlkIjoiNWNiYTUxMDktODgzMS00NmE1LWIwNWYtN2RiYzZlMTQ0NGIzIiwicGFnZV90aW1lIjoxNzA4OTk1MzM3LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI1Mi4yMzguMjkuMTkzIn0K";</script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
 </body>
+<script src="/bjstjMNsG.js"></script>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
+<script>window.park = "eyJ1dWlkIjoiM2UyNmZmMzgtNDJjNS00NjExLTgzMTktZjE1NDdmNDM2ODRkIiwicGFnZV90aW1lIjoxNzA5MDM2NTQyLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjkxLjM5In0K";</script>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -1238,6 +1238,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||steuertipps.de/scripts/tracking/
 /astracker/ast.php
 ||lexology.com/pd.js
+/2.120.0/main.js
 ||tisoomi-services.com^$third-party
 ||jockey.com/scripts/omt-base.js
 ||ixigua.com/at/log/
@@ -1356,6 +1357,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /pagetag.gif?
 /js/logger?
 ||isacglobal.com/sa.js
+/snowplow-tracker.tatest.js
 /trackpixel?
 ||livelyvideo.tv/lb/logger
 /track/open.php?
@@ -1616,6 +1618,7 @@ _logHuman=
 ||nike.com/assets/measure/data-capture/
 ||tongji2.vip.duba.net/__infoc.gif?
 /clicks.*/q/*$image
+||cpb.esprit.*/91405.js
 /track/aggregate?
 ||smartclip-services.com^$third-party
 ||arttrk.com/pixel/
@@ -2949,6 +2952,7 @@ _logHuman=
 /beacon/perf
 /tncms/tracking.js
 ||indiatimes.com/savelogs?
+||invitereferrals.com^$third-party
 ||indeed.com/rpc/$~xmlhttprequest
 /clientele/reports/*
 ||va-endpoint.com^$third-party
