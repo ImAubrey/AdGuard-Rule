@@ -1,4 +1,4 @@
-# Update time: 2024-02-28 20:22:17
+# Update time: 2024-02-29 08:55:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -167,13 +167,13 @@
 ||socdm*.*^
 ||adsh*.*^
 ||vmm-satellite*.com^
-||partnerad*.*^
 ||minero-proxy-*.sh^
 ||qchannel*.cn^
 ||gg*.51cto.com^
 ||analyzer*.fc2.com^
 ||lianmeng*.*^
 ||tracker*.qcloud.com^
+||adwords*.*^
 ||liveweb*.msstatic.com^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
