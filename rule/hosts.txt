@@ -1,4 +1,4 @@
-# Update time: 2024-03-02 08:54:54
+# Update time: 2024-03-02 20:20:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12471,6 +12471,7 @@
 0.0.0.0 www.0202.com.tw
 0.0.0.0 certifiedwinners.today
 0.0.0.0 butterdogchange.com
+0.0.0.0 benefitsgov.info
 0.0.0.0 kronehit.oewabox.at
 0.0.0.0 forex-online.hut1.ru
 0.0.0.0 ad03.focalink.com
