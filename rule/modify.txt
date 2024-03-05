@@ -1,4 +1,4 @@
-# Update time: 2024-03-05 08:55:52
+# Update time: 2024-03-05 20:22:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -908,9 +908,9 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /AdblockMessage.
 ||paintpear.com^$third-party
 ##.svg-adblock-full
-<script src="/bjQTrEuMw.js"></script>
+<script>window.park = "eyJ1dWlkIjoiZDIxMDRlODMtM2VmNi00MjM1LWI5NDYtNDRlZmY2MDQ0MDJlIiwicGFnZV90aW1lIjoxNzA5NjQxMzc1LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC44MS4xNTkuMTcifQo=";</script>
 <div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiZGEzOTdlNGEtOGNlOC00MDY3LWIwYmQtNWFhODMxMTUyOGRhIiwicGFnZV90aW1lIjoxNzA5NjAwMTU2LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC4xNzEuMTIyLjE4MCJ9Cg==";</script>
+<script src="/bUsFMzzVT.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
@@ -1508,7 +1508,6 @@ _logHuman=
 ||rnengage.com^$third-party
 /fpv2.js
 ||feedcat.net^$third-party
-@@||omtrdc.net/b/ss/$image,domain=britishairways.com|halifax-online.co.uk
 ||leiki.com^$third-party
 ||metro.co.uk/cvx/client/sync/fpc?
 ||pjtra.com^$third-party
@@ -6510,6 +6509,7 @@ _beacon?
 ||fresh.inlinkz.com^$third-party
 ||webmobile.ws^$third-party
 /npm/perfops-rom
+@@||omtrdc.net/b/ss/$image,domain=ba.com|britishairways.com|halifax-online.co.uk
 /bcsensor.js
 /jquery.trackstar.js
 /is-tracking-pixel-
@@ -6815,6 +6815,7 @@ weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, fal
 ||tongjiniao.com^$third-party
 @@||api-analytics.magstimconnect.net^$~third-party
 ||glam.com/ctagsimgcmd.act?
+@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|ba.com|bestbuy.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 ||publish-int.se^$third-party
 ||sealserver.trustwave.com^$third-party
 ||storage.googleapis.com/nchq-dj-nid/prod/sp_v1.js
@@ -8438,7 +8439,6 @@ $ping,third-party
 ||video-cdn.net/event?
 ||tracemyip.org^$third-party
 ||prnetwork.de^$third-party
-@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|bestbuy.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 ||cloudfront.net/trackb.html
 /statcounter.js
 ||topofblogs.com^$third-party
@@ -8733,6 +8733,7 @@ _rpc/log?
 ||advanced-web-analytics.com^$third-party
 ||linkbucks.com/visitScript/
 ||spacehits.net^$third-party
+||rebuyengine.com/api/*/analytics/event/
 ||e-merchant.com/^*/edr.js$third-party
 ||toutiao.com/action_log/
 /dataunlocker-prod.js
