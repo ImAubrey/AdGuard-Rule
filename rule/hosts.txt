@@ -1,4 +1,4 @@
-# Update time: 2024-03-07 20:23:02
+# Update time: 2024-03-08 08:55:54
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -13860,6 +13860,7 @@
 0.0.0.0 unonoticias.net
 0.0.0.0 gwallet.com
 0.0.0.0 smartlifeguides.com
+0.0.0.0 www.swallowwire.sa.com
 0.0.0.0 europe.adserver.yahoo.com
 0.0.0.0 code.murdoog.com
 0.0.0.0 bravospots.com
