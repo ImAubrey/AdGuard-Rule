@@ -1,4 +1,4 @@
-# Update time: 2024-03-09 20:20:33
+# Update time: 2024-03-10 09:00:05
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -72,6 +72,7 @@
 ||stats2.*.fdnames.com^
 ||stats.zone-telechargement.
 ||tracker.twenga.
+||aff*.kolektiva.net^
 ||stats.zone-annuaire.
 ||df.infra.sz.shopee.
 ||sta.wawacity.
@@ -259,7 +260,6 @@
 ||mob*.novanewsapp.com^
 ||ad-*.appacc.dbankedge.cn^
 ||aj1*.online^
-||aff*.kolektiva.net^
 ||events*.cre.ma^
 ||163487*.qmgmw.com^
 ||adx-*.dbankedge.cn^
