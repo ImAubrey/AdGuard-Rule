@@ -1,4 +1,4 @@
-# Update time: 2024-03-17 09:00:05
+# Update time: 2024-03-17 20:22:03
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -911,9 +911,8 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /AdblockMessage.
 ||paintpear.com^$third-party
 ##.svg-adblock-full
-<script>window.park = "eyJ1dWlkIjoiMGI3NWVjMjAtMDA3ZS00YmRkLWFmOTItOWIxYzc3NTk1NTM4IiwicGFnZV90aW1lIjoxNzEwNjM3MjA5LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjEzMS4xOTIifQo=";</script>
 <div id="target" style="opacity: 0"></div>
-<script src="/bheqItUdF.js"></script>
+<script src="/bLtOtCBEZ.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
@@ -922,6 +921,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+<script>window.park = "eyJ1dWlkIjoiYTA3YjFjOGUtYzdhYS00MGQ0LTllN2EtNmQ4Yzk2OWM4NmMyIiwicGFnZV90aW1lIjoxNzEwNjc4MTI3LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC44MS40Ni4xNTkifQo=";</script>
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
@@ -2001,6 +2001,7 @@ _logHuman=
 ||searchenginegenie.com^$third-party
 ||mrf.io/statics/marfeel/chunks/metrics-
 ||freeonline.org/sito_track?
+||api.country.is^$third-party
 ||sport.ua/pixel/
 /swa_t.gif?
 ||cloudfront.net/sentinel.js
@@ -5797,6 +5798,7 @@ _trackWebtrekkEvents.
 ||bam-x.com^$third-party
 ||marmiton.org/reloaded/errpix.php
 /geoip_cc
+||spot.im/v1.0.0/conversation/realtime/read
 /pixel_V2.js
 /access.php?referrer=
 ?event=pageview&
@@ -7959,6 +7961,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /fb-pixel-tracking.js
 ||mi.com/stat/
 /weblog.php?
+||backend.academy.cs.cmu.edu/api/v0/track/
 /rrweb.min.js
 ||qoijertneio.com^$third-party
 ||foxpush.com^$third-party
