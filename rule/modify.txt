@@ -1,4 +1,4 @@
-# Update time: 2024-03-19 20:23:26
+# Update time: 2024-03-20 08:56:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -137,6 +137,7 @@ pythonworld.ru##.pythonworld-contributor
 ||buhgalter.com.ua^*/blocker.
 ##.adb-enabled
 cxem.net###antiAdBlock
+admin.rainbow-online.ru,gitjournal.tech,logist.uxxo.ru,meteoservice.ru,pawno-info.ru,smolensk-auto.ru##body > div[id]:not([class])[style="display: block;"]
 /mod_ablockdetector/*
 ||automaticairplane.com^$third-party
 ||cherriescare.com^$third-party
@@ -251,7 +252,6 @@ sdamgia.ru##main > div[class*=" "]:nth-child(-n+2) > div ~ div
 ###adBlockerModal
 ##adblocker
 /SvgAdblockDetected/*
-admin.rainbow-online.ru,fastpic.ru,gitjournal.tech,logist.uxxo.ru,maxpark.com,meteoservice.ru,newsland.com,pawno-info.ru,smolensk-auto.ru##body > div[id]:not([class])[style="display: block;"]
 /abb-msg.js
 ||sprydelta.com^$third-party
 ||telephoneapparatus.com^$third-party
@@ -912,11 +912,11 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
 <div id="target" style="opacity: 0"></div>
-<script src="/bvHyFyuyR.js"></script>
+<script src="/bVrvPbEtQ.js"></script>
+<script>window.park = "eyJ1dWlkIjoiZTU1ZTI4ODAtMWU4NS00MTI4LWI0MDUtZDBjNzA1NDI2YTFjIiwicGFnZV90aW1lIjoxNzEwODk2MTc5LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjE2MS4yMDQifQo=";</script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
-<script>window.park = "eyJ1dWlkIjoiZjczZGE1MTYtMjE0Mi00NzY0LWI4YmQtYTQxMDhmYjhlMmNmIiwicGFnZV90aW1lIjoxNzEwODUxMDA5LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI3NC4yNDkuNS4xMDEifQo=";</script>
 </body>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
@@ -10429,6 +10429,7 @@ img.promio-connect.com$image
 ||leparking.fr/*/Tracker.js
 ||leadlab.click^$third-party
 ||flipboard.com/usage?
+@@||rackcdn.com/stf.js$script,domain=20min.ch
 /stats/ping?
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$~third-party
 ||coinzillatag.com^$third-party
@@ -11894,6 +11895,14 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -11977,11 +11986,3 @@ _WebVitalsReporter_
 ||*.omega7o.com^
 ||*.pwjhg.com^
 ||*.yongkang6.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
