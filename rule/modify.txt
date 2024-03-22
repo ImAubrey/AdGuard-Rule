@@ -1,4 +1,4 @@
-# Update time: 2024-03-22 08:56:28
+# Update time: 2024-03-22 20:23:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -912,16 +912,16 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
 <div id="target" style="opacity: 0"></div>
-<script src="/bQlDQEkfw.js"></script>
+<script>window.park = "eyJ1dWlkIjoiMTc1YzhlZDItYzdjYS00NWJlLWIxOWItYjdhYjFlMmEyMGExIiwicGFnZV90aW1lIjoxNzExMTEwMTg1LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC4xMDIuMjE0LjcifQo=";</script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
-<script>window.park = "eyJ1dWlkIjoiNjQzNTRiOGEtNWZlYS00NGNmLTkzZTYtOGI5NTg2MjA4NTcxIiwicGFnZV90aW1lIjoxNzExMDY4OTkxLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC4xNzEuMTIyLjM2In0K";</script>
 </html>
 </body>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+<script src="/bbgXAcBBO.js"></script>
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
@@ -3800,6 +3800,7 @@ omni.soundestlink.com$image
 @@||api-v4.trbo.com/r.php?$script,domain=blau.de
 ||fastcounter.de^$third-party
 /ajax-track-page-view/*
+||pog.com^$ping
 ||amiunique.org/analytics.js
 ||newrelic.com^$third-party
 ||streamtape.cc/stat/
@@ -4120,6 +4121,7 @@ _stat_counter.php?
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||counter.nope.dk^$third-party
 /view_stats.js.php
+||streamate.com/api/metrics
 ||amazonaws.com/prod/nobot
 ||digg.com/library/tracker.js
 ||transactionale.com^$third-party
@@ -6080,6 +6082,7 @@ _beacon?
 /client-metrics/?target
 ||hadrianpaywall.com/views
 .keap-link009.com/$image
+@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|myair.resmed.com
 /prebid.pro.js
 ||superspeedapp.com^$third-party
 ||hashcoin.co^$third-party
@@ -6243,7 +6246,6 @@ _beacon?
 ||visualwebsiteoptimizer.com/gv.gif?
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 /visitortracker.pl?
-||familydollar.com/ccstoreui/*/analytics/
 ||bigbrain.me^$third-party
 ||incomaker.com//tracking/
 /jstats.php
@@ -6567,6 +6569,7 @@ _beacon?
 ||ippen.space/idat
 /trackingp.gif
 ||mediaforgews.com^$third-party
+||chewy.com/api/event/
 /affiliate:link_visit?
 /anonymous_user_guid.gif?
 /fp2.min.js$domain=~spweb.auction.co.kr|~spweb.gmarket.co.kr
@@ -6923,7 +6926,6 @@ weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, fal
 ||gamegecko.com/gametrack?
 ||vizisense.net^$third-party
 ||stats4free.de^$third-party
-@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair.resmed.com
 ||ashleyfurniture.com/ouqLB4fq/init.js
 ||splittag.com^$third-party
 /stats?object
@@ -8226,6 +8228,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /sitetrek.js
 /wwwcount.cgi?
 ||2ememain.be/px/
+||gianteagle.com/webevents/
 @@||maxmind.com/geoip/$xmlhttprequest,domain=ibanez.com
 /get_geoip?
 ||zhihu.com/collector/
@@ -11903,6 +11906,14 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -11986,11 +11997,3 @@ _WebVitalsReporter_
 ||*.omega7o.com^
 ||*.pwjhg.com^
 ||*.yongkang6.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
