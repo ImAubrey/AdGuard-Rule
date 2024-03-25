@@ -1,4 +1,4 @@
-# Update time: 2024-03-24 20:22:25
+# Update time: 2024-03-25 08:58:20
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -913,12 +913,12 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
 <div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiZjQ2Yzc5MTQtMTk2Mi00YTgwLTg5NzAtYjQ1ZWE5YTM2MjZiIiwicGFnZV90aW1lIjoxNzExMjgyOTQ5LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI1Mi4xNTcuMTQuMTY4In0K";</script>
-<script src="/bFpSVNnbe.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
+<script>window.park = "eyJ1dWlkIjoiNDdkNjc4MjktNDI1OC00MjI1LWFhMTQtZmMwODQyYzhjMjkwIiwicGFnZV90aW1lIjoxNzExMzI4MzAzLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC43NS45NS4yMDUifQo=";</script>
 </body>
+<script src="/bMxDDbxqI.js"></script>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9263,6 +9263,7 @@ thegamer.com##+js(abort-current-script, document.createElement, admiral)
 ||olympics.com/ddna-event-router/ddna-analytics.js
 ||offermatica.com^$third-party
 ||ldlc.com/V4px/js/ldlcmachine.js
+||manomano.*/api/v1/sp-tracking/
 ||mts.ru/fe-api/logger
 ||google.com/gen_204?
 /amp-skimlinks-
@@ -11931,6 +11932,7 @@ _WebVitalsReporter_
 ||*.edo5.com^
 ||*.adm-cnzz.net^
 ||*.xlmc.sandai.net^
+||*bmwmini.tt.omtrdc.net^
 /^zjtoolbar\./
 ||*-ad.a.yximgs.com^
 /^omgmta\./
@@ -11964,6 +11966,7 @@ _WebVitalsReporter_
 ||*-ad-sign.byteimg.com^
 ||*.mmkvi.com^
 ||*.nxrhs.com^
+||*bmwofnorthamericallc.tt.omtrdc.net^
 /^adsserving\./
 ||*.qtmojo.cn^
 /^openx\./
