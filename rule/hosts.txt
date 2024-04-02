@@ -1,4 +1,4 @@
-# Update time: 2024-04-02 09:00:00
+# Update time: 2024-04-02 20:24:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -16650,6 +16650,7 @@
 0.0.0.0 p.ic.tynt.com
 0.0.0.0 cbspgatour.112.2o7.net
 0.0.0.0 s-clk.rmp.rakuten.com
+0.0.0.0 mk.limonshel.de
 0.0.0.0 realads.realmedia.com
 0.0.0.0 d12.zedo.com
 0.0.0.0 vidstat.taboola.com
