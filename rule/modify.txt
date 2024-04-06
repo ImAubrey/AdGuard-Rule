@@ -1,4 +1,4 @@
-# Update time: 2024-04-05 20:22:57
+# Update time: 2024-04-06 08:56:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -907,13 +907,13 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /AdblockMessage.
 ||paintpear.com^$third-party
 ##.svg-adblock-full
-<script>window.park = "eyJ1dWlkIjoiYmQ2NzQzMDYtN2NmMC00MzI2LTg3OTctNTM3NjMxYThhNTM5IiwicGFnZV90aW1lIjoxNzEyMzE5Nzg1LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjE0Ny4yMzAifQo=";</script>
+<script>window.park = "eyJ1dWlkIjoiMTQ2OGJjMTUtMGU3Mi00Zjg0LThkODktZGQwNjg4NmU2ZWIxIiwicGFnZV90aW1lIjoxNzEyMzY0OTY4LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC41NS4xNC4yNDYifQo=";</script>
 <div id="target" style="opacity: 0"></div>
+<script src="/bmwbKQToS.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
 </body>
-<script src="/bJZyjbMio.js"></script>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -3257,6 +3257,7 @@ _logHuman=
 /duel-analytics.js
 ||snipesusa.com/6XNN2xkk/init.js
 /track_pixel?
+||svc.us01.miro.com/api/stream/
 /comscore_pageview
 ||leserservice-tracking.de^$third-party
 @@||tags.news.com.au/prod/heartbeat/$script
@@ -6632,6 +6633,7 @@ _beacon?
 ||gsght.com/twizards.js
 /cdn-cgi/apps/head/*$script,~third-party
 ||vizzit.se^$third-party
+@@||rtoaster.jp^$script,domain=cecile.co.jp|ec-store.net|jreastmall.com|lexus.jp|melonbooks.co.jp
 /pingd?
 ||buzzfeed.de/bi/bootstrap/
 ||qbop.com^$third-party
@@ -7150,6 +7152,7 @@ weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||netagent.cz^$third-party
 ||etoro.com/tradesmonitor/
 ||wopweb.net/services/counters/
+||svc.eu01.miro.com/api/stream/
 @@||coremetrics.com*/eluminate.js
 ||idio.co^$third-party
 /keywee.js
@@ -7687,6 +7690,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||tvgids.nl/collect
 @@||geoip-db.com/jsonp/$script,third-party
 ||guarantee-cdn.com^$third-party
+||fpad.jp^$third-party
 /evergage.js
 ||netmng.com^$third-party
 /pubstats.$domain=~pubstats.dev
@@ -10997,7 +11001,6 @@ _ad_impression.
 /ping?referrer=
 ||euro-pr.eu^$third-party
 /hc/activity
-@@||rtoaster.jp^$script,domain=ec-store.net|jreastmall.com|lexus.jp|melonbooks.co.jp
 ||assets.yumpu.com/release/*/tracking.js
 ||qq.com/collect/
 /.well-known/shopify/monorail
@@ -11916,6 +11919,14 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -12001,11 +12012,3 @@ _WebVitalsReporter_
 ||*.omega7o.com^
 ||*.pwjhg.com^
 ||*.yongkang6.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
