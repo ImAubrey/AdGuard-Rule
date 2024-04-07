@@ -1,4 +1,4 @@
-# Update time: 2024-04-07 09:02:42
+# Update time: 2024-04-07 20:21:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -908,12 +908,12 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
 <div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiZTc4ZWNkZDUtNWViNC00YjNmLTk3ZGEtMDc4YjdhYWMxNTA4IiwicGFnZV90aW1lIjoxNzEyNDUxNzY2LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjE0Ny4yMjkifQo=";</script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
-<script src="/bYNoRzriy.js"></script>
 </html>
+<script src="/bWQSLejGH.js"></script>
 </body>
+<script>window.park = "eyJ1dWlkIjoiMzg4ZDUyM2YtYzdiOS00M2M5LWFjMWUtMjBkMWRlMTVmOTc1IiwicGFnZV90aW1lIjoxNzEyNDkyNDk1LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC40OS41NS42NyJ9Cg==";</script>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -982,6 +982,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||infinity-tracking.com^$third-party
 ||lugansk-info.ru^$third-party
 ||ping-admin.ru^$third-party
+@@||public.fbot.me/events/$domain=casper.com
 ||trrsf.com/metrics/
 ||ebayrtm.com/rtm?RtmCmd&a=img&$image
 ||accuterm.com/data/stat.js
@@ -2227,6 +2228,7 @@ _logHuman=
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 /addpageview/*
 ||cbtrk.net^$third-party
+||public.fbot.me/track/
 ||counter.gd^$third-party
 ||vinlens.com^$third-party
 ||taxel.jp^$third-party
@@ -6450,6 +6452,7 @@ _beacon?
 /adobe/app-measurement.
 ||gecko.space/count.js
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
+@@||analytics.casper.com/gtm.js$~third-party
 ||hitwake.com^$third-party
 ||intelliad.de^$third-party
 ||live.mrf.io/statics/marfeel/gardac-sync.js
@@ -10022,6 +10025,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||gamivo.com/tcllc?
 /om.gif?
 ||cuberoot.co^$third-party
+@@||analytics.casper.com/gtag/js$~third-party
 ||submitnet.net^$third-party
 ||push7.jp^$third-party
 /adb.policy.js
@@ -10695,6 +10699,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 /moksa.js
 ||spaziogames.it/ajax/player_impression.ashx?
 ||lomadee.com^$third-party
+||honeycomb.io/1/events/
 /utag.loader.js
 /prod/ncg/*
 ||ibpxl.net^$third-party
@@ -11925,14 +11930,6 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -12018,3 +12015,11 @@ _WebVitalsReporter_
 ||*.omega7o.com^
 ||*.pwjhg.com^
 ||*.yongkang6.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
