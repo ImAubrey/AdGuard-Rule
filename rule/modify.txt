@@ -1,4 +1,4 @@
-# Update time: 2024-04-08 20:23:50
+# Update time: 2024-04-09 08:57:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -130,6 +130,7 @@ debrideurstream.fr#@##pubdirecte
 telesputnik.ru##.adbPopup
 ||soapsmoke.com^$third-party
 ||wellgroomedhydrant.com^$third-party
+ftuapps.dev##[style*="cursor: no-drop;"]
 ##.adBlockNotification
 forum.pcastuces.com##div > [src] + [id] + [class][style^="display: block;"]
 pythonworld.ru##.pythonworld-contributor
@@ -908,8 +909,8 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
 <div id="target" style="opacity: 0"></div>
-<script src="/bHVYOZNUn.js"></script>
-<script>window.park = "eyJ1dWlkIjoiOGM3MWMzMTUtNjZhOS00MGNkLTlhOTgtNGNlMmZjYzFjNDE1IiwicGFnZV90aW1lIjoxNzEyNTc5MDMzLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI3NC4yNDkuMTMuMTI4In0K";</script>
+<script>window.park = "eyJ1dWlkIjoiNGUzYTM0ZjEtMzFlZC00ZWNkLTk0ZjgtZGQzMjlhMjFiMmZlIiwicGFnZV90aW1lIjoxNzEyNjI0MjczLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI3NC4yNDkuMTQuMjEyIn0K";</script>
+<script src="/bnsXuLepq.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
@@ -1167,6 +1168,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||kxcdn.com/assets/js/script.js
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
 ||kupona.de^$third-party
+nicovideo.jp##+js(prevent-fetch, stella)
 ||allanalpass.com/track/
 ||whitepixel.com^$third-party
 @@||komplett.no/gtm.js$script,~third-party
@@ -7061,6 +7063,7 @@ weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||hubspot.com/tracking/
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
 /id?d_visid_
+||nvapi.nicovideo.jp/v1/bandit-machine/
 /madAnalytics.js
 /tc_analytics.js
 /jserrLog?
@@ -10163,6 +10166,7 @@ _event_tracking?
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
 /log204?
 /loggingService.js
+||nicoad.nicovideo.jp/*/instream/tracking/
 @@||adobedtm.com/launch-$script,xmlhttprequest
 ||gm99.com^$third-party
 ||hsforms.com/embed/v3/counters.gif
@@ -10506,6 +10510,7 @@ img.promio-connect.com$image
 ||xn--e1aaipcdgnfsn.su^*/counter.php
 ||pstatp.com^*/raven.js
 /r.rnc?
+||mylocal.co.uk/api/trpc/analytics.
 /mtracking.gif?
 /statcollector.
 ||twitter.com/oct.js
@@ -11745,6 +11750,7 @@ _WebVitalsReporter_
 ||evorra.net^$third-party
 ||lokalleads-cci.com^$third-party
 ||metabroadcast.com^*/log?
+||nicolive.cdn.nimg.jp/relive/sp/browser-logs.
 ||revolvermaps.com^$third-party
 /__wsm.gif
 ||d2-apps.net^$third-party
@@ -11930,6 +11936,14 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -12015,11 +12029,3 @@ _WebVitalsReporter_
 ||*.omega7o.com^
 ||*.pwjhg.com^
 ||*.yongkang6.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
