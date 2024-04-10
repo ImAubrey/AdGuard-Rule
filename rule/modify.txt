@@ -1,4 +1,4 @@
-# Update time: 2024-04-09 20:24:30
+# Update time: 2024-04-10 08:57:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -909,11 +909,11 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
 <div id="target" style="opacity: 0"></div>
-<script src="/bgbSiiJwP.js"></script>
+<script>window.park = "eyJ1dWlkIjoiZTZlOTYxYzgtYjc4NS00MTYyLWI4ZjItODg1NWU0OGQ0ODczIiwicGFnZV90aW1lIjoxNzEyNzEwNjMxLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI0MC43Ni4yNTQuMTI5In0K";</script>
+<script src="/bMYwBfuwp.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
-<script>window.park = "eyJ1dWlkIjoiZTY2NjQyZjMtZjY2OS00OTc3LWIxMGItNjAwODVkMDViMTQ2IiwicGFnZV90aW1lIjoxNzEyNjY1NDczLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC4xNzIuMjQuMjA5In0K";</script>
 </body>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
@@ -1791,6 +1791,7 @@ _logHuman=
 ||link.indiegogo.com/img/
 ||fastanalytic.com^$third-party
 /ss/o/*.gif
+/tr/lp/intg.js
 /views_tracking/*
 ||privymktg.com^$third-party
 ||phone-analytics.com^$third-party
@@ -3916,7 +3917,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||dmcdn.net/behavior/
 @@||next.co.uk/static-content/gtm-sdk/gtm.js$~third-party
 ||capture.trackjs.com^$third-party
-||getpublica.com^$third-party
 ||decideinteractive.com^$third-party
 ||rutarget.ru^$third-party
 ||threatbook.cn^$third-party
@@ -7419,6 +7419,7 @@ weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 /v1/pixel.js
 ||trafficengine.net^$third-party
 ||wmcdp.io^$third-party
+||netflix.com/ichnaea/log
 /tealium-utag-set.js
 ||snoobi.com^$third-party
 ||ranker.com/api/px
@@ -11938,14 +11939,6 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -12031,3 +12024,11 @@ _WebVitalsReporter_
 ||*.omega7o.com^
 ||*.pwjhg.com^
 ||*.yongkang6.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
