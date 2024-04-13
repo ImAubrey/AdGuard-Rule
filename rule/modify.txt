@@ -1,4 +1,4 @@
-# Update time: 2024-04-13 08:48:28
+# Update time: 2024-04-13 20:18:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -406,6 +406,7 @@ ivi.ru##.ivi-footer ~ div[class] > style + div[class]
 fctvhd.com##.mw-adblock
 megogo.net##[data-widget*="adblockOverlayEnabled"] .notifications
 ||generalprose.com^$third-party
+photofilters.com##.adBlocked
 byzoo.org,videobug.net##div[style^="position: absolute; width: 300px;"]
 ||bleachmx.fr/wp-content/plugins/yeptmixnsykgrb/bjns-fcknj.js
 ##.BrokenAd
@@ -909,12 +910,12 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
 <div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiMWZhYmI2ODAtYzM4NS00ZWQ3LWFlNzUtYjA5NDQwODFiMjFhIiwicGFnZV90aW1lIjoxNzEyOTY5MzEyLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI0LjIyNy4xMTQuMTgxIn0K";</script>
-<script src="/bYvFtiBDN.js"></script>
+<script>window.park = "eyJ1dWlkIjoiODFjOWRmYmItZGZjNS00ODMxLWIzM2UtMjY3NzRhYzU5Mzk5IiwicGFnZV90aW1lIjoxNzEzMDEwNzQwLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI1Mi4yMzguMjkuMTk4In0K";</script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
 </body>
+<script src="/buMvWnuVf.js"></script>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8520,6 +8521,7 @@ $ping,third-party
 ||awfonts.com^$script,third-party
 /fp/top_fp.
 ||yektanet.com^$third-party
+||twivideo.net/templates/ajax_link_click.php
 ||trbo.com^$third-party
 ||weather.ca/counter.gif?
 /cgi-bin/ivw-ssl/*
