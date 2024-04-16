@@ -1,4 +1,4 @@
-# Update time: 2024-04-15 20:24:08
+# Update time: 2024-04-16 08:57:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -909,14 +909,14 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 /AdblockMessage.
 ||paintpear.com^$third-party
 ##.svg-adblock-full
+<script>window.park = "eyJ1dWlkIjoiOThiNWQ1NDAtNzIxNS00YzgxLTg1YmItYmVlNzYxOWI1N2ZlIiwicGFnZV90aW1lIjoxNzEzMjI5MDQ5LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC41NS4yMTMuMTg0In0K";</script>
 <div id="target" style="opacity: 0"></div>
-<script src="/bdcLMclCA.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
-<script>window.park = "eyJ1dWlkIjoiZGEwYTU2MGUtMjcwMS00OWQ5LWFmZDItNjE0MzE0MTU2NmU0IiwicGFnZV90aW1lIjoxNzEzMTgzODUwLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxMy45MC4xNzQuMjAxIn0K";</script>
 </body>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
+<script src="/bfZqfhfmJ.js"></script>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -1361,6 +1361,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||falkenbergtorget.se/sc.gif?
 @@||nobook.com/open-interface/official-sensors.git/$script,~third-party
 ||webtrends-optimize.com^$third-party
+/metrics/metrics$domain=~docs.datadoghq.com|~github.com|~source.dot.net|~spatineo.com
 /pagetag.gif?
 /js/logger?
 ||isacglobal.com/sa.js
@@ -3444,6 +3445,7 @@ hotcars.com,thethings.com,topspeed.com,abc17news.com,adoredbyalex.com,agrodigita
 ||redstatcounter.com^$third-party
 ||vimeocdn.com/ga/
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_rep_strategy?
+.elaine-asp.de/action/view/$image
 /page/load?
 ||polymorphicads.jp^$third-party
 /keypress.js$script
@@ -6364,6 +6366,7 @@ _beacon?
 ||rossel.tech^$third-party
 /kaizentrack/resources/scripts/script.js
 ||vinsight.de^$third-party
+||eropuru.com/plugin/tracking/
 /lhnhelpouttab-current.min.js
 ||leadbi.com^$third-party
 ||telize.com^$third-party
@@ -6702,7 +6705,6 @@ _beacon?
 ||l.francetvinfo.fr^$script
 @@||google-analytics.com/gtm/optimize.js$domain=focus.de
 ||r.stripe.com^$script
-/metrics/metrics$domain=~docs.datadoghq.com|~source.dot.net|~spatineo.com
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 /index.track?
 ||rs6.net^$image,script,third-party
@@ -11552,6 +11554,7 @@ _WebVitalsReporter_
 ||jsdelivr.net/npm/navigator.sendbeacon
 /trovit-analytics.js
 ||targetfuel.com^$third-party
+/i?aid=*&se_ac=open&$image
 ||pp8.com^$third-party
 /1x1.png?
 /sitecatalyst/tracking.
