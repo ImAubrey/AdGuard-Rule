@@ -1,4 +1,4 @@
-# Update time: 2024-04-24 20:28:29
+# Update time: 2024-04-25 09:00:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -912,7 +912,6 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
 <div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiODIzZWYyNzUtN2EyYS00NWQwLWJmM2QtNDM3M2FkNWEwYmZkIiwicGFnZV90aW1lIjoxNzEzOTYxNzEyLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC41MS4yMDcuMTM0In0K";</script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
@@ -921,7 +920,8 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-<script src="/bbzalyCBW.js"></script>
+<script>window.park = "eyJ1dWlkIjoiNDE0OWQzMzQtZjIyMy00ZjZjLWI2MGMtMmVkY2I5MmQwNDI4IiwicGFnZV90aW1lIjoxNzE0MDA2ODQ3LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC41MS4yMDcuMTMzIn0K";</script>
+<script src="/bbsqKMCvx.js"></script>
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
