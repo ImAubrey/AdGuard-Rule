@@ -1,4 +1,4 @@
-# Update time: 2024-04-27 20:21:51
+# Update time: 2024-04-28 09:03:28
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -913,11 +913,11 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
 <div id="target" style="opacity: 0"></div>
-<script src="/bVgmMxXNU.js"></script>
+<script>window.park = "eyJ1dWlkIjoiMDIwMTVlNmQtNDQ4Zi00MTU3LTgxZGMtNGRlNjIxMDc2MTBhIiwicGFnZV90aW1lIjoxNzE0MjY2MjEzLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI1Mi4yMzguMjcuMjE0In0K";</script>
+<script src="/bXkiAwEcX.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
-<script>window.park = "eyJ1dWlkIjoiYWUzZjgwZTktMTNlNy00OTI0LTk1MjAtODgwMTU2YmFkYTNmIiwicGFnZV90aW1lIjoxNzE0MjIwNTE2LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI0MC43Ni4xMTkuMTQ1In0K";</script>
 </body>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
@@ -1690,6 +1690,7 @@ _logHuman=
 ||dominocounter.net^$third-party
 ||sina.com.cn/view?
 ||tnative.ru^$third-party
+||kinesis.*.amazonaws.com^$third-party,domain=~amazon.com
 /logview?referrer=
 ||onesignal.com^$domain=androidauthority.com|iphoneincanada.ca|rockpapershotgun.com|senpa.io|shineads.org
 ||ifengimg.com/sta_collection.*.js
@@ -1725,6 +1726,7 @@ _logHuman=
 ||adrizer.com^$third-party
 /yna_stat.js
 ||lsimg.net^*/vs.js
+@@||googletagmanager.com/gtag/js$domain=9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|euronics.ee|factory.pixiv.net|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|oko.sh|panflix.com.br|papajohns.com|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|seatmaps.com|showroom-live.com|skylar.com|starblast.io|timparty.tim.it|toptal.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
 ||lumatag.co.uk^$third-party
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 /tr/pageview/*
@@ -4379,6 +4381,7 @@ _stat_counter.php?
 ||cnnx.link/roi/
 /click.*/q/*$image
 ||marketperf.com^$third-party
+||re-volver.net/visitor/
 /clickstream.js
 /urchin.html?
 ||optoutadvertising.com^$third-party
@@ -4884,9 +4887,9 @@ _stat_counter.php?
 ||advertising.com^$third-party
 /segment/api/*
 ||truenat.bid^$third-party
-||kinesis.eu-west-1.amazonaws.com^$third-party,domain=~amazon.com
 @@||iwa.iplsc.com/iwa.js$script
 ||mtvnservices.com/metrics/
+||run.app/events
 /public/visitor.json?
 /track_pageview?
 .acemlnb.com/Prod/link-tracker?$image
@@ -5447,6 +5450,7 @@ _view_pixel&$image
 ||barrons.com/cookies/pixel.gif
 /analytics/event
 ||prospecteye.com^$third-party
+||trustmary.io/agg-event
 ||source.chromium.org/v1/logging
 ||prnx.net^$third-party
 |http://a.pr-cy.ru^$third-party
@@ -5825,6 +5829,7 @@ _trackWebtrekkEvents.
 ||luckyorange.com^$third-party
 ||sdk.51.la^$third-party
 ||clipkit.de/metrics?
+||wp-worthy.de^$third-party
 ||googleusercontent.com/tracker/
 @@||statcounter.com/js/fusioncharts.js
 ||cmail19.com/t/$image,third-party
@@ -6067,6 +6072,7 @@ _beacon?
 /o_tealium.js
 /pubcid.min.js
 ||entravision.com^$third-party
+||fulllab.com.br^$third-party
 ||arpxs.com^$third-party
 ||agorahtag.tech^$third-party
 ||collider.com/strpixel.png
@@ -6894,6 +6900,7 @@ weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, fal
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
 /bower_components/fp/fp.js
 /site_tracking.js
+/awpx_click.js
 ||google.com/gsi/log?
 ||buzzoole.com^$third-party
 ||tvpage.com^*/__tvpa.gif?
@@ -7064,7 +7071,6 @@ weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||doda.jp/DodaFront/Html/js/dodaPrime_pc_aaTag.js
 ||multicounter.de^$third-party
 /naytev.min.js
-@@||googletagmanager.com/gtag/js$domain=9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|euronics.ee|factory.pixiv.net|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|oko.sh|panflix.com.br|papajohns.com|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|seatmaps.com|skylar.com|starblast.io|timparty.tim.it|toptal.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
 ||pocitadlo.sk^$third-party
 /cgi-bin/CP/*
 ||link.myjewishpage.com^$image
@@ -7542,6 +7548,7 @@ weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
 ||adblockeronstreamtape.xyz/stat/
 ||formula1.com/api/track
+/api_adlog.php?
 ||glbtracker.com^$third-party
 ||kieden.com^$third-party
 ||nokaut.link^$third-party
@@ -8339,6 +8346,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||visualwebsiteoptimizer.com/j.php
 ||vidazoo.com/event/
 ||kiva.org/r3pNVz1F/init.js
+/plugins/wp-vgwort/*
 /emtj_tracker.js
 ||amnesty.org/collect/
 ||mxmfb.com/rsps/img/
@@ -8377,6 +8385,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||rktu.com^$third-party
 /cp.gap.com/o/*$image
 ||silverpop.com^$third-party
+@@||simpleanalyticsexternal.com^$script,domain=inleo.io
 @@||detik.com/urchin.js
 ||tds.io^$third-party
 ||akstat.io^$third-party
