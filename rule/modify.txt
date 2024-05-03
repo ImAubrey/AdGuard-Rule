@@ -1,4 +1,4 @@
-# Update time: 2024-05-02 20:25:23
+# Update time: 2024-05-03 09:01:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -913,12 +913,12 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
 <div id="target" style="opacity: 0"></div>
-<script src="/bgEHmNPGn.js"></script>
+<script>window.park = "eyJ1dWlkIjoiOTQzZmE5YmMtMzU0MS00NWE0LWJlM2QtZTc5OTQxODNjMGFkIiwicGFnZV90aW1lIjoxNzE0Njk4MTEzLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC4xMDkuMzkuMTcifQo=";</script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
+<script src="/bmuLsNRwY.js"></script>
 </body>
-<script>window.park = "eyJ1dWlkIjoiYjUyNTRlYmYtZjU3MS00NTNhLTlhN2MtMjBlNjQ3ZGQwZjg0IiwicGFnZV90aW1lIjoxNzE0NjUyNzI2LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxMy45MC4xNzQuMTk0In0K";</script>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -1798,6 +1798,7 @@ _logHuman=
 /tr/lp/intg.js
 /views_tracking/*
 ||privymktg.com^$third-party
+@@||google-analytics.com/ga.js$domain=meritonsuites.com.au|realpage.com
 ||phone-analytics.com^$third-party
 ||adheart.de^$third-party
 ||bcbits.com/bundle/bundle/1/impl-$domain=bandcamp.com
@@ -2344,6 +2345,7 @@ _logHuman=
 ||scribol.com/traffix/widget_tracker/
 ||percentmobile.com^$third-party
 ||leafmedia.io^$third-party
+||cloudfunctions.net/sendwebpush-analytics
 ||citypaketet.se^$third-party
 /err/js/?url=
 ||goodcounter.org^$third-party
@@ -4537,6 +4539,7 @@ _stat_counter.php?
 ||protectcrev.com^$third-party
 ://www.vinted.*/relay/events
 /dot.asp?
+||passeidireto.com/pd-tracking-lib/
 ||projectsunblock.com^$third-party
 ||gofundme.com/track
 /stats?event=
@@ -6784,7 +6787,6 @@ weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, fal
 ||count.fr^$third-party
 ||contentdriver.com/api/impression
 ||subscribe.ru/1.gif/$image
-@@||google-analytics.com/ga.js$domain=meritonsuites.com.au
 /roi_tracker.min.js
 /analyticstracking.js
 ||iheart.com/events
@@ -7694,6 +7696,7 @@ abema.tv##+js(rmnt, script, NREUM)
 @@||tagcommander.com^*/tc_$script
 /analytics-minimal-v4.js
 ||ipinfo.io^$third-party
+@@||tm.jsuol.com.br/modules/external/admanager/clickjogos_ads.js$script,domain=clickjogos.com.br
 /stats/collect/*
 ||freshplum.com^$third-party
 /log/client/messages
@@ -7702,6 +7705,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||secureserver.net/t/
 ||gumtree.com.au/tracking/
 /pageTag?
+||gamedistribution.com/event?
 ||raindrop.io/pb/api/event
 /_/lite/performance/*
 ||departapp.com^$third-party
@@ -9588,7 +9592,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /pixel/view?
 ||upstats.ru^$third-party
 /rrweb-script.js
-||premiumads.com.br^$third-party
 @@||signalshares.com/webtrends.min.js$script,~third-party
 ||doppiocdn.com/healthcheck
 ||ebaystatic.com/rs/v/dxtuvtkk2q3hpkc1xveeo13iaek.js
