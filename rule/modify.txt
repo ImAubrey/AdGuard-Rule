@@ -1,4 +1,4 @@
-# Update time: 2024-05-04 20:22:12
+# Update time: 2024-05-05 09:03:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -913,8 +913,8 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
 <div id="target" style="opacity: 0"></div>
-<script src="/beaZAryOV.js"></script>
-<script>window.park = "eyJ1dWlkIjoiNjY2N2M4ODktN2EyZC00ZGY0LTg3YzQtY2VkYTg2ZWNlOGY4IiwicGFnZV90aW1lIjoxNzE0ODI1MzMzLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjEyMi4xMDQifQo=";</script>
+<script>window.park = "eyJ1dWlkIjoiNGQzM2E5MjQtMDczYS00ZWI2LWEwNDYtYTNhYzcwNzJmNGM0IiwicGFnZV90aW1lIjoxNzE0ODcxMDE3LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC4xNzEuNzUuMTAxIn0K";</script>
+<script src="/bNmIptWum.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
@@ -10046,6 +10046,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||reflow.tv/pixels/
 ||tijd.be/fb/?
 /log/log-event-
+||a.flux.jp/analytics.collect.v1.CollectService/Collect
 ||2gis.ru/_/metrics
 ||webtutoriaux.com/services/compteur-visiteurs/index.php?$third-party
 ||abtshield.com^$third-party
