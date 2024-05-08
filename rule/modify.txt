@@ -1,4 +1,4 @@
-# Update time: 2024-05-08 08:49:57
+# Update time: 2024-05-08 20:25:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -913,7 +913,8 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 ||paintpear.com^$third-party
 ##.svg-adblock-full
 <div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiMTM4NzY3MjEtMjUzYS00NGMyLTliMTQtMmUxOGRlYWIwOWQ4IiwicGFnZV90aW1lIjoxNzE1MTI5NDAwLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC4xNzEuNzguMTQ5In0K";</script>
+<script>window.park = "eyJ1dWlkIjoiYWFiMjQzMTMtNmY0My00NmFjLWI4ZmMtZTU2ODJkYmMxODExIiwicGFnZV90aW1lIjoxNzE1MTcxMTUxLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC41NS4xNC4yNDgifQo=";</script>
+<script src="/bZGWfTRSv.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
@@ -921,7 +922,6 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="/bZPjWTmXg.js"></script>
     <meta charset="utf-8">
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
@@ -10409,7 +10409,6 @@ img.promio-connect.com$image
 ||sync.outbrain.com^$third-party
 ||ebis.ne.jp^$third-party
 ||pubexchange.com^$third-party
-||exitgames.com/photon/m/?ping
 /vissense.js
 ||backlink-test.de^$third-party
 /google_analytics3_v2.js
@@ -10597,6 +10596,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 .php?tracking=
 /histats.js
 ||letsdoeit.com/tracking/
+||proporn.com/ajax/log/
 ||advangelists.com^$third-party
 ||r-ad.ne.jp^$script,third-party
 ||slgnt.us/track

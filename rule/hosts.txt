@@ -1,4 +1,4 @@
-# Update time: 2024-05-08 08:49:57
+# Update time: 2024-05-08 20:25:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8801,6 +8801,7 @@
 0.0.0.0 unimed.oewabox.at
 0.0.0.0 adserver.sandbox.cxad.cxense.com
 0.0.0.0 bestsushiever.com
+0.0.0.0 e.email.simon.com
 0.0.0.0 augi.fr
 0.0.0.0 www.lansrv050.com
 0.0.0.0 ad.zodera.hu
