@@ -1,4 +1,4 @@
-# Update time: 2024-05-10 20:24:53
+# Update time: 2024-05-11 08:59:41
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12838,6 +12838,7 @@
 0.0.0.0 sitestats.tiscali.co.uk
 0.0.0.0 sso.canada.com
 0.0.0.0 karinart.de
+0.0.0.0 recover-subscription.com
 0.0.0.0 service.maxymiser.net
 0.0.0.0 dctracking.com
 0.0.0.0 sybonymo.fr
