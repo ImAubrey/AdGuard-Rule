@@ -1,4 +1,4 @@
-# Update time: 2024-05-14 09:00:52
+# Update time: 2024-05-14 20:26:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2141,13 +2141,13 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 /AdblockMessage.
 ||compiledoctor.com^$third-party
 ||markedcrayon.com^$third-party
+<script src="/buKTixdls.js"></script>
 <div id="target" style="opacity: 0"></div>
+<script>window.park = "eyJ1dWlkIjoiMjAwZjQyNWUtZDk2Zi00MmJmLTkzNDgtMDA1Y2UyNGViYzRhIiwicGFnZV90aW1lIjoxNzE1Njg5NTc5LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMjAwLjE5OS4xODQifQo=";</script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
-<script>window.park = "eyJ1dWlkIjoiNDYzN2UyM2EtYzNlZi00MGJhLTkwNGUtNmMxNzg2YWI4Y2IxIiwicGFnZV90aW1lIjoxNzE1NjQ4NDU1LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjE1NC4xNzgifQo=";</script>
 </html>
 </body>
-<script src="/bKRlmmHvs.js"></script>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9627,7 +9627,6 @@ abema.tv##+js(rmnt, script, NREUM)
 ||newsdeutschland.com/RPC.php
 ||raiplay.it/tracking/
 ||pxchk.net/b/s
-||zendesk.com/frontendevents/pv?
 ||mapcarta.com/logs
 ||contentsquare.net^$third-party
 ||revive-chat.io/js/tracking-min.js
@@ -10518,6 +10517,7 @@ thegamer.com##+js(abort-current-script, document.createElement, admiral)
 /xtcore.js
 ||mmpool.org^$third-party
 ||cultofmac.com/djrxqhzkbsgf.js
+anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||leadsrx.com^$third-party
 /kaiseki/script.php
 @@||toplay.biz/log_event$~third-party,xmlhttprequest
@@ -12918,6 +12918,7 @@ _WebVitalsReporter_
 /analytics/track_event/*
 ###cxense-recs-in-article
 ||instana.io^$third-party
+||zendesk.com/frontendevents/$xmlhttprequest
 ||rtl.hu/_stat/
 ||fotostrana.ru/start/
 ||sentry.io^$third-party
