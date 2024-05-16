@@ -1,4 +1,4 @@
-# Update time: 2024-05-15 20:27:19
+# Update time: 2024-05-16 09:00:57
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,6 +47,17 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+<script>window.park = "eyJ1dWlkIjoiMWU0NDQwNDctYTg2Yy00NmZhLWI4NmEtODIyMmU1YTkzMTg2IiwicGFnZV90aW1lIjoxNzE1ODIxMjYwLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjEwNy4yNDAifQo=";</script>
+<div id="target" style="opacity: 0"></div>
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
+</head>
+</html>
+</body>
+    <link rel="preconnect" href="https://www.google.com" crossorigin>
+<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+<script src="/bQBwSruac.js"></script>
 ##.ad-blocking-advisor-wrapper
 ||boilingumbrella.com^$third-party
 ||boringcoat.com^$third-party
@@ -2141,17 +2152,6 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 /AdblockMessage.
 ||compiledoctor.com^$third-party
 ||markedcrayon.com^$third-party
-<div id="target" style="opacity: 0"></div>
-<script src="/bUrLsunNw.js"></script>
-    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
-</head>
-</html>
-</body>
-    <link rel="preconnect" href="https://www.google.com" crossorigin>
-<script>window.park = "eyJ1dWlkIjoiY2RhYzQxYzItNTdlMC00OWI0LWI5N2MtNzNkNWVlZDY1ZWQyIiwicGFnZV90aW1lIjoxNzE1Nzc2MDQyLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC4xMDkuMzkuMjIifQo=";</script>
-<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
@@ -3719,6 +3719,7 @@ _logHuman=
 ||roosterfirework.com^$third-party
 ||smtrk.net^$third-party
 ||hyteck.de/count.js
+||counter-zaehler.de^$third-party
 @@||adobetag.com/d2/telecomitalia/live/Aggregato119TIM.js$domain=tim.it
 /pvcounter.js
 ||fensi.plus^*/tracking/
@@ -4039,6 +4040,7 @@ _logHuman=
 ||melhorplano.net/scripts/tracker/
 /common/tracker.js
 /eumcollector/beacons/*
+||fast-counter.net^$third-party
 ||c.hit.ua^$third-party
 ||force24.co.uk^$third-party
 ||leadliaison.com/tracking_engine/
@@ -13235,14 +13237,6 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -13328,3 +13322,11 @@ _WebVitalsReporter_
 ||*.omega7o.com^
 ||*.pwjhg.com^
 ||*.yongkang6.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
