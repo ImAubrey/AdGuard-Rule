@@ -1,4 +1,4 @@
-# Update time: 2024-05-17 20:25:10
+# Update time: 2024-05-18 08:59:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2141,14 +2141,14 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 /AdblockMessage.
 ||compiledoctor.com^$third-party
 ||markedcrayon.com^$third-party
-<script src="/bWDyNkAvg.js"></script>
 <div id="target" style="opacity: 0"></div>
+<script>window.park = "eyJ1dWlkIjoiZDY5NTU0YzAtYWJmZC00M2E4LTk5MzctZDVmM2JhMWQxOTA0IiwicGFnZV90aW1lIjoxNzE1OTkzOTk5LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTkwLjExMS4yNTMifQo=";</script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
 </body>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
-<script>window.park = "eyJ1dWlkIjoiZTNmYTk3NTQtMGYyNC00ZjFjLThhNGYtNWZkNzRiNTZiODU4IiwicGFnZV90aW1lIjoxNzE1OTQ4NzE2LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC4xNjEuNzcuMTk2In0K";</script>
+<script src="/bxatbiTQe.js"></script>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -12710,7 +12710,6 @@ _WebVitalsReporter_
 /fp/check.js
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
 ||b1js.com^$third-party
-||x.com/i/csp_report?
 ||netdebit-counter.de^$third-party
 .keap-link010.com/$image
 ||inmoment.com/intercept/$third-party
