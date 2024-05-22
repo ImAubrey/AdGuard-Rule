@@ -1,4 +1,4 @@
-# Update time: 2024-05-22 09:01:19
+# Update time: 2024-05-22 20:26:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2143,13 +2143,13 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 ||compiledoctor.com^$third-party
 ||markedcrayon.com^$third-party
 <div id="target" style="opacity: 0"></div>
-<script src="/bEAkbrVGM.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
-<script>window.park = "eyJ1dWlkIjoiYTUzMWNhMTAtYmM3OC00NTFmLTg2MzMtMjgyMTlkNmMxZjBiIiwicGFnZV90aW1lIjoxNzE2MzM5NjgxLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC41NS4xNC4yNDAifQo=";</script>
+<script src="/bBRFDnCMr.js"></script>
 </body>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
+<script>window.park = "eyJ1dWlkIjoiYTBiMmYzYTQtNGY4ZC00MTE5LThjMjgtNWQzNjU0Y2IyN2E5IiwicGFnZV90aW1lIjoxNzE2MzgwODA5LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjE1NS4xMDIifQo=";</script>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -3813,6 +3813,7 @@ _logHuman=
 ||wetpaint.com^*/track?
 /rivraddon.js
 ||m.diyibanzhu.buzz/17mb/script/tj.js
+||nid.thetimes.com/prod/sp/nid_sp.js
 @@||plugins.matomo.org^$image,~third-party
 /htdocs/js/admiral/init.js
 ||supportxmr.com^$third-party
@@ -7353,6 +7354,7 @@ _beacon?
 ||hadrianpaywall.com/views
 .keap-link009.com/$image
 @@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|myair.resmed.com
+||ssc.shopstyle.com/collective.min.js
 /prebid.pro.js
 ||superspeedapp.com^$third-party
 ||hashcoin.co^$third-party
@@ -7767,7 +7769,6 @@ _beacon?
 ||tns-gallup.dk^$third-party
 ||strtpe.link/stat/
 ||whoson.com/poll.gif
-||startpage.com/sp/dplpxs?
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 ||serv-ac.com^$third-party
 ||f92j5.com^$third-party
@@ -7884,6 +7885,7 @@ _beacon?
 /fprnt.min.js
 ||rampmetrics.com^$third-party
 /hit?aff_id=$xmlhttprequest
+247sports.com,androidpolice.com,bringmethenews.com,mensjournal.com,arstechnica.com,audizine.com,blackenterprise.com,boston.com,britannica.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,usatoday.com,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acis, document.createElement, admiral)
 /webtracking/*$~subdocument,domain=~wwwapps.ups.com
 ||sitetag.us^$third-party
 ||204st.us^$third-party
@@ -9732,6 +9734,7 @@ $ping,third-party
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 ||realist.gen.tr^$third-party
 /pixel_tracking.js
+||startpage.com/sp/sxpra?
 ||wp.com/wp-content/js/bilmur.min.js
 .keap-link003.com/$image
 ||thehackernews.com/zscripts/
@@ -11057,7 +11060,6 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||mlm.de/pagerank-ranking/
 ||tapfiliate.com^$third-party
 ||muenchener-stadtplan.com/t.gif
-||startpage.com/sp/elp
 /fps/check.php
 ||auction.co.kr/montelena.js
 ||adsmediator.com^$third-party
@@ -11423,7 +11425,6 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||ip2c.org^$third-party
 /referral-tracking.min.js
 _event_tracking?
-247sports.com,androidpolice.com,bringmethenews.com,mensjournal.com,arstechnica.com,audiotools.pro,audizine.com,blackenterprise.com,boston.com,britannica.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,download.mokeedev.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,pastes.io,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,usatoday.com,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acis, document.createElement, admiral)
 ||medals.bizrate.com^$third-party
 ||cnobi.jp^*/js/imp.
 /bluekai.min.js
@@ -13071,6 +13072,7 @@ _WebVitalsReporter_
 ||revolvermaps.com^$third-party
 /__wsm.gif
 ||d2-apps.net^$third-party
+||startpage.com/sp/qi
 ||clarium.io^$third-party
 ||cp.finanzfrage.net/stats
 ||performtracking.com^$third-party
@@ -13257,6 +13259,14 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -13342,11 +13352,3 @@ _WebVitalsReporter_
 ||*.omega7o.com^
 ||*.pwjhg.com^
 ||*.yongkang6.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
