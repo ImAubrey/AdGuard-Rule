@@ -1,4 +1,4 @@
-# Update time: 2024-05-24 09:01:24
+# Update time: 2024-05-24 20:25:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2143,8 +2143,7 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 ||compiledoctor.com^$third-party
 ||markedcrayon.com^$third-party
 <div id="target" style="opacity: 0"></div>
-<script src="/bqtGwTmRI.js"></script>
-<script>window.park = "eyJ1dWlkIjoiY2YxMTdkZDItNWEyYi00NjAwLThlNjMtOTBmOTQ0MTdlMThlIiwicGFnZV90aW1lIjoxNzE2NTEyNDg3LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI0MC43Ni4xMTkuMTc1In0K";</script>
+<script src="/berXLjPaJ.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
@@ -2152,6 +2151,7 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>window.park = "eyJ1dWlkIjoiNzY5NzRmYmItM2IyNS00NDE5LTkxOGItYzQ2YzYxMTU4N2NhIiwicGFnZV90aW1lIjoxNzE2NTUzNTM1LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjkxLjE2OSJ9Cg==";</script>
     <meta charset="utf-8">
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
@@ -3169,6 +3169,7 @@ _logHuman=
 ||zineone.com^*/event
 ||magnetmail1.net^$third-party
 ||your-analytics.org^$third-party
+.com/track?v=
 ||addwish.com^$third-party
 ||measure.ly^$third-party
 ||gazzettaobjects.it^*/tracking/
@@ -3854,6 +3855,7 @@ _logHuman=
 /bf.gif?ac=
 ||99stats.com^$third-party
 ||adalyser.com^$third-party
+destructoid.com,lehighvalleylive.com,lonestarlive.com,thestreet.com,nypost.com,variety.com,cbsnews.com,thenerdstash.com,billboard.com,gamerant.com,givemesport.com,qtoptens.com,brobible.com,mensjournal.com,dualshockers.com,si.com,androidpolice.com,makeuseof.com,cbr.com,collider.com,thegamer.com,simpleflying.com,stealthoptional.com,xda-developers.com,howtogeek.com,screenrant.com##+js(abort-on-property-read, googletag)
 ||rambler.ru/counter.js
 ||mvilivestats.com^$third-party
 ||space-link.de^$third-party
@@ -4552,6 +4554,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||fkondate.com^$third-party
 @@||quickmath.com/js/r/web-vitals.js$script,~third-party
 /link.pbtech.co.nz/mo/*$image
+@@||media.foundit.*/trex/public/theme_3/dist/js/userTracking.js$script,~third-party
 ||simpleanalyticsbadge.com^$third-party
 ||interaktiv-net.de^$third-party
 ||ranker.com/api/tr?
@@ -7974,7 +7977,6 @@ _beacon?
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 /index.track?
 ||rs6.net^$image,script,third-party
-thestreet.com,nypost.com,variety.com,cbsnews.com,thenerdstash.com,billboard.com,gamerant.com,givemesport.com,qtoptens.com,brobible.com,mensjournal.com,dualshockers.com,si.com,androidpolice.com,makeuseof.com,cbr.com,collider.com,thegamer.com,simpleflying.com,stealthoptional.com,xda-developers.com,howtogeek.com,screenrant.com##+js(abort-on-property-read, googletag)
 ||artefact.is^$third-party
 ||123count.com^$third-party
 /visitor.min.js
@@ -9736,7 +9738,6 @@ $ping,third-party
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 ||realist.gen.tr^$third-party
 /pixel_tracking.js
-||startpage.com/sp/sxpra?
 ||wp.com/wp-content/js/bilmur.min.js
 .keap-link003.com/$image
 ||thehackernews.com/zscripts/
@@ -11468,7 +11469,6 @@ _event_tracking?
 /statscounter/*
 /statistics.js?$third-party
 ||sexu.com/api/ttrack
-.com/track?$~object
 ||airserve.net^$third-party
 ||zenimpact.io/dist/zen_init.min.js
 ||pladform.ru^$third-party
@@ -13261,6 +13261,14 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -13344,11 +13352,3 @@ _WebVitalsReporter_
 ||*.omega7o.com^
 ||*.pwjhg.com^
 ||*.yongkang6.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
