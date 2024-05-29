@@ -1,4 +1,4 @@
-# Update time: 2024-05-29 09:05:12
+# Update time: 2024-05-29 20:26:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,17 +47,6 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
-<script>window.park = "eyJ1dWlkIjoiNDgzMTlmMWEtZDkwMC00MmMyLWI4YjktNGFkN2UyZjc2MzY5IiwicGFnZV90aW1lIjoxNzE2OTQ0NzE3LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxMy44My4xMjMuMTI3In0K";</script>
-<div id="target" style="opacity: 0"></div>
-    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
-</head>
-<script src="/blvSbhePo.js"></script>
-</html>
-</body>
-    <link rel="preconnect" href="https://www.google.com" crossorigin>
-<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
 ##.ad-blocking-advisor-wrapper
 ||boilingumbrella.com^$third-party
 ||boringcoat.com^$third-party
@@ -2153,6 +2142,17 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 /AdblockMessage.
 ||compiledoctor.com^$third-party
 ||markedcrayon.com^$third-party
+<div id="target" style="opacity: 0"></div>
+<script>window.park = "eyJ1dWlkIjoiNGE1OGMzYjQtOTU5NC00NDQyLWE3MjktOTZiNWE0MjY2OTE2IiwicGFnZV90aW1lIjoxNzE2OTg1NjEwLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI3NC4yNDkuMTMuMTgxIn0K";</script>
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
+</head>
+</html>
+<script src="/bDXZxTypb.js"></script>
+</body>
+    <link rel="preconnect" href="https://www.google.com" crossorigin>
+<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
@@ -3905,6 +3905,7 @@ destructoid.com,lehighvalleylive.com,lonestarlive.com,thestreet.com,nypost.com,v
 @@||user.userguiding.com/sdk/identify$xmlhttprequest,domain=xaris.ai
 /rmntracking.js
 ||tget.me^$third-party
+@@||f-gear.ec-optimizer.com/speights/searchresult2fgear.js$script,domain=ec.f-gear.co.jp
 ||tercept.com^$third-party
 ||containers.appdomain.cloud/api/send-log$domain=ibm.com
 ||clickdimensions.com/ts.js
@@ -7062,6 +7063,7 @@ _trackWebtrekkEvents.
 ||gettapeads.com/stat/
 ||predictiveresponse.net^$third-party
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
+||streamed.su/api/preload
 ||top.gg/api/auctions/i
 /statcountex/count.asp?
 ||ddm.io^$third-party
@@ -7885,6 +7887,7 @@ _beacon?
 ||dealnews.com/lw/ul.php
 ||hushforms.com/visitorid?
 ||le.com/op/
+@@||f-gear.ec-optimizer.com/search4.do$script,domain=ec.f-gear.co.jp
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/visitor-api.html$xmlhttprequest
 ||pop6serve.com^$third-party
 @@||plugin.intuitcdn.net/vep-collab-smlk-ui/assets/vendor/glance/cobrowse/
@@ -8021,7 +8024,6 @@ _beacon?
 @@||dynamicyield.com/scripts/*/dy-coll-nojq-min.js$domain=gigasport.at|gigasport.ch|gigasport.de
 ||hit-360.com^$third-party
 ||area51.to^$third-party
-||sooqr.com^$third-party
 ||pikabu.ru/ajax/analytics.php
 ||successfultogether.co.uk^$third-party
 ||spylog.com^$third-party
@@ -12878,6 +12880,7 @@ _WebVitalsReporter_
 ||gstatic.com/gadf/ga_dyn.js
 ||excite.ie/?click_in=
 ||iqm.com^$third-party
+@@||f-gear.ec-optimizer.com/img/spacer.gif$image,domain=ec.f-gear.co.jp
 ||prf.hn^$third-party
 ||24log.ru^$third-party
 ||perfops.net/rom3/
@@ -13267,6 +13270,14 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -13350,11 +13361,3 @@ _WebVitalsReporter_
 ||*.omega7o.com^
 ||*.pwjhg.com^
 ||*.yongkang6.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
