@@ -1,4 +1,4 @@
-# Update time: 2024-06-01 09:05:43
+# Update time: 2024-06-01 20:24:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2142,14 +2142,14 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 /AdblockMessage.
 ||compiledoctor.com^$third-party
 ||markedcrayon.com^$third-party
+<script>window.park = "eyJ1dWlkIjoiOTQ2NWRiZjItMmYxZC00NjcwLTljZDItZTRjZGFlNGU2MDUzIiwicGFnZV90aW1lIjoxNzE3MjQ0Njg1LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC41NS4xNC4yMjUifQo=";</script>
 <div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiOTA5Y2M1NmYtNzUyZC00ZTgyLTk3YmQtNDkzZDYxYjk1ZDY5IiwicGFnZV90aW1lIjoxNzE3MjAzOTQ1LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC41NS4xNS44NyJ9Cg==";</script>
-<script src="/bJzsEwfSb.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
 </body>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
+<script src="/bspleBYPR.js"></script>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -5187,6 +5187,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||threatbook.cn^$third-party
 @@||cleverpush.com/sdk/$script,domain=heise.de
 @@||mapquestapi.com/logger/$domain=hertz.com
+||sweetgum.io^$third-party
 ||pc161021.com/scripts/noui/eventlogger.js
 /adds/counter.js
 ||museter.com/track.php?
@@ -9812,7 +9813,6 @@ $ping,third-party
 ||awfonts.com^$script,third-party
 /fp/top_fp.
 ||yektanet.com^$third-party
-@@||1.1.1.1/cdn-cgi/trace$xmlhttprequest,domain=myair.resmed.com
 ||twivideo.net/templates/ajax_link_click.php
 ||trbo.com^$third-party
 ||weather.ca/counter.gif?
@@ -11961,6 +11961,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||trackconsole.com^$third-party
 ||ezakus.net^$third-party
 ||bigmining.com^$third-party
+@@||1.1.1.1/cdn-cgi/trace$xmlhttprequest,domain=myair.resmed.com|one.one.one.one
 ||belstat.com^$third-party
 /eatms.js
 ||pimpmypr.de^$third-party
@@ -13274,14 +13275,6 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -13365,3 +13358,11 @@ _WebVitalsReporter_
 ||*.omega7o.com^
 ||*.pwjhg.com^
 ||*.yongkang6.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
