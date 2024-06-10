@@ -1,4 +1,4 @@
-# Update time: 2024-06-10 09:05:13
+# Update time: 2024-06-10 20:27:38
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10122,6 +10122,7 @@
 0.0.0.0 go.cz.bbelements.com
 0.0.0.0 msn-cdn.effectivemeasure.net
 0.0.0.0 interimairesssante.fr
+0.0.0.0 scotiahelp-loginscotia.com
 0.0.0.0 s.boom.ro
 0.0.0.0 xoomer.alice.it
 0.0.0.0 u7748.16.spylog.com
