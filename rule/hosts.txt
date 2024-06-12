@@ -1,4 +1,4 @@
-# Update time: 2024-06-11 20:27:47
+# Update time: 2024-06-12 09:03:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7937,6 +7937,7 @@
 0.0.0.0 ads.fredericksburg.com
 0.0.0.0 chartbeat.com
 0.0.0.0 ads.webhosting.info
+0.0.0.0 https-ticketnotice.com
 0.0.0.0 timberlande.fr
 0.0.0.0 tracking.stampready.net
 0.0.0.0 resulabi.fr
