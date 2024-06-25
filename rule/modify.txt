@@ -1,4 +1,4 @@
-# Update time: 2024-06-25 09:03:38
+# Update time: 2024-06-25 20:27:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2143,11 +2143,11 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 ||compiledoctor.com^$third-party
 ||markedcrayon.com^$third-party
 <div id="target" style="opacity: 0"></div>
+<script>window.park = "eyJ1dWlkIjoiMWI4NmZhYTAtMjI0Yi00YjJmLTg0ZDctM2VkYzllMWIxMDMwIiwicGFnZV90aW1lIjoxNzE5MzE4NDQxLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI1Mi4yMzQuNDAuMTYifQo=";</script>
+<script src="/bCFvGhFoa.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
-<script>window.park = "eyJ1dWlkIjoiNTEyZDM3YTMtNGZhMS00MTg0LTg0OTUtZjIzM2YzMzY3NWRmIiwicGFnZV90aW1lIjoxNzE5Mjc3NDIwLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjEzMS43OCJ9Cg==";</script>
-<script src="/bUHjmbXFA.js"></script>
 </body>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
@@ -6079,7 +6079,6 @@ _stat_counter.php?
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 ||mha.fi/simple.gif?
 ||tinystat.ir^$third-party
-||tweakers.net/ajax/$ping
 /sitestats.gif?
 ||sirdata.eu^$third-party
 ||gde.ru/isapi/tracker.dll?
