@@ -1,4 +1,4 @@
-# Update time: 2024-07-15 20:28:52
+# Update time: 2024-07-16 09:07:00
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2145,14 +2145,14 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 <div id="target" style="opacity: 0"></div>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
+<script src="/bjpUHFOUI.js"></script>
 </html>
 </body>
+<script>window.park = "eyJ1dWlkIjoiYjg4NGUxYTctYWU4NC00NjBjLWJhODktZDU2OGU1Mzg4OWMzIiwicGFnZV90aW1lIjoxNzIxMDkyMDI0LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjEzMS4xMzUifQo=";</script>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
-<script>window.park = "eyJ1dWlkIjoiZGJmYzYzMzUtY2ZmYS00ZDVlLWIzNTUtMWY1ZGQxYTEzMjMwIiwicGFnZV90aW1lIjoxNzIxMDQ2NTM1LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI0MC43Ni4xMDYuNjMifQo=";</script>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-<script src="/bANrypXNx.js"></script>
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
@@ -3601,6 +3601,7 @@ _logHuman=
 ||cloudfunctions.net/sendwebpush-analytics
 ||citypaketet.se^$third-party
 /err/js/?url=
+||reurl.cc/javascripts/tagtoo.js
 ||goodcounter.org^$third-party
 /v1/tracker.js
 /usage/Clickstream?
@@ -8556,6 +8557,7 @@ weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 /pageviews?token=
 ||rss-loader.com/track/
 ||ecustomeropinions.com^$third-party
+||tagtoo.co/js/unitrack.js
 ||a-cast.jp^$third-party
 ||admeira.ch^$third-party
 /v2/pv-data?
@@ -9017,7 +9019,6 @@ abema.tv##+js(rmnt, script, NREUM)
 @@||tagcommander.com^*/tc_$script
 /analytics-minimal-v4.js
 ||ipinfo.io^$third-party
-@@||tm.jsuol.com.br/modules/external/admanager/clickjogos_ads.js$script,domain=clickjogos.com.br
 /stats/collect/*
 ||freshplum.com^$third-party
 /log/client/messages
@@ -10010,7 +10011,6 @@ _rpc/log?
 ||tubitv.com/oz/performance/
 /web/push?
 ||marktplaats.net/cnt/
-@@||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br
 /wp_stat.php?
 ||support.github.com/_event
 /hitv4.php
@@ -10900,6 +10900,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||indextools.com^$third-party
 ||steelhousemedia.com^$third-party
 ||hindustantimes.com/res/images/one-pixel.png
+@@||globalatlanticannuity.com/assets/embed/gtm.js$script,~third-party
 /tking/ajax_track_stats?
 ||getadblock.com/js/log.js
 ||indeed.com/m/rpc/frontendlogging
@@ -13375,6 +13376,14 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
 ||*.yicang8.com^
@@ -13440,7 +13449,6 @@ _WebVitalsReporter_
 ||*.csyueye.com^
 ||*.anmeilai.net^
 /^omniture\./
-||*.jbzj.com^
 ||*.3ygww.com^
 ||*.ysdhe.com^
 ||*.zhudiaosz.com^
@@ -13459,11 +13467,3 @@ _WebVitalsReporter_
 ||*.pwjhg.com^
 ||*.victoryslam.com^
 ||*.yongkang6.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
