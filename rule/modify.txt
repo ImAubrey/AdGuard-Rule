@@ -1,4 +1,4 @@
-# Update time: 2024-07-17 20:28:15
+# Update time: 2024-07-18 09:04:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -518,7 +518,6 @@ monacomatin.mc,nicematin.com,varmatin.com##.RhooBg
 ||giftedglue.com^$third-party
 objavlenija.respublika.cz##.sweet-alert,.sweet-overlay
 ||ambiguousquilt.com^$third-party
-nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnm-club.ws,nnmclub.to,nontorclub.in.net##body > .request
 ||code.piano.io/api/tinypass.min.js$domain=delfi.lv
 ||specialscissors.com^$third-party
 just-for-fun.ru##body > div[class*="-container"][class*="-hide"]
@@ -1170,7 +1169,6 @@ shadbase.com##img[alt="adblock"]
 ||fuzzybasketball.com^$third-party
 @@||ktu.sv2.biz/sv3/advertisement.js
 ||enchantingvalley.com^$third-party
-/forum/docs/requests.js$script,domain=nnm-club.lib|nnm-club.me|nnm-club.ws|nnmclub.ro|nnmclub.to|nontorclub.in.net
 /adblock-notify-by-bweb/*
 ||poisedpig.com^$third-party
 ||rainyhand.com^$third-party
@@ -2143,12 +2141,12 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 ||compiledoctor.com^$third-party
 ||markedcrayon.com^$third-party
 <div id="target" style="opacity: 0"></div>
-<script src="/bWGCLaXNR.js"></script>
+<script src="/bKWGIihlK.js"></script>
+<script>window.park = "eyJ1dWlkIjoiNDY3OThiYzktZmI0Mi00MDFkLTlkNGUtYzQ1YTI4YjFlNDA1IiwicGFnZV90aW1lIjoxNzIxMjY0NjkwLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjEyMi4xNDgifQo=";</script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
 </body>
-<script>window.park = "eyJ1dWlkIjoiOTg5MjIyNjYtNTc5Yi00NGI3LTg3MTAtMDNlODU4MDc0ZDA0IiwicGFnZV90aW1lIjoxNzIxMjE5Mjk3LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI0LjIyNy4xMTQuMTkxIn0K";</script>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -3577,6 +3575,7 @@ _logHuman=
 /roitrack.php
 ||mywebstats.com.au^$third-party
 ||squid.gazeta.pl/bdtrck/
+||mat6tube.com/api/stats?
 ||priceline.com/svcs/mkt/tag/
 ||roi-rocket.net^$third-party
 /x.gif?
@@ -3707,6 +3706,7 @@ _logHuman=
 ||myprivacy.dpgmedia.net/audits
 ||onlinesucces.nl^$third-party
 ||crowdtwist.com/trck/$script
+@@||autocomplete.clearbit.com^$xmlhttprequest
 ||datacoral.io^$third-party
 ||certifica.com^$third-party
 ||4hds.com/js/camstats.js
@@ -7101,6 +7101,7 @@ _trackWebtrekkEvents.
 .warehousefashion.com/warehouse/e/$image
 /statblog/pws.php?
 ||princetonreview.com/logging/
+/click.instahyre.com/*$image
 ||killerwebstats.com^$third-party
 /2.gif?
 ||shopnetic.com^$third-party
@@ -8312,7 +8313,6 @@ weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, fal
 /email.t.*/o/*$image
 ||clickdensity.com^$third-party
 @@||tokbox.com/prod/logging/ClientEvent$domain=examroom.ai
-||drift.com/targeting/
 ||play.ht/views/
 _track_pixel.gif?
 ||kameleoon.com^$third-party
@@ -8885,6 +8885,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
 ||adblockeronstreamtape.xyz/stat/
 ||formula1.com/api/track
+e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !important; opacity: 1 !important;)
 /api_adlog.php?
 ||glbtracker.com^$third-party
 ||kieden.com^$third-party
@@ -9034,6 +9035,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||gumtree.com.au/tracking/
 /pageTag?
 ||gamedistribution.com/event?
+||drift.com/targeting/evaluate_with_log
 ||raindrop.io/pb/api/event
 /_/lite/performance/*
 ||departapp.com^$third-party
@@ -9969,6 +9971,7 @@ _rpc/log?
 ||lancome-usa.com/IZ/PXq99AlOxk/init.js
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 /facebookproductad/views/js/pixel.
+||rgshows.me/js/logger.js
 ||mail.proton.me/api/data/v1/stats
 /solarcode.js
 ||fortvision.com^$third-party
@@ -10265,6 +10268,7 @@ _rpc/log?
 ||openguid.org^$third-party
 ||247ilabs.com^$third-party
 /beacon.gif?
+||rgshows.me/js/statistics.js
 /newsletter/read?s=$image
 ||anytrack.io^$third-party
 ||at-o.net^$third-party
@@ -10456,6 +10460,7 @@ _rpc/log?
 ||ravelin.net^$third-party
 ||wp.com/i/mu.gif$image
 /one-plugin-analytics-comscore/*
+/wp-content/plugins/woocommerce-google-analytics-integration/*
 ||linguee.fr/white_pixel.gif
 ||sourcecode.pro^$third-party
 ||amazon.com/1/aiv-web-player/1/OE^
@@ -10924,7 +10929,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /call.tracker.js
 ||adskom.com^$third-party
 ||drop.com/impressionsBeacon
-@@||autocomplete.clearbit.com^$xmlhttprequest,domain=dzone.com
 ||netbiscuits.net^$third-party
 ||api.vp.rambler.ru/events/
 ||slack-edge.com/bv1-10/slack_beacon.
@@ -13385,89 +13389,38 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*.cnzz.kld666.com^
-||*.mxmrt.com^
-||*.yicang8.com^
-||*.openxt.cn^
-||*.wzhuze.com^
+/^adsensor\./
 /^dwtrack\./
-||*.jinchaoyu.com^
-||*.66san.com^
+/^domob\./
+/^pingfore\./
 /^adservice\./
-||*.prodsell.com^
 /^appsflyer\./
 /^guanggao\./
-||*.uissm.com^
 /^adsage\./
-||*.hzht666.com^
-/^adwords\./
-||*.88rpg.net^
-/^supersonicads\./
-||*.dkdlsj.com^
-||*.yunanfuwuqi.com^
-||*.yoiur.com^
-||*.edo5.com^
-||*.adm-cnzz.net^
-||*.xlmc.sandai.net^
-/^zjtoolbar\./
-||*-ad.a.yximgs.com^
-/^omgmta\./
-||*.anreson.net^
-/^adsystem\./
-||*.ydqzkj.com^
-||*.wap.xsbiquge.com^
-/^admarvel\./
-||*.gyhzr.com^
-||*.qiujinxiao.com^
-/^applovin\./
-||*.sysal.cn^
-/^.+stat\.kugou\.com/
-||*.exaapi.com^
-||*.mobad.ijinshan.com^
-/^adsensor\./
-||*.hgrqp.com^
-||*.houyi.baofeng.net^
-||*.improvbeams.com^
-||*.kyad88.com^
-/^domob\./
-||*.popupad.cn^
-||*.ad-cloud.jp^
-||*.zhiong.net^
-||*.yzh360.com^
-||*.yunos.com^
-/^pingfore\./
-||*.symae.cn^
-||*.wgnlz.com^
-||*.cferw.com^
 ||*-ad-sign.byteimg.com^
-||*.mmkvi.com^
-||*.nxrhs.com^
 /^adsserving\./
-||*.qtmojo.cn^
+/^adwords\./
+/^supersonicads\./
 /^openx\./
 /^socdm\./
-||*.alimama.com^
-||*.csyueye.com^
-||*.anmeilai.net^
 /^omniture\./
-||*.3ygww.com^
-||*.ysdhe.com^
-||*.zhudiaosz.com^
-||*.chaojilamei.cn^
+/^zjtoolbar\./
+||*-ad.a.yximgs.com^
 /^adsmogo\./
+/^omgmta\./
 /^wlmonitor\./
 /^admaster\./
+/^adsystem\./
 /^partnerad\./
 /^duomeng\./
 /^adsrvmedia\./
 ||*-applog.fqnovel.com^
-||*.mlt01.com^
 /^omgmtaw\./
-||*.njmpacc.com^
-||*.omega7o.com^
-||*.pwjhg.com^
-||*.victoryslam.com^
-||*.yongkang6.com^
+||*.wap.xsbiquge.com^
+/^admarvel\./
+/^applovin\./
+/^.+stat\.kugou\.com/
+||*.exaapi.com^
 ||*tsdk.vivo.com.cn^
 ||*.mmstat.com^
 ||*serror*.wo.com.cn^
