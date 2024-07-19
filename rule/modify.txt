@@ -1,4 +1,4 @@
-# Update time: 2024-07-19 09:06:50
+# Update time: 2024-07-19 20:27:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2141,15 +2141,15 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 ||compiledoctor.com^$third-party
 ||markedcrayon.com^$third-party
 <div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiMDc0Y2YxMmQtMDY4MS00M2Y4LWE3NmUtNjMxNWY0ZDgxOWU5IiwicGFnZV90aW1lIjoxNzIxMzUxMjEzLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjEzOC41NiJ9Cg==";</script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
-<script src="/bQVthStUn.js"></script>
+<script src="/bcSVmweVE.js"></script>
 </body>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>window.park = "eyJ1dWlkIjoiOGNhOWFkNjQtM2VhOC00Y2IyLWJjZjYtZTMxMWM2OGEyNTExIiwicGFnZV90aW1lIjoxNzIxMzkyMDQyLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC43NS45NC4zNiJ9Cg==";</script>
     <meta charset="utf-8">
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
@@ -6018,6 +6018,7 @@ _stat_counter.php?
 ||lr-intake.com^$third-party
 ||listen.audiohook.com/*/pixel.png
 /eventtracking/*
+||appocalypsis.com^$third-party
 ||wondershare.es/jslibs/track.js
 ||insitemetrics.com^$third-party
 /stat2.aspx?
@@ -6127,6 +6128,7 @@ _stat_counter.php?
 .backblaze.com/e2t/$image
 ||airlogs.ru^$third-party
 ||s3wfg.com/js/vortexloader.js
+||iptvgratuit.net/wp-content/*/analytics.js
 ||ebaystatic.com/rs/v/klminxoj1uyzvo0p0qu4nhpg0qo.js
 ||istrack.com^$third-party
 ||howsmyssl.com^$third-party
@@ -6705,6 +6707,7 @@ _view_pixel&$image
 ||mps-gba.de^$third-party
 /public/analytics.js
 /xtclicks.js
+||web.snapchat.com/web-analytics-v2/web/events
 ||dsmstats.com^$third-party
 ||ggxt.net^$third-party
 ||dti-ranker.com^$third-party
@@ -8955,7 +8958,6 @@ e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !importa
 /rot_in.php
 ||avapartner.com^$third-party
 abema.tv##^script:has-text(NREUM)
-/visit?id=
 @@||spoc.sydtrafik.dk/CherwellPortal/dist/app/common/analytics/Analytics.js$~third-party
 ||huuto.net/js/analytic/
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|ringcentral.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
@@ -9178,6 +9180,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||stats-jobstreet-sg-en-prod.supercharge-srp.co^$domain=jobstreet.com.sg
 ||vertical-leap.net^$third-party
 .keap-link005.com/$image
+||embedme.top/embed/extra
 ||widgets.trustedshops.com^$third-party
 ||thetimes.co.uk/track?
 /beacon/collector/*
@@ -9372,6 +9375,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||arkayne.com^$third-party
 ||socy.es^$third-party
 ||advgo.net/hits/
+/statistics/visit?id=
 ||dtc-v6t.com^$third-party
 ||chuzushijian.cn/c.php
 /jquery.analytics.js
