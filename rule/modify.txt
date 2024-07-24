@@ -1,4 +1,4 @@
-# Update time: 2024-07-24 09:06:49
+# Update time: 2024-07-24 20:27:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2141,9 +2141,9 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 /AdblockMessage.
 ||compiledoctor.com^$third-party
 ||markedcrayon.com^$third-party
-<script src="/bTYYaiuGf.js"></script>
 <div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiZGE1OTk0ZGQtMWJkMS00M2ZiLTg5N2EtZGI5YzkwMjk3OTVmIiwicGFnZV90aW1lIjoxNzIxNzgzMjEzLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjEwNy4yNTIifQo=";</script>
+<script>window.park = "eyJ1dWlkIjoiYTJlZjY3NTctYjBmOC00Mzk0LWI2NTUtNWUxZDA3ZDQ1NjdmIiwicGFnZV90aW1lIjoxNzIxODI0MDY0LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTkwLjExMS4xNjIifQo=";</script>
+<script src="/bwNfsrwkl.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
@@ -2331,6 +2331,7 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 ||iaudienc.com^$third-party
 ||mail.ru/cm.gif?
 ||t-online.de/to/web/click?
+247sports.com,androidpolice.com,bringmethenews.com,mensjournal.com,arstechnica.com,audizine.com,blackenterprise.com,boston.com,britannica.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
 /webstats.js
 /ga_event_tracking.js
 ||h.seznam.cz/js/dot-small.js
@@ -3767,6 +3768,7 @@ _logHuman=
 /submission/pageview
 ||redditstatic.com/accountmanager/sentry.
 ||newsnationnow.com/yZuPxxW0/init.js
+thegatewaypundit.com##+js(acs, document.createElement, googletag)
 ?logType=trackEvent&
 ||l.nicematin.com/pv.js
 @@||blackcircles.ca^$script,~third-party
@@ -6225,7 +6227,6 @@ _stat_counter.php?
 ||huggingface.co/js/script.js
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||plausible.io/js/p.js
-247sports.com,androidpolice.com,bringmethenews.com,mensjournal.com,arstechnica.com,audizine.com,blackenterprise.com,boston.com,britannica.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acis, document.createElement, admiral)
 ||hatarako.net/api/recommend/analyze_logger
 ||webads.eu^$third-party
 ||newsletters.nationalgeographic.com^$image,third-party
@@ -10634,7 +10635,6 @@ _rpc/log?
 ||fusevideo.io/api/event
 ||mypagerank.net^$third-party
 ||virtueworldwide.com/ga-test/
-thegamer.com##+js(abort-current-script, document.createElement, admiral)
 ||neatstats.com^$third-party
 ||rt.rakuten.co.jp^$~xmlhttprequest
 ||btbuckets.com^$third-party
@@ -13401,14 +13401,6 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -13441,3 +13433,11 @@ _WebVitalsReporter_
 /^applovin\./
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
