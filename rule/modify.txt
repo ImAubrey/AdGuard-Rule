@@ -1,4 +1,4 @@
-# Update time: 2024-07-26 20:27:15
+# Update time: 2024-07-27 09:05:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2141,16 +2141,16 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 ||compiledoctor.com^$third-party
 ||markedcrayon.com^$third-party
 <div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiNmRjMGM2NjMtYjk2YS00MDA3LTliYTEtZTk3ZGI2MjE3Mjg4IiwicGFnZV90aW1lIjoxNzIxOTk2ODM3LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI1Mi4yMzguMjQuMTc2In0K";</script>
+<script src="/bzjEcMelc.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
+<script>window.park = "eyJ1dWlkIjoiYWFlODgzYTktZTMyNC00Njg1LWJhNWMtMWQ5MjBlODYyMDRjIiwicGFnZV90aW1lIjoxNzIyMDQyMzAzLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjg0Ljg1In0K";</script>
 </html>
 </body>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-<script src="/bEtFrOkXg.js"></script>
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
@@ -4429,6 +4429,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||visitor-track.com^$third-party
 ||cnzz.com/c.php?
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
+/go.news.fly.io/e/o/*$image
 ||4oney.com^$third-party
 ||useblackbox.io/telemetry
 ||microcounter.de^$third-party
@@ -6359,6 +6360,7 @@ _stat_counter.php?
 ||lacentrale.fr/static/fragment-sentry/lc-sentry.js
 ://elqtrk.
 ||topstat.com^$third-party
+||kunduz.com/kunduzlytics.min.js
 ||avvenire.it/content/js/track.es5.min.js?
 /track.php?domain=
 /pphlogger.php
@@ -6491,6 +6493,7 @@ _stat_counter.php?
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 ||ifvox.com^$third-party
 ||liverail.com/?metric=
+||bance.jp/bnctag.js
 ||snd.tc^$third-party
 ||datadoghq.com/assets/dd-browser-logs-rum.js
 ||bit.ly/stats?
@@ -7725,6 +7728,7 @@ _beacon?
 ||ifactz.com^$third-party
 /js/hbx.js
 ||memecounter.com^$third-party
+||hum.works^$third-party
 ||cdnmaster.cn^$third-party
 ||walmartimages.com/dfw/4ff9c6c9-d9a0/$domain=walmart.com
 ||cloudfront.net/t.gif
@@ -9544,6 +9548,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /log/error?
 ||covet.pics/beacons
 ||adcalls.nl^$third-party
+||plausible-analytics.xyz^$third-party
 ||richmetrics.com^$third-party
 ||mzbcdn.net/mngr/mtm.js
 ||nyxcosmetics.com/IZ/PXLZNv2dn4/init.js
@@ -12595,6 +12600,7 @@ fedex.com##+js(set-local-storage-item, fdx_enable_new_detail_page, true)
 .doubleclick.net/$image
 ||listrakbi.com^$third-party
 @@||caf.fr^*/smarttag.js$script,~third-party
+||smartico.ai^$third-party
 ||mofa.go.jp^*/count.cgi?
 /email-pixel?
 ||ocn-tag.sienca.jp/api/v1/event/pv
@@ -13413,14 +13419,6 @@ _WebVitalsReporter_
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -13453,3 +13451,11 @@ _WebVitalsReporter_
 /^applovin\./
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
