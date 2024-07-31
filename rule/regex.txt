@@ -1,4 +1,4 @@
-# Update time: 2024-07-30 20:28:04
+# Update time: 2024-07-31 08:55:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -346,6 +346,7 @@
 ||s*.skencituer.com^
 ||hbbtv.*.de^
 ||batchlogging*-noneu.truecaller.com^
+||apple-*.le.com^
 ||imp-*.jampp.com^
 ||mobileanalytics.*.amazonaws.com^
 ||tracking.*.miui.com^
