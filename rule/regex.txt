@@ -1,4 +1,4 @@
-# Update time: 2024-07-31 20:29:03
+# Update time: 2024-08-01 09:12:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -229,6 +229,7 @@
 ||xlog*-*.tiktokv.com^
 ||ad*.on.cc^
 ||liveme-sensors-collect2-*.amazonaws.com^
+||rtlog*.tiktokv.us^
 ||popadex-*.us-east-1.elb.amazonaws.com^
 ||st-*.dynamicyield.com^
 ||v*-ad.video.yximgs.com^
