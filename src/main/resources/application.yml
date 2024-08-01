@@ -13,9 +13,8 @@ application:
     #远程规则
     remote:
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt' #name: AdAway Default Blocklist
-      - 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt' #name: AdGuard CNAME 伪装跟踪器列表
       - 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt' #name: 去除禁止广告拦截提示规则
-      - 'https://easylist.to/easylist/easyprivacy.txt' #name: Privacy EasyList
+      #- 'https://easylist.to/easylist/easyprivacy.txt' #name: Privacy EasyList
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt' #name: Dan Pollock's List
       - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/ad-domains.txt' #name: CatChinaRule
       - 'https://anti-ad.net/adguard.txt' #name: anti-ad.net
