@@ -1,4 +1,4 @@
-# Update time: 2024-08-03 20:25:47
+# Update time: 2024-08-04 09:11:20
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -14404,6 +14404,7 @@
 0.0.0.0 suxap.comfortykive.xyz
 0.0.0.0 formumactif.fr
 0.0.0.0 v7.viayonetici.com
+0.0.0.0 xn--80afden1bnch4a.xn--p1ai
 0.0.0.0 seyatosan.iaigiri.com
 0.0.0.0 playzee.fr
 0.0.0.0 v1.viayonetici.com
