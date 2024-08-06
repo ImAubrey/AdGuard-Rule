@@ -1,4 +1,4 @@
-# Update time: 2024-08-05 20:29:15
+# Update time: 2024-08-06 09:06:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -16749,6 +16749,7 @@
 0.0.0.0 ad48.checkm8.com
 0.0.0.0 dashgreen.online
 0.0.0.0 aboutharrypotter.fasthost.tv
+0.0.0.0 alojamientocentroleon.es
 0.0.0.0 adverts.ecn.co.uk
 0.0.0.0 pharmacy-news.blogspot.com
 0.0.0.0 ad.groupon.nl
