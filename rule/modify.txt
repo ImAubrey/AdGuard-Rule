@@ -1,4 +1,4 @@
-# Update time: 2024-08-16 20:28:49
+# Update time: 2024-08-17 09:05:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,8 +47,8 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+<script>window.park = "eyJ1dWlkIjoiODQ4ODA5NGItMTllNS00ZmZhLTk1ZjMtNzA5Mjc0ZTdkYzE3IiwicGFnZV90aW1lIjoxNzIzODU2NzEwLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC4xNzIuMjQuMjIxIn0K";</script>
 <div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiZTg2MTY0OTMtM2IyNy00NTJjLWI0MDItYTllN2Y5NjEwYmVmIiwicGFnZV90aW1lIjoxNzIzODExMzMyLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiI1Mi4yMzQuMjYuMjA4In0K";</script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
@@ -56,8 +56,8 @@
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="/bFOmCTExZ.js"></script>
     <meta charset="utf-8">
-<script src="/bndMXqCCe.js"></script>
 ##.ad-blocking-advisor-wrapper
 ||boilingumbrella.com^$third-party
 ||boringcoat.com^$third-party
