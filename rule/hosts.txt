@@ -1,4 +1,4 @@
-# Update time: 2024-08-25 20:26:49
+# Update time: 2024-08-26 09:08:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7745,7 +7745,6 @@
 0.0.0.0 lieberation.fr
 0.0.0.0 r.turn.com
 0.0.0.0 hit8.hotlog.ru
-0.0.0.0 jac.yahoosandbox.com
 0.0.0.0 oz.valueclick.ne.jp
 0.0.0.0 adserver.100free.com
 0.0.0.0 date.and-have.fun
@@ -9719,6 +9718,7 @@
 0.0.0.0 metrics.dallasnews.com
 0.0.0.0 lrpoint.fr
 0.0.0.0 ads.simtel.com
+0.0.0.0 members.chello.at
 0.0.0.0 www.merijntjeaanderijn.nl
 0.0.0.0 www.vilaglato.info
 0.0.0.0 tramadol2006.3xforum.ro
@@ -20147,7 +20147,6 @@
 0.0.0.0 lanphuong.vn
 0.0.0.0 newbostonvillage.com
 0.0.0.0 umihaku000time.web.fc2.com
-0.0.0.0 members.chello.at
 0.0.0.0 ubermensch.altervista.org
 0.0.0.0 ffoqr3ug7m726zou.tx0igu.bid
 0.0.0.0 ubisortdasert.top
