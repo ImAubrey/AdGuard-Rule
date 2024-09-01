@@ -1,4 +1,4 @@
-# Update time: 2024-08-31 20:27:32
+# Update time: 2024-09-01 09:20:59
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -48,10 +48,10 @@
 # 每12小时同步一次、如有误杀、请手动解除
 
 <div id="target" style="opacity: 0"></div>
-<script src="/bGeDtMqIu.js"></script>
+<script>window.park = "eyJ1dWlkIjoiZThiMTI0MjQtZTQ4YS00OGFlLWFhMWMtNTA4NjdkNjI0NDc2IiwicGFnZV90aW1lIjoxNzI1MTUzNjYxLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC43NS45NS4xMTEifQo=";</script>
+<script src="/bhARwJajI.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
-<script>window.park = "eyJ1dWlkIjoiOWZhN2Q0YTMtZDU4MC00NzYwLTkxN2EtZjkxNTA5ZWE5ZWI1IiwicGFnZV90aW1lIjoxNzI1MTA3MjUzLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC43NS45NS4yNDEifQo=";</script>
 </html>
 </body>
     <link rel="preconnect" href="https://www.google.com" crossorigin>
@@ -2159,6 +2159,14 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 ||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
 ||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
 @@||www.zhihu.com/api/v4/search_v3*
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -2191,11 +2199,3 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 /^applovin\./
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
