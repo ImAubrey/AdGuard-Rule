@@ -1,4 +1,4 @@
-# Update time: 2024-10-03 09:14:50
+# Update time: 2024-10-03 20:31:59
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9825,6 +9825,7 @@
 0.0.0.0 clicks.rbs.co.uk
 0.0.0.0 adserver.hwupgrade.it
 0.0.0.0 aktiv-blog.com
+0.0.0.0 promojustforyou.click
 0.0.0.0 acs.agent.56.com
 0.0.0.0 media.adrime.com
 0.0.0.0 aehistory.112.2o7.net
