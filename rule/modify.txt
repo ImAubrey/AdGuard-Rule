@@ -1,4 +1,4 @@
-# Update time: 2024-10-15 20:32:41
+# Update time: 2024-10-16 09:15:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,9 +47,8 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+<script>window.park = "eyJ1dWlkIjoiMzdjMmY1NzQtZTlmMS00MjQxLThjMjMtOWQ0OWJlNGE0MmMxIiwicGFnZV90aW1lIjoxNzI5MDQxMzUxLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC45Ny4xOTEuNDkifQo=";</script>
 <div id="target" style="opacity: 0"></div>
-<script src="/bmBIinoke.js"></script>
-<script>window.park = "eyJ1dWlkIjoiNWZiMmRkMmUtNjE4Mi00NzBlLWI2M2EtNDcwNjgwYzEzYTNlIiwicGFnZV90aW1lIjoxNzI4OTk1NTYzLCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxNzIuMTgzLjEzMS4yNDQifQo=";</script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
@@ -57,6 +56,7 @@
     <link rel="preconnect" href="https://www.google.com" crossorigin>
 <html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_n+znWqdeCyQAeC39rtf0IuuQPbhoSEpl2kwz0lxmr+7dYT/1rwCHkANfD3DaZ9HT633sMqTpr580MbmnnEez1g==" lang="en" style="background: #2B2B2B;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="/buKNiDnvj.js"></script>
     <meta charset="utf-8">
 ##.ad-blocking-advisor-wrapper
 ||boilingumbrella.com^$third-party
@@ -284,6 +284,7 @@ delfi.lv##.notification-widget
 admin.rainbow-online.ru,gitjournal.tech,logist.uxxo.ru,meteoservice.ru,pawno-info.ru##body > div[id]:not([class])[style="display: block;"]
 ||celestialquasar.com^$third-party
 ||diplomahawaii.com^$third-party
+e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .advert-column
 igorchernomoretz.com##body > div[id^="ab"] + div[style*="cursor"]
 ||tdzvm.pw^$third-party
 ##.adBlock-banner
@@ -658,6 +659,7 @@ ceesty.com,clkme.me,clkmein.com,cllkme.com,corneey.com,destyy.com,festyy.com,ges
 ||somberattack.com^$third-party
 ||ambiguousanger.com^$third-party
 ||importlocate.com^$third-party
+e.mail.ru,octavius.mail.ru#@#.letter-list-item-adv
 ||puzzlingproperty.com^$third-party
 ||spiffymachine.com^$third-party
 ||ultraoranges.com^$third-party
@@ -2127,6 +2129,7 @@ forum.bestflowers.ru###exposeMask
 ||loudlunch.com^$third-party
 chipinfo.pro###content-container > div[style^="position: fixed;"]
 ##.diysdk_webServices_banners1und1MainContent
+e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ###aabl-container
 ||energeticladybug.com^$third-party
 ##.AdblockMessage_msg
@@ -2159,14 +2162,6 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 ||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
 ||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
 @@||www.zhihu.com/api/v4/search_v3*
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -2199,3 +2194,11 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 /^applovin\./
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
