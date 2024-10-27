@@ -1,4 +1,4 @@
-# Update time: 2024-10-26 20:29:50
+# Update time: 2024-10-27 09:20:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -193,7 +193,6 @@
 ||ads*.production-public.tubi.io^
 ||ads-*-nfl.yinzcam.com^
 ||iptracker-lb-*.amazonaws.com^
-||bd*-ys.km.com^
 ||pijama.*.elasticbeanstalk.com^
 ||ce-global-track-*.amazonaws.com^
 ||device-metrics-us*.amazon.com^
