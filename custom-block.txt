@@ -1,3 +1,5 @@
 ||dns.weixin.qq.com^$important
 ||httpdns.*^$important
 ||ingest.sentry.io^$important
+@@||geolocation.onetrust.com^$important
+@@||doubleclick.net^$important
