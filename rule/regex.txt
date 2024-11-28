@@ -1,4 +1,4 @@
-# Update time: 2024-11-27 20:35:01
+# Update time: 2024-11-28 09:20:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -224,6 +224,7 @@
 ||api-*.bidmachine.io^
 ||logservice-*.platform.dbankcloud.cn^
 ||telemetry*.api.playstation.com^
+||log*-normal-useast1a.lemon8-app.com^
 ||stat*.1internet.tv^
 ||dj1*.online^
 ||log*.byteoversea.com^
