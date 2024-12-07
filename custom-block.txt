@@ -13,3 +13,5 @@
 @@||securepubads.g.doubleclick.net^
 ! Youtube
 @@||jnn-pa.googleapis.com^
+! linkedin
+@@||linkedin.com^
