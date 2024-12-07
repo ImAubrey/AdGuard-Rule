@@ -2,3 +2,14 @@
 ||httpdns.*^$important
 ||ingest.sentry.io^$important
 @@||geolocation.onetrust.com^$important
+! Tver
+@@||js-agent.newrelic.com^
+@@||imasdk.googleapis.com^
+@@||cdn.reproio.com^
+@@||sdk.interactive-circle.jp^
+@@||og12.interactive-circle.jp^
+@@||api.reproio.com^
+@@||bam.nr-data.net^
+@@||securepubads.g.doubleclick.net^
+! Youtube
+@@||jnn-pa.googleapis.com^
