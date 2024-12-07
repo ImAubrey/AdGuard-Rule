@@ -14,4 +14,5 @@
 ! Youtube
 @@||jnn-pa.googleapis.com^
 ! linkedin
-@@||linkedin.com^
+@@||platform.linkedin.com^
+@@||px.ads.linkedin.com^
