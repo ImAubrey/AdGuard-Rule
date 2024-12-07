@@ -1,18 +1,19 @@
 ||dns.weixin.qq.com^$important
 ||httpdns.*^$important
 ||ingest.sentry.io^$important
-@@||geolocation.onetrust.com^$important
+@@||geolocation.onetrust.com^^$important
 ! Tver
-@@||js-agent.newrelic.com^
-@@||imasdk.googleapis.com^
-@@||cdn.reproio.com^
-@@||sdk.interactive-circle.jp^
-@@||og12.interactive-circle.jp^
-@@||api.reproio.com^
-@@||bam.nr-data.net^
-@@||securepubads.g.doubleclick.net^
+@@||js-agent.newrelic.com^$important
+@@||imasdk.googleapis.com^$important
+@@||cdn.reproio.com^$important
+@@||sdk.interactive-circle.jp^$important
+@@||og12.interactive-circle.jp^$important
+@@||api.reproio.com^$important
+@@||bam.nr-data.net^$important
+@@||securepubads.g.doubleclick.net^$important
 ! Youtube
-@@||jnn-pa.googleapis.com^
+@@||jnn-pa.googleapis.com^$important
 ! linkedin
-@@||platform.linkedin.com^
-@@||px.ads.linkedin.com^
+@@||platform.linkedin.com^$important
+@@||ads.linkedin.com^$important
+@@||px.ads.linkedin.com^$important
