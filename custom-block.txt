@@ -1,6 +1,8 @@
 ||dns.weixin.qq.com^$important
 ||httpdns.*^$important
 ||ingest.sentry.io^$important
+||use-application-dns.net^$empty,important
+
 @@||geolocation.onetrust.com^^$important
 ! Tver
 @@||js-agent.newrelic.com^$important
