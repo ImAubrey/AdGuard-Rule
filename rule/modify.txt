@@ -1,4 +1,4 @@
-# Update time: 2024-12-21 09:14:05
+# Update time: 2024-12-21 20:29:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -48,8 +48,8 @@
 # 每12小时同步一次、如有误杀、请手动解除
 
 <div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiMWU0NGMzM2ItMzBjNi00OTY3LTg4ZWUtODA0ZWMxZjc5NDljIiwicGFnZV90aW1lIjoxNzM0NzQzNjQ1LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIyMC4xMDIuNDYuMTQ3In0K";</script>
-<script src="/byZqRdSDp.js"></script>
+<script>window.park = "eyJ1dWlkIjoiYTc3NDg5YjItZWI2Ny00MTJlLTgyYmMtMzE1NDkyNDYyODYzIiwicGFnZV90aW1lIjoxNzM0Nzg0MTU1LCJwYWdlX3VybCI6Imh0dHBzOi8vcmF3LmlxaXEuaW8vaWx4cC9rb29scHJveHkvbWFzdGVyL3J1bGVzL2RhaWx5LnR4dCIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7fSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6InJhdy5pcWlxLmlvIiwiaXAiOiIxMy44OC4xNzAuMjI1In0K";</script>
+<script src="/boxVsFFCD.js"></script>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
 </head>
 </html>
