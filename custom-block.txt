@@ -19,3 +19,8 @@
 @@||platform.linkedin.com^$important
 @@||ads.linkedin.com^$important
 @@||px.ads.linkedin.com^$important
+
+@@||events.statsigapi.net^$important
+@@||download.apkpure.com^
+@@||js.intercomcdn.com^$important
+@@||ip2location.com^$important
