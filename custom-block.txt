@@ -1,4 +1,5 @@
-||dns.weixin.qq.com^$important
+||dns.weixin.qq.com
+||dns.wechat.com
 ||httpdns.*^$important
 ||ingest.sentry.io^$important
 ||use-application-dns.net^$empty,important
@@ -23,3 +24,4 @@
 @@||download.apkpure.com^
 @@||js.intercomcdn.com^$important
 @@||ip2location.com^$important
+
