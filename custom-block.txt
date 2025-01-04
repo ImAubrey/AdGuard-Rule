@@ -17,7 +17,6 @@
 @@||jnn-pa.googleapis.com^$important
 ! linkedin
 @@||platform.linkedin.com^$important
-@@||ads.linkedin.com^$important
 @@||px.ads.linkedin.com^$important
 
 @@||events.statsigapi.net^$important
