@@ -19,7 +19,7 @@ application:
       # - 'https://anti-ad.net/adguard.txt' #name: anti-ad.net
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_32.txt' #name: The NoTracking blocklist
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt' #name: Phishing URL Blocklist (PhishTank and OpenPhish)
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt' #name: The Big List of Hacked Malware Web Sites
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt' #name: The Big List of Hacked Malware Web Sites
       #- 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt' #name: Peter Lowe's Blocklist
       - 'https://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt' #name: 每日规则
       - 'https://www.trli.club/ad-hosts/ad-hosts-sqlist/ad-adguardhome-dnstype.txt' #name: 冷莫(trli)AdHosts-Sqlist
