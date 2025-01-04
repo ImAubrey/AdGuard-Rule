@@ -134,3 +134,10 @@
 @@||wgo.mmstat.com^$important
 @@||app-monitor.ele.me^$important
 @@||hdslb.com
+
+
+@@||events.statsigapi.net^$important
+@@||download.apkpure.com^
+@@||js.intercomcdn.com^$important
+@@||ip2location.com^$important
+
