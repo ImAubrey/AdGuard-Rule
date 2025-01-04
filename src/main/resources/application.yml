@@ -16,8 +16,7 @@ application:
       - 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt' #name: 去除禁止广告拦截提示规则
       #- 'https://easylist.to/easylist/easyprivacy.txt' #name: Privacy EasyList
       #- 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt' #name: Dan Pollock's List
-      - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/ad-domains.txt' #name: CatChinaRule
-      - 'https://anti-ad.net/adguard.txt' #name: anti-ad.net
+      # - 'https://anti-ad.net/adguard.txt' #name: anti-ad.net
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_32.txt' #name: The NoTracking blocklist
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt' #name: Phishing URL Blocklist (PhishTank and OpenPhish)
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt' #name: The Big List of Hacked Malware Web Sites
