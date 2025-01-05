@@ -1,4 +1,4 @@
-# Update time: 2025-01-05 00:31:33
+# Update time: 2025-01-05 09:21:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1575,7 +1575,6 @@ alensat.org,forummikrotik.ru###phpbb-ads-ab
 ||handsomelyhealth.com^$third-party
 japscan.lol#@#.ad_slot
 ||fearfulmint.com^$third-party
-besplatka.ua##.adBl
 ||parallelbulb.com^$third-party
 /npsblocker/js/ads.
 ||celestialspectra.com^$third-party
@@ -6838,7 +6837,6 @@ _trackWebtrekkEvents.
 ||is.fi/stats/
 /Quantcast/cmp_v2.js
 ||ubereats.com/_events
-||hexed.it/js/error-reporting.
 ||zip.co/analytics
 ||tvsquared.com^$third-party
 ||parrable.com^$third-party
@@ -10480,7 +10478,6 @@ _rpc/log?
 ||nuggad.net^$third-party
 ||agency360.io^$third-party
 ||mpianalytics.com^$third-party
-||hexed.it/js/startup-error.
 ||travel.co.jp/tracking.asp
 ||hashnest.com^$third-party
 @@||fdi.fiduciarydecisions.com/v/app/components/*/Analytics.js$script,~third-party
