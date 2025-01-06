@@ -1,4 +1,4 @@
-# Update time: 2025-01-05 20:29:45
+# Update time: 2025-01-06 09:18:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6009,7 +6009,6 @@ ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsport
 /counter_2.php?
 /hit.t?
 ||hs.fi/stats
-||ingage.tech^$third-party
 /ouibounce.min.js
 ||myseostats.com^$third-party
 /cdn-cgi/rum?
@@ -9117,7 +9116,6 @@ abema.tv##+js(rmnt, script, NREUM)
 ||widgets.trustedshops.com^$third-party
 ||thetimes.co.uk/track?
 /beacon/collector/*
-/taboola-header.js$script
 ||digital.flytedesk.com/js/head.js
 /log/init?
 ||notix.io^$third-party
@@ -9958,7 +9956,6 @@ _rpc/log?
 ||glassboxcdn.com^$third-party
 ||searchfeed.com^$third-party
 ||virool.com^$third-party
-||ssm.codes^$third-party
 ||ep4p.com^$third-party
 /evergage.min.js
 /trck/eclick/*
@@ -11500,7 +11497,6 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||h.seznam.cz/hit
 /trace/link/*$image
 /engage.indeed.com/*$image
-||hbwrapper.com^$third-party
 ||deliveryrank.com/drapp070eb2deb1932e2101e6.js
 ||ipstatp.com/growth/fe_sdk/reportsdk/$third-party
 /log/web?
@@ -13039,7 +13035,6 @@ _WebVitalsReporter_
 ||excite.ie/?click_in=
 ||iqm.com^$third-party
 @@||f-gear.ec-optimizer.com/img/spacer.gif$image,domain=ec.f-gear.co.jp
-||prf.hn^$third-party
 ||24log.ru^$third-party
 ||perfops.net/rom3/
 /utm.gif?
