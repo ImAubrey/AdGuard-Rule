@@ -1,4 +1,4 @@
-# Update time: 2025-01-06 20:33:27
+# Update time: 2025-01-07 09:15:41
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11899,7 +11899,6 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||leparking.fr/*/Tracker.js
 ||leadlab.click^$third-party
 ||flipboard.com/usage?
-@@||rackcdn.com/stf.js$script,domain=20min.ch
 /stats/ping?
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$~third-party
 ||coinzillatag.com^$third-party
@@ -13234,6 +13233,7 @@ _WebVitalsReporter_
 ||acexedge.com^$third-party
 ||aamsitecertifier.com^$third-party
 @@||moneypartners.co.jp/web/*/fingerprint.js$~third-party
+@@||relevant-digital.com^$script,domain=20min.ch
 ||spox.com/pub/js/track.js
 ||ocmail1.in/rtw/$image
 /log.aspx?
