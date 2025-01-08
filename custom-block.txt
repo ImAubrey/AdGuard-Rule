@@ -3,6 +3,7 @@
 ||httpdns.*^$important
 ||ingest.sentry.io^$important
 ||use-application-dns.net^$empty,important
+||*^$dnstype=HTTPS
 
 @@||geolocation.onetrust.com^^$important
 ! Tver
