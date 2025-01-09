@@ -4,7 +4,7 @@
 ||ingest.sentry.io^$important
 ||use-application-dns.net^$empty,important
 ||*^$dnstype=HTTPS
-
+||bgp.tools^$dnstype=AAAA
 @@||geolocation.onetrust.com^^$important
 ! Tver
 @@||js-agent.newrelic.com^$important
