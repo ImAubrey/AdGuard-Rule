@@ -1,4 +1,4 @@
-# Update time: 2025-01-08 20:33:03
+# Update time: 2025-01-09 09:15:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -265,7 +265,6 @@ exler.ru##.adblock-pls
 ||frogtray.com^$third-party
 freestore.app##.adbn2-wrap2
 ||amethystzenith.com^$third-party
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fileink.com|rockmods.net
 ||ruralrobin.com^$third-party
 ||haplesshydrant.com^$third-party
 ||hystericalcloth.com^$third-party
@@ -1160,6 +1159,7 @@ gisher.org##body > div[id^="ban"][style]
 ||cushiondrum.com^$third-party
 ||educrated.com^$third-party
 ||successfulscent.com^$third-party
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=exe-urls.com|fileink.com|rockmods.net
 ||brainynut.com^$third-party
 imgrutor.com##div[class^="adblock-warning"]
 @@/ads.js$script,~third-party,domain=abcbourse.com|action-sociale.org|anime-vf.fr|impactmangas.fr|presse-algerie.net|primfx.com|undernews.fr
