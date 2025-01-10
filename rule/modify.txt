@@ -1,4 +1,4 @@
-# Update time: 2025-01-09 20:32:50
+# Update time: 2025-01-10 09:17:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5068,6 +5068,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 @@||api.omappapi.com/v3/geolocate/json$domain=seclore.com
 ||cloudtracer101.com^$third-party
 ||browserpusher.com^$third-party
+||nitroscripts.com^$script,domain=pcguide.com
 ||performgroup.com/metrics/
 /stats_js.asp
 /referrer_tracking.js
