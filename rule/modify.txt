@@ -1,4 +1,4 @@
-# Update time: 2025-01-10 20:32:38
+# Update time: 2025-01-11 09:15:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3451,6 +3451,7 @@ _logHuman=
 ||foodpanda.my/lJuB4eTB/init.js
 /odoscope.js
 ||freetrafficsystem.com^$third-party
+||octotracking.com^$third-party
 ||uol.com.br/stats?
 ||lockview.cn^$third-party
 /acounter.php?
