@@ -1,4 +1,4 @@
-# Update time: 2025-01-11 20:30:13
+# Update time: 2025-01-12 09:22:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2508,6 +2508,7 @@ _logHuman=
 /logaholictracker.php
 ||crunchbase.com/rw7M6iAV/init.js
 ||salesviewer.com^$third-party
+://links.paypal.*/eos/$image
 ||inspectlet.com^$third-party
 ||smarterhq.io^$third-party
 /insights/reportEvent/*
@@ -10129,7 +10130,6 @@ _rpc/log?
 ||demandbase.com^$third-party
 ||hujiang.com/v2/log
 ||ztcadx.com^$third-party
-||getpocket.com/t/
 ||visilabs.net^$third-party
 @@||live.rezync.com^$script,domain=batteriesplus.com
 /webstatistics.php?
@@ -11782,7 +11782,6 @@ img.promio-connect.com$image
 ||wattpad.com/js/tracker/app.
 ||userzoom.com^$third-party
 ||digitaladvisor.dk^$third-party
-||getpocket.com/web-client-api/braze
 ||masutabe.info/js/access.js
 /divolte.js
 ||arcadeweb.com^$third-party
