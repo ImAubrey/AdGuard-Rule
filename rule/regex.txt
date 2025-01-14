@@ -1,4 +1,4 @@
-# Update time: 2025-01-13 20:34:13
+# Update time: 2025-01-14 09:12:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -374,6 +374,7 @@
 ||c*hit.zerkalo.io^
 ||mon-*.tiktokv.com^
 ||pixelapi-*.cs.mysamba.tv^
+||acr-*-prd.samsungcloud.tv^
 ||api*.batmobil.net^
 ||ej1*.online^
 ||log-*.epicdn.me^

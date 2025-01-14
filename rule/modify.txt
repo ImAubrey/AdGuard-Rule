@@ -1,4 +1,4 @@
-# Update time: 2025-01-13 20:34:13
+# Update time: 2025-01-14 09:12:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5533,6 +5533,7 @@ _stat_counter.php?
 ||mialbj6.com^$third-party
 /anametrix/cas.js
 ||adoftheyear.com^$third-party
+/rum?ddsource=
 @@||dmp.im-apps.net/pms/*/pmt.js$domain=zakzak.co.jp
 ||px-cdn.net^*/collector
 /diffuser.js
@@ -6836,6 +6837,7 @@ _trackWebtrekkEvents.
 ||s.pixfs.net/visitor.pixplug.in/
 ||tda.io^$third-party
 ||progressive.com/Log/
+||lensdirect.com/page-tracking/
 ||coinwebmining.com^$third-party
 ||stat24.ru^$third-party
 ||relevant-digital.com^$third-party
