@@ -1,4 +1,4 @@
-# Update time: 2025-01-15 20:31:36
+# Update time: 2025-01-16 09:13:14
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4439,7 +4439,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||loomi-prod.xyz^$third-party
 /observations/capture?
 ||euro.com.pl/log-customer-visit
-@@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|robertsspaceindustries.com
 ||lederer.nl/incl/stats.js.php?
 ||serveipqs.com^$third-party
 ||trustradius.com/api/v1/pageview
@@ -11373,6 +11372,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 /collect.gif?
 /js/analitics.js
 /logjs.php
+@@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|petsafe.com|robertsspaceindustries.com
 ||popsample.com^$third-party
 ||mbww.com^$third-party
 /counter?id=
