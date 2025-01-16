@@ -1,4 +1,4 @@
-# Update time: 2025-01-16 09:13:14
+# Update time: 2025-01-16 20:31:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4415,6 +4415,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||wcfbc.net^$third-party
 ||liberation.fr/newsite/js/cmp/
 ||providesupport.com/cmd/$image
+||bitchute.com/data/script.js
 ||qwant.com/action/
 ||www-google-analytics.l.google.com^$third-party
 ||fkondate.com^$third-party
@@ -8652,6 +8653,7 @@ _track_pixel.gif?
 /collector/hit?
 ||truconversion.com^$third-party
 /uutils.fcg?
+.pledgebox.com/t/$image
 ||trackalyzer.com^$third-party
 ||odoscope.com^$third-party
 ||srvmath.com^*/analytics.js
@@ -9661,6 +9663,7 @@ visible.com##+js(set-local-storage-item, browser-ids, $remove$)
 /exittracker.js
 ||affirm.com/api/v2/cookie_sent
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
+.nordvpn.com/q/$image
 /pr.php?
 ||naturaltracking.com^$third-party
 ||statpipe.ru^$third-party
@@ -12005,6 +12008,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 /beacon/stats
 ||minero-proxy-*.sh^$third-party
 /monsido.js
+||agbi.com/kqmp6?
 ||europuls.eu^$third-party
 ||sparkasse.de/frontend/setTrackingCookie.htm
 ||cardinalcommerce.com/prod/log
