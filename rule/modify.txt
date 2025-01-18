@@ -1,4 +1,4 @@
-# Update time: 2025-01-18 09:11:20
+# Update time: 2025-01-18 20:28:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4828,7 +4828,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 /analytics.*/ping/?
 ||cohesionapps.com^$third-party
 ||instore.biz^$third-party
-||zillow.com/HYx10rg3/init.js
 ||indigitall.com^$third-party
 ||booktopia.com.au/Ns7aBMIv/init.js
 ||fb.ru/stat/
@@ -5914,6 +5913,7 @@ ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsport
 ||somquery.sqrt-5041.de/tv/tracking-event
 /woopra.js
 /wstats.php?
+||sygrip.info^$third-party
 ||neowin.net/ws/$websocket
 ||datamind.ru^$third-party
 /VisitorIdentification.js
