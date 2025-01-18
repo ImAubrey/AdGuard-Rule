@@ -1,4 +1,4 @@
-# Update time: 2025-01-17 20:30:51
+# Update time: 2025-01-18 09:11:20
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3358,6 +3358,7 @@ _logHuman=
 ||groupon.com/analytic/
 ||olacontent.schwab.com^$script
 ||dropbox.com/2/client_metrics
+@@||ttmetrics.faz.net/rest/v1/delivery?$domain=faz.net
 ||tio.ch/lib/videojs/video-js-tiostats.js
 ||walmartpetrx.com/1Ct9c6G3/init.js
 ||blogreaderproject.com^$third-party
@@ -5387,6 +5388,7 @@ _stat_counter.php?
 ||datadome.co^$third-party
 ||player-cdn.com/cdn-cgi/trace
 ||irecommend.ru/collect/
+@@||sams.11freunde.de/ee/irl1/v1/interact?$domain=11freunde.de
 ||kohls.com/mtFndb/
 /track/pageview?
 /analysis-logger/*
@@ -8082,6 +8084,7 @@ _beacon?
 ||merriam-webster.com/lapi/v1/mwol-search/stats/lookup
 /pqt.email/o/*$image
 /cwTRACK.js
+@@||sams.spiegel.de/ee/irl1/v1/interact?$domain=spiegel.de
 ||trackedweb.net^$third-party
 ||dugout.co/das2.js
 ||id-visitors.com^$third-party
