@@ -1,4 +1,4 @@
-# Update time: 2025-01-18 20:28:10
+# Update time: 2025-01-19 09:18:37
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2760,7 +2760,6 @@ _logHuman=
 ||lumatag.co.uk^$third-party
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 /tr/pageview/*
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|tatamotors.com|usanetwork.com
 ||intelligencefocus.com^*/websensor.aspx?
 ||roadster.com/roadster_dealer_analytics
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
@@ -3118,7 +3117,6 @@ _logHuman=
 /ga_footer.js
 ||activengage.com/overwatch/
 /stwc/code.js
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
 @@||thomas.co/sites/default/files/google_tag/primary/google_tag.script.js$script,~third-party
 /nm/itracking?
 ||logcounter.com^$third-party
@@ -3510,6 +3508,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||goodreads.com/report_metric
 ||azureedge.net/javascripts/Tracking.
 ||californiatimes.com/privacy/$image
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|subwy.com|tatamotors.com|usanetwork.com
 @@||auth2.picpay.com^*/event-tracking.js$script,~third-party
 ||inbox.lv^*/ga.js
 ||datayi.cn^$third-party
@@ -3858,7 +3857,6 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 /google_tag.data_layer.js
 ||foodcouture.net/public_html/ra/script.php
 /cgi-bin/cnt/*
-ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||evyy.net^$third-party
 ||spylog.ru^$third-party
 ||puls.lv^$third-party
@@ -3998,6 +3996,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||urlbrief.com^$third-party
 ||dadi.technology^$third-party
 ||myfastcounter.com^$third-party
+subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||infinigraph.com^$third-party
 ||twitter.com/jot.html
 ||sitealyse.de^$third-party
@@ -5713,7 +5712,6 @@ _stat_counter.php?
 ||whoisvisiting.com^$third-party
 ||contactatonce.com/GetAgentStatusImage.aspx?
 ||usabilla.com^$third-party
-ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 ||sokrati.com^$third-party
 ||rltd.io/tags/
 ||formstack.com/forms/analytics.php
@@ -11248,6 +11246,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 /bloomreach.js
 /census/RecordHit
 ||stealth.nl^$third-party
+subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 ||gamergen.com/ajax/actualites/addVue
 /track/cm?
 /global-analytics.js
@@ -11732,6 +11731,7 @@ _event_tracking?
 /cedexis.radar.js
 ||richard-group.com^$third-party
 ||browser-intake-datadoghq.eu^$third-party
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
 ||kccsrecommend.site/torimochi_log/
 ||foodpanda.la/lJuB4eTB/init.js
 ||ooyala.com/3rdparty/comscore_
