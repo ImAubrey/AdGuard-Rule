@@ -1,4 +1,4 @@
-# Update time: 2025-01-23 20:32:04
+# Update time: 2025-01-24 09:13:39
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6537,6 +6537,7 @@ _webanalytics.
 ||ppcdn.it/iol/tracklib.3.js
 ||algolia.io/1/events?
 @@||reallyfreegeoip.org/json/$domain=thekitchensafe.com
+.vzbv.de/-open2/$image
 /itgdtracksdk.js
 ||bigmir.net^$third-party
 ||stat-track.com^$third-party
