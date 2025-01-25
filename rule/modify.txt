@@ -1,4 +1,4 @@
-# Update time: 2025-01-24 20:31:09
+# Update time: 2025-01-25 09:10:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3270,7 +3270,6 @@ _logHuman=
 ||parsely.com/keys/$script,third-party
 ||streamads.com/view?
 /anclytic.htm
-@@||ipinfo.io/json$domain=ptube.pipio.site|queye.co
 ||proofpoint.com^$third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
 ||reddit.com/static/pixel.png$image
@@ -5632,7 +5631,6 @@ _stat_counter.php?
 /log.php?id
 ||trumba.com/et.aspx?
 ||samsclub.com/px/PXsLC3j22K/init.js
-@@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
 /hitbox.js
 /impression.js?
 ||engineering.com/scripts/$script,domain=eng-tips.com
@@ -8972,7 +8970,6 @@ abema.tv##+js(rmnt, script, NREUM)
 /codesters-analytics.
 @@||tagcommander.com^*/tc_$script
 /analytics-minimal-v4.js
-||ipinfo.io^$third-party
 /stats/collect/*
 ||freshplum.com^$third-party
 /log/client/messages
@@ -11936,6 +11933,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 /blogcounter.js
 /geoAnalysis.js
 .substackcdn.com/open?$image
+||f-tra.com^$third-party
 /clickctrl.js
 ||didit.com^$third-party
 ||srf.ch/udp/tracking/
