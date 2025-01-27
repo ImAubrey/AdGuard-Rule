@@ -1,4 +1,4 @@
-# Update time: 2025-01-26 20:27:54
+# Update time: 2025-01-27 09:14:50
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2771,7 +2771,6 @@ _logHuman=
 ||databreakers.com^$third-party
 /jsstat.cgi?
 ||brownsshoes.com/IZ/2tcS0qiG/init.js
-@@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com|spirithalloween.com
 /TealeafSDKConfig.js
 ||seal.digicert.com^$third-party
 ||zerkalo.io/stat/
@@ -5939,6 +5938,7 @@ _stat_counter.php?
 ||tweakers.nl/track/
 ||memo.co^$third-party
 ||digimedia.com/pageviews.php?
+||coomer.su/api/v1/creators
 /propagate_cookie.php
 ||slidedeck.com^$image,third-party
 /optiextension.dll?$script
@@ -5946,6 +5946,7 @@ _stat_counter.php?
 ||tree-nation.com/js/track.js
 /mi/insite/*
 ||chatfuel.com/cf-analytics/
+||kemono.su/api/v1/creators
 /stream/log.html?
 ||scribd.com/api/v1/events
 ||aprtn.com^$third-party
@@ -6103,6 +6104,7 @@ _stat_counter.php?
 .content_tracking.js
 /trackingGA.js
 ||expedia.com/vaclog/
+@@||cloudflare.com/cdn-cgi/trace$domain=d1milano.com|infyspringboard.onwingspan.com|injora.com|kiichin.com|myair.resmed.com|twgtea.com
 /analytics_events.js
 ||kobo.com/TrackClicks
 /jsonp_geoip?
@@ -9915,6 +9917,7 @@ $ping,third-party
 /outbrainAd.
 ||numerino.cz^$third-party
 $third-party,xmlhttprequest,domain=opensubtitles.org
+coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 /trace-Update.php?
 ||webtrekk.de^$third-party
 ||bukalapak.com/track-external-visit
@@ -10739,7 +10742,6 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||notify.solutions^$third-party
 ||cloudzilla.ai/ingest/
 ||icstats.nl^$third-party
-||rfksrv.com/rfk/$third-party
 ||motorsport.com/stat/
 ||unblog.fr/cu.js
 ||nofraud.com^*/customer_code.js
@@ -12217,7 +12219,6 @@ _ad_impression.
 ||conversionly.com^$third-party
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
 ||prism.app-us1.com^$script,third-party
-@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|kiichin.com|myair.resmed.com|twgtea.com
 ||listrakbi.com/api/ActivityEvents/
 /pvcount.php
 ||emediatrack.com^$third-party
