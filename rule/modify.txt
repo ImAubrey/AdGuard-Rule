@@ -1,4 +1,4 @@
-# Update time: 2025-01-27 09:14:50
+# Update time: 2025-01-27 20:32:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2107,7 +2107,6 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 247sports.com,androidpolice.com,bringmethenews.com,mensjournal.com,arstechnica.com,audizine.com,blackenterprise.com,boston.com,britannica.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
 /webstats.js
 /ga_event_tracking.js
-||h.seznam.cz/js/dot-small.js
 ||users-api.com^$third-party
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 /wp-monero-miner-class.js
@@ -6767,6 +6766,7 @@ _trackWebtrekkEvents.
 ||6pm.com/onload.cgi?
 ||carsandbids.com/a/p
 ||scupio.com^$third-party
+||h.seznam.cz/js/dot-small.js$domain=~stream.cz
 ||gsimedia.net^$third-party
 ||trackjs.com/agent/$script,third-party
 /rtracker/ofs.rtt.js
