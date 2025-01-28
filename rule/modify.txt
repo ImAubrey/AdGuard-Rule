@@ -1,4 +1,4 @@
-# Update time: 2025-01-28 09:13:19
+# Update time: 2025-01-28 20:31:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5937,7 +5937,6 @@ _stat_counter.php?
 ||tweakers.nl/track/
 ||memo.co^$third-party
 ||digimedia.com/pageviews.php?
-||coomer.su/api/v1/creators
 /propagate_cookie.php
 ||slidedeck.com^$image,third-party
 /optiextension.dll?$script
@@ -5945,7 +5944,6 @@ _stat_counter.php?
 ||tree-nation.com/js/track.js
 /mi/insite/*
 ||chatfuel.com/cf-analytics/
-||kemono.su/api/v1/creators
 /stream/log.html?
 ||scribd.com/api/v1/events
 ||aprtn.com^$third-party
