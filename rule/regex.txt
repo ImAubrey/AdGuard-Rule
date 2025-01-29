@@ -1,4 +1,4 @@
-# Update time: 2025-01-29 09:13:18
+# Update time: 2025-01-29 20:31:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -184,7 +184,6 @@
 ||host*.nti.nl^
 ||ping*.qq.com^
 ||cj1*.online^
-||sell*.etlong.com^
 ||sd.yhzzzs*.com^
 ||counter*.stat.ovh^
 ||host*.carl-ras.dk^
@@ -257,10 +256,8 @@
 ||zazgiyoh*.xyz^
 ||tracking*.euroads.fi^
 ||ulog*.*^
-||d*.wanzhuang.com^
 ||ifengad.*.ifeng.com^
 ||bjkedv*.xyz^
-||toujing*.top^
 ||p26.gejulm*.com^
 ||adservice.google.*^
 ||hostingcloud.*.wasm^
@@ -289,7 +286,6 @@
 ||datacollector-*.dt.hicloud.com^
 ||n*adserv.xyz^
 ||piwik.*.vn^
-||fls-*.amazon.com^
 ||production-adserver-*.amazonaws.com^
 ||sonar*.xy.fbcdn.net^
 ||adsfilebssdlbig.*.kugou.com^
@@ -356,7 +352,6 @@
 ||n*adserv.com^
 ||apple.com-*.live^
 ||s*.skencituer.com^
-||hbbtv.*.de^
 ||batchlogging*-noneu.truecaller.com^
 ||apple-*.le.com^
 ||imp-*.jampp.com^
@@ -365,7 +360,6 @@
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||adv0*.msa.cdn.mediaset.net^
-||sense-*.tapdb.net^
 ||a*.chajiaotong.com^
 ||gads*s.com^
 ||trk*.vidible.tv^
@@ -386,7 +380,6 @@
 ||metric*.rediff.com^
 ||ad-*.amazonaws.com^
 ||ads*-normal*.zijieapi.com^
-||ap*.jj20.com^
 ||ac*.faxingchina.com^
 ||tnc*.zijieapi.com^
 ||log*.zijieapi.com^
@@ -415,7 +408,6 @@
 ||zabdybod*.club^
 ||ads*.depositfiles.org^
 ||hads*s.com^
-||api.*.hismarttv.com^
 ||geoloc*.geo20120530.com^
 ||fp-*it*.fengkongcloud.com^
 ||aj3*.bid^
@@ -456,7 +448,6 @@
 ||aj2*.bid^
 ||pixel-*.convertagain.net^
 ||analytics*.prezly.com^
-||ap*.pl520.com^
 ||collector*.ex.co^
 ||union*.365inews.com^
 ||vns86.oss-*.aliyuncs.com^
