@@ -1,4 +1,4 @@
-# Update time: 2025-01-29 20:31:31
+# Update time: 2025-01-30 09:12:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10831,6 +10831,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||yandexcdn.com/cdn-cgi/trace
 ||we-stats.com^$third-party
 ||adsmatcher.com^$third-party
+.personaclick.com/track/$image
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
 @@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
 /inline-pixel.js
@@ -12130,6 +12131,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||braze.eu/api/v3/data/
 /cgi-bin/ctn?
 ||nbcudigitaladops.com/hosted/housepix.gif
+://plausible.*/api/event|
 ||aftonbladet.se/trafikfonden/
 /analytics-js/*
 ||rankingpartner.com^$third-party
@@ -12189,6 +12191,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 /i.php?i=
 ||adschoom.com^$third-party
 ||minero.cc^$third-party
+||nakedanalytics.net^$third-party
 /valnetinccom-adapter.js
 ||yahoo.com/beacon/
 /BKVTrack.js
@@ -12337,6 +12340,7 @@ _ad_impression.
 ||trib.al^$image,third-party
 ||britepool.com^$third-party
 ||toptracker.ru^$third-party
+://plausible.*/js/script.
 /logging/pageView
 ://analytics.*/collect
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
