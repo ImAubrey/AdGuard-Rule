@@ -1,4 +1,4 @@
-# Update time: 2025-02-01 09:17:32
+# Update time: 2025-02-01 20:28:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2406,6 +2406,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||thank-you.io^$third-party
 ||enhance.co.jp^$third-party
 ||ss4w.de/counter.php?
+/?s=from_notification_service&u=$image
 ||sohu.com/count/
 .facebook.com/tr?$image
 ||fandommetrics.com^$third-party
@@ -4261,6 +4262,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||travel.co.jp/js/analysis.js
 ||journera.com^$third-party
 ||facebook.com/ajax/qm/
+||hoyoverse.com/dora/biz/*-h5log/
 /tjx-tracking-data.js
 ||userway.org/api/v1/stats
 /wutime-adblocktracker/*
@@ -10126,7 +10128,6 @@ _rpc/log?
 @@||toweroffantasy-global.com/events/accounttransfer/public/js/fingerprint.js$~third-party
 /log/debug?
 ||mediadelivery.net/.metrics/
-||hoyoverse.com/dora/biz/mihoyo-h5log/
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|toggo.de|vip.de
 ||nytlog.com^$third-party
 ||canstockphoto.com/server.php?rqst=track
