@@ -1,4 +1,4 @@
-# Update time: 2025-02-01 20:28:08
+# Update time: 2025-02-02 09:17:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3353,6 +3353,7 @@ _logHuman=
 ||engageclick.com^$third-party
 ||groupon.com/analytic/
 ||olacontent.schwab.com^$script
+||hoyoverse.com/device-fp/
 ||dropbox.com/2/client_metrics
 @@||ttmetrics.faz.net/rest/v1/delivery?$domain=faz.net
 ||tio.ch/lib/videojs/video-js-tiostats.js
@@ -9258,6 +9259,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||affinitymatrix.com^$third-party
 ||terabox.com/nodeapi/reporterror?
 ||mirabelsmarketingmanager.com^$third-party
+/sentry-tracing.min.js
 /pushlog.min.js
 /tracking/referrer?
 /taganalyticscnil.js
