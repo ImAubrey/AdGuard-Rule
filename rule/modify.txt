@@ -1,4 +1,4 @@
-# Update time: 2025-02-02 09:17:10
+# Update time: 2025-02-02 20:27:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8226,6 +8226,7 @@ _beacon?
 ||vizisense.net^$third-party
 ||stats4free.de^$third-party
 ||ashleyfurniture.com/ouqLB4fq/init.js
+/report_ga_events/*
 ||splittag.com^$third-party
 /stats?object
 /dlpageping?
@@ -9971,6 +9972,7 @@ _rpc/log?
 ||change.org/api-proxy/-/bandit/pull
 ||thefreedictionary.com/_/tr.ashx?
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
+||coincarp.com/cdn-cgi/trace
 ||infosniper.net/locate-ip-on-map.php
 /sherlock.gif?
 ||datacygnal.io^$third-party
@@ -11668,6 +11670,7 @@ _event_tracking?
 ||adregain.com^$third-party
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 /fkounter5/counter.js
+||coincarp.com/script/events.js
 ||footprintdns.com^$third-party
 .spmailtechnol.com/q/$image
 @@||lab.eu.amplitude.com^$xmlhttprequest,domain=bluelightcard.co.uk
