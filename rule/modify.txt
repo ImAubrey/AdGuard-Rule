@@ -1,4 +1,4 @@
-# Update time: 2025-02-02 20:27:42
+# Update time: 2025-02-03 09:14:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2250,6 +2250,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /ope-adalliance.js
 /gtm-data-layer-$script
 /click_stats.js
+||support.google.com/apis/logjourney
 ||aemet.es/js/stats.js
 ||verify.authorize.net^$third-party
 ||iys.org.tr/mti-popts.js
@@ -3714,6 +3715,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||collecting.click^$third-party
 ||run.app/events$domain=imgur.com|worldstar.com|worldstarhiphop.com
 @@||clerk.io/clerk.js$script,domain=trony.it
+/log-moltron-interaction?
 ||qchannel03.cn^$third-party
 /webtraffic.js
 ||tanweb.net/wordpress/?rest_route=/sng/v1/page-count
