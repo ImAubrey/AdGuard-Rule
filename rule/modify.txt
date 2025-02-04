@@ -1,4 +1,4 @@
-# Update time: 2025-02-03 20:31:31
+# Update time: 2025-02-04 09:13:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5010,6 +5010,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 /gcount.pl?
 ||alcmpn.com^$third-party
 ||alicdn.com/tkapi/click.js
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=medscape.com|nbc.com|subwy.com|tatamotors.com|usanetwork.com
 ||pipeline.lc.nl^$~script
 ||crowdskout.com/analytics.js
 ||fprnt.com^$third-party
@@ -9287,7 +9288,6 @@ abema.tv##+js(rmnt, script, NREUM)
 /trbo.js
 ://blue.*/script.js
 ||dc-storm.com^$third-party
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain==medscape.com|nbc.com|subwy.com|tatamotors.com|usanetwork.com
 /c.gif?
 ||tvpage.com/tvpa.min.js
 ||affiliateedge.eu^$third-party
