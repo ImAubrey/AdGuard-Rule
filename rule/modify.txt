@@ -1,4 +1,4 @@
-# Update time: 2025-02-04 20:32:25
+# Update time: 2025-02-05 09:14:58
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8110,7 +8110,6 @@ _beacon?
 ||classistatic.com^*/js/lib/prebid-7.5.0.min.js$script,domain=kijiji.ca
 ||qzone.qq.com/iframe/report
 ||mouseflow.com^$third-party
-||pendo.io^$third-party
 /analytics-hit?
 ||msgapp.com^$third-party
 ||actu.fr/assets/js/smarttag5280-1.js
@@ -11682,7 +11681,6 @@ _event_tracking?
 ||koddi.com^$third-party
 ||woopra.com^$third-party
 ||app.posthog.com/e/?compression=
-@@||pendo.io/agent/static/$script,domain=recruiting.adp.com
 ||game-i.daa.jp/skin/analytics.php
 ||todomercadoweb.es/pixel
 /hit_count?
@@ -12803,6 +12801,7 @@ _WebVitalsReporter_
 ||baidu.com^*/mwb2.gif?
 ||ometria.com^$third-party
 ||cointelegraph.com/pixel?
+||app.pendo.io/data/$image
 /xgemius.js
 /pxl.gif?
 /api/v1/streamtelemetry

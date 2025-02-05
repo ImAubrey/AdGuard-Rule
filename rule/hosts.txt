@@ -1,4 +1,4 @@
-# Update time: 2025-02-04 20:32:25
+# Update time: 2025-02-05 09:14:58
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -16167,6 +16167,7 @@
 0.0.0.0 www.eelsoup.net
 0.0.0.0 gaiaherbs.fr
 0.0.0.0 viaatomvideo.112.2o7.net
+0.0.0.0 bespokeshirtsmail.com
 0.0.0.0 messardu.com
 0.0.0.0 cdn.freefaits.com
 0.0.0.0 www.reusenproject-n.nl
@@ -16822,6 +16823,7 @@
 0.0.0.0 www.friend-greetings.com
 0.0.0.0 w22.hitbox.com
 0.0.0.0 smartcart.fr
+0.0.0.0 www.ritikhush.com
 0.0.0.0 popupdomination.com
 0.0.0.0 stream-direct.co
 0.0.0.0 nouvelles247.com
