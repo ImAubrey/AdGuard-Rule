@@ -1,4 +1,4 @@
-# Update time: 2025-02-05 09:14:58
+# Update time: 2025-02-05 20:32:14
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2148,6 +2148,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||aol.com/ping?
 /sync?visitor_id=
 ||georiot.com^$third-party
+||openpanel.dev/op1.js
 ||arcteryx.com/943r4Fb8/init.js
 ||maropost.com^$third-party
 ||tmmp.io^$third-party
@@ -2663,7 +2664,6 @@ _logHuman=
 ||arttrk.com/pixel/
 /link.thrillist.com/img/*$image
 ||needle.com/pageload?
-||report.error-report.com^$subdocument
 ||hornymatches.com^*/visit.php?
 @@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
 ||arrowpushengine.com^$third-party
@@ -3100,6 +3100,7 @@ _logHuman=
 /getstats.js.php
 ||edtp.de^$third-party
 /Counter.ashx?
+||essentiallysports.com/api/v1/counts
 ||netbiscuits.net^*/analytics/
 ||bookoffonline.co.jp/files/tracking/
 ||load.tm.all3dp.com/rqlevydw.js
@@ -6686,6 +6687,7 @@ _view_pixel&$image
 /collectsysteminfo?
 ||contactatonce.com/VisitorContext.aspx?
 ||schnaeppchenfuchs.com/js/default-
+||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com
 ||index.ru^$third-party
 /akam/13/*
 ||storage.googleapis.com/afs-prod/tags
@@ -10732,6 +10734,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||naiz.eus/visits
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
 ||bidphysics.com^$third-party
+||essentiallysports.com/growth/engagement/
 /analytics-collector
 ||msecnd.net/next/$script
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
@@ -12327,6 +12330,7 @@ _ad_impression.
 ||wt-eu02.net^$third-party
 ||webiqonline.com^$third-party
 /pixel.*/track/*
+||essentiallysports.com/api/track/
 ||ipfind.com^$third-party
 ||ta.tokopedia.com/promo/v1/views
 ||chron.com/413gkwMT/init.js
@@ -13463,14 +13467,6 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -13502,3 +13498,11 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /^applovin\./
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
