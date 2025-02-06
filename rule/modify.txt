@@ -1,4 +1,4 @@
-# Update time: 2025-02-06 09:14:59
+# Update time: 2025-02-06 20:32:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1579,6 +1579,7 @@ japscan.lol#@#.ad_slot
 /npsblocker/js/ads.
 ||celestialspectra.com^$third-party
 ||pricklydebt.com^$third-party
+codeshare.io##.sad-face
 ||daughterstone.com^$third-party
 asn.in.ua,beadeath.dclans.ru###mdl_ctnr
 ||frugalfiestas.com^$third-party
@@ -2939,6 +2940,7 @@ _logHuman=
 @@||chat.d-id.com/assets/mixpanel.$~third-party
 /c.vialoops.com/*$image
 ||clickprotector.com^$third-party
+@@||store.storeimages.cdn-apple.com^*/appmeasurement.js$domain=apple.com
 ||streamta.site/stat/
 ||virgingames.com/tracker/
 ||pushly.com/pushly-event-tracker
@@ -3992,6 +3994,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||team-rec.jp^$third-party
 ||quant.jp/track/
 /track/component/*
+@@||yieldlove.com/v2/yieldlove-stroeer.js$domain=kino.de
 ||visionarycompany52.com^$third-party
 ||hitmir.ru^$third-party
 ||estadisticasgratis.com^$third-party
@@ -5098,6 +5101,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||sharethis.com/increment_clicks?
 .starbucks.com/a/
 ||agilecrm.com^$third-party
+@@||dmp.theadex.com^*/adex.js$domain=kino.de
 ||flux-cdn.com/plugin/common/analytics/
 ||hotstar.com/v1/track
 /frontend-sentry-
@@ -10436,6 +10440,7 @@ _rpc/log?
 @@||fdi.fiduciarydecisions.com/a/lib/gtag/gtag.js$script,~third-party
 /api/front/v2/observability$ping
 ||pulsemaps.com^$third-party
+||quotev.com/ajax/ping
 /fp/clear2.png
 ||adtive.com^$third-party
 ||geni.us/snippet.min.js
