@@ -1,4 +1,4 @@
-# Update time: 2025-02-08 09:12:35
+# Update time: 2025-02-08 20:28:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2018,6 +2018,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||statcounter.com^$third-party
 /sluurpy_track.js
 ||trafficmaxx.de^$third-party
+@@||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com|bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov
 ||p.ctpost.com/article?
 ||cosmi.io^$third-party
 .app.returnpath.net/
@@ -13240,7 +13241,6 @@ _WebVitalsReporter_
 ||quick-counter.net^$third-party
 ||googlecode.com^*/tracker.js
 /visitor.gif?ts=
-@@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov
 @@||login.ingbank.pl^*/satelliteLib-$script
 ||optimix.asia^$third-party
 ||statcounterfree.com^$third-party
