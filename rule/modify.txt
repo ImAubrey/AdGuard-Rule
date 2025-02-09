@@ -1,4 +1,4 @@
-# Update time: 2025-02-08 20:28:51
+# Update time: 2025-02-09 09:18:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1969,6 +1969,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 @@||sibs.com/fingerprint/sfp2/fp2.min.js$script,domain=net24.bancomontepio.pt
 ||uptime.com/static/rum/$third-party
 ||terabox.fun/api/getsyscfg?*web_share_ads_adsterra_config
+@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||pladform.ru/dive/$xmlhttprequest
 /maillist.*/t/*$image
 ||freestats.ws^$third-party
@@ -5225,6 +5226,7 @@ _stat_counter.php?
 ||b2c.com^$third-party
 /mailings/opened/*$image
 ||sanoma.nl/pixel/
+/pubstats.$domain=~pub.dev|~pubstats.dev
 /datawrapper.gif?
 /simple_reach.js
 ||licdn.com/*.gif?rnd=
@@ -9020,7 +9022,6 @@ abema.tv##+js(rmnt, script, NREUM)
 ||fpad.jp^$third-party
 /evergage.js
 ||netmng.com^$third-party
-/pubstats.$domain=~pubstats.dev
 /rrweb.js
 /js/counter.js?
 ||comagic.ru^$third-party
@@ -10911,7 +10912,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /trckUtil.min.js
 ||mediaserver.emol.cl/rtracker/
 ||trugaze.io^$third-party
-@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 /__ssobj/sync?$image
 ||ctrmi.cn/t/
 ||iovation.com^$third-party
