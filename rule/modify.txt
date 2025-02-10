@@ -1,4 +1,4 @@
-# Update time: 2025-02-10 09:15:50
+# Update time: 2025-02-10 20:32:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12129,7 +12129,6 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||liberty.schip.io/liberty-metrics/
 ||livesegmentservice.com^$third-party
 ||sankei-digital.co.jp/log?
-||loom.com/insights-api/graphql
 ||pan.baidu.com/recent/report?
 ||barilliance.net^$third-party
 /eventtracking-
