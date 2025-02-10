@@ -1,4 +1,4 @@
-# Update time: 2025-02-09 20:28:27
+# Update time: 2025-02-10 09:15:50
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10185,6 +10185,7 @@ _rpc/log?
 ||hamburger-stadtplan.com/t.gif
 ||asterpix.com/tagcloudview/
 ||btg360.com.br^$third-party
+||pelisfree.site/cdn-cgi/trace
 ||sepyra.com^$third-party
 ||klickly.com/track
 ||la7.it/js-live/nielsen1.js
