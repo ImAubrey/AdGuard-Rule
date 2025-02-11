@@ -1,4 +1,4 @@
-# Update time: 2025-02-10 20:32:33
+# Update time: 2025-02-11 09:14:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -395,6 +395,7 @@
 ||geoloc*.geovisite.ovh^
 ||sam*.baby-kingdom.com^
 ||adcs-*.myappsget.com^
+||mssdk*.capcutapi.com^
 ||t*.zcvh.net^
 ||ulog*.kwai-pro.com^
 ||player-feedback*.glomex.*^
@@ -413,6 +414,7 @@
 ||appanalysis*.banggood.com^
 ||maas-*.phunware.com^
 ||api*.batmobi.net^
+||prebid-cache*.ifunny.co^
 ||hstats*.hepsiburada.com^
 ||zabdybod*.club^
 ||ads*.depositfiles.org^

@@ -1,4 +1,4 @@
-# Update time: 2025-02-10 20:32:33
+# Update time: 2025-02-11 09:14:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6340,6 +6340,7 @@ _stat_counter.php?
 ||connect.facebook.net^*/pcm.js$third-party
 ||eage.it/count2.php?
 ||tripcdn.com/bee/collect$domain=trip.com
+/ns.html?id=GTM-
 /trackpagecover?
 ||zed.dev/api/send_page_event
 /tynt.js
@@ -11511,6 +11512,7 @@ subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.
 ||dircont3.com^$third-party
 ||sayyac.net^$third-party
 ||kommersant.uk/banner_stats
+.fiverr.com/js_event_tracking/v1/track_email_open/$image
 /piano-analytics.js
 ||brilliantcollector.com^$third-party
 ||analitycs.net^$third-party
