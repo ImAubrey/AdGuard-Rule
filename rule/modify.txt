@@ -1,4 +1,4 @@
-# Update time: 2025-02-11 20:32:35
+# Update time: 2025-02-12 09:14:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5072,6 +5072,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||threatbook.cn^$third-party
 @@||cleverpush.com/sdk/$script,domain=heise.de
 @@||mapquestapi.com/logger/$domain=hertz.com
+||tutti.ch/api/v10/clientmetrics/report-metric
 ||sweetgum.io^$third-party
 ||pc161021.com/scripts/noui/eventlogger.js
 /adds/counter.js
@@ -13479,14 +13480,6 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -13518,3 +13511,11 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /^applovin\./
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
