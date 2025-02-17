@@ -1,4 +1,4 @@
-# Update time: 2025-02-16 20:31:38
+# Update time: 2025-02-17 09:17:47
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8092,6 +8092,7 @@ _beacon?
 ||78.46.19.203^$third-party,domain=~sprueche-zitate.net.ip
 ||api.rtl.nl/monitoring/
 /b.rnc?
+||fastpic.org/viewed.php?url=/*.html&ref=$xmlhttprequest
 ||ptengine.cn^$third-party
 /gasocialtracking.js
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
