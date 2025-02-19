@@ -1,4 +1,4 @@
-# Update time: 2025-02-19 20:30:22
+# Update time: 2025-02-20 04:51:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11021,6 +11021,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||trsbf.com/static/fbs.min.js
 ||calltrk.com/companies/
 ||chargebee.com/api/internal/track_info_error
+||xapi.ozon.by/perf-metrics-collector/
 ||omataloyhtio.fi/ffsw-pushcrew.js
 @@||gs.statcounter.com/chart.php$script,third-party
 ||fbot.me/error
@@ -11624,6 +11625,7 @@ _event_tracking?
 @@||web-sdk.urbanairship.com/notify/$script,domain=etoro.com
 ||getbackstory.com^$third-party
 ||prod.benchmarkemail.com/tracker.bundle.js
+||st.ozone.ru/s3/ozon-tag-manager/
 /api/pageview?
 ||ip-label.net^$third-party
 ||narkive.com/ajax/TelemV2?
