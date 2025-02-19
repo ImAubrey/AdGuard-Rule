@@ -16,7 +16,7 @@
 @@||bam.nr-data.net^$important
 @@||securepubads.g.doubleclick.net^$important
 ! Youtube
-@@||jnn-pa.googleapis.com^$important
+||www.googleadservices.com^$important
 ! linkedin
 @@||platform.linkedin.com^$important
 @@||px.ads.linkedin.com^$important
@@ -25,4 +25,3 @@
 @@||download.apkpure.com^
 @@||js.intercomcdn.com^$important
 @@||ip2location.com^$important
-
