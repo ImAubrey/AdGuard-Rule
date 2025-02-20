@@ -1,4 +1,4 @@
-# Update time: 2025-02-20 04:51:02
+# Update time: 2025-02-20 09:15:38
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -253,6 +253,7 @@
 ||ad.*.xiaomi.com^
 ||mon*-misc-lf.fqnovel.com^
 ||ads*.textra.me^
+||us.*.qwadro.com^
 ||aj2*.online^
 ||cs*.mp3bars.com^
 ||tracking-v*.a.run.app^
@@ -405,6 +406,7 @@
 ||t*.zcvh.net^
 ||ulog*.kwai-pro.com^
 ||player-feedback*.glomex.*^
+||res*.pinpai8.cn^
 ||zcchyw*.xyz^
 ||log*-misc-lq.amemv.com^
 ||log*.vietnamplus.vn^
@@ -453,6 +455,7 @@
 ||iad-*.braze.com^
 ||ms*.applvn.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
+||bjsvp*.space^
 ||tracking-*.trnox.com^
 ||gtlpa*.com^
 ||gcw*.2liang.cn^
