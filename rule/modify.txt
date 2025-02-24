@@ -1,4 +1,4 @@
-# Update time: 2025-02-24 09:17:53
+# Update time: 2025-02-24 20:33:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4006,7 +4006,6 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||urlbrief.com^$third-party
 ||dadi.technology^$third-party
 ||myfastcounter.com^$third-party
-subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||infinigraph.com^$third-party
 ||twitter.com/jot.html
 ||sitealyse.de^$third-party
@@ -7899,6 +7898,7 @@ _beacon?
 ||204st.us^$third-party
 ||conversionlogic.net^$third-party
 ||cv.ee/static/stat.php
+lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 /rollbar.min.js
 /satismeter.js
 ||allo-media.net^$third-party
@@ -10957,6 +10957,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /call.tracker.js
 ||adskom.com^$third-party
 ||drop.com/impressionsBeacon
+lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||netbiscuits.net^$third-party
 ||api.vp.rambler.ru/events/
 ||slack-edge.com/bv1-10/slack_beacon.
@@ -11274,7 +11275,6 @@ gbatemp.net##+js(set, admiral, noopFunc)
 /bloomreach.js
 /census/RecordHit
 ||stealth.nl^$third-party
-subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 ||gamergen.com/ajax/actualites/addVue
 /track/cm?
 /global-analytics.js
