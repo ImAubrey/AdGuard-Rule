@@ -1,4 +1,4 @@
-# Update time: 2025-02-23 20:29:26
+# Update time: 2025-02-24 09:17:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5526,7 +5526,6 @@ _stat_counter.php?
 ||diritalia.com^*/seosensor.js
 ||pagesjaunes.fr/pmp/
 ||pabidding.io^$third-party
-||teltarif.de/ttt.go?
 ||remind.me^$third-party
 ||yandexmetric.com^$third-party
 /tag/tag.jsp?
@@ -5679,6 +5678,7 @@ _stat_counter.php?
 ||tnctrx.com^$third-party
 /cls/check.php?$image
 /stat2.js
+||teltarif.de/scripts/ttt.v2.js
 ||mtvnservices.com/measurements/
 ||target.com/rum_analytics/
 /edAnalyticsWrapper.js
@@ -5943,7 +5943,6 @@ _stat_counter.php?
 ||conduze.com^$third-party
 ||paginegialle.it/cgi-bin/jimpres.cgi?
 ||awswaf.com^*/telemetry
-||teltarif.de/scripts/fb.js
 /ncj-pixel.js
 ||zoomino.com^$third-party
 /stp.gif?
@@ -13272,6 +13271,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||qq.com/heatmap/
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 ||blvdstatus.com^$third-party
+/kukulufinger2.js
 /trck/etms/*
 ||cdn-sitegainer.com^$third-party
 ||map.baidu.com/newmap_test/static/common/images/transparent.gif
