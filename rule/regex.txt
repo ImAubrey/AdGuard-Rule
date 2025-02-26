@@ -1,4 +1,4 @@
-# Update time: 2025-02-25 20:33:40
+# Update time: 2025-02-26 09:16:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -191,7 +191,6 @@
 ||ads.livetv*.me^
 ||log*-normal-*.tiktokv.us^
 ||hw-sh-pcdn-*.biliapi.net^
-||log*-applog-*.tiktokv.com^
 ||prebid-*.rubiconproject.com^
 ||lt*.tritondigital.com^
 ||api-*.hismarttv.com^
@@ -303,7 +302,6 @@
 ||mcs-*.lemon8-app.us^
 ||ad*.nexage.com^
 ||aj1*.xyz^
-||mon*-platform-*.tiktokv.com^
 ||util-*.simply-hentai.com^
 ||collect-elb-*.amazonaws.com^
 ||collector-*.px-cloud.net^
@@ -386,6 +384,7 @@
 ||pixelapi-*.cs.mysamba.tv^
 ||acr-*-prd.samsungcloud.tv^
 ||api*.batmobil.net^
+||mon*-*.tiktokv.com^
 ||collector-*.px-client.net^
 ||ej1*.online^
 ||log-*.epicdn.me^
@@ -429,10 +428,12 @@
 ||ads*.depositfiles.org^
 ||hads*s.com^
 ||geoloc*.geo20120530.com^
+||mcs.*.tiktokv.com^
 ||fp-*it*.fengkongcloud.com^
 ||aj3*.bid^
 ||host*.rvshare.com^
 ||ulog*.kwaipros.com^
+||log*-*.tiktokv.com^
 ||events-*.op.hicloud.com^
 ||zbc6hye*.xyz^
 ||promo-*.vercel.app^
