@@ -1,4 +1,4 @@
-# Update time: 2025-02-27 09:17:15
+# Update time: 2025-02-27 20:33:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1035,6 +1035,7 @@ biggestplayer.me##.adblock + *
 ||brunchforher.com^$third-party
 zakon.kz##.adblock_alert
 ||snoresmile.com^$third-party
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=exe-urls.com|fileink.com|phoneky.com|rockmods.net
 ot-boutique.fr#@##publicite
 ||muteknife.com^$third-party
 ||endurablebulb.com^$third-party
@@ -1159,7 +1160,6 @@ gisher.org##body > div[id^="ban"][style]
 ||cushiondrum.com^$third-party
 ||educrated.com^$third-party
 ||successfulscent.com^$third-party
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=exe-urls.com|fileink.com|rockmods.net
 ||brainynut.com^$third-party
 imgrutor.com##div[class^="adblock-warning"]
 @@/ads.js$script,~third-party,domain=abcbourse.com|action-sociale.org|anime-vf.fr|impactmangas.fr|presse-algerie.net|primfx.com|undernews.fr
@@ -11348,6 +11348,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 /webdig_test.js
 ||umschool.net/_jts/api/s/track
 ||breadpayments.com/log
+||googleusercontent.com/*/wf/open?upn=$image
 ||freepik.com/_ga?
 ||esports-world.jp/js/banner.event.js
 ||owltrack.com^$third-party
