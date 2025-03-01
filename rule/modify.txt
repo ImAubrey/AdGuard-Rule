@@ -1,4 +1,4 @@
-# Update time: 2025-02-28 20:32:49
+# Update time: 2025-03-01 09:22:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -13418,6 +13418,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||adxvip.com^$third-party
 @@||3voor12.vpro.nl^*/streamsense.min.js$~third-party
 ||smarthint.co/Scripts/i/SmartHintTrack.Full.min.js
+||ahrefs.com^$third-party
 ||web-stat.fr^$third-party
 ||breaktime.com.tw^$third-party
 ||zappos.com/err.cgi?
