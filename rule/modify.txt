@@ -1,4 +1,4 @@
-# Update time: 2025-03-02 09:21:55
+# Update time: 2025-03-02 20:29:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -410,6 +410,7 @@ shuba.life##img[height][src^="https://shuba.life/static/banners/placeholders/"]
 ||subletyoke.com^$third-party
 @@||jeuxvideo-live.com/js/ads.js
 frkp.lol###film > #content > span[style="color:#ff6a00;"]
+reshu.by,reshuent.kz,sdamgia.ru#@#.googlead
 ||degreechariot.com^$third-party
 ||guildalpha.com^$third-party
 ||corgibeachday.com^$third-party
@@ -655,11 +656,11 @@ closermag.fr##div[id^="detection-block"]
 /adblock_alerter/*
 gismeteo.by,gismeteo.ru##div[class^="stopblock"]
 ||amazonaws.com^*/abb-msg.js$domain=hardocp.com
-reshu.by,sdamgia.ru##div[class$="-BlockDetect"]
 ||spottednoise.com^$third-party
 /adblock-alerter/js/adblock_alerter.js
 webofcomics.ru##.reklandvipinfo
 ||defeatedbadge.com^$third-party
+sdamgia.ru##.S29e4f5cdae
 ||exquisiteartisanship.com^$third-party
 @@||yacine-app.com^$generichide
 ###adb-warning
@@ -760,7 +761,6 @@ fightnews.info##body > blockquote
 ||effulgentnook.com^$third-party
 ||puffyloss.com^$third-party
 ||shiverscissors.com^$third-party
-reshu.by,reshuent.kz,reshuolymp.ru,sdamgia.ru#@#.googlead
 ||dancemistake.com^$third-party
 ||combbit.com^$third-party
 ||livelyreward.com^$third-party
@@ -1481,7 +1481,6 @@ animeland.su,itcats.ru,nekto.me,noadsradio.ru,sharkgame.ru,studies.in.ua,w10.jea
 ||fantastictone.com^$third-party
 ||curioussuccess.com^$third-party
 ||tawdryson.com^$third-party
-sdamgia.ru##div[style^="text-align:center; color:red;"][style*="font-size:16px"]
 ||painstakingpickle.com^$third-party
 /nonAdBlock/*
 /google-adblock.
@@ -2052,6 +2051,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||otto.de/error-logging/
 ||novelcool.com/files/js/yh_tj.js
 ||omine.org^$third-party
+||mgln.ai^$~media,third-party
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 ||tagtray.com/api^$third-party
 ||capturemedia.network^$third-party
@@ -9400,7 +9400,6 @@ twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,
 ||announcement.ru^$third-party
 ||eventful.com/apps/generic/$image,third-party
 ||youtube-nocookie.com/api/stats/atr?
-||mgln.ai^$third-party
 /stracking.js
 ||theadex.com^$third-party
 ||global.ssl.fastly.net^$domain=allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|harborfreight.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
