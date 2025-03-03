@@ -1,4 +1,4 @@
-# Update time: 2025-03-03 09:19:32
+# Update time: 2025-03-03 20:33:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1045,6 +1045,7 @@ ot-boutique.fr#@##publicite
 ||cattlecommittee.com^$third-party
 ||tastelesstrees.com^$third-party
 audio-hi-fi.ru,electro-sila.ru##.blok_new > div[style]
+/728x90adblock.
 ##.ad_block_off
 ||magicaljoin.com^$third-party
 ||flakyfeast.com^$third-party
@@ -1862,6 +1863,7 @@ vesti-ukr.com###adblockpopup
 ##.svg-adblock-full--box
 ##.fuckYouAdBlock2
 ||2znp09oa.com^$third-party
+/160x600adblock.
 ||importedinsect.com^$third-party
 ||aliveachiever.com^$third-party
 dominus.kiev.ua##body > #myModal
