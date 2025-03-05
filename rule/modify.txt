@@ -1,4 +1,4 @@
-# Update time: 2025-03-05 09:18:30
+# Update time: 2025-03-05 20:34:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3935,6 +3935,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||scout.us2.salesloft.com^$image
 ||stripedcollar.net^$third-party
 ||userreport.com^$third-party
+||ststandard.com/ping
 ||partners.etoro.com^$script
 ||ok.ru/dk?cmd=videoStatNew
 ||sojern.com^$third-party
