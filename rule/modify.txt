@@ -1,4 +1,4 @@
-# Update time: 2025-03-05 20:34:04
+# Update time: 2025-03-06 09:18:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3738,6 +3738,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 /analytics/call-tracking.js
 /js/ga_event_
 ||nojscontainer.pepperjam.com^$third-party
+@@||main.govpilot.com/jet/js/newrelic.js$~third-party
 ||webeyez.com^$third-party
 ||united.web.de/confirm?
 ||streamelements.com/z/s.js
@@ -4620,6 +4621,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||tscounter.com^$third-party
 ||buzzfeed.com/destination-sync.html
 ||usercentrics.eu/session/$image
+@@||tracklog.58.com/referrer_ershouche_m_Now.js$domain=m.renrenche.com
 ||smileyhost.net^$third-party
 .spmailtechnolo.com/q/$image
 ||netcounter.de^$third-party
@@ -6885,6 +6887,7 @@ _trackWebtrekkEvents.
 /adobe-analytics.js
 ||djuf7jb483wz1.cloudfront.net/p/l.jpg
 ||gmx.net/monitoring/
+/track.sp.actionkit.com/*
 /cgi-bin/lcpnp/*
 ||cmmeglobal.com^$third-party
 ||royalcount.de^$third-party
