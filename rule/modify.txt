@@ -1,4 +1,4 @@
-# Update time: 2025-03-06 20:34:15
+# Update time: 2025-03-07 09:19:21
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10533,7 +10533,6 @@ _rpc/log?
 @@||fdi.fiduciarydecisions.com/v/app/components/*/Analytics.js$script,~third-party
 ||truthsocial.com/instance/innovid.js
 ://analytics.*/pageview/
-||applicationinsights.io^$third-party
 ||havasedge.com^$third-party
 ||cloudfront.net/log.js?
 ||pm14.com^$third-party
@@ -10909,7 +10908,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||dynamicyield.com/imp?
 ||iraiser.eu/analytics.js
 /mmclient.js
-@@||naver.net/wcslog.js$domain=m.tv.naver.com
 ||igen.fr/modules/statistics/statistics.php
 ||qq.com/kvcollect?
 /view-tracking/*$image
@@ -12299,6 +12297,7 @@ _ad_impression.
 ||jsrdn.com/creatives/
 /LogAction?
 ||doda.jp/resources/dcfront/js/usrclkTracking.js
+@@||naver.net/wcslog.js$domain=fragpunk.com|m.tv.naver.com
 /adobe/target/*
 /userfly.js
 ||botscanner.com^$third-party
