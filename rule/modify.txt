@@ -1,4 +1,4 @@
-# Update time: 2025-03-10 20:34:49
+# Update time: 2025-03-11 09:19:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3394,6 +3394,7 @@ _logHuman=
 ||mat6tube.com/api/stats?
 ||priceline.com/svcs/mkt/tag/
 ||roi-rocket.net^$third-party
+||google.com/log^$domain=~meet.google.com
 /x.gif?
 ||volkswagen-italia.it^*/tracking/
 ||wogaa.sg/scripts/wogaa.js
@@ -10098,6 +10099,7 @@ _rpc/log?
 /gb-tracker-client-3.min.js
 ||geoip-db.com^$third-party
 ||adoric-om.com^$third-party
+/marketing.wrightentgroup.com/t/*$image
 ||dialogtech.com^$third-party
 ||k50.ru/tracker/
 /fingerprint3.min.js
@@ -12888,7 +12890,6 @@ _WebVitalsReporter_
 @@||res-x.com^*/Resonance.aspx?
 ||sslproxy.dk^*/analytics.js
 ||smarterremarketer.net^$third-party
-||google.com/log?
 ||e-pagerank.net^$third-party
 /szm_mclient.js
 ||wn.com/count.js
@@ -13340,7 +13341,6 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||linkpulse.com^$third-party
 /stats_tracker.js
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
-||play.google.com/log
 /newtrackingscript.
 ||popin.cc/test/popin_img_m.js
 ||intensedebate.com/remotevisit.php?
