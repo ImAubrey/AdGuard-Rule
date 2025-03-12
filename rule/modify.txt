@@ -1,4 +1,4 @@
-# Update time: 2025-03-12 09:18:13
+# Update time: 2025-03-12 20:34:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -869,6 +869,7 @@ topcraft.ru##.ad-info
 ||drydrum.com^$third-party
 ##.adblock-stop
 @@||docs.w3cub.com^$generichide
+@@||ak.sv^$generichide
 ##.ad-block-enabled
 ||truculentrate.com^$third-party
 ||singroot.com^$third-party
@@ -1174,6 +1175,7 @@ medical-club.net##.blocker-notice,.blocker-overlay
 ||combcompetition.com^$third-party
 ||beamvolcano.com^$third-party
 ||popplantation.com^$third-party
+ak.sv###ignielAdBlock
 delfi.ee###ab--notification-ribbon
 ||excitingtub.com^$third-party
 @@||nouvelle-fiat500.fr/ad-pub.js$script
@@ -2606,7 +2608,6 @@ _logHuman=
 /hockeystack.min.js
 ||e-pagerank.fr/bouton.gif?$third-party
 /i?siteid=
-/WRb.js
 ||webcounter.co.za^$third-party
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare_
 ||epochtimes.de/mp/track/
@@ -6658,6 +6659,7 @@ _view_pixel&$image
 /sranalytics.js
 ||platform.twitter.com/impressions.js
 ||dmtag.jp^$third-party
+/WRb.js^
 /expcount/additional.php
 /teal-comscore-
 ||dyntrk.com^$third-party
@@ -10395,6 +10397,7 @@ _rpc/log?
 /stat.gif?
 ||flx1.com^$third-party
 ||visionsage.com^$third-party
+@@||snowplow.swm.digital^$domain=7plus.com.au
 ||modules.ooyala.com^*/analytics-
 ||voicefive.com^$third-party
 ||cashcount.com^$third-party
