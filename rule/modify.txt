@@ -1,4 +1,4 @@
-# Update time: 2025-03-12 20:34:18
+# Update time: 2025-03-13 09:19:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -610,6 +610,7 @@ nautiljon.com###cmsg
 ||absorbingprison.com^$third-party
 /adblockDetector.
 ||scrubswim.com^$third-party
+nslookup.io##div[id$="-fallback"]
 ||fivesidedsquare.com^$third-party
 ||friendlycrayon.com^$third-party
 ||greyinstrument.com^$third-party
@@ -4010,6 +4011,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 @@||yieldlove.com/v2/yieldlove-stroeer.js$domain=kino.de
 ||visionarycompany52.com^$third-party
 ||hitmir.ru^$third-party
+/log?format=$domain=~meet.google.com
 ||estadisticasgratis.com^$third-party
 ||urlbrief.com^$third-party
 ||dadi.technology^$third-party
@@ -6884,7 +6886,6 @@ _trackWebtrekkEvents.
 ||fishki.net/counter/
 ||benchtag2.co^$third-party
 ||byteoversea.com/monitor_web/
-/com.snowplowanalytics.snowplow/*
 ||countar.de^$third-party
 ||tantifilm.top^*/ping
 ||linezing.com^$third-party
@@ -9104,6 +9105,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /uds/stats?
 ||metering.pagesuite.com^$third-party
 ||newstimes.com/413gkwMT/init.js
+/com.snowplowanalytics.snowplow/*$domain=~7plus.com.au
 ||crosswalkmail.com^$third-party
 /geocc.js
 ||akamai.net/*.babylon.com/trans_box/
@@ -12079,7 +12081,6 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||porngraph.com^$third-party
 ||adthletic.com^$third-party
 /log_h.jsp
-/log?format=
 ?action=impression&
 /adobe.visitor-
 ||anycent.com/analytics/
