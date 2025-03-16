@@ -1,4 +1,4 @@
-# Update time: 2025-03-15 20:30:26
+# Update time: 2025-03-16 09:24:25
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5564,6 +5564,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /rum?ddsource=
 @@||dmp.im-apps.net/pms/*/pmt.js$domain=zakzak.co.jp
 ||px-cdn.net^*/collector
+||amazonaws.com/default/tracking?url=
 /diffuser.js
 ||trustcommander.net/iab-tcfapi/
 ||yotpo.com/widget-assets/yotpo-pixel/
@@ -9980,6 +9981,7 @@ _rpc/log?
 ||blogtw.net^$third-party
 /logreferrer.php?
 ||onlyfree.de^*/counterservice/
+||oita-press.co.jp/js2020/analytics.js
 /dynaTraceMonitor?
 /pixels/track?
 ||mediaplan.ru^$third-party
