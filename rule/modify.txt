@@ -1,4 +1,4 @@
-# Update time: 2025-03-18 09:19:13
+# Update time: 2025-03-18 20:35:05
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -64,6 +64,7 @@ daz3d.ru,portfel.info##body > div[id][style="display: block;"]
 game2day.ru##div[class^="adblock_"]
 ||blockdial.com^$third-party
 gk-stalker.xyz###gkadblock
+rediafile.com##.protection:not(body)
 dealerdunet.fr#@#.text_ads
 ###adblock_detected
 ||oldfashionedoffer.com^$third-party
@@ -268,6 +269,7 @@ exler.ru##.adblock-pls
 ||frogtray.com^$third-party
 freestore.app##.adbn2-wrap2
 ||amethystzenith.com^$third-party
+@@||mon-maire.fr^$generichide
 ||ruralrobin.com^$third-party
 ||haplesshydrant.com^$third-party
 ||hystericalcloth.com^$third-party
@@ -1136,6 +1138,7 @@ scantrad.net##.adbon
 ||detectdinner.com^$third-party
 ||5mcwl.pw^$third-party
 ||adscat.ru^$third-party
+forum-xiaomi.com##div[style="background: rgba(0, 0, 0, 0.9); display: block;"]
 ||balloonbelieve.com^$third-party
 drive2.ru##img[src^="https://avatars.mds.yandex.net/get-adfox-content/"]
 ||alluringbucket.com^$third-party
