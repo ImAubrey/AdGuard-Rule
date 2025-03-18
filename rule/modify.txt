@@ -1,4 +1,4 @@
-# Update time: 2025-03-17 20:35:46
+# Update time: 2025-03-18 09:19:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -86,6 +86,7 @@ multiup.io##.mfp-bg, .mfp-wrap
 ||voraciousgrip.com^$third-party
 fotoshop-online.org##.aslot
 ||debugentity.com^$third-party
+||superchichair.com^$third-party
 patrioty.org.ua###ad_pu_modal
 mnogoto4ka.ru###sb-site > div[class][style*="z-index"][style*="999999"]
 ||colossalcoat.com^$third-party
@@ -163,6 +164,7 @@ pythonworld.ru##.pythonworld-contributor
 ||pluckypocket.com^$third-party
 ||harborcaption.com^$third-party
 ||captivatingcanyon.com^$third-party
+||serenecascade.com^$third-party
 ||immensehoney.com^$third-party
 ||unusualtitle.com^$third-party
 ||worriedwine.com^$third-party
@@ -285,6 +287,7 @@ sdamgia.ru##main > div[class*=" "]:nth-child(-n+2) > div ~ div
 ||sprydelta.com^$third-party
 ||telephoneapparatus.com^$third-party
 playonlinux.com##div[style="text-align:center;  border-radius:7px; width:160px;  border:1px solid #666666;  margin-left:5px;padding-right:5px;color:#FFF;  background-color:#666;font-family:Maven Pro,century gothic, arial, helvetica, sans serif;padding-top:94px;  height:600px;  padding-left:5px; font-size:18px; "]
+||4k.video/b.js
 ||bleachscarecrow.com^$third-party
 ||restrainstorm.com^$third-party
 ||steadfastsound.com^$third-party
@@ -344,6 +347,7 @@ dtf.ru,vc.ru##.layout__right-column > div[class*=" "][style] > div[class*=" "] >
 ##.wp_adblock_detect
 ||highfalutinbox.com^$third-party
 nonameno.com,rusrek.com##.alert
+||onedropocean.com^$third-party
 forumdz.com##body .breadcrumb + center > [color="red"] > b
 papergeek.fr##[id^="padb_widget_"]
 ##.ad-alert-message-text
@@ -615,6 +619,7 @@ sprashivalka.com##.ad
 nautiljon.com###cmsg
 ||absorbingprison.com^$third-party
 /adblockDetector.
+||luminousboulevard.com^$third-party
 ||scrubswim.com^$third-party
 nslookup.io##div[id$="-fallback"]
 ||fivesidedsquare.com^$third-party
@@ -637,6 +642,7 @@ elhow.ru###b-info-wrapper
 ||vividplume.com^$third-party
 ||operationchicken.com^$third-party
 ||falseframe.com^$third-party
+||melodiouscomposition.com^$third-party
 ||coalkitchen.com^$third-party
 ||impulsejewel.com^$third-party
 stalkerportaal.ru##.video_adsense
@@ -669,6 +675,7 @@ webofcomics.ru##.reklandvipinfo
 ||defeatedbadge.com^$third-party
 sdamgia.ru##.S29e4f5cdae
 ||exquisiteartisanship.com^$third-party
+||tinyswans.com^$third-party
 @@||yacine-app.com^$generichide
 ###adb-warning
 ||reconditeprison.com^$third-party
@@ -728,6 +735,7 @@ ixbt.com##.fc-ab-root
 /adblock-modal.
 /adblock-modal-
 ||attractionbanana.com^$third-party
+||full.video/btn.js
 ||processplantation.com^$third-party
 ||sablesmile.com^$third-party
 ||temptteam.com^$third-party
@@ -816,6 +824,7 @@ peers.tv##.moanerwrap
 ||forgetfulflowers.com^$third-party
 ||scarfsmash.com^$third-party
 ||rollconnection.com^$third-party
+||scrapcranes.com^$third-party
 ||profusesupport.com^$third-party
 ||adamantsnail.com^$third-party
 newkaliningrad.ru##body > .soclinks + script + div[class]:not([id])
@@ -837,6 +846,7 @@ hearthhead.com,wowhead.com##.block-bg
 ||boostbehavior.com^$third-party
 ||nondescriptcrowd.com^$third-party
 ||childlikeexample.com^$third-party
+||jaderooster.com^$third-party
 ||currentcollar.com^$third-party
 ###checkadblockernow
 ||adorableanger.com^$third-party
@@ -862,6 +872,7 @@ rusnext.ru###detectAdblock
 etr.fr##.no_block
 professorweb.ru###submain > div[class^="a"][style]
 topcraft.ru##.ad-info
+||wizardbuck.com^$third-party
 ||equablekettle.com^$third-party
 ||flourishingpartnership.com^$third-party
 ||curbminers.com^$third-party
@@ -912,6 +923,7 @@ spanishdict.com##.whitelist
 poncy.ru###hide-adblock
 ###adblock-modal
 ||archswimming.com^$third-party
+||magicminibox.com^$third-party
 ||floodprincipal.com^$third-party
 ||framebanana.com^$third-party
 hypebeast.com,hypebeast.kr#@#.ad-blocked
@@ -963,6 +975,7 @@ acomics.ru##div[style*="/design/common/pic/please"]
 /adblocker-detected.
 ||flourishingcollaboration.com^$third-party
 ||j93557g.com^$third-party
+||tenhourweek.com^$third-party
 ||absurdapple.com^$third-party
 ||colorfulafterthought.com^$third-party
 painart.ru##body > div[id][style^="display: block"][style*="background: red"]
@@ -1138,6 +1151,7 @@ artfile.me###jadb
 ||gleaminghaven.com^$third-party
 ||damagedadvice.com^$third-party
 /adbDetect.
+||marketspiders.com^$third-party
 ||modularmental.com^$third-party
 ||stiffstem.com^$third-party
 ||gossamerwing.com^$third-party
@@ -1179,17 +1193,20 @@ medical-club.net##.blocker-notice,.blocker-overlay
 ||etherealquasar.com^$third-party
 ||elderlybean.com^$third-party
 ||tastesnake.com^$third-party
+||alohamiles.com^$third-party
 @@||dbz-fantasy.com/ads.css
 ||closefriction.com^$third-party
 ||combcompetition.com^$third-party
 ||beamvolcano.com^$third-party
 ||popplantation.com^$third-party
 ||radiantlullaby.com^$third-party
+||tranquilplume.com^$third-party
 ak.sv###ignielAdBlock
 delfi.ee###ab--notification-ribbon
 ||excitingtub.com^$third-party
 @@||nouvelle-fiat500.fr/ad-pub.js$script
 ||optimallimit.com^$third-party
+||rigidveil.com^$third-party
 ||friedone.com^$third-party
 @@||ptitchef.com/js/ads.js
 journaldugeek.com##.banner__content
@@ -1294,6 +1311,7 @@ smotrisport.tv##.dont-add-our-site-pls
 ||stockingsneeze.com^$third-party
 ||datastoried.com^$third-party
 ||flushingbeast.com^$third-party
+||nebulajubilee.com^$third-party
 ||healflowers.com^$third-party
 ||buttonladybug.com^$third-party
 ||scribblestring.com^$third-party
@@ -1319,6 +1337,7 @@ veseloeradio.ru##.racy_sidebar
 ||crackedsafe.com^$third-party
 ||halcyoncanyon.com^$third-party
 ###AdBlockDialog
+||llamavoice.com^$third-party
 ||unaccountablepie.com^$third-party
 ||ivykiosk.com^$third-party
 ###mdp-deblocker-ads
@@ -1420,6 +1439,7 @@ delfi.ee###delfiTopBar
 ||bikepaws.com^$third-party
 _adblocker_detected
 ||spectacularstamp.com^$third-party
+||tireinside.com^$third-party
 ||evasivejar.com^$third-party
 ||smashsurprise.com^$third-party
 ||chaireggnog.com^$third-party
@@ -1501,6 +1521,7 @@ animeland.su,itcats.ru,nekto.me,noadsradio.ru,sharkgame.ru,studies.in.ua,w10.jea
 /nonAdBlock/*
 /google-adblock.
 ||sdefx.cloud/js/acheck.js
+||whymaze.com^$third-party
 @@||static.koreus.com/js/advert.js
 ||threetruck.com^$third-party
 electric-house.ru##.blok_forum > div[style]
@@ -1509,6 +1530,7 @@ md4u.ru###pagecontent > div[style*="background-color"]
 ||crookedcreature.com^$third-party
 /adbDetect/*
 ||burgersalt.com^$third-party
+||shylibrary.com^$third-party
 ||facilitatebreakfast.com^$third-party
 ||fortunatemark.com^$third-party
 ||hollowafterthought.com^$third-party
@@ -1660,6 +1682,7 @@ ph4.ru##div[style^="width: 728px; height: 90px;"]
 ||fatcoil.com^$third-party
 /wp-content/plugins/deadblocker/*
 mover.uz###oframeplayer > [class][style^="display: block"]
+||pixelvariety.com^$third-party
 ||changeablecats.com^$third-party
 ||tealjewel.com^$third-party
 ||floweryoperation.com^$third-party
@@ -1669,6 +1692,7 @@ mover.uz###oframeplayer > [class][style^="display: block"]
 ppc.world##.detected-block-modal
 ||tempttalk.com^$third-party
 redtube.com###slidePanelContainerAB
+||applyless.com^$third-party
 ||butterburst.com^$third-party
 ||plotrabbit.com^$third-party
 ###gothamadblock_overlayh_n
@@ -1705,6 +1729,7 @@ izmailov.tv##.popupBlock
 ||enigmaticvoyage.com^$third-party
 ###advertisementjsalert
 ||flimsythought.com^$third-party
+||nodethisweek.com^$third-party
 technologypep.com##.main-container-wrap > div[class$="-bg"]
 ###adb-actived
 ||lovelydrum.com^$third-party
@@ -1915,6 +1940,7 @@ forum.bestflowers.ru###exposeMask
 ||ambientlagoon.com^$third-party
 ||secondhandfall.com^$third-party
 ||rhymezebra.com^$third-party
+||hookconference.com^$third-party
 ||loudlunch.com^$third-party
 chipinfo.pro###content-container > div[style^="position: fixed;"]
 ##.diysdk_webServices_banners1und1MainContent
