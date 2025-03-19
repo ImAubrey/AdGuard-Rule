@@ -1,4 +1,4 @@
-# Update time: 2025-03-18 20:35:05
+# Update time: 2025-03-19 09:20:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11909,6 +11909,7 @@ img.promio-connect.com$image
 ||freesitemapgenerator.com^$third-party
 ||dditscdn.com/log/
 ||ebis.ne.jp^$third-party
+.sp1-brevo.net/mk/op/$image
 ||pubexchange.com^$third-party
 ||dribbble.com/client_app/screenshot_boost_ad_events
 /vissense.js
