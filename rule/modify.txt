@@ -1,4 +1,4 @@
-# Update time: 2025-03-21 20:33:50
+# Update time: 2025-03-22 09:18:40
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6122,7 +6122,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||branch.io^$third-party
 /tracklib.min.js
 /api/cmp_tracker|
-&mi_ecmp=$image
 ||webanalytic.info^$third-party
 /pageview?t=
 ||helpshift.com/events/
