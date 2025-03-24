@@ -1,4 +1,4 @@
-# Update time: 2025-03-24 09:22:24
+# Update time: 2025-03-24 20:36:00
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6635,6 +6635,7 @@ _view_pixel&$image
 ||bouncepilot.com^$third-party
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
 ||frog.wix.com^$image,ping,xmlhttprequest
+||rttrk.com^$third-party
 /gridinbound.blob.core.
 ||wtk.pl/js/WTKStats.js
 ||clickalyzer.com^$third-party
@@ -8495,6 +8496,7 @@ _track_pixel.gif?
 ||publicgood.com^$third-party
 /stats?style$~xmlhttprequest
 ||ranking-links.de^$third-party
+@@||browser.sentry-cdn.com^$domain=acustica-audio.com|alphaxiv.org|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 /countinj.cgi?
 ||publytics.net^$third-party
 @@||dict.rambler.ru/fcgi-bin/$xmlhttprequest,domain=rambler.ru
@@ -9754,7 +9756,6 @@ visible.com##+js(set-local-storage-item, browser-ids, $remove$)
 ||mavencoalition.io/collect
 /exittracker.js
 ||affirm.com/api/v2/cookie_sent
-@@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 .nordvpn.com/q/$image
 /pr.php?
 ||naturaltracking.com^$third-party
@@ -12937,6 +12938,7 @@ _WebVitalsReporter_
 /c?siteID=$image,script
 ||streamoptim.com/log.js
 ||t-mobile.com/self-service-commerce/v1/logging
+/analytics-worker.iife.js
 ||schemaapp.com/pagecount
 ||reprocautious.com^$third-party
 /postview.gif?
