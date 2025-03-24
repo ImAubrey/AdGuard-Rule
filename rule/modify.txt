@@ -1,4 +1,4 @@
-# Update time: 2025-03-23 20:31:19
+# Update time: 2025-03-24 09:22:24
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3635,7 +3635,6 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||redditstatic.com/accountmanager/sentry.
 ||newsnationnow.com/yZuPxxW0/init.js
 ?logType=trackEvent&
-||l.nicematin.com/pv.js
 @@||blackcircles.ca^$script,~third-party
 ||trick17.it^$third-party
 ||eggplant.cloud^$third-party
@@ -8042,7 +8041,6 @@ _beacon?
 ||coincheckup.com/report_events/
 ||amazonaws.com/cdn.aimtell.com/
 ||rasin.tech/heatmap-
-||l.francetvinfo.fr^$script
 @@||google-analytics.com/gtm/optimize.js$domain=focus.de
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 /index.track?
