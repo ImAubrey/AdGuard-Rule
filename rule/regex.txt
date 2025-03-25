@@ -1,4 +1,4 @@
-# Update time: 2025-03-24 20:36:00
+# Update time: 2025-03-25 09:21:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -188,7 +188,6 @@
 ||sd.yhzzzs*.com^
 ||counter*.stat.ovh^
 ||host*.carl-ras.dk^
-||mssdk*.tiktokw.us^
 ||ads*.dfiles.ru^
 ||ads.livetv*.me^
 ||log*-normal-*.tiktokv.us^
@@ -274,7 +273,6 @@
 ||device-metrics-*.amazon.com^
 ||track.*.roku.com^
 ||install*.zonastat.com^
-||mssdk*.tiktokv.us^
 ||widgets.*.webengage.com^
 ||ads*.depositfiles.com^
 ||mob*.novanewsapp.com^
@@ -323,9 +321,7 @@
 ||ads*-normal-lq.zijieapi.com^
 ||tnc16-*.byteoversea.com^
 ||fads*s.com^
-||mssdk*.tiktok.com^
 ||ads-dmp-collect.*.karrotmarket.com^
-||mssdk*.tiktokv.eu^
 ||query*.petametrics.com^
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
