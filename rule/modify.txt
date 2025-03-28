@@ -1,4 +1,4 @@
-# Update time: 2025-03-27 20:35:25
+# Update time: 2025-03-28 09:20:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2515,6 +2515,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /track/statistic/*
 ||webtrafficagents.com^$third-party
 ||tuttocagliari.net/pixel
+||iphonelife.com/_app/immutable/chunks/TrackingParamsFormInputs.
 /^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=tjx.com
 /TrackViews/*
 /b/stats?

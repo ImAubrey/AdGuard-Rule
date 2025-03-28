@@ -1,4 +1,4 @@
-# Update time: 2025-03-27 20:35:25
+# Update time: 2025-03-28 09:20:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -399,6 +399,7 @@
 ||metric*.rediff.com^
 ||ad-*.amazonaws.com^
 ||ads*-normal*.zijieapi.com^
+||ulogs*.gifshow.com^
 ||xy-*pcdn.msstatic.com^
 ||ac*.faxingchina.com^
 ||tnc*.zijieapi.com^
