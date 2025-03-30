@@ -1,4 +1,4 @@
-# Update time: 2025-03-29 20:31:27
+# Update time: 2025-03-30 09:26:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3605,6 +3605,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||urstats.de^$third-party
 ||sifomedia.se^$third-party
 /public/visit/record
+||sayac.net.tr^$third-party
 ||tyxo.bg^$third-party
 /global-cdm.net:443/sap/public/cuan/*/pixel.gif
 /hs_track.js
