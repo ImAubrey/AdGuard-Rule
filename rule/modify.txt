@@ -1,4 +1,4 @@
-# Update time: 2025-03-31 20:35:44
+# Update time: 2025-04-01 09:38:24
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11233,6 +11233,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 /click.php?c=
 ||yext-pixel.com^$third-party
 ||at.ua/stat/
+/api/pageview/*$ping
 /json?mbox=
 ||abmr.net^$third-party
 /elqimg.js
