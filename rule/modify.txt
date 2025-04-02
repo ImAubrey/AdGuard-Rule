@@ -1,4 +1,4 @@
-# Update time: 2025-04-01 20:36:50
+# Update time: 2025-04-02 09:22:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11714,6 +11714,7 @@ _event_tracking?
 ||narkive.com/ajax/TelemV2?
 ||tiktokv.com/monitor_browser/
 /analytics-efukt.
+||r.stripe.com^$ping,script,xmlhttprequest
 /b/s/beacon
 /statscounter/*
 /statistics.js?$third-party
@@ -12927,7 +12928,6 @@ _WebVitalsReporter_
 ||disqus.com/event.js?$script
 ||trustarc.com/cap?
 ||worldlogger.com^$third-party
-||r.stripe.com^$script,xmlhttprequest
 ||joka.it/inquiero/isapi/csf.dll?
 /analytics-amplitude-
 @@||jsdelivr.net^*/keen-tracking.min.js$domain=nextquotidiano.it
