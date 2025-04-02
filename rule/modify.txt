@@ -1,4 +1,4 @@
-# Update time: 2025-04-02 09:22:11
+# Update time: 2025-04-02 20:35:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3504,7 +3504,6 @@ _logHuman=
 ||yandex.*/data?referrer=
 ||extole.com^$third-party
 ||meetrics.net^$domain=spiegel.de
-||click4assistance.co.uk^$third-party
 ||clickyab.com^$third-party
 ||eperfectdata.com^$third-party
 ||platformpanda.com^$third-party
@@ -3980,6 +3979,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||tetoolbox.com^$third-party
 ||carbon38.com/A44kxi5a/init.js
 ||goodfon.com/stat/
+||click4assistance.co.uk/HeartBeat
 ||jal.co.jp/common_rn/img/rtam.gif
 ||dataunion.com.br^$third-party
 ||yieldlift.com^$third-party
@@ -4411,7 +4411,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||properm.ru/top/counter_new.php?
 ||pass-1234.com^$third-party
 @@||solr.sas.com/query/$xmlhttprequest,domain=jmp.com
-/count.do?
 ||i-cable.com/ci/tracking/
 /_stat/log_
 /prod/ncg/ncg.js
@@ -13022,6 +13021,7 @@ _WebVitalsReporter_
 /awin?awc=$image
 ||data-dynamic.net^$third-party
 ||webstat.se^$third-party
+/count.do?$domain=~its.busan.go.kr
 /fp/check.js
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
 ||b1js.com^$third-party
