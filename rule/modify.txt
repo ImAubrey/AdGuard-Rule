@@ -1,4 +1,4 @@
-# Update time: 2025-04-05 09:19:49
+# Update time: 2025-04-05 20:31:28
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2596,6 +2596,7 @@ _logHuman=
 ||trackfeed.com^$third-party
 ||azureedge.net/track
 /tracking/cookies?
+@@||s.yimg.jp/images/listing/tool/cv/ytag.js$domain=redstoneonline.jp|store-jp.nintendo.com
 ||hotels.com/api/bucketing/v1/evaluateExperimentsAndLog
 /visit/log.js?
 ||safe-click.net^$third-party
@@ -12886,7 +12887,6 @@ _WebVitalsReporter_
 ||webtraffiq.com^$third-party
 ||zerostats.com^$third-party
 ||7w.ro/js/trk.js
-@@||s.yimg.jp/images/listing/tool/cv/ytag.js$domain=redstoneonline.jp
 ||customerlabs.co^$third-party
 ||p30rank.ir^$third-party
 ||otoshiana.com/ufo/
