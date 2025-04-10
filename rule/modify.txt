@@ -1,4 +1,4 @@
-# Update time: 2025-04-10 09:21:14
+# Update time: 2025-04-10 20:36:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5108,6 +5108,7 @@ flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal
 ||adapf.com^$third-party
 ||mtb-news.de/metric/
 ||ipqualityscore.com/api/$third-party
+||gosupersonic.ai^$third-party
 ||ethereum-cashcard.com^$third-party
 ||psh.one^$third-party
 /?swift-performance-tracking
