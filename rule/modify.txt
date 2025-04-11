@@ -1,4 +1,4 @@
-# Update time: 2025-04-11 09:21:56
+# Update time: 2025-04-11 20:35:21
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2728,6 +2728,7 @@ _logHuman=
 ||metro.co.uk/base/rta/
 ||rampanel.com^$third-party
 /elqidg.js
+/uniclick.js?attribution=
 ||keytrack.de^$third-party
 ||playhop.com/clck/
 ||gowatchit.com^*/tracking/
@@ -6561,6 +6562,7 @@ _webanalytics.
 /ot_e404.gif?
 ||qq.com/report.cgi?
 ||wo-cloud.com^$ping
+&&sub19=undefined&sub20=undefined
 ||f-counter.jp^$third-party
 ||audsp.com^$third-party
 ||x-traceur.com^$third-party
@@ -6604,6 +6606,7 @@ _webanalytics.
 /global_analytics/s_code.js
 /pvcounter.cgi
 .pstmrk.it/open^
+||xp.apple.com/report/
 /neilson.js
 /track-pixel.
 ||affiliation.planethoster.info^$third-party
@@ -7250,6 +7253,7 @@ _trackWebtrekkEvents.
 ||moco.yukata.dev/get/$image,third-party
 ||plug.it^*/tracking_
 ||tctm.co^$third-party
+&event_name=page_view&
 /px/track?
 ||active-trk7.com^$third-party
 ||webtrekk.net^$third-party
@@ -9276,6 +9280,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /analytics/trackers?
 /tide_stat.js
 ||counterlevel.de^$third-party
+://sgtm.*.js?
 ||tvid.in/log/
 /amp/?rid=
 ||cloudfront.net/rc.js?
@@ -12654,6 +12659,7 @@ _ad_impression.
 @@||ikea.com^*/analyticsEvent.$script,~third-party
 /eo?_t=$image
 ||dropbox.com/alternate_
+||xp.apple.com/config/*/report/
 ||recruitics.com^$third-party
 ||thoughtmetric.io^$third-party
 ||circle.am^$third-party
