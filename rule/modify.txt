@@ -1,4 +1,4 @@
-# Update time: 2025-04-10 20:36:44
+# Update time: 2025-04-11 09:21:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12251,6 +12251,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||twcouponcenter.com^$third-party
 /mail.thermomix.com/i/*$image
 ||hulyagedikci.com/vhit.php?
+/orichipixel.min.js
 @@||loader-cdn.azureedge.net/prod/smi/loader.min.js$domain=pressdemocrat.com
 ||braze.eu/api/v3/data/
 /cgi-bin/ctn?
