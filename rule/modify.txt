@@ -1,4 +1,4 @@
-# Update time: 2025-04-12 09:20:06
+# Update time: 2025-04-12 20:31:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -663,6 +663,7 @@ stalkerportaal.ru##.video_adsense
 ||untidyrice.com^$third-party
 cs-amba.ru##.banka
 ||eminentbubble.com^$third-party
+scrolller.com#?#.popup--sticky:-abp-contains(adblock)
 ||snakemineral.com^$third-party
 ||placidactivity.com^$third-party
 ||gladysway.com^$third-party
@@ -1343,7 +1344,6 @@ veseloeradio.ru##.racy_sidebar
 ###AdBlockDialog
 ||llamavoice.com^$third-party
 ||unaccountablepie.com^$third-party
-scrolller.com##.popup
 ||ivykiosk.com^$third-party
 ###mdp-deblocker-ads
 novostroy-m.ru###advert_result
