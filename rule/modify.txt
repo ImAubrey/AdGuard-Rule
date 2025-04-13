@@ -1,4 +1,4 @@
-# Update time: 2025-04-13 10:49:19
+# Update time: 2025-04-13 20:32:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4135,7 +4135,6 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 /logger.ashx?
 ||san-spr-01.net^$third-party
 ||showstopped.com/owa/log.php
-@@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
 /google_analytics4.js
 /pt.gif?
 ||mastertag.effiliation.com^$third-party
@@ -10666,7 +10665,6 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||hebiichigo.com^$third-party
 ||dzen.ru/clck/
 /boomerang/beacon
-/geoip?
 ||adtelligence.de^$third-party
 ||ekmpinpoint.co.uk^$third-party
 @@||browser.covatic.io/sdk/v1/bauer.js$script,domain=hellorayo.co.uk
