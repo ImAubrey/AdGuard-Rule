@@ -1,4 +1,4 @@
-# Update time: 2025-04-12 20:31:32
+# Update time: 2025-04-13 10:49:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4384,6 +4384,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||googleapis.com/ivc.js
 ||klaviyo.com/onsite/track-analytics?
 ||usemaxserver.de^$third-party
+.outbound-links.pageview-props.revenue.tagged-events.js
 ||adten.eu^$third-party
 /valnet-header.
 @@||plex.tv/api/v2/geoip$xmlhttprequest
@@ -7473,6 +7474,7 @@ _beacon?
 /taboolaHead.js
 ||mercent.com^$third-party
 ||trendcounter.de^$third-party
+||apptracer.ru^$third-party
 /rwtag.js
 ||amunx.de^$third-party
 ||virtualnet.co.uk^$third-party
@@ -13367,6 +13369,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||webvisor.com^$third-party
 ||fmnetwork.nl/tracking/
 ||speedcurve.com^$third-party
+||aramuz.net/frontapi/*/analyticsEvent?
 ||toplist.sk^$third-party
 ||counter.pixplug.in^$third-party
 ||claude.ai/sentry^
