@@ -1,4 +1,4 @@
-# Update time: 2025-04-13 20:32:08
+# Update time: 2025-04-14 09:24:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2443,6 +2443,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /pagetag.gif?
 ||argtesa.com/cdn-cgi/trace
 /js/logger?
+/stats/record_visit/*
 ||isacglobal.com/sa.js
 /snowplow-tracker.tatest.js
 /trackpixel?
@@ -2565,6 +2566,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||werkenntdenbesten.de/js/tracking.
 _logHuman=
 /log.cfm?
+||travix.com/metrics
 /logaholictracker.php
 ||crunchbase.com/rw7M6iAV/init.js
 ||salesviewer.com^$third-party
@@ -4522,6 +4524,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 /Article/ViewCount/*
 /ga2.js
 ||wsj.com/cookies/pixel.gif
+||1win.com^$ping
 ||hxtrack.com^$third-party
 ||payments-amazon.com^*/analytics.js
 ||getpos.de/ext/
@@ -4940,6 +4943,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||www.mouser.*/4UAZUiaI/init.js
 ||visibli.com^$third-party
 ||signifyd.com^$third-party
+||azerty.nl/ambannerslider/analytic/
 ||cloudflare.com/_cf/analytics.js
 ||drop.com/statBeacon
 ||omsnative.de/tracking/
@@ -5060,6 +5064,7 @@ flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal
 ||brightdata.de^$third-party
 ||akamaihd.net/*.gif?e=
 ||pubstack.io^$third-party
+||ruwiki.ru/w/rest.php/metrics/
 /collect/stats?
 ||brightfunnel.com^$third-party
 ||amazonaws.com^*/prod_analytics
@@ -5202,6 +5207,7 @@ _stat_counter.php?
 /_vercel/insights/script.js
 ||okt.to^$third-party
 ||bcbits.com/bundle/bundle/1/analytics-$domain=bandcamp.com
+||pipeline.balkstercourant.nl^$~script
 ||cloudfront.net/rum/bacon.min.js
 ||embed.reddit.com/svc/shreddit
 @@||maxmind.com^*/geoip2.js$domain=bandai-hobby.net|boostedboards.com|donorschoose.org|driftinnovation.com|fallout4.com|ibanez.com|instamed.com|metronews.ca|mtv.com.lb|runningheroes.com|tama.com|teslamotors.com
@@ -5722,6 +5728,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /hitbox.js
 /impression.js?
 ||engineering.com/scripts/$script,domain=eng-tips.com
+/stats/web_vitals/*$ping
 ||withcabin.com^$third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 ||callisto.fm^$third-party
@@ -5831,6 +5838,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /yozons-lib/*
 @@||tm.r-ad.ne.jp/128/ra346756.js$script,domain=hpdsp.net
 ||compteur.org^$third-party
+||sparteo.com^$third-party
 /recommendtrack?
 /autotrack.custom.js
 /log/logs?
@@ -8206,6 +8214,7 @@ _beacon?
 @@||timvision.it/libs/fingerprint/fingerprint.js
 ||keywee.co^$third-party
 /500b-bench.jpg?
+||play.pp9yy.com/hall/v1/netstat/
 ||classistatic.com^*/js/lib/prebid-7.5.0.min.js$script,domain=kijiji.ca
 ||qzone.qq.com/iframe/report
 ||mouseflow.com^$third-party
@@ -9041,6 +9050,7 @@ abema.tv##^script:has-text(NREUM)
 ||webstats4u.com^$third-party
 ||streamadblocker.cc/stat/
 ||gopjn.com^$third-party
+||pipeline.dvhn.nl^$~script
 ?event=log&
 /track/open?
 ||webstat.net^$third-party
@@ -11395,6 +11405,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||wikihow.com/x/collect?
 @@||extreme-ip-lookup.com/json/$xmlhttprequest,domain=skaitv.gr
 ||facebook.com/w/$third-party
+||aitotop.com^*/collect.js?
 ||europagerank.com^$third-party
 ||kokos.click^$third-party
 ||swetrix.org^$third-party
@@ -11410,6 +11421,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 /web-data-ingress?
 ||pixelpop.co^$third-party
 ||kieskeurig.nl/collect
+||netshoes.com.br/tracking/
 ||vk.com/al_video.php?act=inc_view_counter
 ||vivocha.com^$third-party
 ||github.dev/diagnostic?
@@ -11457,6 +11469,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||jsuol.com/rm/clicklogger_
 ||lr-port.de/tracker/
 /web-pixel-shopify-custom-pixel@
+||filmvandaag.nl/pl/js/script.js
 /gen204/*
 ||womtp.com^$third-party
 @@||api-js.datadome.co/js/$domain=sso.garena.com
@@ -12863,6 +12876,7 @@ _WebVitalsReporter_
 @@||elconfidencial.com^*/AnalyticsEvent.js
 /analytics/capture/*
 ||trysera.com^$third-party
+||play.pp9yy.com/hall/home/heartbeat
 ||wtstats.com^$third-party
 /brightspot/analytics/*
 ||blogmeetsbrand.com^$third-party
