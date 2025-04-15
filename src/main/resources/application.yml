@@ -12,6 +12,7 @@ application:
   rule:
     #远程规则
     remote:
+      - 'https://ruleset.skk.moe/Internal/reject-adguardhome.txt' #name: Sukka
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt' #name: AdAway Default Blocklist
       - 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt' #name: 去除禁止广告拦截提示规则
       - 'https://easylist.to/easylist/easyprivacy.txt' #name: Privacy EasyList
