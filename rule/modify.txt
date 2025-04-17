@@ -1,4 +1,4 @@
-# Update time: 2025-04-16 20:36:13
+# Update time: 2025-04-17 09:22:39
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2021,6 +2021,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||js-delivr.com^$third-party
 @@||sibs.com/fingerprint/sfp2/fp2.min.js$script,domain=net24.bancomontepio.pt
 ||uptime.com/static/rum/$third-party
+/tagging?env=
 ||terabox.fun/api/getsyscfg?*web_share_ads_adsterra_config
 @@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||pladform.ru/dive/$xmlhttprequest
@@ -8113,6 +8114,7 @@ _beacon?
 ||hit-360.com^$third-party
 ||salesmartly.com/client/station/log?
 /app.php/ads/*
+/mtifonttracker.js
 ||area51.to^$third-party
 ||pikabu.ru/ajax/analytics.php
 ||successfultogether.co.uk^$third-party
@@ -10682,6 +10684,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||browser.covatic.io/sdk/v1/bauer.js$script,domain=hellorayo.co.uk
 /visit-tracker.js
 ||netdna-ssl.com/tracker/
+||sliponline.nl/tracker/
 ||rightstats.com^$third-party
 ||baidu.com/pixel?
 ||alljapanesepass.com/rstat
@@ -12134,6 +12137,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 /ajax-hits-counter/increment-hits/index.php
 ||s.smallpdf.com/static/track-js-
 ||rumble.com/l/
+&event_name=view_item_list&
 /api/log-visit
 -adobe-analytics/
 ||mockingfish.com^$third-party
@@ -12172,6 +12176,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 /configuration-stat.js
 ||juno.com/start/javascript.do?message=
 /ResonateAnalytics.min.js
+/tracker/base_wp/*
 ||getstats.org^$third-party
 ||porngraph.com^$third-party
 ||adthletic.com^$third-party
