@@ -1,4 +1,4 @@
-# Update time: 2025-04-18 09:21:33
+# Update time: 2025-04-18 20:34:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2629,6 +2629,7 @@ _logHuman=
 ://tracking.*/event
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 ||sciencechannel.com/events/
+||sentinelpro.com^$third-party
 /CofinaHits.js
 ||statistik.motorpresse.de^$third-party
 ||hubvisor.io^$third-party
@@ -12336,6 +12337,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||sni-dat.com^$third-party
 /awstats_misc_tracker
 ||inboxtag.com^$third-party
+||webpageviews.click^$third-party
 ||imagefap.com/images/yes.gif?
 /api/pageactivity
 ||my-ranking.de^$third-party
