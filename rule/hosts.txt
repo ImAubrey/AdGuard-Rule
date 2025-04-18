@@ -1,4 +1,4 @@
-# Update time: 2025-04-17 20:35:38
+# Update time: 2025-04-18 09:21:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7050,7 +7050,6 @@
 0.0.0.0 adjmps.com
 0.0.0.0 yodleeinc.tt.omtrdc.net
 0.0.0.0 sportupdates.info
-0.0.0.0 appfixing.space
 0.0.0.0 pcmuzic.com
 0.0.0.0 page-host.net
 0.0.0.0 www.shichihukuudon.com
@@ -13184,7 +13183,6 @@
 0.0.0.0 healthfood.syoutikubai.com
 0.0.0.0 aka-cdn.adtechus.com
 0.0.0.0 jmvisuals.com
-0.0.0.0 bestadbid.com
 0.0.0.0 api.intentiq.com
 0.0.0.0 clicktracker.alloymarketing.com
 0.0.0.0 denetsuk.com
@@ -16313,7 +16311,6 @@
 0.0.0.0 media-match.com
 0.0.0.0 media8.popmarker.com
 0.0.0.0 sunny.oewabox.at
-0.0.0.0 app2.letmacworkfaster.site
 0.0.0.0 hpad.www.infoseek.co.jp
 0.0.0.0 afftracking.justanswer.com
 0.0.0.0 nc.ru.redtram.com
@@ -16542,7 +16539,6 @@
 0.0.0.0 acsentia.fr
 0.0.0.0 entrenador-personal.com
 0.0.0.0 gambero3.cs.tin.it
-0.0.0.0 dashingleather.com
 0.0.0.0 ads.currantbun.com
 0.0.0.0 morefastermac.trade
 0.0.0.0 ultracet.1.p2l.info
@@ -18687,6 +18683,7 @@
 0.0.0.0 lomtalay.com
 0.0.0.0 shopstickersbysandstone.com
 0.0.0.0 sandpiperchorus.us
+0.0.0.0 appfixing.space
 0.0.0.0 fhginformatica.com
 0.0.0.0 weboriginal.eu
 0.0.0.0 comistus.net
@@ -24027,6 +24024,7 @@
 0.0.0.0 sundbirsta.com
 0.0.0.0 nhhyxorxbxarxe.org
 0.0.0.0 transmercasa.com
+0.0.0.0 dashingleather.com
 0.0.0.0 52uo5k3t73ypjije.5kb3dl.top
 0.0.0.0 iomf.ch
 0.0.0.0 probudise.com
@@ -28806,6 +28804,7 @@
 0.0.0.0 emilychoy.com
 0.0.0.0 choopchirk.net
 0.0.0.0 drdianateachertraining.com
+0.0.0.0 bestadbid.com
 0.0.0.0 clariter.com
 0.0.0.0 unocl45trpuoefft.on2420.bid
 0.0.0.0 bha-group.eu
@@ -30519,6 +30518,7 @@
 0.0.0.0 omniworxinc.com
 0.0.0.0 theprick5k.com
 0.0.0.0 iphonewallpaperclub.com
+0.0.0.0 app2.letmacworkfaster.site
 0.0.0.0 tkustom.it
 0.0.0.0 gourmetlimes.com
 0.0.0.0 miel-maroc.com
