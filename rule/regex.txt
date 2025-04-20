@@ -1,4 +1,4 @@
-# Update time: 2025-04-20 09:28:00
+# Update time: 2025-04-20 20:31:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -48,7 +48,6 @@
 # 每12小时同步一次、如有误杀、请手动解除
 
 ||httpdns.*^$important
-||verify-att.app.^
 ||bc.geocities.
 ||matt.mercadolibre.
 ||tccd.douglas.
@@ -79,6 +78,7 @@
 ||pixel.archive.
 %2Fevent.gif%3F
 ||df.infra.shopee.
+||verify-att.app.^
 |i.ipinyou.com^
 |f8.market.xiaomi.com^
 |tz.sec.xiaomi.com^
@@ -629,6 +629,7 @@
 |ark.letv.com^
 |logs.chelaile.net.cn^
 |sf0.market.xiaomi.com^
+|cloud.zyiis.net^
 |app.aplus.pptv.com^
 |ads-shopping.shouqianba.com^
 |strip.taobaocdn.com^
@@ -1055,6 +1056,7 @@
 |bdcdncmn-gd.inter.71edge.com^
 |imgad0.pcauto.com.cn^
 |adv.app.qq.com^
+|eas.etherscan.com^
 |adx.yiche.com^
 |mepodownload.mediatek.com^
 |redirect.simba.taobao.com^
@@ -1548,7 +1550,6 @@
 ||cas.*.criteo.com^
 ||datacollector-*.dt.dbankcloud.cn^
 ||n*adserv.com^
-||apple.com-*.live^
 ||ks-p2p*pull*com^
 ||s*.skencituer.com^
 ||batchlogging*-noneu.truecaller.com^
