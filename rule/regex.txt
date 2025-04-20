@@ -1,4 +1,4 @@
-# Update time: 2025-04-19 20:31:44
+# Update time: 2025-04-20 09:28:00
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -48,6 +48,7 @@
 # 每12小时同步一次、如有误杀、请手动解除
 
 ||httpdns.*^$important
+||verify-att.app.^
 ||bc.geocities.
 ||matt.mercadolibre.
 ||tccd.douglas.
@@ -78,7 +79,6 @@
 ||pixel.archive.
 %2Fevent.gif%3F
 ||df.infra.shopee.
-||verify-att.app.^
 |i.ipinyou.com^
 |f8.market.xiaomi.com^
 |tz.sec.xiaomi.com^
@@ -96,7 +96,6 @@
 |httpdns.c.cdnhwc2.com^
 |analytics.nexon.com^
 |r.i.ua^
-|adstats.mgc-games.com^
 |p.alimama.com^
 |s3.pfp.sina.net^
 |rmads.msn.com^
@@ -281,7 +280,6 @@
 |pg-ad-b2.ws.126.net^
 |adsehera.ximalaya.com^
 |a0.app.xiaomi.com^
-|c.medialytics.com^
 |api.collect.data.intl.miui.com^
 |fkp.samsungcloudsolution.net^
 |acfeedbackws.icloud.com^
@@ -524,7 +522,6 @@
 |store.iqiyi.com^
 |sax.sina.cn^
 |adver.qq.com^
-|search.mgc-games.com^
 |d3g.qq.com^
 |qappcenterv6.3g.qq.com^
 |adapi.shouji.360.cn^
@@ -1347,7 +1344,6 @@
 ||ping.*.sogou.com^
 ||adsmogo*.*^
 ||ssc.southpark*^
-||waframedia*.*^
 ||adservice*.*^
 @@||usageapi.*.oraclecloud.com^
 ||xn--wxtr9fwyxk9c.*^
