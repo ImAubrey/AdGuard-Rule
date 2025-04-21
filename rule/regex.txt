@@ -1,4 +1,4 @@
-# Update time: 2025-04-21 09:26:35
+# Update time: 2025-04-21 20:35:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -48,7 +48,6 @@
 # 每12小时同步一次、如有误杀、请手动解除
 
 ||httpdns.*^$important
-||verify-att.app.^
 ||bc.geocities.
 ||matt.mercadolibre.
 ||tccd.douglas.
@@ -79,6 +78,7 @@
 ||pixel.archive.
 %2Fevent.gif%3F
 ||df.infra.shopee.
+||verify-att.app.^
 |i.ipinyou.com^
 |f8.market.xiaomi.com^
 |tz.sec.xiaomi.com^
@@ -1526,6 +1526,7 @@
 ||w*.*skwai.com^
 ||analytics-*-nfl.yinzcam.com^
 ||xlog*-*.tiktokv.com^
+||sdk-*.moengage.com^
 ||ad*.on.cc^
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||rtlog*.tiktokv.us^
@@ -1632,6 +1633,7 @@
 ||ssp*.rtb.beeline.ru^
 ||stats*.videonow.ru^
 ||log-*.zadn.vn^
+||api*.moengage.com^
 ||reachableads-av.*.amazonaws.com^
 ||qn-*pcdn.cdn.msstatic.com^
 ||js.*2023*.live^

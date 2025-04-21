@@ -1,4 +1,4 @@
-# Update time: 2025-04-21 09:26:35
+# Update time: 2025-04-21 20:35:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2128,6 +2128,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||rts.ch^*/boreas_b01.js
 ||sundaysky.com^$third-party
 ||the-group.net/aether/
+||bellesdemeures.com/Content/dist/js/libs/thor.js
 ||mobtop.az^$third-party
 ||eps-analyzer.de^$third-party
 ||l2.io^$third-party
@@ -4481,6 +4482,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 /jgs_portal_log_bildschirm.php?
 ||leadspace.com^$third-party
 .list-manage.com/track/
+||megpxs.com^$third-party
 ||foodora.se/lJuB4eTB/init.js
 ||internships.com/oGckki0e/init.js
 ||aerlingus.com/ahktqsewxjhguuxe.js
