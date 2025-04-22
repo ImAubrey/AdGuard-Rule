@@ -1,4 +1,4 @@
-# Update time: 2025-04-21 20:35:18
+# Update time: 2025-04-22 09:23:03
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -48,6 +48,7 @@
 # 每12小时同步一次、如有误杀、请手动解除
 
 ||httpdns.*^$important
+||verify-att.app.^
 ||bc.geocities.
 ||matt.mercadolibre.
 ||tccd.douglas.
@@ -78,7 +79,6 @@
 ||pixel.archive.
 %2Fevent.gif%3F
 ||df.infra.shopee.
-||verify-att.app.^
 |i.ipinyou.com^
 |f8.market.xiaomi.com^
 |tz.sec.xiaomi.com^
@@ -311,6 +311,7 @@
 |vt.ipinyou.com^
 |click2.hd.sohu.com^
 |log-dmp.suishenyun.cn^
+|cloan.amap.com^
 |grs.dbankcloud.cn^
 |adservice.kugou.com^
 |samsung.24.eu^
@@ -418,6 +419,7 @@
 |slb-p2p.vcloud.ks-live.com^
 |api.waptest.taobao.com^
 |grs.platform.dbankcloud.ru^
+|mtrace.amap.com^
 |dp3.qq.com^
 |adx-bid.tianzhuobj.com^
 |mvconf.lato.cloud.360safe.com^
@@ -618,6 +620,7 @@
 |samsungeurope.eu.qualtrics.com^
 |vs.funshion.com^
 |migrate.driveapi.micloud.xiaomi.net^
+|awaken.amap.com^
 |stat.10jqka.com.cn^
 |oth.update.mdt.qq.com^
 |ad.thsi.cn^
@@ -647,6 +650,7 @@
 |afdconf.baidu.com^
 |d0.sina.com.cn^
 |g.koowo.com^
+|clientlogusf.music.163.com^
 |lockersamsungs8.r.xoxknct.com^
 |api-es.doglobal.net^
 |count.vrs.sohu.com^
@@ -731,6 +735,7 @@
 |static.app.m.letv.com^
 |static.g.ppstream.com^
 |hydra.alibaba.com^
+|amdc-sibling.alipay.com.cn^
 |stnetsdk.appstore.vivo.com.cn^
 |c.bing.com^
 |ad.ximalaya.com^
@@ -867,6 +872,7 @@
 |httpdns.ocloud.oppomobile.com^
 |t.yesware.com^
 |fkp.samsungcloudsolution.com^
+|log.mmstat.com^
 |huosai.xiaomi.com^
 |timeserver.cnzz.net^
 |ad.hiiir.com^
@@ -947,6 +953,7 @@
 |w.l.qq.com^
 |yads.yahoo.co.jp^
 |huawei.facebook.com^
+|optimus-ads-ykx.amap.com^
 |ads.eu.msn.com^
 |t.email1.samsung.ca^
 |fbapi.guguread.com^
@@ -1119,6 +1126,7 @@
 |zzy1.quyaoya.com^
 |order.music.xiaomi.com^
 |display.360totalsecurity.com^
+|acstatic-dun.126.net^
 |log.ys7.com^
 |ads2.msn.com^
 |adsystem.wasu.tv^
@@ -1224,6 +1232,7 @@
 |tongji.meizu.com^
 |a460.cell.phone.ringtone.samsung.sms13.de^
 |web-track.go2yd.com^
+|quickaplus-server-api-cn-zhangjiakou.aliyuncs.com^
 |c.uaa.iqiyi.com^
 |paopao.iqiyi.com^
 |httpdns.baidu.com^
