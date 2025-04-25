@@ -1,4 +1,4 @@
-# Update time: 2025-04-25 09:24:11
+# Update time: 2025-04-25 20:36:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1376,6 +1376,7 @@
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||ping*.qq.com^
+||ulogs*.ksapisrv.com^
 ||cj1*.online^
 ||sd.yhzzzs*.com^
 ||counter*.stat.ovh^
@@ -1484,6 +1485,7 @@
 ||zcchyr*.xyz^
 ||uc*.atobo.com^
 ||zaqlovh*.xyz^
+||ad*.zonaplus.tv^
 ||datacollector-*.dt.hicloud.com^
 ||n*adserv.xyz^
 ||piwik.*.vn^
