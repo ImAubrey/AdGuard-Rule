@@ -1,4 +1,4 @@
-# Update time: 2025-04-24 20:37:06
+# Update time: 2025-04-25 09:24:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2006,6 +2006,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /jquery.audiencetarget.js
 ||minewhat.com^$third-party
 /googleTracking.js
+||rumolog.com/wp-json/burst/v1/track/
 ||pphwrevr.com^$third-party
 ||izinal.com/log
 /pulsario.js
@@ -2450,6 +2451,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /js/logger?
 /stats/record_visit/*
 ||isacglobal.com/sa.js
+||eduplay.rnp.br/collector/
 /snowplow-tracker.tatest.js
 /trackpixel?
 ||livelyvideo.tv/lb/logger
@@ -4486,6 +4488,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 /jgs_portal_log_bildschirm.php?
 ||leadspace.com^$third-party
 .list-manage.com/track/
+||vimeo.com/add/
 ||megpxs.com^$third-party
 ||foodora.se/lJuB4eTB/init.js
 ||internships.com/oGckki0e/init.js
@@ -5055,6 +5058,7 @@ flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal
 ||nflshop.com/api/track
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 ||particularaudience.com^$third-party
+/aff_convpixel.js
 ||webd-assets.cdn4dd.com/s.js$domain=doordash.com
 ||eltex.co.jp^$third-party
 ||cdn.one.store/xdomain_cookie.html
@@ -9491,6 +9495,7 @@ abema.tv##+js(rmnt, script, NREUM)
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com|xfinity.com
 ||grapheffect.com^$third-party
 ||dditscdn.com/?a=
+://metrics-collector.
 ||segment.com^$third-party
 ||instapage.com^$third-party,domain=~pagedemo.co
 ||toutiao.com^*/user_log/
@@ -10973,6 +10978,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||avo.app^*/track
 ||api.ea3w.com/hits.js
 ||gaconnector.com^$third-party
+||leadster.com.br/api/chatbot/events
 ||slashdot.org/country.js
 ||naytev.com^$third-party
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
@@ -12230,6 +12236,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 /json/tracking/*
 ||agoda.net/v2/track
 ||terra.com^*/td.asp?bstat
+||amazonaws.com/frame-image-br/bg.png?
 ||youtube-nocookie.com/api/stats/qoe?
 ||llanalytics.com^$third-party
 ||smart-counter.net^$third-party
@@ -13219,6 +13226,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||qiota.com/api/event
 @@||akamaihd.net/nbad/player/*/visitorapi.js$domain=watch.nba.com
 /1pixel.php
+||taghike.com^$third-party
 ||bdash-cloud.com^$third-party
 ||pushify.com^$third-party
 ||whoaremyfriends.net^$third-party
