@@ -1,4 +1,4 @@
-# Update time: 2025-04-25 20:36:08
+# Update time: 2025-04-26 09:20:57
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2006,7 +2006,6 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /jquery.audiencetarget.js
 ||minewhat.com^$third-party
 /googleTracking.js
-||rumolog.com/wp-json/burst/v1/track/
 ||pphwrevr.com^$third-party
 ||izinal.com/log
 /pulsario.js
@@ -2493,6 +2492,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||zoneadsl.com/api/get-ip
 /scripts/clickjs.php
 ||dawin.tv^$third-party
+/analytics?ver=*&referrer=
 /chicken.gif?*=
 ||indicative.com^$third-party
 ||threedy.ai/api/event/
@@ -3056,6 +3056,7 @@ _logHuman=
 /sdk/impressions
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 /b/ss/*&ndh=
+||billygrace.com^$third-party
 ||zineone.com^*/event
 ||magnetmail1.net^$third-party
 ||your-analytics.org^$third-party
@@ -4846,6 +4847,7 @@ omni.soundestlink.com$image
 ||cost1action.com^$third-party
 ||bid.run^$third-party
 ||amazonaws.com/cdn.barilliance.com/
+/wp-json/burst/v1/track/*
 .intercom-mail.com/q/
 /custom-analytics.js
 ||mxapis.com^$third-party
@@ -5657,6 +5659,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||leadslabpixels.net^$third-party
 ||google.com/analytics/$third-party
 ||kontrollportalen.no/kontroll/javascript/eventlog.js
+||sycamore.com.br/pixel/
 /tc_imp.gif?
 ||cnnx.link/roi/
 /click.*/q/*$image
@@ -6291,6 +6294,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||yachtingnetwork.it/stat/
 ||pvd.to^$third-party
 ||recoset.com^$third-party
+/_events/api/setEvent$xmlhttprequest
 ||souisa.com/analytics/
 ||data.hicloud.com^$third-party
 /sp_tracker.js
@@ -6495,6 +6499,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 ||cftrack.com^$third-party
 /fp3.min.js
 @@||wargag.ru/public/js/counter.js?
+||linkedin.com/apfc/collect$xmlhttprequest
 ||performancerevenues.com^$third-party
 ||bubblestat.com^$third-party
 ||browserling.com/api/stats-browsing
@@ -6598,6 +6603,7 @@ _webanalytics.
 ||x-traceur.com^$third-party
 @@||yandex.ru/watch/$xmlhttprequest,domain=anoncer.net
 ||booking.com/87sduif98q3rijax
+||siemens.com/c2_analytics.js
 /common/ga.js
 /rum.min.js
 ||yext.com/plpixel?
@@ -9892,6 +9898,7 @@ visible.com##+js(set-local-storage-item, browser-ids, $remove$)
 ||ampproject.org/preconnect.gif
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 ||marktplaats.nl/add_counter_image.
+||housecrm.com.br/track/
 /mpixel.js
 ||lasagneandands.com^$third-party
 @@||c.paypal.com/da/r/fb.js$script
@@ -10895,6 +10902,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||cloudzilla.ai/ingest/
 ||icstats.nl^$third-party
 ||motorsport.com/stat/
+||sympla.com.br/api/event-bff/tracking/
 ||unblog.fr/cu.js
 ||nofraud.com^*/customer_code.js
 /beacon/event/*
@@ -11012,6 +11020,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||awsapprunner.com/api/frontend/client/metrics
 ||pornbox.com/stats/
 /scripts/track_visit.php?
+/rd-js-integration.min.js
 ||dtksoft.com/ajax/log^
 ||altruja.de/js/micro/integration-ga.js
 /pbasitetracker.min.js
@@ -12183,6 +12192,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||careermatch.com/oGckki0e/init.js
 .php?tracking=
 /histats.js
+||fml-x.com^$third-party
 ||letsdoeit.com/tracking/
 ||proporn.com/ajax/log/
 ||advangelists.com^$third-party
@@ -12513,6 +12523,7 @@ _ad_impression.
 ||dzen.ru/api/*/stats/
 ||freestat.ws^$third-party
 ||l.fairblocker.com^$third-party
+/cst-tag-monitor-2nd-gen?
 ||listrak.com/api/Activity/click
 ||50bang.org^$third-party
 ||lnkd.in/li/track

@@ -1,4 +1,4 @@
-# Update time: 2025-04-25 20:36:08
+# Update time: 2025-04-26 09:20:57
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -112,6 +112,7 @@
 |cnc.fe01.lg.xiaomi.com^
 |adsebs.ximalaya.com^
 |m.zdjgj.cn^
+|bingads.microsoft.com^
 |floor.bz.mgtv.com^
 |stat.loli.net^
 |ad-h5-cdn.soulapp.cn^
@@ -165,6 +166,7 @@
 |static.jebe.renren.com^
 |sdk.1rtb.net^
 |log.v2.hunantv.com^
+|win1710.ipv6.microsoft.com^
 |baiducdncmn-gd.inter.iqiyi.com^
 |stat.56.com^
 |adsz.wagbridge.taobao.alimama.com^
@@ -173,6 +175,7 @@
 |ae.bdstatic.com^
 |flash.sec.miui.com^
 |ads.icloseli.cn^
+|ac3.msn.com^
 |audio-ak-spotify-com.akamaized.net^
 |adlaunch.moji.com^
 |g3.letv.com^
@@ -227,6 +230,7 @@
 |shenghuo.xiaomi.com^
 |cre.dp.sina.cn^
 |ads.sina.com^
+|eaus2watcab01.blob.core.windows.net^
 |huodong.xiaomi.com^
 |iflow.uczzd.net^
 |click.hd.sohu.com.cn^
@@ -244,6 +248,7 @@
 |gtms04.alicdn.com^
 |f1.g.mi.com^
 |adeng.hpplay.cn^
+|spyneteurope.microsoft.akadns.net^
 |nl.notice.iqiyi.com^
 |gtms01.alicdn.com^
 |game.sec.miui.com^
@@ -270,6 +275,7 @@
 |adashx.ut.ele.me^
 |mou.niu.xunlei.com^
 |iad0ssl.pconline.com.cn^
+|schemas.microsoft.akadns.net^
 |veim.lrswl.com^
 |spro.so.com^
 |adsclick.qq.com^
@@ -293,6 +299,7 @@
 |httpdns.push.oppomobile.com^
 |adwbs.ximalaya.com^
 |pushapi.lenovomm.com^
+|win8.ipv6.microsoft.com^
 |show.re.taobao.com^
 |afp.alicdn.com^
 |sdk.m.youku.com^
@@ -331,6 +338,7 @@
 |hm.l.qq.com^
 |d4.sina.com.cn^
 |links.services.disqus.com^
+|weus2watcab02.blob.core.windows.net^
 |www-analytics.ripe.net^
 |ackee.tangly1024.com^
 |news.l.qq.com^
@@ -381,22 +389,26 @@
 |uuidapi.yunos.com^
 |sdkclick.mobile.sina.cn^
 |amdc.m.youku.com^
+|eaus2watcab02.blob.core.windows.net^
 |tongji.linezing.com^
 |adreq.vivo.com.cn^
 |gorgon.youdao.com^
 |oth.str.mdt.qq.com^
+|watson.live.com^
 |bs.l.qq.com^
 |ecmc.bdimg.com^
 |adx-drcn.op.dbankcloud.cn^
 |test.api.xlmc.sandai.net^
 |mobwsa.ximalaya.com^
 |httpdns.kwd.inkuai.com^
+|onecollector.cloudapp.aria.akadns.net^
 |samsungus.btttag.com^
 |gpm.samsungqbe.com^
 |rc-topic-api.bz.mgtv.com^
 |trace2.rtbasia.com^
 |livem.l.qq.com^
 |c.id.mi.com^
+|romeccs.microsoft.com^
 |osfota.cdn.aliyun.com^
 |tmeadbak.y.qq.com^
 |adx-dra.op.hicloud.com^
@@ -407,10 +419,12 @@
 |adslvfile.qq.com^
 |m.jr.mi.com^
 |ad-r.soulapp.cn^
+|preview.msn.com^
 |sfsapi.micloud.xiaomi.net^
 |pl.cp12.wasu.tv^
 |durdcn.doglobal.net^
 |httpdns.yunxindns.com^
+|ads.msn.com^
 |bksoup.v.qq.com^
 |huichuan.sm.cn^
 |adashx.ut.youku.com^
@@ -474,6 +488,7 @@
 |d2.sinaimg.cn^
 |httpdns.kg.qq.com^
 |fumiad.dxys.pro^
+|ceuswatcab01.blob.core.windows.net^
 |log.tidbcloud.com^
 |dsa-mfp.fengshows.cn^
 |adapi.izuiyou.com^
@@ -489,6 +504,7 @@
 |httpdns-api.aliyuncs.com^
 |ad.wretch.cc^
 |commercial.shouji.360.cn^
+|win10.ipv6.microsoft.com^
 |cdn-new-ad.wtzw.com^
 |adcdn.tencentmusic.com^
 |mpush-api.aliyun.com^
@@ -509,6 +525,7 @@
 |ime.api.xiaomi.com^
 |r.dmp.sina.com.cn^
 |jobs.date-fns.org^
+|1oavsblobprodcus350.blob.core.windows.net^
 |cc.sys.intl.xiaomi.com^
 |api-analytics-cn.huami.com^
 |bk01.hh.xiaomi.com^
@@ -553,6 +570,7 @@
 |credits3.bz.mgtv.com^
 |d7.sina.com.cn^
 |layer.bz.mgtv.com^
+|spynet2.microsoft.com^
 |tyh.taobao.com^
 |tracker.sns.iqiyi.com^
 |srd.simba.taobao.com^
@@ -683,6 +701,7 @@
 |ad4.sina.com.cn^
 |sax5.sina.com.cn^
 |sax4.sina.com.cn^
+|diagnostics.support.microsoft.com^
 |feed-image.baidu.com^
 |httpdns-euex-push.heytapmobile.com^
 |xlog.jd.com^
@@ -782,7 +801,9 @@
 |insights.samsung.com^
 |cdn.fds-ssl.api.xiaomi.com^
 |stat.zuimeitianqi.com^
+|weus2watcab01.blob.core.windows.net^
 |match.p4p.1688.com^
+|cache.datamart.windows.com^
 |ad.quwin.cn^
 |susapi.dev.surepush.cn^
 |simaba.taobao.com^
@@ -802,6 +823,7 @@
 |qiye.xiaomi.com^
 |credits2.bz.mgtv.com^
 |samsung-produkcja.24.eu^
+|spynetalt.microsoft.com^
 |bad.third-party.site^
 |sdkconfig.video.qq.com^
 |edgecast-vod.yimg.com^
@@ -955,6 +977,7 @@
 |optimus-ads-ykx.amap.com^
 |ads.eu.msn.com^
 |t.email1.samsung.ca^
+|xblgdvrassets3010.blob.core.windows.net^
 |fbapi.guguread.com^
 |oct.pocoiq.cn^
 |s.w-x.co^
@@ -973,6 +996,7 @@
 |adcdn6.tencentmusic.com^
 |plt.data.pplive.com^
 |sofire.baidu.com^
+|redir.metaservices.microsoft.com^
 |cast.innity.com^
 |adsense.html5.qq.com^
 |api-js.mixpanel.com^
@@ -1029,6 +1053,7 @@
 |newvector.map.baidu.com^
 |httpdns.calorietech.com^
 |fc-feed.cdn.bcebos.com^
+|api.cortana.ai^
 |stun.smartgslb.com^
 |splashimgretrybssdl.cloud.kugou.com^
 |credits.bz.mgtv.com^
@@ -1127,11 +1152,11 @@
 |display.360totalsecurity.com^
 |acstatic-dun.126.net^
 |log.ys7.com^
-|ads2.msn.com^
 |adsystem.wasu.tv^
 |ad.qingting.fm^
 |fyb-2.cdn.bcebos.com^
 |js.partnerstack.com^
+|ceuswatcab02.blob.core.windows.net^
 |adbs.ximalaya.com^
 |pdc.micloud.xiaomi.net^
 |url8807.global.passport.xiaomi.com^
@@ -1230,6 +1255,7 @@
 |h-adashx.ut.youku.com^
 |tongji.meizu.com^
 |a460.cell.phone.ringtone.samsung.sms13.de^
+|37bvsblobprodcus311.blob.core.windows.net^
 |web-track.go2yd.com^
 |quickaplus-server-api-cn-zhangjiakou.aliyuncs.com^
 |c.uaa.iqiyi.com^
@@ -1251,6 +1277,7 @@
 |stats.leavemealone.com^
 |adshmct.qq.com^
 |ads.ign.com^
+|teredo.ipv6.microsoft.com^
 |show.look.360.cn^
 |adx-dre.op.dbankcloud.com.edgekey.net^
 |impservice.youdao.com^
