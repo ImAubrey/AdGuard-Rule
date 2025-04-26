@@ -1,4 +1,4 @@
-# Update time: 2025-04-26 09:20:57
+# Update time: 2025-04-26 20:32:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7124,7 +7124,6 @@ _trackWebtrekkEvents.
 /cfformprotect/js/cffp.js
 /track_general_stat.php
 /tracking/freewheel/*
-||ab.chatgpt.com/v1/rgstr
 .warehousefashion.com/warehouse/e/$image
 /statblog/pws.php?
 ||princetonreview.com/logging/
@@ -10796,7 +10795,6 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 /shared/sentry/*
 /xtcore.js
 ||mmpool.org^$third-party
-||chatgpt.com/ces/v1/t
 ||cultofmac.com/djrxqhzkbsgf.js
 anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||leadsrx.com^$third-party
