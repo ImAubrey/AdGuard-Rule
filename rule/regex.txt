@@ -1,4 +1,4 @@
-# Update time: 2025-04-26 20:32:09
+# Update time: 2025-04-27 09:35:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -75,6 +75,7 @@
 ||aff*.kolektiva.net^
 ||stats.zone-annuaire.
 ||df.infra.sz.shopee.
+||mr.allegro.
 ||sta.wawacity.
 ||pixel.archive.
 %2Fevent.gif%3F
@@ -132,7 +133,6 @@
 |g.163.com^
 |mostat.wps.cn^
 |pre3-ad.alimama.com^
-|sec-cdn.static.xiaomi.net^
 |adstextview.qq.com^
 |grs.dbankcloud.eu^
 |dl.g.youku.com^
@@ -286,7 +286,6 @@
 |pg-ad-b2.ws.126.net^
 |adsehera.ximalaya.com^
 |a0.app.xiaomi.com^
-|api.collect.data.intl.miui.com^
 |fkp.samsungcloudsolution.net^
 |acfeedbackws.icloud.com^
 |androidgo.duapp.com^
@@ -1009,7 +1008,6 @@
 |shoes.app-xae.xiaomi.com^
 |app.starschina.com^
 |mtt.str.mdt.qq.com^
-|sec.resource.xiaomi.net^
 |ads.aplus.pptv.com^
 |feedback.windows.com^
 |adsys.sinovision.net^
@@ -1151,6 +1149,7 @@
 |order.music.xiaomi.com^
 |display.360totalsecurity.com^
 |acstatic-dun.126.net^
+|resolver.mi.xiaomi.com^
 |log.ys7.com^
 |adsystem.wasu.tv^
 |ad.qingting.fm^
@@ -1163,7 +1162,6 @@
 |paopao-monitor.iqiyi.com^
 |aedns.weixin.qq.com^
 |dns.weixin.qq.com^
-|fota4.adups.cn^
 |lives.l.ott.video.qq.com^
 |9ibbcq2d.sina.cn^
 |biz.live.xunlei.com^
