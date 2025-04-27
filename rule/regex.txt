@@ -1,4 +1,4 @@
-# Update time: 2025-04-27 09:35:49
+# Update time: 2025-04-27 20:32:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -48,7 +48,6 @@
 # 每12小时同步一次、如有误杀、请手动解除
 
 ||httpdns.*^$important
-||verify-att.app.^
 ||bc.geocities.
 ||matt.mercadolibre.
 ||tccd.douglas.
@@ -80,6 +79,7 @@
 ||pixel.archive.
 %2Fevent.gif%3F
 ||df.infra.shopee.
+||verify-att.app.^
 |i.ipinyou.com^
 |f8.market.xiaomi.com^
 |tz.sec.xiaomi.com^
@@ -757,6 +757,7 @@
 |c.bing.com^
 |ad.ximalaya.com^
 |fms.ipinyou.com^
+|click.tz.simba.taobao.com^
 |visitors.thingiverse.com^
 |p.cloudcraft.co^
 |tracking.klickthru.com^
@@ -799,6 +800,7 @@
 |daisydiskapp.com^
 |insights.samsung.com^
 |cdn.fds-ssl.api.xiaomi.com^
+|textlink.simba.taobao.com^
 |stat.zuimeitianqi.com^
 |weus2watcab01.blob.core.windows.net^
 |match.p4p.1688.com^
@@ -1070,6 +1072,7 @@
 |akcja-samsung.h2g.pl^
 |ttnet-dig.feishu.cn^
 ||ad.*.prod.hosts.ooklaserver.net^
+|mclick.simba.taobao.com^
 |umami.rss3.io^
 |hd.xiaomi.com^
 |ads.95516.com^
