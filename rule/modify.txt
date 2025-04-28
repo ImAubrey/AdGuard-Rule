@@ -1,4 +1,4 @@
-# Update time: 2025-04-28 09:25:59
+# Update time: 2025-04-28 20:38:06
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2443,6 +2443,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 .mailgun.patreon.com/o/$image
 /track/pixel/*
 ||falkenbergtorget.se/sc.gif?
+||envato.market/i/
 ||joggo.run/api/events
 @@||nobook.com/open-interface/official-sensors.git/$script,~third-party
 ||webtrends-optimize.com^$third-party
@@ -10268,6 +10269,7 @@ _rpc/log?
 ||webutation.net/js/load_badge.js
 ||flcounter.com^$third-party
 ||sdk.birdeatsbug.com^$third-party
+||snohetta.com/js/plascript.js
 /clickpathmedia.js
 /fb_pixel_page_view
 ||datacomm.ch^*/count.cgi?
