@@ -1,4 +1,4 @@
-# Update time: 2025-04-28 20:38:06
+# Update time: 2025-04-29 09:24:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1982,10 +1982,6 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
 ||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
 @@||www.zhihu.com/api/v4/search_v3*
-||use-application-dns.net^$empty,important
-||bgp.tools^$dnstype=AAAA
-@@||geolocation.onetrust.com^^$important
-||*^$dnstype=HTTPS
 ||mmccint.com^$third-party
 ||contiamo.com^$third-party
 ||mollusk.apis.ign.com/metrics/
@@ -2240,6 +2236,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /imp_img.php?
 /cx_tracking.js
 ||sessioncam.com^$third-party
+||calendly.com/telemetry.js
 ||tailtarget.com^$third-party
 ||kxcdn.com/assets/js/script.js
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
@@ -3629,6 +3626,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||ambercrow.com^$third-party
 ||urstats.de^$third-party
 ||sifomedia.se^$third-party
+/watchdog/hits/collect$xmlhttprequest
 /public/visit/record
 ||sayac.net.tr^$third-party
 ||tyxo.bg^$third-party
@@ -7105,6 +7103,7 @@ _trackWebtrekkEvents.
 /leage.google.tracker.js
 /statcount.
 ||counting4free.com^$third-party
+||immoweb.be/*/track/
 /tiara/tracker/*
 /pagestats.ashx
 ||e-contenta.com^$third-party
@@ -8496,6 +8495,7 @@ _track_pixel.gif?
 ||userway.org/api/seo-widget/
 ||etwun.com:8080/counter.php?
 ||clicki.cn^$third-party
+||best4tires.com/collect
 ||consensu.org/geoip
 ||doda.jp/DodaFront/Html/js/dodaPrime_pc_aaTag.js
 ||southwest.com/api/logging/v1/logging/
@@ -10260,6 +10260,7 @@ _rpc/log?
 ||chartaca.com^$third-party
 ||ipcatch.com^$third-party
 ||deliveroo.com^*/events
+||vistanet.it^*/category_event.js
 @@||c.webtrends-optimize.com/acs/$image,script,domain=tvlicensing.co.uk
 /newsletter/log/*$image
 /usertrack.aspx?
@@ -10811,6 +10812,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||iid-network.jp^$third-party
 ||fusevideo.io/api/event
 ||mypagerank.net^$third-party
+||paypal.com/credit-presentment/glog?
 ||virtueworldwide.com/ga-test/
 ||neatstats.com^$third-party
 ||btbuckets.com^$third-party
