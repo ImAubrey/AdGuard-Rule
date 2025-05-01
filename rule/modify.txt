@@ -1,4 +1,4 @@
-# Update time: 2025-04-30 20:35:54
+# Update time: 2025-05-01 09:39:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3164,6 +3164,7 @@ _logHuman=
 ||chartsurfer.de/uscoll.php?
 ||iheart.com/api/v3/playback/reporting
 /report_visit.php
+/sendy/t/*$image
 ||webtraxs.com^$third-party
 ||fyreball.com^$third-party
 ||livefyre.com^*/tracker.js
@@ -11691,6 +11692,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 /xinhua_webdig.js
 ||submitnet.net^$third-party
 ||push7.jp^$third-party
+||stockanalysis.com/cfa/
 /adb.policy.js
 ||tm-awx.com/pageview
 ||amazonaws.com/v1/apps/*/events
