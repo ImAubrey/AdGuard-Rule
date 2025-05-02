@@ -1,4 +1,4 @@
-# Update time: 2025-05-02 09:24:36
+# Update time: 2025-05-02 20:35:41
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2428,6 +2428,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /analytics/adtags?
 ||zesep.com^$third-party
 ||veoxa.com/get_trackingcode.
+://tagging.*.js?aw=
 ||linkwithin.com/pixel.png
 @@||player.smotrim.ru/js/piwik.js$~third-party
 ||skyscanner.*/rf8vapwA/init.js
@@ -3870,6 +3871,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 /pageview?user_guid=
 ||stetic.com^$third-party
 ||radiotime.com/Report.ashx?
+||woonboulevardpoortvliet.nl/*/Tagging_GTM/
 ||gateway.dev/log
 ||adku.co^$third-party
 /default/pAnalytics
@@ -4971,6 +4973,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||gcion.com/gcion.ashx?
 ||clickiocdn.com/utr/
 ||netne.net/stats/
+||publicwww.com/mtm/mtm.js
 @@||kozkutak.hu/getdata.php?v*=pageview$~third-party
 ||talkingdata.com^*/sdk_release.js
 ||www.mouser.*/4UAZUiaI/init.js
@@ -5888,6 +5891,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||forensics1000.com^$third-party
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 ||batiactu.com/cap_
+/plugins/tagging/*
 @@||googletagmanager.com/gtag/destination?$domain=sloways.eu
 ||widgetserver.com/t/
 /appdynamics/adrum-
@@ -6635,6 +6639,7 @@ _webanalytics.
 ||yext.com/plpixel?
 ||gmo-cybersecurity.com/siteseal/$third-party
 ||wikia-beacon.com^$third-party
+&ep.analytics_storage=
 ||cityzen.io/Pixel/
 ||sumologic.com^$third-party,domain=~sumologic.net
 /event/visit?
@@ -7269,6 +7274,7 @@ _trackWebtrekkEvents.
 ||consultant.ru/js/counter.js
 /js_ibeat_ext.cms
 /oa-tracking?
+/*JmVu.js?sp=
 .sharecounter.$third-party
 /at.gif?
 ||luminate.com/track/
@@ -7755,6 +7761,7 @@ _beacon?
 ||userstatics.com/get/script.js
 .travelperk.com/e/o/$image
 ||consent.trustarc.com/bannermsg?
+/*JmVu.js?tg=
 /global/ga.js
 /printtracker.js
 .com/counter?
@@ -8562,6 +8569,7 @@ _track_pixel.gif?
 /fb-tracking.js
 ||hypercounter.com^$third-party
 ||mi.dickssportinggoods.com/p/js/1.js
+&cx=c&gtm=
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 ||thisiswhyimbroke.com/api/user/gift-guide-thumbnail-homepage/tracking
 ||lfeeder.com^$third-party
@@ -8865,6 +8873,7 @@ _track_pixel.gif?
 /rook.tracking.min.js
 /admiral.js
 ||pubimgs.net/main.gif?
+/tag/proxy?id=G-
 ||maxmind.com/js/country.js
 ||compteur.cc^$third-party
 ||tend.io^$third-party
@@ -9193,6 +9202,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||corvidae.ai/pixel.min.js
 ||guarantee-cdn.com^$third-party
 ||fpad.jp^$third-party
+/shopify-datalayer-minified.js
 /evergage.js
 ||netmng.com^$third-party
 /rrweb.js
@@ -11786,6 +11796,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||mlm.de/counter/
 ||sided.co/analytics/
 ||runconverge.com^$third-party
+/user-data-minified.$script
 ||ip2c.org^$third-party
 /referral-tracking.min.js
 _event_tracking?
