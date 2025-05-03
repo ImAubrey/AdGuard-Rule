@@ -1,4 +1,4 @@
-# Update time: 2025-05-03 09:22:36
+# Update time: 2025-05-03 20:33:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2146,6 +2146,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /rpc.gif?ac=
 /scripts.kissmetrics.com/*
 /log_beacon.js
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=identity.healthsafe-id.com|nbc.com|subwy.com|tatamotors.com|usanetwork.com
 ||veduy.com^$third-party
 /e_stat?g_id=
 ||callrail.com^$third-party
@@ -2245,6 +2246,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||calendly.com/telemetry.js
 ||tailtarget.com^$third-party
 ||kxcdn.com/assets/js/script.js
+||pdffiller.com/api_v3/experiment/
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
 ||kupona.de^$third-party
 ||allanalpass.com/track/
@@ -2445,6 +2447,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /ajax_video_counter.php?
 ||m.clear.link/cpr/external/track
 ||akanoo.com^$third-party
+||pdffiller.com/click-stream/
 /rum-telemetry/*
 .mailgun.patreon.com/o/$image
 /track/pixel/*
@@ -2698,6 +2701,7 @@ _logHuman=
 /PixelTracking.js
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 ||ssense.com/58Asv359/init.js
+||mrkhub.com/sks/js/sks_track.js
 /stats/visitors
 ||jst.ai/vck.js
 ||futurecdn.net^*/abp.js
@@ -3603,7 +3607,6 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||goodreads.com/report_metric
 ||azureedge.net/javascripts/Tracking.
 ||californiatimes.com/privacy/$image
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|subwy.com|tatamotors.com|usanetwork.com
 @@||auth2.picpay.com^*/event-tracking.js$script,~third-party
 ||inbox.lv^*/ga.js
 ||datayi.cn^$third-party
@@ -4946,6 +4949,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 /open?token=$image
 ||arc.io^$third-party
 ||sellsy.com^$third-party,domain=~sellsy.fr
+||pdffiller.com/mpages/track/
 /RadioAnalytics.js
 /atapixel.js
 /analytics.*/ping/?
@@ -7417,6 +7421,7 @@ _trackWebtrekkEvents.
 _beacon?
 ||analytics.turk.pro^$third-party
 ||getpushmonkey.com^$third-party
+/api/v1/firehose/batch
 ||link.tv-asahi.co.jp/tver/cookiesync?
 ||15gifts.com^$third-party
 ||c212.net^$third-party
@@ -7968,6 +7973,7 @@ _beacon?
 /v1/adn/visit|
 ://l.*/counter.php?id=$script,~third-party
 /tr.gif?
+||click.ru^$third-party
 @@||chasecdn.com/web/*/eventtracker.js$domain=chase.com
 ||hitcounterstats.com^$third-party
 /cklog.js
@@ -8363,6 +8369,7 @@ _beacon?
 ||doda.jp/DodaCommon/Html/js/RtoasterTrack.js
 ||atatus.com^$third-party
 ||eastmoney.com/web/prd/jump_tracker.js
+||pdffiller.com/api_v3/uploader/stats
 ||iplogger.org^$third-party,domain=~iplogger.com
 ||shrtfly.vip/js/tag.js
 ||flux-cdn.com/client/ukiuki/flux_wikiwiki_AS_TM_AT.min.js
@@ -10190,6 +10197,7 @@ _rpc/log?
 ||thefreedictionary.com/_/tr.ashx?
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 ||coincarp.com/cdn-cgi/trace
+||traveloka.com/api/v1/tvlk/events
 ||infosniper.net/locate-ip-on-map.php
 /sherlock.gif?
 ||datacygnal.io^$third-party
@@ -10767,6 +10775,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||jsrdn.com/s/1.js
 ||easydmp.net/etag.
 ||cadreon.com^$third-party
+||pdffiller.com/funnel.php?
 /ph-tracking-1.2.js
 ||anura.io^$third-party
 ||adop.cc^$third-party
@@ -12292,6 +12301,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 @@||qm.wrc.com/gtm.js$~third-party
 ||stat.re^$third-party
+||experte.com/t/events
 /eventsBeacon?
 ||foxsports.com.au/akam/
 ||sportsmansguide.com/scripts/vendor/at_
