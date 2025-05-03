@@ -1,4 +1,4 @@
-# Update time: 2025-05-02 20:35:41
+# Update time: 2025-05-03 09:22:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1986,6 +1986,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||bgp.tools^$dnstype=AAAA
 @@||geolocation.onetrust.com^^$important
 ||*^$dnstype=HTTPS
+||counterapi.dev^$third-party
 ||mmccint.com^$third-party
 ||contiamo.com^$third-party
 ||mollusk.apis.ign.com/metrics/
@@ -2123,6 +2124,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||simpleanalyticscdn.com^$third-party
 /x_track.php?
 ||topacad.com^$third-party
+||api.visitorapi.com^$third-party
 /planetstat.php
 ||onesignal.com/api/v1/sync/
 ||rts.ch^*/boreas_b01.js
@@ -2357,6 +2359,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 .eloqua.js
 /link.e-mail.*/mo/*$image
 /pushlog.php
+&ga_blocked=$image
 ||stormcontainertag.com^$third-party
 /yell-analytics-app.js
 ||km-sea.net^$third-party
@@ -2424,6 +2427,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /adstrack.js
 ||freestats.com^$third-party
 /session/preparecookies?$domain=~mirapodo.de|~mytoys.de|~yomonda.de
+://tagging.*/settings.js
 ||independent.co.uk/iframe/native-cookiesync-frames.html
 /analytics/adtags?
 ||zesep.com^$third-party
@@ -3166,6 +3170,7 @@ _logHuman=
 ||iheart.com/api/v3/playback/reporting
 /report_visit.php
 /sendy/t/*$image
+/index.php/analytics/cookieAnalytics|$xmlhttprequest
 ||webtraxs.com^$third-party
 ||fyreball.com^$third-party
 ||livefyre.com^*/tracker.js
@@ -3257,6 +3262,7 @@ _logHuman=
 ||trilogyed.com^$third-party
 ||walmartethics.com/px/PXcfrcFEfA/init.js
 ||mapandroute.de/log.xhr?
+||edge-hls.doppiocdn.live/ping
 ||qzzr.com/_uid.gif
 ||formstack.com/forms/js/*/analytics_
 ||kaizenplatform.net^$third-party
@@ -4507,6 +4513,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||leadspace.com^$third-party
 .list-manage.com/track/
 ||vimeo.com/add/
+||deporvillage.com/tracking-library/
 ||megpxs.com^$third-party
 ||foodora.se/lJuB4eTB/init.js
 ||internships.com/oGckki0e/init.js
@@ -4635,6 +4642,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||aolcdn.com/js/mg2.js
 @@||technical-service.net^$xmlhttprequest,domain=n-tv.de|rtl.de|vip.de
 ||eharmony.co.uk/bd/
+||pccomponentes.*/api/users/tracking/
 ||triggeredmessaging.com^$third-party
 ||ftimg.net/js/log.js?
 /performanceMetrics?
@@ -4878,6 +4886,7 @@ omni.soundestlink.com$image
 /ruxitagentjs_
 ||ex.co/content/monetization/legacy-pixels/
 ||contentspread.net^$third-party
+||fideuram.it/js/cookie-manager/tracking-scripts.js
 ||scripts.swifteq.com/hc_events.js
 ||streamtheworld.com/imp?
 /trackEvent.js
@@ -6081,6 +6090,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||permutive.com^$third-party
 ||flixcar.com/gvid
 /wp-stats-manager/js/wsm_new.js
+||vidlink.pro/script.js
 ||tweakers.nl/track/
 ||memo.co^$third-party
 ||digimedia.com/pageviews.php?
@@ -7350,6 +7360,7 @@ _trackWebtrekkEvents.
 /track/client-event/*
 ||analytics.praetor.im^$third-party
 ||groupe-seloger.com/tracking-data/
+||awswaf.com/*/telemetry
 ||fluidsurveys.com^$third-party
 ||sendtonews.com/stn_trk.gif?
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
@@ -7458,6 +7469,7 @@ _beacon?
 ||web.tv/analytics/
 ||openlog.in^$third-party
 ||indeed.com/cmp/_rpc/flog
+/iris-t.js
 ||scorecardresearch.com^$third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/gaAnalytics.js$~third-party
 ||butterfly-api.masterworks.com/v1/
@@ -7950,6 +7962,7 @@ _beacon?
 ||e-goi.com^$third-party,domain=~e-goi.com.br|~e-goi.pt
 ||stg.truvidplayer.com/*/v.php?st=
 /logclick.js
+||doofinder.com/api/v2/stats/
 ||shinobi.jp/track?
 ||pcspeedup.com^$third-party
 /v1/adn/visit|
@@ -9764,6 +9777,7 @@ visible.com##+js(set-local-storage-item, browser-ids, $remove$)
 ||toc.io^$third-party
 ||onescreen.net/os/static/pixels/
 ||unibling.com/eclytics/
+||kijimea.it/javascript/script.js
 ||surace-jujitsu.fr/outils/compteur_php/
 ||tentaculos.net^$third-party
 ||civitai.com/api/page-view
@@ -10491,6 +10505,7 @@ _rpc/log?
 ||zazzle.ca/botdefender/init.js
 ||deadlinefunnel.com^$third-party
 ||findmatches.com/bts.js
+||vidsrc.icu/js/script-custom.js
 ||rakentaja.fi/kuvat/pi.gif$image
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
 ||iptrack.io^$third-party
@@ -11032,6 +11047,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||kmindex.ru^$third-party
 ||phrasetech.com/api/collect
 /log?count=
+||reviews.io/stats/
 /click.em.nike.com/*$image
 ||7bpeople.com^$third-party
 ||pghub.io^$third-party
@@ -11612,6 +11628,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 /js/analitics.js
 /logjs.php
 @@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|petsafe.com|robertsspaceindustries.com
+/analytics/rakuten.js
 ||popsample.com^$third-party
 ||mbww.com^$third-party
 /counter?id=
