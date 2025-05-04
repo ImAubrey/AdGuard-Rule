@@ -1,4 +1,4 @@
-# Update time: 2025-05-03 20:33:01
+# Update time: 2025-05-04 09:40:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -719,6 +719,7 @@
 |as.aplus.pptv.com^
 |ixav-cse.avlyun.com^
 |ad.funp.com^
+|stat.funshion.net^
 |p2.l.qq.com^
 |applogios.uc.cn^
 |api.shuaji.360.cn^
@@ -780,6 +781,7 @@
 |userid.xiaomi.com^
 |sax2.sina.com.cn^
 |qchannel04.cn^
+|shrek.6.cn^
 |hw.zuimeitianqi.com^
 |raddus.bayescom.com^
 |stat.m.jd.com^
@@ -939,7 +941,6 @@
 |pl.youku.com^
 |sax7.sina.com.cn^
 |adm.meiguo.com^
-|x.o2.pl^
 |xiazai.xiaomi.com^
 |tmfsdk.m.qq.com^
 |p2pchunk-*.douyucdn.cn^
@@ -1293,6 +1294,7 @@
 |ad.api.youshiad.cn^
 |dsp-ad.yy.com^
 |gas.data.pplive.com^
+|analytics.163.com^
 |d1.sinaimg.cn^
 |ads.fetnet.net^
 |acjs.aliyun.com^

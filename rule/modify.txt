@@ -1,4 +1,4 @@
-# Update time: 2025-05-03 20:33:01
+# Update time: 2025-05-04 09:40:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6628,6 +6628,7 @@ _webanalytics.
 /realytics-1.2.min.js
 ||trmads.eu^$third-party
 ||geckofoot.com/gfcounterimg.aspx?
+||dropbox.com/2/udcl/log_timing
 ||baitoru.com/pu/js/2017/adobe_send_tracking.js
 ||burpee.xyz^$third-party
 /collect/view?
@@ -10378,6 +10379,7 @@ _rpc/log?
 ||visilabs.net^$third-party
 @@||live.rezync.com^$script,domain=batteriesplus.com
 /webstatistics.php?
+||juicer.io/api/page_views
 ||telemetric.dk^$third-party
 /^https?:\/\/tmx\.(td|tdbank)\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com|tdbank.com
 /pixel-prod.
@@ -12204,6 +12206,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||magiq.com^$third-party
 ||axf8.net^$third-party
 ||mediaplex.com^$third-party
+||stirr.com/api/stats
 /blogcounter.js
 /geoAnalysis.js
 .substackcdn.com/open?$image
@@ -12276,6 +12279,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||trafficfacts.com^$third-party
 ||d-1.co^$third-party
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
+||boomtrain.com/identify/resolve?
 ||akamaihd.net^$image,domain=globalnews.ca|nycgo.com|stcatharinesstandard.ca
 ||t-analytics.com^$third-party
 /GoogleAnalyticsPlus/distilled.FirstTouch.js
@@ -12835,6 +12839,7 @@ _stat.php?referer=
 /estat.js
 ||sim-technik.de^*&uniqueTrackId=
 /twiga.js
+/track/go.php?*&referer_url=
 ||bm23.com^$third-party
 ||escalated.io^$third-party
 ||iolam.it/service/trk
