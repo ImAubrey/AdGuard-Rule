@@ -1,4 +1,4 @@
-# Update time: 2025-05-04 20:33:36
+# Update time: 2025-05-05 09:27:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -50,12 +50,12 @@
 ||httpdns.*^$important
 ||verify-att.app.^
 ||bc.geocities.
+||stw.extreme-down.
 ||collector-*.luigisbox.com^
 ||matt.mercadolibre.
 ||tccd.douglas.
 ||stats*.credit-cooperatif.coop^
 ||hn-ping*.hashnode.com^
-||sta.extreme-down.
 ||mcdp-*.outbrain.com^
 ||adservice.google.
 ||servo-report.dvdfab.

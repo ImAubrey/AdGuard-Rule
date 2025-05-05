@@ -1,4 +1,4 @@
-# Update time: 2025-05-04 20:33:36
+# Update time: 2025-05-05 09:27:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2298,6 +2298,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||wifeo.com/compteurs/$third-party
 ||variti.net^$third-party
 ||servizi.unionesarda.it/controlli/
+||glove.fit^$third-party
 ||newelements.de/tracker/
 ||accessintel.com^$third-party
 /stats.*/hits/*
@@ -4508,6 +4509,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||confirmit.com/wix/inline.aspx?
 /nm_trck.gif?$domain=spiegel.de
 ||adgainersolutions.com^$third-party
+||secretbenefits.com/js/script.js
 /ppms.js
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
 ||beyondsecurity.com^$third-party
@@ -8153,6 +8155,7 @@ _beacon?
 /LandingPageHitLog.aspx?
 /scripts/statistics/*
 ||coincheckup.com/report_events/
+||dorcel.com/_stats/
 ||amazonaws.com/cdn.aimtell.com/
 ||rasin.tech/heatmap-
 @@||google-analytics.com/gtm/optimize.js$domain=focus.de
@@ -8646,6 +8649,7 @@ _track_pixel.gif?
 ||gubagoo.com/modules/tracking/
 /hit_counter
 @@||rudaw.net/images/pixel.gif$~third-party
+||high-cdn.com/log.php?
 ||sp-trk.com^$third-party
 ||akamaihd.net/bping.php?
 ||netagent.cz^$third-party
@@ -9061,6 +9065,7 @@ e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !importa
 ||intergid.ru^$third-party
 ||mabipa.com^$third-party
 ||propermessage.io^$third-party
+||hzcdn.io/bff/static/vendor/sourcepoint-lib/
 /umt.gif?
 ||peakcounter.dk^$third-party
 ||tbcconnect.ge^$third-party
@@ -11756,6 +11761,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||sayyac.net^$third-party
 ||kommersant.uk/banner_stats
 .fiverr.com/js_event_tracking/v1/track_email_open/$image
+@@||k5a.io^$domain=itavisen.no
 /piano-analytics.js
 ||brilliantcollector.com^$third-party
 ||analitycs.net^$third-party
