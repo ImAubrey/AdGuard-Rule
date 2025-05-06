@@ -1,4 +1,4 @@
-# Update time: 2025-05-05 20:36:50
+# Update time: 2025-05-06 09:24:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -141,6 +141,7 @@
 |ad.bayescom.com^
 |tracking.*.miui.com^
 |mibi.xiaomi.com^
+|device-metrics-us.amazon.com^
 |mobilelog.kugou.com^
 |iflow.uczzd.cn^
 |hdj.baidu.com^
@@ -249,7 +250,6 @@
 |gtms04.alicdn.com^
 |f1.g.mi.com^
 |adeng.hpplay.cn^
-|spyneteurope.microsoft.akadns.net^
 |nl.notice.iqiyi.com^
 |gtms01.alicdn.com^
 |game.sec.miui.com^
@@ -276,7 +276,6 @@
 |adashx.ut.ele.me^
 |mou.niu.xunlei.com^
 |iad0ssl.pconline.com.cn^
-|schemas.microsoft.akadns.net^
 |veim.lrswl.com^
 |spro.so.com^
 |adsclick.qq.com^
@@ -299,7 +298,6 @@
 |httpdns.push.oppomobile.com^
 |adwbs.ximalaya.com^
 |pushapi.lenovomm.com^
-|win8.ipv6.microsoft.com^
 |show.re.taobao.com^
 |afp.alicdn.com^
 |sdk.m.youku.com^
@@ -900,6 +898,7 @@
 |timeserver.cnzz.net^
 |ad.hiiir.com^
 |msg.iqiyi.com^
+|qm.redbullracing.com^
 |ad.gamebox.360.cn^
 ||null^
 |v1.log.moji.com^
@@ -1278,7 +1277,6 @@
 |stats.leavemealone.com^
 |adshmct.qq.com^
 |ads.ign.com^
-|teredo.ipv6.microsoft.com^
 |show.look.360.cn^
 |adx-dre.op.dbankcloud.com.edgekey.net^
 |impservice.youdao.com^
@@ -1523,6 +1521,7 @@
 ||mcs-*.lemon8-app.us^
 ||ad*.nexage.com^
 ||aj1*.xyz^
+||discovery-ios-*.ertelecom.ru^
 ||util-*.simply-hentai.com^
 ||collect-elb-*.amazonaws.com^
 ||collector-*.px-cloud.net^
