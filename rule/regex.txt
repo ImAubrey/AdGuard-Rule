@@ -1,4 +1,4 @@
-# Update time: 2025-05-06 20:38:38
+# Update time: 2025-05-07 09:25:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -207,7 +207,6 @@
 |mdevstat.qqlive.qq.com^
 |front-perf.imoim.net^
 |pcweb.v1.mgtv.com^
-|jsadsdisplay.cn-beijing.log.aliyuncs.com^
 |bd1.zuimeitianqi.com^
 |d.g.mi.com^
 |p2sdmkj6t.bkt.clouddn.com^
@@ -286,6 +285,7 @@
 |pg-ad-b2.ws.126.net^
 |adsehera.ximalaya.com^
 |a0.app.xiaomi.com^
+|ping.ifixit.com^
 |fkp.samsungcloudsolution.net^
 |acfeedbackws.icloud.com^
 |androidgo.duapp.com^
@@ -447,7 +447,6 @@
 |adsrich.qq.com^
 |iadmat.nosdn.127.net^
 |n.3g.163.com^
-|global.search.xiaomi.net^
 |dns.ximalaya.com^
 |video-ad.sm.cn^
 |idm-su.baidu.com^
@@ -603,7 +602,6 @@
 |proxy.sec.miui.com^
 |ad.toutiao.com^
 |samsungcloudsolution.net^
-|mlog.search.xiaomi.net^
 |mazu.3g.qq.com^
 |ps.map.baidu.com^
 |httpdns.volcengineapi.com^
@@ -728,6 +726,7 @@
 |adx.alimama.com^
 |cb.l.qq.com^
 |paopao3.qiyipic.com^
+|log.zijieapi.com^
 |geo.hicloud.com^
 |toolbar.msn.com^
 |newspush.sinajs.cn^
@@ -1439,6 +1438,7 @@
 ||pijama.*.elasticbeanstalk.com^
 ||ali-bj-pcdn-*.biliapi.net^
 ||ce-global-track-*.amazonaws.com^
+||customerevents.us-east-*.internal.dradis.netflix.com^
 ||device-metrics-us*.amazon.com^
 ||ana*.inews24.com^
 ||ads*-normal-*.zijieapi.com^
@@ -1591,6 +1591,7 @@
 ||n*adserv.com^
 ||ks-p2p*pull*com^
 ||s*.skencituer.com^
+||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
 ||batchlogging*-noneu.truecaller.com^
 ||apple-*.le.com^
 ||imp-*.jampp.com^
