@@ -1,4 +1,4 @@
-# Update time: 2025-05-09 20:36:03
+# Update time: 2025-05-10 09:22:41
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3334,6 +3334,7 @@ _logHuman=
 ||mercedes-benz.com/datadog-
 /p1x1.gif
 ||spearad.video^$third-party
+||biosolutions.tv/audience-proxy/
 ||eanalyzer.de^$third-party
 /better-analytics/js/loader.php
 /ga.js?grid
@@ -3424,6 +3425,7 @@ _logHuman=
 ||t.tubantia.nl^$image
 /advstats.js
 ||cashburners.com^$third-party
+||matas.dk/internal/Tracking/
 /magpie.js
 ||pntrac.com^$third-party
 /scroll-track.js
@@ -4040,6 +4042,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||userreport.com^$third-party
 ||ststandard.com/ping
 ||partners.etoro.com^$script
+||minetilbud.dk/api/web/logViewAdvertPage
 ||ok.ru/dk?cmd=videoStatNew
 ||sojern.com^$third-party
 /pixel.modern.js
@@ -4343,6 +4346,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||mgmlcdn.com/stats/
 @@||playy.online/log_event$~third-party,xmlhttprequest
 ||webmining.co^$third-party
+||aservice.cloud/trc/mastertag
 /fingerprint2.js
 ||jsdelivr.net/gh/sensitiveio/sbtracker@master/
 ||leadforensics.com^$third-party
@@ -4521,6 +4525,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||apartmenttherapy.com/jAYekY18/init.js
 /jgs_portal_log_bildschirm.php?
 ||leadspace.com^$third-party
+||salesforce.com/beacon/
 .list-manage.com/track/
 ||vimeo.com/add/
 ||deporvillage.com/tracking-library/
@@ -4851,6 +4856,7 @@ omni.soundestlink.com$image
 ||iotechnologies.com^$third-party
 ||visistat.com^$third-party
 ||pagoda56.com^$third-party
+||geoproapp.com/api/record
 ||hitstatus.com^$third-party
 ||convertcart.com^$third-party
 ||supercounters.com^$third-party
@@ -5157,6 +5163,7 @@ flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal
 -universal-analytics/
 ||eluxer.net^$third-party
 /gcount.pl?
+||raygun.io/ping?
 ||alcmpn.com^$third-party
 ||alicdn.com/tkapi/click.js
 ||pipeline.lc.nl^$~script
@@ -6696,6 +6703,7 @@ _webanalytics.
 ||toast.com/log
 ||outbrainimg.com^$third-party
 ||cdn.statically.io/gh/opcdn/analytics/main/script.js
+||ab.g.globo/event
 /track_event.
 ||waaw1.tv/cdn-cgi/trace
 ||trackedlink.net^$third-party
@@ -7578,7 +7586,6 @@ _beacon?
 ||mobalyzer.net^$third-party
 /tracking/uct?v=
 ||gameanalytics.com^$third-party
-@@||cdn.petametrics.com^$script,domain=mechacomic.jp
 /logging/v1/log|
 /CustomTrackingScript.js
 @@||admin.corrata.com/console/dcconsolews/event-log?$~third-party
@@ -8283,6 +8290,7 @@ _beacon?
 ||nrich.ai^$third-party
 ||primer.typekit.net^$xmlhttprequest
 /visitinfo.js
+||airgreenland.com/tracking/
 /ticimax/analytics.js
 ||adtarget.me^$third-party
 /impress.php?
@@ -8751,6 +8759,7 @@ _track_pixel.gif?
 ||iryazan.ru^$third-party
 ||gainings.biz/counter.php?
 ||indexstats.com^$third-party
+||redirectify.app^$third-party
 ||logxp.ru^$third-party
 /krux-sass-helper.js
 ||googletagmanager.com/gtm.js?$domain=autobild.de
@@ -9029,6 +9038,7 @@ _track_pixel.gif?
 ||kopsil.com^$third-party
 /coherentpath.link/o/*$image
 ||npo-data.nl/tags/tag.min.js
+||diginetica.net^$third-party
 /StatCms/ViewCount?
 ||thesun.co.uk/assets/client/analyticsListeners~
 ||mymetal.ru/counter/
@@ -11519,6 +11529,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||tower.jp/bundle/beacon
 ||logger.co.kr^$third-party
 ||dynamicyield.com/clog
+/FacebookEvent/PageView$xmlhttprequest
 /vli-platform/adb-analytics@
 ||report-uri.com^$third-party
 @@||sascdn.com/tag/$script,domain=filmweb.pl
@@ -12149,6 +12160,7 @@ img.promio-connect.com$image
 ||cts.businesswire.com^$third-party
 ||factors.ai/sdk/event/
 ||sawpf.com/1.0.js$third-party
+||ststandard.com/adsf
 ||concert.io/lookup/
 ||pushbird.com^$third-party
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
@@ -13003,6 +13015,7 @@ _WebVitalsReporter_
 ||referralrock.com^$third-party
 ||dropbox.com/unity_connection_log
 ||uber.com/careers/apply/_log
+||minetilbud.dk^*/Statistics.asmx
 ||merklesearch.com/merkle_track.js
 ||shazam.com/services/metrics/
 ||gobankingrates.com/fp/
@@ -13062,6 +13075,7 @@ _WebVitalsReporter_
 ||imagetwistcams.com/pixel/
 @@||elconfidencial.com^*/AnalyticsEvent.js
 /analytics/capture/*
+||vbox7.com/aj/player-stats?
 ||trysera.com^$third-party
 ||play.pp9yy.com/hall/home/heartbeat
 ||wtstats.com^$third-party
