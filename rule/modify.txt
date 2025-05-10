@@ -1,4 +1,4 @@
-# Update time: 2025-05-10 09:22:41
+# Update time: 2025-05-10 20:33:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4262,6 +4262,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 /eventproxy/track
 ||searchiq.co/api/tr?
 ||bonmed.se/monitoring?
+||polarbyte.com/scripts/latest/survey/pb-survey.iife.min.js
 ||consentmanager.net/delivery/info/$third-party
 ||godaddy.com/js/gdwebbeacon.js
 /dcs.gif?
@@ -5135,6 +5136,7 @@ flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal
 ||akamaihd.net/*.gif?e=
 ||pubstack.io^$third-party
 ||ruwiki.ru/w/rest.php/metrics/
+@@||api.useinsider.com/api/web^$domain=barenecessities.com
 /collect/stats?
 ||brightfunnel.com^$third-party
 ||amazonaws.com^*/prod_analytics
@@ -5239,6 +5241,7 @@ flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal
 .com/clk?
 ||blog-webkatalog.de^$third-party
 ||io.narrative.io/?$third-party
+||nhk.or.jp/mpulse/boomerang/
 ||tumblr.com/services/bblog
 /cnt.js
 ||clipsyndicate.com/cs_api/cliplog?
@@ -8625,6 +8628,7 @@ _track_pixel.gif?
 ||streamtapeadblockuser.monster/stat/
 ||bigcattracks.com^$third-party
 /gs.gif?
+@@||cdn.segment.com/analytics.js/$script,domain=abstractapi.com|accounts-bc.com|app.cryptotrader.tax|app.joinhandshake.com|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com|squaretrade.com|swatches.interiordefine.com
 ||xiti.com^$third-party
 ||docs.github.com/events
 /hits/logger?
@@ -10854,6 +10858,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 /roitracker2.js
 ||enetres.net/StatisticsV1/
 ||webstats.com^$third-party
+||polarbyte.com/scripts/latest/reach/pb-reach.iife.min.js
 /evt.gif?
 ||geotargetly.co^$third-party
 /i.gif?
@@ -11560,7 +11565,6 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||dzen.ru/pingx
 @@||starlink.com/sst/gtag/js$script,~third-party
 ||counter-go.de^$third-party
-@@||cdn.segment.com/analytics.js/$script,domain=abstractapi.com|app.cryptotrader.tax|app.joinhandshake.com|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com|squaretrade.com|swatches.interiordefine.com
 ||flagcounter.com^$third-party
 ||mezzobit.com^$third-party
 /mati.gif?v=
