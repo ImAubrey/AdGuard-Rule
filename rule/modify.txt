@@ -1,4 +1,4 @@
-# Update time: 2025-05-10 20:33:04
+# Update time: 2025-05-11 09:38:28
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4765,6 +4765,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||pikabu.ru/stat/
 /wp-js/analytics.js
 @@||opex.xplan.iress.com.au/js/xiled/util/pageview.js$~third-party
+://t.targito.
 ||otto.de/pass/scale-beacon-service/
 ||amazonpay.com/customerInsight?
 .ne16.com/do/
@@ -5134,6 +5135,7 @@ flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal
 ||oval.id/tracker/
 ||brightdata.de^$third-party
 ||akamaihd.net/*.gif?e=
+/_servix/webid.aspx?$script
 ||pubstack.io^$third-party
 ||ruwiki.ru/w/rest.php/metrics/
 @@||api.useinsider.com/api/web^$domain=barenecessities.com
@@ -5234,6 +5236,7 @@ flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal
 ||cloudtracer101.com^$third-party
 ||browserpusher.com^$third-party
 ||nitroscripts.com^$script,domain=pcguide.com
+||retargeted.co^$third-party
 ||performgroup.com/metrics/
 /stats_js.asp
 /referrer_tracking.js
@@ -6829,6 +6832,7 @@ _view_pixel&$image
 ||dps-reach.com^$third-party
 ||adyen.com/checkoutshopper/images/analytics.png?
 ||gostats.de^$third-party
+||leady.com^$third-party
 /sranalytics.js
 ||platform.twitter.com/impressions.js
 ||dmtag.jp^$third-party
@@ -7358,6 +7362,7 @@ _trackWebtrekkEvents.
 ||lemonde.fr^$ping
 ||hubspot.com/img/trackers/
 /cms/stats/*
+||affiliateport.eu^$third-party
 ||maxmind.com/app/$third-party
 ||octaneai.com^*/utrk
 /LogImpression?
@@ -8209,6 +8214,7 @@ _beacon?
 ||ardalio.com^$third-party
 ||sdqoi2d.com^$third-party
 ||sometrics.com^$third-party
+||azureedge.net/sdrive/zero-tracking.js
 ||awswaf.com^*/report
 ||nelonenmedia.fi/logger/
 ||behance.net/v2/logs
@@ -9591,6 +9597,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||advgo.net/hits/
 /statistics/visit?id=
 ||dtc-v6t.com^$third-party
+||adactive.cz^$third-party
 ||chuzushijian.cn/c.php
 /jquery.analytics.js
 /pixel/sbs?
@@ -9804,6 +9811,7 @@ visible.com##+js(set-local-storage-item, browser-ids, $remove$)
 ||akamaihd.net^*.gif?d=
 /collect?eid=
 ||sageanalyst.net^$third-party
+||xtv.cz/api/v3/log/
 /cxense/cx.js
 ||thewhizproducts.com^$third-party
 /smmch-own.js
@@ -10234,6 +10242,7 @@ _rpc/log?
 ||hubspot.com/analytics/
 ||ktla.com/CvbtpUrj/init.js
 ||web-boosting.net^$third-party
+||ehub.cz^$third-party
 ||change.org/api-proxy/-/bandit/pull
 ||thefreedictionary.com/_/tr.ashx?
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
@@ -10511,6 +10520,7 @@ sidereel.com##+js(acs, document.getElementsByTagName, .pubads)
 ||getsentry.com^$third-party,domain=~sentry.dev|~sentry.io
 ||saasexch.com/bapi/fe/usd/report/
 ||sams.com.mx/px/PX87wpO5aK/init.js
+||boldem.cz^$third-party
 ||ss.lv/counter/
 ||insightgrit.com^$third-party
 ||byteoversea.com/captcha/report
@@ -12085,6 +12095,7 @@ _event_tracking?
 ||dl8.me^$third-party
 ||ultra-soccer.jp/js/analytics.js
 /mixpanel.$domain=~mixpanel.com
+||1gr.cz/log/
 /client_204?$image,other,ping,script
 ||thronecdn.com/analytics/
 /analytics/amp/*
@@ -13253,6 +13264,7 @@ _WebVitalsReporter_
 ||m-t.io^$third-party
 ||sensorsdata.cn^$third-party
 ||optimierung-der-website.de^$third-party
+/scripts/click.js.php
 ||pcrl.co/js/jstracker.min.js
 /awin?awc=$image
 ||data-dynamic.net^$third-party
