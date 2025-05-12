@@ -1,4 +1,4 @@
-# Update time: 2025-05-12 09:37:27
+# Update time: 2025-05-12 20:38:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2312,6 +2312,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||dengage.com^$third-party
 /stat_js.asp?
 /web-analytics.js
+||dn.pt/scooby/api/v1/log/
 /link.email.usmagazine.com/img/*$image
 ||superstat.info^$third-party
 /analytics-library.js
@@ -5743,6 +5744,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||sexhd.pics/x/x.js
 /brightedge.js
 ||d1snv67wdds0p2.cloudfront.net/tracker/
+||upvert.io/api/v3/pixel/
 @@||thron.com/shared/plugins/tracking/current/tracking-library-min.js$domain=dainese.com
 ||shobiddak.com/logging/
 ||kmib.co.kr/ref/
@@ -7016,6 +7018,7 @@ _trackWebtrekkEvents.
 /production/analytics.min.js
 ||sohu.com/adgtr/
 /azion-pulse.js
+||dn.pt/qlitics.js
 /event/pageview?
 @@||howtonote.jp/google-analytics/$image,~third-party
 /metrics/event?
@@ -9612,7 +9615,6 @@ abema.tv##+js(rmnt, script, NREUM)
 .mkt51.net/eos/
 /h.gif?
 ||mp.weixin.qq.com/mp/appmsgreport?
-||dn.pt/tag/
 ||dataroid.com^$third-party
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com|xfinity.com
 ||grapheffect.com^$third-party
@@ -11281,6 +11283,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||temu.com/api/adx/
 ||akamai.net^*/a.visualrevenue.com/
 ||smarthint.co/track/
+||vector.co/pixel.js
 ||dsparking.com^$third-party
 ||playvideohd.com/cdn-cgi/trace
 /piwik2.
