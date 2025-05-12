@@ -1,4 +1,4 @@
-# Update time: 2025-05-11 20:32:57
+# Update time: 2025-05-12 09:37:27
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -100,6 +100,7 @@
 |r.i.ua^
 |p.alimama.com^
 |s3.pfp.sina.net^
+|cryptominer.ddns.net^
 |rmads.msn.com^
 |ad.jamster.co.uk^
 |dsp-x.jd.com^
@@ -128,10 +129,12 @@
 |ad.greedland.net^
 |stat.simba.taobao.com^
 |tmeadcomm.y.qq.com^
+|scryptpool.ddns.net^
 |adshare.toutiao.com^
 |nadvideo2.baidu.com^
 |cdn.getkoala.com^
 |g.163.com^
+|wpcdn1.herokuapp.com^
 |mostat.wps.cn^
 |pre3-ad.alimama.com^
 |adstextview.qq.com^
@@ -181,6 +184,7 @@
 |audio-ak-spotify-com.akamaized.net^
 |adlaunch.moji.com^
 |g3.letv.com^
+|egazpool.ddns.net^
 |btrace.video.qq.com^
 |vip.bz.mgtv.com^
 |mibi.api.xiaomi.com^
@@ -191,6 +195,7 @@
 |events-analytics.apple.com^
 |test.xiaomi.com^
 |crash.163.com^
+|gustaver.ddns.net^
 |samsungotn.net^
 |e.duomeng.org^
 |shouji.sougou.com^
@@ -199,6 +204,7 @@
 |static.g.iqiyi.com^
 |onrt-stsdk.vivo.com.cn^
 |03.lzzncm.com^
+|bowser777.ddns.net^
 |c.l.qq.com^
 |dig.zjurl.cn^
 |test.surepush.cn^
@@ -260,6 +266,7 @@
 |ads.mojicdn.com^
 |yyapp-httpdns.gslb.yy.com^
 |info.analysis.kp.sec.miui.com^
+|vbk-reb0rn.ddns.net^
 |drd.hauchi.com.tw^
 |otn.samsungcloudcdn.com^
 |ttnet-doh.feishu.cn^
@@ -307,6 +314,7 @@
 |badjs.weixinbridge.com^
 |rm.sina.com.cn^
 |ads.data.pplive.com^
+|vietpool.vddns.vn^
 |calopenupdate.comm.miui.com^
 |orbit.jd.com^
 |ifengad.3g.ifeng.com^
@@ -348,6 +356,7 @@
 |adlog.vivo.com.cn^
 |this_rule_set_is_made_by_sukkaw.skk.moe^
 |phonecallapi.micloud.xiaomi.net^
+|bowserpool.ddns.net^
 |js.iterable.com^
 |adimg.uve.weibo.com^
 |me.cpatrk.net^
@@ -391,6 +400,7 @@
 |eaus2watcab02.blob.core.windows.net^
 |tongji.linezing.com^
 |adreq.vivo.com.cn^
+|eu-ethpool.ddns.net^
 |gorgon.youdao.com^
 |oth.str.mdt.qq.com^
 |watson.live.com^
@@ -427,11 +437,13 @@
 |bksoup.v.qq.com^
 |huichuan.sm.cn^
 |adashx.ut.youku.com^
+|gcpool.ddns.net^
 |mvconf.uk.cloud.360safe.com^
 |adimg.mobile.sina.cn^
 |slb-p2p.vcloud.ks-live.com^
 |api.waptest.taobao.com^
 |grs.platform.dbankcloud.ru^
+|543874163.ddns.net^
 |mtrace.amap.com^
 |dp3.qq.com^
 |adx-bid.tianzhuobj.com^
@@ -571,6 +583,7 @@
 |spynet2.microsoft.com^
 |tyh.taobao.com^
 |tracker.sns.iqiyi.com^
+|jqcdn2.herokuapp.com^
 |srd.simba.taobao.com^
 |r.dmp.sina.cn^
 |adx.halomobi.com^
@@ -594,10 +607,12 @@
 |samsung.yaload.ru^
 |80vn.cn^
 |static.vuevideo.net^
+|eu-nilupool.ddns.net^
 |tools.3g.qq.com^
 |adx-drru.op.dbankcloud.com^
 |adashx.m.taobao.com^
 |rmads.eu.msn.com^
+|vocadb-analytics.fly.dev^
 |cm.ipinyou.com^
 |jzt.jd.com^
 |proxy.sec.miui.com^
@@ -663,6 +678,7 @@
 |httpdns.gslb.yy.com^
 |afdconf.baidu.com^
 |d0.sina.com.cn^
+|openburstpool.ddns.net^
 |g.koowo.com^
 |clientlogusf.music.163.com^
 |lockersamsungs8.r.xoxknct.com^
@@ -711,12 +727,12 @@
 |vs.biz.weibo.com^
 |h.msn.com^
 |weatherapi.market.xioami.com^
+|cryptocoin.ddns.net^
 |crs.baidu.com^
 |oth.eve.mdt.qq.com^
 |as.aplus.pptv.com^
 |ixav-cse.avlyun.com^
 |ad.funp.com^
-|stat.funshion.net^
 |p2.l.qq.com^
 |applogios.uc.cn^
 |api.shuaji.360.cn^
@@ -779,7 +795,6 @@
 |userid.xiaomi.com^
 |sax2.sina.com.cn^
 |qchannel04.cn^
-|shrek.6.cn^
 |hw.zuimeitianqi.com^
 |raddus.bayescom.com^
 |stat.m.jd.com^
@@ -793,6 +808,7 @@
 |haitaoad.nosdn.127.net^
 |re.m.taobao.com^
 |adpublish.ydstatic.com^
+|thelifeisbinary.ddns.net^
 |jrad.jd.com^
 |api.sec.intl.miui.com^
 |cm.l.qq.com^
@@ -807,6 +823,7 @@
 |ad.quwin.cn^
 |susapi.dev.surepush.cn^
 |simaba.taobao.com^
+|sxcdn5.herokuapp.com^
 |applogapi.autohome.com.cn^
 |adshow.58.com^
 |mtt.eve.mdt.qq.com^
@@ -825,6 +842,7 @@
 |samsung-produkcja.24.eu^
 |spynetalt.microsoft.com^
 |bad.third-party.site^
+|btcsq.ddns.net^
 |sdkconfig.video.qq.com^
 |edgecast-vod.yimg.com^
 |collector.wasu.cn^
@@ -842,6 +860,7 @@
 |vmindhls.tc.qq.com^
 |zhwnlapi.etouch.cn^
 |ort-stsdk.vivo.com.cn^
+|jqcdn01.herokuapp.com^
 |feedback.search.microsoft.com^
 |cdn.pocoiq.cn^
 |gemini.yahoo.com^
@@ -860,6 +879,7 @@
 |sax1.sina.com.cn^
 |ap.cpatrk.net^
 |news.qhstatic.com^
+|imperium.getmyip.com^
 |ad2.yam.com^
 |statics.woozooo.com^
 |bolt.jebe.renren.com^
@@ -871,6 +891,7 @@
 |httpdns.n.shifen.com^
 |gif.7mmtv.sx^
 |mobads-logs.baidu.com^
+|sperocoin.ddns.net^
 |ads.weilitoutiao.net^
 |newloc.map.n.shifen.com^
 |nmobi.kuwo.cn^
@@ -889,6 +910,7 @@
 |adclick.tencentmusic.com^
 |mclean.uk.cloud.360safe.com^
 ||tracking.*.miui.com^
+|d1pool.ddns.net^
 |invitation.samsungiotcloud.com^
 |httpdns.ocloud.oppomobile.com^
 |t.yesware.com^
@@ -899,6 +921,7 @@
 |ad.hiiir.com^
 |msg.iqiyi.com^
 |qm.redbullracing.com^
+|poolvale.ddns.net^
 |ad.gamebox.360.cn^
 ||null^
 |v1.log.moji.com^
@@ -940,6 +963,7 @@
 |pl.youku.com^
 |sax7.sina.com.cn^
 |adm.meiguo.com^
+|x.o2.pl^
 |xiazai.xiaomi.com^
 |tmfsdk.m.qq.com^
 |p2pchunk-*.douyucdn.cn^
@@ -971,6 +995,7 @@
 |crashlytics.163.com^
 |xitong.xiaomi.com^
 |adx.maplehaze.cn^
+|scx.ddns.net^
 |click.uve.mobile.sina.cn^
 |w.l.qq.com^
 |yads.yahoo.co.jp^
@@ -993,6 +1018,7 @@
 |bitanalytics.casperverswijvelt.be^
 |list.z.qingting.fm^
 |ulog.imap.baidu.com^
+|coinmining.ddns.net^
 |ggx02.miguvideo.com^
 |adcdn6.tencentmusic.com^
 |plt.data.pplive.com^
@@ -1052,6 +1078,7 @@
 |lstat.youku.com^
 |newvector.map.baidu.com^
 |httpdns.calorietech.com^
+|jqcdn03.herokuapp.com^
 |fc-feed.cdn.bcebos.com^
 |api.cortana.ai^
 |stun.smartgslb.com^
@@ -1067,6 +1094,7 @@
 |js-ad.a.yximgs.com^
 |policy.video.iqiyi.com^
 |ysm.hauchi.com.tw^
+|oceansail.ddns.net^
 |ads.service.kugou.com^
 |ad.alimama.com^
 |akcja-samsung.h2g.pl^
@@ -1085,6 +1113,7 @@
 |config.mobisage.cn^
 |e.jparking.cn^
 |asimgs.pplive.cn^
+|hobbyistpool.ddns.net^
 |bdcdncmn-gd.inter.71edge.com^
 |imgad0.pcauto.com.cn^
 |adv.app.qq.com^
@@ -1093,6 +1122,7 @@
 |mepodownload.mediatek.com^
 |redirect.simba.taobao.com^
 |dev.iyuba.cn^
+|kingsminer.ddnsking.com^
 |aiseet.aa.atianqi.com^
 |impservice.dictapp.youdao.com^
 |ad.caiyunapp.com^
@@ -1116,6 +1146,7 @@
 |youku-acs.m.taobao.com^
 |click.aliyun.com^
 |abyss.cyapi.cn^
+|eu-ubqpool.ddns.net^
 |sso.internetat.tv^
 |adc.hpplay.cn^
 |wtradv.market.xiaomi.com^
@@ -1132,6 +1163,7 @@
 |sdkinit.taobao.com^
 |d6.sina.com.cn^
 |pb.hd.sohu.com.cn^
+|sxcdn1.herokuapp.com^
 |delivery.maihehd.com^
 |ad-analysis.pconline.com.cn^
 |simple.cloudsmith.com^
@@ -1167,6 +1199,7 @@
 |lives.l.ott.video.qq.com^
 |9ibbcq2d.sina.cn^
 |biz.live.xunlei.com^
+|radpool.ddns.net^
 |h-adashx4yt.ut.taobao.com^
 |a.alimama.cn^
 |logview.uc.alimama.com^
@@ -1175,6 +1208,7 @@
 |ads.yam.com^
 |otf.msn.com^
 |adsqqclick.qq.com^
+|bowserlab.ddns.net^
 |prt-stsdk.vivo.com.cn^
 |adm.leju.sina.com.cn^
 |dns.weixin.qq.com.cn^
@@ -1225,6 +1259,7 @@
 |samsung-stop.24.eu^
 |d1.sina.com.cn^
 |adx-static.ksosoft.com^
+|onlycash.ddns.net^
 |iadmatapk.nosdn.127.net^
 |gtms03.alicdn.com^
 |adxlog.vivo.com.cn^
@@ -1236,6 +1271,7 @@
 |adsh.wagbridge.taobao.alimama.com^
 |adsh.m.taobao.com^
 |httpdns.push.heytapmobi.com^
+|mostbiznet.ddns.net^
 |fav.simba.taobao.com^
 |t.adbxb.com^
 |amap-aos-info-nogw.amap.com^
@@ -1292,7 +1328,6 @@
 |ad.api.youshiad.cn^
 |dsp-ad.yy.com^
 |gas.data.pplive.com^
-|analytics.163.com^
 |d1.sinaimg.cn^
 |ads.fetnet.net^
 |acjs.aliyun.com^
