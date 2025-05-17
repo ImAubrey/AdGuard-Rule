@@ -1,4 +1,4 @@
-# Update time: 2025-05-16 20:37:27
+# Update time: 2025-05-17 09:24:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -545,7 +545,6 @@
 |httpdns-v6.gslb.yy.com^
 |huodong.ios.shouji.360.cn^
 |osb-krsvc.samsungqbe.com^
-|lgtvsdp.com^
 |ad-sh-sz-zb.wagbridge.tanx.alimama.com^
 |tmeadquic.y.qq.com^
 |store.iqiyi.com^
@@ -1284,6 +1283,7 @@
 |kuaikan.netmon.360safe.com^
 |analytics.msn.com^
 |vd.l.qq.com^
+|api-hub.samsungyosemite.com^
 |mis.migc.xiaomi.com^
 |analytics3.dopool.com^
 |adx.sogaha.cn^
