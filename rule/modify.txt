@@ -1,4 +1,4 @@
-# Update time: 2025-05-20 20:39:32
+# Update time: 2025-05-21 09:27:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5238,6 +5238,7 @@ flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal
 /nLoggerJB_
 ||shofonline.org/javashofnet/ti.js
 ||cloudtracer101.com^$third-party
+||topblogs.de/tracker.php?
 ||browserpusher.com^$third-party
 ||nitroscripts.com^$script,domain=pcguide.com
 ||retargeted.co^$third-party
@@ -13855,6 +13856,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /hostingcloud/
 /umeng/
 /\x2dadrevenue\.appsflyersdk\.com/
+/\.sagewwl/
 /adwords/
 /tlauncher/
 /adsyndication/
@@ -13884,6 +13886,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /doubleclick\./
 /fb\x2drestriction\x2dappeal/
 /trkgbm\.business\.hsbc\./
+/\x2dgo\.experian\.com/
 /\x2dpia\.appsflyersdk\.com/
 /\x2danalytics\x2devents\.apple\.com/
 /\x2drtb\.gravite\.net/
@@ -13914,7 +13917,10 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /dubester\./
 /\.zooplus\./
 /ad\.ixigua\.com/
+/dkswshap\x2d/
 /fb\x2drestriction\x2dcase/
+/\.fstsrv/
+/\x2dadnow\.com/
 /\x2dlogging\.nextmedia\.com/
 /a8cv\./
 /gettate/
@@ -13931,6 +13937,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /dnserror/
 /advertmarket/
 /\.estream\./
+/\.srvqck/
 ||*tsdk.vivo.com.cn^
 ||*.mmstat.com^
 ||*serror*.wo.com.cn^

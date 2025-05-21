@@ -1,4 +1,4 @@
-# Update time: 2025-05-20 20:39:32
+# Update time: 2025-05-21 09:27:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -460,6 +460,7 @@
 |adsrich.qq.com^
 |iadmat.nosdn.127.net^
 |n.3g.163.com^
+|info.*.aleragroup.com^
 |dns.ximalaya.com^
 |video-ad.sm.cn^
 |idm-su.baidu.com^
