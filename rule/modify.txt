@@ -1,4 +1,4 @@
-# Update time: 2025-05-21 20:37:56
+# Update time: 2025-05-22 09:26:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2510,6 +2510,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /chicken.gif?*=
 ||indicative.com^$third-party
 ||threedy.ai/api/event/
+ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 ||arena-quantum.co.uk^$third-party
 ||mgtmod01.com^$third-party
 /clear.gif?
@@ -5045,7 +5046,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||videomatictv.com/imps/
 /ecom/status.jsp?
 ||databrain.com^$third-party
-flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 /marfeelanalytics.js
 /fkounter/counter.js
 /rkrt_tracker-viajs.php
@@ -5377,7 +5377,6 @@ _stat_counter.php?
 /link.oneplus.com/mo$image
 ||foodpanda.ph/lJuB4eTB/init.js
 ||s3.amazonaws.com/downloads.mailchimp.com/$script,domain=confection.io
-flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||dasoertliche.de/js/liwAnalytics.js
 /chartbeat.min.js
 @@||taboola.com/libtrc/$script,domain=bild.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|sueddeutsche.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
@@ -6621,6 +6620,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 ||facebook.com/common/cavalry_endpoint.php?
 _webanalytics.
 ||confirmational.com^$third-party
+gemini.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||atcdn.co.uk/frostbite/
 ?event=performance&
 ||cidrap.umn.edu/core/modules/statistics
@@ -7817,6 +7817,7 @@ _beacon?
 ||rcsobjects.it/rcs_tracking-service/v1/distro/HTML/trservice.shtml
 ||ezoic.net/ezqlog?
 ||realitytvworld.com/images/pixel.gif
+ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||citibank.com.sg/jso/js/fp.js
 ||foursquare.com/v2/private/logactions
 /retargeting-pixels.php
@@ -7959,6 +7960,7 @@ _beacon?
 ||discovery.evvnt.com/prd/evvnt_discovery_plugin-latest.min.js
 ||studocu.com/27m703Hm/init.js
 ||collserve.com^$third-party
+||perplexity.ai/rest/event/analytics
 /pmc-cxense.js
 ||auctiva.com/Default.aspx?query
 ||homedepot-static.com/data-collection/
@@ -8278,7 +8280,6 @@ _beacon?
 /analyticstracking.js
 ||iheart.com/events
 /appinsightor.min.js
-||ncbi.nlm.nih.gov/core/pinger
 ||phpstat.com^$third-party
 ||investigationdiscovery.com/events/
 /event?eventType=
@@ -9165,6 +9166,7 @@ e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !importa
 /srp.gif?
 ||dotaki.com^$third-party
 @@||kameleoon.eu/images/$domain=welt.de
+gemini.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 ||inn.co.il/Controls/HPJS.ashx?act=log
 /plugins/civic-science/js/pixel.js
 /rot_in.php
@@ -11977,6 +11979,7 @@ _event_tracking?
 ||marketo.com/rtp-api/
 @@||ocdn.eu/ucs/static/*/onesignal.js$script,domain=pulsonline.rs
 ||theactivetag.com^$third-party
+||ncbi.nlm.nih.gov/core/pinger/pinger.js
 ||nile.works/api/save-perf?
 ||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||mangadex.org/p.js
