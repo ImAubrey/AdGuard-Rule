@@ -1,4 +1,4 @@
-# Update time: 2025-05-22 20:38:18
+# Update time: 2025-05-23 09:26:35
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1989,6 +1989,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||counterapi.dev^$third-party
 ||mmccint.com^$third-party
 ||contiamo.com^$third-party
+/services/t/l?referrer=
 ||mollusk.apis.ign.com/metrics/
 /nativendo.js
 ||coinpot.co^$third-party
@@ -3062,6 +3063,7 @@ _logHuman=
 /perfmetrics.js
 ||tnspro.com.tr/0/sendEventV2
 ||bobparsons.com/image.aspx?
+||yodalytics.com^$third-party
 ||gotdns.com/track/blank.aspx?
 ?action=statsjs&
 /oo/*/l.js
@@ -3439,6 +3441,7 @@ _logHuman=
 .revolut.com/q/$image
 ||nastydollars.com/trk/
 ||slogantrend.de^$third-party
+||hotelstatic.com/perf
 ||adblockplustape.xyz/stat/
 ||omataloyhtio.fi/statb.asp
 /plow.lite.js
@@ -8791,6 +8794,7 @@ _track_pixel.gif?
 ||ultimate-guitar.com/components/ab/event?
 ||mail.ru/count/
 /link.morningbrew.com/img/*.gif
+://stats.*/code/e.js
 /rrweb-record-pack.js
 ||faktor.io^$third-party
 /amp_pingback/*
@@ -9540,6 +9544,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||affinitymatrix.com^$third-party
 ||terabox.com/nodeapi/reporterror?
 ||mirabelsmarketingmanager.com^$third-party
+||holidaycheck.*/svc/ubt/v1/events
 /sentry-tracing.min.js
 /pushlog.min.js
 /tracking/referrer?
@@ -10261,7 +10266,6 @@ _rpc/log?
 ||bonitrust.de^$third-party
 ||hubspot.com/analytics/
 ||ktla.com/CvbtpUrj/init.js
-||web-boosting.net^$third-party
 ||ehub.cz^$third-party
 ||change.org/api-proxy/-/bandit/pull
 ||thefreedictionary.com/_/tr.ashx?
@@ -12209,6 +12213,7 @@ img.promio-connect.com$image
 ||leadsius.com^$third-party
 /cn-track?
 ||drugs.com/api/logger/
+/sLT_bEhAvIoR_aNaLySiS/*$xmlhttprequest
 /ping/show?
 ||scarf.sh^$third-party
 ||counter-treff.de^$third-party
@@ -12595,6 +12600,7 @@ _ad_impression.
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
 ||prism.app-us1.com^$script,third-party
 ||listrakbi.com/api/ActivityEvents/
+||hotelstatic.com/collect
 /pvcount.php
 ||emediatrack.com^$third-party
 ||redfast.com/ping/
@@ -13379,6 +13385,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||ncaudienceexchange.com^$third-party
 ||yellow.ai/integrations/analytics/
 ||hitmaster.de^$third-party
+||brevo.com^$third-party
 /logcounter.aspx
 ||streetmetrics.io^$third-party
 ||redaktionstest.net/cdn/$ping
