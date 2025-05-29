@@ -1,4 +1,4 @@
-# Update time: 2025-05-29 09:27:11
+# Update time: 2025-05-29 20:37:38
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9819,6 +9819,7 @@ visible.com##+js(set-local-storage-item, browser-ids, $remove$)
 @@||liveapi.cleverpush.com/websocket$websocket,domain=heise.de
 /cgi-bin/count/*
 ||namnak.com/act/stats.json
+||elements.video/tr/
 /pushly-sdk.min.js
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
 ||erate.co.il^$third-party
