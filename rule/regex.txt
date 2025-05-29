@@ -1,4 +1,4 @@
-# Update time: 2025-05-28 20:38:59
+# Update time: 2025-05-29 09:27:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -120,7 +120,6 @@
 |stat.loli.net^
 |ad-h5-cdn.soulapp.cn^
 |livep.l.qq.com^
-|metrics.brevo.com^
 |mixern.sina.cn^
 |static.m.sjzhushou.com^
 |adashx.ut.amap.com^
