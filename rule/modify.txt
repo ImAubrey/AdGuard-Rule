@@ -1,4 +1,4 @@
-# Update time: 2025-05-29 20:37:38
+# Update time: 2025-05-30 09:25:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9254,6 +9254,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||omiki.com^$third-party
 ?action=tracking_script
 ||demandscience.com^$third-party
+||monitor.lifemiles.com/collect
 /codesters-analytics.
 @@||tagcommander.com^*/tc_$script
 /analytics-minimal-v4.js
