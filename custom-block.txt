@@ -25,3 +25,8 @@
 @@||download.apkpure.com^
 @@||js.intercomcdn.com^$important
 @@||ip2location.com^$important
+
+# custom-phishing-block.txt
+||cloudflarecp.com^
+||cloudflareok.com^
+||cloudflareportal.com^
