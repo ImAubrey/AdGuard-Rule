@@ -30,4 +30,3 @@
 ||cloudflarecp.com^
 ||cloudflareok.com^
 ||cloudflareportal.com^
-||cloudflareclient.com^
