@@ -1,4 +1,4 @@
-# Update time: 2025-06-01 12:53:46
+# Update time: 2025-06-01 12:58:12
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1984,6 +1984,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 @@||www.zhihu.com/api/v4/search_v3*
 ||use-application-dns.net^$empty,important
 ||bgp.tools^$dnstype=AAAA
+||[0-9]{1,5}-[0-9]{1,5}-[0-9]{1,5}-[0-9]{1,5}.nstool.*
 ||*^$dnstype=HTTPS
 ||counterapi.dev^$third-party
 ||mmccint.com^$third-party
