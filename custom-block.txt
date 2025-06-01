@@ -25,7 +25,8 @@
 @@||download.apkpure.com^
 @@||js.intercomcdn.com^$important
 @@||ip2location.com^$important
-
+! Netease
+||[0-9]{1,5}-[0-9]{1,5}-[0-9]{1,5}-[0-9]{1,5}.nstool.*
 # custom-phishing-block.txt
 ||cloudflarecp.com^
 ||cloudflareok.com^
