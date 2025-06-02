@@ -1,4 +1,4 @@
-# Update time: 2025-06-01 20:35:04
+# Update time: 2025-06-02 09:39:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -663,6 +663,7 @@
 |sf0.market.xiaomi.com^
 |app.aplus.pptv.com^
 |ads-shopping.shouqianba.com^
+|cdn-www.bluestacks.com^
 |strip.taobaocdn.com^
 |tf.logview.alimama.com^
 |ad.jiemian.com^
@@ -717,6 +718,7 @@
 |feed-image.baidu.com^
 |httpdns-euex-push.heytapmobile.com^
 |xlog.jd.com^
+|timejs.game.easebar.com^
 |migcreport.g.mi.com^
 |advertpay-vip-ssl.xunlei.com^
 |adrdir.qq.com^
