@@ -1,4 +1,4 @@
-# Update time: 2025-06-04 09:37:05
+# Update time: 2025-06-04 20:39:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8263,6 +8263,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||area51.to^$third-party
 ||pikabu.ru/ajax/analytics.php
 ||successfultogether.co.uk^$third-party
+||debales.ai/ingest/
 ||spylog.com^$third-party
 ||mtvnservices.com/aria/projectX/
 /shopify/track.js
@@ -10534,6 +10535,7 @@ sidereel.com##+js(acs, document.getElementsByTagName, .pubads)
 ||seesaa.jp/ot_square.pl?
 ||sumsub.com/stry/
 ||crazyegg.com^$third-party
+||debales.ai/api/analytic/
 /_/trace/trace/*
 ||cargurus.com/cars/cganalyticspageview.action
 ||onlex.de/_counter.php
