@@ -1,4 +1,4 @@
-# Update time: 2025-06-05 09:27:16
+# Update time: 2025-06-05 20:38:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9073,7 +9073,6 @@ _track_pixel.gif?
 ||kopsil.com^$third-party
 /coherentpath.link/o/*$image
 ||npo-data.nl/tags/tag.min.js
-||diginetica.net^$third-party
 /StatCms/ViewCount?
 ||thesun.co.uk/assets/client/analyticsListeners~
 ||mymetal.ru/counter/
@@ -9090,6 +9089,7 @@ _track_pixel.gif?
 /dot.gif?
 /v4/metrics
 .oculus.com/collect/
+/oo/cl.js|$~third-party
 /oxAnalytics.js
 ||webmasterplan.com^$third-party
 ||links.strava.com^$image
