@@ -1,4 +1,4 @@
-# Update time: 2025-06-04 20:39:02
+# Update time: 2025-06-05 09:27:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -13887,6 +13887,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /adwords/
 /tlauncher/
 /adsyndication/
+/\x2dnormal\.zijieapi\.com/
 /anybest\./
 /track\.opentable\./
 /nimiqpool/
@@ -13914,6 +13915,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /fb\x2drestriction\x2dappeal/
 /trkgbm\.business\.hsbc\./
 /\x2dgo\.experian\.com/
+/\x2dad\.wtzw\.com/
 /\x2dpia\.appsflyersdk\.com/
 /\x2danalytics\x2devents\.apple\.com/
 /\x2drtb\.gravite\.net/
@@ -13922,6 +13924,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /\x2dulogl2\.kwai\x2dpro\.com/
 /telemetry\.officeapps\.live\.com/
 /wxsnsdy/
+/\x2dad\.video\.yximgs\.com/
 /thetollroads\x2d/
 /\x2dspiky\.clevertap\x2dprod\.com/
 /\.nimiq\./
@@ -13933,6 +13936,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /backstory\.ebay\./
 /\x2dtxtagstore/
 /\x2dulogl2\.kwaipros\.com/
+/\x2dad\.sm\.cn/
 /admaster/
 /\x2dlogsdk\.kwai\x2dpro\.com\^/
 /bahoom/
@@ -13951,6 +13955,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /\x2dlogging\.nextmedia\.com/
 /a8cv\./
 /gettate/
+/\x2dbe\x2dpack\x2dsign\.pglstatp\x2dtoutiao\.com/
 /_vmind\.qqvideo\.tc\.qq\.com/
 /fb\x2dbusiness\x2dappeal/
 /dc\.pimentaafricana/

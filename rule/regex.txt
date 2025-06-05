@@ -1,4 +1,4 @@
-# Update time: 2025-06-04 20:39:02
+# Update time: 2025-06-05 09:27:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -168,7 +168,6 @@
 |baiducdncmn.inter.iqiyi.com^
 |adsh.wagbridge.alibaba.alimama.com^
 |static.jebe.renren.com^
-|sdk.1rtb.net^
 |log.v2.hunantv.com^
 |win1710.ipv6.microsoft.com^
 |baiducdncmn-gd.inter.iqiyi.com^
@@ -461,7 +460,6 @@
 |n.3g.163.com^
 |info.*.aleragroup.com^
 |dns.ximalaya.com^
-|video-ad.sm.cn^
 |idm-su.baidu.com^
 |api.hybrid.xiaomi.com^
 |ad.360in.com^
@@ -515,7 +513,6 @@
 |ad.wretch.cc^
 |commercial.shouji.360.cn^
 |win10.ipv6.microsoft.com^
-|cdn-new-ad.wtzw.com^
 |adcdn.tencentmusic.com^
 |mpush-api.aliyun.com^
 |tvupgrade.yunos.com^
@@ -663,7 +660,6 @@
 |sf0.market.xiaomi.com^
 |app.aplus.pptv.com^
 |ads-shopping.shouqianba.com^
-|cdn-www.bluestacks.com^
 |strip.taobaocdn.com^
 |tf.logview.alimama.com^
 |ad.jiemian.com^
@@ -671,7 +667,6 @@
 |web.data.pplive.com^
 |log.b612kaji.com^
 |doh.iqiyi.com^
-|cdn.1rtb.com^
 |l6urqh27.sina.cn^
 |sousuo.xm.sjzhushou.com^
 |xiaomiir.yaokantv.com^
@@ -717,7 +712,6 @@
 |diagnostics.support.microsoft.com^
 |feed-image.baidu.com^
 |httpdns-euex-push.heytapmobile.com^
-|xlog.jd.com^
 |timejs.game.easebar.com^
 |migcreport.g.mi.com^
 |advertpay-vip-ssl.xunlei.com^
