@@ -1,4 +1,4 @@
-# Update time: 2025-06-05 20:38:53
+# Update time: 2025-06-06 09:27:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -13297,6 +13297,7 @@ _WebVitalsReporter_
 .cmail20.com/t/$image
 ||gacraft.jp^$third-party
 ||top-ro.ro^$third-party
+@@||clouderrorreporting.googleapis.com^$domain=waze.com
 ||blip.bizrate.com^$script
 @@||n8s.jp^$script,domain=nikkei.com
 /statstracker/*
