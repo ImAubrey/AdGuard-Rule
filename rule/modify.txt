@@ -1,4 +1,4 @@
-# Update time: 2025-06-07 09:27:00
+# Update time: 2025-06-07 20:34:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3496,7 +3496,6 @@ _logHuman=
 ||mat6tube.com/api/stats?
 ||priceline.com/svcs/mkt/tag/
 ||roi-rocket.net^$third-party
-||google.com/log^$domain=~meet.google.com
 /x.gif?
 ||volkswagen-italia.it^*/tracking/
 ||wogaa.sg/scripts/wogaa.js
@@ -4124,7 +4123,6 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 @@||yieldlove.com/v2/yieldlove-stroeer.js$domain=kino.de
 ||visionarycompany52.com^$third-party
 ||hitmir.ru^$third-party
-/log?format=$domain=~meet.google.com
 ||estadisticasgratis.com^$third-party
 ||urlbrief.com^$third-party
 ||dadi.technology^$third-party
@@ -5466,7 +5464,6 @@ _stat_counter.php?
 /view_stats.js.php
 ||streamate.com/api/metrics
 ||amazonaws.com/prod/nobot
-||digg.com/library/tracker.js
 ||transactionale.com^$third-party
 ||qq.com/stats?
 /linktracker.js
@@ -12424,6 +12421,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||adthletic.com^$third-party
 /log_h.jsp
 ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}\./)
+/log?format=
 ?action=impression&
 /adobe.visitor-
 ||anycent.com/analytics/
@@ -12775,6 +12773,7 @@ _ad_impression.
 /click-tracking.js
 ||tes-game.ru/stat/
 ||soundcloud.com^$ping
+||etsy.com/include/tags.js
 /PageTrack.js
 ||servernews.ru/track?
 /jscripts/analytics.js
@@ -13277,6 +13276,7 @@ _WebVitalsReporter_
 /VisitLog.asmx
 ||ithinkthereforeiam.net^$third-party
 ||elmasistatistik.com.tr^$third-party
+||google.com/log^
 @@||static.myfinance.com/widget/$domain=savingspro.org
 /s_code_global_context.js
 ||bachecaannunci.it/statins3.php?
