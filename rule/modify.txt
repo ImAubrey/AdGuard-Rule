@@ -1,4 +1,4 @@
-# Update time: 2025-06-06 20:37:35
+# Update time: 2025-06-07 09:27:00
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11239,6 +11239,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /trckUtil.min.js
 ||mediaserver.emol.cl/rtracker/
 ||trugaze.io^$third-party
+||amazonaws.com/b2bjsstore/
 /__ssobj/sync?$image
 ||ctrmi.cn/t/
 ||iovation.com^$third-party
@@ -13884,6 +13885,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /hostingcloud/
 /umeng/
 /\x2dadrevenue\.appsflyersdk\.com/
+/\x2dulog\.region\.kwai\x2dpro\.com/
 /\.sagewwl/
 /adwords/
 /tlauncher/
@@ -13910,6 +13912,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /\.net\.daraz\./
 /flightsy/
 /\x2ds2s\.sensic\.net/
+/\x2dlogsdk\.kwai\x2dpro\.com/
 /jshosting/
 /track\.tiara/
 /doubleclick\./
@@ -13939,7 +13942,6 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /\x2dulogl2\.kwaipros\.com/
 /\x2dad\.sm\.cn/
 /admaster/
-/\x2dlogsdk\.kwai\x2dpro\.com\^/
 /bahoom/
 /\x2dtracker\.biliapi\.net/
 /adserver/
@@ -13980,9 +13982,11 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||*log.droid4x.cn^
 ||*-analytics*.huami.com^
 /^adsensor\./
+||*inapps.appsflyersdk.com^
 /^dwtrack\./
 /^domob\./
 /^pingfore\./
+||*cdn-settings.appsflyersdk.com^
 /^adservice\./
 /^appsflyer\./
 /^guanggao\./
@@ -13993,6 +13997,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /^adwords\./
 /^supersonicads\./
 /^openx\./
+||*launches.appsflyersdk.com^
 /^socdm\./
 ||*bmwmini.tt.omtrdc.net^
 /^omniture\./
@@ -14010,5 +14015,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /^omgmtaw\./
 /^admarvel\./
 /^applovin\./
+||*conversions.appsflyersdk.com^
+||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
