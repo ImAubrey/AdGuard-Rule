@@ -1,4 +1,4 @@
-# Update time: 2025-06-08 20:34:37
+# Update time: 2025-06-09 09:41:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3204,6 +3204,7 @@ _logHuman=
 ||edge-hls.doppiocdn.net/ping
 ||edtp.de^$third-party
 /Counter.ashx?
+||lookfantastic.ie/track
 ||essentiallysports.com/api/v1/counts
 ||netbiscuits.net^*/analytics/
 ||bookoffonline.co.jp/files/tracking/
@@ -11142,6 +11143,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /gp/r.html?$image
 ||clickpathmedia.com^$third-party
 /wstat.pl
+/jpuid?jsonp=
 ||esearchvision.com^$third-party
 ||traffic.tc-clicks.com^$third-party
 ||kmindex.ru^$third-party
