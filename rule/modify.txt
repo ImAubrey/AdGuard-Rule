@@ -1,4 +1,4 @@
-# Update time: 2025-06-09 20:38:42
+# Update time: 2025-06-10 09:38:06
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8399,6 +8399,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||tongjiniao.com^$third-party
 @@||api-analytics.magstimconnect.net^$~third-party
 ||glam.com/ctagsimgcmd.act?
+/analyticstrain.min.js
 ?log=xhl-widgets-events&
 @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|ba.com|bestbuy.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 ||publish-int.se^$third-party
