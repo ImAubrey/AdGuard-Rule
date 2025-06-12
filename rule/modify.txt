@@ -1,4 +1,4 @@
-# Update time: 2025-06-11 20:39:09
+# Update time: 2025-06-12 09:27:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12167,6 +12167,7 @@ _event_tracking?
 ||s.pinimg.com/ct/core.js
 ||keyade.com^$third-party
 ||cloudfront.net/khp.js
+/bitmovinanalytics.min.js
 /SAPOWebAnalytics/*
 img.promio-connect.com$image
 /pixel.fingerprint.
@@ -13559,6 +13560,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||countercity.net^$third-party
 ||tdep.hema.nl/main.js
 ||alexa.com/traffic/
+/log_js_error$ping
 /analytics/track_event/*
 ###cxense-recs-in-article
 ||instana.io^$third-party
