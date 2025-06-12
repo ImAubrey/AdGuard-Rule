@@ -1,4 +1,4 @@
-# Update time: 2025-06-12 09:27:49
+# Update time: 2025-06-12 20:38:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1678,6 +1678,7 @@
 ||log*.vietnamplus.vn^
 ||prod.*.analytics.console.aws.a2z.com^
 ||sensorsdata*.read.duokan.com^
+||mgbsdk*.matrix.easebar.com^
 ||api*.amplitude.com^
 ||app-analytics-*.snapchat.com^
 ||report.*.qq.com^
@@ -1689,6 +1690,7 @@
 ||appanalysis*.banggood.com^
 ||maas-*.phunware.com^
 ||api*.batmobi.net^
+||applog*.matrix.easebar.com^
 ||prebid-cache*.ifunny.co^
 ||hstats*.hepsiburada.com^
 ||tnc-va*.capcutapi.com^

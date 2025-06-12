@@ -1,4 +1,4 @@
-# Update time: 2025-06-12 09:27:49
+# Update time: 2025-06-12 20:38:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12085,7 +12085,6 @@
 0.0.0.0 ds.onet.pl
 0.0.0.0 relestar.com
 0.0.0.0 counter.tripod.com
-0.0.0.0 inclk.com
 0.0.0.0 sinseisyoji.co.jp
 0.0.0.0 ehg-playboy.hitbox.com
 0.0.0.0 ads1a.depositfiles.com
@@ -28220,6 +28219,7 @@
 0.0.0.0 studiocorrado.org
 0.0.0.0 ilibarcelos.pt
 0.0.0.0 cdsp.pl
+0.0.0.0 inclk.com
 0.0.0.0 drdae.biz
 0.0.0.0 agriturismo-1001ulivo.it
 0.0.0.0 avsxrcoq2q5fgrw2.ayjy5d.top
