@@ -1,4 +1,4 @@
-# Update time: 2025-06-13 09:37:23
+# Update time: 2025-06-13 20:38:05
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -14012,6 +14012,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /^openx\./
 ||*launches.appsflyersdk.com^
 /^socdm\./
+||*-datareceiver.aki-game.net^
 ||*bmwmini.tt.omtrdc.net^
 /^omniture\./
 /^zjtoolbar\./
