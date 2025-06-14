@@ -1,4 +1,4 @@
-# Update time: 2025-06-13 20:38:05
+# Update time: 2025-06-14 09:25:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9731,6 +9731,7 @@ abema.tv##+js(rmnt, script, NREUM)
 @@||s.yjtag.jp/tag.js$script,domain=baseball.yahoo.co.jp|bousai.yahoo.co.jp|soccer.yahoo.co.jp|www.epson.jp
 ||webtrack.biz^$third-party
 @@||m1tm.insideevs.com/gtm.js$~third-party
+^endpoint=track^$image
 ||c-rings.net^$script,third-party
 ||academia.edu/record_hit?
 ||streamlabs.com/web/data/ping
@@ -11420,6 +11421,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 @@||addthis.com/js/*/addthis_widget.js$script,domain=stagecoachbus.com
 ||dimestore.com^$third-party
 @@||asadcdn.com/adlib/$domain=computerbild.de
+.tourlane.com/servlet/servlet.ImageServer?$image
 /_i?type=event&
 /DynamicAnalytics.js
 ||smart-dmp.com^$third-party
