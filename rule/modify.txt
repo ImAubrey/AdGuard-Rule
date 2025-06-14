@@ -1,4 +1,4 @@
-# Update time: 2025-06-14 09:25:56
+# Update time: 2025-06-14 20:34:50
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11343,6 +11343,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /TealeafSDK.js
 ||k.p-n.io/event-stream
 ||splitbee.io^$third-party
+@@||youvisit.com/tour/$script,subdocument,domain=uaf.edu
 ||exe.bid^$third-party
 ||email-reflex.com^$third-party
 /monitoring?o=$xmlhttprequest
@@ -11981,6 +11982,7 @@ _event_tracking?
 /analytics-efukt.
 ||r.stripe.com^$ping,script,xmlhttprequest
 /b/s/beacon
+@@||cdn.bitmovin.com/analytics/web/*/bitmovinanalytics.min.js$script,domain=oe24.at
 /statscounter/*
 /statistics.js?$third-party
 ||sexu.com/api/ttrack
@@ -13675,6 +13677,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||x.com/1.1/attribution
 ||qq.com/heatmap/
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
+@@||youvisit.com/SmartScript/$script,domain=uaf.edu
 ||blvdstatus.com^$third-party
 /kukulufinger2.js
 /trck/etms/*
