@@ -1,4 +1,4 @@
-# Update time: 2025-06-14 20:34:50
+# Update time: 2025-06-15 09:45:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2568,6 +2568,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 ||apkonline.ru^$third-party
 /impression.ashx
 ||api.doctolib.fr/nr_insert_
+||vkvideo.ru/al_video.php?
 ||mynewcounter.com^$third-party
 ||sfgate.com/413gkwMT/init.js
 @@||portal.cityspark.com/v1/event$domain=dailycamera.com
@@ -2908,6 +2909,7 @@ _logHuman=
 /ga-script.js
 ||app.box.com/gen204
 ||ebay.com^*/customer_image_service?
+/graphql/track-pageview$xmlhttprequest
 ||contentsfeed.com^$third-party
 ||performancefirst.jp^$third-party
 ||appliedsemantics.com/images/x.gif
@@ -4438,6 +4440,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||freeweblogger.com^$third-party
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
 /logdata/et/ua
+||revolut.com/api/t/errors
 /track-visit?
 ||motrixi.com^$third-party
 ||mtrack.nl^$third-party
@@ -5813,6 +5816,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /api/v3/getPageVisits
 ||visitorglobe.com^$third-party
 ||baqend.com/v1/rum/
+||clearbuy.com/api/cookie
 @@||aeries.net^*/require/analytics/views/$script,~third-party
 ||twitter.com/i/jot
 /jscounter.js
@@ -7298,6 +7302,7 @@ _trackWebtrekkEvents.
 ||stapewithadblock.monster/stat/
 ||comeon.com/tracking.php
 ||shareit.com/affiliate.html$third-party
+||cu.dzen.ru/?rn=
 @@||plantyn.com/optiext/optiextension.dll$~third-party
 ||mashery.com/analytics/
 ||a-counter.kiev.ua^$third-party
@@ -7571,6 +7576,7 @@ _beacon?
 .keap-link009.com/$image
 ||ssc.shopstyle.com/collective.min.js
 /prebid.pro.js
+||run.app/track.js
 ||superspeedapp.com^$third-party
 ||hashcoin.co^$third-party
 ||disqus.com/stats.html
@@ -9037,6 +9043,7 @@ _track_pixel.gif?
 ||pia.jp/images/pt.gif$image
 /attpro/a?
 ||marketshot.fr^$third-party
+||taggrs.io^$third-party
 ||touchclarity.com^$third-party
 /printpixel.js
 ||vamaker.com^$third-party
@@ -10653,6 +10660,7 @@ sidereel.com##+js(acs, document.getElementsByTagName, .pubads)
 ||liveperson.net/hc/*/?visitor=
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
 ||fstrk.net^$third-party
+||ifunny.co/api/$ping
 /smetrics.*/id?
 ||landingpg.com^$third-party
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
