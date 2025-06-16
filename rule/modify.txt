@@ -1,4 +1,4 @@
-# Update time: 2025-06-16 09:40:36
+# Update time: 2025-06-16 20:39:52
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4854,7 +4854,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 /parsely.js
 ||heraldandtimeslabs.com/sugar.js
 ||blackcrow.ai/v1/events/
-/browserinfo?f.sid=
 /hsc/trk/*
 /link.news.*/mo/*$image
 /VisitorAPI.js
@@ -11992,7 +11991,6 @@ _event_tracking?
 /analytics-efukt.
 ||r.stripe.com^$ping,script,xmlhttprequest
 /b/s/beacon
-@@||cdn.bitmovin.com/analytics/web/*/bitmovinanalytics.min.js$script,domain=oe24.at
 /statscounter/*
 /statistics.js?$third-party
 ||sexu.com/api/ttrack
@@ -12183,7 +12181,6 @@ _event_tracking?
 ||s.pinimg.com/ct/core.js
 ||keyade.com^$third-party
 ||cloudfront.net/khp.js
-/bitmovinanalytics.min.js
 /SAPOWebAnalytics/*
 img.promio-connect.com$image
 /pixel.fingerprint.
