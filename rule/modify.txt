@@ -1,4 +1,4 @@
-# Update time: 2025-06-18 20:39:24
+# Update time: 2025-06-19 09:38:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3473,6 +3473,7 @@ _logHuman=
 @@||ttmetrics.faz.net/rest/v1/delivery?$domain=faz.net
 ||tio.ch/lib/videojs/video-js-tiostats.js
 ||walmartpetrx.com/1Ct9c6G3/init.js
+@@||static.hotjar.com/c/hotjar-$script,domain=mercadopublico.cl
 ||blogreaderproject.com^$third-party
 ||clearbitjs.com^$third-party
 ||techno-science.net/outils/serviceLoc.php?
@@ -6683,6 +6684,7 @@ _webanalytics.
 ||dropbox.com/2/udcl/log_timing
 ||baitoru.com/pu/js/2017/adobe_send_tracking.js
 ||burpee.xyz^$third-party
+@@||static-cdn.hotjar.com^$script,domain=mercadopublico.cl
 /collect/view?
 ||youtube.googleapis.com/youtubei/v1/log_event?
 ||glancecdn.net^$third-party,domain=~glance.net
