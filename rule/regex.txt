@@ -1,4 +1,4 @@
-# Update time: 2025-06-20 20:38:42
+# Update time: 2025-06-21 09:27:38
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -225,7 +225,6 @@
 |adserviceretry.kugou.com^
 |api-shoulei-ssl.xunlei.com^
 |staticadm.leju.sina.com.cn^
-|msg.shouji.360.cn^
 |pms.mb.qq.com^
 |is.snssdk.com^
 |advertise.baicizhan.com^
@@ -376,7 +375,6 @@
 ||undefined^
 |a.cntv.cn^
 |img-cdn-spot.ymcdn.cn^
-|act.commercial.shouji.360.cn^
 |advertise.baicizhan.org^
 |adsh.wagbridge.1688.alimama.com^
 |cdn-haokanapk.baidu.com^
@@ -513,7 +511,6 @@
 |arms-retcode.aliyuncs.com^
 |httpdns-api.aliyuncs.com^
 |ad.wretch.cc^
-|commercial.shouji.360.cn^
 |win10.ipv6.microsoft.com^
 |adcdn.tencentmusic.com^
 |mpush-api.aliyun.com^
@@ -542,7 +539,6 @@
 |sdfp.snssdk.com^
 |adstore-index-1252524079.file.myqcloud.com^
 |httpdns-v6.gslb.yy.com^
-|huodong.ios.shouji.360.cn^
 |osb-krsvc.samsungqbe.com^
 |ad-sh-sz-zb.wagbridge.tanx.alimama.com^
 |tmeadquic.y.qq.com^
@@ -551,7 +547,6 @@
 |adver.qq.com^
 |d3g.qq.com^
 |qappcenterv6.3g.qq.com^
-|adapi.shouji.360.cn^
 |micardapi.micloud.xiaomi.net^
 |api.yuedu.iqiyi.com^
 |qapm.baidu.com^
@@ -568,7 +563,6 @@
 |yiliao.hupan.com^
 |saxs.sina.com.cn^
 |grs.dbankcloud.asia^
-|aicleaner.shouji.360.cn^
 |yuedu.iqiyi.com^
 |vd0.market.xiaomi.com^
 |switch.cup.com.cn^
@@ -735,7 +729,6 @@
 |ad.funp.com^
 |p2.l.qq.com^
 |applogios.uc.cn^
-|api.shuaji.360.cn^
 |httpdns.danuoyi.tbcache.com^
 |river.zhidao.baidu.com^
 |adstore-1252524079.file.myqcloud.com^
@@ -921,7 +914,6 @@
 |msg.iqiyi.com^
 |qm.redbullracing.com^
 |poolvale.ddns.net^
-|ad.gamebox.360.cn^
 ||null^
 |v1.log.moji.com^
 |sax8.sina.com.cn^
@@ -971,7 +963,6 @@
 |us.l.qq.com^
 |popup.msn.com^
 |d7.sinaimg.cn^
-|ynuf.aliapp.org^
 |heyue.xiaomi.com^
 |offnavi.map.baidu.com^
 |tw13b093.sandai.net^
