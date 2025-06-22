@@ -1,4 +1,4 @@
-# Update time: 2025-06-22 09:44:56
+# Update time: 2025-06-22 20:34:54
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -114,7 +114,6 @@
 |mbdlog.iqiyi.com^
 |inst.360safe.com^
 |cnc.fe01.lg.xiaomi.com^
-|adsebs.ximalaya.com^
 |m.zdjgj.cn^
 |bingads.microsoft.com^
 |floor.bz.mgtv.com^
@@ -290,7 +289,6 @@
 |ad.video.51togic.com^
 |log.music.baidu.com^
 |pg-ad-b2.ws.126.net^
-|adsehera.ximalaya.com^
 |a0.app.xiaomi.com^
 |ping.ifixit.com^
 |fkp.samsungcloudsolution.net^
@@ -303,7 +301,6 @@
 |dns.jd.com^
 |mig.str.mdt.qq.com^
 |httpdns.push.oppomobile.com^
-|adwbs.ximalaya.com^
 |pushapi.lenovomm.com^
 |show.re.taobao.com^
 |afp.alicdn.com^
@@ -406,7 +403,6 @@
 |ecmc.bdimg.com^
 |adx-drcn.op.dbankcloud.cn^
 |test.api.xlmc.sandai.net^
-|mobwsa.ximalaya.com^
 |httpdns.kwd.inkuai.com^
 |onecollector.cloudapp.aria.akadns.net^
 |samsungus.btttag.com^
@@ -637,7 +633,6 @@
 |httpdns-browser.platform.dbankcloud.cn^
 |clkservice2.dict.youdao.com^
 |crashstats-collector-2.opera.com^
-|adse.ximalaya.com^
 |tc.hd.xiaomi.com^
 |kepler.jd.com^
 |samsungeurope.eu.qualtrics.com^
@@ -680,7 +675,6 @@
 |count.vrs.sohu.com^
 |das.mobile.youku.com^
 |beacons*.gvt*.com^
-|adse.wsa.ximalaya.com^
 |appupdates.189.cn^
 |c.mse.360.cn^
 |ivy.pchouse.com.cn^
@@ -763,7 +757,6 @@
 |amdc-sibling.alipay.com.cn^
 |stnetsdk.appstore.vivo.com.cn^
 |c.bing.com^
-|ad.ximalaya.com^
 |fms.ipinyou.com^
 |click.tz.simba.taobao.com^
 |visitors.thingiverse.com^
@@ -941,7 +934,6 @@
 |ads2.mediaarmor.com^
 |prod.nexusrules.live.com^
 |iadmusicmatvideo.music.126.net^
-|adbehavior.ximalaya.com^
 |hm.xiaomi.com^
 |ad.us.sinaimg.cn^
 |2016.sina.cn^
@@ -966,8 +958,6 @@
 |heyue.xiaomi.com^
 |offnavi.map.baidu.com^
 |tw13b093.sandai.net^
-|location.ximalaya.com^
-|xdcs-collector.ximalaya.com^
 |i.xiaomi.com^
 |dns.weibo.cn^
 |test.samsungrm.net^
@@ -1180,7 +1170,6 @@
 |fyb-2.cdn.bcebos.com^
 |js.partnerstack.com^
 |ceuswatcab02.blob.core.windows.net^
-|adbs.ximalaya.com^
 |pdc.micloud.xiaomi.net^
 |url8807.global.passport.xiaomi.com^
 |paopao-monitor.iqiyi.com^
