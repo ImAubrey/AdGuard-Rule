@@ -1,4 +1,4 @@
-# Update time: 2025-06-21 20:34:50
+# Update time: 2025-06-22 09:44:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7959,6 +7959,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||200summit.com^$third-party
 ||live-tv.top/js/k.min.js
 /analytics.bundled.js
+||hypemarketing.pl/cdn/fhmm-tracker.js
 /ajaxlog?
 ||freshcounter.com^$third-party
 ||toplist.cz^$third-party
@@ -9083,6 +9084,7 @@ _track_pixel.gif?
 /cdn-cgi/pe/bag2?r[]=*eth-pocket.de
 ||kojima.net/excludes/KPC/js/kjm_gtm.js
 ||tp88trk.com^$third-party
+||ups2up.fun/js/anti.js
 /session-tracker/tracking-
 /count_js.php
 /tracking/impression
@@ -9341,6 +9343,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||stapewithadblock.beauty/stat/
 ||browsermine.com^$third-party
 ||11nux.com^$third-party
+||up4stream.com/js/anti.js
 /stats?referer=
 ||infoq.com/metrics/
 /notifications/beacon/*
@@ -9468,6 +9471,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /analytics-prod.js
 /amp-call-tracking-
 ||speedcounter.net^$third-party
+@@||platform.bombas.com/external/gtm.js$script,~third-party
 ||mhxk.com^*/main/entry.common.$script
 ||sohu.com/ip/$script
 /wp-slimstat.min.js
@@ -12145,6 +12149,7 @@ _event_tracking?
 ||stylitics.com/api/engagements
 ||rnet.plus^$third-party
 ||streamsend.com^$third-party
+||accounts.google.com/gsi/log
 /TeaLeaf.js
 ||data.tm-awx.com/smile-web-v2/
 ||userreplay.net^$third-party
