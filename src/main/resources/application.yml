@@ -26,6 +26,7 @@ application:
       - 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/AdGuard/Advertising/Advertising.txt' #name: AdGuard_blackmatrix7合并
       - 'https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt' #name: 知乎 普通版
       - 'https://raw.githubusercontent.com/ImAubrey/AdGuard-Rule/main/custom-block.txt' #name: custom-block
+      - 'https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt' #name: Coin list
 
     #本地规则
     local: #本地规则请将文件移动到项目路径rule目录中
