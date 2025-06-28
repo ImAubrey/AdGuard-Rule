@@ -1,4 +1,4 @@
-# Update time: 2025-06-28 09:26:47
+# Update time: 2025-06-28 20:35:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -490,7 +490,6 @@ pic4you.ru,pic5you.ru##body > #bb
 ||solarislabyrinth.com^$third-party
 @@||pagerank.fr/js*/advert.js?$script
 iwin.com#@##sponsorText
-darkteam.net##.pls_rmv
 ||bikesboard.com^$third-party
 ||nebulousamusement.com^$third-party
 ###adblockWrap
@@ -721,7 +720,6 @@ the-village.com.ua##.infoA
 ||detailedkitten.com^$third-party
 ||mobzon.ru/adbp/adbp.js
 ||celestialeuphony.com^$third-party
-kinoprofi.net##.warning-adblock
 ||firecatfilms.com^$third-party
 ||stereoproxy.com^$third-party
 ||tzwaw.pw^$third-party
@@ -944,7 +942,6 @@ gdekluet.ru##body > div[class^="stop-block"]
 ||wtaccesscontrol.com^$third-party
 ||generateoffice.com^$third-party
 ||shakegoldfish.com^$third-party
-helpsetup.ru##.veramoy
 malekal.com##.Here
 ||previousplayground.com^$third-party
 ||ambiguousincome.com^$third-party
@@ -1768,7 +1765,6 @@ irk.ru##.b-adblock-message
 ||uppitytime.com^$third-party
 ||ambiguousdinosaurs.com^$third-party
 ||abundantcoin.com^$third-party
-||helpsetup.ru/home/solnisko.php
 ||blesspizzas.com^$third-party
 ||deluxecrate.com^$third-party
 ||driftpizza.com^$third-party
