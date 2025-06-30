@@ -1,4 +1,4 @@
-# Update time: 2025-06-30 09:43:05
+# Update time: 2025-06-30 20:39:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10316,6 +10316,7 @@ _rpc/log?
 ||hubspot.com/analytics/
 ||ktla.com/CvbtpUrj/init.js
 ||ehub.cz^$third-party
+||adsmoloco.com^$third-party
 ||change.org/api-proxy/-/bandit/pull
 ||thefreedictionary.com/_/tr.ashx?
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
