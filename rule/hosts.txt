@@ -1,4 +1,4 @@
-# Update time: 2025-06-30 20:39:10
+# Update time: 2025-07-01 09:48:14
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6670,6 +6670,7 @@
 0.0.0.0 camping-pinede.fr
 0.0.0.0 mightymagoo.com
 0.0.0.0 valueclick.com
+0.0.0.0 zc1.campaign-view.com.cn
 0.0.0.0 audacity.it
 0.0.0.0 www.openinternetexchange.com
 0.0.0.0 gastrointestinal.1.p2l.info
@@ -7776,6 +7777,7 @@
 0.0.0.0 alphalux.oewabox.at
 0.0.0.0 dl.payforme.top
 0.0.0.0 gpaper196.112.2o7.net
+0.0.0.0 biomagin.com
 0.0.0.0 u1817.16.spylog.com
 0.0.0.0 newsquest.fr
 0.0.0.0 vi-improved.org
@@ -8777,6 +8779,7 @@
 0.0.0.0 manage2-phone7alerts.com
 0.0.0.0 liberland.fr
 0.0.0.0 www.thatsjustgay.com
+0.0.0.0 zc1.maillist-manage.com.cn
 0.0.0.0 ad1.checkm8.com
 0.0.0.0 media.contextweb.com
 0.0.0.0 oas.villagevoice.com
@@ -12761,6 +12764,7 @@
 0.0.0.0 fr.a2dfp.net
 0.0.0.0 ads3.advance.net
 0.0.0.0 oascentral.forsythnews.com
+0.0.0.0 stratus.campaign-image.com.cn
 0.0.0.0 himicrosoft.com
 0.0.0.0 kaharmonie.nl
 0.0.0.0 fvaweb.it
@@ -16494,6 +16498,7 @@
 0.0.0.0 ad.parom.hu
 0.0.0.0 wmg.112.2o7.net
 0.0.0.0 c3.adalyser.com
+0.0.0.0 fastfixing.tech
 0.0.0.0 iacas.adbureau.net
 0.0.0.0 adserver.virtuous.co.uk
 0.0.0.0 apel3.fr
@@ -23986,7 +23991,6 @@
 0.0.0.0 pmenboeqhyrpvomq.a4coac.top
 0.0.0.0 52uo5k3t73ypjije.7jiff7.top
 0.0.0.0 erikaatop.net
-0.0.0.0 fastfixing.tech
 0.0.0.0 geobirds.be
 0.0.0.0 globissys.co.id
 0.0.0.0 nlpqflkbvkdde.eu
