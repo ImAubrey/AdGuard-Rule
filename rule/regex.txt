@@ -1,4 +1,4 @@
-# Update time: 2025-07-01 09:48:14
+# Update time: 2025-07-01 20:39:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -190,7 +190,6 @@
 |iad0ssl.pcauto.com.cn^
 |ctc.fe02.c3.xiaomi.com^
 |doh.zjurl.cn^
-|cdn-b.saashub.com^
 |ad.cyapi.cn^
 |events-analytics.apple.com^
 |test.xiaomi.com^
@@ -307,14 +306,17 @@
 |show.re.taobao.com^
 |afp.alicdn.com^
 |sdk.m.youku.com^
+|d37ju0xanoz6gh.cloudfront.net^
 |stats.adityathebe.com^
 |oempprd.samsungcloudsolution.com^
 |badjs.weixinbridge.com^
 |rm.sina.com.cn^
 |ads.data.pplive.com^
 |vietpool.vddns.vn^
+|d179kwmlpc4o47.cloudfront.net^
 |calopenupdate.comm.miui.com^
 |orbit.jd.com^
+|d2tnx644ijgq6i.cloudfront.net^
 |ifengad.3g.ifeng.com^
 |ad.zuimeitianqi.com^
 |test.ark.letv.com^
@@ -647,7 +649,6 @@
 |ad.thsi.cn^
 |dp.im.weibo.cn^
 |smart-789.kakamobi.cn^
-|static.javcdn.vip^
 |httpdns.volces.com^
 |events.observablehq.com^
 |ads.reader.yueyouxs.com^
@@ -665,6 +666,7 @@
 |doh.iqiyi.com^
 |l6urqh27.sina.cn^
 |sousuo.xm.sjzhushou.com^
+|d3ddidv77grh0f.cloudfront.net^
 |xiaomiir.yaokantv.com^
 |affportal.bhphoto.com^
 |httpdns.gslb.yy.com^
@@ -784,6 +786,7 @@
 |userid.xiaomi.com^
 |sax2.sina.com.cn^
 |qchannel04.cn^
+|d1e1rbybdt265x.cloudfront.net^
 |hw.zuimeitianqi.com^
 |raddus.bayescom.com^
 |stat.m.jd.com^
@@ -1008,6 +1011,7 @@
 |plt.data.pplive.com^
 |sofire.baidu.com^
 |redir.metaservices.microsoft.com^
+|d3mjsomixevyw7.cloudfront.net^
 |cast.innity.com^
 |adsense.html5.qq.com^
 |api-js.mixpanel.com^
@@ -1203,6 +1207,7 @@
 |samsungqbe.com^
 |saxs.sina.cn^
 |stat.funshion.com^
+|d1jwpcr0q4pcq0.cloudfront.net^
 |a.tool.lu^
 |samsung.apps.linkpc.net^
 |sentry.d.mi.com^
@@ -1252,6 +1257,7 @@
 |ls.l.qq.com^
 |app.migc.xiaomi.com^
 |adsh.wagbridge.taobao.alimama.com^
+|d3ahinqqx1dy5v.cloudfront.net^
 |adsh.m.taobao.com^
 |httpdns.push.heytapmobi.com^
 |mostbiznet.ddns.net^

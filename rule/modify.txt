@@ -1,4 +1,4 @@
-# Update time: 2025-07-01 09:48:14
+# Update time: 2025-07-01 20:39:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9561,6 +9561,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||cdnmaster.com/sitemaster/sm360.js
 ||cloudfunctions.net/commonBonnierDataLayer
 ||keyxel.com^$third-party
+||pay4fans.com/api/analytics
 ||fortune.com/comscore-json/
 ||mxpnl.com^$third-party
 ||accaii.com^$third-party
@@ -13986,6 +13987,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-pia\.appsflyersdk\.com/
 /\.nimiq\./
 /admob/
+/-ad\.ixigua\.com/
 /-ulog\.region\.kwai-pro\.com/
 /click\.rum\./
 /-ad\.sm\.cn/
@@ -14008,7 +14010,6 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-launches\.appsflyersdk\.com/
 /\.zooplus\./
 /-tracker\.biliapi\.net/
-/ad\.ixigua\.com/
 /\.fstsrv/
 /-s2s\.sensic\.net/
 /-ulog\.kwai-pro\.com/
