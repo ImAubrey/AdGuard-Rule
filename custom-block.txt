@@ -31,3 +31,8 @@
 ||cloudflarecp.com^
 ||cloudflareok.com^
 ||cloudflareportal.com^
+||wallet.okex.org^$important
+||wsdexpri.coinall.ltd^$important
+||tokopedia.com^$important
+||cheervision.co^$important
+||api-ichiba-gateway.rakuten.co.jp^$important
