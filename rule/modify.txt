@@ -1,4 +1,4 @@
-# Update time: 2025-07-01 20:39:22
+# Update time: 2025-07-02 09:38:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4386,6 +4386,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||instructables.com/counter
 ||xcounter.ch^$third-party
 /cgi-bin/ctasp-server.cgi?
+/matomo/*$script,domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 ||geni.us/snippet.js
 nicovideo.jp##+js(no-xhr-if, stella)
 /adobe-analytics2.js
@@ -5052,7 +5053,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 @@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 ||unpkg.com/@topsort/analytics.js
 /pageCounter.adp?
-||fc2.com/ana/analyzer.php
 ||app.adjust.com^$third-party
 ||alltracked.com^$third-party
 @@||google-analytics.com/mp/collect?$domain=startse.com
@@ -10651,7 +10651,6 @@ sidereel.com##+js(acs, document.getElementsByTagName, .pubads)
 ||rudderlabs.com^$third-party
 /GoogleAnalystics.js
 @@||evergage.com/api2/event/$domain=mbusa.com
-||fc2.com/ana/processor.php?
 ||celebrus.com^$third-party
 ||retargeter.com.br^$third-party
 /global/tracker.js
@@ -12895,7 +12894,6 @@ _ad_impression.
 /showcounter.php
 ||sterlingwoods.com^$third-party
 /_vercel/speed-insights/script.js
-/matomo/*$domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 ||leadlife.com^$third-party
 ||statistiche-web.com^$third-party
 ||mparticle.weather.com/identity/
