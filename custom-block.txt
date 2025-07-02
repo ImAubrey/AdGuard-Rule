@@ -6,6 +6,8 @@
 ||*^$dnstype=HTTPS
 ||bgp.tools^$dnstype=AAAA
 @@||geolocation.onetrust.com^$important
+@@||ipgeolocation.io^$important
+@@||ipstack.com^$important
 ! Tver
 @@||js-agent.newrelic.com^$important
 @@||imasdk.googleapis.com^$important
