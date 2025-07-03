@@ -1,4 +1,4 @@
-# Update time: 2025-07-03 03:18:34
+# Update time: 2025-07-03 09:38:23
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11310,6 +11310,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||indeed.com/m/rpc/frontendlogging
 /atatus.js
 ||sitecompass.com^$third-party
+@@||paypal.com.first-party-js.datadome.co^$domain=paypal.com
 ||canem-auris.com^$third-party
 ||freedom.com^*/analytics/
 @@||sephora-track.inside-graph.com/ig.js$domain=sephora.com
@@ -13315,7 +13316,6 @@ _WebVitalsReporter_
 ||wn.com/count.js
 ||foodpanda.ro/lJuB4eTB/init.js
 ||bitrix.info/bx_stat
-/sxp/i/*$script,third-party
 ||ovyerus.com/js/script.js
 /s_trans.gif?
 ||prescouter.com/pd.js
@@ -13864,6 +13864,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||svc.dynamics.com/t/w$third-party
 ||aixifan.com/acsdk/log.min.js?
 /hints.netflame.cc/*
+/sxp/i/*$script,third-party,domain=~linkvertise.com
 ||srpx.net^$third-party
 ||adxvip.com^$third-party
 @@||3voor12.vpro.nl^*/streamsense.min.js$~third-party
