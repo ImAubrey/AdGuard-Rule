@@ -1,4 +1,4 @@
-# Update time: 2025-07-03 20:38:38
+# Update time: 2025-07-04 09:37:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2056,6 +2056,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 @@||fichub.com/plugins/adobe/lib/VisitorAPI.js$domain=natgeotv.com
 /dcs_tag.js
 @@||ensighten.com^*/scode/$script,domain=norton.com
+/click.php?lp=data_upd&
 ||aswpsdkeu.com^$third-party
 /cgi-bin/useronline/*
 ||qzlog.com^$third-party
@@ -7719,6 +7720,7 @@ _beacon?
 ||ntmb.de/count.html?
 ||cloudfront.net/customers/24868.min.js
 ||eventhub.us01.miro.com/api/stream
+||tapepops.com/stat/
 /adf-tm-base-min.js
 ||socialprofitmachine.com^$third-party
 ||realcounter.eu^$third-party
@@ -8898,6 +8900,7 @@ _track_pixel.gif?
 /analytics-minimal.js
 ||pertholin.com^$third-party
 ||vk.com/al_video.php?act=watch_stat
+.com/hit$ping
 @@||api.zeeg.me/api/analytics/events/$~third-party
 ||ewebanalytics.com^$third-party
 ||constellation.networknmedia.com/cdn-cgi/trace
