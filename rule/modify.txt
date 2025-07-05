@@ -1,4 +1,4 @@
-# Update time: 2025-07-05 17:03:40
+# Update time: 2025-07-05 20:35:25
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9910,6 +9910,7 @@ harborfreight.com,gemini.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.co
 ||onescreen.net/os/static/pixels/
 ||unibling.com/eclytics/
 ||kijimea.it/javascript/script.js
+@@||js.sentry-cdn.com^$script,domain=app.homebinder.com|bolt.new|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 ||surace-jujitsu.fr/outils/compteur_php/
 ||tentaculos.net^$third-party
 ||civitai.com/api/page-view
@@ -10640,7 +10641,6 @@ sidereel.com##+js(acs, document.getElementsByTagName, .pubads)
 /log/impression/*
 ||push.delivery^$third-party
 /elastic-apm-rum.umd.min.js
-@@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 ||ourstats.de^$third-party
 ||hdnux.com/HNP/stats/page_view?
 /stats/ga.js
