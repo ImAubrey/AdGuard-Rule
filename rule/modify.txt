@@ -1,4 +1,4 @@
-# Update time: 2025-07-04 20:38:22
+# Update time: 2025-07-05 09:26:24
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2521,6 +2521,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 /clear.gif?
 ||lacentrale.fr/collect
 /otlp/traces
+||script.mixi.net/static/js/build/mixi-analysis-.production.js
 ||u5e.com^$third-party
 ||et-gv.fr^$third-party
 ||tiktokv.com/web/report?
