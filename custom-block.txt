@@ -8,6 +8,7 @@
 @@||geolocation.onetrust.com^$important
 @@||ipgeolocation.io^$important
 @@||ipstack.com^$important
+@@||dmm.co.jp^$important
 ! Tver
 @@||js-agent.newrelic.com^$important
 @@||imasdk.googleapis.com^$important
