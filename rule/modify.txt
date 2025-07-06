@@ -1,4 +1,4 @@
-# Update time: 2025-07-06 09:45:43
+# Update time: 2025-07-06 20:35:52
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2966,6 +2966,7 @@ _logHuman=
 ||360buyimg.com/jdf/1.0.0/unit/log/
 ||apm-engine.meteor.com^$third-party,xmlhttprequest
 /ga-multidomain.js
+||amp.analytics-debugger.com^$third-party
 ||click-url.com^$third-party
 ||qualaroo.com^$third-party
 ||iono.fm/tracking?
@@ -4717,7 +4718,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||run.app/metrics/
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|ip-address.cc|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
 /joomla-visites.php
-||analytics-debugger.com^$third-party
 ||mql5.com/tr?
 ||inside-graph.com^$third-party
 ||evidon.com/pub/
@@ -13029,6 +13029,7 @@ _c.gif?c=
 ||hira-meki.jp^$third-party
 .php?action=browse&
 /assets-cdonAnalytics.js
+||app.kulgacdn.com/js/script.js
 ||apollofind.com^$third-party
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 ||statsit.com^$third-party
