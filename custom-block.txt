@@ -36,6 +36,6 @@
 ||cloudflareportal.com^
 ||wallet.okex.org^$important
 ||wsdexpri.coinall.ltd^$important
-||tokopedia.com^$dnsrewrite=127.0.0.1
+||tokopedia.com^$important
 ||cheervision.co^$important
 ||api-ichiba-gateway.rakuten.co.jp^$important
