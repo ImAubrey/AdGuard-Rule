@@ -1,4 +1,4 @@
-# Update time: 2025-07-11 09:41:09
+# Update time: 2025-07-11 16:24:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10153,7 +10153,6 @@ $ping,third-party
 ||vidigital.ru^$third-party
 ||ereportz.com^$third-party
 /confiant.js
-@@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 ||realist.gen.tr^$third-party
 /pixel_tracking.js
@@ -10403,7 +10402,6 @@ _rpc/log?
 ||tapelovesads.org/stat/
 /action/analytics
 ||media-imdb.com/twilight/?
-@@||kaptcha.com/collect/sdk?$domain=palmettostatearmory.com|wyze.com
 ||hitwebcounter.com^$third-party
 ||vizcloud.co/ping/
 /netresults.js
@@ -10687,6 +10685,7 @@ sidereel.com##+js(acs, document.getElementsByTagName, .pubads)
 ||api.samsungfind.com/log-collector
 ||sales-crowd.jp/js/sc-web-access-analysis.js
 ||strtapeadblocker.xyz/stat/
+||identitymind.com^$third-party
 ||plexworks.de^$third-party
 @@||b-cloud.templatebank.com/js/gtag.js$~third-party
 ||wysistat.com^$third-party
@@ -12953,7 +12952,6 @@ _ad_impression.
 ||qq.com/p?
 ||inistrack.net^$third-party
 /3.gif?
-/collect/sdk?$domain=~iugu.com
 ||hyvyd.com/count$image,domain=mobile.de
 ||coinerra.com^$third-party
 ||ad.mail.ru/static/sync-loader.js
