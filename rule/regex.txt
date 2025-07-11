@@ -1,4 +1,4 @@
-# Update time: 2025-07-11 16:24:13
+# Update time: 2025-07-11 20:38:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -328,7 +328,6 @@
 |cloan.amap.com^
 |grs.dbankcloud.cn^
 |adservice.kugou.com^
-|samsung.24.eu^
 |wl.hd.sohu.com^
 |adx.appsdk.com.cn^
 |hd.xiaojukeji.com^
@@ -404,7 +403,6 @@
 |watson.live.com^
 |bs.l.qq.com^
 |ecmc.bdimg.com^
-|adx-drcn.op.dbankcloud.cn^
 |test.api.xlmc.sandai.net^
 |httpdns.kwd.inkuai.com^
 |onecollector.cloudapp.aria.akadns.net^
@@ -417,7 +415,6 @@
 |romeccs.microsoft.com^
 |osfota.cdn.aliyun.com^
 |tmeadbak.y.qq.com^
-|adx-dra.op.hicloud.com^
 |adsgroup.qq.com^
 |ipmatm.cp12.wasu.tv^
 |d5.sina.com.cn^
@@ -597,12 +594,10 @@
 |log-sdk.gifshow.com^
 |fclick.baidu.com^
 |hot.m.shouji.360tpcdn.com^
-|samsung.yaload.ru^
 |80vn.cn^
 |static.vuevideo.net^
 |eu-nilupool.ddns.net^
 |tools.3g.qq.com^
-|adx-drru.op.dbankcloud.com^
 |adashx.m.taobao.com^
 |rmads.eu.msn.com^
 |vocadb-analytics.fly.dev^
@@ -829,7 +824,6 @@
 |video.xiaomi.com^
 |qiye.xiaomi.com^
 |credits2.bz.mgtv.com^
-|samsung-produkcja.24.eu^
 |spynetalt.microsoft.com^
 |bad.third-party.site^
 |btcsq.ddns.net^
@@ -942,7 +936,6 @@
 |hm.xiaomi.com^
 |ad.us.sinaimg.cn^
 |2016.sina.cn^
-|samsung-akcja.e-kei.pl^
 |sv.map.baidu.com^
 |app-monitor.ele.me^
 |adsview2.qq.com^
@@ -1081,7 +1074,6 @@
 |oceansail.ddns.net^
 |ads.service.kugou.com^
 |ad.alimama.com^
-|akcja-samsung.h2g.pl^
 |ttnet-dig.feishu.cn^
 |trackingprd.hwwt8.com^
 ||ad.*.prod.hosts.ooklaserver.net^
@@ -1201,12 +1193,10 @@
 |samsungcloudsolution.com^
 |adexpo.tencentmusic.com^
 |sa.holopin.io^
-|samsungqbe.com^
 |saxs.sina.cn^
 |stat.funshion.com^
 |d1jwpcr0q4pcq0.cloudfront.net^
 |a.tool.lu^
-|samsung.apps.linkpc.net^
 |sentry.d.mi.com^
 |cdn-ads.oss-cn-shanghai.aliyuncs.com^
 |tob-cms.bj.bcebos.com^
@@ -1236,12 +1226,10 @@
 |pre-ad.alimama.com^
 |lcs.dev.surepush.cn^
 |pnrt-stsdk.vivo.com.cn^
-|akcjasamsung.e-kei.pl^
 |adv.fjtv.net^
 |public.gdtimg.com^
 |qzs.gdtimg.com^
 |hdns.ksyun.com^
-|samsung-stop.24.eu^
 |d1.sina.com.cn^
 |adx-static.ksosoft.com^
 |onlycash.ddns.net^
@@ -1286,13 +1274,11 @@
 |httpdns.baidu.com^
 |c.yes.youku.com^
 |dw-collect.ksosoft.com^
-|adx-dre.op.dbankcloud.com^
 |stnetsdk.vivo.com.cn^
 |cdn.cr-relay.com^
 |api.ts.feedback.qy.net^
 |sdkapp.uve.weibo.com^
 |stat.dns.sb^
-|adx-dra.op.dbankcloud.com^
 |trial.api.huangye.miui.com^
 |yaolu.mh.163.com^
 |openpanel.follow.is^
