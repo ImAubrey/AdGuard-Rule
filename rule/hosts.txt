@@ -1,4 +1,4 @@
-# Update time: 2025-07-11 20:38:51
+# Update time: 2025-07-12 09:42:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -28097,7 +28097,6 @@
 0.0.0.0 psi-surete.com
 0.0.0.0 vallei-elektrotechniek.nl
 0.0.0.0 vbtcc.com
-0.0.0.0 suffitechh.com
 0.0.0.0 andregolf.de
 0.0.0.0 desbloqueioacesso.cf
 0.0.0.0 www.gr-lin.de
