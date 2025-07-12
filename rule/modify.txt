@@ -1,4 +1,4 @@
-# Update time: 2025-07-12 09:42:29
+# Update time: 2025-07-12 20:36:23
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7338,6 +7338,7 @@ _trackWebtrekkEvents.
 ||competitoor.com/analytics/
 ||w3counter.com^$third-party
 @@||assets.fyers.in/Lib/analytics/Analytics.js$~third-party
+||getelevar.com/configs/
 ||beampulse.com^$third-party
 /opentag-
 /trackingApi?type=
@@ -7608,6 +7609,7 @@ _beacon?
 ||disqus.com/stats.html
 ||karte.io/mirror-record/
 ||adobe.io/web/v1/metrics
+=aWQ9R1RNL*apiKey=$script,~third-party
 ://tracking.*/beacon/
 /v.gif?
 /logcollect.js
@@ -8918,6 +8920,7 @@ _track_pixel.gif?
 ||plista.com/activity
 ||analytics.cdnstr.com^$third-party
 /clicktrack?
+/init?*&fallbackUserId=
 /traces.php?
 /navbar-analytics.js
 ||appcast.io^$third-party
@@ -9932,6 +9935,7 @@ harborfreight.com,gemini.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.co
 /screencount?vcid=
 ||zeotap.com^$third-party
 ||baidu.com/api/bidder/
+=aWQ9R1RNL*page=$script,~third-party
 /klaviyo_analytics.js
 ||webtrekk-asia.net^$third-party
 ||datazoom.io^$third-party
@@ -12338,6 +12342,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||mokuz.ru^$third-party
 ||hellobar.com/ping?
 ||jv.dk/assets/statistics/
+/providers/atLabel/load|
 ||smart-pixl.com^$third-party
 ||promworld.ru^*/counter.php?
 ||wolfram.com/common/javascript/analytics.js
@@ -13655,6 +13660,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 /clickheat.js
 ||clickable.net^$third-party
 ||asadcdn.com^$third-party
+/a/elevar/static/*
 /cls_report?
 ||skyglue.com^$third-party
 ||amazonaws.com/production_beacon
