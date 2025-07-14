@@ -1,4 +1,4 @@
-# Update time: 2025-07-14 09:45:52
+# Update time: 2025-07-14 20:41:03
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12976,6 +12976,7 @@ _ad_impression.
 /counter?action=
 ||unity3d.com/v1/events
 .stats?action=
+/qlog/add?userId=
 ||inews.co.uk/rta2/
 ||timinternet.it/timmobilestatic/jsPrivacy/gdl_function_cookie.js
 /ping?referrer=
