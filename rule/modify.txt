@@ -1,4 +1,4 @@
-# Update time: 2025-07-15 09:46:07
+# Update time: 2025-07-15 20:41:12
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3063,6 +3063,7 @@ _logHuman=
 /qlitics.js
 ||lightboxcdn.com/static/identity.html
 ||myscoop-tracking.googlecode.com^$third-party
+/fingerprint.js$domain=~github.com
 /TrafficCookie.js
 /cdn_cookie_service.html
 ||lendingtree.com/analytics/
@@ -5179,7 +5180,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 @@||lacoste.com^*/click-analytics.js$~third-party
 ||modernus.is^$third-party
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
-/fingerprint.js
 ||useproof.com^$third-party
 ||txt.eu^$third-party
 ||topsite.lv^$third-party
@@ -8680,6 +8680,7 @@ _track_pixel.gif?
 /counter.asp?
 /nlogger.js
 ||instreamatic.com^$third-party
+||affirm.com/api/chrono/*/collect
 ||plausible.io/js/plausible.
 ||getpush.net^$third-party
 ?local_ga_js=
