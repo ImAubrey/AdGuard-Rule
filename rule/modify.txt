@@ -1,4 +1,4 @@
-# Update time: 2025-07-15 01:05:17
+# Update time: 2025-07-15 09:46:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8013,6 +8013,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||studocu.com/27m703Hm/init.js
 ||collserve.com^$third-party
 ||perplexity.ai/rest/event/analytics
+||digitaloceanspaces.com/pixel.min.js
 /pmc-cxense.js
 ||auctiva.com/Default.aspx?query
 ||homedepot-static.com/data-collection/
