@@ -1,4 +1,4 @@
-# Update time: 2025-07-16 09:42:43
+# Update time: 2025-07-16 20:41:39
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2538,6 +2538,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 ||observerapp.com^$third-party
 ||aljazeera.com/thirdparty/nr.js
 /site_stats/*
+||viafoura.co/eventfeed?site_uuid=
 ||domdog.io^$third-party
 ||tracksmart.se^$third-party
 ||webgozar.com/c.aspx*&t=counter
@@ -13815,6 +13816,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||mieru-ca.com^$third-party
 ||cpmktg.com^$third-party
 ||msecnd.net/scripts/b/ai.
+||oneroof.co.nz/*/record-log/
 /scroll-tracker.js
 ||referforex.com^$third-party
 /stat/stat.php?type=
@@ -13968,14 +13970,6 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
 /hostingcloud/
 /umeng/
 /-rtb\.gravite\.net/
@@ -14066,6 +14060,14 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-ad\.wtzw\.com/
 /\.estream\./
 /\.srvqck/
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 /^adsensor\./
 ||*inapps.appsflyersdk.com^
 /^dwtrack\./
