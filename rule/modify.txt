@@ -1,4 +1,4 @@
-# Update time: 2025-07-17 09:43:34
+# Update time: 2025-07-17 20:40:50
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7335,6 +7335,7 @@ _trackWebtrekkEvents.
 ||cu.dzen.ru/?rn=
 @@||plantyn.com/optiext/optiextension.dll$~third-party
 ||mashery.com/analytics/
+||t.lataco.com/collect
 ||a-counter.kiev.ua^$third-party
 /firebase-performance-standalone.js
 ||hotels.com/cl/data/omgpixel.json?
