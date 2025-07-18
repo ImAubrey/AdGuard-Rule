@@ -1,4 +1,4 @@
-# Update time: 2025-07-17 20:40:50
+# Update time: 2025-07-18 09:44:41
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3820,6 +3820,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 /honeybadger.js
 @@||sephora.com/js/ufe/isomorphic/thirdparty/VisitorAPI.js$~third-party
 ||rollbar.com^$third-party
+@@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
 @@||pushpushgo.com/js/$script,domain=centrumriviera.pl
 @@||sephora-track.inside-graph.com/gtm/$domain=sephora.com
 /2x2.gif?$image
