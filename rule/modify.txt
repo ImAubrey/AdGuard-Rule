@@ -1,4 +1,4 @@
-# Update time: 2025-07-21 09:49:02
+# Update time: 2025-07-21 20:42:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2306,8 +2306,10 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /stats.*/hits/*
 ||tiktokv.us/monitor_browser/
 .com/vtrack
+||shopper.shop.pe/pixel.png
 ||shopifysvc.com/v1/metrics
 @@||service-public.fr^*/assets/js/eulerian/eulerian.js$~third-party
+||dfm7wh2x5l4za.cloudfront.net/script.js
 ||dropbox.com/jse
 ||120.132.57.41/pjk/pag/ys.php
 ||windy.com/sedlina/ga/
@@ -4527,6 +4529,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||seedr.ru^*/stats/
 /event/trigger?
 ||futurehybrid.tech^$third-party
+||d14pdm1b7fi5kh.cloudfront.net/script.js
 /wpr-beacon.min.js
 ||cloudfront.net*/trk.js
 ||kk-resources.com/ks.js
@@ -5963,6 +5966,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||web.whatsapp.com/wam
 /collect/pageview?
 /inboundAnalytics.min.js
+||backend.leadconnectorhq.com/forms/form-survey-event
 ||percycle.com^$third-party
 ||walmart.ca/px/PXnp9B16Cq/init.js
 ||goadservices.com^$third-party
@@ -6273,7 +6277,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||filitrac.com^$third-party
 ||statowl.com^$third-party
 ||affirm.com/api/v2/session/touch_track
-@@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 ||woopic.com/Magic/o_vr.js
 ||returnpath.net^$third-party
 ||branch.io^$third-party
@@ -6825,6 +6828,7 @@ _view_pixel&$image
 /statcounter.asp
 ||turnto.com/event
 ||freshrelevance.com^$third-party
+||d2badvwg0mti9p.cloudfront.net/script.js
 ||cc.cc/visit_log_ajax/visit_log_save_ajax.php?
 ||profitmetrics.io^$third-party
 /kameleoon-iframe.html
@@ -7366,7 +7370,6 @@ _trackWebtrekkEvents.
 ||forum.zuvio.com.tw/api/article/finish
 ||baidu.com/static/h.gif
 ||proclivitysystems.com^$third-party
-||cloudfront.net./script.js
 @@||cqcounter.com^$domain=cqcounter.com
 ||smlog.co.kr^$third-party
 ||segments.adap.tv^$third-party
@@ -11428,7 +11431,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||mateti.net^$third-party
 /piwik1.
 ||clustrmaps.com/counter/$third-party
-@@||geolocation-db.com/json/$domain=admanager.line.biz
 /StatsPixel?
 ||brandlock.io^$third-party
 ||x.com/i/jot
@@ -13325,7 +13327,6 @@ _WebVitalsReporter_
 ||info.elba.at^$third-party
 .hilton.com/subscription/watermark.gif?
 ||ancestry.com/core.js
-||cloudfront.net/script.js
 ||developers.miro.com/pageview
 ||yelp.com/ad_acknowledgment
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
@@ -13699,7 +13700,6 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||ondu.ru^$third-party
 ||jerkmatelive.com/api/metrics
 ||eyein.com^$third-party
-||geolocation-db.com^$third-party
 ||flixfacts.co.uk^$third-party
 ||cloudfront.net/vis_opt.js
 ||oracle.com/visitorinfo/
@@ -14029,6 +14029,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /fb-restriction-appeal/
 /adjust\./
 /telemetry\.officeapps\.live\.com/
+/-mktg\.vodafone\.com/
 /wxsnsdy/
 /-pia\.appsflyersdk\.com/
 /\.nimiq\./
