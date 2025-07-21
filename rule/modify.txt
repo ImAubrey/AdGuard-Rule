@@ -1,4 +1,4 @@
-# Update time: 2025-07-20 20:37:36
+# Update time: 2025-07-21 09:49:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2172,6 +2172,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 247sports.com,androidpolice.com,bringmethenews.com,mensjournal.com,arstechnica.com,audizine.com,blackenterprise.com,boston.com,britannica.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
 /webstats.js
 /ga_event_tracking.js
+||app.trytada.com/addImpression
 ||users-api.com^$third-party
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 /wp-monero-miner-class.js
@@ -2349,6 +2350,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /__ub.gif?
 /roverimp/*
 ||adtr.io^$third-party
+://fathom.$domain=~fathom.care|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ||feathr.co^$third-party
 ||2gis.ru/_/log
 ||contineljs.com^$third-party
@@ -4700,7 +4702,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||triggeredmessaging.com^$third-party
 ||ftimg.net/js/log.js?
 /performanceMetrics?
-://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ||visualdna.com^$third-party
 ||fcs.ovh^$third-party
 /tagCNIL.js
@@ -8600,6 +8601,7 @@ _track_pixel.gif?
 ||pingomatic.com^$third-party
 ||dw.com.com^$script
 ||count24.de^$third-party
+||idmsa.apple.com/appleauth/jslog
 ||revcatch.com^$third-party
 ||tradablebits.com/pixels/
 ||etsy.com/clientlog
@@ -9545,6 +9547,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||audiens.com^$third-party
 /blaize/datalayer
 /admtracker.lib.min.js
+||consent.trustarc.com/analytics?
 @@||addthis.com/*-angularjs.min.js$script,domain=ead.senac.br|missingkids.com|missingkids.org
 ||data.tm-awx.com/smile-web.min.js
 ||3ng6p6m0.de^$third-party
@@ -12467,6 +12470,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||trafficfacts.com^$third-party
 ||d-1.co^$third-party
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
+/scripts/sdk/everflow.js
 ||boomtrain.com/identify/resolve?
 ||akamaihd.net^$image,domain=globalnews.ca|nycgo.com|stcatharinesstandard.ca
 ||t-analytics.com^$third-party
@@ -13495,6 +13499,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||streetmetrics.io^$third-party
 ||redaktionstest.net/cdn/$ping
 ||a2z.com/sping?
+||feedbackws.icloud.com/reportStats
 ||stroeerdigitalmedia.de^$third-party
 ||italiaonline.it/script/ga.
 ?log=stats-
