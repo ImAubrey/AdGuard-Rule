@@ -1,4 +1,4 @@
-# Update time: 2025-07-24 09:44:01
+# Update time: 2025-07-24 20:42:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8487,6 +8487,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 /ga-scroll-events.js
 ||toms.com/*/PinterestCAPI-Event
 ||digitru.st^$third-party
+||t2.profityi.com/api/visit/
 ||doda.jp/DodaCommon/Html/js/RtoasterTrack.js
 ||atatus.com^$third-party
 ||eastmoney.com/web/prd/jump_tracker.js
@@ -11398,6 +11399,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||cloudfront.net/performable/
 ||vk.com/al_video.php?act=track_player_events
 ||mmstat.com^$third-party
+||data.armexdef.uk/api/visit/
 ||adelixir.com^$third-party
 ||affilae.com^$third-party
 ||pushwize.com^$third-party
@@ -11420,6 +11422,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||neeva.com/logql/log
 /TealeafSDK.js
 ||k.p-n.io/event-stream
+||bio.to/~/tr/
 ||splitbee.io^$third-party
 @@||youvisit.com/tour/$script,subdocument,domain=uaf.edu
 ||exe.bid^$third-party
@@ -11911,6 +11914,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 @@||sophos.com^*/tracking/gainjectmin.js$script,domain=community.sophos.com
 ||canalplus-bo.net/web/*/tracker/?
 ||bmmetrix.com^$third-party
+||shop.app/pay/hop?analytics_trace_id=
 /1.gif?
 ||gamivo.com/tcllc?
 /om.gif?
@@ -13499,6 +13503,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||swiftypecdn.com/cc.js$third-party
 /web-api/log/*
 ||ncaudienceexchange.com^$third-party
+||register.boostymark.com/a/reg
 ||yellow.ai/integrations/analytics/
 ||hitmaster.de^$third-party
 ||brevo.com^$third-party

@@ -1,4 +1,4 @@
-# Update time: 2025-07-24 09:44:01
+# Update time: 2025-07-24 20:42:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1673,6 +1673,7 @@
 ||stats*.videonow.ru^
 ||log-*.zadn.vn^
 ||api*.moengage.com^
+||hba*.hepsiburada.com^
 ||reachableads-av.*.amazonaws.com^
 ||qn-*pcdn.cdn.msstatic.com^
 ||mon-va*.capcutapi.com^
