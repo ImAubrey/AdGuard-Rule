@@ -1,4 +1,4 @@
-# Update time: 2025-07-23 20:42:02
+# Update time: 2025-07-24 09:44:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -13467,6 +13467,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||nbarizona.com/metrics/
 ||usercycle.com^$third-party
 ||koji-analytics.com^$third-party
+@@||stats.wp.com/w.js$script,domain=wordpress.com
 ||unifyintent.com/analytics/
 ||newrrb.bid^$third-party
 ||pikabu.ru/apps/*/analytics.js
