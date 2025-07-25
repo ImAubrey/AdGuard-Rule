@@ -1,4 +1,4 @@
-# Update time: 2025-07-24 20:42:01
+# Update time: 2025-07-25 09:43:37
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11023,6 +11023,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||longtailvideo.com^*/yourlytics-
 ||qbaka.net^$third-party
 ||contentpass.net/error-tunnel
+@@||glancecdn.net/cobrowse/$domain=payroll.toasttab.com
 ||relmaxtop.com^$third-party
 ||libcdnjs.com/api/event
 /baynote.js
