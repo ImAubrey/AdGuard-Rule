@@ -1,4 +1,4 @@
-# Update time: 2025-07-26 09:40:53
+# Update time: 2025-07-26 20:37:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -188,6 +188,7 @@
 |tz.sec.xiaomi.com^
 |api.iterable.com^
 |p2plive-*.douyucdn.cn^
+|log.kuwo.cn^
 |umm.html.zone^
 |union.gdtimg.com^
 |ten.sngapm.qq.com^
@@ -197,6 +198,7 @@
 |adping.qq.com^
 |misc.in.duokanbox.com^
 |hwad.zuimeitianqi.com^
+|tnc0-bjlgy.zijieapi.com^
 |httpdns.c.cdnhwc2.com^
 |analytics.nexon.com^
 |r.i.ua^
@@ -225,6 +227,7 @@
 |static.m.sjzhushou.com^
 |adashx.ut.amap.com^
 |cwa.html.zone^
+|tnc3-aliec2.zijieapi.com^
 |miniapp.qiluyidian.mobi^
 |ad.greedland.net^
 |stat.simba.taobao.com^
@@ -243,6 +246,7 @@
 |dl.g.youku.com^
 |rtas.videocc.net^
 |ad.bayescom.com^
+|adsfilebssdlbig.ali.kugou.com^
 |tracking.*.miui.com^
 |mibi.xiaomi.com^
 |device-metrics-us.amazon.com^
@@ -252,6 +256,7 @@
 |adv0*.msa.cdn.mediaset.net^
 |dmapp.youku.com^
 |masdk.3g.qq.com^
+|ulogjs.gifshow.com^
 |pg-ad-b1.ws.126.net^
 |sg.a.stat.mi.com^
 |resolver.msg.xiaomi.net^
@@ -265,6 +270,7 @@
 |tmead.y.qq.com^
 |d9.sina.com.cn^
 |wan.youku.com^
+|logtj.kugou.com^
 |adclick.g.doublecklick.net^
 |grs.dbankcloud.com^
 |baiducdncmn.inter.iqiyi.com^
@@ -296,6 +302,7 @@
 |events-analytics.apple.com^
 |test.xiaomi.com^
 |crash.163.com^
+|ads3-normal-lq.zijieapi.com^
 |gustaver.ddns.net^
 |samsungotn.net^
 |e.duomeng.org^
@@ -359,6 +366,7 @@
 |adeng.hpplay.cn^
 |nl.notice.iqiyi.com^
 |gtms01.alicdn.com^
+|adsfileretry.service.kugou.com^
 |game.sec.miui.com^
 |openrcv.baidu.com^
 |hijack.baidu.com^
@@ -395,6 +403,7 @@
 |a0.app.xiaomi.com^
 |ping.ifixit.com^
 |fkp.samsungcloudsolution.net^
+|jswebcollects.kugou.com^
 |acfeedbackws.icloud.com^
 |androidgo.duapp.com^
 |adscdn.baidu.com^
@@ -403,7 +412,9 @@
 |e-ad-monitor.huya.com^
 |dns.jd.com^
 |httpdns.push.oppomobile.com^
+|recommend-drcn.hms.dbankcloud.cn^
 |pushapi.lenovomm.com^
+|rms-drcn.platform.dbankcloud.cn^
 |show.re.taobao.com^
 |afp.alicdn.com^
 |sdk.m.youku.com^
@@ -421,6 +432,7 @@
 |ifengad.3g.ifeng.com^
 |ad.zuimeitianqi.com^
 |test.ark.letv.com^
+|weather-community-drcn.weather.dbankcloud.cn^
 |msmetrics-test.ws.sonos.com^
 |livew.l.qq.com^
 |vt.ipinyou.com^
@@ -482,6 +494,7 @@
 |httpsdns.baidu.com^
 |r.sg.sec.miui.com^
 |ad.iot.360.cn^
+|tnc0-alisc1.zijieapi.com^
 |ada.baidu.com^
 |jqmt.qq.com^
 |pmall.migc.xiaomi.com^
@@ -550,6 +563,7 @@
 |d8.sinaimg.cn^
 |stats.crdroid.net^
 |coconuts.boy.jp^
+|tnc3-alisc2.zijieapi.com^
 |dd.iask.cn^
 |click.mz.simba.taobao.com^
 |adsrich.qq.com^
@@ -622,6 +636,7 @@
 |adx.hupu.com^
 |ad.jia.360.cn^
 |adx.apiok.net^
+|ad-sdk-config.youdao.com^
 |omgmta.play.ott.video.qq.com^
 |sjarvis.taobao.com^
 |msg.ptqy.gitv.tv^
@@ -674,10 +689,12 @@
 |tracker.sns.iqiyi.com^
 |jqcdn2.herokuapp.com^
 |srd.simba.taobao.com^
+|mssdk.zijieapi.com^
 |r.dmp.sina.cn^
 |adx.halomobi.com^
 |w.m.taobao.com^
 |*-pcdn-*.biliapi.net^
+|ads5-normal-lq.zijieapi.com^
 |ns11.whois.co.kr^
 |avn.innity.com^
 |top.h.qhimg.com^
@@ -705,6 +722,7 @@
 |cm.ipinyou.com^
 |jzt.jd.com^
 |proxy.sec.miui.com^
+|ads3-normal-lf.zijieapi.com^
 |ad.toutiao.com^
 |samsungcloudsolution.net^
 |mazu.3g.qq.com^
@@ -765,6 +783,7 @@
 |affportal.bhphoto.com^
 |httpdns.gslb.yy.com^
 |afdconf.baidu.com^
+|qn-cdnfile1pcdn.msstatic.com^
 |d0.sina.com.cn^
 |openburstpool.ddns.net^
 |g.koowo.com^
@@ -815,6 +834,7 @@
 |vcardsdkservice.vivo.com.cn^
 |vs.biz.weibo.com^
 |h.msn.com^
+|adapi.yynetwk.com^
 |weatherapi.market.xioami.com^
 |cryptocoin.ddns.net^
 |crs.baidu.com^
@@ -889,6 +909,7 @@
 |re.taobao.com^
 |ad2.sina.com.cn^
 |adlaunch.qtfm.cn^
+|ads3-normal-hl.zijieapi.com^
 |ga.utilapi.bid^
 |rprain.bz.mgtv.com^
 |cre-dp.sina.cn^
@@ -907,6 +928,7 @@
 |ads.mobgold.com^
 |match.p4p.1688.com^
 |cache.datamart.windows.com^
+|ads-api.twitter.com^
 |ad.quwin.cn^
 |susapi.dev.surepush.cn^
 |simaba.taobao.com^
@@ -949,7 +971,6 @@
 |feedback.search.microsoft.com^
 |cdn.pocoiq.cn^
 |gemini.yahoo.com^
-|adx.hubcloud.com.cn^
 |kpstaticbj.wx.ckjr001.com^
 |puma.api.iqiyi.com^
 |ad.hpplay.cn^
@@ -980,6 +1001,7 @@
 |ads.weilitoutiao.net^
 |newloc.map.n.shifen.com^
 |nmobi.kuwo.cn^
+|ads5-normal-lf.zijieapi.com^
 |ssl.360antivirus.org^
 |httpdns.music.163.com^
 |ems.cp12.wasu.tv^
@@ -994,7 +1016,6 @@
 |ads.xxxad.net^
 |adclick.tencentmusic.com^
 |mclean.uk.cloud.360safe.com^
-||tracking.*.miui.com^
 |d1pool.ddns.net^
 |invitation.samsungiotcloud.com^
 |httpdns.ocloud.oppomobile.com^
@@ -1037,6 +1058,7 @@
 |hm.xiaomi.com^
 |ad.us.sinaimg.cn^
 |2016.sina.cn^
+|tnc0-aliec2.zijieapi.com^
 |sv.map.baidu.com^
 |app-monitor.ele.me^
 |adsview2.qq.com^
@@ -1083,6 +1105,7 @@
 |ads.eu.msn.com^
 |t.email1.samsung.ca^
 |xblgdvrassets3010.blob.core.windows.net^
+|hwpub-s01-drcn.cloud.dbankcloud.cn^
 |fbapi.guguread.com^
 |oct.pocoiq.cn^
 |s.w-x.co^
@@ -1090,6 +1113,7 @@
 |topapi.cp12.ott.cibntv.net^
 |d3.sinaimg.cn^
 |saxn.sina.com.cn^
+|tnc3-bjlgy.zijieapi.com^
 |api.chat.xiaomi.net^
 |sa.api.intl.miui.com^
 |susapi.lenovomm.com^
@@ -1143,7 +1167,9 @@
 |ad.api.3g.tudou.com^
 |ggx01.miguvideo.com^
 |xray.jebe.renren.com^
+|tnc3-alisc1.zijieapi.com^
 |interest.mix.sina.com.cn^
+|livewebbs2pcdn.msstatic.com^
 |a.glcdn.co^
 |gstat.myzaker.com^
 |adls.suning.com^
@@ -1169,7 +1195,6 @@
 |ccc.sys.intl.xiaomi.com^
 |wkrd.tingyun.com^
 |vali.cp31.ott.cibntv.net.302.myalicdn.com^
-|js-ad.a.yximgs.com^
 |policy.video.iqiyi.com^
 |ysm.hauchi.com.tw^
 |oceansail.ddns.net^
@@ -1206,6 +1231,7 @@
 |ad.caiyunapp.com^
 |v16.56.com^
 |osb-ussvc.samsungqbe.com^
+|ads-marketing-vivofs.vivo.com.cn^
 |applog-perf.uc.cn^
 |healthdata.hicloud.com^
 |cre.mix.sina.com.cn^
@@ -1219,6 +1245,7 @@
 |ilce.alicdn.com^
 |ee.j5s9b.cn^
 |igame.xiaomi.com^
+|ads5-normal-hl.zijieapi.com^
 |mclean.cloud.360safe.com^
 |ad.bn.netease.com^
 |youku-acs.m.taobao.com^
@@ -1608,6 +1635,7 @@
 ||apple-*.le.com^
 ||imp-*.jampp.com^
 ||mobileanalytics.*.amazonaws.com^
+||tracking.*.miui.com^
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||adv0*.msa.cdn.mediaset.net^

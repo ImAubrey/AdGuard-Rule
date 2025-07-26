@@ -1,4 +1,4 @@
-# Update time: 2025-07-26 09:40:53
+# Update time: 2025-07-26 20:37:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4161,7 +4161,6 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||sitealyse.de^$third-party
 /_sess/script.js
 ||catalove.com/bimp/
-||terra.com/js/metrics/
 ||lmiutil.com^$third-party
 ||basilic.io^$third-party
 ||dollartree.com/ccstoreui/*/analytics/
@@ -10055,6 +10054,7 @@ harborfreight.com,gemini.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.co
 ||heroku.com/?callback=getip$third-party
 ||mavencoalition.io/collect
 /exittracker.js
+||datastat.me^$third-party
 ||affirm.com/api/v2/cookie_sent
 .nordvpn.com/q/$image
 /pr.php?
@@ -10271,6 +10271,7 @@ $ping,third-party
 ||pushsquare.com/blank.gif
 ||api.vk.com/method/statEvents.
 /cgi/trk.js
+||trrsf.com/*/mod-stalker.min.js
 ||pixelinteractivemedia.com^$third-party
 ||carambo.la/logging/
 ||tatadigital.com/analytics-engine/
@@ -14012,12 +14013,14 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /track\.opentable\./
 /nimiqpool/
 /-attr\.appsflyersdk\.com/
+/-p2p\.pull\.yximgs\.com/
 /adserve2/
 /smetrics\./
 /adspace/
 /marketing\.net/
 /adktrack/
 /thetollroads-/
+/-p2p-v2\.pull\.yximgs\.com/
 /cmpworker\./
 /-logsdk\.kwai-pro\.com/
 /trkhinv\.business\.hsbc\./
@@ -14057,6 +14060,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-adrevenue\.appsflyersdk\.com/
 /backstory\.ebay\./
 /admaster/
+/-ad\.a\.yximgs\.com/
 /-spiky\.clevertap-prod\.com/
 /dkswshap-/
 /adserver/
