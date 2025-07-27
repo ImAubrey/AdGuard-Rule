@@ -1,4 +1,4 @@
-# Update time: 2025-07-27 09:52:12
+# Update time: 2025-07-27 20:38:39
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6332,6 +6332,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||plausible.io/js/p.js
 ||hatarako.net/api/recommend/analyze_logger
+||coca-cola.com.br/synerise/tracker.js
 ||webads.eu^$third-party
 ||newsletters.nationalgeographic.com^$image,third-party
 ||bm.paypal.com/spd3TxHV/init.js
@@ -10649,6 +10650,7 @@ sidereel.com##+js(acs, document.getElementsByTagName, .pubads)
 ||metricode.com^$third-party
 /dl-web-pixel.js
 ||rt.ru/proxy?
+/js/generateStats-min.js
 ||sezzle.com/v1/event/log
 ||nvidia.partners/telemetry/
 ||rapidspike.com/static/js/timingpcg.min.js
