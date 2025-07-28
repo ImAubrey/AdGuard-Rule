@@ -39,6 +39,5 @@
 ||cheervision.co^$important
 ||api-ichiba-gateway.rakuten.co.jp^$important
 
-||tradingview.com^$important
 ||coinmarketcap-mcp-server-759711950494.asia-southeast1.run.app^$important
 ||ipinfo.check.place^$important
