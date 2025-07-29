@@ -1,4 +1,4 @@
-# Update time: 2025-07-29 09:56:05
+# Update time: 2025-07-29 20:43:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2419,6 +2419,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||traktor.ru^*/counter.php?
 /piwikapi.js
 ||tsite.jp/static/analytics/
+/ldc.js?pid=
 /r.gif?
 /px?t=
 ||brilig.com^$third-party
@@ -3855,6 +3856,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||finalid.com^$third-party
 ||collecting.click^$third-party
 /matomo_video_tracking.js
+||increasingcustomers-tag.com^$third-party
 ||run.app/events$domain=imgur.com|worldstar.com|worldstarhiphop.com
 @@||clerk.io/clerk.js$script,domain=trony.it
 /log-moltron-interaction?
@@ -10190,6 +10192,7 @@ $ping,third-party
 .keap-link003.com/$image
 ||thehackernews.com/zscripts/
 ||obozrevatel.com/pixel.png
+birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,stokesentinel.co.uk,walesonline.co.uk###right-aside-wrapper
 ||webtraffic.se^$third-party
 /boomerang.js
 ||mysocialpixel.com^$third-party
