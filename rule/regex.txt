@@ -1,4 +1,4 @@
-# Update time: 2025-07-30 09:46:24
+# Update time: 2025-07-30 20:42:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1366,6 +1366,7 @@
 |bowserlab.ddns.net^
 |prt-stsdk.vivo.com.cn^
 |adm.leju.sina.com.cn^
+|mon-*.byteoversea.com^
 |dns.weixin.qq.com.cn^
 |adsence.sogou.com^
 |adcdn.hpplay.cn^
@@ -1420,6 +1421,7 @@
 |secode2.hd.xiaomi.com^
 |inside.rtbasia.com^
 |appuu.cn^
+|mon-va.byteoversea.com^
 |ls.l.qq.com^
 |app.migc.xiaomi.com^
 |adsh.wagbridge.taobao.alimama.com^
