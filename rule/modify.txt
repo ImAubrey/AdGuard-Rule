@@ -1,4 +1,4 @@
-# Update time: 2025-07-31 20:41:11
+# Update time: 2025-08-01 09:55:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3214,6 +3214,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ||checkreferrer.io^$third-party
 ||webgames.io/imp/
 @@||showheroes.com/publishertag.js$domain=rollingstone.de
+||shueisha.online/op/analytics.js
 /tatari-shopify/tracker-snippet-latest.min.js
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
 /error/js/log?
@@ -5340,6 +5341,7 @@ _stat_counter.php?
 ||sexcounter.com^$third-party
 ||e-click.jp^$third-party
 ||smassets.net/assets/anonweb/anonweb-click-
+||revenueroll.com^$third-party
 ||w3t.cn^*/fx.js
 ||video.mediaset.it/polymediashowanalytics/
 ||amazonaws.com/snowplow-zitcha.js
@@ -12323,6 +12325,7 @@ img.promio-connect.com$image
 ||factors.ai/sdk/event/
 ||sawpf.com/1.0.js$third-party
 ||ststandard.com/adsf
+||backend.alia-cloudflare.com/user/events
 ||concert.io/lookup/
 ||pushbird.com^$third-party
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
@@ -13136,6 +13139,7 @@ fedex.com##+js(set-local-storage-item, fdx_enable_new_detail_page, true)
 /utrack.js?
 @@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|handelsblatt.com|inquirer.com|mainichi.jp|marketwatch.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
 ||greatviews.de^$third-party
+||backend.alia-cloudflare.com/launcher/events/
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 ||line.me/tag.gif$image
 .doubleclick.net/$image
@@ -14013,17 +14017,20 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||*log.droid4x.cn^
 ||*-analytics*.huami.com^
 /hostingcloud/
+/trkhinv\.sustainablefinance\./
 /-rtb\.gravite\.net/
 /\.sagewwl/
 /tlauncher/
 /-be-pack\.pglstatp-toutiao\.com/
 /anybest\./
 /track\.opentable\./
+/trkcmb\.business\./
+/trkhinv\.gbm\./
 /-p2p\.pull\.yximgs\.com/
 /adserve2/
 /-p2p-v2\.pull\.yximgs\.com/
 /-logsdk\.kwai-pro\.com/
-/trkcmb\.business\.hsbc\./
+/trkhinv\.business\./
 /\.net\.daraz\./
 /flightsy/
 /-ulogl2\.kwai-pro\.com/
@@ -14031,11 +14038,13 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /track\.tiara/
 /doubleclick\./
 /fb-restriction-case/
+/trkgbm\.sustainablefinance\./
 /adjust\./
 /telemetry\.officeapps\.live\.com/
 /-mktg\.vodafone\.com/
 /\.nimiq\./
 /-ad\.ixigua\.com/
+/trkgbm\.business\./
 /click\.rum\./
 /adsdk/
 /track\.msadcenter/
@@ -14051,17 +14060,19 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /\.zooplus\./
 /pangolin-sdk-toutiao/
 /-tracker\.biliapi\.net/
+/trksvg\.gbm\./
+/trksvg\.sustainablefinance\./
 /-ulog\.kwai-pro\.com/
 /gettate/
 /_vmind\.qqvideo\.tc\.qq\.com/
 /dc\.pimentaafricana/
 /-adnow\.com/
-/trksvg\.business\.hsbc\./
 /sunnimiq/
 /adsby/
 /\.engage\.3m\./
 /-logging\.nextmedia\.com/
 /dnserror/
+/-business\.vodafone\.com/
 /\.estream\./
 /\.srvqck/
 /umeng/
@@ -14069,19 +14080,19 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /adsyndication/
 /nimiqpool/
 /-attr\.appsflyersdk\.com/
+/trkgbm\.gbm\./
 /smetrics\./
 /adspace/
 /marketing\.net/
 /adktrack/
 /thetollroads-/
 /cmpworker\./
-/trkhinv\.business\.hsbc\./
 /-ad\.video\.yximgs\.com/
 /\.freecontent\./
 /-skadsdkless\.appsflyersdk\.com/
+/trkcmb\.sustainablefinance\./
 /jshosting/
 /-go\.experian\.com/
-/trkgbm\.business\.hsbc\./
 /-normal\.zijieapi\.com/
 /fb-community-standards/
 /fb-business-appeal/
@@ -14091,9 +14102,12 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-pia\.appsflyersdk\.com/
 /admob/
 /-ulog\.region\.kwai-pro\.com/
+/mon\.zijieapi\.com/
 /-ads\.realmemobile\.com/
 /-ad\.sm\.cn/
 /-txtagstore/
+/-ss\.checkoutera\.com/
+/trksvg\.business\./
 /dkswshap-/
 /adserver/
 /plausible\./
@@ -14106,6 +14120,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /insights-collector\./
 /a8clk\./
 /-ulogl2\.kwaipros\.com/
+/trkcmb\.gbm\./
 /-be-pack-sign\.pglstatp-toutiao\.com/
 /advertmarket/
 /-ad\.wtzw\.com/
