@@ -1,4 +1,4 @@
-# Update time: 2025-08-01 20:42:04
+# Update time: 2025-08-02 09:40:58
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -14021,6 +14021,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-rtb\.gravite\.net/
 /\.sagewwl/
 /tlauncher/
+/smetric\./
 /-be-pack\.pglstatp-toutiao\.com/
 /anybest\./
 /track\.opentable\./
@@ -14030,6 +14031,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /adserve2/
 /-p2p-v2\.pull\.yximgs\.com/
 /-logsdk\.kwai-pro\.com/
+/adobeanalytic\./
 /trkhinv\.business\./
 /\.net\.daraz\./
 /flightsy/
@@ -14051,6 +14053,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-adrevenue\.appsflyersdk\.com/
 /backstory\.ebay\./
 /admaster/
+/adobeanalytics\./
 /-ad\.a\.yximgs\.com/
 /-spiky\.clevertap-prod\.com/
 /analytics-cdn\./
@@ -14070,14 +14073,20 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /sunnimiq/
 /adsby/
 /\.engage\.3m\./
+/secmetrics\./
 /-logging\.nextmedia\.com/
 /dnserror/
+/adbmetrics\./
 /-business\.vodafone\.com/
 /\.estream\./
 /\.srvqck/
 /umeng/
+/securetags\./
+/sanalytics\./
 /adwords/
 /adsyndication/
+/srepdata\./
+/securemetrics\./
 /nimiqpool/
 /-attr\.appsflyersdk\.com/
 /trkgbm\.gbm\./
@@ -14086,6 +14095,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /marketing\.net/
 /adktrack/
 /thetollroads-/
+/scookies-adobe\./
 /cmpworker\./
 /-ad\.video\.yximgs\.com/
 /\.freecontent\./
@@ -14111,19 +14121,27 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /dkswshap-/
 /adserver/
 /plausible\./
+/utiq\./
 /appsflyer/
+/a8track\./
 /-analytics-events\.apple\.com/
 /-launches\.appsflyersdk\.com/
 /\.fstsrv/
+/secureanalytics\./
 /-s2s\.sensic\.net/
 /a8cv\./
 /insights-collector\./
+/sanl\.footlocker/
+/aa-metrics\./
 /a8clk\./
 /-ulogl2\.kwaipros\.com/
 /trkcmb\.gbm\./
+/adbsmetrics\./
 /-be-pack-sign\.pglstatp-toutiao\.com/
 /advertmarket/
+/a8trck\./
 /-ad\.wtzw\.com/
+/a8net\./
 /^adsensor\./
 ||*inapps.appsflyersdk.com^
 /^dwtrack\./

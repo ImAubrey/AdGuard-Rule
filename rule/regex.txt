@@ -1,4 +1,4 @@
-# Update time: 2025-08-01 20:42:04
+# Update time: 2025-08-02 09:40:58
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -606,7 +606,6 @@
 |ad.api.mobile.youku.com^
 |ad.21cn.com^
 |mlog.hiido.com^
-|securemetrics.apple.com^
 |traffic.mogujie.com^
 |blog.xiaomi.com^
 |guanggaoad.youku.com^
