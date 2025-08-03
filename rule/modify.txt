@@ -1,4 +1,4 @@
-# Update time: 2025-08-02 20:38:29
+# Update time: 2025-08-03 09:53:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10789,6 +10789,7 @@ _rpc/log?
 ||kiwihk.net^$third-party
 ||sniperlog.ru^$third-party
 ||w-api.baomoi.com^$image
+/fingerprint/iife.min.js
 ||retag.xyz^$third-party
 ||flexlinkspro.com^$third-party
 /pixall.min.js
@@ -13894,6 +13895,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||exitmonitor.com^$third-party
 ||coremotives.com^$third-party
 ||akamai.com/crs/lgsitewise.js
+/dtr/count.php
 ||weborama.com^$third-party
 /jquery.google-analytics.js
 /track?cb=
@@ -14009,6 +14011,43 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+/^adsensor\./
+||*inapps.appsflyersdk.com^
+/^dwtrack\./
+/^domob\./
+/^pingfore\./
+||*cdn-settings.appsflyersdk.com^
+/^adservice\./
+/^appsflyer\./
+/^guanggao\./
+/^adsage\./
+||*-ad-sign.byteimg.com^
+/^adsserving\./
+/^adwords\./
+/^supersonicads\./
+/^openx\./
+||*launches.appsflyersdk.com^
+/^socdm\./
+||*-datareceiver.aki-game.net^
+/^omniture\./
+/^zjtoolbar\./
+||*-ad.a.yximgs.com^
+/^adsmogo\./
+/^omgmta\./
+/^wlmonitor\./
+/^admaster\./
+/^adsystem\./
+/^partnerad\./
+/^duomeng\./
+/^adsrvmedia\./
+||*-applog.fqnovel.com^
+/^omgmtaw\./
+/^admarvel\./
+/^applovin\./
+||*conversions.appsflyersdk.com^
+||*register.appsflyersdk.com^
+/^.+stat\.kugou\.com/
+||*.exaapi.com^
 ||*tsdk.vivo.com.cn^
 ||*.mmstat.com^
 ||*serror*.wo.com.cn^
@@ -14143,40 +14182,3 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /a8trck\./
 /-ad\.wtzw\.com/
 /a8net\./
-/^adsensor\./
-||*inapps.appsflyersdk.com^
-/^dwtrack\./
-/^domob\./
-/^pingfore\./
-||*cdn-settings.appsflyersdk.com^
-/^adservice\./
-/^appsflyer\./
-/^guanggao\./
-/^adsage\./
-||*-ad-sign.byteimg.com^
-/^adsserving\./
-/^adwords\./
-/^supersonicads\./
-/^openx\./
-||*launches.appsflyersdk.com^
-/^socdm\./
-||*-datareceiver.aki-game.net^
-/^omniture\./
-/^zjtoolbar\./
-||*-ad.a.yximgs.com^
-/^adsmogo\./
-/^omgmta\./
-/^wlmonitor\./
-/^admaster\./
-/^adsystem\./
-/^partnerad\./
-/^duomeng\./
-/^adsrvmedia\./
-||*-applog.fqnovel.com^
-/^omgmtaw\./
-/^admarvel\./
-/^applovin\./
-||*conversions.appsflyersdk.com^
-||*register.appsflyersdk.com^
-/^.+stat\.kugou\.com/
-||*.exaapi.com^
