@@ -1,4 +1,4 @@
-# Update time: 2025-08-04 09:53:51
+# Update time: 2025-08-04 20:44:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7797,6 +7797,7 @@ _beacon?
 /bcn.gif?
 /visitortrack?
 ||flixster.com^*/analytics.
+||google.com/log^$domain=~accounts.google.com
 /googletag.js
 ||trackinglabs.com^$third-party
 ||ioam.de^$third-party
@@ -13396,7 +13397,6 @@ _WebVitalsReporter_
 /VisitLog.asmx
 ||ithinkthereforeiam.net^$third-party
 ||elmasistatistik.com.tr^$third-party
-||google.com/log^
 @@||static.myfinance.com/widget/$domain=savingspro.org
 /s_code_global_context.js
 ||bachecaannunci.it/statins3.php?
