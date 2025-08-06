@@ -1,4 +1,4 @@
-# Update time: 2025-08-05 20:44:17
+# Update time: 2025-08-06 09:47:06
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2880,6 +2880,7 @@ _logHuman=
 ||filmaster.tv^*/flm.tracker.min.js
 ||databreakers.com^$third-party
 /jsstat.cgi?
+||cdn.app.cfigroup.com/webmon/$script
 ||brownsshoes.com/IZ/2tcS0qiG/init.js
 /TealeafSDKConfig.js
 ||seal.digicert.com^$third-party
@@ -3612,6 +3613,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ||counterstation.de^$third-party
 /clicktag.js
 ||statistics.ro^$third-party
+||voyeur-house.tv/js/track.js
 ||explore-123.com^$third-party
 /blank.gif?*&
 ||hyperdx.io^$third-party
@@ -4636,6 +4638,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||payments-amazon.com^*/analytics.js
 ||getpos.de/ext/
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
+||solidcams.com/api/metrics
 &refer=http$script
 ||tgdaudience.com^$third-party
 /stwc-counter/code.js
@@ -7883,6 +7886,7 @@ _beacon?
 ||limbik.com/static/tracking-script.js
 /adlogger_tracker.php
 /yandex-metrica-watch/*
+/dnxcheck/fing.js
 /scroll-analytics-
 .keap-link015.com/$image
 /adtracking.asmx
@@ -7898,6 +7902,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||citibank.com.sg/jso/js/fp.js
 ||foursquare.com/v2/private/logactions
 /retargeting-pixels.php
+.salesforce.com/servlet/servlet.ImageServer?$image
 ||halldata.com^$third-party
 /pageviews.php?type=
 ||userstatics.com/get/script.js
@@ -8680,6 +8685,7 @@ _track_pixel.gif?
 ||multicounter.de^$third-party
 /naytev.min.js
 ||pocitadlo.sk^$third-party
+||northbeam.io^$third-party
 ||purpledotprice.com/api/v1/track
 /cgi-bin/CP/*
 ||link.myjewishpage.com^$image
@@ -11443,6 +11449,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||k.p-n.io/event-stream
 ||bio.to/~/tr/
 ||splitbee.io^$third-party
+||rivcash.com/ajax/log_js_error.php
 @@||youvisit.com/tour/$script,subdocument,domain=uaf.edu
 ||exe.bid^$third-party
 ||email-reflex.com^$third-party
@@ -12379,6 +12386,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||adsave.co^$third-party
 ||streamtape.to/stat/
 ||seoparts.net^$third-party
+||rivcash.com/*/event/page_visit
 /mnppixellibrary.min.js
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 ||revico.jp/providejs/revico_tracking.js
