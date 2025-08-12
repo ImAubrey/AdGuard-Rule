@@ -1,4 +1,4 @@
-# Update time: 2025-08-12 09:36:51
+# Update time: 2025-08-12 20:39:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9397,6 +9397,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /shopify-datalayer-minified.js
 /evergage.js
 ||netmng.com^$third-party
+||js.dsp.bance.jp/bncdmp.js
 /rrweb.js
 /js/counter.js?
 ||bullwhip.cloud^$third-party
@@ -9818,6 +9819,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||loopa.net.au^$third-party
 ||safevisit.online^$third-party
 ||clixpy.com^$third-party
+||cdn.jp1media.com/js/v1/dmp.min.js
 ||esfbs.com/site/stat?
 /0.gif?
 ||mindwerk.net/zaehlpixel.php?

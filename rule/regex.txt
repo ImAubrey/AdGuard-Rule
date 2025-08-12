@@ -1,4 +1,4 @@
-# Update time: 2025-08-12 09:36:51
+# Update time: 2025-08-12 20:39:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -521,7 +521,6 @@
 |pmall.migc.xiaomi.com^
 |adx.yixin.im^
 |delivery-pc.wasu.cn^
-|static.estebull.com^
 |image.box.xiaomi.com^
 |norma-external-collect.meizu.com^
 |msg2.video.qiyi.com^
@@ -1519,6 +1518,7 @@
 ||collector-*.us.tvsquared.com^
 ||mon-*.lemon8-app.us^
 ||mon-*.lemon8-app.com^
+||beehiiv-adnetwork-production.s*.amazonaws.com^
 ||telemetry*.transcend.io^
 ||log*-misc-lf.amemv.com^
 ||v*.denakop.com^
