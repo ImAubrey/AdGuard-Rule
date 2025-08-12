@@ -1,4 +1,4 @@
-# Update time: 2025-08-11 20:42:02
+# Update time: 2025-08-12 09:36:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2268,6 +2268,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /flipptag.js
 ||klarnaservices.com/v1/osm-client-script/
 ||skeepers.io/data/collect
+||tag.flvcdn.net/lytag.js
 ||btttag.com^$third-party
 ||easysol.net^$third-party
 .keap-link008.com/$image
@@ -2283,6 +2284,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||vm5apis.com^$third-party
 /openpixel.gif?
 ||24log.fr^$third-party
+||r10s.jp/com/img/home/t.gif?$image,redirect=1x1.gif,domain=24.rakuten.co.jp,important
 ||wiztube.xyz/cdn-cgi/trace
 ||wgsas.com^$third-party
 ||clarivoy.com^$third-party
@@ -2653,6 +2655,7 @@ _logHuman=
 ||metro.co.uk/cvx/client/sync/fpc?
 ||pjtra.com^$third-party
 ||rakuten.com/rmsgjs/soj2.js
+||youtube.com/api/stats/atr?
 ||assets.trendii.com/pixel/main.js
 ||intercomcdn.com/intercom*.js$domain=unblocked.la
 ||analyticsip.net^$third-party
@@ -5428,6 +5431,7 @@ _stat_counter.php?
 @@||mbe.modelica.university/_next/static/*/pages/pageview.js$~third-party
 /stat?track=
 ||analyticson.com^$third-party
+://links.flickr.com/s/eo/$image
 ||myopenpass.com/v1/api/telemetry/event
 ||zipstat.dk^$third-party
 /link.oneplus.com/mo$image
@@ -12887,6 +12891,7 @@ _ad_impression.
 /amp-access/ping?
 /clickstream.aspx?
 /adstats.php
+://c-hh-point-jp.*.cuenote.jp/c/$image
 ||capital.com^$ping
 /mint/?record
 ||ad2iction.com^$third-party
@@ -13349,6 +13354,7 @@ _WebVitalsReporter_
 ||support.github.com/_stats
 ||denakop.com^$third-party
 ||facebook.com/tr/
+@@||r10s.jp/com/img/home/t.gif?$domain=24.rakuten.co.jp
 ||compteur.fr^$third-party
 ||estrack.net^$third-party
 /brandAnalytics.js

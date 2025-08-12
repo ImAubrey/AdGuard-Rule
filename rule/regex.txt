@@ -1,4 +1,4 @@
-# Update time: 2025-08-11 20:42:02
+# Update time: 2025-08-12 09:36:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1060,7 +1060,6 @@
 |ads.xxxad.net^
 |adclick.tencentmusic.com^
 |mclean.uk.cloud.360safe.com^
-||tracking.*.miui.com^
 |d1pool.ddns.net^
 |invitation.samsungiotcloud.com^
 |httpdns.ocloud.oppomobile.com^
@@ -1703,6 +1702,7 @@
 ||apple-*.le.com^
 ||imp-*.jampp.com^
 ||mobileanalytics.*.amazonaws.com^
+||tracking.*.miui.com^
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||adv0*.msa.cdn.mediaset.net^
