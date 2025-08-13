@@ -1,4 +1,4 @@
-# Update time: 2025-08-12 20:39:51
+# Update time: 2025-08-13 09:38:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -688,7 +688,6 @@ dz-android.com,freeiphone.fr,hommedumatch.fr,jetetroll.com,testious.com#@##adsen
 ||stupendoussnow.com^$third-party
 bookskeeper.ru,e-xecutive.ru##.warning
 ||configchain.com^$third-party
-music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[style^="min-height"] > .notify *
 sanstv.ru###adblock
 ||jadeitite.com^$third-party
 ||aloofmetal.com^$third-party
@@ -1144,7 +1143,6 @@ forum-xiaomi.com##div[style="background: rgba(0, 0, 0, 0.9); display: block;"]
 drive2.ru##img[src^="https://avatars.mds.yandex.net/get-adfox-content/"]
 ||alluringbucket.com^$third-party
 ||financefear.com^$third-party
-music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[style^="min-height"] > .notify
 ||aheadmachine.com^$third-party
 ||caringzinc.com^$third-party
 ||nappyneck.com^$third-party
