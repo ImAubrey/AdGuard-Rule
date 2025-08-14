@@ -1,4 +1,4 @@
-# Update time: 2025-08-14 09:39:24
+# Update time: 2025-08-14 20:41:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10892,6 +10892,7 @@ _rpc/log?
 ||ppro.de^$third-party
 ||facebook.com/adnw_request?
 @@||taplytics.com^$domain=royalbank.com
+||lasso.link^$third-party
 ||webdissector.com^$third-party
 ||x.com/9/measurement/
 ||asayer.io/tracker.js
@@ -14035,14 +14036,6 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /-rtb\.gravite\.net/
@@ -14170,6 +14163,14 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /a8trck\./
 /-ad\.wtzw\.com/
 /a8net\./
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 /^adsensor\./
 ||*inapps.appsflyersdk.com^
 /^dwtrack\./
@@ -14202,6 +14203,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||*-applog.fqnovel.com^
 /^omgmtaw\./
 /^admarvel\./
+||*adapt-beacon.awsprodops.movetv.com^
 /^applovin\./
 ||*conversions.appsflyersdk.com^
 ||*register.appsflyersdk.com^
