@@ -1,4 +1,4 @@
-# Update time: 2025-08-14 20:41:11
+# Update time: 2025-08-15 09:39:39
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4069,7 +4069,6 @@ geizhals.de,harborfreight.com,gemini.com,flyfrontier.com,acmemarkets.com,usaa.co
 /seed.gif?
 ||mp.weixin.qq.com/mp/getappmsgad?
 ||letterboxtrail.com^$third-party
-||kemono.cr/api/v1/creators|
 /lunametrics-
 bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||logdy.com^$third-party
@@ -13936,7 +13935,6 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||figma.com/api/figment-proxy/
 ||logbor.com^$third-party
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
-||coomer.st/api/v1/creators|
 ||free-hit-counters.net^$third-party
 ||walmart.ca/api/bsp/logger
 ||perljs.com^$third-party

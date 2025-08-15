@@ -1,4 +1,4 @@
-# Update time: 2025-08-14 20:41:11
+# Update time: 2025-08-15 09:39:39
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -689,6 +689,7 @@
 |smart-789.kakamobi.cn^
 |httpdns.volces.com^
 |events.observablehq.com^
+|xuv.etherscan.com^
 |ads.reader.yueyouxs.com^
 |ark.letv.com^
 |logs.chelaile.net.cn^
