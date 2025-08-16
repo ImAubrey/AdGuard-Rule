@@ -1,4 +1,4 @@
-# Update time: 2025-08-15 20:38:14
+# Update time: 2025-08-16 09:26:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2378,6 +2378,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||km-sea.net^$third-party
 @@||friendbuy.com^$domain=butcherbox.com
 /tags.js?org_id=
+||solarwinds.com/ra-$script
 ||kiwisizing.com/api/log
 /stats/impression
 /pixel/nvrwe?
@@ -8299,6 +8300,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 /index.track?
 ||rs6.net^$image,script,third-party
 ||artefact.is^$third-party
+://t.*/open^$image
 ||123count.com^$third-party
 /visitor.min.js
 ||cookpad.com/FqtAw5et/init.js
@@ -13862,6 +13864,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||globes.co.il/shared/s.ashx?
 ||libero.it/search/abin/ajaxtrace?
 /statsVisitesAnnonces?
+://rum.collector.
 ||nzherald.co.nz/pf/resources/scripts/tracking/data-ref.js
 ||4399.com/plugins/tj/event?
 ||atsfi.de^$third-party
