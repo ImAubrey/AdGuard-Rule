@@ -1,4 +1,4 @@
-# Update time: 2025-08-17 09:44:23
+# Update time: 2025-08-17 20:36:59
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4521,6 +4521,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||properm.ru/top/counter_new.php?
 ||pass-1234.com^$third-party
 @@||solr.sas.com/query/$xmlhttprequest,domain=jmp.com
+.eurowings.com/cl.aspx?$image
 ||i-cable.com/ci/tracking/
 /_stat/log_
 /prod/ncg/ncg.js
@@ -5124,6 +5125,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 /monitor/v1/log
 /mms.*/pv?
 /tealeaftarget?
+/kimonix_analytics.js
 /trackconversion?
 ||authorinsights.com^$third-party
 /atlas-trk.prd.msg.ss-inf.net/*$image
@@ -11547,6 +11549,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||fstats.xyz^$third-party
 |http://x.o2.pl^
 ||e.ebidtech.com/cv/
+/js/script.pageview-props.
 /flying-analytics/*
 ||recosenselabs.com^$third-party
 ||medibot.delling.care/api/counts/
