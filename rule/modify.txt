@@ -1,4 +1,4 @@
-# Update time: 2025-08-16 20:36:13
+# Update time: 2025-08-17 09:44:23
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -14037,14 +14037,25 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||blogtoppen.dk^*/bt_tracker.js
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*customstat*.51togic.com^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*log.droid4x.cn^
+||*-analytics*.huami.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
+/\.stenaline\./
 /-rtb\.gravite\.net/
+/adebis\./
 /\.sagewwl/
 /tlauncher/
 /smetric\./
 /-be-pack\.pglstatp-toutiao\.com/
 /anybest\./
+/\.msadcenter/
 /track\.opentable\./
 /trkcmb\.business\./
 /trkhinv\.gbm\./
@@ -14054,23 +14065,25 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-logsdk\.kwai-pro\.com/
 /adobeanalytic\./
 /trkhinv\.business\./
+/a8aspconv\./
 /\.net\.daraz\./
 /flightsy/
 /-ulogl2\.kwai-pro\.com/
 /cp-home-pl-/
-/track\.tiara/
 /doubleclick\./
+/somniture\./
+/seniorliving\./
 /fb-restriction-case/
 /trkgbm\.sustainablefinance\./
 /adjust\./
 /telemetry\.officeapps\.live\.com/
+/\.footlocker\./
 /-mktg\.vodafone\.com/
 /\.nimiq\./
 /-ad\.ixigua\.com/
 /trkgbm\.business\./
 /click\.rum\./
 /adsdk/
-/track\.msadcenter/
 /-adrevenue\.appsflyersdk\.com/
 /backstory\.ebay\./
 /admaster/
@@ -14082,6 +14095,8 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-ulog\.ksapisrv\.com/
 /dubester\./
 /\.zooplus\./
+/snalytics\./
+/adobemarketing\./
 /pangolin-sdk-toutiao/
 /-tracker\.biliapi\.net/
 /trksvg\.gbm\./
@@ -14089,17 +14104,17 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-ulog\.kwai-pro\.com/
 /gettate/
 /_vmind\.qqvideo\.tc\.qq\.com/
-/dc\.pimentaafricana/
 /-adnow\.com/
 /sunnimiq/
+/dolce-gusto\./
 /adsby/
-/\.engage\.3m\./
 /secmetrics\./
 /-logging\.nextmedia\.com/
 /dnserror/
 /adbmetrics\./
 /-business\.vodafone\.com/
 /\.estream\./
+/this_rule_set_is_made_by_sukkaw/
 /\.srvqck/
 /umeng/
 /-fin\.meituan\.com/
@@ -14120,6 +14135,8 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /scookies-adobe\./
 /cmpworker\./
 /-ad\.video\.yximgs\.com/
+/smetricsadobe\./
+/trcka8net\./
 /\.freecontent\./
 /-skadsdkless\.appsflyersdk\.com/
 /trkcmb\.sustainablefinance\./
@@ -14135,11 +14152,14 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /admob/
 /-ulog\.region\.kwai-pro\.com/
 /mon\.zijieapi\.com/
+/adtarget\./
 /-ads\.realmemobile\.com/
 /-ad\.sm\.cn/
 /-txtagstore/
 /-ss\.checkoutera\.com/
+/engage\.3m\./
 /trksvg\.business\./
+/iqmetrics\./
 /dkswshap-/
 /adserver/
 /plausible\./
@@ -14152,6 +14172,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /secureanalytics\./
 /-s2s\.sensic\.net/
 /a8cv\./
+/\.zoohit\./
 /insights-collector\./
 /sanl\.footlocker/
 /aa-metrics\./
@@ -14163,6 +14184,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /advertmarket/
 /a8trck\./
 /-ad\.wtzw\.com/
+/\.bitiba\./
 /a8net\./
 /^adsensor\./
 ||*inapps.appsflyersdk.com^
@@ -14202,11 +14224,3 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*customstat*.51togic.com^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*log.droid4x.cn^
-||*-analytics*.huami.com^
