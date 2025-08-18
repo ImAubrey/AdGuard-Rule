@@ -1,4 +1,4 @@
-# Update time: 2025-08-18 09:44:56
+# Update time: 2025-08-18 20:41:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2301,6 +2301,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /log/counter?
 ?log=player-*&stats_tkn=
 ||wifeo.com/compteurs/$third-party
+||openweb.bid^$third-party
 ||variti.net^$third-party
 ||servizi.unionesarda.it/controlli/
 ||glove.fit^$third-party
@@ -3001,7 +3002,6 @@ _logHuman=
 /cgi-bin/count1.cgi?
 ||bnpparibas.fr/JavascriptInsert.js
 ##.embed-responsive-trendmd
-/api/ipv4check?
 ||pahtag.tech^$third-party
 ||api.popin.cc/conversion2.js
 /vendor/cedexis/*
@@ -5368,6 +5368,7 @@ _stat_counter.php?
 /stats?aid=
 .kijiji.ca/r/
 /rudder-analytics.min.js
+||redirectify.app/script_tags/tracking.js
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 /pphlogger.js
 /batch/1/OE/*
@@ -8887,7 +8888,6 @@ _track_pixel.gif?
 ||iryazan.ru^$third-party
 ||gainings.biz/counter.php?
 ||indexstats.com^$third-party
-||redirectify.app^$third-party
 ||logxp.ru^$third-party
 /krux-sass-helper.js
 ||googletagmanager.com/gtm.js?$domain=autobild.de
