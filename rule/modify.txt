@@ -1,4 +1,4 @@
-# Update time: 2025-08-17 20:36:59
+# Update time: 2025-08-18 09:44:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3011,6 +3011,7 @@ _logHuman=
 /events/analytics/*
 /pixelpropagate.js
 .google-analytics.com/
+://analytics.*/hardal
 /cnt_js.php?
 /beacons?data=
 @@||ens.nzz.ch^$~third-party
@@ -3975,6 +3976,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||madnet.ru^$third-party
 ||delfi.lv/t/p.js
 ||audienceinsights.net^$third-party
+||qiota.com/assets/qiotasession.gif?
 /teal-gcianalytics-
 /googleAnalyticsTracking.js
 ||spamanalyst.com^$third-party
@@ -5263,6 +5265,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||listenlayer.com^$third-party
 .php?notrack=
 /adobeanalytics.js
+||lexpress.fr/pf/resources/js/piano-analytics-
 ||app.carnow.com/dealers/track_visitor
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
 ||rfksrv.com/rfkj/$image
@@ -10056,6 +10059,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||iljmp.com^$third-party
 /bizo.js
 ||reachforce.com^$third-party
+://signal.*/hardal
 ||teltarif.de^$ping
 /trackingCode.js
 ||sitebro.de^$third-party
@@ -12863,6 +12867,7 @@ _ad_impression.
 ||wt-eu02.net^$third-party
 ||webiqonline.com^$third-party
 /pixel.*/track/*
+://signals.*/hardal
 ||essentiallysports.com/api/track/
 ||ipfind.com^$third-party
 ||ta.tokopedia.com/promo/v1/views
