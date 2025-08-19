@@ -1,4 +1,4 @@
-# Update time: 2025-08-18 20:41:09
+# Update time: 2025-08-19 09:26:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2853,7 +2853,6 @@ _logHuman=
 ||clickening.com^$third-party
 ||softonic-analytics.net^$third-party
 @@||players.fichub.com/plugins/adobe/$domain=24kitchen.pt
-@@||logo.clearbit.com^$image,third-party
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
 /host-analyticsjs-local/cache/local-ga.js
 /zhugeio.js
@@ -6320,6 +6319,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||fout.jp^$third-party
 ||zalando-lounge.*/api/tracking/
 @@||sc.omtrdc.net^$domain=cibc.com
+@@||img.logo.dev^$image,third-party
 ||pushwoosh.com^$third-party
 ||advertising.com^$third-party
 /segment/api/*
@@ -8001,6 +8001,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||eveonline.com/redir.asp$third-party
 .innologica.com/t/
 ||lypn.com^$third-party
+||pop.unitedgate.co.jp^$third-party
 ||id.google.*/verify/
 ||cr-nielsen.com^$third-party
 ||pages05.net^$third-party
@@ -8284,6 +8285,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||kiwari.com^*/impressions.asp?
 ||accessi.it^$third-party
 ||events.split.io^$domain=~collegeboard.org
+||api.quantumgraph.com/web/cm/
 /trackingTools.
 .flipboard.com/usage?
 ||slickdeals.net/ajax/stats/
@@ -12537,6 +12539,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 .php?tracking=
 /histats.js
 ||fml-x.com^$third-party
+||valis-cpx.jp^$third-party
 ||letsdoeit.com/tracking/
 ||proporn.com/ajax/log/
 ||advangelists.com^$third-party
@@ -13986,6 +13989,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||bhphotovideo.com/3D8mkYG1/init.js
 ||deepnote.com/api/track
 ||whattomine.com/stats
+/p/tm.js?
 /uedata?
 ||pushbullet.com^$third-party
 /page_analytics.js

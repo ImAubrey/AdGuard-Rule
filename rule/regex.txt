@@ -1,4 +1,4 @@
-# Update time: 2025-08-18 20:41:09
+# Update time: 2025-08-19 09:26:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -274,8 +274,6 @@
 |ad.huajiao.com^
 |wbpctips.mobile.sina.cn^
 |ta.qq.com^
-|baichuan-sdk.alicdn.com^
-|httpdns.alicdn.com^
 |tmead.y.qq.com^
 |d9.sina.com.cn^
 |wan.youku.com^
@@ -377,11 +375,9 @@
 |gw.365you.com^
 |ykugc.cp31.ott.cibntv.net.302.myalicdn.com^
 |slog.sina.cn^
-|gtms04.alicdn.com^
 |f1.g.mi.com^
 |adeng.hpplay.cn^
 |nl.notice.iqiyi.com^
-|gtms01.alicdn.com^
 |adsfileretry.service.kugou.com^
 |game.sec.miui.com^
 |vi.l.qq.com^
@@ -434,7 +430,6 @@
 |pushapi.lenovomm.com^
 |rms-drcn.platform.dbankcloud.cn^
 |show.re.taobao.com^
-|afp.alicdn.com^
 |sdk.m.youku.com^
 |d37ju0xanoz6gh.cloudfront.net^
 |stats.adityathebe.com^
@@ -495,7 +490,6 @@
 |ad.yixin.im^
 |ad-stat.ksosoft.com^
 |vapi.tiandi.com^
-|ossgw.alicdn.com^
 |httpdns-ocloud.heytapmobile.com^
 |hd02.lg.xiaomi.com^
 |api.touchxd.com^
@@ -691,7 +685,6 @@
 |adx.hzbxm.com^
 |ad.sinovision.net^
 |p.l.qq.com^
-|gtms02.alicdn.com^
 |static.g.pptv.com^
 |mg.games.sina.com.cn^
 |t1.g.mi.com^
@@ -760,7 +753,6 @@
 |ads.yimg.com^
 |vali-ugc.cp31.ott.cibntv.net^
 |minfo.wps.cn^
-|gma.alicdn.com^
 |res.qhupdate.com^
 |mopnativeadv.037201.com^
 |i1.services.social.microsoft.com^
@@ -1160,7 +1152,6 @@
 |fbapi.guguread.com^
 |oct.pocoiq.cn^
 |s.w-x.co^
-|proxy-mob-cld.alicdn.com^
 |topapi.cp12.ott.cibntv.net^
 |d3.sinaimg.cn^
 |saxn.sina.com.cn^
@@ -1299,7 +1290,6 @@
 |adashbc.m.taobao.com^
 |tv.app.migc.xiaomi.com^
 |abtest-ch.snssdk.com^
-|ilce.alicdn.com^
 |ee.j5s9b.cn^
 |igame.xiaomi.com^
 |ads5-normal-hl.zijieapi.com^
@@ -1394,7 +1384,6 @@
 |apd-pcdnwxnat.teg.tencent-cloud.net^
 |bd2.zuimeitianqi.com^
 |pv.vipwm.cc^
-|unidesk.alicdn.com^
 |gecko-lq.snssdk.com^
 |gamecenter.iqiyi.com^
 |err.taobao.com^
@@ -1402,8 +1391,6 @@
 |adn-collector.voodoo-tech.io^
 |engine.lvehaisen.com^
 |rj.m.taobao.com^
-|atanx2.alicdn.com^
-|amos.alicdn.com^
 |short-video.kakamobi.cn^
 |ggx10.miguvideo.com^
 |openjmacs.m.taobao.com^
@@ -1426,7 +1413,6 @@
 |adx-static.ksosoft.com^
 |onlycash.ddns.net^
 |iadmatapk.nosdn.127.net^
-|gtms03.alicdn.com^
 |adxlog.vivo.com.cn^
 |secode2.hd.xiaomi.com^
 |inside.rtbasia.com^
