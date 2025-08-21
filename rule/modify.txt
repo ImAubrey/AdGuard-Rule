@@ -1,4 +1,4 @@
-# Update time: 2025-08-21 09:23:27
+# Update time: 2025-08-21 20:37:52
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2099,7 +2099,6 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /ajax/analytics/*
 /gaTracker.js
 ||calltouch.ru^$third-party
-@@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 /moat/yield.js
 .sendibt2.com/tr/op/$image
 ||engine64.com^$third-party
@@ -2206,7 +2205,6 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||wikipedia.org/beacon/
 ||homestore.com/srv/
 ||ox-bio.com^$third-party
-@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 ||shopify-gtm-suite.getelevar.com/getelevar/*/dl-web-pixel-lax-custom.js
 ||nyt.com/ads/tpc-check.html$domain=nytimes.com
 /stats/?ref=
@@ -3045,6 +3043,7 @@ _logHuman=
 ||kxcdn.com/prj/
 ||kdata.fr^$third-party
 /HitTracking.
+@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 ||webtrafficsource.com^$third-party
 ||exposebox.com^$third-party
 ||truoptik.com^$third-party
@@ -4688,6 +4687,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 /oval_web_analytics_latest.js
 ||valuedopinions.co.uk^$third-party
 @@||api-public.roland.com/geoip$domain=bosstoneexchange.com
+||staticasset.amarujala.com/handler/recomUserEvent.js
 ||tiendeo.*/_statsapi/
 /etrack01.com/*$image
 ||stellaservice.com^$third-party
@@ -6879,7 +6879,6 @@ _view_pixel&$image
 ||rakuten-static.com/com/rat/
 /plugins/duracelltomi-google-tag-manager/*
 /adobe/VideoHeartbeat.
-||mps-gba.de^$third-party
 /public/analytics.js
 /xtclicks.js
 ||web.snapchat.com/web-analytics-v2/web/events
@@ -10382,6 +10381,7 @@ _rpc/log?
 ||parametre.online^$third-party
 ||b1img.com^$third-party
 ||htm1.ch^$third-party
+||handler.amarujala.com/user/event
 ||lancome-usa.com/IZ/PXq99AlOxk/init.js
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 /facebookproductad/views/js/pixel.
