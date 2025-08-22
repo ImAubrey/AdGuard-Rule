@@ -1,4 +1,4 @@
-# Update time: 2025-08-22 09:24:15
+# Update time: 2025-08-22 20:36:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4308,7 +4308,6 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||poll-maker.com^*/scpolls.js
 ||pricespider.com/impression/
 ||ooyala.com/verify?
-/stats/events$xmlhttprequest
 ||app-bnkr.b-cdn.net/js/lv.js
 /eventproxy/track
 ||searchiq.co/api/tr?
@@ -7361,6 +7360,7 @@ _trackWebtrekkEvents.
 ||stats2.com^$third-party
 ||plushd.bio/cdn-cgi/trace
 ||kameleoon.eu^$third-party
+||lacentrale.fr/static/fragment-tracking/tracking-
 ||123rf.com/apicore-index/traffic_log
 ||fspark-ap.com^$third-party
 ||utraff.com^$third-party
@@ -8037,6 +8037,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 /AnalyticsEvent.js
 /track_visit.js
 ||pdst.fm^$script,third-party
+||messagebird.com/assets/fp.min.js
 ||youvisit.com^$third-party
 ||javedit.com/e/public/ViewClick/
 /wp-content/plugins/pageviews/pageviews.min.js
@@ -8274,6 +8275,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||mysdcc.sdccd.edu^*/.log/
 /video_count.php?
 ||ubertracking.info^$third-party
+||assets.engoo-static.com/tracking.js
 ||cnstrc.com/behavior?
 /core-tracking.js
 /visit_log.js
@@ -8939,6 +8941,7 @@ _track_pixel.gif?
 ||ksyrium0014.com^$third-party
 ||pushalert.co^$third-party
 ||qihucdn.com/11.0.1.js$script
+||api-staging.sitelytics.tech/pixel/core/api/send-event
 ||adblockeronstreamtape.me/stat/
 ||fast-thinking.co.uk^$third-party
 /transparent1x1.png
@@ -9095,6 +9098,7 @@ _track_pixel.gif?
 ||snoobi.com^$third-party
 ||ranker.com/api/px
 ||cloudfront.net/t?event=
+/stats/events$xmlhttprequest,domain=~wbsc.org
 ://analytics.*/hits/
 ||contentpass.net/stats?$third-party
 ||counterland.com^$third-party
@@ -10491,6 +10495,7 @@ _rpc/log?
 ||vinted.de/relay/events
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
 ||nr-data.net^$third-party
+||messagebird.com/metrics.js
 ||idiva.com/analytics_
 /rrweb-record.min.js
 ://client.rum.
@@ -11437,6 +11442,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||ebaystatic.com/rs/v/dxtuvtkk2q3hpkc1xveeo13iaek.js
 ||aspservice.jp^$third-party
 ||awe.sm/conversions/
+||cdn-staging.delivr.ai/pixels/
 .klclick1.com/$image
 ||piano.io/tracker/
 ||trustedform.com/trustedform.js?provide_referrer
