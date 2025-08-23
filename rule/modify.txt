@@ -1,4 +1,4 @@
-# Update time: 2025-08-22 20:36:51
+# Update time: 2025-08-23 09:21:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8914,6 +8914,7 @@ _track_pixel.gif?
 ||brainsland.com^$third-party
 ||ns-cdn.com^*/ns_vmtag.js
 ||naver.com/mcollector/
+/shopify/assets/themes_support/notifications/spacer-
 ||newscom.com/js/v2/ga.js
 ||wrtn.ai/proxy/client/metrics
 /liferay-analytics-processor.js
@@ -13340,6 +13341,7 @@ _WebVitalsReporter_
 ||customerlabs.co^$third-party
 ||p30rank.ir^$third-party
 ||otoshiana.com/ufo/
+||rei.com/customer-analytics-attributes/
 /collect?tid=
 ||camgirls.casa/p.php
 @@||telemetry.stytch.com/submit$domain=play.pixels.xyz
