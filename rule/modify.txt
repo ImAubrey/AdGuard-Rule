@@ -1,4 +1,4 @@
-# Update time: 2025-08-23 09:21:49
+# Update time: 2025-08-23 20:34:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9289,6 +9289,7 @@ e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !importa
 @@||kameleoon.eu/images/$domain=welt.de
 ||inn.co.il/Controls/HPJS.ashx?act=log
 /plugins/civic-science/js/pixel.js
+||bostonscally.com/api/collect
 /rot_in.php
 ||avapartner.com^$third-party
 abema.tv##^script:has-text(NREUM)
@@ -12237,6 +12238,7 @@ _event_tracking?
 @@||zinro.net/m/log.php
 ||circonus.com/hit?
 ||futureplc.com/push_metrics/
+?action=koko_analytics_collect
 ||coolblue.nl/monitoring/
 ||speedtest.dailymotion.com/latencies.js
 ||top.lv^$third-party
