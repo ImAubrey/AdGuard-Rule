@@ -1,4 +1,4 @@
-# Update time: 2025-08-24 09:40:59
+# Update time: 2025-08-24 20:34:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5314,6 +5314,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 /cnt.js
 ||clipsyndicate.com/cs_api/cliplog?
 ||tijd.be/track/
+.cuenote.jp/c/*.gif
 ||weather.com.cn/a1.js
 ||baidu.com/push.js
 @@||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk
@@ -6518,6 +6519,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||104.com.tw/log/
 .delivery-status.com/open?
 ||popupmaker.com^$third-party
+||api.axept.io/v1/analytics/evts
 ||adblade.com^$third-party
 ||open.oneplus.net^$third-party
 ||affex.org^$third-party
@@ -12917,7 +12919,6 @@ _ad_impression.
 /amp-access/ping?
 /clickstream.aspx?
 /adstats.php
-://c-hh-point-jp.*.cuenote.jp/c/$image
 ||capital.com^$ping
 /mint/?record
 ||ad2iction.com^$third-party
