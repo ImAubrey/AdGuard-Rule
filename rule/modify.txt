@@ -1,4 +1,4 @@
-# Update time: 2025-08-23 20:34:17
+# Update time: 2025-08-24 09:40:59
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3345,6 +3345,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ||totaljobs.com/analytics/
 ||wwclickserv.club^$third-party
 /risk_fp_log?
+||cpx-research.com^$third-party
 geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 @@||powerquality.eaton.com/include/js/elqScr.js$~third-party
 /user-context?referrer=
@@ -7581,6 +7582,7 @@ _beacon?
 ||crypto-coins.info^$third-party
 ||mathtag.com^$third-party
 /ljcounter/?d=
+@@||xiaosaas.com/org/RecordScreen/rrweb.min.js$~third-party
 ||xing.com/logjam/
 @@||asadcdn.com/assets/video/$domain=computerbild.de
 ||trackjs.com/releases/current/tracker.js
