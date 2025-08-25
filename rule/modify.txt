@@ -1,4 +1,4 @@
-# Update time: 2025-08-25 09:27:38
+# Update time: 2025-08-25 20:39:03
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2987,6 +2987,7 @@ _logHuman=
 /spymonitor.js
 ||perfiliate.com^$third-party
 /webAnalytics/*
+||trip.com/bee/collect
 ||hacksplaining.com/track
 ||youtubekids.com/api/stats/ads?
 ||affilimate.com^$third-party
@@ -3158,6 +3159,7 @@ _logHuman=
 /stat_vue.php?
 ||ants.vn^$third-party
 ||bildirt.com^$third-party
+||al.levels.fyi/api/event
 /o.gif?
 /uisprime/track
 ||personyze.com^$third-party
@@ -3672,6 +3674,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||roeye.com^$third-party
 ||cloudflareinsights.com^$third-party
 ||propertyguru.com.my/api/consumer/vast-media/impression?
+||nexx360-static.io^$third-party
 ||vidazoo.com/report/?
 ||i-services.net^*/compteur.php?
 /plausible.manual.js
