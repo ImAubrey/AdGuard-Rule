@@ -1,4 +1,4 @@
-# Update time: 2025-08-26 09:25:10
+# Update time: 2025-08-26 20:40:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3048,6 +3048,7 @@ _logHuman=
 ||webtrafficsource.com^$third-party
 ||exposebox.com^$third-party
 ||truoptik.com^$third-party
+||trueanthem.com^$third-party
 ||postageapp.com/receipt/$third-party
 /gtagv4.js
 ||netcore.co.in^$third-party
@@ -3506,6 +3507,7 @@ geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.c
 ||blogreaderproject.com^$third-party
 ||clearbitjs.com^$third-party
 ||techno-science.net/outils/serviceLoc.php?
+||webbff.eu.4game.com/api/exporter/events
 ||maxmind.com/js/device.js$third-party
 ||www-path.com^$third-party
 ||vologda-info.ru^$third-party
@@ -4793,6 +4795,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||agillic.eu^$third-party
 ||nicolive.cdn.nimg.jp/relive/sp/trackingService.
 ||dmm.com/imp?
+||app.octaneai.com/get_analytics_engine/
 ||inrd.ru^$third-party
 ||next.rikunabi.com/api/logRecommendRealtimeI2AV2
 ||email-match.com^$third-party
@@ -6947,6 +6950,7 @@ _view_pixel&$image
 ||thestat.net^$third-party
 @@||gnar.grammarly.com/events$xmlhttprequest,domain=account.grammarly.com
 ||cdnopw.com^$third-party
+||gardpro.com/api/collect
 /?sentry_key=
 ?sam-item/track-impressions
 ||interakt.ru^$third-party
@@ -9203,6 +9207,7 @@ _track_pixel.gif?
 ||ml-attr.com^$third-party
 @@||cdn-net.com/cc.js
 /pointeur.gif?
+||webbff.ru.4game.ru/api/exporter/events
 /users/track?
 /dot.gif?
 /v4/metrics
@@ -10371,6 +10376,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /_assets/oply/public/*
 /fp/es.js
 /imp?imgid=
+||api.picox.bendingspoons.com/v1/events
 ||liquipedia.net/mm.js
 @@||nbe.com.eg/NBEeChannelManager/CallMW.aspx$~third-party
 ||ts.fi/Statistics/Log$image
