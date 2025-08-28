@@ -1,4 +1,4 @@
-# Update time: 2025-08-28 09:22:01
+# Update time: 2025-08-28 20:37:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4065,7 +4065,6 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||flagr.worldstarhiphop.com/api/v1/evaluation
 ||klm.us/CWZUvc/
 ||getstatistics.se^$third-party
-@@||nittsu.com/Tracking/Scripts/Tracking/track.js
 ||openxcdn.net^$third-party
 ||melhorplano.net/scripts/tracker/
 /common/tracker.js
@@ -6794,6 +6793,7 @@ _webanalytics.
 ||wpdstat.com^$third-party
 ||r.mail.ru^$script
 /sp_analytics.js
+||kumo.network-n.com/configs/sites/
 ||dmdi.pl^$third-party
 ||ad-srv-track.com^$third-party
 ||sinajs.cn/open/analytics/
@@ -11805,6 +11805,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 /roitrack.js
 /beacon/error?
 ||blasterzone.it/analytics/
+||bitcdp.ru/tracker/
 /new-relic.min.js
 /pixels.jsp?
 /web-data-ingress?
@@ -13633,6 +13634,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||hktvmall.com/api/event
 ||analytics.vg^$third-party
 ||touchcommerce.com/tagserver/logging/
+||pixad.com.tr^$third-party
 ||firecrux.com/track/$xmlhttprequest
 ||foodpanda.co.th/lJuB4eTB/init.js
 /stats/bezoek_count.php
