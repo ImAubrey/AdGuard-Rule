@@ -1,4 +1,4 @@
-# Update time: 2025-08-30 09:18:12
+# Update time: 2025-08-30 20:33:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3039,6 +3039,7 @@ _logHuman=
 ||stat.media^$third-party
 ||carters.com/0F3091f3/init.js
 ||snva.jp/javascripts/reco/
+||commoninja.com/api/v1/event/report/
 ||geo.query.yahoo.com^$~xmlhttprequest,domain=~mail.yahoo.com
 @@||widget.fitanalytics.com/widget.js$script,domain=pullandbear.com
 ||kxcdn.com/prj/
@@ -3306,6 +3307,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ||trilogyed.com^$third-party
 ||walmartethics.com/px/PXcfrcFEfA/init.js
 ||mapandroute.de/log.xhr?
+||1.1.1.1/dns-query$xmlhttprequest,domain=catbirdnyc.com|gametime.co|ladym.com|libertylondon.com|mediamarkt.de|nobullproject.com|paynow.pmnts.io|theathletesfoot.co.nz|theathletesfoot.com.au
 ||edge-hls.doppiocdn.live/ping
 ||qzzr.com/_uid.gif
 ||formstack.com/forms/js/*/analytics_
@@ -8948,6 +8950,7 @@ _track_pixel.gif?
 /cnstats/cntg.php
 @@||cdnb.4strokemedia.com/carousel/v4/comscore-JS-$script
 /ga-tracking.min.js
+?groupType=engagement&eventType=CLICK&
 /wtinit.js
 ||hoo.be/api/hoobe/analytics
 ||qq.com/code.cgi?
@@ -10076,6 +10079,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||jeremiahlee.com/fanboynz.js
 ||continue.com^$third-party
 ||websiteperform.com^$third-party
+||shutterstock.com/blog/wp-content/themes/sstk/assets/js/parsely-tracking.min.js
 ||163.com/sn.gif?
 ||clickclick.net^$third-party
 ||iljmp.com^$third-party
@@ -10273,6 +10277,7 @@ $ping,third-party
 ||acast.com/api/stats
 ||bpmonline.com^$third-party
 ||trwl1.com/ascripts/gcrt.js
+||shutterstock.com/blog/wp-content/mu-plugins/wp-parsely-
 ||wdsvc.net^$third-party
 ||amazonaws.com/beacon^
 ||mango-office.ru/calltracking/
@@ -10790,6 +10795,7 @@ _rpc/log?
 ||iqiyi.com/dsp_track3
 ||cloudiq.com^$third-party
 ||liveperson.net/hc/*/?visitor=
+||shutterstock.com/blog/wp-content/themes/sstk/assets/js/analytics.min.js
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
 ||fstrk.net^$third-party
 ||ifunny.co/api/$ping
@@ -12766,6 +12772,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||minero.cc^$third-party
 ||nakedanalytics.net^$third-party
 /valnetinccom-adapter.js
+||kameleoon.io/visit/events?
 ||yahoo.com/beacon/
 /BKVTrack.js
 /pvlog.js
