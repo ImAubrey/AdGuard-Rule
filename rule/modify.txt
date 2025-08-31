@@ -1,4 +1,4 @@
-# Update time: 2025-08-30 20:33:11
+# Update time: 2025-08-31 09:27:05
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2987,6 +2987,7 @@ _logHuman=
 /spymonitor.js
 ||perfiliate.com^$third-party
 /webAnalytics/*
+/o/o.gif
 ||trip.com/bee/collect
 ||hacksplaining.com/track
 ||youtubekids.com/api/stats/ads?
@@ -5338,6 +5339,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 .starbucks.com/a/
 /stats/header.js
 ||agilecrm.com^$third-party
+||y.aram.zone/pageview
 @@||dmp.theadex.com^*/adex.js$domain=kino.de
 ||flux-cdn.com/plugin/common/analytics/
 ||hotstar.com/v1/track
@@ -5704,6 +5706,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||karelia.info/counter/
 ||wywy.com^$third-party
 ||humanpresence.app^$third-party
+||info.girlswhoinvest.org^*/acton/bn/tracker/
 ||upscore.com^$third-party
 ||counter-kostenlos.net^$third-party
 ||torbit.com^$third-party
@@ -7544,6 +7547,7 @@ _trackWebtrekkEvents.
 ||qq.com/stdlog
 ||check.ddos-guard.net^$third-party
 /amp-analytics/*
+||kio.ac/analytics/
 ||iqiyi.com/track2?
 ||banggood.com/collectBanner?
 ||t3.chat/api/event
@@ -8889,6 +8893,7 @@ _track_pixel.gif?
 ||a-cast.jp^$third-party
 ||admeira.ch^$third-party
 /v2/pv-data?
+/api/collect|$ping,xmlhttprequest
 ||diena.lv/statistics/
 /showhits.php?
 ||weglot.com/pageviews?
@@ -11337,6 +11342,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /inline-pixel.js
 ||theardent.group^$third-party
 ||recognified.net^$third-party
+||api.patienten.helios-gesundheit.de/api/unleash/client/metrics
 ||ora.tv/j/ora_evttracking.js
 ||webedia.fr/js/gs.js
 /livestats.js
