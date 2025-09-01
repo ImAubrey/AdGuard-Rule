@@ -1,4 +1,4 @@
-# Update time: 2025-09-01 09:43:08
+# Update time: 2025-09-01 20:38:05
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3867,7 +3867,6 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 /Events/Impression?
 /pixel/visit?
 ||cmptch.com^$third-party
-@@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|hungryroot.com|usa.experian.com
 ||tracking.tuobenessere.it^$script
 /stats/lookup?
 ||netclickstats.com^$third-party
@@ -11357,6 +11356,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||refinedads.com^$third-party
 /wlexpert_tracker.js
 ||salesloft.com/sl.js
+@@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|goindigo.in|hungryroot.com|usa.experian.com
 /gingeranalytics.min.js
 /pixel.track
 /hawkeye.js
