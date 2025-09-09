@@ -1,4 +1,4 @@
-# Update time: 2025-09-08 20:38:44
+# Update time: 2025-09-09 09:21:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2045,6 +2045,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||xing.com^$ping
 /sitecrm2.js
 ||alicdn.com/AWSC/et/
+||www-backend.strinova.com/api/common/uid
 /AppMeasurement_Module_ActivityMap.min.js
 ||cafemedia.com/topics/clickstream-event
 ||hmstats.com^$third-party
@@ -7259,6 +7260,7 @@ _trackWebtrekkEvents.
 /doctracking.js
 ||xlisting.jp^$third-party
 ||aprtx.com^$third-party
+||mdn.allizom.net/pong/
 /tracking-analytics-events.js
 ||quitsnap-blue.com^$third-party
 ||studiostack.com^$third-party
@@ -9059,6 +9061,7 @@ _track_pixel.gif?
 /coinhive.min.js
 ||primedia.co.za/analytics/
 ||lecho.be/fb2?
+||ldoverseas.com^$third-party
 ||leadsmonitor.io^$third-party
 ||17173.com/pv?
 ||youtube.com/api/stats/atr?ns=
