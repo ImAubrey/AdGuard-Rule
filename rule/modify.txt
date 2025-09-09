@@ -1,4 +1,4 @@
-# Update time: 2025-09-09 09:21:33
+# Update time: 2025-09-09 20:38:57
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2918,6 +2918,7 @@ _logHuman=
 ||alex.leonard.ie/misc-images/transparent.png
 ||coincodex.com/cdn-cgi/trace
 ||onesignal.com/webPushAnalytics
+||static.cloud.sbs.co.kr/common/js/*/sbs_log_module.min.js
 ||group-ib.ru^$third-party
 ||synovite-scripts.com^$third-party
 /gaEventTracking.js
@@ -3562,6 +3563,7 @@ geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.c
 ||scribol.com/traffix/widget_tracker/
 ||percentmobile.com^$third-party
 /.netlify/scripts/rum
+||sc.g-cdn.net/tracker/gsms.js
 ||leafmedia.io^$third-party
 ||cloudfunctions.net/sendwebpush-analytics
 ||citypaketet.se^$third-party
@@ -4575,6 +4577,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||statig.com.br/pub/setCookie.js?
 /duel-analytics.js
 ||snipesusa.com/6XNN2xkk/init.js
+/piano-analytics-$script
 /track_pixel?
 /comscore_pageview
 ||leserservice-tracking.de^$third-party
@@ -5287,7 +5290,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||listenlayer.com^$third-party
 .php?notrack=
 /adobeanalytics.js
-||lexpress.fr/pf/resources/js/piano-analytics-
 ||app.carnow.com/dealers/track_visitor
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
 ||rfksrv.com/rfkj/$image
@@ -7100,6 +7102,7 @@ _trackWebtrekkEvents.
 ||h.seznam.cz/js/dot-small.js$domain=~stream.cz
 ||gsimedia.net^$third-party
 ||trackjs.com/agent/$script,third-party
+||sc.g-cdn.net/tracker-i/main.js
 /rtracker/ofs.rtt.js
 ||24ur.com/bin/player/?mod=statistics&
 ||tiktok.com/web/report?
@@ -8203,6 +8206,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||bgro41vnmb.execute-api.us-east-2.amazonaws.com/production$domain=masterworks.com
 ||datafa.st^$third-party
 ||webmobile.ws^$third-party
+||wsimg.com/traffic-assets/$script,third-party
 /npm/perfops-rom
 @@||omtrdc.net/b/ss/$image,domain=ba.com|britishairways.com|halifax-online.co.uk
 /bcsensor.js
@@ -11546,6 +11550,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||exe.bid^$third-party
 ||email-reflex.com^$third-party
 /monitoring?o=$xmlhttprequest
+||wsimg.com/signals/$script,third-party
 ||trsbf.com/static/fbs.min.js
 ||calltrk.com/companies/
 ||chargebee.com/api/internal/track_info_error

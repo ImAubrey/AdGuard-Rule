@@ -1,4 +1,4 @@
-# Update time: 2025-09-09 09:21:33
+# Update time: 2025-09-09 20:38:57
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -312,6 +312,7 @@
 |crash.163.com^
 |ads3-normal-lq.zijieapi.com^
 |samsungotn.net^
+|analytics-js-cdn.liferay.com^
 |e.duomeng.org^
 |shouji.sougou.com^
 |adxapi.readgps.com^
@@ -664,6 +665,7 @@
 |osb-krsvc.samsungqbe.com^
 |ad-sh-sz-zb.wagbridge.tanx.alimama.com^
 |tmeadquic.y.qq.com^
+|a.macked.app^
 |store.iqiyi.com^
 |sax.sina.cn^
 |adver.qq.com^
@@ -1390,6 +1392,7 @@
 |secode2.hd.xiaomi.com^
 |inside.rtbasia.com^
 |appuu.cn^
+|q^
 |mon-va.byteoversea.com^
 |ls.l.qq.com^
 |app.migc.xiaomi.com^
