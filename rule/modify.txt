@@ -1,4 +1,4 @@
-# Update time: 2025-09-11 09:20:48
+# Update time: 2025-09-11 20:35:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2833,6 +2833,7 @@ _logHuman=
 /mediametrie.js
 ||dominocounter.net^$third-party
 ||sina.com.cn/view?
+||bhaskar.com/comscore-ajax/
 ||tnative.ru^$third-party
 /logview?referrer=
 ||onesignal.com^$domain=androidauthority.com|iphoneincanada.ca|rockpapershotgun.com|senpa.io|shineads.org
@@ -3219,6 +3220,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 /sendy/t/*$image
 /index.php/analytics/cookieAnalytics|$xmlhttprequest
 ||webtraxs.com^$third-party
+||webmasters.ksalsocial.online/pixel/
 ||fyreball.com^$third-party
 ||livefyre.com^*/tracker.js
 ||apolloprogram.io^$third-party
@@ -3258,6 +3260,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 /ga_footer.js
 ||activengage.com/overwatch/
 /stwc/code.js
+||kustomerapp.com/c/v1/tracking/
 @@||thomas.co/sites/default/files/google_tag/primary/google_tag.script.js$script,~third-party
 /nm/itracking?
 ||logcounter.com^$third-party
@@ -5089,6 +5092,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||ad-track.jp^$third-party
 ||gcion.com/gcion.ashx?
 ||clickiocdn.com/utr/
+||youtube-nocookie.com/api/stats/atr?ns=
 ||netne.net/stats/
 ||publicwww.com/mtm/mtm.js
 @@||kozkutak.hu/getdata.php?v*=pageview$~third-party
@@ -5169,7 +5173,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||ablyft.com^$third-party
 /bunsen/events/*
 ||epimg.net/js/vr/vrs.
-||youtube.com/ptracking?html5=1&
 ||mp.weixin.qq.com/mp/jsmonitor?
 ||3dstats.com^$third-party
 ||swiftmining.win^$third-party
@@ -5361,7 +5364,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||msecnd.net/jscripts/HA-$script
 ||clixtell.com/track.js
 /hmapxy.js
-||youtube.com/api/stats/qoe?fmt=
 _stat_counter.php?
 ||etrust.eu^$third-party
 ||mouse3k.com^$third-party
@@ -6935,6 +6937,7 @@ _view_pixel&$image
 /analytics/click?
 /post.pinterest.com/q/*$image
 ||atsptp.com^$third-party
+||tmssl.akamaized.net/js/news-viewport-tracking.js$domain=transfermarkt.com.tr
 /cmanalytics.min.js
 ||mkcms.com/stats.js
 /tracking/open?
@@ -9073,7 +9076,6 @@ _track_pixel.gif?
 ||ldoverseas.com^$third-party
 ||leadsmonitor.io^$third-party
 ||17173.com/pv?
-||youtube.com/api/stats/atr?ns=
 ||rivrai.com^$third-party
 ||livewebstats.dk^$third-party
 ||liczniki.org/hit.php
@@ -11420,6 +11422,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||trustarc.com/log?
 /page-view.gif?
 /track/imp?
+||ravde.re-in.de/z?
 ||coll2onf.com^$third-party
 /analytics-secure.js
 ||adultblogtoplist.com^$third-party
@@ -13318,6 +13321,7 @@ _WebVitalsReporter_
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||netcoresmartech.com/smartechclient.js$domain=cgv.vn
 ||customer.homedepot.com^$script
+||kolayik.com/gjyo/
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 /fbevents.js
 ||llama.fi/script.js
@@ -13411,6 +13415,7 @@ _WebVitalsReporter_
 /log/exposed?
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 ||emjcd.com^$third-party
+||videezy.com/assets/tracking/show_page_tracking-
 /whisper?event=
 ||nile.works/TargetingWebAPP/
 ||bugsnag.com^$third-party
