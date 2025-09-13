@@ -1,4 +1,4 @@
-# Update time: 2025-09-12 20:35:06
+# Update time: 2025-09-13 09:14:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3369,6 +3369,7 @@ geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.c
 ||leadsleap.com^$third-party
 ||stapecdn.com^$third-party
 /acctag.js
+/js-responsive/minimal-analytics-$script
 /hit-counter.
 ||perfectaudience.com^$third-party
 /peach-collector.min.js
@@ -7745,6 +7746,7 @@ _beacon?
 /tracking/uct?v=
 ||gameanalytics.com^$third-party
 /logging/v1/log|
+||monetarygoldgroup.com/_ub/
 /CustomTrackingScript.js
 @@||admin.corrata.com/console/dcconsolews/event-log?$~third-party
 /taboolaHead.js
@@ -9474,6 +9476,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /evergage.js
 ||netmng.com^$third-party
 ||js.dsp.bance.jp/bncdmp.js
+||cesar-it.de/collect/
 /rrweb.js
 /js/counter.js?
 ||bullwhip.cloud^$third-party
@@ -10031,7 +10034,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 /convertro.js
 ||presage.io^$third-party
 ||akamaihd.net^*.gif?d=
-||trueachievements.com/tgn/ana?*page_view
 /collect?eid=
 ||sageanalyst.net^$third-party
 ||xtv.cz/api/v3/log/
