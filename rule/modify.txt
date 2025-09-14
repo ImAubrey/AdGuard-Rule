@@ -1,4 +1,4 @@
-# Update time: 2025-09-13 20:32:09
+# Update time: 2025-09-14 09:24:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2801,6 +2801,7 @@ _logHuman=
 ||bearblog.dev/hit/
 .mozilla.org/eos/$image
 /yell-analytics-min.js
+||ssl.pstatic.net/static.news/*/js/generated/aside.statistics.js$domain=media.naver.com|news.naver.com
 ||spotifycdn.com/cdn/js/retargeting-pixels.
 ||sensor.grubhub.com/O97ybH4J/init.js
 ||letv.com/env/
@@ -4065,6 +4066,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||taboola.com^$third-party
 ||fuziontech.net^$third-party
 ||2performant.com^$third-party
+/v1/rgstr|
 ||ipfrom.com^$third-party
 /articleOmnitureTracking.js
 ||doclix.com^$third-party
@@ -7195,6 +7197,7 @@ _trackWebtrekkEvents.
 /ga1.js
 ||is.fi/stats/
 /Quantcast/cmp_v2.js
+||cdn.gov.cfigroup.com/webmon/s/source/webmon/$domain=weather.gov
 ||ubereats.com/_events
 ||zip.co/analytics
 ||tvsquared.com^$third-party
@@ -7366,6 +7369,7 @@ _trackWebtrekkEvents.
 ||predictiveresponse.net^$third-party
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
 @@||logly.co.jp/recommend/$image,domain=benesse.ne.jp|sponichi.co.jp
+||dap.digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||streamed.su/api/preload
 ||top.gg/api/auctions/i
 /statcountex/count.asp?
@@ -9705,6 +9709,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||cctvgb.com.cn^$third-party
 ||vg.no/stats/
 ||geotrust.com^$third-party
+||ssl.pstatic.net/tveta/libs/glad/*/gfp-display-sentry-logger.js$domain=news.naver.com
 ||zalando-prive.*/api/tracking/
 ||eighten-bloc-party.thebrowser.company/script.js
 ||shareholder.com/track/
@@ -9781,6 +9786,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||uniconsent.com^$third-party
 ||logua.com^$third-party
 /tealiumAnalytics.js
+?wmcAction=wmcTrack&
 @@||zillow.com/rental-manager/proxy/rental-manager-api/api/v1/users/freemium/analytics/pageViews$~third-party
 ||geocompteur.com^$third-party
 ||ameblo.jp/accesslog/
@@ -12579,6 +12585,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 /utm_cookie.js
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=kleinanzeigen.de
 ||ifeng.com/i?p=
+||pie.org/v1/experiments/view
 /count/logcount.html?
 ||carolsdaughter.com/IZ/uaPO0cuk/init.js
 /GlancePresenceVisitor_
