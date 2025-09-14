@@ -1,4 +1,4 @@
-# Update time: 2025-09-14 09:24:49
+# Update time: 2025-09-14 20:31:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -444,6 +444,7 @@
 |weather-community-drcn.weather.dbankcloud.cn^
 |msmetrics-test.ws.sonos.com^
 |livew.l.qq.com^
+|rum.cdnized.com^
 |vt.ipinyou.com^
 |click2.hd.sohu.com^
 |log-dmp.suishenyun.cn^
