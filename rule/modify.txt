@@ -1,4 +1,4 @@
-# Update time: 2025-09-16 20:36:58
+# Update time: 2025-09-17 09:19:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2780,6 +2780,7 @@ _logHuman=
 ||arrowpushengine.com^$third-party
 @@||api-mg2.db-ip.com^$xmlhttprequest,domain=journal-news.com
 ||metro.co.uk/base/rta/
+delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 ||rampanel.com^$third-party
 /elqidg.js
 /uniclick.js?attribution=
@@ -3363,7 +3364,6 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ||wwclickserv.club^$third-party
 /risk_fp_log?
 ||cpx-research.com^$third-party
-geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 @@||powerquality.eaton.com/include/js/elqScr.js$~third-party
 /user-context?referrer=
 /ga_header.js
@@ -4495,6 +4495,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 /autotrack.carbon.js
 ||streem.com.au^$third-party
 ||facebook.com/sw/log/init/
+||app.qualified.com/*/sentry/
 /btrack.php?
 ||icontact.com/icp/core/signup/tracking.gif?
 /measure/pixel/*
@@ -11600,7 +11601,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 @@||gs.statcounter.com/chart.php$script,third-party
 ||fbot.me/error
 ||inetstatic.com/tracking/
-geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||mateti.net^$third-party
 /piwik1.
 ||clustrmaps.com/counter/$third-party
@@ -11871,6 +11871,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||cloudfront.net/test.png
 /stats?blog_
 /collect?appName
+||app.qualified.com/*/visitor_events
 ||chefkoch-cdn.de/agf/agf.js
 /TouchClarity.js
 ||notifadz.com^$third-party
@@ -14149,6 +14150,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||stripchat.com/pixel/
 ||sponsorcounter.de^$third-party
 /eloqua.js
+delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||go.theregister.com^$image
 ||wideangle.co^$third-party
 ||adstat.4u.pl^$third-party
