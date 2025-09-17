@@ -1,4 +1,4 @@
-# Update time: 2025-09-17 09:19:04
+# Update time: 2025-09-17 20:37:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6515,7 +6515,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||shiekh.com/iJ55yhVs/init.js
 ||ontraport.com/track.php
 ||epitrack.com^$third-party
-&ii=fingerprintjs-pro-react
 /tongji.js
 ||marketingcloudfx.com^$third-party
 ||uni-duesseldorf.de/cgi-bin/nph-count?
@@ -13089,6 +13088,7 @@ _ad_impression.
 /impression.pl?
 ||estore.jp/beacon/
 /digital-data-enrichment.min.js
+/utm-tags.min.js
 ||measurementapi.com^$third-party
 /tracking/events?
 ||itop.cz^$third-party
