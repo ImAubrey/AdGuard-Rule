@@ -1,4 +1,4 @@
-# Update time: 2025-09-19 09:21:07
+# Update time: 2025-09-19 20:36:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2009,6 +2009,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /gaEvents.js
 ||xhamster.com/api/$ping
 ?type=page&event=
+.s-pt.jp/mail/info/*/img/_.gif
 ||mirtesen.ru/js/ms.js
 /astrack.js
 ||sub2tech.com^$third-party
@@ -3458,6 +3459,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ||techtarget.com^*/GetCookiesWithCallback?
 ||webengage.com^$third-party
 ||dealerfire.com/analytics/
+||visualwebsiteoptimizer.com/cdn/analysis/
 ||t.7sur7.be^$image
 ||engagemaster.com^$third-party
 ||giraff.io^$third-party
@@ -8703,6 +8705,7 @@ _track_pixel.gif?
 ||ipinfodb.com^$third-party
 /getclicky.js
 /pixeltrack.php
+://openedlog.
 /log.jsp?
 ||xplosion.de^$domain=spiegel.de
 ||iper2.com^$third-party
@@ -12645,6 +12648,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|ringcentral.com|screwfix.com|secure.coventrybuildingsociety.co.uk|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 ||105app.com^$third-party
 ||reallyfreegeoip.org^$third-party
+||gateway.src-play.com/Analytics/
 ||mynsystems.com^$third-party
 /outLoging.js
 ||feedblitz.com/imp?$third-party
@@ -14206,6 +14210,44 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 ||*mistat*.xiaomi.com^
 ||*log.droid4x.cn^
 ||*-analytics*.huami.com^
+/^adsensor\./
+||*inapps.appsflyersdk.com^
+/^dwtrack\./
+/^domob\./
+/^pingfore\./
+||*cdn-settings.appsflyersdk.com^
+/^adservice\./
+/^appsflyer\./
+/^guanggao\./
+/^adsage\./
+||*-ad-sign.byteimg.com^
+/^adsserving\./
+/^adwords\./
+/^supersonicads\./
+/^openx\./
+||*launches.appsflyersdk.com^
+/^socdm\./
+||*-datareceiver.aki-game.net^
+/^omniture\./
+/^zjtoolbar\./
+||*-ad.a.yximgs.com^
+/^adsmogo\./
+/^omgmta\./
+/^wlmonitor\./
+/^admaster\./
+/^adsystem\./
+/^partnerad\./
+/^duomeng\./
+/^adsrvmedia\./
+||*-applog.fqnovel.com^
+/^omgmtaw\./
+/^admarvel\./
+||*adapt-beacon.awsprodops.movetv.com^
+/^applovin\./
+||*conversions.appsflyersdk.com^
+||*register.appsflyersdk.com^
+/^.+stat\.kugou\.com/
+||*.exaapi.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /\.stenaline\./
@@ -14347,41 +14389,3 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
-/^adsensor\./
-||*inapps.appsflyersdk.com^
-/^dwtrack\./
-/^domob\./
-/^pingfore\./
-||*cdn-settings.appsflyersdk.com^
-/^adservice\./
-/^appsflyer\./
-/^guanggao\./
-/^adsage\./
-||*-ad-sign.byteimg.com^
-/^adsserving\./
-/^adwords\./
-/^supersonicads\./
-/^openx\./
-||*launches.appsflyersdk.com^
-/^socdm\./
-||*-datareceiver.aki-game.net^
-/^omniture\./
-/^zjtoolbar\./
-||*-ad.a.yximgs.com^
-/^adsmogo\./
-/^omgmta\./
-/^wlmonitor\./
-/^admaster\./
-/^adsystem\./
-/^partnerad\./
-/^duomeng\./
-/^adsrvmedia\./
-||*-applog.fqnovel.com^
-/^omgmtaw\./
-/^admarvel\./
-||*adapt-beacon.awsprodops.movetv.com^
-/^applovin\./
-||*conversions.appsflyersdk.com^
-||*register.appsflyersdk.com^
-/^.+stat\.kugou\.com/
-||*.exaapi.com^
