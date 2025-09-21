@@ -1,4 +1,4 @@
-# Update time: 2025-09-20 20:33:24
+# Update time: 2025-09-21 09:27:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11445,6 +11445,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /salog.js
 ||awsapprunner.com/api/frontend/client/metrics
+||trustedform.com/trustedform.js
 ||pornbox.com/stats/
 /scripts/track_visit.php?
 /rd-js-integration.min.js
@@ -11562,7 +11563,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||cdn-staging.delivr.ai/pixels/
 .klclick1.com/$image
 ||piano.io/tracker/
-||trustedform.com/trustedform.js?provide_referrer
 /stats/record/*
 ||beanstock.com^$third-party
 ||cloudfront.net/performable/

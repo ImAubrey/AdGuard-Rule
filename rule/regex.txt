@@ -1,4 +1,4 @@
-# Update time: 2025-09-20 20:33:24
+# Update time: 2025-09-21 09:27:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1428,7 +1428,6 @@
 |xshare.api.xiaomi.com^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
-||ping*.qq.com^
 ||cj1*.online^
 ||sd.yhzzzs*.com^
 ||counter*.stat.ovh^
@@ -1448,7 +1447,6 @@
 ||beehiiv-adnetwork-production.s*.amazonaws.com^
 ||telemetry*.transcend.io^
 ||log*-misc-lf.amemv.com^
-||v*.denakop.com^
 ||opnked*.xyz^
 ||ax.*.ifeng.com^
 ||ajx*.online^
@@ -1482,7 +1480,6 @@
 ||ac*.pingguolv.com^
 ||marketplace-*.hyprmx.com^
 ||tnc*.tiktokv.us^
-||mistat.*.xiaomi.com^
 ||ad*.ettoday.net^
 ||report*.appmetrica.webvisor.com^
 ||impservice*.yodao.com^
@@ -1530,7 +1527,6 @@
 ||events*.cre.ma^
 ||163487*.qmgmw.com^
 ||adx-*.dbankedge.cn^
-||tblog-*.kgslb.com^
 ||pixel-*.rubiconproject.com^
 ||mcs-*.lemon8-app.com^
 ||cdn-adn-*.rayjump.com^
@@ -1545,7 +1541,6 @@
 ||zaqlovh*.xyz^
 ||ad*.zonaplus.tv^
 ||datacollector-*.dt.hicloud.com^
-||n*adserv.xyz^
 ||piwik.*.vn^
 ||production-adserver-*.amazonaws.com^
 ||sonar*.xy.fbcdn.net^
@@ -1561,7 +1556,6 @@
 ||collector-*.tvsquared.com^
 ||mcs.*.tiktok.com^
 ||counter*-yadro*-ru.unblocked.lol^
-||mads*z.com^
 ||event.*.shoplive.cloud^
 ||auth-*.hismarttv.com^
 ||mediate-ios-*.hyprmx.com^
@@ -1623,7 +1617,6 @@
 ||staging-*.ispot.tv^
 ||cas.*.criteo.com^
 ||datacollector-*.dt.dbankcloud.cn^
-||n*adserv.com^
 ||ks-p2p*pull*com^
 ||s*.skencituer.com^
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
@@ -1643,7 +1636,6 @@
 ||gscounters.*.gigya.com^
 ||adserver.*.yahoodns.net^
 ||fads*z.com^
-||prod.*.publishers.advertising.a2z.com^
 ||c*hit.zerkalo.io^
 ||mon-*.tiktokv.com^
 ||client.rum.*.amazonaws.com^
@@ -1678,7 +1670,6 @@
 ||zcchyw*.xyz^
 ||log*-misc-lq.amemv.com^
 ||log*.vietnamplus.vn^
-||prod.*.analytics.console.aws.a2z.com^
 ||sensorsdata*.read.duokan.com^
 ||mgbsdk*.matrix.easebar.com^
 ||api*.amplitude.com^
@@ -1710,7 +1701,6 @@
 ||events-*.op.hicloud.com^
 ||zbc6hye*.xyz^
 ||logs-*.rebxgame.com^
-||promo-*.vercel.app^
 ||banner.*.tccapis.com^
 ||geoloc*.geostats.ovh^
 ||ssp*.rtb.beeline.ru^
