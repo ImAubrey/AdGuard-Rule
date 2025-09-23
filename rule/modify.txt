@@ -1,4 +1,4 @@
-# Update time: 2025-09-23 09:19:38
+# Update time: 2025-09-23 20:36:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2356,6 +2356,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||egmontpublishing.dk/tracking/
 /__ub.gif?
 /roverimp/*
+||elevenlabs.io/hog/e/
 ||adtr.io^$third-party
 ://fathom.$domain=~fathom.care|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ||feathr.co^$third-party
@@ -2816,6 +2817,7 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 ?action=event&
 ||blogcounter.com^$third-party
 ||shinystat.com^$third-party
+@@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|geo.fr|voici.fr
 ||mediaarmor.com^$third-party
 ||tcimg.com^$third-party
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
@@ -4505,7 +4507,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||icontact.com/icp/core/signup/tracking.gif?
 /measure/pixel/*
 @@||riverlink.etcchosted.com/widgets/com/mendix/widget/web/googletag/GoogleTag.js$~third-party
-@@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|voici.fr
 ||api.channel.io/*/events
 ||mps.nbcuni.com/request/page/json/params/*&adunits=$xmlhttprequest
 /aptrk.js
@@ -10343,7 +10344,6 @@ $ping,third-party
 ||interstateanalytics.com^$third-party
 ||hepsiburada.com/api/$ping
 /visscore.tag.min.js
-||elevenlabs.io/hog/
 ||xiaomi.com/js/mstr.js?
 .eviq.org.au/CMSModules/$image
 ||odsyms15.com/impression?
