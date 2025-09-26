@@ -1,4 +1,4 @@
-# Update time: 2025-09-26 09:20:23
+# Update time: 2025-09-26 20:37:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2359,7 +2359,6 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /roverimp/*
 ||elevenlabs.io/hog/e/
 ||adtr.io^$third-party
-://fathom.$domain=~fathom.care|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ||feathr.co^$third-party
 ||2gis.ru/_/log
 ||contineljs.com^$third-party
@@ -2733,6 +2732,7 @@ _logHuman=
 ||ssense.com/58Asv359/init.js
 ||mrkhub.com/sks/js/sks_track.js
 /stats/visitors
+||cca-lite.coinbase.com/metrics
 ||jst.ai/vck.js
 ||futurecdn.net^*/abp.js
 ||javhd.com/ascripts/gcu.js
@@ -3608,6 +3608,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ||zampda.net^$third-party
 ||plecki.com^$third-party
 ||tmtarget.com/tracking/
+://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 /event/track?
 .redsift.com/e/o/$image
 ||gbotvisit.com^$third-party
@@ -6659,6 +6660,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||whooshkaa.com/listen/track
 /wp-coin-hive.js
 ||vmm-satellite1.com^$third-party
+||app.gnosispay.com/relay-gp-ph/
 /Log?entry=
 ||segmentify.com^$third-party
 ||convertagain.net^$third-party
@@ -6701,6 +6703,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||tweakers.net/ajax/clicks/
 ||blogblog.com/tracker/
 ||vagrantup.com/api/auth/_log
+@@||gildia.pl/static/*/Smile_ElasticsuiteTracker/js/tracking.min.js$~third-party
 ||dribbble.com/client_app/search_results
 ||goodcar.com/js/parts/fp.js
 /bundle/analytics.
@@ -8957,6 +8960,7 @@ _track_pixel.gif?
 /collect_stat.js
 /ga_tracklinks.js
 /stats/article?
+||indiegogo.com/speclayer/stdfp.js
 ||linkedin.com/platform-telemetry/
 ||tumblr.com/pop/js/modern/sentry-
 /plugins/nsmg-tracking/*
@@ -11294,6 +11298,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||dynatrace.com^$third-party,domain=~dynatracelabs.com
 ||bluecore.com^$third-party
 ||trafficguard.ai^$third-party
+/Smile_ElasticsuiteTracker/js/tracking.min.js
 ||wellsfargo.com/tracking/
 ||webgozar.ir/c.aspx*&t=counter
 ||lr-in-prod.com^$third-party
@@ -12514,6 +12519,7 @@ img.promio-connect.com$image
 ||ststandard.com/adsf
 ||backend.alia-cloudflare.com/user/events
 ||concert.io/lookup/
+/stormcaster.js
 ||pushbird.com^$third-party
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
 /hitcount?
@@ -12607,6 +12613,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||targetads.io^$third-party
 /imgcount.cgi?
 ||qq.com/ping.js?
+||adameve.com/emetrics/
 /standalone-analytics-
 ||magiq.com^$third-party
 ||axf8.net^$third-party
@@ -12865,6 +12872,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /events?rpId=
 ||googleapis.com^*/gen_204?
 ||dtxngr.com^$third-party
+||influ2.com/tracker?
 /maling.roidusat.com/t/*$image
 /coopcommerce-pixel.js
 ||webcare.byside.com/agent/usert_agent.php
@@ -13552,7 +13560,6 @@ _WebVitalsReporter_
 ||gizmodo.jp/api/SurveyCountCollection?
 /ping.gif?
 ||strtapeadblock.club/stat/
-/Smile_ElasticsuiteTracker/*$script
 ||clipcentric.com^$third-party
 ||www.ebay.*/gh/dfpsvc?
 /plog?id
