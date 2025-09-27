@@ -1,4 +1,4 @@
-# Update time: 2025-09-26 20:37:15
+# Update time: 2025-09-27 09:17:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5203,6 +5203,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||3dstats.com^$third-party
 ||swiftmining.win^$third-party
 /tracking?vs=
+||api.mambasms.com/monitorEvent/
 ||wtmtrack.com^$third-party
 /netmining.js
 ||curalate.com^$third-party
@@ -5591,6 +5592,7 @@ _stat_counter.php?
 /cnvtr.js
 /koko-analytics/assets/dist/js/*script.js
 ||generaltracking.de^$third-party
+||aplus.qwen.ai/aplus.monitor.log_arrival_rate
 /addLinkerEvents-ga.js
 /stats/Logger?
 ||eick.it/statistics/
@@ -12625,7 +12627,6 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||f-tra.com^$third-party
 /clickctrl.js
 ||didit.com^$third-party
-||xeno.media-lab.ai/events
 ||srf.ch/udp/tracking/
 ||1.1.1.1/cdn-cgi/trace
 ||dynamicyield.com/dpx?
@@ -12647,6 +12648,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||blaick.com^$third-party
 /vidtrack.js
 ||ivwbox.de^$third-party
+||media-lab.ai/events
 ||fotbollskanalen.se^$ping
 ||aivalabs.com^$third-party
 ||c.ypcdn.com^*&ptid
