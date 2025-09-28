@@ -1,4 +1,4 @@
-# Update time: 2025-09-28 09:27:46
+# Update time: 2025-09-28 20:33:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2479,6 +2479,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /js/logger?
 /stats/record_visit/*
 ||isacglobal.com/sa.js
+||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&
 ||eduplay.rnp.br/collector/
 /snowplow-tracker.tatest.js
 /trackpixel?
@@ -3456,6 +3457,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 /t/event.js?
 ||ruw.de/js/trackSidebarClicks.js
 /pxl.cgi?
+||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$badfilter
 ||unusual.ai^$third-party
 /localga.js
 ||techtarget.com^*/GetCookiesWithCallback?
@@ -4541,6 +4543,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||clickreport.com^$third-party
 ||freshmarketer.com^$third-party
 ||craktraffic.com^$third-party
+||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$xhr,method=post
 ||twitter.com/1.1/jot
 /logPerf?
 ||f.email.bjs.com^*/1x2.gif
@@ -5248,6 +5251,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||pushible.com^$third-party
 ||error.fc2.com/blog3/$script
 .info.kansaimiraibank.co.jp/c/*.gif
+||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content$badfilter
 ||wizaly.com^$third-party
 ||user-api.com^$third-party
 ||convertflow.co^*/visitors/
@@ -7482,6 +7486,7 @@ _trackWebtrekkEvents.
 /generate_204?$image
 ||catalove.com/ntv/
 ||itrackerpro.com^$third-party
+||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content
 ||forum.zuvio.com.tw/api/article/finish
 ||baidu.com/static/h.gif
 ||proclivitysystems.com^$third-party
@@ -8771,6 +8776,7 @@ _track_pixel.gif?
 ||theoplayer.com/t?
 ||truehits1.gits.net.th^$third-party
 /umg-analytics/umgaal.min.js
+||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$badfilter
 /ntpagetag.gif
 ||ytn.co.kr/_comm/ylog.php?
 ||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com
@@ -9038,6 +9044,7 @@ _track_pixel.gif?
 ||mhtr.be/public/tr/tracker.min.js
 ||counteronline.de^$third-party
 ||gvisit.com^$third-party
+||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$xhr,method=post
 ||clevertap-prod.com^$third-party
 .everestengagement.com/$image
 @@||qm.redbullracing.com/gtm.js$~third-party
@@ -10641,6 +10648,7 @@ _rpc/log?
 /fingerprint3.min.js
 ||noowho.com^$third-party
 ||trivago.com/tracking/
+||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=
 ||twitter.com/i/csp_report?
 ||sdiapi.com/reporter/
 ||airbrake.io^$third-party
@@ -14132,6 +14140,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||free-hit-counters.net^$third-party
 ||walmart.ca/api/bsp/logger
 ||perljs.com^$third-party
+||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content$xhr,method=get
 .php?logRefer=
 ||rng-snp-003.com^$third-party
 /impression.gif?
