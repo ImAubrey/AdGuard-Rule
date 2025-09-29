@@ -1,4 +1,4 @@
-# Update time: 2025-09-29 09:22:09
+# Update time: 2025-09-29 20:38:52
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3790,6 +3790,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||loomia.com^*/setcookie.html
 ||countus.fr^$third-party
 /analytics.plausible.js
+||r.cdnpure.com/webReport
 ://fallback.*/collector
 @@||merlincdn.net^*/common/images/spacer.gif$image,domain=turkcell.com.tr
 /baiduStatistics.js
@@ -7940,7 +7941,6 @@ _beacon?
 ||tagmngrs.com^$third-party
 ||news.google.com/_/v
 ||appspot.com/analytics/
-||data.webullfintech.com/event/
 ||getsmartlook.com^$third-party
 ||rbc.ru/count/
 /plugins/pup-comscore/*
@@ -8474,7 +8474,6 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||mediaglacier.com^$third-party
 /assets/smarttag-$script
 /clicktrack.min.js
-||darkreader.org/data/top-backers.json
 ||metacrawler.com/pingback
 ://segment-cdn.
 /munin/a/ls?t=$xmlhttprequest
@@ -9142,6 +9141,7 @@ _track_pixel.gif?
 ||admantx.com^$third-party
 /megacounter.php
 ||bouncex.com^$third-party
+||2xclick.ru^$third-party
 ||hicloud.com/download/web/dtm.js
 ||ostjob.ch/public/statistic/teaser/hit/
 .n.2.1.js^$third-party
@@ -9281,7 +9281,6 @@ _track_pixel.gif?
 ://tracker.*/pageview
 ||channelexco.com/events
 ||top50-solar.de/solarcount/
-||darkreader.org/elements/backers-
 /track?pid=
 ||moneycontrol.com/news/services/get_comscore_pageview/
 ||geniuslinkcdn.com^$third-party
@@ -12459,7 +12458,6 @@ _event_tracking?
 ||specialstat.com^$third-party
 ||jwmstats.com^$third-party
 ||feedify.net^$third-party
-||data.whop.com/api/v1/track/
 /sensor/statistic?
 ||adult-trade.nl/lo/track.php
 /naLogImpressions^
@@ -14177,7 +14175,6 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||bing.com/rewardsapp/reportActivity?
 ||bhphotovideo.com/3D8mkYG1/init.js
 ||trip.com/bf.gif?
-||deepnote.com/api/track
 ||whattomine.com/stats
 /p/tm.js?
 /uedata?
