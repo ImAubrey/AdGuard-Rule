@@ -1,4 +1,4 @@
-# Update time: 2025-09-29 20:38:52
+# Update time: 2025-09-30 09:21:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -478,8 +478,6 @@
 |adimg.uve.weibo.com^
 |me.cpatrk.net^
 |vstat.my.tv.sohu.com^
-|ad.yixin.im^
-|ad-stat.ksosoft.com^
 |vapi.tiandi.com^
 |httpdns-ocloud.heytapmobile.com^
 |hd02.lg.xiaomi.com^
@@ -503,7 +501,6 @@
 |ada.baidu.com^
 |jqmt.qq.com^
 |pmall.migc.xiaomi.com^
-|adx.yixin.im^
 |delivery-pc.wasu.cn^
 |image.box.xiaomi.com^
 |udns.weixin.qq.com^
@@ -718,7 +715,6 @@
 |tools.3g.qq.com^
 |adashx.m.taobao.com^
 |rmads.eu.msn.com^
-|vocadb-analytics.fly.dev^
 |cm.ipinyou.com^
 |jzt.jd.com^
 |log.amemv.com^
@@ -735,7 +731,6 @@
 |vali-ugc.cp31.ott.cibntv.net^
 |minfo.wps.cn^
 |res.qhupdate.com^
-|mopnativeadv.037201.com^
 |i1.services.social.microsoft.com^
 |sax3.sina.com.cn^
 |proxyhog.prisma-data.net^
@@ -961,7 +956,6 @@
 |video.market.xiaomi.com^
 |pv.dakawm.cc^
 |soul-ad.soulapp.cn^
-|adapi.lenovogame.com^
 |msg.youku.com^
 |misc.wcd.qq.com^
 |splashimgbssdl.yun.kugou.com^

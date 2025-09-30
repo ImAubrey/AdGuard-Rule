@@ -1,4 +1,4 @@
-# Update time: 2025-09-29 20:38:52
+# Update time: 2025-09-30 09:21:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6151,6 +6151,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||traders.co.kr/common/js/makePCookie.js
 ||simpli.fi^$third-party
 ||videostat.com^$third-party
+@@||wf.typesquare.com^$font,domain=morisawafonts.com
 /revinit.js
 ||k-analytix.com^$third-party
 ||nedstatbasic.net^$third-party
