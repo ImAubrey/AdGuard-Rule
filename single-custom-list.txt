@@ -1,11 +1,13 @@
 #sb nodeseek
 ||ipinfo.check.place^$important
+||ip9527.top^$important
+||www.deepflood.com^$important
+||www.nodeseek.com^$important
 
 #cypro extend
 ||tradingview.com^$important
 ||coinmarketcap-mcp-server-759711950494.asia-southeast1.run.app^$important
 
-||ip9527.top^$important
 ||okx.cab^$important
 ||*mercadolibre*^important
 ||www.ozon.ru^$important
