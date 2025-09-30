@@ -1,4 +1,4 @@
-# Update time: 2025-09-30 09:21:13
+# Update time: 2025-09-30 20:39:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3120,6 +3120,7 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 @@||spiegel.de/layout/js/http/netmind-$script
 ||avazudsp.net^$third-party
 ||ptrk-wn.com^$third-party
+||pac.talksport.com/track
 /sdk/impressions
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 /b/ss/*&ndh=
@@ -7755,6 +7756,7 @@ _beacon?
 /track?name=
 ||salecycle.com^$third-party
 ||lypn.net^$third-party
+@@||js.datadome.co/tags.js$script,domain=monster.ca|sso.garena.com|thefork.at|thefork.be|thefork.ch|thefork.co.uk|thefork.com|thefork.de|thefork.es|thefork.fr|thefork.it|thefork.nl|thefork.pt|thefork.se|ugg.com
 /gatracking.js
 ||crypto-pool.fr^$third-party
 ||informz.net^$third-party
@@ -9197,7 +9199,6 @@ _track_pixel.gif?
 ||chartbeat.net^$third-party
 ||helloretail.com/serve/trackingUser
 /log?documentUrl=
-@@||js.datadome.co/tags.js$script,domain=monster.ca|sso.garena.com|thefork.at|thefork.be|thefork.ch|thefork.co.uk|thefork.com|thefork.de|thefork.es|thefork.fr|thefork.it|thefork.nl|thefork.pt|thefork.se
 ||analytic.rocks^$third-party
 ||global-media.de^*/track/ai.img
 ||evergage.com/beacon/
