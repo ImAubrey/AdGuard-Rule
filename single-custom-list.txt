@@ -51,3 +51,5 @@
 ||edgex.exchange^$important
 ||stakeworld.io^$important
 ||debot.ai^$important
+||avail.so^$important
+||tronlink.org^$important
