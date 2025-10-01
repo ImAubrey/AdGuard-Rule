@@ -1,4 +1,4 @@
-# Update time: 2025-10-01 20:39:07
+# Update time: 2025-10-02 01:45:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -16498,6 +16498,7 @@
 0.0.0.0 ad.parom.hu
 0.0.0.0 wmg.112.2o7.net
 0.0.0.0 c3.adalyser.com
+0.0.0.0 fastfixing.tech
 0.0.0.0 iacas.adbureau.net
 0.0.0.0 adserver.virtuous.co.uk
 0.0.0.0 apel3.fr
@@ -16545,6 +16546,7 @@
 0.0.0.0 acsentia.fr
 0.0.0.0 entrenador-personal.com
 0.0.0.0 gambero3.cs.tin.it
+0.0.0.0 dashingleather.com
 0.0.0.0 ads.currantbun.com
 0.0.0.0 morefastermac.trade
 0.0.0.0 ultracet.1.p2l.info
@@ -23990,7 +23992,6 @@
 0.0.0.0 pmenboeqhyrpvomq.a4coac.top
 0.0.0.0 52uo5k3t73ypjije.7jiff7.top
 0.0.0.0 erikaatop.net
-0.0.0.0 fastfixing.tech
 0.0.0.0 geobirds.be
 0.0.0.0 globissys.co.id
 0.0.0.0 nlpqflkbvkdde.eu
@@ -24031,7 +24032,6 @@
 0.0.0.0 sundbirsta.com
 0.0.0.0 nhhyxorxbxarxe.org
 0.0.0.0 transmercasa.com
-0.0.0.0 dashingleather.com
 0.0.0.0 52uo5k3t73ypjije.5kb3dl.top
 0.0.0.0 iomf.ch
 0.0.0.0 probudise.com
