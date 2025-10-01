@@ -41,3 +41,12 @@
 
 ||coinmarketcap-mcp-server-759711950494.asia-southeast1.run.app^$important
 ||ipinfo.check.place^$important
+
+#sb nodeseek
+||ip9527.top^$important
+||www.deepflood.com^$important
+||www.nodeseek.com^$important
+||getgrass.io^$important
+||*mercadolibre*^important
+||coinmarketcap-mcp-server-759711950494.asia-southeast1.run.app^$important
+
