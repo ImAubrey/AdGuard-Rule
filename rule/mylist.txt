@@ -81,7 +81,6 @@
 @@||ctrip.com^$important
 @@||ms.vipstatic.com^$important
 @@||amp-api-edge.apps.apple.com^$important
-@@||aweme.snssdk.com^$important
 @@||ggpht.com^$important
 @@||pan.quark.cn^$important
 @@||t.co^$important
