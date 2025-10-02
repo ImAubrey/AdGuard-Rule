@@ -4,10 +4,10 @@
 ||oojj.de
 ||zxinc.org^$important
 ||www.visa.cn^$important
-||ipify.org^$important
-||html.zone^$important
-||wallet.ouxyi.cash^$important
-
+||ipify.org
+||html.zone
+||wallet.ouxyi.cash
+||ws1hxl1st.hjuyer.com
 
 #cypro extend
 
