@@ -13,6 +13,7 @@
 
 ||avail.so
 ||tronlink.org
+||dbcwallet.io
 ||okx.cab^$client='39.110.230.33'
 ||www.ozon.ru^$client='39.110.230.33'
 ||xn--ngstr-lra8j.com^$client='39.110.230.33'
