@@ -1,4 +1,4 @@
-# Update time: 2025-10-02 08:44:24
+# Update time: 2025-10-02 09:18:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2456,6 +2456,7 @@ installcracks.com,maliksofts.com,crackpropc.com,ayeshapc.com,trycracksoftware.co
 weightlossdiet.top##+js(acs, open, executeCode)
 ||easygoingecology.com^$doc
 ||mystery-forest.com^$doc
+||statswpmy.com^$all
 ||laurenmjackson.serv00.net^$doc
 /?c=propeller&lpid=$all
 ||hk668.cc^$all
