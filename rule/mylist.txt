@@ -27,7 +27,7 @@
 @@||px.ads.linkedin.com^$important
 
 @@||events.statsigapi.net^$important
-@@||download.apkpure.com^
+@@||download.apkpure.com^$important
 @@||js.intercomcdn.com^$important
 @@||ip2location.com^$important
 
@@ -35,23 +35,23 @@
 @@||pic.imgdb.cn
 
 #微信支付
-@@||payapp.weixin.qq.com^$important
+@@||payapp.weixin.qq.com^
 
 #夸克网盘
-@@||pan.quark.cn^$important
-@@||drive.quark.cn^$important
+@@||pan.quark.cn^
+@@||drive.quark.cn^
 
 #夸克首页
-@@||myquark.cn^$important
+@@||myquark.cn^
 
 #小米骚扰拦截 数据库更新
-@@||api.sec.miui.com^$important
+@@||api.sec.miui.com^
 
 #小米推送(mipush)
-@@||cn.app.chat.xiaomi.net^$important
+@@||cn.app.chat.xiaomi.net^
 
 #个推
-@@||sdk.open.talk.gepush.com^$important
+@@||sdk.open.talk.gepush.com^
 
 #公共CDN
 @@||bootcdn.net^$important
@@ -89,20 +89,20 @@
 !-----------------待定-----------------
 
 #美团推送(大众点评)
-@@||dpmtpush.dianping.com^$important
+@@||dpmtpush.dianping.com^
 
 #阿里推送(未知用途)
-@@||mpush-api.aliyun.com^$important
+@@||mpush-api.aliyun.com^
 
 #小米浏览器 地址栏应用广告
-||exp.sug.browser.miui.com^$important
-||sentry.d.xiaomi.net^$important
+||exp.sug.browser.miui.com^
+||sentry.d.xiaomi.net^
 
 #夸克
-@@||quark.cn^$important
+@@||quark.cn^
 
 #涉及部分UC系登陆、扫码验证等
-@@||uc.cn^$important
+@@||uc.cn^
 
 # ------------AdGuard Home放行-------------------
 @@||clients6.google.com^$important
