@@ -1,4 +1,35 @@
+||dns.weixin.qq.com
+||dns.wechat.com
+||httpdns.*^$important
+||ingest.sentry.io^$important
+||use-application-dns.net^$empty,important
+||*^$dnstype=HTTPS
+
 !-------------白名单---------------
+
+
+@@||geolocation.onetrust.com^$important
+@@||ipgeolocation.io^$important
+@@||ipstack.com^$important
+@@||dmm.co.jp^$important
+! Tver
+@@||js-agent.newrelic.com^$important
+@@||imasdk.googleapis.com^$important
+@@||cdn.reproio.com^$important
+@@||sdk.interactive-circle.jp^$important
+@@||og12.interactive-circle.jp^$important
+@@||api.reproio.com^$important
+@@||bam.nr-data.net^$important
+@@||securepubads.g.doubleclick.net^$important
+
+! linkedin
+@@||platform.linkedin.com^$important
+@@||px.ads.linkedin.com^$important
+
+@@||events.statsigapi.net^$important
+@@||download.apkpure.com^
+@@||js.intercomcdn.com^$important
+@@||ip2location.com^$important
 
 #图床
 @@||pic.imgdb.cn
@@ -26,6 +57,31 @@
 @@||bootcdn.net^$important
 
 !-------------黑名单--------------------
+
+# Netease
+||[0-9]{1,5}-[0-9]{1,5}-[0-9]{1,5}-[0-9]{1,5}.nstool.*
+
+# custom-phishing-block.txt
+||cloudflarecp.com^
+||cloudflareok.com^
+||cloudflareportal.com^
+||wallet.okex.org^$important
+||wsdexpri.coinall.ltd^$important
+||tokopedia.com^$important
+||cheervision.co^$important
+||api-ichiba-gateway.rakuten.co.jp^$important
+
+||coinmarketcap-mcp-server-759711950494.asia-southeast1.run.app^$important
+||ipinfo.check.place^$important
+
+#sb nodeseek
+||ip9527.top^$important
+||www.deepflood.com^$important
+||www.nodeseek.com^$important
+||getgrass.io^$important
+||*mercadolibre*^important
+||coinmarketcap-mcp-server-759711950494.asia-southeast1.run.app^$important
+
 
 ||log.uu.163.com^$important
 ||ksmobile.com^$important
