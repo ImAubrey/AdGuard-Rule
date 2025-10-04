@@ -163,7 +163,6 @@
 @@||oracle-mail.com^
 @@||t.eloqua.com^
 @@||mtalk.google.com^
-@@||www.googletagmanager.com^
 @@||ouo.io^
 @@||www.hao123.com^
 @@||m.hao123.com^
