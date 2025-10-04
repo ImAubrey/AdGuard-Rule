@@ -1,4 +1,4 @@
-# Update time: 2025-10-04 10:54:04
+# Update time: 2025-10-04 20:32:35
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1997,6 +1997,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||my-info-ee.web.app^$all
 ||h-spe.net^$doc
 ||1wdrop5.com^$all
+||htex-panel.at^$all
 ||live/click.php?key=$doc
 ||nsofthub.info^$doc
 ||amandes*.serv00.net^$doc
@@ -2578,6 +2579,7 @@ howtoremove.guide###solution_v2_de
 ||ebayonstores.com^$all
 /^https:\/\/[a-z]{3,30}\.[a-z]{2,4}\/socket\.io\/socket\.io\.js$/$header=nel:/report_to":"cf-nel/,script,1p,strict1p,match-case,domain=ci|ge|eu|life
 ||pages.dev/errors/validateCaptcha^$doc
+||rarible.io-nft.guru^$all
 ||vww-facebook.com.vn^$all
 ||uranai-su-ki.com^$doc
 ||one.thx-birthday.com^$doc
@@ -2883,6 +2885,7 @@ howtoremove.guide###alt_content_main_div > p:has-text(SpyHunter)
 ||xxx-ii-news.$all,to=~ibx.key.com
 ||get-express-vpn.online^$all
 ||transportgoline.com^$all
+||simpleswap.online^$all
 app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([class])
 ||11093.jp^$doc
 ||telegra.ph/British-Telecommunication-08-22^$all
@@ -3502,6 +3505,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||divine.alegria-verte.com^$doc
 ^s=*&z=*&svar=*&ssk=$doc
 ||gamefabrique.com^$all
+||simpleswap.ltd^$all
 ||displayoptoffers.com^$doc
 ||pages.dev/*/Fm7-alert.wav
 ||euromaillinnk.com^$doc
@@ -4067,6 +4071,7 @@ z13.web.core.windows.net##+js(aeld, DOMContentLoaded, fullscreenEnabled)
 ||z-lib.ink^$doc
 ||anydebrid.com^$doc
 ||official.treasure-fan.com^$doc
+||official-ledger-app.live^$all
 ||cpls-brvg.com^$doc
 ||codeanyapp.com/Sus/*/sign.php^$doc
 ||eliteplayadvantage.shop^$all
@@ -4193,6 +4198,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 ||b2base252.top^$all
 ||xn--z9j635l1gs.jp^$doc
 ||agripro-fr-*.com^$doc
+||pddeploy.com^$all
 ||u-to-u.com^$doc
 ||notepad2.com^$doc
 ||china-sister-hong-ty.blogspot.com^$doc
@@ -4517,6 +4523,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 ||michiakagi.com^$doc
 ||fukusenkan.com^$doc
 ||caressesetboulesdepoils.fr^$doc
+||simpleswap.to^$all
 ||l-partner.jp^$doc
 ||datazen.sbs^$all
 ||static-fonts.com^$all
@@ -4610,6 +4617,7 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||lurk-online.com^$all
 ||erocm.com^$doc
 ||wmw.matchin.jp^$doc
+||exoduswallet.at^$all
 ||azureus.es^$doc
 ||linkage-linkage.com^$doc
 ||story-story.life^$doc
@@ -4692,6 +4700,7 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||51eabay.com^$all
 ||pair-seat.net^$doc
 ||gpstracker.site^$all
+||simpleswap.at^$all
 ||support-metahelpcenter-$doc,to=~facebook.com
 ||tenkeiza.com^$doc
 ||catchmetalk.com^$doc
@@ -4981,6 +4990,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||romancetime.jp^$doc
 ||makitablackfriday.shop^$all
 ||koundayori.com^$doc
+||rarible.nft-markets.org^$all
 ||pub-*.r2.dev/dse_sign.html^$doc
 ||qhigh.com^$all
 ||oficialinesp.wixsite.com^$doc
@@ -5342,6 +5352,7 @@ $doc,ipaddress=185.216.143.121
 ||protonge.com^$all
 windowsreport.com##.code-block
 &t=main9ljs|$doc,to=live
+||simpleswap.ac^$all
 ||tw-lucky.site^$doc
 ||girl-ewun.com^$doc
 ||wjptf.top^$doc
@@ -5611,6 +5622,7 @@ uploadfox.net###ad-gs-05
 ||seeproc.com.br^$all
 ||atelier-goo.com^$doc
 ||handbrake.es^$doc
+||ai-atomic.org^$all
 ||mybluehost.me/wp-admin/amz/$doc
 /^https:\/\/pancake(?:dro|swa)pclick\d+\.vercel\.app\//$doc,to=vercel.app|~pancakeswap.finance
 ||mygeomanager.org^$all
@@ -6057,6 +6069,7 @@ uploadfox.net###ad-gs-05
 ||hapinet.net^$doc
 ||codeanyapp.com/dgte/$doc
 ||tada-love.jp^$doc
+||setup-ledger.live^$all
 ||r30address.com^$doc
 ||magiskmodule.com^$all
 ||fukura210317.com^$doc
