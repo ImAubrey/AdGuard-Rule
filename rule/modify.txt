@@ -1,4 +1,4 @@
-# Update time: 2025-10-03 20:36:06
+# Update time: 2025-10-04 09:16:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4851,6 +4851,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||whatsapp-32w.pages.dev^$all
 ||ytrevanced.$all,domain=~revanced.app
 ||doorsstormsy.shop^$doc
+||serenoirs.com^$all
 ||pancake-swap*.vercel.app^$doc
 ||bestvideo.cloud^$all
 ||dealhunt.website^$all
@@ -6182,6 +6183,7 @@ uploadfox.net###ad-gs-05
 ||marootrack.co^$all
 ||play.google.com/store/apps/details?id=com.tadamailmatching.app^$doc
 ||fullsetup.click^$doc
+/^https?:\/\/www\.[a-z]{8,11}\.com\/product\/(?:[0-9a-z]+-)*(?:%[%0-9a-z]{8,}-)+(?:[0-9a-z]+-)*(?:[%0-9a-z]{8,}-)*[%0-9a-z]+\/$/$doc,match-case,ipaddress=/^173\.2(08|32)\.\d{3}\.\d{3}$/
 ||peaces-ign.com^$doc
 ||browser9182.web.fc2.com^$doc
 ||v2-mdex.xyz^$all
@@ -10523,6 +10525,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||rewe.de/api/xrd/events
 /propagate_cookie.php
 ||slidedeck.com^$image,third-party
+||pendo.io/data/ptm.gif/
 /optiextension.dll?$script
 ||pushauction.com^$third-party
 ||tree-nation.com/js/track.js
