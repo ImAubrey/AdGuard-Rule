@@ -10,10 +10,13 @@
 ||ws1hxl1st.hjuyer.com
 
 #cypro extend
-
 ||avail.so
 ||tronlink.org
 ||dbcwallet.io
+||okx-*^$client='39.110.230.33'
+||*-okx^$client='39.110.230.33'
+||okex-*^$client='39.110.230.33'
+||*-okex^$client='39.110.230.33'
 ||okx.cab^$client='39.110.230.33'
 ||www.ozon.ru^$client='39.110.230.33'
 ||xn--ngstr-lra8j.com^$client='39.110.230.33'
