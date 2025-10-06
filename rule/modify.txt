@@ -1,4 +1,4 @@
-# Update time: 2025-10-06 20:38:12
+# Update time: 2025-10-07 05:12:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4564,6 +4564,7 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||uraaka.net^$doc
 ||fitgirl-repacks.*^$all,domain=~fitgirl-repacks.site,to=~fitgirl-repacks.site
 ||pub-*.r2.dev/ledge.html^$doc
+/^https?:\/\/[a-z]{7}\.[a-z]{8,11}\.com\/products\/(?:[0-9a-z]+-)*(?:%[%0-9A-F]{8,}-)+(?:[0-9a-z]+-)*(?:[%0-9A-F]{8,}-)*[-%0-9A-Fa-z]+\/?$/$doc,match-case,ipaddress=/^23\.2\d{2}\.\d{2}\.\d{2}$/
 ||improveyourhand.online^$doc
 ||dr5rmdxa.com^$doc
 /a0ler0tm0s.mp3$domain=dev|online|shop
@@ -4775,6 +4776,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||b-cdn.net/noir.js
 ||air-bnb.check-$doc
 ||internal-checker.com^$all
+/^https?:\/\/www\.[a-z]{8,11}\.com\/product\/(?:[0-9a-z]+-)*(?:%[%0-9a-z]{8,}-)+(?:[0-9a-z]+-)*(?:[%0-9a-z]{8,}-)*[%0-9a-z]+\/?$/$doc,match-case,ipaddress=/^173\.2(08|32)\.\d{3}\.\d{3}$/
 ||banquet-barbecue.com^$doc
 ||spendabit-payment.xyz^$doc
 ||officialxai.com^$all
@@ -6197,7 +6199,6 @@ uploadfox.net###ad-gs-05
 ||marootrack.co^$all
 ||play.google.com/store/apps/details?id=com.tadamailmatching.app^$doc
 ||fullsetup.click^$doc
-/^https?:\/\/www\.[a-z]{8,11}\.com\/product\/(?:[0-9a-z]+-)*(?:%[%0-9a-z]{8,}-)+(?:[0-9a-z]+-)*(?:[%0-9a-z]{8,}-)*[%0-9a-z]+\/$/$doc,match-case,ipaddress=/^173\.2(08|32)\.\d{3}\.\d{3}$/
 ||peaces-ign.com^$doc
 ||browser9182.web.fc2.com^$doc
 ||v2-mdex.xyz^$all
@@ -13839,6 +13840,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||ad.mail.ru/*.gif?rnd=$third-party
 /googleAnal.js
 ||statsinsight.com^$third-party
+||cdn.skypack.dev/uuid
 /analytics?token=
 ||facebook.com/brandlift.php
 ||nofraud.com/js/device.js
