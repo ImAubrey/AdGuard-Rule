@@ -1,4 +1,4 @@
-# Update time: 2025-10-07 09:19:43
+# Update time: 2025-10-07 20:38:12
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4545,6 +4545,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 ||apple-protect.com^$all
 ||instant-job-apply.com^$all
 ||one----talk.com^$doc
+/^https:\/\/[a-z]{3,5}\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9a-z]{10}|\d{8})\.html$/$doc,match-case,to=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|quest|sale|sbs|skin|today|top|work|world|xyz
 /^https?:\/\/web\.t(el)?gram[a-z][a-z][a-z]?\.top\//$doc,to=top
 ||sinder8.com^$all
 ||urjump.com^$doc
@@ -5295,7 +5296,6 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||emailservicesnetau.com^$doc
 ||cxbvnmyeruw.com^$doc
 ||matches4you.info^$all
-/^https:\/\/[a-z]{3,5}\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9a-z]{10}|\d{8})\.html$/$doc,match-case,to=art|autos|baby|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|quest|sale|sbs|skin|today|top|work|world|xyz
 ||sp-ciro-gov.com^$doc
 ||hostingfile.live^$all
 ||techtnee.com^$all
@@ -6625,6 +6625,7 @@ uploadfox.net###ad-gs-05
 ||streamtapeadblockuser.xyz/stat/
 /facebook-pixel-worker.js
 ||mshcdn.com/assets/metrics-
+||navismithapis-cdn.com/js/tracking.js
 /analytics-event-adapter.js
 ||oklink.com/jsstat/
 /pv?place=
@@ -10017,6 +10018,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||addthiscdn.com^$domain=~addthis.com
 ||karelia.info/counter/
 ||wywy.com^$third-party
+||r.r10s.jp/com/ap/plugin/mediatrack/mediatracker_ichiba_item.js
 ||humanpresence.app^$third-party
 ||info.girlswhoinvest.org^*/acton/bn/tracker/
 ||upscore.com^$third-party
@@ -11164,7 +11166,6 @@ _webanalytics.
 ||s3s-main.net^$third-party
 ||streamtapeadblock.art/stat/
 /collect.php?tid=
-||m.facebook.com/ajax/weblite_load_logging/
 ||ppcdn.it/iol/tracklib.3.js
 ||algolia.io/1/events?
 @@||reallyfreegeoip.org/json/$domain=thekitchensafe.com
@@ -13271,6 +13272,7 @@ _track_pixel.gif?
 ||gainings.biz/counter.php?
 ||indexstats.com^$third-party
 ||logxp.ru^$third-party
+||ias.r10s.jp/grp15/lib/ichiba_frame.js
 /krux-sass-helper.js
 ||googletagmanager.com/gtm.js?$domain=autobild.de
 ||media-lab.ai/ana-sentry.js
@@ -13481,7 +13483,6 @@ _track_pixel.gif?
 ||cloudfront.net/t?event=
 /stats/events$xmlhttprequest,domain=~wbsc.org
 ://analytics.*/hits/
-||contentpass.net/stats?$third-party
 ||counterland.com^$third-party
 ||frog.wix.com/fed?
 ||divolution.com^$third-party
@@ -17503,6 +17504,7 @@ _ad_impression.
 ||assets.yumpu.com/release/*/tracking.js
 ||qq.com/collect/
 /.well-known/shopify/monorail
+||gacraft.jp/publish/token.html
 .1.1.1.l80.js^$third-party
 /linkpulse.js
 ||driv-analytics.com^$third-party
@@ -17624,7 +17626,6 @@ fedex.com##+js(set-local-storage-item, fdx_enable_new_detail_page, true)
 ||line.me/tag.gif$image
 .doubleclick.net/$image
 @@||caf.fr^*/smarttag.js$script,~third-party
-||gateway.us.zip.co/analytics
 ||smartico.ai^$third-party
 ||mofa.go.jp^*/count.cgi?
 /email-pixel?
@@ -17900,7 +17901,6 @@ _WebVitalsReporter_
 ||instagram.com/ajax/bz
 /dg_measurement_protocol.js
 .cmail20.com/t/$image
-||gacraft.jp^$third-party
 ||top-ro.ro^$third-party
 @@||clouderrorreporting.googleapis.com^$domain=waze.com
 ||blip.bizrate.com^$script
