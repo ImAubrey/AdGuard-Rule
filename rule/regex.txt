@@ -1,4 +1,4 @@
-# Update time: 2025-10-08 20:38:23
+# Update time: 2025-10-09 09:20:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -244,7 +244,6 @@
 |adshare.toutiao.com^
 |contents.meituan.com^
 |nadvideo2.baidu.com^
-|cdn.getkoala.com^
 |g.163.com^
 |wpcdn1.herokuapp.com^
 |mostat.wps.cn^
@@ -1193,6 +1192,7 @@
 |ccc.sys.intl.xiaomi.com^
 |wkrd.tingyun.com^
 |vali.cp31.ott.cibntv.net.302.myalicdn.com^
+|user.ground.news^
 |policy.video.iqiyi.com^
 |ysm.hauchi.com.tw^
 |oceansail.ddns.net^

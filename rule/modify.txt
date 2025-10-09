@@ -1,4 +1,4 @@
-# Update time: 2025-10-08 20:38:23
+# Update time: 2025-10-09 09:20:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3248,7 +3248,6 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||nikutjyjgchr*.b-cdn.net^$doc
 /?camp=*&cost=0.$doc
 ||local-bang.com^$all
-/^https:\/\/[a-z]{6,12}\.[a-z]{4,6}\/index\.php/$doc,to=online|shop,match-case
 ||freesoftwarecreative.com^$doc
 ||codeanyapp.com/manage-SBB/$doc
 romsdl.net##a[rel="nofollow noreferrer noopener"][target="_blank"]
@@ -4803,6 +4802,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 /28kxhS^$doc,to=online|shop|top|~sberbank.ru
 ||zer0-l0ve.com^$doc
 ||daisukimatch.jp^$doc
+/^https:\/\/[a-z]{6,12}\.[a-z]{4,6}\/index\.php/$doc,to=online|shop|~tibiantis.online,match-case
 ||6969-chat.tv^$doc
 /^https:\/\/s[cfntz]y?[ace][acemnu][a-z]{1,4}or?[mn][a-z]{4,8}[iy][a-z]?\.com\//$doc,to=com|~steamcommunity.com|~szentkoronaradio.com
 ||aitimaforou.web.app^$all
