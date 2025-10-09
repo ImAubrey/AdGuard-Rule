@@ -1,4 +1,4 @@
-# Update time: 2025-10-09 09:20:26
+# Update time: 2025-10-09 20:38:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1986,6 +1986,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||magiskapp.com^$all
 /RYFTGJcaptchv*.html^$doc
 ||xzo.jp^$doc
+||bitoranges.com^$all
 ||ntischoolpune.org/*.php?$doc
 ||r-a3-jk-xyh-d.com^$doc
 ||profullversion.net^$all
@@ -2074,6 +2075,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||upa1bit.$all
 ||datenaughtysingles.click^$all
 ||vivian.jp.net^$doc
+||com^$doc,ipaddress=206.82.7.123
 ||defendeerrpro.jp^$doc
 ||yr-root.com^$doc
 /merrx01/^$doc
@@ -2112,6 +2114,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||10un.jp^$doc
 ||xn--z9jzga6u1506a.jp^$doc
 ||ebnays.xyz^$all
+||vip^$doc,ipaddress=15.207.81.128
 ||uudaikhachhang-$doc
 ||lowsoop.com^$doc
 ||cdn.710k.com^$all
@@ -2165,6 +2168,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||sed.kjh69sa99.jp^$doc
 ||mybluehost.me/*/netflix/net/login.php$doc
 /_dating\d\/index\.html\?aref=/$doc
+||snfee.com^$all
 ||honda-law-office.jp/wp-includes/70038/Earthcorejp/|$doc
 ||mybluehost.me/CFF/$doc
 ||lovely-lovely.com^$doc
@@ -2277,6 +2281,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||fukucenter.com^$doc
 ||chromeweb-authenticators.com^$all
 ||familysimulatorgame.com^$all
+/^https?:\/\/qqh[0-9]\.mom\//$doc,to=mom
 ||download-app.net^$all
 ||telergctm.vip^$all
 ||paintnet.fr^$doc
@@ -2465,6 +2470,7 @@ weightlossdiet.top##+js(acs, open, executeCode)
 ||smab.jp^$doc
 /^https:\/\/[a-z]{5,10}\.[a-z]{5,10}\.[a-z]{3}\/y1\.html$/$doc,match-case,to=com|top|~weebly.com
 ||pubg-arena.top^$all
+||qqh5.mom^$all
 /tds/ae?*&clickid=$doc
 ||rosaca-nina.net^$doc
 ||irene-fortuna.com^$doc
@@ -2656,6 +2662,7 @@ crimsonav.com,ngsingleissues.nationalgeographic.com##+js(acs, atob, new Function
 ||core.windows.net/js/script3.js
 ||xn--n8jwkyc7fw52nfvd.jp^$doc
 ||e-interac-*.com^$all
+||zykqk.com^$all
 .cfd/*?s=*&g=*&q=$script,3p
 ||ikea-euonline.com^$all
 ||downloadstep.com^$all
@@ -3200,6 +3207,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||a-new86.com^$all
 ||dazactivator.com^$doc
 ||adalh-zcq.com^$all
+||orange-connexion*.godaddysites.com^$all
 ||koun-yogen.com^$doc
 ||pub-*.r2.dev/docuss_3456787654324567897865433456789.html^$doc
 ||nhym-ddth.com^$doc
@@ -3379,8 +3387,10 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 .com/t6pp7e3?t=$doc
 ||second-love-love.jp^$doc
 ||codecarawan.com^$all
+||zbzqgm.com^$all
 ||more-followers.com^$doc
 ||officialkmspico.net^$doc
+||top^$doc,ipaddress=15.207.81.128
 ||voicehp.com^$doc
 ||allegrolokalnie.pl-$doc
 ||mobileverify.net^$doc
@@ -3394,6 +3404,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||recipe000.tokyo^$doc
 ||thongtincancuoc.com^$all
 ||telegr.am/user_mgt/login$all
+||cc^$doc,ipaddress=15.207.81.128
 ||jasnathvibes.com^$all
 /^https:\/\/[a-z]{7,8}\.com\/\?s=[0-9a-z]{13}&q=/$doc,to=com,match-case
 ||nogruptexn.com^$doc
@@ -3597,6 +3608,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 ||vinmarket.net^$all
 ||bcavnvnvngov.com^$all
 ||docusine.com^$all
+||qqh4.mom^$all
 ||iris-making.com^$doc
 ||twitterfollowers.site^$doc
 ||qloi-jjcl.com^$doc
@@ -3899,6 +3911,7 @@ howtoremove.guide##div[style^="border:2px"]
 ||mybluehost.me/*/CHFINAL/$doc
 ||after-7.net^$doc
 ||sachikru5.com^$doc
+||bullishapp.cc^$all
 ||deq.frt-87rtyt1.jp^$doc
 ||sm-sl.net^$doc
 .live/1*.html?cep=$doc
@@ -4274,6 +4287,7 @@ crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in
 ||kodiak-finance.org^$all
 ||m-facebookk.com.vn^$all
 ||findthorman.shop^$doc
+||yzzrst.com^$all
 ||my7love.xyz^$doc
 ||fukumaneki2211.com^$doc
 ||salon1999.net^$doc
@@ -4784,6 +4798,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||mybestclick.net^$3p
 ||easybank.abojo.dev^$all
 ||every-enjoy.com^$doc
+||putrans.com^$all
 ||www.youtube.com/channel/UCwmnsubfOCTN_xMhg4czo5A/$doc
 .store/?h=*&user=$script,3p
 ||007itshop.com^$all
@@ -4971,6 +4986,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||sites.google.com/l0gin-microsoftwebonlne.app/$all
 ||1919-chat.tv^$doc
 ||sukui02.com^$doc
+||hswgs.com^$all
 ||k0k0cha.link^$doc
 ||pulseapp-24x7-service.github.io^$all
 ||somosbancolombia.zeabur.app^$all
@@ -5243,6 +5259,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 /12/3dsece.php^$doc,to=~amendes.gouv.fr
 /IQWJDolx.html^$doc
 ||microsoft-notifcation.com^$all
+/^https?:\/\/(?:www\.)?swan[0-9]\.[ctv][cio]p?\//$doc,to=cc|top|vip
 ||metamask*.webflow.io^$doc
 ||core.windows.net/js/lvs.js
 ||5050.fm^$doc
@@ -5990,6 +6007,7 @@ uploadfox.net###ad-gs-05
 ?a=0&u=*&tracker=$doc
 ||penst-hap9p-chat.com^$doc
 /^https:\/\/(?:[a-z]+\.)?hotel-(?:id)?\d{3,8}\.com\//$doc,to=com|~booking.com
+||mom^$doc,ipaddress=206.82.7.123
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.js-download_button_offer
 ||lover.new-n-e-x-u-s.com^$doc
 ||snickerdoodle.top^$all
@@ -8317,6 +8335,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||mdstrm.com/js/lib/streammetrics.js
 /obtp.js
 ||pi.ai/proxy/api/event
+/v1/rgstr^
 /google_tag.data_layer.js
 ||foodcouture.net/public_html/ra/script.php
 /cgi-bin/cnt/*
@@ -8345,7 +8364,6 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||taboola.com^$third-party
 ||fuziontech.net^$third-party
 ||2performant.com^$third-party
-/v1/rgstr|
 ||ipfrom.com^$third-party
 /articleOmnitureTracking.js
 ||doclix.com^$third-party
@@ -8638,6 +8656,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 /mlopen_track.html
 /plausible.outbound-links.js$domain=~plausible.io
 /T/OFC4/*$image
+@@||hzcdn.io/bff/static/vendor/sourcepoint-lib/index.*.js$script,domain=marktplaats.nl
 @@||gamerch.com/s3-assets/library/js/fingerprint2.min.js?$script,~third-party
 /HitTracker/*
 ||naver.com/jackpotlog/
