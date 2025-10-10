@@ -1,4 +1,4 @@
-# Update time: 2025-10-09 20:38:17
+# Update time: 2025-10-10 09:20:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2169,6 +2169,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||mybluehost.me/*/netflix/net/login.php$doc
 /_dating\d\/index\.html\?aref=/$doc
 ||snfee.com^$all
+/^https:\/\/[a-z]{3,5}\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9a-z]{10}|\d{8})\.html$/$doc,match-case,to=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|quest|sale|sbs|skin|today|top|wiki|work|world|xyz
 ||honda-law-office.jp/wp-includes/70038/Earthcorejp/|$doc
 ||mybluehost.me/CFF/$doc
 ||lovely-lovely.com^$doc
@@ -3625,6 +3626,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 ||vww-facebook.$doc
 ||xn--d1aqfkf.xn--p1ai/bitrix/.../GlobalSources/$all
 ||marketplace-item-*.000.pe^$doc
+.com/SecurityPlugin.zip
 ||electrum.is^$doc
 ||fr-instagram.com^$all
 ||lu-club-de-matching.com^$doc
@@ -3830,6 +3832,7 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||tadade-navi.com^$doc
 ||litebluelogin-gov.com^$all
 ||the-latest-version.com^$doc
+||instagitkbs.sbs^$all
 ||matchzzz.jp^$doc
 ##html > body > div.container.m-p > #checkbox-window.checkbox-window
 ||aeru365.jp^$doc
@@ -4558,7 +4561,6 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 ||apple-protect.com^$all
 ||instant-job-apply.com^$all
 ||one----talk.com^$doc
-/^https:\/\/[a-z]{3,5}\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9a-z]{10}|\d{8})\.html$/$doc,match-case,to=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|quest|sale|sbs|skin|today|top|work|world|xyz
 /^https?:\/\/web\.t(el)?gram[a-z][a-z][a-z]?\.top\//$doc,to=top
 ||sinder8.com^$all
 ||urjump.com^$doc
@@ -4817,7 +4819,6 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 /28kxhS^$doc,to=online|shop|top|~sberbank.ru
 ||zer0-l0ve.com^$doc
 ||daisukimatch.jp^$doc
-/^https:\/\/[a-z]{6,12}\.[a-z]{4,6}\/index\.php/$doc,to=online|shop|~tibiantis.online,match-case
 ||6969-chat.tv^$doc
 /^https:\/\/s[cfntz]y?[ace][acemnu][a-z]{1,4}or?[mn][a-z]{4,8}[iy][a-z]?\.com\//$doc,to=com|~steamcommunity.com|~szentkoronaradio.com
 ||aitimaforou.web.app^$all
