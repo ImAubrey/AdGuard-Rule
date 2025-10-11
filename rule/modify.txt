@@ -1,4 +1,4 @@
-# Update time: 2025-10-11 09:17:29
+# Update time: 2025-10-11 20:32:40
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2378,6 +2378,7 @@ onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||wa-groupbebe.pages.dev^$all
 ||royalclass.info^$doc
 ||everydaykennsyou.com^$doc
+||uspost.*.cfd^$all
 ||ee-pending-payment.firebaseapp.com^$all
 ||oortech.com/onedrive.-html^$doc
 ||evnsp.com^$all
@@ -3274,6 +3275,7 @@ romsdl.net##a[rel="nofollow noreferrer noopener"][target="_blank"]
 ||triangle123.com^$doc
 ||rainbow-fortune.biz^$doc
 ||d-position.shop^$doc
+://api.*/?zqs=$doc
 ||tada10ve.jp^$doc
 ||digitalprocurements.com^$all
 ||gold-line.online^$doc
@@ -5113,6 +5115,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||pyhrjedhlepcdkek-zyapg.com^$doc
 ||covert-messaging.com^$doc
 ||p-chi.tech^$doc
+||tring-tring.com^$all
 ||lererikal.org^$all
 ||cuocthiianhdepthieunhii2025.weebly.com^$all
 ||newgitgerto.xyz^$all
@@ -5415,6 +5418,7 @@ windowsreport.com##.code-block
 ||certify-issues-details-case.netlify.app^$all
 ||webnotif.online^$all
 ||asiansgetnaughty.com^$doc
+*$doc,ipaddress=54.38.216.75
 ||techblogs.cc^$doc
 ||myhotdates.com^$all
 ||ofyou-beautiful.com^$doc
@@ -5566,6 +5570,7 @@ uploadfox.net###ad-gs-05
 ||codeanyapp.com/hype/$doc
 ||xaysjypt.com^$doc
 ||contact-supportbusinessmanager.ubpages.com^$all
+||morganryan.shop^$all
 ||hori-hori.xyz^$doc
 ||gotmylink.xyz^$all
 ||meetpie.net^$doc
@@ -6065,6 +6070,7 @@ uploadfox.net###ad-gs-05
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.ui-content > .win
 ||almostmy.com^$all
 ||ads1.google.*.com^$doc,frame
+||cfd^$doc,ipaddress=43.166.238.4
 ||gz-plsl.web.app^$all
 /\/contract\/support-case-id=\d{14,19}\b/$doc,match-case,to=~facebook.com
 .online/js/flscn.js
@@ -6390,6 +6396,7 @@ uploadfox.net###ad-gs-05
 /assets/beacons.js
 ||tsmate.com/api/metrics
 ||otto.de/error-logging/
+||sonic-prod.cbssports.cloud/analytics/
 ||novelcool.com/files/js/yh_tj.js
 ||omine.org^$third-party
 ||mgln.ai^$~media,third-party
