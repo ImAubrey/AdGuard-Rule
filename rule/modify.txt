@@ -1,4 +1,4 @@
-# Update time: 2025-10-12 09:24:09
+# Update time: 2025-10-12 18:23:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2027,6 +2027,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||pupok.link^$all
 ||search-journal.onlyfuns.win^$all
 ||steamcommunitylog.chez.com^$all
+||jackpotmastersdanske.com^$all
 ||merukore.jp^$doc
 ||onelink.me/*&af_web_dp=$doc
 ||wild-match-network.com^$all
@@ -3596,6 +3597,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 ||z-library-proxy.com^$doc
 .com/s/*?track=$doc
 ||ralphclothing-jp.com^$doc
+||elkendinsc.com^$all
 ||meltylove.jp^$doc
 ||uploadfox.net^$inline-script
 .click/*/?partner=*&pg=$script,3p
@@ -3842,6 +3844,7 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||infonet.sbs^$all
 ||storage.googleapis.com/*/script7.js
 ||keep.secret-ace.com^$doc
+||musicboxcr.com^$all
 ||cmprotraf.club^$all
 ||app.farmaciadelmonestironline.com/SER/dnkdl/$all
 ||exceklcmicrosftprotection.pages.dev^$all
@@ -4377,6 +4380,7 @@ crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in
 ||shawmailboxservice4.wixsite.com^$all
 /^https?:\/\/[-a-z]{4,}\.(?:com|org)[-.][-a-z]{2,}\.(?:cc|top|vip|world|xin)\/pay\b/$doc,match-case,to=cc|top|vip|world|xin
 ||libretubeapk.com^$all,domain=~libretube.dev
+||fejyhy.com^$all
 ||backblazeb2.com/securescriptindustriusfinanceprivate99.HTML^$doc
 ||mybach.xyz^$doc
 ||global-riward77.com^$doc
@@ -5232,6 +5236,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||codeanyapp.com/southafrica/*/PAYU^$doc
 .xyz/?h=*&user=45$script,3p
 /wp-content/plugins/seo-optimizer-pro/sop-script.js
+||fenamu.com^$all
 ||pelastorl.com^$all
 ||hhcollect.co^$all
 ||91.241.60.117^$all
@@ -5388,6 +5393,7 @@ windowsreport.com##.code-block
 ||softs-download.com^$all
 ||singtelmyconnect.com^$all
 ||icloud.apple-*.cn^$doc
+||unpkg.com/redirect-*/beamglea.js$script
 ||freefilesync.com^$doc
 ||dones9.wixsite.com^$all
 ||mymercy.click^$doc
@@ -5912,6 +5918,7 @@ uploadfox.net###ad-gs-05
 ||budhump.com^$doc
 ||mybluehost.me/*/Ameli/$doc
 ||adblock.fr^$doc
+||villasmbuva.co.mz^$all
 ||uranai-hit.com^$doc
 ||flirt.com^$doc
 ||mybluehost.me/*/3dsec.php^$doc
@@ -6111,6 +6118,7 @@ uploadfox.net###ad-gs-05
 ||web3connectfix.pages.dev^$all
 ||love-letter-dm.com^$doc
 ||microsoftupdate67.wixsite.com^$all
+||vero-hr.click^$all
 ||z13.web.core.windows.net/*/?clickid=$doc
 ://e.*.top/video/?c=$doc
 ||tenkeiya.com^$doc
@@ -6204,6 +6212,7 @@ uploadfox.net###ad-gs-05
 ||flash.cn^$all
 ||xmx.nineb-ittalk.com^$doc
 ||wallpaper-engine.pro^$all
+||notwinningbutpartici.com^$all
 ||outloksupport*.glitch.me^$doc
 ||atelier-tokyo.net^$doc
 /^https:\/\/s[cfntz]y?[ace][acemnu][a-z]{1,4}or?[mn][a-z]{4,8}[iy][a-z]?\.ru\//$doc,to=ru
