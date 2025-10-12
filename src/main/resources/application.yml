@@ -33,7 +33,7 @@ application:
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt' #name: Phishing Army
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt' #name: HaGeZi's Threat Intelligence Feeds
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt' #name: HaGeZi's DynDNS Blocklist
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt' #name: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt' #name: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_55.txt' #name: HaGeZi's Badware Hoster Blocklist
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt' #name: Phishing URL Blocklist (PhishTank and OpenPhish)
 
