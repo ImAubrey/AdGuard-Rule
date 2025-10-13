@@ -1,4 +1,4 @@
-# Update time: 2025-10-13 09:25:43
+# Update time: 2025-10-13 20:38:06
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2581,6 +2581,7 @@ howtoremove.guide###solution_v2_de
 ||2025*maintenance.weebly.com^$doc
 ||cfolks.pl/*/swisscom/$doc
 ||hethongvaynhanh247.com^$all
+.com/article/auth=$doc
 ||pairpure.jp.net^$doc
 ||xn--4dkua4c8143c.jp^$doc
 ||hotrokhachhang-$doc
@@ -2967,6 +2968,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||cajewar736.wixsite.com^$all
 ||official-kmspico.org^$doc
 ||bbsdx.jp^$doc
+||pdf-up.com^$all
 ||t1a.jp^$doc
 ||gstatis.co^$all
 ||upforit.com^$doc
@@ -3074,6 +3076,7 @@ support.ublock.org##div.hero-unit > div.search-box--hero-unit::before:style(cont
 ||iflirts.com^$doc
 ||zlibrary.lol^$doc
 ||sanpelmaquinas.com.br^$all
+||thebook.digital^$all
 ||anapatformacion.org/modules/file/tor/tor-browser.zip^$all
 ||theuni-swap.com^$all
 ||only-fans.uk^$all
@@ -3537,7 +3540,6 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||tapi2.jp^$doc
 ||srdo-acwv.com^$doc
 ||trackingboost.com^$all
-/^https:\/\/[a-z]{7,8}\.[a-z]{2,8}\/[!.+,=?@\[][\/0-9a-z]{20,30}\.[-a-z]{2,7}$/$doc,to=agency|art|asia|auction|bar|beauty|beer|best|biz|business|cam|cards|click|cloud|coupons|digital|diy|fashion|food|forum|gay|guru|info|life|live|living|link|ltd|my|property|pw|rocks|run|sbs|shop|store|studio|tattoo|tech|today|top|uno|work,match-case
 ||plus-x4-alpha.com^$doc
 ||advidates.com^$all
 ||att5h6.wixsite.com^$all
@@ -3600,6 +3602,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 ||elkendinsc.com^$all
 ||meltylove.jp^$doc
 ||uploadfox.net^$inline-script
+/^https:\/\/[a-z]{7,8}\.[a-z]{2,8}\/[!.+,=?@\[][\/0-9a-z]{20,30}\.[-a-z]{2,7}$/$doc,to=agency|art|asia|auction|bar|beauty|beer|best|biz|business|cam|cards|click|cloud|coupons|digital|diy|fashion|food|forum|gay|guru|info|life|live|living|link|ltd|my|ooo|property|pw|rocks|run|sbs|shop|store|studio|tattoo|tech|today|top|uno|work,match-case
 .click/*/?partner=*&pg=$script,3p
 ||revanced-extended.com^$all,domain=~revanced.app
 ||vincomplaza.*.top^$doc
@@ -3895,6 +3898,7 @@ howtoremove.guide##div[style^="border:2px"]
 ||feacboolk.com^$all
 ||adoptmeantranslate.com^$doc
 ||activator-kmspico.net^$doc
+||vaccination.gov.ng^$doc
 ||pages.dev/meta_for_business$doc
 *$doc,ipaddress=178.16.53.131
 ||pfj.anbilip4.com^$doc
