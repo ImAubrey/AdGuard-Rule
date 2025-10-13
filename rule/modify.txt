@@ -1,4 +1,4 @@
-# Update time: 2025-10-12 20:33:06
+# Update time: 2025-10-13 09:25:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8564,6 +8564,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||mellow.tel^$third-party
 /count?pid=
 ||cafe24.com/weblog.js
+||golem.de/staticrl/scripts/external/snow-390-min.js
 @@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
 ||surveyscout.com^$third-party
 ||rs0.co.uk^$third-party
@@ -18698,6 +18699,7 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 ||*inapps.appsflyersdk.com^
 /^dwtrack\./
 /^domob\./
+||*-sdk.rum.aliyuncs.com^
 /^pingfore\./
 ||*cdn-settings.appsflyersdk.com^
 /^adservice\./
