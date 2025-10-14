@@ -1,4 +1,4 @@
-# Update time: 2025-10-13 20:38:06
+# Update time: 2025-10-14 09:20:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2299,6 +2299,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||b-cdn.net/nvidia.js
 ||decisionsem.live^$all
 ||t4hsalk.com^$doc
+||pure-ppre-r.com^$doc
 ||micaesoft.com^$doc
 ||dinosaur-crown.com^$doc
 ||mid-round.com^$doc
@@ -2324,6 +2325,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||securevault.top^$all
 ||thor-swap.xyz^$all
 ||pacr-fjhs.com^$doc
+installcracks.com,maliksofts.com,crackpropc.com,ayeshapc.com,trycracksoftware.com,organiccrack.com,procrackkey.co,up4pc.com,crackdownload.org,corecrack.com,shanpc.com,torrentfilefree.com,patchcracks.com,newproductkey.com,osproductkey.com,serialkeysfree.org,autocracking.com,greencracks.com,profullversion.com,crackswall.com,rootcracks.org,idmcrackeys.com,crackedhere.com,licensekeysfree.org,assadpc.com,thecrackbox.com,crackproductkey.com,keystool.com,crackedpcs.com,cracksmad.com,licensekeyup.com,chcracked.com,finalcracked.com,activatorpros.com,crackedmod.com,cracksoon.com,boxcracked.com,crackedsoftpc.com,proapkcrack.com,softscracked.com,freeappstorepc.com,usecracked.com,crackedversion.com,aryancrack.com,fultech.org,cracksray.com,pcwarezbox.com,cracksmat.com,startcrack.co,crackbros.com,pcfullversion.com,bypassapp.com,fileserial.com,pc4download.com,freeprocrack.org,upcrack.org,topkeygen.com,crackproduct.com,downloadpirate.com,combpc.pro##center > [class*="buttonPress-"]
 ||chemiclk.com^$all
 ||odeal.fi/amndes/*.php^$doc
 ||amplifyapp.com/Win*/index.html$doc
@@ -2341,7 +2343,6 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||polaris-775.com^$doc
 ||basesfiles.com^$all
 ||www.academicsingles.jp^$doc
-/text_tel.js$domain=app|dev|fit|page
 ||nang-hang-$doc
 onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||filezilla.es^$doc
@@ -2383,7 +2384,6 @@ onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||ee-pending-payment.firebaseapp.com^$all
 ||oortech.com/onedrive.-html^$doc
 ||evnsp.com^$all
-installcracks.com,maliksofts.com,crackpropc.com,ayeshapc.com,trycracksoftware.com,organiccrack.com,procrackkey.co,up4pc.com,crackdownload.org,corecrack.com,shanpc.com,torrentfilefree.com,patchcracks.com,newproductkey.com,osproductkey.com,serialkeysfree.org,autocracking.com,greencracks.com,profullversion.com,crackswall.com,rootcracks.org,idmcrackeys.com,crackedhere.com,licensekeysfree.org,assadpc.com,thecrackbox.com,crackproductkey.com,keystool.com,crackedpcs.com,cracksmad.com,licensekeyup.com,chcracked.com,finalcracked.com,activatorpros.com,crackedmod.com,cracksoon.com,boxcracked.com,crackedsoftpc.com,proapkcrack.com,softscracked.com,freeappstorepc.com,usecracked.com,crackedversion.com,aryancrack.com,fultech.org,cracksray.com,pcwarezbox.com,cracksmat.com,startcrack.co,crackbros.com,pcfullversion.com,bypassapp.com,fileserial.com,pc4download.com,freeprocrack.org,upcrack.org,topkeygen.com,crackproduct.com,downloadpirate.com##center > [class*="buttonPress-"]
 ||nang-cap-$doc
 .cfd/?aD*HlwZT1jJnRtcD01JmFkY29kZT0x$script,3p
 ||pages.dev/*/ai2.mp3
@@ -2434,6 +2434,7 @@ installcracks.com,maliksofts.com,crackpropc.com,ayeshapc.com,trycracksoftware.co
 ||raspberrysliceq.jp^$doc
 ||azureedge.net/*/flscn.js
 ||rustdesk.secure-box.de^$doc
+||glitter-2025.com^$doc
 /pop-click?sid=*&data=$doc
 ||sprocketwhirl.top^$all
 ||storage.googleapis.com/*/mouse.js
@@ -2453,6 +2454,7 @@ installcracks.com,maliksofts.com,crackpropc.com,ayeshapc.com,trycracksoftware.co
 /unsub_sent.php|$doc,method=post
 ||adverdirect.com^$all
 ||adserver*/?sdomain=$doc,popup
+||kardon-rsa.com^$doc
 ||etcher.net^$all,domain=~etcher.balena.io
 ||hethongnhanvien.com^$all
 ||ntvpevnts.com^$all
@@ -3052,6 +3054,7 @@ productkeyfree.org,productkeyforfree.com,wazusoft.com,piratesfile.com,kalicrack.
 ||searchdimension.com^$all
 ||vroom24365.com^$doc
 ||tinql.com^$doc
+.icu/?h=*&user=$script,3p
 ||abc.luxe5321.com^$doc
 ||gogonews.club^$doc
 ||miraiah.jp^$doc
@@ -3116,6 +3119,8 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||rainbow-fortune.com^$doc
 ||fine-cloud.net^$doc
 ||binhchoncuocthivetranhsinhvien2024.weebly.com^$all
+||r9-2an.com^$doc
+||mn6q-6tw4h.com^$doc
 ||spaceball.top^$all
 ||image-play.net^$doc
 ||traveltraffic.cc^$all
@@ -3312,8 +3317,10 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||windows.net/media/apked.mp4
 ||t89ll.com^$doc
 ||cashum.unam.mx/wp-content/backups-dup-pro/imports/index.htm$all
+||phm-2g.com^$doc
 ||equation-of-happiness.com^$doc
 ||tendermeetonline.com^$doc
+/text_tel.js$domain=app|dev|fit|page|github.io
 ||cffsbbhost-aniamaria*.codeanyapp.com^$all
 /human-captcha-v*.html^$doc
 ||l-chat.jp^$doc
@@ -3551,6 +3558,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||xanthopsiamanufacturer.com^$doc
 ||telegramhcn.com^$all
 ||loudly-xipt.com^$doc
+||journey-of-truth.com^$doc
 ||route-since.com^$doc
 ||bootcdn.net^$all
 ||file-typ-botcheck*.b-cdn.net^$doc
@@ -3570,6 +3578,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||github.io/samedaydelivery/$doc
 ||zxcprogs.shop^$all
 ||sites.google.com/view/softs-download^$all
+||lamp-keeper-tomori.com^$doc
 ||again-agreement.com^$doc
 ||cricketbettingpro.com/home.html/autoload.html^$all
 ||enchantedfruit.com^$doc
@@ -3668,6 +3677,7 @@ cracka2zsoft.com,ayeshapc.com,trycracksoftware.com,trycracksetup.com,9to5crack.c
 ||c-y.jp^$doc
 ||gov.*.qpon^$all
 ||clickhereecraigslist.tripod.com^$all
+||kvgp201er.sbs^$doc
 /^https?:\/\/[-a-z]{4,}\.org[-.][-a-z0-9]{2,}\.[a-z]{2,6}\//$doc,to=cc|cfd|cyou|icu|live|online|shop|top|vip|win|world|xin
 ||pages.dev/esc.js
 ||fecebook.com^$all
@@ -4629,6 +4639,7 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||mybluehost.me/*/choronopost/$doc
 ||zhongwen-telegram.com^$all
 ||soubtcevent.com^$all
+||osjdd4d.sbs^$doc
 ||storage.googleapis.com/*/script6.js
 ||claimspaace.pages.dev^$doc
 ||goldsystem.com.br/amds/css/secure/dhlFR^$doc
@@ -4801,6 +4812,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||vmb.wvs.mybluehost.me^$doc
 ||b-cdn.net/noir.js
 ||air-bnb.check-$doc
+||kikon-match.co.jp^$doc
 ||internal-checker.com^$all
 /^https?:\/\/www\.[a-z]{8,11}\.com\/product\/(?:[0-9a-z]+-)*(?:%[%0-9a-z]{8,}-)+(?:[0-9a-z]+-)*(?:[%0-9a-z]{8,}-)*[%0-9a-z]+\/?$/$doc,match-case,ipaddress=/^173\.2(08|32)\.\d{3}\.\d{3}$/
 ||banquet-barbecue.com^$doc
@@ -5038,6 +5050,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||duckdns.org/FAMOUS/Gens/$doc
 ||ondigitalocean.app/*/?bcda=$doc
 ||linkprotecttrck.com^$all
+||cf67ahu-mkooh.com^$doc
 ||outloksupportbuzoningreso.glitch.me^$all
 ||sfge.jp^$doc
 ||allegro-reinigung.de^$all
@@ -5122,6 +5135,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||coiiinbseprologn.godaddysites.com^$all
 ||pyhrjedhlepcdkek-zyapg.com^$doc
 ||covert-messaging.com^$doc
+||w0sqoketsl.sbs^$doc
 ||p-chi.tech^$doc
 ||tring-tring.com^$all
 ||lererikal.org^$all
@@ -5398,6 +5412,7 @@ windowsreport.com##.code-block
 ||singtelmyconnect.com^$all
 ||icloud.apple-*.cn^$doc
 ||unpkg.com/redirect-*/beamglea.js$script
+||ik-v60jh3j.com^$doc
 ||freefilesync.com^$doc
 ||dones9.wixsite.com^$all
 ||mymercy.click^$doc
@@ -5408,6 +5423,7 @@ windowsreport.com##.code-block
 ||opportunityforeigntoward.com^$doc
 ||namcards.com^$all
 ||hypixei.com^$all
+||brillante-etoile.com^$doc
 ||lazaoffices.com^$all
 ||nxishctcjccry.com^$doc
 ||sites.google.com/view/expressdhl^$all
@@ -5657,6 +5673,7 @@ uploadfox.net###ad-gs-05
 .php?iid=*&cid=$doc,to=~gov|~edu
 ||bastionbeneficial.com^$doc
 ||postyourlife.com^$all
+||jjiu3sqw.sbs^$doc
 ||seeproc.com.br^$all
 ||atelier-goo.com^$doc
 ||handbrake.es^$doc
@@ -5798,6 +5815,7 @@ uploadfox.net###ad-gs-05
 ||windows.net/*/index.html?clickid=$doc
 ||aiaitalk.com^$doc
 /index.php?key=*&t1=$doc
+||dasikmonnb9.sbs^$doc
 ||hostpdf.co^$all
 ||steam.zssjsq.com^$all
 ||florida.revenue-*.net^$all
@@ -5849,6 +5867,7 @@ uploadfox.net###ad-gs-05
 .co.in/a0x1/?cid=$doc
 ||mybluehost.me/UNITEDSTATESPOSTAL/$doc
 ||amz.boy.mybluehost.me^$doc
+||alor1-j6g2t.com^$doc
 ||sale-friday.$doc,to=~edu|~gov
 ||familysimulator.$all
 ||fure-ai.site^$doc
@@ -5957,6 +5976,7 @@ uploadfox.net###ad-gs-05
 ||gghut.com^$all
 ||mlcrosoftonline.com.eu-secured.com^$all
 ||aeoonmallstore.com^$all
+||github.io/iossupport/$doc
 ||gloria-divination.$doc
 ||property-rental-seven.vercel.app^$all
 -sso-*.webflow.io^$doc
@@ -14063,7 +14083,6 @@ abema.tv##+js(rmnt, script, NREUM)
 ||cctvgb.com.cn^$third-party
 ||vg.no/stats/
 ||geotrust.com^$third-party
-||ssl.pstatic.net/tveta/libs/glad/*/gfp-display-sentry-logger.js$domain=news.naver.com
 ||zalando-prive.*/api/tracking/
 ||eighten-bloc-party.thebrowser.company/script.js
 ||shareholder.com/track/
@@ -18665,7 +18684,6 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 /admob/
 /-ulog\.region\.kwai-pro\.com/
 /mon\.zijieapi\.com/
-/adtarget\./
 /-ads\.realmemobile\.com/
 /-ad\.sm\.cn/
 /-txtagstore/
