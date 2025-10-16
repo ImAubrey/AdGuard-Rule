@@ -1,4 +1,4 @@
-# Update time: 2025-10-16 09:22:09
+# Update time: 2025-10-16 20:39:41
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1985,6 +1985,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||publicationgroup.substack.com^$all
 ||magiskapp.com^$all
 /RYFTGJcaptchv*.html^$doc
+||saocloud.icu^$all
 ||xzo.jp^$doc
 ||bitoranges.com^$all
 ||ntischoolpune.org/*.php?$doc
@@ -2873,6 +2874,7 @@ lewdgames.to,warezcrack.net,freeprosoftz.com,scracked.com,cyberspc.com,crackinto
 ||y-tradie.com^$doc
 ||lovetwipaco.com^$doc
 ^device_model=*&p1=https$doc
+/jsrepo?rnd=$script,3p
 ||koiroom.net^$doc
 ||koitushinterneinnehmen.s3.eu-central-1.amazonaws.com^$all
 ||gnxuohpr.icu^$all
@@ -3053,6 +3055,7 @@ productkeyfree.org,productkeyforfree.com,wazusoft.com,piratesfile.com,kalicrack.
 ||gellyte.es^$all
 ||flirtanu.com^$doc
 ||searchdimension.com^$all
+||icu^$doc,frame,ipaddress=94.154.35.152
 ||vroom24365.com^$doc
 ||tinql.com^$doc
 .icu/?h=*&user=$script,3p
@@ -3121,6 +3124,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||fine-cloud.net^$doc
 ||binhchoncuocthivetranhsinhvien2024.weebly.com^$all
 ||r9-2an.com^$doc
+||ncloud.icu^$all
 ||mn6q-6tw4h.com^$doc
 ||spaceball.top^$all
 ||image-play.net^$doc
@@ -4246,6 +4250,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 ||atelier-www.net^$doc
 ||moon-1light.com^$doc
 ||foundations-x2024.cloud^$all
+||getfix.win^$all
 /^https:\/\/thetollroads\.[a-z]+-[a-z]{4}\.[a-z]{3}\//$doc,to=~thetollroads.com
 ||tech4u.app^$all
 ||dlhessell.wixsite.com/att-support/$all
@@ -4910,6 +4915,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||dealhunt.website^$all
 ||sakudon293ssp.jp^$doc
 ||pairife.jp^$doc
+||cptchdm.icu^$all
 ||bhtuukgrerzjmchn.com^$doc
 /downloadapp/*/index.html?*p1=$doc
 /Win0SecurityEr0CH0700Err0rSt/index.html$doc
@@ -5154,6 +5160,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||amazing.mirage-road.com^$doc
 /^https?:\/\/(?:[-a-z]{4,}\.)?gov[-.][-a-z0-9]{2,}\.[a-z]{2,6}\//$doc,to=cc|cfd|cyou|icu|live|online|shop|top|vip|win|world|xin
 ||a-divination.com^$doc
+||icu/captcha.html$doc,frame
 ||edu.academiait.ru/.css/$all
 ||spirituallounge-3000.com^$doc
 ||lazada.hnjqpm.com^$all
@@ -14090,7 +14097,6 @@ abema.tv##+js(rmnt, script, NREUM)
 ||cctvgb.com.cn^$third-party
 ||vg.no/stats/
 ||geotrust.com^$third-party
-||ssl.pstatic.net/tveta/libs/glad/*/gfp-display-sentry-logger.js$domain=news.naver.com
 ||zalando-prive.*/api/tracking/
 ||eighten-bloc-party.thebrowser.company/script.js
 ||shareholder.com/track/
@@ -18584,45 +18590,6 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 ||*mistat*.xiaomi.com^
 ||*log.droid4x.cn^
 ||*-analytics*.huami.com^
-/^adsensor\./
-||*inapps.appsflyersdk.com^
-/^dwtrack\./
-/^domob\./
-||*-sdk.rum.aliyuncs.com^
-/^pingfore\./
-||*cdn-settings.appsflyersdk.com^
-/^adservice\./
-/^appsflyer\./
-/^guanggao\./
-/^adsage\./
-||*-ad-sign.byteimg.com^
-/^adsserving\./
-/^adwords\./
-/^supersonicads\./
-/^openx\./
-||*launches.appsflyersdk.com^
-/^socdm\./
-||*-datareceiver.aki-game.net^
-/^omniture\./
-/^zjtoolbar\./
-||*-ad.a.yximgs.com^
-/^adsmogo\./
-/^omgmta\./
-/^wlmonitor\./
-/^admaster\./
-/^adsystem\./
-/^partnerad\./
-/^duomeng\./
-/^adsrvmedia\./
-||*-applog.fqnovel.com^
-/^omgmtaw\./
-/^admarvel\./
-||*adapt-beacon.awsprodops.movetv.com^
-/^applovin\./
-||*conversions.appsflyersdk.com^
-||*register.appsflyersdk.com^
-/^.+stat\.kugou\.com/
-||*.exaapi.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /\.stenaline\./
@@ -18730,6 +18697,7 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 /admob/
 /-ulog\.region\.kwai-pro\.com/
 /mon\.zijieapi\.com/
+/adtarget\./
 /-ads\.realmemobile\.com/
 /-ad\.sm\.cn/
 /-txtagstore/
@@ -18763,3 +18731,42 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+/^adsensor\./
+||*inapps.appsflyersdk.com^
+/^dwtrack\./
+/^domob\./
+||*-sdk.rum.aliyuncs.com^
+/^pingfore\./
+||*cdn-settings.appsflyersdk.com^
+/^adservice\./
+/^appsflyer\./
+/^guanggao\./
+/^adsage\./
+||*-ad-sign.byteimg.com^
+/^adsserving\./
+/^adwords\./
+/^supersonicads\./
+/^openx\./
+||*launches.appsflyersdk.com^
+/^socdm\./
+||*-datareceiver.aki-game.net^
+/^omniture\./
+/^zjtoolbar\./
+||*-ad.a.yximgs.com^
+/^adsmogo\./
+/^omgmta\./
+/^wlmonitor\./
+/^admaster\./
+/^adsystem\./
+/^partnerad\./
+/^duomeng\./
+/^adsrvmedia\./
+||*-applog.fqnovel.com^
+/^omgmtaw\./
+/^admarvel\./
+||*adapt-beacon.awsprodops.movetv.com^
+/^applovin\./
+||*conversions.appsflyersdk.com^
+||*register.appsflyersdk.com^
+/^.+stat\.kugou\.com/
+||*.exaapi.com^
