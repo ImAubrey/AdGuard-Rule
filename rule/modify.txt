@@ -1,4 +1,4 @@
-# Update time: 2025-10-17 09:21:53
+# Update time: 2025-10-17 20:37:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2241,6 +2241,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /am/*.php^$doc,to=arubabusiness.it|mybluehost.me|serv00.net|wcomhost.com|~amendes.gouv.fr
 ||datumdellago.com^$all
 ||tugonoyoi.com^$doc
+||orcaslicerofficial.$doc
 ||piasukai.xyz^$doc
 ||cross-customer.com^$doc
 ||host.cloudsonicwave.com^$all
@@ -2256,6 +2257,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||s3.amazonaws.com/*_singlesigninh.html^$doc
 ||apilond.com^$all
 ||as25ap.com^$doc
+||orca3dslicer.$doc
 ||1125telegram.vekira.top^$all
 ||snogglewomp.top^$all
 ||sexall.net/*.shtml$doc
@@ -2300,6 +2302,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||stage3sale2024.$doc,to=~edu|~gov
 ||b-cdn.net/nvidia.js
 ||decisionsem.live^$all
+||ocraslicer.$doc
 ||t4hsalk.com^$doc
 ||pure-ppre-r.com^$doc
 ||micaesoft.com^$doc
@@ -2462,6 +2465,7 @@ onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||ntvpevnts.com^$all
 ||wanderlust.rocks^$all
 /^https:\/\/help\.[a-z]{3,}-x-[a-z]{3,}\.com\//$doc,to=com|~x.com
+||orcaslicerr.$doc
 ||codeanyapp.com/*/spotii/$all
 ||attmailservice*.weebly.com^$all
 ||upcommunity.click^$doc
@@ -2680,6 +2684,7 @@ crimsonav.com,ngsingleissues.nationalgeographic.com##+js(acs, atob, new Function
 ||notificationbyfacebook.web.app^$all
 ||u-to--u.com^$doc
 ||bingkasprogram-*.xdbng.com^$all
+||orcaslice.$doc
 ||ailurophilestealer.shop^$all
 ||copeescan.es^$all
 ||success-dream.jp^$doc
@@ -2825,6 +2830,7 @@ lewdgames.to,warezcrack.net,freeprosoftz.com,scracked.com,cyberspc.com,crackinto
 ||mybluehost.me/sbb-ch/$doc
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##th:has-text(/^Detection$/) + td
 ||slobeg.com^$all
+||orcaslicer3d.$doc
 ||meetandlovenow.com^$all
 ||conveyancingportal.com^$all
 ##html#html[sti][vic][lang] > body#allbody
@@ -2924,6 +2930,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 /^https:\/\/mbdk\d+\.com\//$doc,to=com|~mbbank.com.vn
 ||businesscreatorportal.com^$all
 ||xyz/akbank/$doc
+||nvcleanstal.$doc
 ||app.corn-staging.com^$all
 /^https?:\/\/[-a-z]{12,}\.vercel\.app\/[^.]+?=D400e/$doc,match-case,to=vercel.app|~facebook.com
 /?z=*&syncedCookie=true&rhd=false$doc,popup
@@ -2979,6 +2986,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||nav1.jp^$doc
 /\.codeanyapp\.com\/.+\/(?:3dsece?|infospage|paiement)\.php\b/$doc,match-case,to=codeanyapp.com|~amendes.gouv.fr
 ||sdnlq.site^$doc
+||nvcleanstall.$doc
 ||whfdny.org^$all
 ||codeanyapp.com/info/cc.php^$doc
 ||iconstaff.top^$all
@@ -3434,7 +3442,6 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||oficial-kmspico.com^$doc
 ||mememoguls.vip^$doc
 ||coup-ling-dm.net^$all
-||theorcaslicer.com^$doc
 ||unclepigva.com^$all
 ||profileclub.info^$doc
 ||wetching.ru^$doc,frame
@@ -3473,6 +3480,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||tim.time-time-zyunizi.com^$doc
 ||sen8senjya.jp^$doc
 ||2h1.jp^$doc
+||theorcaslicer.$doc
 ||jquerypackageus.com^$all
 ||wixsite.com/att-support/$doc
 ||sharedrop.io^$all
@@ -5251,6 +5259,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||qf6tm5ug.com^$doc
 ||congthongtinanninhmang.com^$all
 ||bs-03-6743-2266.net^$doc
+||orcaslicerdownload.$doc
 ||facebook-*.ubpages.com^$doc
 ||kmspico-$doc
 ||revancedextend.com^$all,domain=~revanced.app
@@ -5449,6 +5458,7 @@ windowsreport.com##.code-block
 ||www.youtube.com/@pengwincheat/$doc
 ||maytail.jp^$doc
 ||sites.google.com/view/taskbar-themess^$all
+||orcaslicers.$doc
 /?ph0nq=+1-$doc
 ||certify-issues-details-case.netlify.app^$all
 ||webnotif.online^$all
@@ -5691,7 +5701,6 @@ uploadfox.net###ad-gs-05
 ||mybluehost.me/wp-admin/amz/$doc
 /^https:\/\/pancake(?:dro|swa)pclick\d+\.vercel\.app\//$doc,to=vercel.app|~pancakeswap.finance
 ||mygeomanager.org^$all
-||orcaslicers.com^$doc
 ||taikhoanvps.com.vn^$all
 ||5dgja.com^$doc
 ||quirkleblip.top^$all
@@ -5705,6 +5714,7 @@ uploadfox.net###ad-gs-05
 /^https:\/\/www\.[a-z]{12,}\.com\/[-a-z]*%E[%0-9A-F]{20,}-[-0-9a-z]{3,}%E[-%0-9A-Fa-z]{70,}-p-\d{3,5}\.html$/$doc,match-case
 .xyz/video.php?=*&dating_xyz_0&&0$frame
 ||datelove.cc^$doc
+||orcaslicer.$doc
 ||gabfbnaqodnvfafnj.com^$doc
 ||r2.dev/made-in-china.com/$doc
 ||update-protection.com^$all
