@@ -1,4 +1,4 @@
-# Update time: 2025-10-16 20:39:41
+# Update time: 2025-10-17 09:21:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2553,7 +2553,6 @@ howtoremove.guide###solution_v2_de
 ||lvmeet.net^$doc
 ||amplifyapp.com/*/js/flscn.js
 ||applytoday-jobs.com^$all
-||uploadingfilesetup.click^$all
 ||speeds5-mmiliked.com^$doc
 ||easy-elation.com^$doc
 ||coinbaseexnsion.webflow.io^$all
@@ -2904,7 +2903,6 @@ howtoremove.guide###alt_content_main_div > p:has-text(SpyHunter)
 app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([class])
 ||11093.jp^$doc
 ||telegra.ph/British-Telecommunication-08-22^$all
-||uploadingfilesetup.store^$all
 ||fortune-crystal.com^$doc
 ||messagerie*.wixsite.com^$doc
 ||love7date.info^$all
@@ -5392,6 +5390,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||youutube.com^$all
 ||adpopblocker.com^$all
 $doc,ipaddress=185.216.143.121
+||tech-softwares.com^$doc
 ||777.funnyy.net^$doc
 ||pub-*.r2.dev/DocuSign.html^$doc
 ||crackedpc.org^$all
@@ -6045,7 +6044,6 @@ uploadfox.net###ad-gs-05
 ||glimmerbloop.top^$all
 ||honeyline.net^$doc
 ||windows.net/js/jsd1.js
-||coronasfapps.net^$doc
 ||gaoyinjiao.com^$all
 ||apphasten.com^$all
 /modi-cloudflare-update.html^$doc
@@ -7062,6 +7060,7 @@ _logHuman=
 ||hypercomments.com/widget/*/analytics.html
 ||active24stats.nl^$third-party
 ||maxtracker.net^$third-party
+@@||usine-digitale.fr/*/stormcaster.js$script,~third-party
 /PixelTracking.js
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 ||ssense.com/58Asv359/init.js
@@ -14097,6 +14096,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||cctvgb.com.cn^$third-party
 ||vg.no/stats/
 ||geotrust.com^$third-party
+||ssl.pstatic.net/tveta/libs/glad/*/gfp-display-sentry-logger.js$domain=news.naver.com
 ||zalando-prive.*/api/tracking/
 ||eighten-bloc-party.thebrowser.company/script.js
 ||shareholder.com/track/
