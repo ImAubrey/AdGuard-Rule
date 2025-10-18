@@ -1,4 +1,4 @@
-# Update time: 2025-10-18 09:18:03
+# Update time: 2025-10-18 20:33:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -556,7 +556,6 @@
 |slb-p2p.vcloud.ks-live.com^
 |api.waptest.taobao.com^
 |advertising-api.amazon.com^
-|analysis.chatglm.cn^
 |543874163.ddns.net^
 |mtrace.amap.com^
 |dp3.qq.com^
