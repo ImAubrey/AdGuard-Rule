@@ -1,4 +1,4 @@
-# Update time: 2025-10-18 20:33:51
+# Update time: 2025-10-19 09:38:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7730,7 +7730,6 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ||tracdelight.com^$third-party
 ||anyclip.com/getuids?
 ||birdsend.co/assets/static/js/pixel/
-||pool.nimiq.watch^$third-party
 ||adgreed.com^$third-party
 ||intelligencefocus.com^$third-party
 ||swarm.video/track/
@@ -8928,7 +8927,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||bizspring.net^$third-party
 ||dontbeevils.de^$third-party
 /adsct?
-||nimiq.com^$third-party
 ||waaw.to/cdn-cgi/trace
 ||build.com/2Ztkihy4/init.js
 ||klaviyo.com/onsite/js/sentry.
@@ -10584,7 +10582,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 |http://r.i.ua^
 /metrics/ga.js
 ||figma.com/api/web_logger/
-||nimpool.io^$third-party
 /log/browser/event
 /optimizelyjs/*
 ||icgp.ie/overview/js/tracker.php
@@ -12779,7 +12776,6 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|carnesvizzera.ch|cmoa.jp|ecmweb.com|enmotive.com|healthrangerstore.com|hobbyhall.fi|infoconso-multimedia.fr|jackbox.tv|k2radio.com|koel.com|kowb1290.com|ligtv.com.tr|meritonsuites.com.au|nabortu.ru|news.gamme.com.tw|novatv.bg|papajohns.com|poiskstroek.ru|rzd.ru|saturn.at|schweizerfleisch.ch|skaties.lv|stressless.com|teddyfood.com|tracking.narvar.com|tradera.com|tribuna.com|truwin.com|tuasaude.com|unicef.de|viandesuisse.ch|vox.de|westernunion.com|worldsbiggestpacman.com|xxl.se
 /ga.jsp?$image
 @@||teams.microsoft.com/dialin-cdn-root/*/aria-web-telemetry-$~third-party
-||nimiqpool.com^$third-party
 ||ardalio.com^$third-party
 ||sdqoi2d.com^$third-party
 ||sometrics.com^$third-party
@@ -12819,7 +12815,6 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 @@||adobedtm.com^*/s-code-$script
 ||blogtraffic.de^$third-party
 ||outbound.io/v2/track
-||sushipool.com^$third-party
 ||tra.scds.pmdstatic.net/sourcepoint/
 ||blueknow.com^$third-party
 ||mediaglacier.com^$third-party
@@ -13079,6 +13074,7 @@ _track_pixel.gif?
 ||ipinfodb.com^$third-party
 /getclicky.js
 /pixeltrack.php
+||api.thefantazy.com/web-vitals
 ://openedlog.
 /log.jsp?
 ||xplosion.de^$domain=spiegel.de
@@ -16887,6 +16883,7 @@ img.promio-connect.com$image
 ||medipartner.jp^$third-party
 ||ohmystats.com^$third-party
 ||stayforlong.com/api/kafka/tracking
+/op/analytics.js?domain=
 /perfmatters/js/analytics.js
 ||leadsius.com^$third-party
 /cn-track?
