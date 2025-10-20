@@ -1,4 +1,4 @@
-# Update time: 2025-10-19 20:33:59
+# Update time: 2025-10-20 09:27:47
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1997,7 +1997,6 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.quick-download-button-text
 ||my-info-ee.web.app^$all
 ||h-spe.net^$doc
-||1wdrop5.com^$all
 ||htex-panel.at^$all
 ||live/click.php?key=$doc
 ||nsofthub.info^$doc
@@ -3117,7 +3116,6 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||pin673.cyou^$all
 ||imgfil.com^$all
 ||brilliant.ohana-pilina.com^$doc
-||clc-link.me^$all
 ||cit-rine.com^$doc
 /wp-admin/user/americanexpresss-com-login-true-verify.$doc,to=~americanexpress.com
 ||l-two-two.com^$doc
@@ -3589,7 +3587,6 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||register-turnamen.free.nf^$all
 ||runkit.com/dz4583276/monster-hunter-rise-crack-codex-pc/1.0.0/clone^$all
 ||github.io/samedaydelivery/$doc
-||zxcprogs.shop^$all
 ||sites.google.com/view/softs-download^$all
 ||lamp-keeper-tomori.com^$doc
 ||again-agreement.com^$doc
@@ -3814,6 +3811,7 @@ howtoremove.guide###gray_de
 ||sg1first-syspro.jp^$doc
 .com/pl?o=$doc
 ||atchao.jp^$doc
+||gitzdownloadkm.cyou^$doc
 ||polyfill-js.cn^$all
 /Win00Security07/index.html$doc
 &t=main9expsess|$doc,to=live
@@ -4122,7 +4120,6 @@ z13.web.core.windows.net##+js(aeld, DOMContentLoaded, fullscreenEnabled)
 ||official-ledger-app.live^$all
 ||cpls-brvg.com^$doc
 ||codeanyapp.com/Sus/*/sign.php^$doc
-||eliteplayadvantage.shop^$all
 ||facebooc.jp^$doc
 ||grand-minor.com^$doc
 /^https?:\/\/icloud\.apple\.[a-z]{6,}\.[a-z]+/$doc,to=co|cn
@@ -5503,7 +5500,6 @@ windowsreport.com##.code-block
 ||askme4date.com^$doc
 ||secure---sso---robinhood---com-cdn.webflow.io^$doc
 ||ttt777.com^$doc
-||paradoxcheat.fun^$all
 ||sonvupload.xyz^$all
 ||evnsspc.com^$all
 ||pastebin.store/js.js
@@ -5714,7 +5710,6 @@ uploadfox.net###ad-gs-05
 /^https:\/\/www\.[a-z]{12,}\.com\/[-a-z]*%E[%0-9A-F]{20,}-[-0-9a-z]{3,}%E[-%0-9A-Fa-z]{70,}-p-\d{3,5}\.html$/$doc,match-case
 .xyz/video.php?=*&dating_xyz_0&&0$frame
 ||datelove.cc^$doc
-||orcaslicer.$doc
 ||gabfbnaqodnvfafnj.com^$doc
 ||r2.dev/made-in-china.com/$doc
 ||update-protection.com^$all
