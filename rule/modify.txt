@@ -1,4 +1,4 @@
-# Update time: 2025-10-21 20:39:50
+# Update time: 2025-10-22 09:25:55
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6315,6 +6315,7 @@ uploadfox.net###ad-gs-05
 .com-id*.com^
 .avito.www.booking.
 .com-id*.info^
+||*f003.backblazeb2.com*^
 ||counterapi.dev^$third-party
 ||mmccint.com^$third-party
 ||contiamo.com^$third-party
@@ -7219,6 +7220,7 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
 ||adrizer.com^$third-party
 /yna_stat.js
+/links.gitlab.com/s/eo/*$image
 ||lsimg.net^*/vs.js
 ||lumatag.co.uk^$third-party
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
@@ -7894,6 +7896,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ||squid.gazeta.pl/bdtrck/
 ||mat6tube.com/api/stats?
 ||priceline.com/svcs/mkt/tag/
+/ck.m.honto.jp/c/*$image
 ||roi-rocket.net^$third-party
 /x.gif?
 ||volkswagen-italia.it^*/tracking/
@@ -15078,6 +15081,7 @@ _rpc/log?
 @@||live.rezync.com^$script,domain=batteriesplus.com
 /webstatistics.php?
 ||juicer.io/api/page_views
+||oocommapi2.aswatson.com/kf/*/tracking/
 ||telemetric.dk^$third-party
 /^https?:\/\/tmx\.(td|tdbank)\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com|tdbank.com
 /pixel-prod.
