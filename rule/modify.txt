@@ -1,4 +1,4 @@
-# Update time: 2025-10-22 09:25:55
+# Update time: 2025-10-22 20:39:59
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -16667,6 +16667,7 @@ _event_tracking?
 ||connect.facebook.net/signals/$third-party
 ||bf-tools.net^$third-party
 ||pg.totaaltv.nl/api/metrics
+@@||parliament.nz/*/stormcaster.js$script,~third-party
 /coradiant.js
 ||tenmax.io^$third-party
 /cdn-cgi/beacon/*
