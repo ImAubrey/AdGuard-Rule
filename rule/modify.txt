@@ -1,4 +1,4 @@
-# Update time: 2025-10-24 09:19:47
+# Update time: 2025-10-24 20:39:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3178,6 +3178,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||safety-profiles-fb-ads-*.vercel.app^$all
 ||valuge.com.ar/sbb/$doc
 ||every-super.com^$doc
+||blockchecker-8ka.pages.dev^$all
 /^https:\/\/(?:[-a-z0-9]+\.){2}workers\.dev\/v3\/(?:forgotpassword|security|signup)\b/$doc,to=workers.dev
 ||hentaiplaytime.com^$doc
 ||cursorltd.com^$doc
@@ -5666,6 +5667,7 @@ uploadfox.net###ad-gs-05
 ||get-kmspico.com^$doc
 ||gooqlee.com^$all
 /views/choice/*/start.php^$doc
+||checkx.pages.dev^$all
 ||dfr.bubu88yjt.jp^$doc
 ||jp.rian-rian.com^$doc
 ||2chlovers.web.fc2.com^$doc
@@ -5800,6 +5802,7 @@ uploadfox.net###ad-gs-05
 ||39093.net^$doc
 ^novobanco.pt-canais-digital-$doc,to=~novobanco.pt
 ||zingleflap.top^$all
+||xcheckx.pages.dev^$all
 ||sugulove.com^$doc
 ||cloud.edgerapidcdn.com^$all
 ||recompensaszurichsantander.com.mx^$all
