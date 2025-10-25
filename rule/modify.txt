@@ -1,4 +1,4 @@
-# Update time: 2025-10-24 20:39:34
+# Update time: 2025-10-25 09:21:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3117,6 +3117,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||imgfil.com^$all
 ||brilliant.ohana-pilina.com^$doc
 ||cit-rine.com^$doc
+||riseecore.site^$all
 /wp-admin/user/americanexpresss-com-login-true-verify.$doc,to=~americanexpress.com
 ||l-two-two.com^$doc
 ||clasm.live^$all
@@ -14113,7 +14114,6 @@ abema.tv##+js(rmnt, script, NREUM)
 ||cctvgb.com.cn^$third-party
 ||vg.no/stats/
 ||geotrust.com^$third-party
-||ssl.pstatic.net/tveta/libs/glad/*/gfp-display-sentry-logger.js$domain=news.naver.com
 ||zalando-prive.*/api/tracking/
 ||eighten-bloc-party.thebrowser.company/script.js
 ||shareholder.com/track/
