@@ -1,4 +1,4 @@
-# Update time: 2025-10-26 20:34:50
+# Update time: 2025-10-27 09:39:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2811,6 +2811,7 @@ lewdgames.to,warezcrack.net,freeprosoftz.com,scracked.com,cyberspc.com,crackinto
 ||zs.peachparadise.vip^$doc
 ||exo.io/cloudcask/$doc
 ||roundyearfun.org^$all
+||blck.pages.dev^$all
 ||cartepak.online^$doc
 ||lovez.jp^$doc
 ||filter-zgzy.com^$doc
