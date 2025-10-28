@@ -1,4 +1,4 @@
-# Update time: 2025-10-27 20:40:21
+# Update time: 2025-10-28 09:22:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,6 +47,7 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+||verify-att.app.^
 ||yandex.avito.www.
 ||booklng.com-*
 ||yandex.avito.sber*
@@ -54,7 +55,6 @@
 ||avito.avito.www.avito.
 ||avito.avito.avito.
 ||yandex.pay.avito.
-||verify-att.app.^
 ||bc.geocities.
 ||stw.extreme-down.
 ||collector-*.luigisbox.com^
