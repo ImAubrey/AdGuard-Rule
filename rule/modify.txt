@@ -1,4 +1,4 @@
-# Update time: 2025-10-28 09:22:22
+# Update time: 2025-10-28 20:38:35
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2854,6 +2854,7 @@ lewdgames.to,warezcrack.net,freeprosoftz.com,scracked.com,cyberspc.com,crackinto
 ||z-lib.yt^$all
 howtoremove.guide###alt_content_main_div > p:has-text(SpyHunter)
 ||doem.jp^$doc
+||kgms.top^$all
 ||phila.revenue*.cc^$all
 ||sviluppo.host/*/CHFINAL/$doc
 ||p0rte.site^$doc
@@ -6166,10 +6167,10 @@ windowsreport.com##.code-block
 ||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
 @@||www.zhihu.com/api/v4/search_v3*
 #
-||*f003.backblazeb2.com*^
 .com-id*.com^
 .avito.www.booking.
 .com-id*.info^
+||*f003.backblazeb2.com*^
 ||counterapi.dev^$third-party
 ||mmccint.com^$third-party
 ||contiamo.com^$third-party
