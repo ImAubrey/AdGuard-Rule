@@ -1,4 +1,4 @@
-# Update time: 2025-10-29 09:27:56
+# Update time: 2025-10-29 20:40:05
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2240,6 +2240,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||hansonherbo.com^$all
 ||vehicle-insurance-quote.com^$all
 ||verify-captcha.com^$all
+/^https:\/\/[a-z]{7,8}\.[a-z]{2,8}\/[!.+,=?@\[][\/0-9a-z]{20,30}\.[-a-z]{2,7}$/$doc,to=agency|art|asia|auction|bar|beauty|beer|best|biz|business|cam|cards|casa|click|cloud|coupons|digital|diy|fashion|food|forum|gay|guru|info|life|live|living|link|ltd|my|ooo|property|pw|rocks|run|sbs|shop|store|studio|tattoo|tech|today|top|uno|work,match-case
 ||s3.amazonaws.com/*_singlesigninh.html^$doc
 ||apilond.com^$all
 ||as25ap.com^$doc
@@ -2852,6 +2853,7 @@ lewdgames.to,warezcrack.net,freeprosoftz.com,scracked.com,cyberspc.com,crackinto
 ||bestxchat.net^$doc
 /^https?:\/\/server\.[a-z0-9]{4}\.com\/invite\/\d+\b/$doc,match-case,to=com
 ||z-lib.yt^$all
+||arrakis2.com^$all
 howtoremove.guide###alt_content_main_div > p:has-text(SpyHunter)
 ||doem.jp^$doc
 ||kgms.top^$all
@@ -3557,7 +3559,6 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 ||ralphclothing-jp.com^$doc
 ||elkendinsc.com^$all
 ||meltylove.jp^$doc
-/^https:\/\/[a-z]{7,8}\.[a-z]{2,8}\/[!.+,=?@\[][\/0-9a-z]{20,30}\.[-a-z]{2,7}$/$doc,to=agency|art|asia|auction|bar|beauty|beer|best|biz|business|cam|cards|click|cloud|coupons|digital|diy|fashion|food|forum|gay|guru|info|life|live|living|link|ltd|my|ooo|property|pw|rocks|run|sbs|shop|store|studio|tattoo|tech|today|top|uno|work,match-case
 .click/*/?partner=*&pg=$script,3p
 ||revanced-extended.com^$all,domain=~revanced.app
 ||vincomplaza.*.top^$doc
@@ -5653,6 +5654,7 @@ windowsreport.com##.code-block
 /^https:\/\/[a-z]{6,19}\.(?:com|net)\/(?:static_)?file\/\?t=[_a-z0-9]+&ns=[a-z]{2}$/$doc,match-case,to=com|net
 ||stc.tools^$doc
 ||vizualis.online^$all
+||gocheck.pages.dev^$all
 ||adultpics.wiki^$all
 ||geheimerseitensprung.com^$all
 ||kuaizip.com^$all
@@ -6171,7 +6173,6 @@ windowsreport.com##.code-block
 .com-id*.com^
 .avito.www.booking.
 .com-id*.info^
-||*f003.backblazeb2.com*^
 ||counterapi.dev^$third-party
 ||mmccint.com^$third-party
 ||contiamo.com^$third-party
@@ -16359,6 +16360,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||tagon.co^$third-party
 ||kontur.ru/stats/
 /discourse-fingerprint_
+@@||teleportpod.com/assets/EventTracking-$script,~third-party
 ||docomo-analytics.com^$third-party
 ||photobox.com/logs
 ||info.com/pingback
@@ -17228,6 +17230,7 @@ _ad_impression.
 ||gstatic.com/wcm/loader.js
 ||x.com/i/csp_report
 ||chefkoch.de/tracking/
+/api.transferwise.com/v1/notification-flow/messages/*/open.gif
 ||212.95.32.75^$third-party,domain=~ipcounter.de.ip
 /app-measurement?
 .cmail19.com/t/$image
@@ -18318,6 +18321,7 @@ iwb.jp##+js(acs, document.createElement, googletag)
 ||webminepool.com^$third-party
 ||iogous.com^$third-party
 ||visitorapi.pixplug.in^$domain=pixnet.net
+/email-link.adtidy.org/open/*$image
 ||faphouse.com/collector/
 ||t.bndestem.nl^$image
 @@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
