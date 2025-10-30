@@ -1,4 +1,4 @@
-# Update time: 2025-10-30 09:27:31
+# Update time: 2025-10-30 20:39:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -17502,6 +17502,7 @@ _stat.php?referer=
 ||sim-technik.de^*&uniqueTrackId=
 /twiga.js
 /track/go.php?*&referer_url=
+@@||cos.accelerate.myqcloud.com/assets/sensorsdata.min.js$domain=ruijienetworks.com
 ||bm23.com^$third-party
 ||escalated.io^$third-party
 ||iolam.it/service/trk
@@ -18642,6 +18643,7 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 ||*-default-cn.rum.aliyuncs.com^
 /^adsrvmedia\./
 ||*-applog.fqnovel.com^
+||*two-gun-volley.pages.dev^
 /^omgmtaw\./
 /^admarvel\./
 ||*adapt-beacon.awsprodops.movetv.com^
