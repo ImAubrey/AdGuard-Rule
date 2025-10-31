@@ -1,4 +1,4 @@
-# Update time: 2025-10-31 09:24:50
+# Update time: 2025-10-31 20:38:52
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2151,6 +2151,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||shengsizhanchang.com^$all
 ||eroticher.com^$all
 ||thetollroads-$doc,to=top|xin|world
+||checkfv.pages.dev^$all
 ||unetbootin.net^$doc
 ||espace-documents-authsec-appmovil.codeanyapp.com^$doc
 ||ncewb8eo.cloud^$all
@@ -2183,6 +2184,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||chattts-49f1.beszyrecala.workers.dev^$all
 ||tncrun.net^$all
 ||airupgreece.net^$doc
+pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 ||cracksway.com^$all
 ||pornonenight.com^$all
 ||cpanel12wh.bkk1.cloud.z.com^$all
@@ -3360,6 +3362,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||dazzl.ink/btupdate/$all
 .com/t6pp7e3?t=$doc
 ||second-love-love.jp^$doc
+/^https:\/\/[a-z0-9]{4,15}\.pages\.dev\/\d\/login\b/$doc,match-case,to=pages.dev
 ||zbzqgm.com^$all
 ||more-followers.com^$doc
 ||officialkmspico.net^$doc
@@ -3378,6 +3381,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||cc^$doc,ipaddress=15.207.81.128
 ||jasnathvibes.com^$all
 /^https:\/\/[a-z]{7,8}\.com\/\?s=[0-9a-z]{13}&q=/$doc,to=com,match-case
+||gamefiledo6.pages.dev^$all
 ||nogruptexn.com^$doc
 ||harambetok-eng.pages.dev^$doc
 ||kythuatdmayxanh.com^$all
@@ -3609,6 +3613,7 @@ cracka2zsoft.com,ayeshapc.com,trycracksoftware.com,trycracksetup.com,9to5crack.c
 ||trafficjunction.com^$all
 ||av-master.org^$all
 /wp-content/plugins/advanced-widget-manage/awm-script.js
+sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||bequettehomes.com/ahost/$all
 ||7zip.es^$doc
 /prove-human-recaptcha.html^$doc
@@ -4754,6 +4759,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||amazoni1.com^$all
 ||ray-sol.net^$all
 ||try-fortune.com^$doc
+||xblocktest.pages.dev^$all
 ||getprocrack.net^$doc
 ||thetollroads.texas-$all,to=~thetollroads.com
 ||rewardsgiantusa.com^$doc
@@ -6158,6 +6164,7 @@ windowsreport.com##.code-block
 ||revancedapps.$all,domain=~revanced.app
 ||celebri.jp^$doc
 ||aloha.walea-lino.com^$doc
+||gomabalerainc.top^$all
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
 ||api.zhihu.com/commercial_api/real_time_launch_v2^
@@ -13966,6 +13973,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||cctvgb.com.cn^$third-party
 ||vg.no/stats/
 ||geotrust.com^$third-party
+||ssl.pstatic.net/tveta/libs/glad/*/gfp-display-sentry-logger.js$domain=news.naver.com
 ||zalando-prive.*/api/tracking/
 ||eighten-bloc-party.thebrowser.company/script.js
 ||shareholder.com/track/
