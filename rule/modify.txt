@@ -1,4 +1,4 @@
-# Update time: 2025-11-02 09:38:09
+# Update time: 2025-11-02 20:33:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3769,6 +3769,7 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||chargerlogistics-dot-exceldocsverification.uk.r.appspot.com^$all
 ||lm-mousey-happy.com^$doc
 ||amazoul.xyz^$all
+/^https:\/\/blockchecker[0-9]\.pages\.dev\//$doc,to=pages.dev
 ||tikione.vip^$all
 ||glitch.me/pdf.html?email=$doc
 ||track.chkr7.com^$all
@@ -4466,6 +4467,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 ||dedestin0.jp^$doc
 ||hoshi-no-michibiki.jp^$doc
 ||www-facebooks.com.vn^$all
+||blockchecker6.pages.dev^$all
 ||female-good.work^$doc
 /werrx01/^$doc
 ||smrturl.co/o/*/53458494^$doc
@@ -10195,6 +10197,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||bob-recs.com^$third-party
 ||announcement.ru^$third-party
+@@||configurator.porsche.com/public/adobe-analytics-$~third-party
 /stracking.js
 ||theadex.com^$third-party
 ||sendpulse.com^$third-party
