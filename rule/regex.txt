@@ -1,4 +1,4 @@
-# Update time: 2025-11-05 09:26:44
+# Update time: 2025-11-05 20:39:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1312,7 +1312,6 @@
 |onlycash.ddns.net^
 |iadmatapk.nosdn.127.net^
 |adxlog.vivo.com.cn^
-|tracking-api.g2.com^
 |secode2.hd.xiaomi.com^
 |inside.rtbasia.com^
 |appuu.cn^
