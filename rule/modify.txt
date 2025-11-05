@@ -1,4 +1,4 @@
-# Update time: 2025-11-04 20:41:27
+# Update time: 2025-11-05 09:26:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6582,7 +6582,6 @@ reuters.com##+js(aost, admiral, .js?)
 ||glassdoor.*/geb/events/
 ||twitter.com^*/log.json
 ||maxtracker.net^$third-party
-@@||usine-digitale.fr/*/stormcaster.js$script,~third-party
 /PixelTracking.js
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 ||ssense.com/58Asv359/init.js
@@ -11246,7 +11245,6 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||trackset.it^$third-party
 /collect.gif?
 /logjs.php
-@@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|petsafe.com|robertsspaceindustries.com
 /analytics/rakuten.js
 ||popsample.com^$third-party
 ||mbww.com^$third-party
@@ -15761,6 +15759,7 @@ _track_pixel.gif?
 ||fusestats.com^$third-party
 ||hittracker.com^$third-party
 ||api-router.kaspersky-labs.com/logger2/metrics/
+@@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|getty.edu|petsafe.com|robertsspaceindustries.com
 ||etracker.com^$third-party
 /fb-tracking.js
 ||hypercounter.com^$third-party
@@ -17501,7 +17500,6 @@ _event_tracking?
 ||mangadex.org/p.js
 ||connect.facebook.net/signals/$third-party
 ||pg.totaaltv.nl/api/metrics
-@@||parliament.nz/*/stormcaster.js$script,~third-party
 /cdn-cgi/beacon/*
 ||beemrdwn.com^$third-party
 /imp_check.php
@@ -17611,7 +17609,6 @@ _event_tracking?
 ||factors.ai/sdk/event/
 ||sawpf.com/1.0.js$third-party
 ||ststandard.com/adsf
-/stormcaster.js
 ||pushbird.com^$third-party
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
 ||ohmystats.com^$third-party
