@@ -1,4 +1,4 @@
-# Update time: 2025-11-05 20:39:32
+# Update time: 2025-11-06 09:26:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6430,7 +6430,6 @@ windowsreport.com##.code-block
 ||cdnjs.work/metrics.js
 ||booking.com/navigation_times
 /opinionlab.js
-@@||sdk.mrf.io/statics/marfeel-sdk.js$script,domain=mundodeportivo.com
 ||sailthru.com/Sailthru_spacer_1x1.gif
 @@||pcoptimizedsettings.com/wp-content/uploads/breeze/google/gtag.js$~third-party
 ||fremaks.net^$third-party
@@ -7887,6 +7886,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 /jquery.gatracker.js
 ||adapf.com^$third-party
 ||mtb-news.de/metric/
+@@||sdk.mrf.io/statics/marfeel-sdk.js$script,domain=computerhoy.20minutos.es|mundodeportivo.com
 ||gosupersonic.ai^$third-party
 ||ethereum-cashcard.com^$third-party
 /?swift-performance-tracking
@@ -16870,6 +16870,7 @@ _rpc/log?
 ||tapeantiads.com/stat/
 ||refersion.com^$third-party
 /analytics/ga.js
+||fast.arena.im/script.js
 ||stripe.com/?event=
 ||quiz.stroeermediabrands.de/pub/$image
 ||selfcampaign.com^$third-party
