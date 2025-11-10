@@ -1,4 +1,4 @@
-# Update time: 2025-11-09 20:34:22
+# Update time: 2025-11-10 09:38:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3295,6 +3295,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||global-ttalk.jp^$doc
 ||okdebrid.com^$doc
 ||lss.site-lfss.com^$doc
+/^https:\/\/[a-z]{7,8}\.[a-z]{2,8}\/[!.+,=?@\[][\/0-9a-z]{20,30}\.[-a-z]{2,7}$/$doc,to=agency|art|asia|auction|bar|beauty|beer|best|biz|business|cam|cards|casa|click|cloud|coupons|digital|diy|fashion|food|forum|gay|guru|hair|info|life|live|living|link|ltd|my|ooo|property|pw|rocks|run|sbs|shop|skin|store|studio|tattoo|tech|today|top|uno|work,match-case
 ||accounts.maxweb.academy^$all
 ||moody-night.net^$doc
 ||tokimekimaildesu.net^$doc
@@ -5371,12 +5372,14 @@ windowsreport.com##.code-block
 ||revanced.$all,from=~revanced.app,to=~revanced.app
 ||upbitbr.$all
 ||line-channel-info.com^$doc
+/\.[a-z][a-z][a-z]-adguard\.pro\//$all
 ||mybluehost.me/seitech/$doc
 ||web.core.windows.net/beep.mp3
 ||pages.dev/js/flscn.js
 ||mybluehost.me/*/phpmailer/src/dh/$doc
 ||vstergioul.sites.sch.gr^$all
 ||pmequebeclic.com^$all
+/\.[a-z]{3}-adguard\.pro\//$all,to=pro
 /or/.espace-.client/(;authentication.htm^$doc,to=~orange.fr
 ||support-metahelpcenter-id*.netlify.app^$all
 ||silversex.com^$doc
@@ -5636,7 +5639,6 @@ windowsreport.com##.code-block
 ||39093.net^$doc
 ^novobanco.pt-canais-digital-$doc,to=~novobanco.pt
 ||zingleflap.top^$all
-/^https:\/\/[a-z]{7,8}\.[a-z]{2,8}\/[!.+,=?@\[][\/0-9a-z]{20,30}\.[-a-z]{2,7}$/$doc,to=agency|art|asia|auction|bar|beauty|beer|best|biz|business|cam|cards|casa|click|cloud|coupons|digital|diy|fashion|food|forum|gay|guru|hair|info|life|live|living|link|ltd|my|ooo|property|pw|rocks|run|sbs|shop|store|studio|tattoo|tech|today|top|uno|work,match-case
 ||xcheckx.pages.dev^$all
 ||sugulove.com^$doc
 ||cloud.edgerapidcdn.com^$all
