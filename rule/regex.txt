@@ -1,4 +1,4 @@
-# Update time: 2025-11-10 20:39:40
+# Update time: 2025-11-11 08:11:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -55,6 +55,7 @@
 ||avito.avito.avito.
 ||yandex.pay.avito.
 ||verify-att.app.^
+||httpdns.*^$important
 ||bc.geocities.
 ||stw.extreme-down.
 ||collector-*.luigisbox.com^
@@ -88,7 +89,6 @@
 ||pixel.archive.
 %2Fevent.gif%3F
 ||df.infra.shopee.
-||httpdns.*^$important
 ||da.hornbach.*^
 ||dm-*.toutiao.com^
 ||adsystem*.*^
@@ -410,7 +410,6 @@
 |hd.xiaojukeji.com^
 |g1.163.com^
 |ad.hzyoka.com^
-|league1.maoyuncloud.cn^
 |in.vipliangmei.com^
 |api.jr.mi.com^
 |m.shilian168.cn^
@@ -549,7 +548,6 @@
 |blog.xiaomi.com^
 |guanggaoad.youku.com^
 |topapi.cp12.wasu.tv^
-|spl.ztvx8.com^
 |c.kuaiduizuoye.com^
 |app02.nodes.gslb.mi-idc.com^
 |miav-cse.avlyun.com^
@@ -1120,6 +1118,7 @@
 |xray.jebe.renren.com^
 |tnc3-alisc1.zijieapi.com^
 |interest.mix.sina.com.cn^
+|analytics.blender.org^
 |livewebbs2pcdn.msstatic.com^
 |a.glcdn.co^
 |gstat.myzaker.com^
@@ -1217,6 +1216,7 @@
 |sdkinit.taobao.com^
 |d6.sina.com.cn^
 |pb.hd.sohu.com.cn^
+|probe.whatismyipaddress.com^
 |appcfg.v.qq.com^
 |sxcdn1.herokuapp.com^
 |delivery.maihehd.com^
@@ -1326,7 +1326,6 @@
 |t.adbxb.com^
 |amap-aos-info-nogw.amap.com^
 |tcbox.baidu.com^
-|zls.xz6d.com^
 |biz5.sandai.net^
 |minisite.letv.com^
 |mcgi.v.qq.com^

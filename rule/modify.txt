@@ -1,4 +1,4 @@
-# Update time: 2025-11-10 20:39:40
+# Update time: 2025-11-11 08:11:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3190,6 +3190,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 /apop/redirect/zone/*$doc,popup
 ||rogueleader.org^$all
 ||rigidconcrete.ca^$all
+||dsu-adguard.pro^$all
 ||senuti.org^$doc
 ||msnoauth*.com/office-$all
 ||blastairdropclaims.pages.dev^$doc
@@ -3394,6 +3395,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||glaters.com^$doc
 ||thermovitraffic.com.mx/SharepointFileProject/$all
 ||irrigation085.com^$doc
+||expleboted.com^$all
 ||faran.ac.ir/wp-content/$all
 /^https:\/\/[0-9a-z]{7}\.([0-9a-z]{7})\.top\/[0-9a-z]{7}\?t=\1&cid=[0-9a-z]+/$doc,to=top,match-case
 ||staticfile.net^$all
@@ -3794,6 +3796,7 @@ howtoremove.guide##div[style^="border:2px"]
 /^https:\/\/[a-z]{5,7}\.[0-9a-z]{12}\.top\/[0-9a-f]{32}\/[0-9-a-f]{32}\/$/$doc,match-case,to=top
 ||smartaromas.com/income-individual_service_tax-gg-check-hm/$all
 ||monogonzalez.com^$all
+||ennatcaraposin.com^$all
 ||watchadsfree.com^$all
 ||vercel.app/americaplata.com.html^$doc
 ||acconsult.info/*/CHFINAL/$doc
@@ -4916,6 +4919,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||koundayori.com^$doc
 ||pub-*.r2.dev/dse_sign.html^$doc
 ||qhigh.com^$all
+||myshielstore.xyz^$all
 ||oficialinesp.wixsite.com^$doc
 ||uwelldeutschland.com^$all
 ||i.redi-ana.jp^$doc
@@ -5441,6 +5445,7 @@ windowsreport.com##.code-block
 ||myjobdhl.earcu.com^$all
 ||kms-pc.com^$doc
 ||coralnov.jp^$doc
+||antitrojanwalls.live^$all
 ||amazouo9.com^$all
 ||pinksales-pools.pages.dev^$doc
 ||mslive.pro^$all
@@ -5452,6 +5457,7 @@ windowsreport.com##.code-block
 /cloudflare-v1-getup-*.html^$doc
 ||bleachbit.com^$doc
 ||mybluehost.me/*/swisscom/$doc
+||hoplariumped.com^$all
 ||semrushshop.com^$all
 ||lovemelo.jp^$doc
 /^https:\/\/[-a-z]{4,}\.dogfriendlytahoe\.com\//$doc,to=dogfriendlytahoe.com
@@ -5969,6 +5975,7 @@ windowsreport.com##.code-block
 ||dev-7614646544.pantheonsite.io^$all
 ||storage.googleapis.com/*/muse.js
 ||surgecardinfo.click^$doc
+||prizecloud.sa.com^$all
 ||sites.google.com/view/helpp2k^$all
 ||help-for-work-*.pages.dev^$doc
 ||moecoco.com^$doc
@@ -6143,6 +6150,10 @@ windowsreport.com##.code-block
 .com-id*.com^
 .avito.www.booking.
 .com-id*.info^
+||*mercadolibre*^important
+||use-application-dns.net^$empty,important
+||[0-9]{1,5}-[0-9]{1,5}-[0-9]{1,5}-[0-9]{1,5}.nstool.*
+||*^$dnstype=HTTPS
 /services/t/l?referrer=
 ||coinpot.co^$third-party
 ||smartctr.com^$third-party
@@ -12293,6 +12304,7 @@ _WebVitalsReporter_
 ||durationmedia.net^$third-party
 /googleTracking.js
 ||pphwrevr.com^$third-party
+/b.k3r.jp/?a=$image
 ||izinal.com/log
 /pulsario.js
 ||sub2tech.com^$third-party
@@ -18439,10 +18451,6 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*mercadolibre*^important
-||use-application-dns.net^$empty,important
-||[0-9]{1,5}-[0-9]{1,5}-[0-9]{1,5}-[0-9]{1,5}.nstool.*
-||*^$dnstype=HTTPS
 ||*tsdk.vivo.com.cn^
 ||*.mmstat.com^
 ||*serror*.wo.com.cn^
