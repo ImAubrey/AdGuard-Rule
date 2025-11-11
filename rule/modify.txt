@@ -1,4 +1,4 @@
-# Update time: 2025-11-11 09:26:41
+# Update time: 2025-11-11 20:39:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7863,6 +7863,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 ||dmcdn.net/behavior/
 ||pub.pixels.ai/metrics-lib.js
 ||decideinteractive.com^$third-party
+@@||sizhiai.com/api/stat?$~third-party
 ||museter.com/track.php?
 ||dhl.com/g8Dj6P8TAg/
 ||browserpusher.com^$third-party
@@ -16218,6 +16219,7 @@ _track_pixel.gif?
 ||kaggle.com/api/i/diagnostics.MetricsService
 ||4pda.ru/stat/
 ||mi.com/stat/
+@@||siteintercept.qualtrics.com/$domain=idealo.de
 ||foxpush.com^$third-party
 ||cpcmanager.com^$third-party
 ||sohu.com/pv.js

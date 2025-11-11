@@ -1,4 +1,4 @@
-# Update time: 2025-11-11 09:26:41
+# Update time: 2025-11-11 20:39:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -946,6 +946,7 @@
 |bolt.jebe.renren.com^
 |tj.g.pptv.com^
 |emma-414870e223.huodonghezi.com^
+|donate.wikimedia.org^
 |mtrace.play.cp81.ott.cibntv.net^
 |admusicpic.music.126.net^
 |sashimi.royli.dev^
