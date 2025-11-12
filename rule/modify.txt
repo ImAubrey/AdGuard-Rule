@@ -1,4 +1,4 @@
-# Update time: 2025-11-11 20:39:33
+# Update time: 2025-11-12 09:26:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9410,6 +9410,7 @@ _beacon?
 ||behance.net/v2/logs
 ||citysearch.com/tracker/
 ||deezer.com/ajax/gw-light.php?method=triton.pixelTracking&
+||logofa.st/js/script.js
 /csp_204?
 ||flocktory.com^$third-party
 ||getstat.net^$third-party
@@ -9433,6 +9434,7 @@ _beacon?
 /appinsightor.min.js
 /event?eventType=
 ||devphp.org.ua^$third-party
+||shipfa.st/js/script.js
 /impr.gif?
 /vendor/analytics.js
 ||zoossoft.net^$third-party
@@ -11067,6 +11069,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||cimri.com/api/pixel
 /track?eventKey=
 /trackingpixel.php
+||fitymi.app/js/script.js
 ||heatmap.it^$third-party
 /vwFiles/analytics/*
 ||mapquest.com/logger
@@ -11646,6 +11649,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 .facebook.com/tr/$image
 ||brcdn.com^$third-party
 /figanalytics-short-ttl.js
+||datafa.st/js/script.js
 ||yahoo.com/beacon?
 ||beacon.kmi-us.com^$third-party
 ||amazonaws.com/jsstore/*/ge.js
@@ -16909,7 +16913,6 @@ _rpc/log?
 ||alljapanesepass.com/ascripts/gcu.js
 ||visumo.jp/Content/js/tracking.js
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
-/resource?zones=
 ||ch3ngl0rd.com/hit/
 .inxserver.com/transparent.gif
 ||citygridmedia.com/tracker/
@@ -17131,6 +17134,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||appmetrica.yandex.com^$third-party
 /NNAnalyticsWPSites.js
 @@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
+/api/datafast/*
 ||k.p-n.io/event-stream
 ||exe.bid^$third-party
 ||email-reflex.com^$third-party
@@ -17301,6 +17305,7 @@ _imp?Log=
 /EmailOpenTrackLog.aspx?$image
 @@||nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 ||dataperforma.com^$third-party
+||codefa.st/js/script.js
 ||letro.jp^$third-party
 ||breadpayments.com/log
 ||googleusercontent.com/*/wf/open?upn=$image
