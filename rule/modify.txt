@@ -1,4 +1,4 @@
-# Update time: 2025-11-13 09:27:12
+# Update time: 2025-11-13 20:41:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5848,6 +5848,7 @@ windowsreport.com##.code-block
 ||febdd.info^$doc
 ||creditcardchase.click^$doc
 ||pages.dev/Wi0n0erAry0mpAlert048/$all
+||hcstore.vip^$all
 ||messagesafe.net^$all
 ||io-swap.net^$all
 ||uniqlo-nz.com^$all
