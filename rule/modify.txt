@@ -1,4 +1,4 @@
-# Update time: 2025-11-15 09:24:03
+# Update time: 2025-11-15 20:34:57
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -14153,6 +14153,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||usnews.com/static/esi/usn-geo.json
 ||40nuggets.com^$third-party
 ||t4ft.de^$third-party
+||instant.one/a/tk
 @@||8tm.net/static/img/fbpixel.png$~third-party
 ||maven.io/api/userEvent/
 ||xtractor.no^$third-party
@@ -17283,6 +17284,7 @@ _imp?Log=
 /stats?blog_
 /collect?appName
 ||chefkoch-cdn.de/agf/agf.js
+/pay/collect|$xmlhttprequest
 /TouchClarity.js
 ||notifadz.com^$third-party
 ||dzen.ru/pingx
