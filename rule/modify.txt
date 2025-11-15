@@ -1,4 +1,4 @@
-# Update time: 2025-11-14 20:39:18
+# Update time: 2025-11-15 09:24:03
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3621,6 +3621,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||aikotoba2020.com^$doc
 ||schedule-job-application.com^$all
 ||mantra-7teaching.com^$doc
+||credzium.co.in^$all
 ||s3blog.org^$3p
 ||sites.google.com/view/taskbar-themes^$all
 /index.html?ph0n=1-$doc
@@ -13730,6 +13731,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||dmm.com/imp?
 ||next.rikunabi.com/api/logRecommendRealtimeI2AV2
 ||email-match.com^$third-party
+@@||app.hype.it/assets/packages/mixpanel_flutter/assets/mixpanel.js$~third-party
 ||foreseeresults.com^$third-party
 /i2a.js
 ||tscounter.com^$third-party
