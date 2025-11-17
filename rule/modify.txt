@@ -1,4 +1,4 @@
-# Update time: 2025-11-17 09:27:23
+# Update time: 2025-11-17 20:39:57
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11106,7 +11106,6 @@ gbatemp.net##+js(set, admiral, noopFunc)
 /script.hash.outbound-links.pageview-props.tagged-events.js
 /keen-tracking.js
 /comscore_beacon/*
-||nbcnews.com/_next/static/chunks/ads.$script,domain=msnbc.com|nbcnews.com
 /eventtracker.js
 @@||glookup.info/api/json/$domain=grabify.link
 ||jumplead.com^$third-party
@@ -16607,6 +16606,7 @@ _rpc/log?
 ||logicsfort.com^$third-party
 /csi?v=*&action=
 /addLinker.js
+||nbcnews.com/_next/static/chunks/ads.$script,domain=nbcnews.com
 /ga-track-external.js
 ||tubitv.com/oz/performance/
 /web/push?
