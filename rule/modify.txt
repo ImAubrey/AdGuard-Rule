@@ -1,4 +1,4 @@
-# Update time: 2025-11-17 20:39:57
+# Update time: 2025-11-18 09:26:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10303,6 +10303,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||videoamp.com^$third-party
 /nielsen.htm
 /web_answertip.js
+@@||konzolvilag.hu^*/click_tracking.js$~third-party
 ||continue.com^$third-party
 ||itmwpb.com/wp-content/plugins/advertise/modules/stats/assets/track.js
 ||shutterstock.com/blog/wp-content/themes/sstk/assets/js/parsely-tracking.min.js
@@ -11651,6 +11652,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 /valnetinccom-adapter.js
 ||yahoo.com/beacon/
 /pvlog.js
+@@||google-analytics.com/analytics.js$script,redirect-rule,domain=mond.how
 /caixinlog.js
 /gtm-suite.js
 .facebook.com/tr/$image
@@ -13563,6 +13565,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||storage.googleapis.com/rasin/*/hm.js
 ||hqq.to/cdn-cgi/trace
 ||travel.co.jp/js/analysis.js
+@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|mond.how|montcopa.org|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 ||userway.org/api/v1/stats
 /wutime-adblocktracker/*
 /ping?rid=
@@ -17541,7 +17544,6 @@ _event_tracking?
 ||snaps.vidiemi.com^$third-party
 .netcologne.de/-open2/$image
 ||triggit.com^$third-party
-@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 ||richard-group.com^$third-party
 ||browser-intake-datadoghq.eu^$third-party
 ||olegcassini.com.tr/0/sendEventV2
@@ -18476,12 +18478,6 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /\.stenaline\./
@@ -18664,3 +18660,9 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
