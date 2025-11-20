@@ -1,4 +1,4 @@
-# Update time: 2025-11-19 20:40:23
+# Update time: 2025-11-20 09:24:41
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9977,6 +9977,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||ctusolution.com^$third-party
 ||trustpilot.com/stats/
 /pixel-tracker.js
+||mccdn.me/assets/js/widget.js
 ||browsermine.com^$third-party
 ||up4stream.com/js/anti.js
 ||rapidspike.com/performance/
@@ -11911,6 +11912,7 @@ _WebVitalsReporter_
 /newslink.reuters.com/img/*$image
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 ||zazzle.com.au/svc/px
+||storage.googleapis.com/builder-preview/iframe/pixel.js
 /add_page_view?
 /s/js/ta-2.3.js?
 ||cbsaavideo.com/measurements/

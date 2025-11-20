@@ -1,4 +1,4 @@
-# Update time: 2025-11-19 20:40:23
+# Update time: 2025-11-20 09:24:41
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1004,6 +1004,7 @@
 |click.uve.mobile.sina.cn^
 |w.l.qq.com^
 |yads.yahoo.co.jp^
+|analytics-pilot.kaggle.com^
 |optimus-ads-ykx.amap.com^
 |ads.eu.msn.com^
 |xblgdvrassets3010.blob.core.windows.net^
