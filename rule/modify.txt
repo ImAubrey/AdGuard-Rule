@@ -1,4 +1,4 @@
-# Update time: 2025-11-22 09:22:48
+# Update time: 2025-11-22 20:34:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2947,6 +2947,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||whfdny.org^$all
 ||codeanyapp.com/info/cc.php^$doc
 ||iconstaff.top^$all
+||popcornpump.xyz^$all
 ||itsaol.com^$all
 ||jibberjot.top^$all
 ||codeanyapp.com/Swiss_com/$doc
@@ -3060,6 +3061,7 @@ support.ublock.org##div.hero-unit > div.search-box--hero-unit::before:style(cont
 /config?key=6922a2c8-d1e9-43be-b201-749543d28fe1
 ||fortune-mooon.com^$doc
 ||nanroom.net^$doc
+||xblocklist*.pages.dev^$all
 pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-button-box-green
 ||impotsgouv.*.wcomhost.com^$doc
 ||dydynight.org^$doc
@@ -3359,7 +3361,6 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||dazzl.ink/btupdate/$all
 .com/t6pp7e3?t=$doc
 ||second-love-love.jp^$doc
-/^https:\/\/[a-z0-9]{4,15}\.pages\.dev\/\d\/login\b/$doc,match-case,to=pages.dev
 ||zbzqgm.com^$all
 ||more-followers.com^$doc
 ||top^$doc,ipaddress=15.207.81.128
@@ -3924,6 +3925,7 @@ howtoremove.guide##.entry-content > div:has-text(Special Offer)
 ||sites.google.com/view/easylaunch|$doc
 ||discreet-discussions.com^$doc
 ||officialkmspico.com^$doc
+pages.dev##html:not([class]) > body.gradient-bg.min-h-screen.flex.items-center.justify-center > div.glass-card.max-w-md.w-full.text-center > form#loginForm.flex.flex-col
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{3,}\.[a-z]{2,11}\.?[a-z]{0,7}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]{7}(?:&t=\d+)?&o=[0-9a-z]{7}/$doc,frame,match-case
 ||xaiofficial.com^$all
 ||airupfrance.fr^$doc
@@ -9717,6 +9719,7 @@ _beacon?
 /krux-sass-helper.js
 ||media-lab.ai/ana-sentry.js
 ||ultimate-guitar.com/components/ab/event?
+||engageplatform.com/api/trace/d/record?
 /link.morningbrew.com/img/*.gif
 ://stats.*/code/e.js
 /rrweb-record-pack.js
