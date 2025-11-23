@@ -1,4 +1,4 @@
-# Update time: 2025-11-23 09:46:04
+# Update time: 2025-11-23 20:34:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4096,6 +4096,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 ||my-ee-web.web.app^$all
 ||peach2023.net^$doc
 ||enexdirecto.com^$all
+||web.core.windows.net/vault/stack-vendor.mp3
 .shop/?h=*&user=$script,3p
 /2/index.html?c=$doc
 ||mejp.net^$doc
@@ -4704,6 +4705,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||alienxchain*.pages.dev^$doc
 ||carrefour-enbacktoschool4.pages.dev^$all
 ||koiroomnotice.net^$doc
+||smartdefend.net^$all
 ||officesoftcn.com^$all
 ||resort-life7.com^$doc
 ||webmo.fr/Fi/SP/PANKKI/*/auth/$doc
@@ -5476,6 +5478,7 @@ windowsreport.com##.code-block
 ||gotmylink.xyz^$all
 ||meetpie.net^$doc
 ||massgrav.zapto.org^$doc
+||xchekersite.pages.dev^$all
 ||2mydns.net/fr-impot-gouv^$doc
 ||familysimulators.$all
 ||xv-bloging-info.com^$all
@@ -10221,6 +10224,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /trackvisit?
 ||socsi.in^$third-party
 ||culturaltracking.ru^$third-party
+||redirect.prod.experiment.routing.cloudfront.aws.a2z.com/x.png$domain=amazon.com
 /pinterest-pixels.js
 ||deovr.com/api_logs/
 ||track-re01.com^$third-party
@@ -12974,6 +12978,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 /bundle-analytics.js
 ||newsmax.com/js/analytics.js
 /hit.asp?
+||maillist-manage.eu/wa/actionlogger?
 ||wecantrack.com^$third-party
 ||all-top.ru/cgi-bin/topcount.cgi?
 /feature/metrics$xmlhttprequest
@@ -13571,7 +13576,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||storage.googleapis.com/rasin/*/hm.js
 ||hqq.to/cdn-cgi/trace
 ||travel.co.jp/js/analysis.js
-@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|mond.how|montcopa.org|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 ||userway.org/api/v1/stats
 /wutime-adblocktracker/*
 /ping?rid=
@@ -14022,6 +14026,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||mouse3k.com^$third-party
 ||nelonenmedia.fi/hitcounter$image
 ||booking.com/sendlayoutevents
+@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 ||streamelements.com/z/i.js
 /stats/page_view_
 @@||akamaihd.net/nbad/player/*/appmeasurement.js$domain=watch.nba.com
@@ -14034,6 +14039,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||e-click.jp^$third-party
 ||smassets.net/assets/anonweb/anonweb-click-
 ||w3t.cn^*/fx.js
+||metrobyt-mobile.com/self-service-metro/v1/logging
 ||video.mediaset.it/polymediashowanalytics/
 ||amazonaws.com/snowplow-zitcha.js
 /jscounter.php
