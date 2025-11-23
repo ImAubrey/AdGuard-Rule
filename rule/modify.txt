@@ -1,4 +1,4 @@
-# Update time: 2025-11-22 20:34:26
+# Update time: 2025-11-23 09:46:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11325,7 +11325,6 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||mangakoma.net/ajax/manga/view
 ||cnobi.jp^*/js/imp.
 ||pr0gram.org^$third-party
-||browser.events.data.microsoft.com^$ping
 /aftrack.asp
 /script.tagged-events.js
 ||gatorleads.co.uk^$third-party
@@ -13188,6 +13187,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 /global-cdm.net:443/sap/public/cuan/*/pixel.gif
 /hs_track.js
 /s-pcjs.php
+||browser.events.data.microsoft.com/OneCollector/
 ||logs.datadoghq.com^$third-party
 /transparent_pixel.gif
 ||ubertags.com^$third-party
