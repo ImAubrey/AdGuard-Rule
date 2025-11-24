@@ -1,4 +1,4 @@
-# Update time: 2025-11-23 20:34:04
+# Update time: 2025-11-24 09:41:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3305,7 +3305,6 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||global-ttalk.jp^$doc
 ||okdebrid.com^$doc
 ||lss.site-lfss.com^$doc
-/^https:\/\/[a-z]{7,8}\.[a-z]{2,8}\/[!.+,=?@\[][\/0-9a-z]{20,30}\.[-a-z]{2,7}$/$doc,to=agency|art|asia|auction|bar|beauty|beer|best|biz|business|cam|cards|casa|click|cloud|coupons|digital|diy|fashion|food|forum|gay|guru|hair|info|life|live|living|link|ltd|my|ooo|property|pw|rocks|run|sbs|shop|skin|store|studio|tattoo|tech|today|top|uno|work,match-case
 ||accounts.maxweb.academy^$all
 ||moody-night.net^$doc
 ||tokimekimaildesu.net^$doc
@@ -5211,6 +5210,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||pecuniatrck.com^$all
 ||syncwallet.pages.dev^$all
 ||edeetion.com^$all
+/^https:\/\/[a-z]{7,8}\.[a-z]{2,8}\/[!.+,=?@\[][\/0-9a-z]{20,30}\.[-a-z]{2,7}$/$doc,to=agency|art|asia|auction|bar|beauty|beer|best|biz|bond|business|cam|cards|casa|click|cloud|coupons|digital|diy|fashion|food|forum|gay|guru|hair|info|life|live|living|link|ltd|my|ooo|property|pw|rocks|run|sbs|shop|skin|store|studio|tattoo|tech|today|top|uno|work,match-case
 ||app-lido-finance-v2.com^$all
 ||altitudesim.ca/*/CHFINAL/$doc
 ||chamsocthekhachang-$doc
