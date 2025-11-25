@@ -1,4 +1,4 @@
-# Update time: 2025-11-25 09:26:35
+# Update time: 2025-11-25 20:40:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9611,6 +9611,7 @@ _beacon?
 ||northbeam.io^$third-party
 /cgi-bin/CP/*
 ||link.myjewishpage.com^$image
+||sockr.birdie.so/event
 ||mygostore.com/api/log
 /Web_JS_Stats.js
 ||77tracking.com^$third-party
@@ -16554,6 +16555,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||bonprix.*/ajax/landmarks/
 .getblueshift.com/q/
 /external-tracking.min.js
+||futureparty.com/nectar_analytics
 ||leadberry.com^$third-party
 ||pushsquare.com/blank.gif
 ||api.vk.com/method/statEvents.
@@ -17050,6 +17052,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||gaijin.net/tag?
 ||spelar.org^$third-party
 ||pr-linktausch.de^$third-party
+||futureparty.com/page_view
 ||paypal.com/ptrk/
 ||porzo.com/js/analytics
 ||pptv.com/stg/add?
@@ -18505,6 +18508,7 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 /trkhinv\.gbm\./
 /-p2p\.pull\.yximgs\.com/
 /adserve2/
+/httpdns\.gslb\.yy\.com/
 /-p2p-v2\.pull\.yximgs\.com/
 /-logsdk\.kwai-pro\.com/
 /adobeanalytic\./
@@ -18611,6 +18615,7 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 /appsflyer/
 /a8track\./
 /-analytics-events\.apple\.com/
+/httpdns-v6\.gslb\.yy\.com/
 /-launches\.appsflyersdk\.com/
 /\.fstsrv/
 /secureanalytics\./
@@ -18630,6 +18635,12 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /^adsensor\./
 ||*inapps.appsflyersdk.com^
 /^dwtrack\./
@@ -18671,9 +18682,3 @@ delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
