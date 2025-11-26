@@ -1,4 +1,4 @@
-# Update time: 2025-11-26 09:26:50
+# Update time: 2025-11-26 20:41:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5580,6 +5580,7 @@ windowsreport.com##.code-block
 ||fukutoku-miyako.com^$doc
 ||codeanyapp.com/swiss-login/$doc
 ||club-gagnant.online^$all
+||fund85-748164.com^$all
 /SRC/SRC.php?c=$doc
 ||blender3d.es^$doc
 ||tenmei-michibiki.com^$doc
@@ -5984,6 +5985,7 @@ windowsreport.com##.code-block
 ||indylatinawrds.com:8443/impact^$doc
 ||kin-un2023.com^$doc
 ||dev-7614646544.pantheonsite.io^$all
+||anget-direct.info^$all
 ||storage.googleapis.com/*/muse.js
 ||surgecardinfo.click^$doc
 ||prizecloud.sa.com^$all
@@ -8679,6 +8681,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 ?sam-item/track-impressions
 @@||stats.gleague.nba.com/templates/angular/tables/events/shots.html$~third-party
 ||prospecteye.com^$third-party
+||autoblog.com/.api/admiral
 ||source.chromium.org/v1/logging
 ||prnx.net^$third-party
 ||didna.io^$third-party
