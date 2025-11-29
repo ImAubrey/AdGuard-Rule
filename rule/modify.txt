@@ -1,4 +1,4 @@
-# Update time: 2025-11-28 20:39:36
+# Update time: 2025-11-29 09:24:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3845,6 +3845,7 @@ howtoremove.guide##div[style^="border:2px"]
 ||smsiak.pl^$doc
 ||core.windows.net/media/webs.mp4
 ||vodafonetopup.com^$all
+||sessionsverificates.live^$all
 ||secure.globalultracdn.com^$all
 ||play-lustgoddess.com^$all
 ||z-lib.id^$all
@@ -5582,7 +5583,6 @@ windowsreport.com##.code-block
 ||fukutoku-miyako.com^$doc
 ||codeanyapp.com/swiss-login/$doc
 ||club-gagnant.online^$all
-||fund85-748164.com^$all
 /SRC/SRC.php?c=$doc
 ||blender3d.es^$doc
 ||tenmei-michibiki.com^$doc
@@ -12623,6 +12623,7 @@ _WebVitalsReporter_
 /nielsen.js
 ||yandex.*/clck/$~ping
 ||ugprod.geeksforgeeks.org/post/api/usertracking/
+/api/v1/impressions|
 ||apkonline.ru^$third-party
 ||ohayoo.io^$third-party
 ||litix.io^$third-party
@@ -14023,6 +14024,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 /stats/header.js
 ||agilecrm.com^$third-party
 ||ria.ru/flv/livestat.aspx?
+||lgrckt-in.com^$third-party
 ||hotstar.com/v1/track
 /frontend-sentry-
 ||vo.msecnd.net/api/beYableJSv2.js
@@ -14086,6 +14088,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 /smartpixel.$domain=~smartpixel.com|~smartpixel.tv
 ||countby.com^$third-party
 ||web-visor.com^$third-party
+||d21y75miwcfqoq.cloudfront.net/436f3341$image,redirect=nooptext
 /trackga.min.js
 ||lastminute.com/ose/processEvent
 /exactag.js
@@ -17754,6 +17757,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /UserTraceCookie?
 /t.ifly.southwest.com/*$image
 ||kontur.ru/abtests/
+||poshmark.com/trck/
 ||terra.com^*/td.asp?bstat
 ||llanalytics.com^$third-party
 /bingimpression?
