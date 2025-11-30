@@ -1,4 +1,4 @@
-# Update time: 2025-11-30 09:44:51
+# Update time: 2025-11-30 20:36:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2157,7 +2157,6 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||mybluehost.me/*/netflix/net/login.php$doc
 /_dating\d\/index\.html\?aref=/$doc
 ||snfee.com^$all
-/^https:\/\/[a-z]{3,5}\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9a-z]{10}|\d{8})\.html$/$doc,match-case,to=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|quest|sale|sbs|skin|today|top|wiki|work|world|xyz
 ||honda-law-office.jp/wp-includes/70038/Earthcorejp/|$doc
 ||mybluehost.me/CFF/$doc
 ||lovely-lovely.com^$doc
@@ -4771,6 +4770,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||dc.tensgpt.com^$all
 ||danakagetrsm.vercel.app^$all
 ##html > body.body > div.container > div.content > form > table.optoutForm
+/^https:\/\/[a-z]{3,5}\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9a-z]{10}|\d{8})\.html$/$doc,match-case,to=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|quest|rest|sale|sbs|skin|today|top|wiki|work|world|xyz
 ||ilil.in^$all
 /wp-assets-optimizer.html^$doc
 ||login-chat.net^$doc
@@ -7374,7 +7374,6 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 /mlopen_track.html
 /plausible.outbound-links.js$domain=~plausible.io
 /T/OFC4/*$image
-@@||hzcdn.io/bff/static/vendor/sourcepoint-lib/index.*.js$script,domain=marktplaats.nl
 /HitTracker/*
 @@||collector.appconsent.io/hello$domain=lachainemeteo.com|lefigaro.fr
 ||calvinklein.us/n8ANl15k/init.js
@@ -16025,7 +16024,6 @@ _track_pixel.gif?
 ||rhinoseo.com^$third-party
 ||smart-widget-assets.ekomiapps.de^$third-party
 ||mabipa.com^$third-party
-||hzcdn.io/bff/static/vendor/sourcepoint-lib/
 /umt.gif?
 ||peakcounter.dk^$third-party
 ||counterseite.de^$third-party
