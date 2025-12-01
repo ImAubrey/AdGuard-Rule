@@ -1,4 +1,4 @@
-# Update time: 2025-11-30 20:36:19
+# Update time: 2025-12-01 09:52:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11081,6 +11081,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 /beacon/user-data
 ||wc4.net^$image,third-party
 ||dnevnik.si/tracker/
+@@||plans.humana.com/assets/analytics-events-$script,~third-party
 /jump/?jl=
 /web_traffic_capture.js
 ||legenhit.com^$third-party
@@ -11573,6 +11574,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 @@||qm.wrc.com/gtm.js$~third-party
 ||experte.com/t/events
 /eventsBeacon?
+@@||secure.moneygram.com/embed/*/webAnalytics/pageMapping.json?$~third-party,xmlhttprequest
 ||juno.com/start/javascript.do?message=
 ||getstats.org^$third-party
 /log_h.jsp
@@ -12000,6 +12002,7 @@ _WebVitalsReporter_
 /api/adplogger/*
 ||codemarketing.cloud/rest/
 /ping.gif?
+||crosset.onward.co.jp/ajax/getExternalServiceWebTrackingTags
 ||www.ebay.*/gh/dfpsvc?
 .hilton.com/subscription/watermark.gif?
 ||developers.miro.com/pageview
@@ -12146,6 +12149,7 @@ _WebVitalsReporter_
 ||usermaven.com^$third-party
 ||da-kolkoz.com/da-top/track/
 /emos2.js
+||insight-x.tech/trackerlog-publisher-service/tracker-logs
 ||cdn.sourcesync.io/open-pixel/source-pixel.js
 ||ncom.dk^$third-party
 @@||dd.auspost.com.au/tags.js$script,~third-party
@@ -13811,6 +13815,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 omni.soundestlink.com$image
 /webstats/track.php?
 @@||analytics.itunes.apple.com^$~third-party
+@@||secure.moneygram.com/embed/*/webAnalytics/pageMappingOverrides.json?$~third-party,xmlhttprequest
 ||cue.search.naver.com/api/*/log/
 /referrer.js
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
@@ -15757,6 +15762,7 @@ _track_pixel.gif?
 ||nvapi.nicovideo.jp/v1/bandit-machine/
 /jserrLog?
 .beacon.min.js
+@@||datadoghq-browser-agent.com/*/datadog-logs.js$domain=crosset.onward.co.jp
 /dow_analytics.js
 /imp.php?
 ||mbsy.co^$third-party
