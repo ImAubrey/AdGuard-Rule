@@ -1,4 +1,4 @@
-# Update time: 2025-12-02 09:28:35
+# Update time: 2025-12-02 20:42:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12368,7 +12368,6 @@ _WebVitalsReporter_
 ||24log.it^$third-party
 ||trrsf.com.br/metrics/
 /pageview?session=
-@@||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com|bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov
 ||p.ctpost.com/article?
 ||cosmi.io^$third-party
 ||facebook.com/ai.php?
@@ -13465,6 +13464,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||m0mentum.net^$third-party
 /trk/api/*
 ||vmmpxl.com^$third-party
+@@||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com|bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov|toyotagazooracing.com
 /open.aspx?
 ||stats21.com^$third-party
 /livezilla/server.php?request=track&
