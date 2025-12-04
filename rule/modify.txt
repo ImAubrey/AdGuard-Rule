@@ -1,4 +1,4 @@
-# Update time: 2025-12-04 09:37:50
+# Update time: 2025-12-04 20:42:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -15685,6 +15685,7 @@ apnews.com,sidereel.com##+js(acs, document.getElementsByTagName, .pubads)
 /scmetrics.*/b/ss/*
 ||ulclick.ru^$third-party
 ||amung.us^$third-party
+madewell.com##+js(cookie-remover, dns_cookie)
 ||littlebigsnake.com/event?
 ||getinsights.io^$third-party
 ||leboncoin.fr/rav-monitoring/
@@ -18657,12 +18658,6 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /^adsensor\./
 ||*inapps.appsflyersdk.com^
 /^dwtrack\./
@@ -18704,3 +18699,9 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
