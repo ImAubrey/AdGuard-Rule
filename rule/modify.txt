@@ -1,4 +1,4 @@
-# Update time: 2025-12-03 20:42:23
+# Update time: 2025-12-04 09:37:50
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6177,6 +6177,7 @@ windowsreport.com##.code-block
 /iMAWebCookie.js
 ||navilytics.com^$third-party
 /collect?event=
+accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitch.tv,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,x.com,yahoo.com##+js(set, navigator.globalPrivacyControl, false)
 ||groupbycloud.com/gb-tracker-client-5.min.js
 /jquery.audiencetarget.js
 ||minewhat.com^$third-party
@@ -6586,7 +6587,6 @@ reuters.com##+js(aost, admiral, .js?)
 ||smartclip-services.com^$third-party
 ||hornymatches.com^*/visit.php?
 @@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
-delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 /elqidg.js
 ||keytrack.de^$third-party
 ||playhop.com/clck/
@@ -11020,6 +11020,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||dsparking.com^$third-party
 ||playvideohd.com/cdn-cgi/trace
 /piwik2.
+||trulia.com/track/trackingPixel.gif?
 ||static-od.com/setup/$third-party
 /sgtracker.js
 ||pointillist.com^$third-party
@@ -11681,6 +11682,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||amazonaws.com/jsstore/*/ge.js
 ||helloretail.com/serve/collect/
 _ad_impression.
+accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitch.tv,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,x.com,yahoo.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 /clicktracker.php
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
 ||listrakbi.com/api/ActivityEvents/
@@ -14892,6 +14894,7 @@ _view_pixel&$image
 @@||gnar.grammarly.com/events$xmlhttprequest,domain=account.grammarly.com
 ||cdnopw.com^$third-party
 ||interakt.ru^$third-party
+||cdn.zg-api.com^*/analytics.js
 ||barrons.com/cookies/pixel.gif
 ||trustmary.io/agg-event
 |http://a.pr-cy.ru^$third-party
@@ -18488,7 +18491,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allaboutthetea.com,allmovie.com,allmusic.com,allthingsthrifty.com,amessagewithabottle.com,androidpolice.com,antyradio.pl,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwickexpress.com,barnsleychronicle.com,becomingpeculiar.com,bethcakes.com,blogher.com,bluegraygal.com,briefeguru.de,carmagazine.co.uk,cattime.com,cbr.com,chaptercheats.com,cleveland.com,collider.com,comingsoon.net,commercialobserver.com,competentedigitale.ro,crafty.house,dailyvoice.com,decider.com,didyouknowfacts.com,dogtime.com,dualshockers.com,dustyoldthing.com,faithhub.net,femestella.com,footwearnews.com,freeconvert.com,frogsandsnailsandpuppydogtail.com,fsm-media.com,funtasticlife.com,fwmadebycarli.com,gamerant.com,gfinityesports.com,givemesport.com,gulflive.com,helloflo.com,homeglowdesign.com,honeygirlsworld.com,hotcars.com,howtogeek.com,insider-gaming.com,insurancejournal.com,jasminemaria.com,kion546.com,lehighvalleylive.com,lettyskitchen.com,lifeinleggings.com,liveandletsfly.com,lizzieinlace.com,localnews8.com,lonestarlive.com,madeeveryday.com,maidenhead-advertiser.co.uk,makeuseof.com,mardomreport.net,masslive.com,melangery.com,milestomemories.com,mlive.com,modernmom.com,momtastic.com,mostlymorgan.com,motherwellmag.com,movieweb.com,muddybootsanddiamonds.com,musicfeeds.com.au,nationalreview.com,nj.com,nordot.app,nothingbutnewcastle.com,nsjonline.com,oakvillenews.org,observer.com,oregonlive.com,pagesix.com,pennlive.com,pinkonthecheek.com,predic.ro,puckermom.com,qtoptens.com,realgm.com,robbreport.com,royalmailchat.co.uk,samchui.com,sandrarose.com,screenrant.com,sheknows.com,sherdog.com,sidereel.com,silive.com,simpleflying.com,sloughexpress.co.uk,spacenews.com,sportsgamblingpodcast.com,spotofteadesigns.com,stacysrandomthoughts.com,ssnewstelegram.com,superherohype.com,syracuse.com,tablelifeblog.com,thebeautysection.com,thecelticblog.com,thecurvyfashionista.com,thefashionspot.com,thegamer.com,thenerdyme.com,thenonconsumeradvocate.com,theprudentgarden.com,thethings.com,timesnews.net,topspeed.com,toyotaklub.org.pl,travelingformiles.com,tutsnode.org,tvline.com##+js(rmnt, script, '"v4ac1eiZr0"')
 ||stripchat.com/pixel/
 ||sponsorcounter.de^$third-party
-delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ||wideangle.co^$third-party
 ||pvmax.net^$third-party
 ||onetrust.com^$ping
