@@ -1,4 +1,4 @@
-# Update time: 2025-12-04 20:42:51
+# Update time: 2025-12-05 09:38:06
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -16406,6 +16406,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 ||dropbox.com/pithos/ux_analytics
 ||snowsignal.com^$third-party
+||weekand.com/413gkwMT/init.js
 @@||trackjs.com/agent/$script,domain=delta.com
 ||petametrics.com^$domain=meidastouch.com
 ||count.ly^$third-party
@@ -18658,6 +18659,12 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /^adsensor\./
 ||*inapps.appsflyersdk.com^
 /^dwtrack\./
@@ -18684,6 +18691,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /^omgmta\./
 /^wlmonitor\./
 /^admaster\./
+||*stun.kugou.com^
 /^adsystem\./
 /^partnerad\./
 /^duomeng\./
@@ -18699,9 +18707,3 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
