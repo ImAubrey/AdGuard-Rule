@@ -1,4 +1,4 @@
-# Update time: 2025-12-07 20:35:55
+# Update time: 2025-12-08 09:38:40
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1976,6 +1976,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||after-pop-abc.com^$doc
 ||hkwordpress.com/public/export/SM-ORDER/excelz/$doc
 @@||onelink.me/*://app/$doc
+||interbank.mobi^$doc
 ||richheart.completelifetime.com^$doc
 ||deepseek.$all,to=deepseek.app|deepseek.top|~deepseek.com
 ||publicationgroup.substack.com^$all
@@ -2037,6 +2038,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||e5r6e9u.com^$doc
 ||mytemp.website/safetyfileaccess.htm^$doc
 ||e-stata.ru/track/1/$all
+||guidance.ghost.io^$doc
 ||tg.sv/panggahokeee^$all
 ||metamsklogix.godaddysites.com^$all
 ||afflatus.consulting/deutschepost/$all
@@ -2372,6 +2374,7 @@ onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||rbchidraulica.com.br/info/verify^$all
 ||wishhoree1890.com^$doc
 ||wa-groupbebe.pages.dev^$all
+||github.io/*/js/flscn.js
 ||royalclass.info^$doc
 ||everydaykennsyou.com^$doc
 ||uspost.*.cfd^$all
@@ -2390,6 +2393,7 @@ onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||dwp-yous*.top^$doc
 ||jybelinda.com^$all
 ||akgi45sas.jp^$doc
+||curve.sbs^$doc
 ||for20-coco.com^$doc
 ||maroohost.online^$all
 ||web.core.windows.net/media/ados.mp3
@@ -2441,6 +2445,7 @@ onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||apppleheaddd.jp^$doc
 ||runkit.com/masterposte/dying-light-2-crack-on-pc-denuvo-fix^$all
 ||z-library.cc^$doc
+||github.io/*/media/beep.mp3
 ||xczzfvxknafgoawjtv.com^$doc
 ||megadrive.solutions^$all
 /unsub_sent.php|$doc,method=post
@@ -3055,6 +3060,7 @@ productkeyfree.org,productkeyforfree.com,wazusoft.com,piratesfile.com,kalicrack.
 ||miraiah.jp^$doc
 appuals.com##.info.box
 ||simpleswap.at^$doc
+||elecfrunn.digital^$doc
 ||jemi.so/correo-24-ar^$all
 ||download-campaign.com^$doc
 ||matchtap.site^$doc
@@ -3395,6 +3401,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||dazzl.ink/btupdate/$all
 .com/t6pp7e3?t=$doc
 ||second-love-love.jp^$doc
+||onchain-debank.com^$doc
 ||zbzqgm.com^$all
 ||more-followers.com^$doc
 ||top^$doc,ipaddress=15.207.81.128
@@ -4099,6 +4106,7 @@ z13.web.core.windows.net##+js(aeld, DOMContentLoaded, fullscreenEnabled)
 ||ipwho.is^$xhr,domain=web.core.windows.net
 ||arclk.net^$all
 ||arousalx.com^$all
+||ksj.d7jyu2dnjykvx.amplifyapp.com^$doc
 ||a1tai7.jp^$doc
 ||www-winbank-lfremhmida*.codeanyapp.com^$doc
 ||iospace.top^$all
@@ -4508,6 +4516,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 ||eujsiyajep.niigata.jp^$doc
 ||loveri.net^$doc
 ||friends-connect.com^$doc
+||usecorns.live^$doc
 ||tadaapo.gift^$doc
 ||sall.etchat.jp^$doc
 /click.php?key=*&dj_placement=$doc
@@ -4819,6 +4828,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||student-finance-auth.firebaseapp.com^$all
 ||r2.dev/blobamexbsatt.html^$doc
 ||atplink.com/responseandresolutioncenter$all
+||lido-elhereum.net^$doc
 ||grass-io.$all,to=cc|vip|~getgrass.io
 ||grabgiftcard.net^$doc
 ||heart-uranai.com^$doc
@@ -5399,6 +5409,7 @@ windowsreport.com##.code-block
 ||techblogs.cc^$doc
 ||myhotdates.com^$all
 ||ofyou-beautiful.com^$doc
+||trezorsuite.wasmer.app^$doc
 ||coc-gov.com^$doc
 ||trckams.com^$all
 /mc-test/*/index.php?cid=$doc
@@ -5852,6 +5863,7 @@ windowsreport.com##.code-block
 .one/?h=*&user=$script,3p
 ||discordvip.createsocialcard.top^$all
 ||ixxx-blognew.com^$all
+||curve-flnance.com^$doc
 ||servicemailorange25.wixsite.com^$all
 ||the-north-face.gr^$all
 /human-verify-system.html^$doc
@@ -6055,6 +6067,7 @@ windowsreport.com##.code-block
 ||request-page-violation-*.surge.sh^$all
 ||panoramacharter.click^$doc
 ||during-the-holiday.com^$doc
+||zer.potrfolio.cc^$doc
 ||com/go/$doc,to=com,ipaddress=3.0.178.139
 ||coup-ling.net^$all
 ||drcolomo.com^$doc
@@ -6079,6 +6092,7 @@ windowsreport.com##.code-block
 ||vercel.app/mixcc.html/$doc
 ||hapinet.net^$doc
 ||v2-camelot-ex.com^$doc
+||github.io/*/js/esc.js
 ||codeanyapp.com/dgte/$doc
 ||tada-love.jp^$doc
 ||r30address.com^$doc
@@ -17820,6 +17834,7 @@ _event_tracking?
 /api/v1/metrics
 ||gateway.src-play.com/Analytics/
 ||mynsystems.com^$third-party
+/emailopen?q=$image
 /outLoging.js
 ||feedblitz.com/imp?$third-party
 /ajax-hits-counter/increment-hits/index.php
