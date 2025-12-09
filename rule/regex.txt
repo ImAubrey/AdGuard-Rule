@@ -1,4 +1,4 @@
-# Update time: 2025-12-08 20:41:17
+# Update time: 2025-12-09 09:37:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -116,7 +116,6 @@
 |mixers.sina.cn^
 |inst.360safe.com^
 |cnc.fe01.lg.xiaomi.com^
-|m.zdjgj.cn^
 |floor.bz.mgtv.com^
 |stat.loli.net^
 |ad-h5-cdn.soulapp.cn^
@@ -317,7 +316,6 @@
 |ad.hzyoka.com^
 |in.vipliangmei.com^
 |api.jr.mi.com^
-|m.shilian168.cn^
 |httpdns-sc.aliyuncs.com^
 |log-yex.youdao.com^
 |mob.bz.mgtv.com^
@@ -398,7 +396,6 @@
 |ads.msn.com^
 |bksoup.v.qq.com^
 |adashx.ut.youku.com^
-|gcpool.ddns.net^
 |mvconf.uk.cloud.360safe.com^
 |adimg.mobile.sina.cn^
 |api.waptest.taobao.com^
@@ -688,7 +685,6 @@
 |click.tz.simba.taobao.com^
 |visitors.thingiverse.com^
 |p.cloudcraft.co^
-|tracking.klickthru.com^
 |tel.fe01.hh.xiaomi.com^
 |soup.v.qq.com^
 |eco.taobao.com^
@@ -1022,7 +1018,6 @@
 |sdkinit.taobao.com^
 |d6.sina.com.cn^
 |pb.hd.sohu.com.cn^
-|probe.whatismyipaddress.com^
 |sxcdn1.herokuapp.com^
 |delivery.maihehd.com^
 |ad-analysis.pconline.com.cn^
@@ -1052,7 +1047,6 @@
 |dns.weixin.qq.com^
 |9ibbcq2d.sina.cn^
 |biz.live.xunlei.com^
-|radpool.ddns.net^
 |h-adashx4yt.ut.taobao.com^
 |a.alimama.cn^
 |logview.uc.alimama.com^
@@ -1077,7 +1071,6 @@
 |p2p*.qq.com^
 |pv.vipwm.cc^
 |gecko-lq.snssdk.com^
-|gamecenter.iqiyi.com^
 |err.taobao.com^
 |count.taobao.com^
 |adn-collector.voodoo-tech.io^
