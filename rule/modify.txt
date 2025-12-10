@@ -1,4 +1,4 @@
-# Update time: 2025-12-09 20:42:25
+# Update time: 2025-12-10 09:40:05
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2083,7 +2083,6 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||ff-info-online.com^$doc
 ||sites.google.com/view/shinhan-fiinance/^$all
 ||changenovv.info^$doc
-/^https://d[0-9a-z]{19}\.[a-z]{3}-[a-z]{7,8}\.pro\/xm\/xm\d\/\?/$doc,to=pro
 /^https?:\/\/[-a-z0-9]{8,}\.ru\/\?load=[a-zA-Z0-9]+(-[a-zA-Z0-9]+)+$/$doc,match-case,to=ru
 ||core.windows.net/haruto.js
 ||family-simulators.io^$doc
@@ -3720,11 +3719,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||lin-link.net^$doc
 ||jamjamjam.biz^$doc
 ||midjourneys.$doc,to=~midjourney.com|~edu|~gov
+/^https://d[0-9a-z]{19}\.[a-z]{3,4}-[a-z]{7,8}\.pro\/xm\/xm\d\/\?/$doc,to=pro
 ||ff-exchange.cloud^$doc
 ||loveaholics.com^$doc
 ||fly.storage.tigris.dev/completing/default-page.html?X-Amz-Algorithm=$doc
 ||p0cket1ove.jp^$doc
-/^https://d[0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]\.[a-z][a-z][a-z]-[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?\.pro\/xm\/xm[0-9]\/\?/$doc
 ||preprod.exclusifparis.com/modules/deleteordersfree/$all
 ||gofun.jp^$doc
 ||jdoasjfojuhod.com^$doc
@@ -4978,6 +4977,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||himasearch.shop^$doc
 ||romacsystems.com/*/CHFINAL/$doc
 ||atchm.net^$doc
+/^https://d[0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]\.[a-z][a-z][a-z][a-z]?-[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?\.pro\/xm\/xm[0-9]\/\?/$doc
 /?utm_source=*&j1=1^$doc
 ||job-apply-now.com^$all
 ||guardan.io^$all
@@ -7330,6 +7330,7 @@ baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, adm
 @@||onesignal.com/api/v1/sync/$domain=oshibuta.com
 ||ebaystatic.com/cr/v/c01/nh24082119176031f8a0afcb42d.js
 ||doceree.com^$third-party
+||a.wishabi.com/track.gif?
 ||tapeadvertisement.com/stat/
 /wp-sentry-browser.min.js
 .publish0x.com/t/
@@ -16697,7 +16698,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||ereportz.com^$third-party
 /confiant.js
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
-||wishabi.net^$third-party
 .keap-link003.com/$image
 ||thehackernews.com/zscripts/
 ||mysocialpixel.com^$third-party
