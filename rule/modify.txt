@@ -1,4 +1,4 @@
-# Update time: 2025-12-12 09:40:02
+# Update time: 2025-12-12 20:42:05
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8828,6 +8828,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 usatoday.com##+js(set, gnt.x.adm, '')
 /analytics.v1.js
 ||calltrackingmetrics.com^$third-party
+||assets.minutemediacdn.com/mm-cwv-tracker/
 ||brightside.me/metric-collector
 ||123-counter.de^$third-party
 _trackWebtrekkEvents.
@@ -11041,6 +11042,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||slashdot.org/country.js
 /jump/clk1.php
 /track/svbaff01/*
+/track/?verbose=
 ||adsmatcher.com^$third-party
 .personaclick.com/track/$image
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
@@ -18765,12 +18767,6 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /^adsensor\./
 ||*inapps.appsflyersdk.com^
 /^dwtrack\./
@@ -18813,3 +18809,9 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
