@@ -1,4 +1,4 @@
-# Update time: 2025-12-12 20:42:05
+# Update time: 2025-12-13 09:26:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2632,6 +2632,7 @@ howtoremove.guide###solution_v2_de
 ||pccdirect.site^$all
 ||6kk2a4t.com^$doc
 ||atof42ap.click^$all
+||soiflare.fi-v2.to^$all
 ||fastandslut.com^$all
 ||jinsei-undesu.com^$doc
 ||arealrea.com^$doc
@@ -3183,6 +3184,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||zlibrary.to^$all
 ||freewebhostmost.com/DARKSIDE/hype/$doc
 ||jnjn.jp^$doc
+||1lnch.fi-v2.to^$all
 ||587.jp^$doc
 ||mialifestyle.com^$all
 ||molekinha.com.br/*/alibaba.com/$doc
@@ -3391,6 +3393,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 .com/t6pp7e3?t=$doc
 ||second-love-love.jp^$doc
 ||onchain-debank.com^$doc
+||app.conigecko.live^$all
 ||zbzqgm.com^$all
 ||more-followers.com^$doc
 ||top^$doc,ipaddress=15.207.81.128
@@ -3415,6 +3418,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||fortune-moon.net^$doc
 ||miracle.magic-connect.net^$doc
 ||oficial-kmspico.com^$doc
+||suitee-trezorrsuite.com^$all
 ||unclepigva.com^$all
 ||profileclub.info^$doc
 ||juniorsvote.com^$all
@@ -3864,6 +3868,7 @@ howtoremove.guide##div[style^="border:2px"]
 ||geekotg.com^$all
 ||r2.dev/_Fm7-alert.mp3
 ||olive121407.studio.site^$all
+||go-trust.co.com^$all
 ||techinnsrl.com^$doc
 ||b-7.jp^$doc
 ||getkmspico.com^$doc
@@ -3922,6 +3927,7 @@ cracksmid.com##div[style=""] > center > center
 ||cocoro-liberty.com^$doc
 ||kygt-tpnr.com^$doc
 ||bulksms.services/*/NetFlxinc/$doc
+||simpleswapp.com^$all
 ||com/go/$doc,to=com,ipaddress=3.0.82.215
 ||zlibrary.st^$doc
 ||recklessdroughtburglar.com^$doc
@@ -3975,6 +3981,7 @@ pages.dev##html:not([class]) > body.gradient-bg.min-h-screen.flex.items-center.j
 ||kinun-2023.com^$doc
 ||sportslevels.com^$all
 ||wixsite.com/foliobanbajio$doc
+||fusebox-elavon.org^$all
 ||bambam-bi.com^$doc
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,to=com|top|~usps.com
 appuals.com##.appua-reimage-top
@@ -4524,6 +4531,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 ||static-fonts.com^$all
 ||tr1net.com^$all
 ||shopamzselling.com^$all
+||phanton-wallet.fi-v2.to^$all
 ||dreamatch.jp^$doc
 ||gamingdebates.com^$all
 ||kodiak-finance-kodiakfinance.com^$doc
@@ -5458,6 +5466,7 @@ windowsreport.com##.code-block
 ||mybluehost.me/*/phpmailer/src/dh/$doc
 ||vstergioul.sites.sch.gr^$all
 ||pmequebeclic.com^$all
+||rabby.fi-v2.to^$all
 /or/.espace-.client/(;authentication.htm^$doc,to=~orange.fr
 ||support-metahelpcenter-id*.netlify.app^$all
 ||silversex.com^$doc
@@ -5486,6 +5495,7 @@ windowsreport.com##.code-block
 ||tradestrategy.substack.com^$all
 ||layer-pj.com^$doc
 ||stylexlab.ru^$doc
+||elevon-payment.com^$all
 ||mybluehost.me/*/amendes2024org/$doc
 ||convertwithwave.com^$doc
 ||fukugyou2022.net^$doc
@@ -5725,6 +5735,7 @@ windowsreport.com##.code-block
 ||stc.tools^$doc
 ||gocheck.pages.dev^$all
 ||adultpics.wiki^$all
+||trezorsafety.com^$all
 ||geheimerseitensprung.com^$all
 ||kuaizip.com^$all
 .online/js/script5.js
@@ -6114,6 +6125,7 @@ windowsreport.com##.code-block
 ||rokuseikantei.com^$doc
 ||cqjykj.com^$all
 ||guarda.dev^$all
+||sunswap.nexus^$all
 ||nitr5eur6fjhtsw.jpn.com^$doc
 ||dienlanhdienmayxanhvn.com^$all
 ||pages.dev/al1.mp3
@@ -18767,6 +18779,12 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /^adsensor\./
 ||*inapps.appsflyersdk.com^
 /^dwtrack\./
@@ -18809,9 +18827,3 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
