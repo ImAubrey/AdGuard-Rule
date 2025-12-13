@@ -1,4 +1,4 @@
-# Update time: 2025-12-13 09:26:18
+# Update time: 2025-12-13 20:37:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5860,6 +5860,7 @@ windowsreport.com##.code-block
 ||edfringe.com/*.php$all
 ||mcbien.net^$doc
 ||semrushmall.com^$all
+||matexvotes.ct.ws^$all
 ||legder.at^$doc
 ||xn--edkc9m807k.jp^$doc
 ||meguri-eye.net^$doc
@@ -6612,6 +6613,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 ||you.com/api/recordEvent
 ||tiktok.com/v1/list
 ||weiyun.com/cgi-bin/tianshu_report
+@@||curos.ca/res/*/resources/scripts/lib/fingerprint.js$~third-party
 ||socketviking.net^$third-party
 @@||ebanking.meezanbank.com/AmbitRetailFrontEnd/js/fingerprint2.min.js$~third-party
 ||btncdn.com^$third-party
@@ -11314,6 +11316,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 /smart-pixel.min.js
 /statscollector.min.gz.js
 ||cloudfront.net*/keywee.min.js
+||curos.ca/res/*/resources/scripts/lib/fingerprint.js$script,redirect=fingerprint2.js,important
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
 /gate.amnesty-international.*/open.php?
 ||qwant.com/v2/api/ux/surveys?
@@ -13013,7 +13016,6 @@ _logHuman=
 ||fw-ad.jp^$third-party
 /qlitics.js
 ||myscoop-tracking.googlecode.com^$third-party
-/fingerprint.js$domain=~github.com
 /TrafficCookie.js
 /cdn_cookie_service.html
 ||theblock.co/api/analytics
@@ -14088,6 +14090,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||rbc.ru/rightarror.gif
 ||happysex.ch/app_jquery/Tracking.js
 ||monitis.com^$third-party
+||js.monitor.azure.com/scripts/c/ms.analytics-web-4.min.js$domain=microsoft.com
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 -universal-analytics/
 ||eluxer.net^$third-party
@@ -16646,6 +16649,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||bigreal.org^$third-party
 ||akamai.net/chartbeat.
 /Tracking?t=
+/fingerprint.js^$domain=~github.com
 ||netflix.com/msl/playapi/cadmium/logblob/
 /trackPage.js?
 ||beliebtestewebseite.de^$third-party
@@ -18370,6 +18374,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /footer-eventdata.js
 ||lumitos.com^$third-party
 /sdctag2.js
+||s.yimg.com/ss/analytics-$script,domain=yahoo.com
 ||2dehands.be/px/
 /tealiumTagsData.js
 ||minutemediacdn.com/campaign-manager-client/
@@ -18779,12 +18784,6 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /^adsensor\./
 ||*inapps.appsflyersdk.com^
 /^dwtrack\./
@@ -18827,3 +18826,9 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
