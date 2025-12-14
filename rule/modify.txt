@@ -1,4 +1,4 @@
-# Update time: 2025-12-14 09:46:02
+# Update time: 2025-12-14 20:37:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10680,6 +10680,7 @@ $ping,third-party
 ||vistanet.it^*/category_event.js
 /newsletter/log/*$image
 ||sexybabepics.net/re/?ping
+||zeropartyforms.com^*/digibox.gif?
 /fb_pixel_page_view
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 ||devatics.io^$third-party
@@ -17064,6 +17065,7 @@ _rpc/log?
 /fingerprint3.js
 ||tuttogratis.it/gopix.php?
 /impression/track?
+||web.aips-sol.com/v1/events?
 /clientlib-analytics-core.
 ||find-ip-address.org^$third-party
 ||adcrowd.com^$third-party
@@ -18600,6 +18602,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /jquery.google-analytics.js
 /scripts/hbx.js
 /magento2.js
+||upsell-app.logbase.io/metrics
 ||about.me/track?
 ||logbor.com^$third-party
 ||free-hit-counters.net^$third-party
