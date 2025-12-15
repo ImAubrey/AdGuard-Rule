@@ -1,4 +1,4 @@
-# Update time: 2025-12-15 09:43:40
+# Update time: 2025-12-15 20:45:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2051,6 +2051,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||undercover-chats.com^$doc
 ||yyqxjp.vip^$all
 ||tsumatsuma.xyz^$doc
+||coinomi.co.com^$all
 ||e-messsage.com^$all
 ||codeanyapp.com/*/DKB_new/$doc
 ||easybits.cc^$doc
@@ -2318,6 +2319,7 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 ||kaiun-com.com^$doc
 /?u1=*&o1=*&sid=t*~$doc
 ||amaenbo.jp^$doc
+||app-phantom.co.com^$all
 ||hi-a-so-bi.net^$doc
 ||yoloo-jp.com^$doc
 ||smism.jp^$doc
@@ -2397,6 +2399,7 @@ onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||dwp-yous*.top^$doc
 ||jybelinda.com^$all
 ||akgi45sas.jp^$doc
+||trust-wallet-app.to^$all
 ||curve.sbs^$doc
 ||for20-coco.com^$doc
 ||maroohost.online^$all
@@ -3207,6 +3210,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||gz-gmy.com^$all
 ||spiritual-leading.com^$doc
 ||web3-projects-beta.vercel.app^$all
+||trust-download.co.com^$all
 ||carrierzone.com/sharepoint/$doc
 ||axdsz.pro^$all
 ://xml-v4.*.online/click?$doc
@@ -6233,6 +6237,7 @@ windowsreport.com##.code-block
 ||login-ourtime.members-datings.workers.dev^$all
 ||lalien10.com^$doc
 ||electrum-data.cc^$doc
+||app-atomic.co.com^$all
 ||fastndio.s3.eu-central-1.amazonaws.com^$all
 ||scnv.jp^$doc
 ||pdupmdatdenrfojs-wmzds.com^$doc
@@ -8218,6 +8223,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /beaconimages.netflix.net/*$image
 ||roblox.com/_/_/1px.gif
 ||alvenda.com^$third-party
+/mailfoogae.appspot.com/t^$image
 ||hub.com.pl^$third-party
 ||exitintel.com/log/$third-party
 ||gazzetta.it^*/stats.php?
@@ -16346,6 +16352,7 @@ _track_pixel.gif?
 ||widgetserver.com^*/image.gif?
 ||activeprospects.com^$third-party
 ||parameter.dk^$third-party
+||giftornado.com/counter.php
 /rntracking.js
 ||glam.com/jsadimp.gif?
 ||booking.com/collector/
