@@ -1,4 +1,4 @@
-# Update time: 2025-12-15 20:45:16
+# Update time: 2025-12-16 09:41:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2043,6 +2043,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||tg.sv/panggahokeee^$all
 ||metamsklogix.godaddysites.com^$all
 ||afflatus.consulting/deutschepost/$all
+||shopify-app.co.com^$all
 ||wildmeets.com^$doc
 ||gyakunan.net^$doc
 @@||toss.onelink.me/*service.toss.im$doc,1p
@@ -2403,6 +2404,7 @@ onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||curve.sbs^$doc
 ||for20-coco.com^$doc
 ||maroohost.online^$all
+||skrill-app.top^$all
 ||web.core.windows.net/media/ados.mp3
 ||kaleempc.info^$doc
 /\.(?:cc|com|top|vip)\/index\/index\/lang\/[a-z]{2}-[a-z]{2}\b/$doc,to=cc|com|top|vip
@@ -3015,6 +3017,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 .top/pg?do=$doc,to=top
 /wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-0311104f6b606e1ad6e4eaeb8aa6336c.js$script
 ||clinitex.fr/META5KYC/$doc
+||www-firsthorlzen.top^$all
 ||staticfonts.com^$all
 ||iglawfirm.com/services/antai-fr/$doc,to=~amendes.gouv.fr
 ||peazip.com^$doc
@@ -3217,6 +3220,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 /bouncy.php?*&inPopUp=$all
 .html?cep=*&cost=0.$doc
 ||flirtyconnection.click^$all
+||www-tipelti.top^$all
 ||daddyclub.net^$doc
 ||zerocha.jp^$doc
 ||adblock1.com^$all
@@ -4191,6 +4195,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 ||lbg-calcs.vercel.app^$all
 ||orca-slicer.$doc
 ||iwq.pages.dev^$all
+||qonto-app.co.com^$all
 ||rune-luna-moon.com^$doc
 ||maiil-myatt.weeblysite.com^$all
 ||gyakusimei.com^$doc
@@ -4683,6 +4688,7 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||sanka.fun^$doc
 ||dbs.applerewardsstore.com^$all
 ||audacity.it^$doc
+||ray-dium.cyou^$all
 ||popsads.link^$all
 ||meet-up.jp^$doc
 /^https:\/\/(?:[-a-z0-9]{2,}\.){1,2}(?:[a-z]{2,3}|click|online)\/(?:[-a-z0-9]+\/){1,4}[a-zA-Z0-9]{150}\/verify\b/$doc,match-case,method=get,to=~edu|~gov
@@ -4822,6 +4828,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||lucky-letter.com^$doc
 ||b-cdn.net/noir.js
 ||air-bnb.check-$doc
+||trezor-app-suite.co.com^$all
 ||kikon-match.co.jp^$doc
 /^https?:\/\/www\.[a-z]{8,11}\.com\/product\/(?:[0-9a-z]+-)*(?:%[%0-9a-z]{8,}-)+(?:[0-9a-z]+-)*(?:[%0-9a-z]{8,}-)*[%0-9a-z]+\/?$/$doc,match-case,ipaddress=/^173\.2(08|32)\.\d{3}\.\d{3}$/
 ||mediafire.com/folder/hh6g372sijmjr/$doc
@@ -4843,6 +4850,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||content-voilation-$doc
 ||healthbeviva.com^$doc
 ||fasterfiles.net^$all
+||first-horizon.co.com^$all
 ||codeanyapp.com/*/SWISSPASSC/$doc
 ||adswip.com^$all
 /28kxhS^$doc,to=online|shop|top|~sberbank.ru
@@ -4881,6 +4889,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||mangogo.work^$doc
 ||b-cdn.net/get-this-puzzle-solved.html^$doc
 ||alienmanufacturerchairman.com^$doc
+||www.exodusupdate.app^$all
 ||ntc69oia.com^$doc
 ||secure-paymentech.co.com^$all
 ||airpos.co.kr/.well-known/pki-validation/*/MitID/$doc
@@ -6212,6 +6221,7 @@ windowsreport.com##.code-block
 ||z-lib.ai^$doc
 ||mirusiru.online^$doc
 /wp-content/plugins/advanced-user-manager/aum-script.js
+||connexpay-app.co.com^$all
 ||me08mo.com^$doc
 ||gok.iumgs654s.com^$doc
 ||f1nancier.com^$doc
@@ -10302,6 +10312,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /track-event.js
 @@||trbo.com/plugin/trbo_$script,domain=blau.de
 ||mcssl.com^*/track.ashx?
+@@||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
 ||sobeycloud.com/Services/Stat.
 ||snrbox.com/tck/
 ||connect.facebook.net^*/fbds.js$third-party
