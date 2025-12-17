@@ -1,4 +1,4 @@
-# Update time: 2025-12-17 09:27:06
+# Update time: 2025-12-17 20:43:06
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4852,6 +4852,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||easybank.abojo.dev^$all
 ||every-enjoy.com^$doc
 ||putrans.com^$all
+||optimism-lab.network^$doc
 ||www.youtube.com/channel/UCwmnsubfOCTN_xMhg4czo5A/$doc
 .store/?h=*&user=$script,3p
 ||007itshop.com^$all
