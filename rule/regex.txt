@@ -1,4 +1,4 @@
-# Update time: 2025-12-18 09:27:49
+# Update time: 2025-12-18 20:41:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1242,6 +1242,7 @@
 ||beehiiv-adnetwork-production.s*.amazonaws.com^
 ||telemetry*.transcend.io^
 ||log*-misc-lf.amemv.com^
+||v*.denakop.com^
 ||opnked*.xyz^
 ||ax.*.ifeng.com^
 ||ajx*.online^
