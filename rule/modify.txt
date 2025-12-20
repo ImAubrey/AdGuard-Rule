@@ -1,4 +1,4 @@
-# Update time: 2025-12-19 20:40:06
+# Update time: 2025-12-20 09:26:54
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1964,6 +1964,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||compiledoctor.com^$third-party
 ||pub-77106c9273be4f3fbec6b6d6c3c51b7f.r2.dev^$all
 /^https:\/\/hotels-\d{6}\.eu\//$doc,to=eu|~booking.com
+||hyper-liquid.to^$all
 ||theweddingmahotsav.com^$all
 ||pakket-bpost-be.web.app^$all
 ##body > .security-container[style="opacity: 1; transform: translateY(0px);"]
@@ -2899,6 +2900,7 @@ lewdgames.to,warezcrack.net,freeprosoftz.com,scracked.com,cyberspc.com,crackinto
 ||koitushinterneinnehmen.s3.eu-central-1.amazonaws.com^$all
 ||voting-express-tl.ct.ws^$all
 ||meguri-y.net^$doc
+||srvclouds.com^$all
 ||r2.dev/human-verify-system.html$doc
 ||core.windows.net*/js/leave.js
 =1&id=*&traceId=$doc
@@ -2957,6 +2959,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||um-bredirect.com^$all
 ||ssgalaxy-sysgold.jp^$doc
 ||cskh-vib.$doc
+||izzuo.it.com^$all
 ||submit-job-application.com^$all
 ||kmspicodownloads.com^$doc
 ||heed-mvor.com^$doc
@@ -3170,6 +3173,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||govuk.*.top^$doc
 ||fitgirlrepacksite.com^$all,domain=~fitgirl-repacks.site
 ||ccefactoring.com.br/ziujhyhtrer/$doc
+||sparrowwallef.com^$all
 .click/*?s=*&g=*&q=$script,3p
 ||tokumeichatmail.net^$doc
 ||windows.net/media/yaketsuku.mp3
@@ -3255,6 +3259,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||crowdstrike0day.com^$doc
 ||ondigitalocean.app/*^phone=+1-$doc
 ||fab-inst.com^$doc
+||ads.goolge.site^$all
 ||crowdstrikeoutage.info^$doc
 ://x_x-*-*.translate.goog/?_x_tr_$doc
 /?cid=*&dom=$doc
@@ -3568,6 +3573,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||pages.dev/jupiter.js
 ||www-simmonsbank.top^$all
 ||vortex-comger.com^$doc
+||shop-bitboxswiss.de^$all
 ||tomikuji.com^$doc
 /axad/?lpkey=$doc
 ||divine.alegria-verte.com^$doc
@@ -3680,6 +3686,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 ||trezor.la^$doc
 ||kmspico-oficial.com^$doc
 ||watchdjav.online^$all
+||amehuns.cc^$all
 ||pancake-exchange.org^$doc
 ||champion-place77.com^$doc
 ||youvetube.com^$all
@@ -3792,6 +3799,7 @@ howtoremove.guide###gray_de
 ||dopeblackfriday.shop^$all
 ||seloriva.net^$doc
 ||foryouswk.jp^$doc
+||simplswap.org^$all
 ||jersey-yupoo.com^$doc
 ||ptron.net^$doc
 ||tiger.qnews.media^$3p
@@ -3903,6 +3911,7 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||wpenginepowered.com/usps/$doc
 ||o-cean-fortune.biz^$doc
 ||play.google.com/store/apps/details?id=com.juku_para^$doc
+||changenow-swap.org^$all
 howtoremove.guide##div[style^="border:2px"]
 ||vercel.app/decision&copyright^$doc
 ||zlibis.com^$doc
@@ -4411,6 +4420,7 @@ crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in
 ||fetishpartner.com^$all
 ||trastwallet.co.com^$all
 /?{BV_SRCID}&$doc
+||bifboxswiss.de^$all
 ||glitch.me/*/nationwide^$doc
 ||platinumpla2023.com^$doc
 ||book234h.fun^$doc
@@ -4666,6 +4676,7 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||fitgirl-repacks.*^$all,domain=~fitgirl-repacks.site,to=~fitgirl-repacks.site
 ||pub-*.r2.dev/ledge.html^$doc
 ||trustwallet-pc.to^$all
+||u-tronscan.com^$all
 /^https?:\/\/[a-z]{7}\.[a-z]{8,11}\.com\/products\/(?:[0-9a-z]+-)*(?:%[%0-9A-F]{8,}-)+(?:[0-9a-z]+-)*(?:[%0-9A-F]{8,}-)*[-%0-9A-Fa-z]+\/?$/$doc,match-case,ipaddress=/^23\.2\d{2}\.\d{2}\.\d{2}$/
 ||improveyourhand.online^$doc
 ||dr5rmdxa.com^$doc
@@ -4675,6 +4686,8 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||voice-ourtime.*.workers.dev^$doc
 ||datelove.top^$doc
 ||iohub.sbs^$all
+||scotanomect.cc^$all
+||scotlacomp.cc^$all
 /recaptcha_verification*.html^$doc
 ||datasecurity-review-status.vercel.app^$all
 ||goldenluck.jp^$doc
@@ -4742,6 +4755,7 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||dbs.applerewardsstore.com^$all
 ||audacity.it^$doc
 ||camerica.co.com^$all
+||official-ledgrlive.com^$all
 ||ray-dium.cyou^$all
 ||popsads.link^$all
 ||meet-up.jp^$doc
@@ -4793,6 +4807,7 @@ pages.dev##html[lang="ja"] > body.flex.items-center.min-h-screen > div.w-full.ma
 ||supp0rt.co.za^$all
 ||windows.net/js/customone.js
 ||dualcoin.cfd^$doc
+||jup-dex.org^$all
 ||majorgeeks.com/images/icons/red_icon_18x17px.png$image
 ||desk-dictionary.com^$doc
 ||eternal-station.jp^$doc
@@ -4890,6 +4905,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||mediafire.com/folder/hh6g372sijmjr/$doc
 ||officialxai.com^$all
 ||tadakyun.net^$doc
+||scotia-connect.co.com^$all
 ||mybestclick.net^$3p
 ||easybank.abojo.dev^$all
 ||every-enjoy.com^$doc
@@ -5178,6 +5194,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||mybluehost.me/*/swpassfr/$doc
 ||hjr-wq.com^$doc
 ||usps.*.sbs^$doc
+||changenow-exchange.org^$all
 .online/js/mouse.js
 ||paderrer.com^$all
 /bonus/com-*.php?c=$doc
@@ -5664,6 +5681,7 @@ windowsreport.com##.code-block
 ||app-slash.co.com^$all
 ||www-tipolti.top^$all
 ||antitrojanwalls.live^$all
+||stinglebom.cc^$all
 ||amazouo9.com^$all
 ||pinksales-pools.pages.dev^$doc
 /index.html?Anph=1-$doc
@@ -5740,6 +5758,7 @@ windowsreport.com##.code-block
 ||gooqlee.com^$all
 /views/choice/*/start.php^$doc
 ||checkx.pages.dev^$all
+||paytrace-app.co.com^$all
 ||dfr.bubu88yjt.jp^$doc
 ||jp.rian-rian.com^$doc
 ||2chlovers.web.fc2.com^$doc
@@ -6370,6 +6389,7 @@ windowsreport.com##.code-block
 ||runkit.com/skylinespc/cities-skylines-ii-crack-pc-full-setup^$all
 ||m-eteor.com^$doc
 ||smore91.net^$all
+||orca-finance.org^$all
 ||will-kantei.com^$doc
 /^https:\/\/telegram-[a-z]{3,4}\.com\//$doc,to=com|~telegram.org
 ||tokenp0ckht.click^$all
@@ -16940,7 +16960,6 @@ _rpc/log?
 ||logicsfort.com^$third-party
 /csi?v=*&action=
 /addLinker.js
-||nbcnews.com/_next/static/chunks/ads.$script,domain=nbcnews.com
 /ga-track-external.js
 ||tubitv.com/oz/performance/
 /web/push?
@@ -17583,6 +17602,7 @@ _imp?Log=
 ||npa.thetimes.com/stats
 /activity.gif?
 /SiteSearchAnalytics.js
+||core-features.cambridge.org/proxy/client/metrics
 ||naayna.com^$third-party
 ||zoominfo.com/osx7m0dx/init.js
 ||ascend.ai^$third-party
