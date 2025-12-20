@@ -1,4 +1,4 @@
-# Update time: 2025-12-20 09:26:54
+# Update time: 2025-12-20 20:37:21
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11921,6 +11921,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||barilliance.net^$third-party
 /statistic/pixel?
 ||z444o.com^$third-party
+||govisibl.io^$third-party
 ||plug.it^*/iol_evnt.
 /mail.thermomix.com/i/*$image
 ||braze.eu/api/v3/data/
@@ -12533,6 +12534,7 @@ _WebVitalsReporter_
 @@||moneypartners.co.jp/web/*/fingerprint.js$~third-party
 /log.aspx?
 ||evorra.net^$third-party
+||military1st.com/datalayer/index/events?
 /__wsm.gif
 ||d2-apps.net^$third-party
 ||cp.finanzfrage.net/stats
