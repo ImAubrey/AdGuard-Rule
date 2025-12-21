@@ -1,4 +1,4 @@
-# Update time: 2025-12-20 20:37:21
+# Update time: 2025-12-21 09:45:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2032,7 +2032,6 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||steamcommunitylog.chez.com^$all
 ||jackpotmastersdanske.com^$all
 ||merukore.jp^$doc
-||onelink.me/*&af_web_dp=$doc
 ||wild-match-network.com^$all
 ||keepsclean.com^$all
 ||telus.signup.clik2pay.com^$all
@@ -2203,7 +2202,6 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 ||onlyfreelesbianporn.com^$all
 ||newverifyyourself-system*.b-cdn.net^$doc
 ||microsofthotmailsi1.wixsite.com^$all
-||appsuites.framer.ai^$all
 ||atlier-ad.jp^$doc
 ||fuku-fukuu.com^$doc
 ||crackingpatching.com^$doc
@@ -2229,7 +2227,6 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 ||windows.net/*/jupiter.js
 ||tomodachiproject.com^$doc
 ||suite.tem3.io^$all
-||started-trezo.framer.ai^$all
 ||vdbank.com.vn^$all
 ||urlcod.com^$all
 ||worshippers.store^$all
@@ -2320,7 +2317,6 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 ||web-interface.eu^$doc
 ||ticketsparis24.com^$all
 ||mfilecloud.com^$all
-||live-desktop-ledgr.framer.ai^$all
 /wp-content/plugins/simple-post-enhancer/spe-script.js
 ||lgz7820.com^$doc
 ||bdvenlinea-banvenez-beram.pages.dev^$all
@@ -2466,7 +2462,6 @@ onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||xczzfvxknafgoawjtv.com^$doc
 /unsub_sent.php|$doc,method=post
 ||adserver*/?sdomain=$doc,popup
-||trezzrsuite.framer.ai^$doc
 ||kardon-rsa.com^$doc
 ||etcher.net^$all,domain=~etcher.balena.io
 ||skrill-login.top^$all
@@ -2537,7 +2532,6 @@ weightlossdiet.top##+js(acs, open, executeCode)
 ||v2-app-lido-finance.cc^$all
 ||pcnhdukovmhslmie-vgrbx.com^$doc
 ||facture-pdf-secure-*.vercel.app^$all
-||gocrazy.gg^$doc
 .top/prize/*.php?c=$doc
 ^cep=*&s1=$doc
 howtoremove.guide###solution_v2_de
@@ -2777,7 +2771,6 @@ crimsonav.com,ngsingleissues.nationalgeographic.com##+js(acs, atob, new Function
 ||datavibe.sbs^$all
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.primary_download
 ||sws.smart-brain555.com^$doc
-||one-click.cc^$all
 /recaptcha-v*-protocol-$doc
 ||chesscheckersvariation.com^$doc
 ||mybluehost.me/Cope346/$all
@@ -3094,7 +3087,6 @@ productkeyfree.org,productkeyforfree.com,wazusoft.com,piratesfile.com,kalicrack.
 ||abc.luxe5321.com^$doc
 ||gogonews.club^$doc
 ||miraiah.jp^$doc
-||suites-en.framer.ai^$all
 appuals.com##.info.box
 ||simpleswap.at^$doc
 ||elecfrunn.digital^$doc
@@ -3135,7 +3127,6 @@ support.ublock.org##div.hero-unit > div.search-box--hero-unit::before:style(cont
 ||fortune-mooon.com^$doc
 ||nanroom.net^$doc
 ||xblocklist*.pages.dev^$all
-||eng-treezorsute.framer.ai^$all
 pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-button-box-green
 ||impotsgouv.*.wcomhost.com^$doc
 ||dydynight.org^$doc
@@ -3204,7 +3195,6 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||inkscape.it^$doc
 ||kokocha.site^$doc
 ||serverdata.ch^$all
-||mediafire.com/folder/4fsmxnec5zkpl/$doc
 ||you4love.jp^$doc
 ||colorone.jp^$doc
 ||cosdate.jp^$doc
@@ -3452,7 +3442,6 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||onchain-debank.com^$doc
 ||app.conigecko.live^$all
 ||zbzqgm.com^$all
-||home-leger-desktop.framer.ai^$all
 ||more-followers.com^$doc
 ||top^$doc,ipaddress=15.207.81.128
 ||voicehp.com^$doc
@@ -3674,7 +3663,6 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 ||dhl-event.app^$all
 ||docusine.com^$all
 ||qqh4.mom^$all
-||live-desktop-leidgr.framer.ai^$all
 ||iris-making.com^$doc
 ||twitterfollowers.site^$doc
 ||qloi-jjcl.com^$doc
@@ -3697,7 +3685,6 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 .com/SecurityPlugin.zip
 ||electrum.is^$doc
 ||app-ledger-desktop.wasmer.app^$all
-||hub-desktop-ladgr.framer.ai^$all
 ||fr-instagram.com^$all
 ||lu-club-de-matching.com^$doc
 ||riarialuvluv2023.com^$doc
@@ -3763,7 +3750,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||revancedapp.$all,domain=~revanced.app
 ||seloriva.com^$doc
 ||pub-3b4d978c14114185847089b100168c84.r2.dev^$all
-||started-trzor.framer.ai^$doc
 ||audacity.fr^$doc
 ||lin-link.net^$doc
 ||jamjamjam.biz^$doc
@@ -3847,7 +3833,6 @@ howtoremove.guide###gray_de
 ||sg1first-syspro.jp^$doc
 .com/pl?o=$doc
 ||atchao.jp^$doc
-||gitzdownloadkm.cyou^$doc
 ||polyfill-js.cn^$all
 /Win00Security07/index.html$doc
 &t=main9expsess|$doc,to=live
@@ -3939,7 +3924,6 @@ howtoremove.guide##div[style^="border:2px"]
 ||govern-assessment-validation-*.vercel.app^$all
 ||vangphutai.com^$all
 ^s=*&ssk=*&svar=*&z=$doc
-||mediafire.com/folder/86rkvkl7eswi2/$doc
 ||jyk.jp^$doc
 ||trackertrak.com^$all
 ||greengoplatform.com^$all
@@ -4430,13 +4414,11 @@ crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in
 ||codeanyapp.com/Swissp/$doc
 ||stupdownloadf.com^$all
 ||shapebtc.my^$doc
-||get-trezzore.framer.ai^$all
 ||dosudosuo.com^$doc
 .online/js/muse.js
 ||pormota-coop-ee.com^$all
 ||nyancokuji.xyz^$doc
 ||paytoll*.top/ezdrivema^$all
-||us-ledgredesktop.framer.ai^$all
 ||gg.deepseek.$doc,to=~deepseek.com
 ||pichk.myqcloud.com^$doc
 ||topg.jp^$doc
@@ -4681,7 +4663,6 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||improveyourhand.online^$doc
 ||dr5rmdxa.com^$doc
 /a0ler0tm0s.mp3$domain=dev|online|shop
-||mediafire.com/folder/hm0b7x2593fh1/$doc
 /post/FileRotator_ID*/download.php?subid=$xhr
 ||voice-ourtime.*.workers.dev^$doc
 ||datelove.top^$doc
@@ -4697,7 +4678,6 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||immobilibelliniepecunia.$doc,to=immobilibelliniepecunia.*
 ||pancake.run^$all
 ||skinsmonkey.co.com^$all
-||phantomcorestudios.net^$doc
 ||p67-kuku4e.xyz^$doc
 ||wantubad.com^$doc
 ||sumsmsp.info^$doc
@@ -5054,7 +5034,6 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||spiritual-jp.com^$doc
 ||pair-pair.com^$doc
 ||www-firsthorlzan.top^$all
-||home-tzersuite.framer.ai^$all
 /paga-ofertas/bancolombia/*$doc
 ||ftx.onlyfuns.win^$all
 ||gll.metricaga.com^$all
@@ -5800,7 +5779,6 @@ windowsreport.com##.code-block
 ||5dgja.com^$doc
 ||quirkleblip.top^$all
 ||kaaairoo549kai.com^$doc
-||trazore-suites.framer.ai^$doc
 ||m2sg.jp^$doc
 ||fb-business.com^$all
 ||base-dawgz.web.app^$doc
@@ -6337,7 +6315,6 @@ windowsreport.com##.code-block
 ||cheri-sh.jp^$doc
 ||e-c.tokyo^$doc
 ||sparkasse-oberhessen.info^$all
-||descarga.pw^$doc
 ||mantra-7.net^$doc
 .top/index-install.html|$doc
 ||99box.com^$all
@@ -6359,7 +6336,6 @@ windowsreport.com##.code-block
 ||ka73-urara.club^$doc
 ||freefiles-upload.com^$doc
 ||event-redeem.com^$all
-||syntaxwave.lol^$doc
 ||sites.google.com/view/awesome-themes-desktop^$all
 ||tw1.ru/Orange/$doc
 ||mmitalianbeef.square.site^$all
@@ -18986,12 +18962,6 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /^adsensor\./
 ||*inapps.appsflyersdk.com^
 /^dwtrack\./
@@ -19034,3 +19004,9 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
