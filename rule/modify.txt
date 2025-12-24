@@ -1,4 +1,4 @@
-# Update time: 2025-12-24 09:39:30
+# Update time: 2025-12-24 20:41:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6569,6 +6569,7 @@ accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crun
 /sdc2.js
 ||shorthand.com/analytics/
 /stat/fe?
+||client-errors.rebble.io/log-client-error
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 /cx_tracking.js
 ||sessioncam.com^$third-party
