@@ -1,4 +1,4 @@
-# Update time: 2025-12-24 20:41:26
+# Update time: 2025-12-25 09:41:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2294,6 +2294,7 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 ^cep=*&zoneid=$doc
 ||meltiest.jp^$doc
 ||facevideosc.com^$all
+/^https:\/\/(?:[a-z]{4,5}|ja)\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9A-Za-z]{10}|\d{8}|[0-9a-f]{32})\.html$/$doc,match-case,to=biz|blog|cc|cloud|club|info|life|live|me|one|online|shop|site|space|store
 ||aterasigin.com^$all
 ||mai-tel.jp^$doc
 ||ee-payment-issue.web.app^$all
@@ -2959,7 +2960,6 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||aitai.biz^$doc
 ||flaegrudad.com^$all
 ||tadaqyun.net^$doc
-/^https:\/\/[a-z]{4,5}\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9a-z]{10}|\d{8})\.html$/$doc,match-case,to=biz|blog|cc|cloud|club|info|life|live|me|one|online|shop|site|space|store
 ||match-mate.jp^$doc
 ||navi-airbnb.vercel.app^$all
 ||flibberwump.top^$all
@@ -4463,6 +4463,7 @@ crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in
 /verify-me-first-v*.html^$doc
 ||system-update-new-2021.com^$all
 ||www.onmyo.jp^$doc
+/^https:\/\/(?:[a-z]{3,5}|ja)\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9A-Za-z]{10}|\d{8}|[0-9a-f]{32})\.html$/$doc,match-case,to=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|qpon|quest|rest|sale|sbs|skin|today|top|wiki|work|world|xyz
 ||babaroa.net^$doc
 ||www-facebook.$doc
 ||rampostsouthafrican-*.codeanyapp.com^$all
@@ -4937,7 +4938,6 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||dc.tensgpt.com^$all
 ||danakagetrsm.vercel.app^$all
 ##html > body.body > div.container > div.content > form > table.optoutForm
-/^https:\/\/[a-z]{3,5}\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9a-z]{10}|\d{8})\.html$/$doc,match-case,to=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|quest|rest|sale|sbs|skin|today|top|wiki|work|world|xyz
 ||ilil.in^$all
 /wp-assets-optimizer.html^$doc
 ||login-chat.net^$doc
@@ -11282,6 +11282,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /truehits.php?
 /federated-analytics.all.min.js
 ||aimtell.com^$third-party
+||lemrock.com/v1/publishers/tracking/
 ||zazzle.co.nz/botdefender/init.js
 @@||signalshares.com/webtrends.min.js$script,~third-party
 ||aspservice.jp^$third-party
@@ -15696,6 +15697,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||pbstck.com^$third-party
 ||webtrack.savoysystems.co.uk^$third-party
 ||sulia.com/papi/sulia_partner.js/$third-party
+://mail01.monex.co.jp/bin/checker?
 ||onesignal.com/sdks/OneSignalSDKWorker
 /instart.js
 .innologica.com/t/
@@ -18965,12 +18967,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /^adsensor\./
 ||*inapps.appsflyersdk.com^
 /^dwtrack\./
@@ -19013,3 +19009,9 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
