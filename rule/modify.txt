@@ -1,4 +1,4 @@
-# Update time: 2025-12-26 09:40:44
+# Update time: 2025-12-26 20:40:38
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -987,6 +987,7 @@ painart.ru##body > div[id][style^="display: block"][style*="background: red"]
 ||staleshow.com^$third-party
 ||crowdedmass.com^$third-party
 ||tritebadge.com^$third-party
+@@||tvanouvelles.ca^$generichide
 ||cannonchange.com^$third-party
 ||i9w8p.pw^$third-party
 ||epicoldschool.com^$third-party
