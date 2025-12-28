@@ -1,4 +1,4 @@
-# Update time: 2025-12-27 20:38:26
+# Update time: 2025-12-28 09:50:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3516,6 +3516,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||youtunbe.com^$all
 ||content.streamfastcdn.com^$all
 ||ledger-apparaat.com^$all
+||asliceza.org^$all
 ||gnchag.com^$doc
 ||dropbox.com/*/crowdstrike-hotfix.zip^$all
 ||pirikitos.com^$doc
@@ -6860,6 +6861,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||squeezely.tech^$third-party
 ||targetix.net^$third-party
 ||control.cityofcairns.com^$third-party
+||qub.ca/api/log
 ||youjizzlive.com/api/metrics
 ||gleam.io/seen?
 ||bearblog.dev/hit/
@@ -10194,6 +10196,7 @@ e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !importa
 ||automobile.it/fb/
 ||waudit.cz^$third-party
 ||bdg.com/event?
+/udp-analytics.js
 ||dotaki.com^$third-party
 @@||kameleoon.eu/images/$domain=welt.de
 ||avapartner.com^$third-party
@@ -12917,6 +12920,7 @@ _WebVitalsReporter_
 ||ugprod.geeksforgeeks.org/post/api/usertracking/
 /api/v1/impressions|
 ||apkonline.ru^$third-party
+||qub.ca/collector-service/event
 ||ohayoo.io^$third-party
 ||litix.io^$third-party
 ||gg.asuracomic.net/api/views/collect
@@ -18969,6 +18973,12 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /^adsensor\./
 ||*inapps.appsflyersdk.com^
 /^dwtrack\./
@@ -19011,9 +19021,3 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
