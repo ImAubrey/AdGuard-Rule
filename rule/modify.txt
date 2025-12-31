@@ -1,4 +1,4 @@
-# Update time: 2025-12-31 09:41:58
+# Update time: 2025-12-31 20:41:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8007,7 +8007,6 @@ reuters.com##+js(aost, admiral, .js?)
 ||srmdata-us.com^$third-party
 ||error.fc2.com/blog3/$script
 .info.kansaimiraibank.co.jp/c/*.gif
-||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content$badfilter
 ||user-api.com^$third-party
 ||convertflow.co^*/visitors/
 ||oval.id/tracker/
@@ -9391,6 +9390,7 @@ _beacon?
 ||basicstat.com^$third-party
 ||kinoprofi.org^$third-party
 ||licensing.bitmovin.com/impression
+||miao.baidu.com/abdr?$image
 ||overtracking.com^$third-party
 ||d-stats.com^$third-party
 /trans_pixel.asp
@@ -9778,7 +9778,6 @@ _beacon?
 /adobe-prd/*
 @@||c.lytics.io/api/tag/$script,domain=time.com
 ||theoplayer.com/t?
-||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$badfilter
 ||ytn.co.kr/_comm/ylog.php?
 ||lopley.com^$third-party
 ||static-fra.de^*/tracking.js
