@@ -1,4 +1,4 @@
-# Update time: 2025-12-30 20:42:39
+# Update time: 2025-12-31 09:41:58
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5293,6 +5293,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||fi/part/Amendes/*.php^$doc,to=fi|~amendes.gouv.fr
 ||slb3cr9dx9.jp^$doc
 ||delivery-globaldhlauth.github.io^$all
+||designrigoroso.com^$all,reason=malicious
 ||projecthygieia.com^$all
 ||mecrowdstrikesnowstandalone.azurewebsites.net^$doc
 ||jukukoi.jp^$doc
@@ -6601,6 +6602,7 @@ accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crun
 .facebook.com/tr?$image
 ||veinteractive.com^$third-party
 /stats.*/tracker.
+||void.nicopr.fr/rec$method=POST
 ||api64.com^$third-party
 ||clicktracks.com^$third-party
 ||walla.co.il/stats/
@@ -6687,6 +6689,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||scatec.io/collect
 ||sitereport.org^$third-party
 ||ironbeast.io^$third-party
+@@||xykpay.3d2.icbc.com.cn/acs-auth-web/js/fingerprint2.min.js$~third-party
 ||laferia.cr^$third-party
 ||mehrwertdienstekompetenz.de/cp/$third-party
 /clickcount.js
