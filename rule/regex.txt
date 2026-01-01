@@ -1,4 +1,4 @@
-# Update time: 2025-12-31 20:41:36
+# Update time: 2026-01-01 09:51:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -334,6 +334,7 @@
 |phonecallapi.micloud.xiaomi.net^
 |js.iterable.com^
 |adimg.uve.weibo.com^
+|alimelog.taobao.com^
 |vstat.my.tv.sohu.com^
 |vapi.tiandi.com^
 |httpdns-ocloud.heytapmobile.com^
@@ -766,6 +767,7 @@
 |jqcdn01.herokuapp.com^
 |feedback.search.microsoft.com^
 |cdn.pocoiq.cn^
+|mamasearchad.cloudvideocdn.taobao.com^
 |kpstaticbj.wx.ckjr001.com^
 |puma.api.iqiyi.com^
 |cm.passport.iqiyi.com^
@@ -1009,6 +1011,7 @@
 |sltint.adv.ott.cibntv.net^
 |agn.aty.snmsohu.aisee.tv^
 |dl.kjava.sina.cn^
+|zhanzhang.toutiao.com^
 |d6.sinaimg.cn^
 |report.qqweb.qq.com^
 |imgad0.pconline.com.cn^
