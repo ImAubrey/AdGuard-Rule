@@ -1,4 +1,4 @@
-# Update time: 2026-01-04 09:51:52
+# Update time: 2026-01-04 20:39:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2022,6 +2022,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||active-achieve.com^$doc
 ||protect-myphone.com^$all
 ||kokanjo.net^$doc
+||redirecttoplace.online^$all
 ||us-ledger.io^$all
 ||arvest-blank.com^$all
 ||www-facebooks.$doc
@@ -2343,6 +2344,7 @@ installcracks.com,maliksofts.com,crackpropc.com,ayeshapc.com,trycracksoftware.co
 ||anti-automation-v*.b-cdn.net^$doc
 ||programajourney.com^$all
 ||airbnb-pi-three.vercel.app^$all
+||infinitetweet.com^$all
 ||sparrowwallet.net^$doc
 ||polaris-775.com^$doc
 ||basesfiles.com^$all
@@ -2518,6 +2520,7 @@ weightlossdiet.top##+js(acs, open, executeCode)
 ||vnairlines.net^$all
 ||otona-nona.biz^$doc
 /^https:\/\/[a-z]{6,19}\.(?:com|net)\/(?:static_)?file\/\?t=[_a-z0-9]+&ns=[a-z]{2}$/$frame,popup,3p,strict3p,match-case,to=com|net
+||infinitetweet.me^$all
 /index.html?ph0nq=$doc
 /bonus/*.php?c=$doc,to=space|top
 ||supporthives.com/public/ita/$all
@@ -5565,6 +5568,7 @@ windowsreport.com##.code-block
 ||r2.dev/Outlook%20Secured%20Document$doc
 ||crostol.com^$doc
 ||memory-storage.net^$doc
+||crimsonmods.cc^$all
 ||bancolombiaapp.glitch.me^$all
 ||changeiiy.icu^$doc
 ://xml-eu-v4.*.com/click?$doc
@@ -5642,6 +5646,7 @@ windowsreport.com##.code-block
 ||ai-mono.jp^$doc
 ||verwalten-sbb-informationen-managecff-kundenportal-online.codeanyapp.com^$all
 ||celezma.net^$doc
+||playtorrio.com^$all
 ||1st-mail.jp^$doc
 .cfd/*?p=*&pg=$script,3p
 ||get-kmspico.com^$doc
@@ -6777,6 +6782,7 @@ reuters.com##+js(aost, admiral, .js?)
 /mediametrie.js
 ||sina.com.cn/view?
 ||bhaskar.com/comscore-ajax/
+@@||log.go.com/log$xmlhttprequest,domain=disneyvacationclub.disney.go.com
 ||taiwanplus.com/api/video/startVideo
 @@||cmp.telerama.fr/js/telerama.min.js$~third-party
 ||bookwalker.jp/ex/browser-viewer/unitag_bv.js
@@ -18890,12 +18896,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -18937,3 +18937,9 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
