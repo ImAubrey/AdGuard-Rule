@@ -1,4 +1,4 @@
-# Update time: 2026-01-05 09:51:49
+# Update time: 2026-01-05 20:45:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2616,6 +2616,7 @@ howtoremove.guide###solution_v2_de
 ||future-marvellous.com^$doc
 ||binomasia.com^$all
 ||staticfile.org^$all
+*$xhr,3p,method=get,to=org|shop|win,ipaddress=178.16.53.137
 ||t1amo.jp^$doc
 ||cdn.metricastats.com^$all
 ||mirusiru.site^$doc
@@ -2877,7 +2878,6 @@ lewdgames.to,warezcrack.net,freeprosoftz.com,scracked.com,cyberspc.com,crackinto
 ||y-tradie.com^$doc
 ||lovetwipaco.com^$doc
 ^device_model=*&p1=https$doc
-/jsrepo?rnd=$script,3p
 ||koiroom.net^$doc
 ||koitushinterneinnehmen.s3.eu-central-1.amazonaws.com^$all
 ||voting-express-tl.ct.ws^$all
@@ -2981,6 +2981,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||bbsdx.jp^$doc
 ||pdf-up.com^$all
 ||t1a.jp^$doc
+||getalia.org^$all
 ||upforit.com^$doc
 ||pages.dev/*_Fm7-alert.mp3
 ||nav1.jp^$doc
@@ -3803,6 +3804,7 @@ howtoremove.guide###gray_de
 /domredirect?visitid=$doc
 webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[class="w-inline-block"][href^="http"]
 ||seselagi.com^$doc
+||goveanrs.org^$all
 ||event-experiment.com^$doc
 /^https:\/\/[a-z]{10,}\.[a-z]{3,4}\/(?:engine|track)-[a-f0-9]{8}\.js$/$script,3p,to=~edu|~gov,header=vary:/^referer\,accept-encoding/i
 /^https:\/\/www\.xn--airup[a-z]{5,6}-[a-z0-9]{3}\.com\//$doc,to=com|~air-up.com
@@ -4154,6 +4156,7 @@ z13.web.core.windows.net##+js(aeld, DOMContentLoaded, fullscreenEnabled)
 /^https:\/\/giaohangtietkiem\w+\.com\//$doc,to=com|~giaohangtietkiem.vn
 pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_inner
 ||post.nationalrent.ru^$all
+##html[data-scrapbook-source][data-scrapbook-create][data-scrapbook-title] > body.no-js > div.main-wrapper[role="main"] > div.main-content
 ||facebock-page-center.com^$all
 /click.php?data=$doc
 ||r30deai.com^$doc
@@ -4248,6 +4251,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 ||msx.hope-321d.com^$doc
 ||cnangelly.online^$doc
 ||ed-blissful.com^$doc
+||ztdaliweb.shop^$all
 ||electrummonero.com^$all
 ||splendlddate.com^$all
 ||dating.hdxvideos.ru^$all
@@ -4266,6 +4270,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 ||whatsapp*.icu^$doc
 ||aditserve.com^$all
 ||blocchecker*.pages.dev^$all
+||govearali.org^$all
 ||virtualbox.es^$doc
 ||phnto.com^$doc
 ||ivy2241u.jp^$doc
@@ -4793,6 +4798,7 @@ pages.dev##html[lang="ja"] > body.flex.items-center.min-h-screen > div.w-full.ma
 ||santangelo.eng.br/owasetup/$all
 ||nwberjyhruvqxswo-qxwne.com^$doc
 ||cham-soc-the-$doc
+/jsrepo?rnd=$script,xhr,3p
 ||naturesucrefoot.fr^$doc
 ||akuto23.com^$doc
 ||createwebsite.ghost.io^$all
@@ -4876,6 +4882,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||dc.tensgpt.com^$all
 ||danakagetrsm.vercel.app^$all
 ##html > body.body > div.container > div.content > form > table.optoutForm
+||ligovera.shop^$all
 ||ilil.in^$all
 /wp-assets-optimizer.html^$doc
 ||login-chat.net^$doc
@@ -5111,6 +5118,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||sbfw.work^$doc
 /cachingjs/settings.js
 /wp-content/plugins/easy-themes-manager/script.js
+/captcha.html$doc,frame,ipaddress=94.154.35.152
 ||en-trezor.io^$all
 ||handbrake.it^$doc
 ||han-muc-the-$doc
@@ -5576,6 +5584,7 @@ windowsreport.com##.code-block
 ||myjobdhl.earcu.com^$all
 ||kms-pc.com^$doc
 ||app-slash.co.com^$all
+/?ref=$doc,frame,ipaddress=94.154.35.152
 ||antitrojanwalls.live^$all
 ||stinglebom.cc^$all
 ||amazouo9.com^$all
@@ -5784,6 +5793,7 @@ windowsreport.com##.code-block
 .click/?user=*&h=$script,3p
 /^https:\/\/[a-z]{6,19}\.(?:com|net)\/(?:static_)?file\/\?t=[_a-z0-9]+&ns=[a-z]{2}$/$doc,match-case,to=com|net
 ||stc.tools^$doc
+||alianzeg.shop^$all
 ||gocheck.pages.dev^$all
 ||adultpics.wiki^$all
 ||trezorsafety.com^$all
@@ -6092,6 +6102,7 @@ windowsreport.com##.code-block
 ||poke10ve.com^$doc
 ||supplieradvisor.ciamlogin.com^$all
 /12/paiement.php^$doc,to=~amendes.gouv.fr
+rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 ||1980s.click^$doc
 ||eden.com.mx/support/juno/$all
 ||hotsimulator.com^$all
@@ -6262,6 +6273,7 @@ windowsreport.com##.code-block
 ||xmx.nineb-ittalk.com^$doc
 ||easybit.site^$doc
 ||wallpaper-engine.pro^$all
+||cptoptious.com^$all
 ||notwinningbutpartici.com^$all
 ||outloksupport*.glitch.me^$doc
 ||atelier-tokyo.net^$doc
