@@ -1,4 +1,4 @@
-# Update time: 2026-01-06 09:43:23
+# Update time: 2026-01-06 20:43:14
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2806,6 +2806,7 @@ lewdgames.to,warezcrack.net,freeprosoftz.com,scracked.com,cyberspc.com,crackinto
 ||heartmatch.jp^$doc
 ||z-lib.ws^$doc
 ||re-captha-version-$all
+||qishuimusic-app.com.cn^$all
 ||amazon8898.com^$all
 ||iqpoll.cn^$doc
 ||business-facebook-*.pages.dev^$all
@@ -13014,6 +13015,7 @@ _logHuman=
 ||bytemgdd.com^$third-party
 ||livestat.com^$third-party
 ||getaawp.com^$third-party
+||thetruthaboutcars.com/api/slots
 ?v=2&tid=G-$~third-party
 ||yahoo.co.jp/js/retargeting.js
 ||govmetric.com^$third-party
