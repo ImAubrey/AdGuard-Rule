@@ -1,4 +1,4 @@
-# Update time: 2026-01-06 20:43:14
+# Update time: 2026-01-07 09:42:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2966,6 +2966,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 /Win08ShDMeEr0887x/*$doc
 ||ff-excharge.icu^$doc
 ||showa-klub.com^$doc
+||low-house.com^$all
 ||home4ugoog10you.com^$doc
 ||fullcrack.vn^$all
 ||01net.com/telecharger/$doc
@@ -18911,12 +18912,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -18958,3 +18953,9 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
