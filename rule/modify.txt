@@ -1,4 +1,4 @@
-# Update time: 2026-01-08 20:44:16
+# Update time: 2026-01-09 09:43:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -17251,6 +17251,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||getviously.com^$third-party
 ||livelib.ru/service/traffic
 ||google.com/gen_204?
+||mcdonalds.com/tags/js/*/mparticle.js
 ||rbc.ru/click?
 ||copperegg.com^$third-party
 ||webstatistika.lv^$third-party
@@ -17679,6 +17680,7 @@ _imp?Log=
 ||freegeoip.net^$third-party
 ||iol.it^*/clickserver.js
 /dtm_cm.js
+||mcdonalds.com/webevents/
 ||promoneuve.fr/stat/
 @@||sophos.com^*/tracking/gainjectmin.js$script,domain=community.sophos.com
 ||shop.app/pay/hop?analytics_trace_id=
