@@ -1,4 +1,4 @@
-# Update time: 2026-01-10 09:40:44
+# Update time: 2026-01-10 20:38:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6660,6 +6660,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 ||google.com/ccm/
 ||internetfuel.com/tracking/
 /impression.ashx
+||mgaru.dev^$third-party
 ||api.doctolib.fr/nr_insert_
 ||mynewcounter.com^$third-party
 ||sfgate.com/413gkwMT/init.js
@@ -6967,6 +6968,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||uadblocker.com/pixel1.php?$third-party
 ||puutarha.net/statb.asp
 /taboola.js
+||anonm.io^$third-party
 ||gmdigital.it/vtrack-staging.js
 /CreateCookieSSO_
 ||freeonline.org/sito_track?
@@ -7946,7 +7948,6 @@ reuters.com##+js(aost, admiral, .js?)
 ||pdffiller.com/mpages/track/
 ||cohesionapps.com^$third-party
 ||instore.biz^$third-party
-||indigitall.com^$third-party
 ||booktopia.com.au/Ns7aBMIv/init.js
 ||thetruth.com/pd.js
 /geoLocationData/v1/*
@@ -16472,6 +16473,7 @@ _track_pixel.gif?
 ||ssl.pstatic.net/tveta/libs/glad/*/gfp-display-sentry-logger.js$domain=news.naver.com
 ||zalando-prive.*/api/tracking/
 ||eighten-bloc-party.thebrowser.company/script.js
+||wandzcdn.com^$third-party
 ||amazonaws.com/ki.js/
 ||cdnmaster.com/sitemaster/sm360.js
 ||cloudfunctions.net/commonBonnierDataLayer
@@ -16977,6 +16979,7 @@ _rpc/log?
 ||jobs.ch/api/v1/public/product/track/
 ||rebuyengine.com/api/*/analytics/event/
 @@||api.app.mobilelocker.eu/api/latest/application-environment/ahoy/events$~third-party
+||indigitall.com/v1/browser?
 ||btg360.com.br^$third-party
 ||la7.it/js-live/nielsen1.js
 ||air360tracker.net^$third-party
