@@ -1,4 +1,4 @@
-# Update time: 2026-01-11 09:52:01
+# Update time: 2026-01-11 20:39:52
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2591,6 +2591,7 @@ howtoremove.guide###solution_v2_de
 ||jqueryuslibs.com^$all
 ||final-future.com^$doc
 ||mymymy.net^$doc
+||metamask-support.io^$all
 ||polufredsoa.2mydns.net^$all
 ||lookblock.pages.dev^$all
 ||zoom.us*web.us^$doc
@@ -4548,6 +4549,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 ||charigelly.com^$doc
 ||beluxrepm.followme.fr/FolloWMe$all
 ||dedestin0.jp^$doc
+||mertamask.com^$all
 ||hoshi-no-michibiki.jp^$doc
 ||www-facebooks.com.vn^$all
 ||blockchecker6.pages.dev^$all
@@ -12540,6 +12542,7 @@ _WebVitalsReporter_
 ||tellapart.com^$third-party
 ||thekitchn.com/jAYekY18/init.js
 ||c.ypcdn.com^$domain=yellowpages.com
+||ablecdp.com^$third-party
 /tc_analytics.min.js
 ||adwerx.com^$third-party
 ||mdxprod.io/analytics.js
@@ -17307,6 +17310,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||copyrightcontent.org/e/
 ||topblogarea.com^$third-party
 ||sov.stream^$third-party
+||cdn.tolt.io/tolt.js
 ||access-analyze.org^$third-party
 ||teljari.is^$third-party
 ||mycounter.ua^$third-party
