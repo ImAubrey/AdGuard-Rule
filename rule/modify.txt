@@ -1,4 +1,4 @@
-# Update time: 2026-01-12 09:48:36
+# Update time: 2026-01-12 20:46:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2850,7 +2850,6 @@ lewdgames.to,warezcrack.net,freeprosoftz.com,scracked.com,cyberspc.com,crackinto
 ||zs.peachparadise.vip^$doc
 ||exo.io/cloudcask/$doc
 ||roundyearfun.org^$all
-||blck.pages.dev^$all
 ||cartepak.online^$doc
 ||lovez.jp^$doc
 ||filter-zgzy.com^$doc
@@ -3188,7 +3187,6 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||mybluehost.me/swisscom-login/$doc
 ||safety-profiles-fb-ads-*.vercel.app^$all
 ||valuge.com.ar/sbb/$doc
-||blockchecker-8ka.pages.dev^$all
 /^https:\/\/(?:[-a-z0-9]+\.){2}workers\.dev\/v3\/(?:forgotpassword|security|signup)\b/$doc,to=workers.dev
 ||hentaiplaytime.com^$doc
 ||cursorltd.com^$doc
@@ -3525,7 +3523,6 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||revancedyoutube.org^$all,domain=~revanced.app
 ||ajmaboxanherulv*.b-cdn.net^$doc
 ||mybluehost.me/tracking-mail-delivery/$doc
-||blockchecker5.pages.dev^$all
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:club|com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&(?:s|pub)id=[-_0-9a-z{}]{1,32}(?:&s=0\.\d+)?(?:#\S+)?$/$doc,match-case,to=club|com|info|net|org
 ||ten-lp2025.com^$doc
 ||getkmspico.medium.com^$doc
@@ -4552,7 +4549,6 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 ||mertamask.com^$all
 ||hoshi-no-michibiki.jp^$doc
 ||www-facebooks.com.vn^$all
-||blockchecker6.pages.dev^$all
 ||female-good.work^$doc
 /werrx01/^$doc
 ||smrturl.co/o/*/53458494^$doc
@@ -5055,7 +5051,6 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||changely.at^$doc
 ||i.redi-ana.jp^$doc
 ||modii.xyz^$doc
-||blockcheck.pages.dev^$all
 ||amazonlogistics.jp^$all
 ||webtelegram.eu.org^$all
 ?brand=*&fingerprint_=$doc
@@ -5623,7 +5618,6 @@ windowsreport.com##.code-block
 ||gotmylink.xyz^$all
 ||meetpie.net^$doc
 ||massgrav.zapto.org^$doc
-||xchekersite.pages.dev^$all
 ||2mydns.net/fr-impot-gouv^$doc
 ||familysimulators.$all
 ||xv-bloging-info.com^$all
@@ -5669,7 +5663,6 @@ windowsreport.com##.code-block
 ||get-kmspico.com^$doc
 ||gooqlee.com^$all
 /views/choice/*/start.php^$doc
-||checkx.pages.dev^$all
 ||paytrace-app.co.com^$all
 ||dfr.bubu88yjt.jp^$doc
 ||jp.rian-rian.com^$doc
@@ -6480,6 +6473,7 @@ accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crun
 ||aol.com/ping?
 /sync?visitor_id=
 ||georiot.com^$third-party
+||peasy.so^$third-party
 ||arcteryx.com/943r4Fb8/init.js
 ||customerconversio.com^$third-party
 ||priv.gc.ca/m/m.js
@@ -12881,6 +12875,7 @@ _logHuman=
 ||tripadvisor.*/wm/record
 ||prisjakt.nu/js.php?p=trafikfonden
 @@||sharethis.com/button/buttons.js$domain=bristan.com
+||oursprivacy.com^$third-party
 ||pixeltracker.co^$third-party
 ||priceline.com/9aTjSd0n/init.js
 ||trackfeed.com^$third-party
@@ -13380,6 +13375,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ||eperfectdata.com^$third-party
 ||platformpanda.com^$third-party
 ||foodpanda.my/lJuB4eTB/init.js
+@@||tt.personio.com/9sgqlkuag.js$script,domain=personio.com
 ||freetrafficsystem.com^$third-party
 ||lockview.cn^$third-party
 /acounter.php?
@@ -17518,6 +17514,7 @@ _imp?Log=
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 .aveda.com/t/$image
 ||top.mail.ru/tpc.js
+||eazydata.io^$third-party
 @@||aticdn.net/piano-analytics.js$domain=stuttgarter-nachrichten.de
 ||directprimal.com^$third-party
 ||xp.audience.io/sdk.js$third-party
@@ -18927,6 +18924,12 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -18968,9 +18971,3 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
