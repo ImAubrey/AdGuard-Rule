@@ -1,4 +1,4 @@
-# Update time: 2026-01-14 09:47:31
+# Update time: 2026-01-14 20:44:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -13627,6 +13627,7 @@ baeldung.com,cheatsheet.com,mensjournal.com,pwinsider.com##+js(rmnt, script, adm
 ||pulseinsights.com^$third-party
 ||mbp-japan.com/js/pv.js
 ||eldorado.gg/white-house/white_house_script_data_
+@@||cdn.rawgit.com/dmauro/keypress/master/keypress.js$script,domain=dmauro.github.io
 ||flagr.worldstarhiphop.com/api/v1/evaluation
 ||melhorplano.net/scripts/tracker/
 /eumcollector/beacons/*
