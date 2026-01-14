@@ -1,4 +1,4 @@
-# Update time: 2026-01-13 20:46:30
+# Update time: 2026-01-14 09:47:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3782,6 +3782,7 @@ howtoremove.guide###gray_de
 ||santanderpod.*.co.uk^$all
 ||telegrambotsolution.pages.dev^$all
 .com/redirect-zone/$doc,popup
+||iploits.com^$all
 ?z=*&ymid=$doc
 ||www.youtube.com/channel/UCEMJ0wTeQgvyyvQTil7tteQ/$doc
 .com/play-2?h=*=eyJ&si1=$doc
@@ -7546,6 +7547,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||x.com/1.1/jot
 ||mousestats.com^$third-party
 ||yandex.ru/clck/
+/statsig-proxy/*
 ||shareasale-analytics.com^$third-party
 ||hirtv.hu/nx_general_stat.jpg?
 ||qhimg.com/11.0.1.js$script
@@ -10611,6 +10613,7 @@ $ping,third-party
 ||realist.gen.tr^$third-party
 /pixel_tracking.js
 ||wp.com/wp-content/js/bilmur.min.js
+||conceptualhq.com/api/v1/track?
 ||obozrevatel.com/pixel.png
 ||webtraffic.se^$third-party
 /boomerang.js
@@ -15130,6 +15133,7 @@ _view_pixel&$image
 ||cdn.zg-api.com^*/analytics.js
 ||barrons.com/cookies/pixel.gif
 ||trustmary.io/agg-event
+||cursor.com/analytics/
 |http://a.pr-cy.ru^$third-party
 /PageTracker.js
 ||pap.qualityunit.com^$third-party
@@ -18924,6 +18928,12 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -18965,9 +18975,3 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
