@@ -1,4 +1,4 @@
-# Update time: 2026-01-14 20:44:53
+# Update time: 2026-01-15 09:42:55
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12959,6 +12959,7 @@ _logHuman=
 ||dep-x.com^$third-party
 ||ebaystatic.com/cr/v/c01/c54e60e1-996e-4a53-a314-f44a6b151b40.min.js
 .mozilla.org/eos/$image
+@@||api.twitter.com/1.1/onboarding/referrer.json$~third-party
 ||ssl.pstatic.net/static.news/*/js/generated/aside.statistics.js$domain=media.naver.com|news.naver.com
 ||spotifycdn.com/cdn/js/retargeting-pixels.
 ||sensor.grubhub.com/O97ybH4J/init.js
