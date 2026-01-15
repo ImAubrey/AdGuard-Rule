@@ -1,4 +1,4 @@
-# Update time: 2026-01-15 09:42:55
+# Update time: 2026-01-15 20:44:21
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6443,6 +6443,7 @@ accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crun
 /e_stat?g_id=
 /click.comicomi-studio.com/mail/u/*$image
 ||callrail.com^$third-party
+||kameleoon.io/visit/
 ||replit.app/tap/
 ||vvvvid.it^$ping
 ||relap.io^$third-party
@@ -10223,6 +10224,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /geocc.js
 ||xiaohongshu.com/api/v2/collect
 ||streamadblocker.xyz/stat/
+/ws-tracking.js
 ||investingchannel.com^$third-party
 ||cloudfront.net/zephyr.js
 @@||neo.btrl.ro/Scripts/services/fingerprint2.min.js$~third-party
@@ -17237,6 +17239,7 @@ _rpc/log?
 /ganalytics.js
 ||libero.it/cgi-bin/cdcountersp.cgi?
 /fb-pixel-dsgvo/*
+||edge.adobedc.net/ee/v1/collect?
 /ga_events.js
 ||adblockrelief.com^$third-party
 ||fusevideo.io/api/event
@@ -18112,7 +18115,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||adblocktape.store/stat/
 ||adschoom.com^$third-party
 ||nakedanalytics.net^$third-party
-||kameleoon.io/visit/events?
 /BKVTrack.js
 ||af-z.jp^$third-party
 ||trafficfuel.com^$third-party
