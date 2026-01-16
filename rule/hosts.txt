@@ -1,4 +1,4 @@
-# Update time: 2026-01-15 20:44:21
+# Update time: 2026-01-16 09:44:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11877,6 +11877,7 @@
 0.0.0.0 fatcatrewards.com
 0.0.0.0 www.fpctraffic2.com
 0.0.0.0 noticias.life
+0.0.0.0 www.fenquavo.com
 0.0.0.0 southcoasttoday.112.2o7.net
 0.0.0.0 help.adtech.fr
 0.0.0.0 breaking-news.co
@@ -14588,6 +14589,7 @@
 0.0.0.0 pageisloading.net
 0.0.0.0 ads.ecircles.com
 0.0.0.0 mackeeperapp3.mackeeper.com
+0.0.0.0 nakshatra.northeastrail.info
 0.0.0.0 www.coolconcepts.nl
 0.0.0.0 gbr-mbww-tracking.adalyser.com
 0.0.0.0 hashing.win

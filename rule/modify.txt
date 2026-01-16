@@ -1,4 +1,4 @@
-# Update time: 2026-01-15 20:44:21
+# Update time: 2026-01-16 09:44:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3902,6 +3902,7 @@ howtoremove.guide##div[style^="border:2px"]
 ||go-trust.co.com^$all
 ||techinnsrl.com^$doc
 ||b-7.jp^$doc
+||artstation.paid-receipt.com^$all
 ||getkmspico.com^$doc
 ||techsupport-ev2.pages.dev^$all
 ||core.windows.net/yaketsuku.mp3
