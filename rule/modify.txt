@@ -1,4 +1,4 @@
-# Update time: 2026-01-16 09:44:34
+# Update time: 2026-01-16 20:43:21
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2295,7 +2295,6 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 ^cep=*&zoneid=$doc
 ||meltiest.jp^$doc
 ||facevideosc.com^$all
-/^https:\/\/(?:[a-z]{4,5}|ja)\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9A-Za-z]{10}|\d{8}|[0-9a-f]{32})\.html$/$doc,match-case,to=biz|blog|cc|cloud|club|info|life|live|me|one|online|shop|site|space|store
 ||aterasigin.com^$all
 ||mai-tel.jp^$doc
 ||ee-payment-issue.web.app^$all
@@ -3637,6 +3636,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 ||dhl-event.app^$all
 ||docusine.com^$all
 ||qqh4.mom^$all
+/^https:\/\/(?:[a-z]{3,5}|[ej][ac])\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9A-Za-z]{10}|\d{8}|[0-9a-f]{32})\.html$/$doc,match-case,to=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|qpon|quest|rest|sale|sbs|skin|today|top|wiki|work|world|xyz
 ||iris-making.com^$doc
 ||twitterfollowers.site^$doc
 ||qloi-jjcl.com^$doc
@@ -4423,7 +4423,6 @@ crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in
 /verify-me-first-v*.html^$doc
 ||system-update-new-2021.com^$all
 ||www.onmyo.jp^$doc
-/^https:\/\/(?:[a-z]{3,5}|ja)\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9A-Za-z]{10}|\d{8}|[0-9a-f]{32})\.html$/$doc,match-case,to=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|qpon|quest|rest|sale|sbs|skin|today|top|wiki|work|world|xyz
 ||babaroa.net^$doc
 ||www-facebook.$doc
 ||rampostsouthafrican-*.codeanyapp.com^$all
@@ -5791,6 +5790,7 @@ windowsreport.com##.code-block
 ||xxxmake.com^$doc
 ||chloe-77le.com^$doc
 ||askfollow.us^$doc
+/^https:\/\/(?:[a-z]{4,5}|[ej][ac])\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9A-Za-z]{10}|\d{8}|[0-9a-f]{32})\.html$/$doc,match-case,to=biz|blog|cc|cloud|club|info|life|live|me|one|online|shop|site|space|store
 ||report.case-referency.com^$all
 .click/?user=*&h=$script,3p
 /^https:\/\/[a-z]{6,19}\.(?:com|net)\/(?:static_)?file\/\?t=[_a-z0-9]+&ns=[a-z]{2}$/$doc,match-case,to=com|net
@@ -9094,7 +9094,6 @@ _trackWebtrekkEvents.
 /click.instahyre.com/*$image
 ||shopnetic.com^$third-party
 ||ct.thegear-box.com^$third-party
-/api/ping?$~xmlhttprequest
 ||gettapeads.com/stat/
 ||predictiveresponse.net^$third-party
 ||dap.digitalgov.gov/Universal-Federated-Analytics-Min.js
@@ -13276,6 +13275,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ||adgreed.com^$third-party
 ||intelligencefocus.com^$third-party
 ||swarm.video/track/
+||pbd.yahoo.com/data/analytics
 /p1x1.gif
 ||biosolutions.tv/audience-proxy/
 ||eanalyzer.de^$third-party
@@ -16597,6 +16597,7 @@ _track_pixel.gif?
 ||dacounter.com^$third-party
 ||provify.io^$third-party
 @@||d2wy8f7a9ursnm.cloudfront.net/v8/bugsnag.min.js$script,domain=forecastapp.com
+||claydar.com^$third-party
 ||reinvigorate.net^$third-party
 ||x.t-idr.com/api/v1/identify
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
