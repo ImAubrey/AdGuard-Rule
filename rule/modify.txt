@@ -1,4 +1,4 @@
-# Update time: 2026-01-17 09:39:12
+# Update time: 2026-01-17 20:38:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9205,6 +9205,7 @@ _trackWebtrekkEvents.
 @@||ignitetv.shaw.ca/js/api/fingerprint.js$~third-party
 @@||toggo.de/static/js/sourcepoint.js$domain=toggo.de
 ||t.dgm-au.com^$third-party
+@@||assets.yasno.live/packs/assets/analytics-events-$script,~third-party
 /track.php?toggle=
 ||pussy.org^*/track.php
 ||html5games.com/event/

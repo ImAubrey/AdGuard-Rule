@@ -1,4 +1,4 @@
-# Update time: 2026-01-17 09:39:12
+# Update time: 2026-01-17 20:38:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -105,6 +105,7 @@
 |misc.in.duokanbox.com^
 |hwad.zuimeitianqi.com^
 |httpdns.c.cdnhwc2.com^
+|widgets-test.boomio.workers.dev^
 |p.alimama.com^
 |s3.pfp.sina.net^
 |rmads.msn.com^
@@ -190,7 +191,6 @@
 |test.xiaomi.com^
 |crash.163.com^
 |analytics-js-cdn.liferay.com^
-|e.duomeng.org^
 |shouji.sougou.com^
 |adxapi.readgps.com^
 |httpdns-sdk.n.netease.com^
@@ -211,7 +211,6 @@
 |push.m.youku.com^
 |hxcav77.com^
 |httpdns.meituan.com^
-|m.j5s9b.cn^
 |assets.ckjr001.com^
 |v2.fm.n.duokanbox.com^
 |api-shoulei-ssl.xunlei.com^
@@ -731,7 +730,6 @@
 |weus2watcab01.blob.core.windows.net^
 |ads.mobgold.com^
 |match.p4p.1688.com^
-|report.huatuo.qq.com^
 |cache.datamart.windows.com^
 |ad.quwin.cn^
 |susapi.dev.surepush.cn^
@@ -996,7 +994,6 @@
 ||data^
 |adashbc.m.taobao.com^
 |tv.app.migc.xiaomi.com^
-|ee.j5s9b.cn^
 |mclean.cloud.360safe.com^
 |ad.bn.netease.com^
 |click.aliyun.com^
@@ -1057,6 +1054,7 @@
 |prt-stsdk.vivo.com.cn^
 |adm.leju.sina.com.cn^
 |mon-*.byteoversea.com^
+|stat.rdap.ss^
 |dns.weixin.qq.com.cn^
 |samsungcloudsolution.com^
 |sa.holopin.io^
@@ -1154,7 +1152,6 @@
 |paopao2.qiyipic.com^
 |click.qianqian.com^
 |wbclick.mobile.sina.cn^
-|ad.api.youshiad.cn^
 |d1.speedvitals.com^
 |dsp-ad.yy.com^
 |gas.data.pplive.com^
