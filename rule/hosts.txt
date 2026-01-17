@@ -1,4 +1,4 @@
-# Update time: 2026-01-16 20:43:21
+# Update time: 2026-01-17 09:39:12
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9016,6 +9016,7 @@
 0.0.0.0 usbf.fr
 0.0.0.0 baiduccdn1.com
 0.0.0.0 d6.c5.b0.a2.top.mail.ru
+0.0.0.0 lifsfer.shop
 0.0.0.0 support.sweepstakes.com
 0.0.0.0 adservice.google.nl
 0.0.0.0 codeine.ourtablets.com
@@ -11772,6 +11773,7 @@
 0.0.0.0 turkishairines.info
 0.0.0.0 coldpacific.com
 0.0.0.0 ldserv02.adtech.us
+0.0.0.0 pclt.net
 0.0.0.0 adgardener.com
 0.0.0.0 adserv005.adtech.fr
 0.0.0.0 yang.hitbox.com
@@ -12615,6 +12617,7 @@
 0.0.0.0 pixel-secure.solvemedia.com
 0.0.0.0 free.propdfconverter.com
 0.0.0.0 rc.rlcdn.com
+0.0.0.0 tarbosau.bbqpitcleaners.info
 0.0.0.0 static.loboclick.com
 0.0.0.0 s.di.com.pl
 0.0.0.0 adserver.virginmedia.com
