@@ -1,4 +1,4 @@
-# Update time: 2026-01-18 09:50:50
+# Update time: 2026-01-18 20:39:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7317,6 +7317,7 @@
 0.0.0.0 ads.cluster01.oasis.zmh.zope.net
 0.0.0.0 sgs001.adtech.fr
 0.0.0.0 stats.foxcounter.com
+0.0.0.0 www.joyjak.st
 0.0.0.0 seiyuu.ne.jp
 0.0.0.0 openads.nightlifemagazine.ca
 0.0.0.0 forward5costume.com
@@ -15197,6 +15198,7 @@
 0.0.0.0 www.skvarsani.plus.com
 0.0.0.0 adv.gazeta.pl
 0.0.0.0 magicpayrecharge.com
+0.0.0.0 joyjak.st
 0.0.0.0 mailfoogae.appspot.com	# Streak email tracker
 0.0.0.0 mygummyjelly.com
 0.0.0.0 partner-ts.groupon.com
@@ -16019,6 +16021,7 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
+0.0.0.0 h1.ripway.com
 0.0.0.0 clickserve.uk.dartsearch.net
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
@@ -17462,6 +17465,7 @@
 0.0.0.0 sec-checker.com
 0.0.0.0 stampscom.tt.omtrdc.net
 0.0.0.0 adcontent.reedbusiness.com
+0.0.0.0 www.dymor.cfd
 0.0.0.0 www.yoursmartrewards.com
 0.0.0.0 okcounter.com
 0.0.0.0 m01.webwise.org
@@ -24028,7 +24032,6 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
-0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com

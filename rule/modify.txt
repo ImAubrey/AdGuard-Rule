@@ -1,4 +1,4 @@
-# Update time: 2026-01-18 09:50:50
+# Update time: 2026-01-18 20:39:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6534,6 +6534,7 @@ accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crun
 /analytics-library.js
 ||bz-berlin.de/_stats/
 /ope-adalliance.js
+@@||dan-ball.jp/en/javagame/mine/data/d.gif$image,~third-party
 ||support.google.com/apis/logjourney
 ||verify.authorize.net^$third-party
 ||iys.org.tr/mti-popts.js
@@ -11821,6 +11822,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 /oo/*/lsync.
 /onetag/*
 /trackingheader.js
+||app.termly.io/api/*/statistics
 ||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js
 .wix.com/_api/ping/
 ||demandmedia.com/wm.js
@@ -12359,7 +12361,6 @@ _WebVitalsReporter_
 ||24log.ru^$third-party
 ||perfops.net/rom3/
 ||cryptobara.com^$third-party
-||edge-client^$script,domain=barrons.com
 ||amazonaws.com/prod/report-only
 ||at.cbsi.com^*/event?
 ||24smi.info^$third-party
@@ -14581,7 +14582,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||twitter.com/i/jot
 /jscounter.js
 ||cetlog.jp^$third-party
-||clapper.life/update_deeplink_stats/
 ||findmatches.com/tri?tid=
 /flushimpressions?
 ||signup-way.com^$third-party
@@ -18643,6 +18643,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||eyein.com^$third-party
 ||flixfacts.co.uk^$third-party
 /amp-access/set/*
+://edge-client/$domain=barrons.com
 /kaiseki/track.php?
 /dwanalytics-
 /t.paypal.com/*$image
@@ -18936,12 +18937,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -18983,3 +18978,9 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
