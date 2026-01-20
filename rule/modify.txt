@@ -1,4 +1,4 @@
-# Update time: 2026-01-20 09:44:24
+# Update time: 2026-01-20 20:49:55
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5659,6 +5659,7 @@ windowsreport.com##.code-block
 ||verwalten-sbb-informationen-managecff-kundenportal-online.codeanyapp.com^$all
 ||celezma.net^$doc
 ||playtorrio.com^$all
+/captcha-loader.js?
 ||1st-mail.jp^$doc
 .cfd/*?p=*&pg=$script,3p
 ||get-kmspico.com^$doc
@@ -7423,6 +7424,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||doclix.com^$third-party
 ||piccy.info/c?
 /log/analytics
+||cdp.vercel.com/rs/
 /log-view.js
 ||klm.us/CWZUvc/
 ||getstatistics.se^$third-party
@@ -14087,6 +14089,7 @@ omni.soundestlink.com$image
 /api/stat?
 ||lepetitjournal.com/monitoring?
 ://a869.$~image
+||trusty-shovel-1234.paul-f22.workers.dev^$domain=sfist.com
 ||evs.sgmt.loom.com^$script
 ||ga.finam.ru/metrics
 ||ced-ns.sascdn.com/diff/js/smart.js
@@ -16706,6 +16709,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||attn.tv^*/dtag.js
 ||jeremiahlee.com/fanboynz.js
 ||websiteperform.com^$third-party
+||run.app/api/pixel-event
 ||clickclick.net^$third-party
 ||teltarif.de^$ping
 ||sitebro.de^$third-party
@@ -16781,6 +16785,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||top.baidu.com/js/nsclick.js
 ||api.blink.net/a/
 ||flirt4free.com/pixel/
+||shopflo.com/api/v1/spark
 ||repixel.co^$third-party
 ||bigreal.org^$third-party
 ||akamai.net/chartbeat.
@@ -18938,12 +18943,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -18985,3 +18984,9 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
