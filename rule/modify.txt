@@ -1,4 +1,4 @@
-# Update time: 2026-01-20 20:49:55
+# Update time: 2026-01-21 09:47:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10204,6 +10204,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||trustpilot.com/stats/
 /pixel-tracker.js
 ||mccdn.me/assets/js/widget.js
+||services.nexx.cloud/samaritan/
 ||browsermine.com^$third-party
 ||up4stream.com/js/anti.js
 ||rapidspike.com/performance/
@@ -18799,6 +18800,12 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /\.stenaline\./
@@ -18984,9 +18991,3 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^

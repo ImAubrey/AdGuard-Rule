@@ -1,4 +1,4 @@
-# Update time: 2026-01-20 20:49:55
+# Update time: 2026-01-21 09:47:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8867,6 +8867,7 @@
 0.0.0.0 imitrex.1.p2l.info
 0.0.0.0 f11098.privacy4browsers.com
 0.0.0.0 beauty.finaltips.com
+0.0.0.0 www.sidneyman.com
 0.0.0.0 redir9.alteabz.it
 0.0.0.0 www1.tynt.com
 0.0.0.0 murcia-ban.es
@@ -11808,6 +11809,7 @@
 0.0.0.0 mudmonster.org
 0.0.0.0 adcast.deviantart.com
 0.0.0.0 u3305.71.spylog.com
+0.0.0.0 exotic-wax.surge.sh
 0.0.0.0 jnova.cjt1.net
 0.0.0.0 meteon.org
 0.0.0.0 ve2.techgeetam.com
@@ -12704,6 +12706,7 @@
 0.0.0.0 imserv002.adtech.us
 0.0.0.0 rbc-clientsupport1.com
 0.0.0.0 m1.nedstatbasic.net
+0.0.0.0 www.modelsailboat.net
 0.0.0.0 ad.livere.co.kr
 0.0.0.0 pixel.adssafeprotected.com
 0.0.0.0 supplements.1.p2l.info
@@ -15340,6 +15343,7 @@
 0.0.0.0 choisimoncode.fr
 0.0.0.0 giftcardsurveys.us.com
 0.0.0.0 ads.pro-market.net.edgesuite.net
+0.0.0.0 www.farnazinternational.com
 0.0.0.0 kh4.kimhasa.com
 0.0.0.0 www.poponclick.com
 0.0.0.0 banners.zbs.ru
@@ -16549,6 +16553,7 @@
 0.0.0.0 ad.parom.hu
 0.0.0.0 wmg.112.2o7.net
 0.0.0.0 c3.adalyser.com
+0.0.0.0 www.rackusread.com
 0.0.0.0 fastfixing.tech
 0.0.0.0 iacas.adbureau.net
 0.0.0.0 adserver.virtuous.co.uk
@@ -16935,6 +16940,7 @@
 0.0.0.0 dynamic-dns.net
 0.0.0.0 flexeril.1.p2l.info
 0.0.0.0 proflashdata.com			# Facebook trojan
+0.0.0.0 www.gavelandcap.com
 0.0.0.0 ph-ad15.focalink.com
 0.0.0.0 gpaper129.112.2o7.net
 0.0.0.0 journalregistercompany.122.2o7.net
