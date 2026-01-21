@@ -1,4 +1,4 @@
-# Update time: 2026-01-21 09:47:08
+# Update time: 2026-01-21 20:49:40
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7804,7 +7804,6 @@ reuters.com##+js(aost, admiral, .js?)
 /page/load?
 ||polymorphicads.jp^$third-party
 ://gtm.*.js?st=
-/keypress.js$script
 @@||helix.videotron.com/js/api/fingerprint.js$~third-party
 ://mailmag.hhcross.hankyu-hanshin.jp/c/*.gif
 ||adnz.co/header.js
@@ -8043,6 +8042,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||akamaihd.net/*.gif?e=
 /_servix/webid.aspx?$script
 ||pubstack.io^$third-party
+/api/v3/getStatsigResults
 ||ruwiki.ru/w/rest.php/metrics/
 /collect/stats?
 ||amazonaws.com^*/prod_analytics
@@ -11362,6 +11362,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||auction.co.kr/montelena.js
 ||adsmediator.com^$third-party
 /log/metrics?
+||drugs.com/api/log/
 /GoogleAnalyticsModule.min.js
 ||js.static.m1905.cn/pingd.js
 /services/pixel.html?
@@ -13638,7 +13639,6 @@ baeldung.com,cheatsheet.com,mensjournal.com,pwinsider.com##+js(rmnt, script, adm
 ||pulseinsights.com^$third-party
 ||mbp-japan.com/js/pv.js
 ||eldorado.gg/white-house/white_house_script_data_
-@@||cdn.rawgit.com/dmauro/keypress/master/keypress.js$script,domain=dmauro.github.io
 ||flagr.worldstarhiphop.com/api/v1/evaluation
 ||melhorplano.net/scripts/tracker/
 /eumcollector/beacons/*
@@ -15773,6 +15773,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 /hit?aff_id=$xmlhttprequest
 ||conversionlogic.net^$third-party
 /satismeter.js
+||notion.so/api/v3/etClient
 ||iesnare.com^$third-party
 /csi?v=2&s=
 ||hudong.com/flux.js
@@ -16240,6 +16241,7 @@ _track_pixel.gif?
 /beacon?data=$image
 ||tellerreport.com/react/pixel
 ||foodpanda.pk/lJuB4eTB/init.js
+||api2.ma.ru/analytics.js
 ||marketshot.fr^$third-party
 ||taggrs.io^$third-party
 ||touchclarity.com^$third-party
@@ -16452,6 +16454,7 @@ _track_pixel.gif?
 ||kelkoogroup.net/st?
 ||sourceforge.net/tracker/$~xmlhttprequest
 /pagestat?
+||adora-cdn.com/adora-start.js
 /amp-call-tracking-
 ||speedcounter.net^$third-party
 @@||platform.bombas.com/external/gtm.js$script,~third-party
@@ -17151,6 +17154,7 @@ _rpc/log?
 ||facebook.com/adnw_request?
 ||lasso.link^$third-party
 ||webdissector.com^$third-party
+/keypress.js$script,domain=~github.io
 ||x.com/9/measurement/
 ||wp.com/i/mu.gif$image
 /trackingClient.bundle.js
@@ -17644,6 +17648,7 @@ _imp?Log=
 ||freepik.com/_ga?
 ||esports-world.jp/js/banner.event.js
 ||owltrack.com^$third-party
+||datapulse.app^$third-party
 ||netstats.dk^$third-party
 /eta/events?
 ||otg.mblycdn.com/bundles/cmp.js
