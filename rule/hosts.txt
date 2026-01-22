@@ -1,4 +1,4 @@
-# Update time: 2026-01-21 20:49:40
+# Update time: 2026-01-22 09:47:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11850,6 +11850,7 @@
 0.0.0.0 ads.coopson.com
 0.0.0.0 cafj.fr
 0.0.0.0 tiku.io
+0.0.0.0 www.brightstardv.pro
 0.0.0.0 linknotification.com
 0.0.0.0 ad33digital.checkm8.com
 0.0.0.0 bbs.ws
@@ -14678,6 +14679,7 @@
 0.0.0.0 emisja.contentstream.pl
 0.0.0.0 adnetworkperformance.com
 0.0.0.0 callfor-articles.com
+0.0.0.0 www.igameup.com
 0.0.0.0 platinmods.fr
 0.0.0.0 cpm20.com
 0.0.0.0 httpads.com
@@ -16028,7 +16030,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 clickserve.uk.dartsearch.net
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
@@ -24041,6 +24042,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
