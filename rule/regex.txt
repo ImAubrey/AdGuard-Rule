@@ -1,4 +1,4 @@
-# Update time: 2026-01-22 20:49:23
+# Update time: 2026-01-23 09:44:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1368,6 +1368,7 @@
 ||qn-*pcdn.cdn.huya.com^
 ||mssdk*.zijieapi.com^
 ||zazgiyoh*.world^
+||log-v*-boot.capcutapi.com^
 ||rtbimp-loadbalancer-*.amazonaws.com^
 ||zazgbqg*.xyz^
 ||browser-intake-*-datadoghq.com^
