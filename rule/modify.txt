@@ -1,4 +1,4 @@
-# Update time: 2026-01-24 09:41:13
+# Update time: 2026-01-24 20:39:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12174,6 +12174,7 @@ _WebVitalsReporter_
 /apilog?
 &action=js_stats
 ||hypestat.com^$third-party
+||cdn.transifex.com/live.js
 ||convertkit.com^*/visit
 ||m.mobile.de/svc/track/
 ||stats.de^$third-party
@@ -15554,6 +15555,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||gannettdigital.com/capture_logger/
 ||dcf.espn.com/privacy/
 /javascripts/browserfp.min.js?templateId=
+||discover.hubpages.com/.bootscripts/analytics.min.js
 /analytics-ping.js
 ||counthis.com^$third-party
 ||connecteam.com/bi/api/ReportHit/
@@ -17180,6 +17182,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 /collect/pv?
 ||matomo.cloud^$third-party
 ||sciencex.com/api/location/
+||discover.hubpages.com/.bootscripts/hubPagesViewDurationTracker.min.js
 ||qwant.com/impression/
 ||uptracs.com^$third-party
 ||net-filter.com^$third-party
