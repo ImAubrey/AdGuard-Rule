@@ -1,4 +1,4 @@
-# Update time: 2026-01-23 20:46:26
+# Update time: 2026-01-24 09:41:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2177,6 +2177,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 /\/accounts\/19[56]\d{3}\/messages\/\d{1,2}\/clicks\/\d{4,5}\/\d{1,2}\b/$doc,match-case
 ||igetintopc.com^$all
 ||brs.hg-story.blue^$doc
+||wploits.com^$all
 ||luminous-encounter.biz^$doc
 ||sirokataldea.com^$all
 ||rplnd60.com^$all
@@ -8898,6 +8899,7 @@ _trackWebtrekkEvents.
 /adobe/logging/*
 /sensorsdata.$domain=~sensorsdata.cn
 /track?referrer=
+||petametrics.com^$third-party,domain=~telegraph.co.uk|~thestreet.com
 ||track-web.net^$third-party
 ||humanclick.com^$third-party
 ||bigday.ru/counter.php?
@@ -9004,6 +9006,7 @@ _trackWebtrekkEvents.
 ||stats2.com^$third-party
 ||plushd.bio/cdn-cgi/trace
 ||kameleoon.eu^$third-party
+||petametrics.com/*/modal
 ||fspark-ap.com^$third-party
 ||comeon.com/tracking.php
 ||cu.dzen.ru/?rn=
@@ -10374,6 +10377,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||tuttomercatoweb.com/pixel
 ||waplog.net^$third-party
 ||agrvt.com^$third-party
+||cca-lite.coinbase.com/amp
 ||onescreen.net/os/static/pixels/
 ||unibling.com/eclytics/
 ||tentaculos.net^$third-party
@@ -16455,7 +16459,6 @@ _track_pixel.gif?
 ||jiayuan.com^*/pv.js
 ||gog-statics.com/js/loginTracking-$script,domain=gog.com
 ?action=log_promo_impression
-||petametrics.com^$third-party,domain=~telegraph.co.uk
 /0c.gif?
 /analytics-events-
 ||indeed.com/cmp/_rpc/dwell-log?
@@ -16549,7 +16552,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||snowsignal.com^$third-party
 ||weekand.com/413gkwMT/init.js
 @@||trackjs.com/agent/$script,domain=delta.com
-||petametrics.com^$domain=meidastouch.com
 ||count.ly^$third-party
 /owa.Analytics.m.js
 ||seal.globalsign.com^$third-party
@@ -17337,6 +17339,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||vk.com/al_video.php?act=track_player_events
 ||mmstat.com^$third-party
 ||data.armexdef.uk/api/visit/
+||petametrics.com/*/activity
 ||100widgets.com^$third-party
 ||temu.com/api/adx/
 ||akamai.net^*/a.visualrevenue.com/
@@ -17514,7 +17517,6 @@ _imp?Log=
 ||stat.kununu.cz^$third-party
 ||api.sardine.ai/assets/loader.min.js$third-party
 /strpixel.png?
-||petametrics.com^$image,third-party,xmlhttprequest
 ||zeustechnology.com^$third-party
 ||theporn.cc/anyalytics?
 /EmailOpenTrackLog.aspx?$image

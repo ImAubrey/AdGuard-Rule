@@ -1,4 +1,4 @@
-# Update time: 2026-01-23 20:46:26
+# Update time: 2026-01-24 09:41:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7867,6 +7867,7 @@
 0.0.0.0 www.brightonclick.com
 0.0.0.0 vieques.fr
 0.0.0.0 tracker.consumerpackage.net
+0.0.0.0 www.cassink.com
 0.0.0.0 pubdirecte.com
 0.0.0.0 oascentral.crainsdetroit.com
 0.0.0.0 stat.www.fi
@@ -10768,6 +10769,7 @@
 0.0.0.0 art-offer.com
 0.0.0.0 adsys.townnews.com
 0.0.0.0 www.dt1blog.com
+0.0.0.0 adolfoqsalondmacha.standard.us-east-1.oortstorages.com
 0.0.0.0 adsspace.net
 0.0.0.0 statistics.theonion.com
 0.0.0.0 zz.cqcounter.com
@@ -11519,6 +11521,7 @@
 0.0.0.0 fepete.ch
 0.0.0.0 planearconsultoria.com.br
 0.0.0.0 stats6.lightningcast.net
+0.0.0.0 www.avemoo.com
 0.0.0.0 adserve.ehpub.com
 0.0.0.0 myusersonline.com
 0.0.0.0 rcm-it.amazon.it
@@ -16310,6 +16313,7 @@
 0.0.0.0 www2.ad-server.online
 0.0.0.0 www.specificclick.com
 0.0.0.0 firefox-updater.com
+0.0.0.0 growhairs.shop
 0.0.0.0 keepyoungphone.bid
 0.0.0.0 www.hitbox.com
 0.0.0.0 freedailydownload.com
@@ -16324,6 +16328,7 @@
 0.0.0.0 xml.click9.com
 0.0.0.0 rtb18.adscience.nl
 0.0.0.0 susm0q6jys.com
+0.0.0.0 gdudh473-chersfeye483.landmarksfeed.su
 0.0.0.0 canada.postcanadakxcif.top
 0.0.0.0 img.sn00.net
 0.0.0.0 tcss.qq.com
@@ -17193,6 +17198,7 @@
 0.0.0.0 madeleinekrook.nl
 0.0.0.0 vhowland.co.uk
 0.0.0.0 jgen12.cjt1.net
+0.0.0.0 asd.is
 0.0.0.0 achetezfacile.com
 0.0.0.0 rubgyrama.fr
 0.0.0.0 get.hitbox.com
