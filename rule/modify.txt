@@ -1,4 +1,4 @@
-# Update time: 2026-01-24 20:39:51
+# Update time: 2026-01-25 09:53:47
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -14479,6 +14479,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||samsclub.com/px/PXsLC3j22K/init.js
 /hitbox.js
 ||engineering.com/scripts/$script,domain=eng-tips.com
+/tlinks.nordaccount.com/q/*$image
 ||callisto.fm^$third-party
 /trackpxl?
 @@||sams.11freunde.de/ee/*/interact?$xmlhttprequest,domain=11freunde.de
