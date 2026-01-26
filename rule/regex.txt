@@ -1,4 +1,4 @@
-# Update time: 2026-01-25 20:41:17
+# Update time: 2026-01-26 09:53:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -130,7 +130,6 @@
 |broker.litlyx.com^
 |stat.simba.taobao.com^
 |adshare.toutiao.com^
-|contents.meituan.com^
 |g.163.com^
 |wpcdn1.herokuapp.com^
 |mostat.wps.cn^
@@ -237,7 +236,6 @@
 |geolocation.onetrust.com^
 |controller.intl.xiaomi.com^
 |apppv.zol.com.cn^
-|loan-supermarket.faas.ele.me^
 |gw.365you.com^
 |ykugc.cp31.ott.cibntv.net.302.myalicdn.com^
 |slog.sina.cn^
@@ -275,6 +273,7 @@
 |ad.video.51togic.com^
 |log.music.baidu.com^
 |pg-ad-b2.ws.126.net^
+|datain.longfor.com^
 |sapi.justwatch.com^
 |report.idqqimg.com^
 |ping.ifixit.com^
@@ -384,7 +383,6 @@
 |d5.sina.com.cn^
 |e2elog.fetnet.net^
 |pmir.3g.qq.com^
-|m.jr.mi.com^
 |ad-r.soulapp.cn^
 |preview.msn.com^
 |sfsapi.micloud.xiaomi.net^
@@ -458,7 +456,6 @@
 |httpdns-api.aliyuncs.com^
 |ad.wretch.cc^
 |win10.ipv6.microsoft.com^
-|mpush-api.aliyun.com^
 |tvupgrade.yunos.com^
 |atrace.chelaile.net.cn^
 |lxcdn.dl.files.xiaomi.net^
@@ -650,9 +647,11 @@
 |foundation.mozilla.org^
 |httpdns.danuoyi.tbcache.com^
 |river.zhidao.baidu.com^
+|liteapp.developer.xiaomi.com^
 |mini.midonglab.com^
 |sdk.zsdfm.com^
 |adx.alimama.com^
+|marketing-aibox.v.mitvos.com^
 |cb.l.qq.com^
 |paopao3.qiyipic.com^
 |geo.hicloud.com^
@@ -860,6 +859,7 @@
 |heyue.xiaomi.com^
 |offnavi.map.baidu.com^
 |tw13b093.sandai.net^
+|o2oad.elemecdn.com^
 |i.xiaomi.com^
 |dns.weibo.cn^
 |s.snmi.cn^
@@ -970,6 +970,7 @@
 ||ad.*.prod.hosts.ooklaserver.net^
 |mclick.simba.taobao.com^
 |umami.rss3.io^
+|e.pubtailer.com^
 |hd.xiaomi.com^
 |adv.ccb.com^
 |adsage.cn^

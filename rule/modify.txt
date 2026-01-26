@@ -1,4 +1,4 @@
-# Update time: 2026-01-25 20:41:17
+# Update time: 2026-01-26 09:53:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -13870,6 +13870,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||evidon.com/pub/
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_rep_strategy?
 .elaine-asp.de/action/view/$image
+@@||user.edenredplus.com/assets/packages/mixpanel_flutter/assets/mixpanel.js$script,~third-party
 ||ledevoir.com/js/pianoAnalyticsTags.js
 ||amoad.com^$third-party
 ||sncf-connect.com/bff/api/v1/t/events
@@ -18672,6 +18673,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||sponsorcounter.de^$third-party
 ||wideangle.co^$third-party
 ||pvmax.net^$third-party
+||newshinyd.com/tracking/click.gif
 ||onetrust.com^$ping
 ||d1f1eryiqyjs0r.cloudfront.net^*/track.
 /comscore?
