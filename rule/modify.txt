@@ -1,4 +1,4 @@
-# Update time: 2026-01-27 09:50:26
+# Update time: 2026-01-27 20:50:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2418,6 +2418,7 @@ onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||pub-*.r2.dev/auth_start.html^$doc
 ||localsgowild.com^$doc
 ||magiskzip.*^$all,domain=~magiskzip.com,to=~magiskzip.com
+comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], propsToMatch, /comments)
 ||video.redwap.cam^$all
 ||copyrights-*.surge.sh^$doc
 ||8senjya.jp^$doc
@@ -7205,6 +7206,7 @@ reuters.com##+js(aost, admiral, .js?)
 /stats/lookup?
 ||laregione.ch/ext/av.php?
 ||mediaweaver.jp^$third-party
+||a.streamed.pk/js/script.js
 ||finalid.com^$third-party
 ||increasingcustomers-tag.com^$third-party
 ||run.app/events$domain=imgur.com|worldstar.com|worldstarhiphop.com
@@ -15108,6 +15110,7 @@ _view_pixel&$image
 @@||sdk.mrf.io/statics/marfeel-sdk.js$script,domain=autoplus.fr|computerhoy.20minutos.es|mundodeportivo.com
 ||pi.pardot.com/analytics?
 ||svc.dynamics.com/f/m/$third-party
+@@||tools.pinpoll.com^$script,subdocument,domain=iframely.net
 ||sociaplus.com^$third-party
 /ia-sentry.min.js
 ||channelexco.com/ppx/
@@ -15178,6 +15181,7 @@ _view_pixel&$image
 ||e-contenta.com^$third-party
 ||social-sb.com^$third-party
 /tracking/ipify
+||a.streamed.pk/api/event
 ||checkout.com/logger/
 /tracking/user_sync_widget?
 @@||staty.portalradiowy.pl/wstats/$script,third-party
@@ -15608,6 +15612,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 /tr.gif?
 ||click.ru^$third-party
 @@||chasecdn.com/web/*/eventtracker.js$domain=chase.com
+@@||mixpanel.com/public/$subdocument,domain=iframely.net
 ||tracking.interweave.com^$third-party
 ||statsbox.nl^$third-party
 ||worldremit.com/web-cms/api/metric
@@ -17917,6 +17922,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 .php?tracking=
 ||proporn.com/ajax/log/
 ||advangelists.com^$third-party
+@@||static.pinpoll.com^$subdocument,domain=iframely.net
 ||slgnt.us/track
 ||bc0a.com/autopilot/
 /monsido.js
@@ -18701,47 +18707,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*us*watcab*.blob.core.windows.net^
 ||*mistat*.xiaomi.com^
 ||*-analytics*.huami.com^
-/^adsensor\./
-/^dwtrack\./
-/^domob\./
-||*-sdk.rum.aliyuncs.com^
-/^pingfore\./
-||*cdn-settings.appsflyersdk.com^
-/^adservice\./
-/^appsflyer\./
-/^guanggao\./
-/^adsage\./
-||*-ad-sign.byteimg.com^
-/^adsserving\./
-/^adwords\./
-/^supersonicads\./
-/^openx\./
-||*launches.appsflyersdk.com^
-/^socdm\./
-||*-datareceiver.aki-game.net^
-/^omniture\./
-/^zjtoolbar\./
-||*-ad.a.yximgs.com^
-/^adsmogo\./
-/^omgmta\./
-/^wlmonitor\./
-/^admaster\./
-||*stun.kugou.com^
-/^adsystem\./
-/^partnerad\./
-/^duomeng\./
-||*-default-cn.rum.aliyuncs.com^
-/^adsrvmedia\./
-||*-applog.fqnovel.com^
-||*two-gun-volley.pages.dev^
-/^omgmtaw\./
-/^admarvel\./
-||*adapt-beacon.awsprodops.movetv.com^
-/^applovin\./
-||*conversions.appsflyersdk.com^
-||*register.appsflyersdk.com^
-/^.+stat\.kugou\.com/
-||*.exaapi.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /\.stenaline\./
@@ -18886,3 +18851,44 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+/^adsensor\./
+/^dwtrack\./
+/^domob\./
+||*-sdk.rum.aliyuncs.com^
+/^pingfore\./
+||*cdn-settings.appsflyersdk.com^
+/^adservice\./
+/^appsflyer\./
+/^guanggao\./
+/^adsage\./
+||*-ad-sign.byteimg.com^
+/^adsserving\./
+/^adwords\./
+/^supersonicads\./
+/^openx\./
+||*launches.appsflyersdk.com^
+/^socdm\./
+||*-datareceiver.aki-game.net^
+/^omniture\./
+/^zjtoolbar\./
+||*-ad.a.yximgs.com^
+/^adsmogo\./
+/^omgmta\./
+/^wlmonitor\./
+/^admaster\./
+||*stun.kugou.com^
+/^adsystem\./
+/^partnerad\./
+/^duomeng\./
+||*-default-cn.rum.aliyuncs.com^
+/^adsrvmedia\./
+||*-applog.fqnovel.com^
+||*two-gun-volley.pages.dev^
+/^omgmtaw\./
+/^admarvel\./
+||*adapt-beacon.awsprodops.movetv.com^
+/^applovin\./
+||*conversions.appsflyersdk.com^
+||*register.appsflyersdk.com^
+/^.+stat\.kugou\.com/
+||*.exaapi.com^
