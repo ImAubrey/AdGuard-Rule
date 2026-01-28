@@ -1,4 +1,4 @@
-# Update time: 2026-01-28 09:46:47
+# Update time: 2026-01-28 20:50:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -545,6 +545,7 @@
 |ps.map.baidu.com^
 |httpdns.volcengineapi.com^
 |clkservice.mail.youdao.com^
+|amp.thehackernews.com^
 |stats.ipinyou.com^
 |ads.yimg.com^
 |vali-ugc.cp31.ott.cibntv.net^
