@@ -1,4 +1,4 @@
-# Update time: 2026-01-27 20:50:01
+# Update time: 2026-01-28 09:46:47
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7303,6 +7303,7 @@ reuters.com##+js(aost, admiral, .js?)
 /articleOmnitureTracking.js
 ||doclix.com^$third-party
 ||piccy.info/c?
+||js.clickrank.ai^$third-party
 /log/analytics
 ||cdp.vercel.com/rs/
 /log-view.js
@@ -10674,6 +10675,7 @@ $ping,third-party
 ||nature.com/platform/track/
 /analyticsjs.js
 ||tyxo.com^$third-party
+/plg_convertformstools_gatracker/js/script.js
 ||roirevolution.com^$third-party
 ||digitaltarget.ru^$third-party
 /log/debug?
@@ -16029,6 +16031,7 @@ _track_pixel.gif?
 /lasso-ga.js
 ||linksnappy.com^$third-party
 /mpel/mpel.js
+/web-vitals.iife.js
 ||p0y.cn^$third-party
 /log/?pixel=
 ||webstat.com^$third-party
@@ -16274,6 +16277,7 @@ _track_pixel.gif?
 ||corvidae.ai/pixel.min.js
 ||guarantee-cdn.com^$third-party
 ||fpad.jp^$third-party
+/script.pageview-props.tagged-events.js
 /znsrc.com/o/*$image
 /js/counter.js?
 ||top.mail.ru/tt?js
@@ -17383,6 +17387,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||linkxchanger.com^$third-party
 ||gegenstimme.tv/tracker/
 ||uplift-platform.com^$third-party
+||pdfcrowd.com/static/3rd/js/fpr.js
 ||estat.com^$third-party
 ||birdsend.email/pixel
 ||iocnt.net^$third-party
@@ -17440,6 +17445,7 @@ _imp?Log=
 ||wolfram.com/common/javascript/wal/latest/walLoad.js
 /api/drpStats
 ||topmalaysia.com^$third-party
+||helpmonks.com/cftag/
 ||dojomojo.ninja^$third-party
 ||shinsegae.com/topNPopup.do
 ||master-push.com^$third-party
@@ -18701,12 +18707,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /\.stenaline\./
@@ -18851,6 +18851,12 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
