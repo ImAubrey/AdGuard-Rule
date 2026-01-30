@@ -1,4 +1,4 @@
-# Update time: 2026-01-29 20:56:17
+# Update time: 2026-01-30 10:00:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -270,6 +270,7 @@
 |adsclick.qq.com^
 |dflow.bz.mgtv.com^
 |nl.rcd.iqiyi.com^
+|datareport.fkw.com^
 |ad.video.51togic.com^
 |log.music.baidu.com^
 |pg-ad-b2.ws.126.net^
@@ -1086,6 +1087,7 @@
 |sstc.ngrok.xiaomiqiu.cn^
 |ssp1.kfadx.tech^
 |kgmobilestatbak.kugou.com^
+|analytics.lucide.dev^
 |admaji.com^
 |baiducdncmn3.inter.iqiyi.com^
 |g.tbcdn.cn^
