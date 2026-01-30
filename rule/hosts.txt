@@ -1,4 +1,4 @@
-# Update time: 2026-01-30 10:00:07
+# Update time: 2026-01-30 20:54:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8407,6 +8407,7 @@
 0.0.0.0 parskabab.com
 0.0.0.0 www.rpepin.plus.com
 0.0.0.0 challeges.fr
+0.0.0.0 www.gentleshadeox.pro
 0.0.0.0 content.yieldmanager.edgesuite.net
 0.0.0.0 exelformation.fr
 0.0.0.0 addserver.mtv.com.tr
