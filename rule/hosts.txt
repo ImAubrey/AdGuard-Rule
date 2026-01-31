@@ -1,4 +1,4 @@
-# Update time: 2026-01-30 20:54:43
+# Update time: 2026-01-31 09:55:24
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7253,6 +7253,7 @@
 0.0.0.0 gazeta.hit.gemius.pl
 0.0.0.0 clicks.emarketmakers.com
 0.0.0.0 adb.wp.pl
+0.0.0.0 avatar.supearou.in
 0.0.0.0 analytics.spotta.nl
 0.0.0.0 newt1.adultadworld.com
 0.0.0.0 adver.pengyou.com
@@ -9107,6 +9108,7 @@
 0.0.0.0 gdelv.hit.gemius.pl
 0.0.0.0 gjfastcompanycom.112.2o7.net
 0.0.0.0 jgen10.cjt1.net
+0.0.0.0 www.dorminvaders.com
 0.0.0.0 eu.track.digitaladsystems.com
 0.0.0.0 adrazzi.com
 0.0.0.0 discoverecommerce.tt.omtrdc.net
@@ -10226,6 +10228,7 @@
 0.0.0.0 ih.adscale.de
 0.0.0.0 media2.adshuffle.com
 0.0.0.0 ads.icq.com
+0.0.0.0 www.bvcnle.cfd
 0.0.0.0 studiomugnaini.eu
 0.0.0.0 clicktracks.webmetro.com
 0.0.0.0 w3facility.org
@@ -10510,6 +10513,7 @@
 0.0.0.0 mapupdatezone.com
 0.0.0.0 stats.shopify.com
 0.0.0.0 windows-en-us-update.com
+0.0.0.0 www.dartya.com
 0.0.0.0 cdn.onthe.io
 0.0.0.0 delivery.clickonometrics.pl
 0.0.0.0 photos.pop6.com
@@ -11631,6 +11635,7 @@
 0.0.0.0 bbnaut.bbelements.com
 0.0.0.0 zapadserver1.com
 0.0.0.0 ad2games.com
+0.0.0.0 www.clearacreonline.com
 0.0.0.0 r2.romeflirt.com
 0.0.0.0 s-usweb.dotomi.com
 0.0.0.0 www.parsads.com
@@ -11839,6 +11844,7 @@
 0.0.0.0 adserv005.adtech.fr
 0.0.0.0 yang.hitbox.com
 0.0.0.0 cdn.freelac.com
+0.0.0.0 www.gekorn.com
 0.0.0.0 forex-signal.hut1.ru
 0.0.0.0 protection.CApolice.com
 0.0.0.0 ads.indiatimes.com
@@ -13579,6 +13585,7 @@
 0.0.0.0 opentable.tt.omtrdc.net
 0.0.0.0 112.2o7.net
 0.0.0.0 c.hk.msn.com
+0.0.0.0 www.cpatglobal.com
 0.0.0.0 ads.urbandictionary.com
 0.0.0.0 www.7bpeople.com
 0.0.0.0 cashbackwow.co.uk
@@ -13868,6 +13875,7 @@
 0.0.0.0 thebitcrew.com
 0.0.0.0 bigads.guj.de
 0.0.0.0 jessieu.fr
+0.0.0.0 www.edashealthcare.com
 0.0.0.0 ad14digital.checkm8.com
 0.0.0.0 www.linkcounter.com
 0.0.0.0 a.blesk.cz
@@ -14321,6 +14329,7 @@
 0.0.0.0 mandialrelay.fr
 0.0.0.0 www.capath.com
 0.0.0.0 2000greetings.com
+0.0.0.0 bulletwhiskey.sa.com
 0.0.0.0 hir44.blogspot.com
 0.0.0.0 percantil.fr
 0.0.0.0 ad.adview.pl
@@ -16117,7 +16126,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 clickserve.uk.dartsearch.net
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
@@ -17155,6 +17163,7 @@
 0.0.0.0 love-quest.blog
 0.0.0.0 sportssaint.net
 0.0.0.0 tracking.myunidays.com
+0.0.0.0 hlthiliv.shop
 0.0.0.0 zealous-push.surge.sh
 0.0.0.0 loan.aol.msk.su
 0.0.0.0 pocofh.com
@@ -24157,6 +24166,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
