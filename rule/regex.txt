@@ -1,4 +1,4 @@
-# Update time: 2026-01-31 20:46:25
+# Update time: 2026-02-01 10:23:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1364,7 +1364,6 @@
 ||telemetry*.transcend.io^
 ||collector-*.perimeterx.net^
 ||log*-misc-lf.amemv.com^
-||v*.denakop.com^
 ||opnked*.xyz^
 ||ax.*.ifeng.com^
 ||ajx*.online^

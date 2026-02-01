@@ -1,4 +1,4 @@
-# Update time: 2026-01-31 20:46:25
+# Update time: 2026-02-01 10:23:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5433,6 +5433,7 @@ windowsreport.com##.code-block
 ||pi-tarina.com^$doc
 ||netlify.app/errox01/?$all
 ||bluestacksdownloads.com^$doc
+://message1*.z13.web.core.windows.net^$doc
 ||askme4date.com^$doc
 ||secure---sso---robinhood---com-cdn.webflow.io^$doc
 ||ttt777.com^$doc
@@ -12161,6 +12162,7 @@ _WebVitalsReporter_
 ||nexx.cloud/play/beacon.
 ||qwant.com/maps/events
 ||bet365.de/Members/*&affiliate=$subdocument,third-party
+||think.ing.com/ajax/ajax_cookie_consent$~third-party,xmlhttprequest
 ||ometria.com^$third-party
 /xgemius.js
 /api/v1/streamtelemetry
