@@ -1,4 +1,4 @@
-# Update time: 2026-02-01 10:23:29
+# Update time: 2026-02-01 20:49:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2119,6 +2119,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||xn--z9jzga6u1506a.jp^$doc
 ||vip^$doc,ipaddress=15.207.81.128
 ||uudaikhachhang-$doc
+||mpchc.net^$all
 ||cdn.710k.com^$all
 ||freediscordnitro.$all
 ||mmlnc.net^$doc
@@ -6159,6 +6160,7 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 ||vssid.*.cc^$doc
 ||6xy-zg.com^$doc
 ||deal-defeat.com^$doc
+||fantia.paid-task.com^$all
 ||mamagathering.org^$doc
 ||cheri-sh.jp^$doc
 ||e-c.tokyo^$doc
@@ -9439,6 +9441,7 @@ _beacon?
 ||sitelabweb.com^$third-party
 /cnt/start.php?
 ||siteimprove.com^$third-party
+||featureflags.grubhub.com/v1/events
 ||api.tv.de/*/tracking/
 /criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com
 /shopify-event.gif?
@@ -9681,6 +9684,7 @@ _beacon?
 ||optimove.net^$third-party
 ||exclusiveclicks.com^$third-party
 ||stattrax.com^$third-party
+@@||browser-intake-datadoghq.com^$xmlhttprequest,domain=grubhub.com|mightyape.co.nz
 ||mytictac.com^$third-party
 ||api.doodle.com/data-layer/track
 ||configurator.ecom-mobile-samsung.com/api/logger
@@ -13610,6 +13614,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||behavioralengine.com^$third-party
 ||ping-fast.com^$third-party
 ||kn007.net/snmp.php
+||apps.rokt-api.com/webevents/
 ||checkout.com/logging
 /wp-coin-hive-util.js
 ||webworx24.co.uk/123trace.php
@@ -18575,7 +18580,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||kaxsdc.com^$third-party
 ||altastat.com^$third-party
 /phpmyvisites.js
-@@||browser-intake-datadoghq.com^$xmlhttprequest,domain=mightyape.co.nz
 @@||munchkin.marketo.net/munchkin.js$domain=st.com|telus.com
 /ab_track.js
 /popu.js$script
@@ -18926,6 +18930,12 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -18967,9 +18977,3 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^

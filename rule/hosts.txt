@@ -1,4 +1,4 @@
-# Update time: 2026-02-01 10:23:29
+# Update time: 2026-02-01 20:49:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12595,6 +12595,7 @@
 0.0.0.0 scwharzkopf.fr
 0.0.0.0 nationalpost.112.2o7.net
 0.0.0.0 e-2dj6wfloenczmkq.stats.esomniture.com
+0.0.0.0 www.bigantstore.com
 0.0.0.0 moz.execulink.net
 0.0.0.0 webupdater.net
 0.0.0.0 adengine.rt.ru
