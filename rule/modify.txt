@@ -1,4 +1,4 @@
-# Update time: 2026-02-02 10:07:24
+# Update time: 2026-02-02 20:58:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9271,6 +9271,7 @@ _beacon?
 /viewtracking.aspx?
 ||o2.cz^*-ga_o2cz_bundle.js?
 ||blink.net/e/
+||m.castle.io/v1/monitor
 ||xstats.net^$third-party
 ||thisiswhyimbroke.com/api/user/tracking
 ||ngmco.net^$third-party
@@ -15373,6 +15374,7 @@ _view_pixel&$image
 ||cnhv.co^$third-party
 ||houzz.com/js/log?
 ||cdn-net.com^$third-party
+||intuit.com/static/scripts/cookie-sync/cookiesync-pixel.js
 ||yigao.com^$third-party
 ||amikay.com^$third-party
 /plugins/nimiq/*$script
