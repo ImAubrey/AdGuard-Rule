@@ -12,30 +12,28 @@ application:
   rule:
     #远程规则
     remote:
-      - 'https://ublockorigin.github.io/uAssets/filters/badware.txt'
-      - 'https://ruleset.skk.moe/Internal/reject-adguardhome.txt' #name: Sukka
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt' #name: AdAway Default Blocklist
-      - 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt' #name: 去除禁止广告拦截提示规则
-      - 'https://easylist.to/easylist/easyprivacy.txt' #name: Privacy EasyList
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt' #name: Dan Pollock's List
-      - 'https://anti-ad.net/adguard.txt' #name: anti-ad.net
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_32.txt' #name: The NoTracking blocklist
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt' #name: Phishing URL Blocklist (PhishTank and OpenPhish)
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt' #name: The Big List of Hacked Malware Web Sites
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt' #name: Peter Lowe's Blocklist
-      - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt' #name: 杏稍AdRules DNS List
-      # - 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/AdGuard/Advertising/Advertising.txt' #name: AdGuard_blackmatrix7##### 合并 华为智能家居有问题
-      - 'https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt' #name: 知乎 普通版
-      - 'https://raw.githubusercontent.com/ImAubrey/AdGuard-Rule/main/custom-block.txt' #name: custom-block
-      - 'https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt' #name: Coin list
-      # Badware
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt' #name: Scam Blocklist by DurableNapkin
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt' #name: Phishing Army
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt' #name: HaGeZi's Threat Intelligence Feeds
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt' #name: HaGeZi's DynDNS Blocklist
-      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt' #name: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_55.txt' #name: HaGeZi's Badware Hoster Blocklist
-      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt' #name: Phishing URL Blocklist (PhishTank and OpenPhish)
+      # - 'https://ublockorigin.github.io/uAssets/filters/badware.txt'
+      # - 'https://ruleset.skk.moe/Internal/reject-adguardhome.txt' #name: Sukka
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt' #name: AdAway Default Blocklist
+      # - 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt' #name: 去除禁止广告拦截提示规则
+      # - 'https://easylist.to/easylist/easyprivacy.txt' #name: Privacy EasyList
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt' #name: Dan Pollock's List
+      # - 'https://anti-ad.net/adguard.txt' #name: anti-ad.net
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_32.txt' #name: The NoTracking blocklist
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt' #name: Phishing URL Blocklist (PhishTank and OpenPhish)
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt' #name: The Big List of Hacked Malware Web Sites
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt' #name: Peter Lowe's Blocklist
+      # - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt' #name: 杏稍AdRules DNS List
+      # - 'https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt' #name: 知乎 普通版
+      # - 'https://raw.githubusercontent.com/ImAubrey/AdGuard-Rule/main/custom-block.txt' #name: custom-block
+      # - 'https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt' #name: Coin list
+      # # Badware
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt' #name: Scam Blocklist by DurableNapkin
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt' #name: Phishing Army
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt' #name: HaGeZi's Threat Intelligence Feeds
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt' #name: HaGeZi's DynDNS Blocklist
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_55.txt' #name: HaGeZi's Badware Hoster Blocklist
+      # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt' #name: Phishing URL Blocklist (PhishTank and OpenPhish)
 
     #本地规则
     local: #本地规则请将文件移动到项目路径rule目录中
