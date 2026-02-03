@@ -1,4 +1,4 @@
-# Update time: 2026-02-03 10:05:48
+# Update time: 2026-02-03 20:58:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12244,7 +12244,6 @@ _WebVitalsReporter_
 /apilog?
 &action=js_stats
 ||hypestat.com^$third-party
-||cdn.transifex.com/live.js
 ||convertkit.com^*/visit
 ||m.mobile.de/svc/track/
 ||stats.de^$third-party
@@ -12302,6 +12301,7 @@ _WebVitalsReporter_
 ||touchcommerce.com/tagserver/logging/
 ||pixad.com.tr^$third-party
 ||firecrux.com/track/$xmlhttprequest
+||2trk.info^$third-party
 ||qiota.com/api/event
 @@||akamaihd.net/nbad/player/*/visitorapi.js$domain=watch.nba.com
 /1pixel.php
@@ -13596,6 +13596,7 @@ baeldung.com,cheatsheet.com,mensjournal.com,pwinsider.com##+js(rmnt, script, adm
 ||mbp-japan.com/js/pv.js
 ||eldorado.gg/white-house/white_house_script_data_
 ||flagr.worldstarhiphop.com/api/v1/evaluation
+||scripts.postie.com/otcteung/lp.1.js
 ||melhorplano.net/scripts/tracker/
 /eumcollector/beacons/*
 ||fast-counter.net^$third-party
@@ -15203,6 +15204,7 @@ _view_pixel&$image
 ||tda.io^$third-party
 ||progressive.com/Log/
 ||lensdirect.com/page-tracking/
+||preciso.net^$third-party
 /Quantcast/cmp_v2.js
 ||cdn.gov.cfigroup.com/webmon/s/source/webmon/$domain=weather.gov
 ||ubereats.com/_events
@@ -18935,12 +18937,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -18982,3 +18978,9 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
