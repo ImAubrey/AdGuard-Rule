@@ -1,4 +1,4 @@
-# Update time: 2026-02-02 20:58:34
+# Update time: 2026-02-03 10:05:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1568,7 +1568,6 @@
 ||host*.rigbyandpeller.com^
 ||analytics.*.sky.com^
 ||servo-report.keepstreams.*^
-||tw*.netcore.co.in^
 ||pangolin-sdk-toutiao*.com^
 ||logreport-global-dual.cool*cloud.com^
 ||clog*.yuanfudao.com^
@@ -1587,7 +1586,6 @@
 ||sdk-*.moengage.com^
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||rtlog*.tiktokv.us^
-||stats.*.ronghub.com^
 ||stun.*.kugou.com^
 ||st-*.dynamicyield.com^
 ||v*-ad.video.yximgs.com^
