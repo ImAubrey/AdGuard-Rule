@@ -1,4 +1,4 @@
-# Update time: 2026-02-04 10:01:07
+# Update time: 2026-02-04 20:57:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2120,6 +2120,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||vip^$doc,ipaddress=15.207.81.128
 ||uudaikhachhang-$doc
 ||mpchc.net^$all
+||subscriptionprocess.im^$all
 ||cdn.710k.com^$all
 ||freediscordnitro.$all
 ||mmlnc.net^$doc
@@ -4890,6 +4891,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||hn-mizuki.com^$doc
 ||stage3-last.$doc,to=~edu|~gov
 /^https:\/\/booking(-[a-z]{3,}){2}\.(?:baby|lat|lol|xyz)\//$doc,to=baby|lat|lol|xyz|~booking.com
+||acc-verification.world^$all
 ||adultminglenight.click^$all
 energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[onmousemove*=".innerHTML"][onmousemove*="String.fromCharCode"]
 ||icetraff.com^$all
@@ -5985,6 +5987,7 @@ windowsreport.com##.code-block
 ||ainokotoba1515.com^$doc
 ||tsukiyomian.com^$doc
 ||cvfr74t.com^$doc
+||l1ve-com.444774.shop^$all
 ||szddbxyumfcf.net^$doc
 ||any864jagged53.com^$doc
 ||caixa-login-banco-home-login-auth-h.codeanyapp.com^$all
@@ -12291,6 +12294,7 @@ _WebVitalsReporter_
 ||creately.com/static/js/creately-analytics-
 /RcAnalyticsEvents.js
 ||active.com/ig.track.js
+||api.reo.dev^$third-party
 ||linkifier.com^$third-party
 /InsightTrk/guuidSkeleton.do?
 ||ilogbox.com^$third-party
@@ -14129,6 +14133,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 /cgi-bin/online/uos.cgi?
 /.rum/@adobe/helix-
 ||buzzurl.jp/api/counter/
+/web-pixels@*/web-pixel-*/sandbox/modern/*
 ||upsellit.com^$third-party
 /mms.*/pv?
 /kimonix_analytics.js
@@ -15220,6 +15225,7 @@ _view_pixel&$image
 /ViewCounter/*
 ||adsolutions.com^$third-party
 ||g.delfi.lt/g.js
+||visualwebsiteoptimizer.com/analysis/
 ||zebestof.com^$third-party
 ||netmera-web.com^$third-party
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|foxsports.com
@@ -18110,6 +18116,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||webcare.byside.com/agent/usert_agent.php
 ||mrt.com/413gkwMT/init.js
 /utag.loader.js
+/web-pixel-*/worker.modern.js
 ||compendiumblog.com/sp.js
 ||countercentral.com^$third-party
 /awstats_misc_tracker
@@ -18938,6 +18945,12 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
@@ -18979,9 +18992,3 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
