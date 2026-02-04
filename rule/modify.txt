@@ -1,4 +1,4 @@
-# Update time: 2026-02-03 20:58:53
+# Update time: 2026-02-04 10:01:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3035,6 +3035,7 @@ productkeyfree.org,productkeyforfree.com,wazusoft.com,piratesfile.com,kalicrack.
 ||cdn.discordapp.com/attachments/916391647955279943/*^$all
 ||open-office.fr^$doc
 ||moremorelove.net^$doc
+||adguardvpnnew.biz^$all
 ||magicslimnhatban.com^$all
 ||loto-4x.com^$doc
 ||live-metasupport.com^$all
@@ -8910,7 +8911,6 @@ _trackWebtrekkEvents.
 ||mmtro.com^$third-party
 ||csdn.net^*/counter.js
 /StatsCollector/*
-||gyrovague.com^$domain=archive.fo|archive.is|archive.li|archive.md|archive.ph|archive.today|archive.vn
 /analytics/analytics.js
 /traffic_record.php?
 ||webservis.gen.tr^$third-party
@@ -17727,6 +17727,7 @@ _imp?Log=
 /js/count.js.
 /opentag/*
 /monitor_analytic.js
+||gyrovague.com^$domain=archive.fo|archive.is|archive.li|archive.md|archive.ph|archive.today|archive.vn|btdig.com
 ||dynamicyield.com/batch?
 /log/collect/*
 /trace/link/*$image
