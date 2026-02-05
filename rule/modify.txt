@@ -1,4 +1,4 @@
-# Update time: 2026-02-05 10:02:05
+# Update time: 2026-02-05 21:01:00
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2436,6 +2436,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||mland.jp^$doc
 */zcvisitor/*?campaignid$doc
 ||secureserver.net/ruckstantung907921/$doc
+||youtube.com/watch?v=ZsAUT2PmbZk$all
 /recaptcha-verification.html^$doc
 ||enisaflowersaku.com^$doc
 ||azureedge.net/*/flscn.js
@@ -2912,6 +2913,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 /^https:\/\/[0-9a-z]{30,}\.s3\.[-a-z]+\d+\.backblazeb2\.com\/W[0-9A-Za-z]*in0[0-9A-Za-z]*Er0[0-9A-Za-z]*\/index\.html/$doc,match-case,domain=backblazeb2.com
 ||ombrewa.space^$doc
 ||makenoads.com^$all
+||kryvessa.xenithra.site^$all
 ||mgirl.jp^$doc
 /^https:\/\/mbdk\d+\.com\//$doc,to=com|~mbbank.com.vn
 ||businesscreatorportal.com^$all
@@ -3222,6 +3224,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||bankplus.co.com^$all
 ||orange-connexion*.godaddysites.com^$all
 ||koun-yogen.com^$doc
+||rblx-copier.vercel.app^$all
 ||pub-*.r2.dev/docuss_3456787654324567897865433456789.html^$doc
 ||microsoft-verify.glitch.me^$all
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##th:has-text(/^Detection$/)
@@ -4211,6 +4214,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 ||aster-dex.run^$doc
 ||b2base252.top^$all
 ||xn--z9j635l1gs.jp^$doc
+||youtube.com/@rblxtoolz$all
 ||agripro-fr-*.com^$doc
 ||pddeploy.com^$all
 ||u-to-u.com^$doc
@@ -5389,6 +5393,7 @@ windowsreport.com##.code-block
 ||aging3.co^$all
 ||jfureai.com^$doc
 ||bookofsex.com^$all
+||divibase.xyz^$all
 ||pub-*.r2.dev/doc_start.html^$doc
 ||koenig.cx^$all,to=~dropbox.com
 ||suport-page-help.com^$all
@@ -5578,6 +5583,7 @@ windowsreport.com##.code-block
 /^https:\/\/[a-z0-9]{50,}\.[a-z0-9]{4,11}\.su\/[a-zA-Z0-9]{50,}$/$xhr,3p,method=get,to=su,from=com|ru|su
 ||beyourxfriend.com^$all
 ||l0vekatsu.com^$doc
+||t-sales.jp^$all
 ||rustdesk.co.nz^$doc
 ||liveflo.qxlva.io^$all
 ||z-lib.id^$doc
@@ -8144,6 +8150,7 @@ _stat_counter.php?
 ||baidu.com/x.js?
 /measure/visit/*
 ||springmetrics.com^$third-party
+||traction.technologyadvice.com^$third-party
 ||datvantage.com^$third-party
 ||px-cdn.net/b/
 /api/v3/trackSegmentEvent
@@ -18801,12 +18808,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /\.stenaline\./
@@ -18992,3 +18993,9 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
