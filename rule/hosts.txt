@@ -1,4 +1,4 @@
-# Update time: 2026-02-04 20:57:51
+# Update time: 2026-02-05 10:02:05
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9507,6 +9507,7 @@
 0.0.0.0 www.devis-abri-de-piscine.fr
 0.0.0.0 www.yourgiftzone.com
 0.0.0.0 d.company-target.com
+0.0.0.0 auth0.vernovls.com
 0.0.0.0 ad8digital.checkm8.com
 0.0.0.0 tapixesa.pro
 0.0.0.0 systadin.fr
@@ -16604,6 +16605,7 @@
 0.0.0.0 workopolis.122.2o7.net
 0.0.0.0 tudatosanelok.com
 0.0.0.0 ams2.rumourrubicon.com
+0.0.0.0 www.partsttown.com
 0.0.0.0 track.construclique.com
 0.0.0.0 anonymousdemographics.com
 0.0.0.0 cyseal.cyveillance.com
