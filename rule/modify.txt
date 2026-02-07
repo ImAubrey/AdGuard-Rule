@@ -1,4 +1,4 @@
-# Update time: 2026-02-06 20:58:16
+# Update time: 2026-02-07 09:58:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8773,6 +8773,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 ||poool.fr/api/v3/access/event
 /pxtrack.js
 ||toast.com/log
+/analysis?en=page_view&
 /track_event.
 ||trackedlink.net^$third-party
 /global_analytics/s_code.js
@@ -14236,6 +14237,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||shofonline.org/javashofnet/ti.js
 ||cloudtracer101.com^$third-party
 ||topblogs.de/tracker.php?
+||revico.jp/js/put_revico_cookie/put_revico_cookie.js
 .com/clk?
 ||blog-webkatalog.de^$third-party
 ||io.narrative.io/?$third-party
