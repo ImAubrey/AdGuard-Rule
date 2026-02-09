@@ -1,4 +1,4 @@
-# Update time: 2026-02-08 20:49:38
+# Update time: 2026-02-09 10:09:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -18819,6 +18819,12 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /\.stenaline\./
@@ -19004,9 +19010,3 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||*register.appsflyersdk.com^
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
