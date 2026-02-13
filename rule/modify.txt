@@ -1,4 +1,4 @@
-# Update time: 2026-02-13 10:11:19
+# Update time: 2026-02-13 20:58:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8820,6 +8820,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 /statistiche/stat.php$xmlhttprequest
 /adtrk/tr.gif
 ||tracking.edvisors.com^$third-party
+||pb.ytmp3tube.com/js/script.js$domain=yt1s.com.co
 ||individuad.net^$third-party
 ||popin.cc/PopinService/Logs/
 /post.pinterest.com/q/*$image
@@ -14297,7 +14298,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||lucidel.com^$third-party
 /trackingVtm.js
 /stats?aid=
-||turbobit.net/js/analytics/
 /pphlogger.js
 /batch/1/OE/*
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/app-measurement.html$xmlhttprequest
@@ -15721,6 +15721,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 @@||mixpanel.com/public/$subdocument,domain=iframely.net
 ||tracking.interweave.com^$third-party
 ||statsbox.nl^$third-party
+||i.posthog.com/*/?ip=
 ||worldremit.com/web-cms/api/metric
 /qapcore.js
 /vglnk.js
@@ -16997,6 +16998,7 @@ _rpc/log?
 /webstatistics.php?
 ||oocommapi2.aswatson.com/kf/*/tracking/
 /pixel-prod.
+||turbobit.net/js/analytics/fdUserFingerprintToken.js
 ||interact-analytics.com^$third-party
 ||iplocationtools.com^$third-party
 ||h2porn.com/new-hit/?
