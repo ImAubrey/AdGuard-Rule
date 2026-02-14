@@ -1,4 +1,4 @@
-# Update time: 2026-02-14 09:59:58
+# Update time: 2026-02-14 20:47:23
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4694,6 +4694,7 @@ pages.dev##html[lang="ja"] > body.flex.items-center.min-h-screen > div.w-full.ma
 ||d2r3dgsh5nr4kg.cloudfront.net/installer/$all
 ||fc67x.com^$doc
 ||fuckmore.com^$all
+||invoice-guide.com^$all
 ||sacolamobile.influenciadormagalu.com.br^$all
 ||ec2-13-230-253-66.ap-northeast-1.compute.amazonaws.com^$all
 ||rabbltx.xyz^$all
@@ -4923,6 +4924,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||wester-union-u.vercel.app^$all
 ||download-wetransfer-*.vercel.app^$doc
 ||natu.natural-natural-pure.com^$doc
+||kervjrfjd.pro^$all
 ||possessedcrackinghart.com^$all
 ||halt789-enraged1.com^$doc
 ||zlibrary-global.com^$all
@@ -6594,6 +6596,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 ||domdog.io^$third-party
 ||webgozar.com/c.aspx*&t=counter
 /search-cookie.aspx?$image
+||clicksentry.nl^$third-party
 /TrackViews/*
 ||media.net^$third-party
 .n.2.1.l60.js^$third-party
