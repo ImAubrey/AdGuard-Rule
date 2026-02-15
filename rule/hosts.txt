@@ -1,4 +1,4 @@
-# Update time: 2026-02-14 20:47:23
+# Update time: 2026-02-15 10:11:00
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12999,6 +12999,7 @@
 0.0.0.0 mjonkers.nl
 0.0.0.0 js.hs-analytics.net
 0.0.0.0 optionstoreplace.com
+0.0.0.0 www.ventilationdirec.com
 0.0.0.0 adexprt.me
 0.0.0.0 ads.fortunecity.com
 0.0.0.0 leparirien.fr
@@ -15828,6 +15829,7 @@
 0.0.0.0 www.text-link-ads.com
 0.0.0.0 counter.cz
 0.0.0.0 ad.clickotmedia.com
+0.0.0.0 specialworld.com.au
 0.0.0.0 adhese.nieuwsblad.be
 0.0.0.0 oascentral.adageglobal.com
 0.0.0.0 oasc05.247realmedia.com
@@ -16842,6 +16844,7 @@
 0.0.0.0 gadgeteer.pdamart.com
 0.0.0.0 prestoris.com
 0.0.0.0 ads.astalavista.us
+0.0.0.0 www.lostbestsgames.com
 0.0.0.0 c35000246.c.youradexchange.com
 0.0.0.0 adblock.fr
 0.0.0.0 arteradio.fr
