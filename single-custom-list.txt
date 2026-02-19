@@ -8,3 +8,5 @@
 ||html.zone
 ||wallet.ouxyi.cash
 ||ws1hxl1st.hjuyer.com
+||ippure.com
+||ping0.cc
