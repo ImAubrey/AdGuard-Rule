@@ -1,4 +1,4 @@
-# Update time: 2026-02-18 21:03:09
+# Update time: 2026-02-19 10:06:40
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6674,6 +6674,7 @@
 0.0.0.0 camping-pinede.fr
 0.0.0.0 mightymagoo.com
 0.0.0.0 valueclick.com
+0.0.0.0 www.msxzff.com
 0.0.0.0 zc1.campaign-view.com.cn
 0.0.0.0 audacity.it
 0.0.0.0 www.openinternetexchange.com
@@ -6881,6 +6882,7 @@
 0.0.0.0 gpaper116.112.2o7.net
 0.0.0.0 escape.insites.eu
 0.0.0.0 carisoprodol.shengen.ru
+0.0.0.0 www.dayanitastore.com
 0.0.0.0 insightxe.vtsgonline.com
 0.0.0.0 expedia4.112.2o7.net
 0.0.0.0 adsniper.ru
@@ -8330,6 +8332,7 @@
 0.0.0.0 economisttestcollect.insightfirst.com
 0.0.0.0 mobileads.msn.com
 0.0.0.0 syndication.optimizesrv.com
+0.0.0.0 www.smionecare.com
 0.0.0.0 ads.eu.msn.com
 0.0.0.0 verify.rambler-profile.site
 0.0.0.0 cicero-mit.com
@@ -8881,6 +8884,7 @@
 0.0.0.0 minecraftr.fr
 0.0.0.0 www.happystonezk.pro
 0.0.0.0 insightexpressai.com
+0.0.0.0 www.bazarusmassazha.com
 0.0.0.0 natgeongmcom.112.2o7.net
 0.0.0.0 oascentral.zwire.com
 0.0.0.0 logv18.xiti.com
@@ -9342,6 +9346,7 @@
 0.0.0.0 t.silvinst.com
 0.0.0.0 nike.112.2o7.net
 0.0.0.0 hg8dc7bm.com
+0.0.0.0 www.availablefiles.com
 0.0.0.0 uk.bitcoinfreedom-appl.t500track42.com
 0.0.0.0 ads2.revenue.net
 0.0.0.0 www.leeucode.com
@@ -10214,6 +10219,7 @@
 0.0.0.0 neszmely.eu
 0.0.0.0 adv.webmd.com
 0.0.0.0 en.ultrex.ru
+0.0.0.0 www.clipsfan.com
 0.0.0.0 herpes.4.p2l.info
 0.0.0.0 kiclq.comfortykive.xyz
 0.0.0.0 clickserve.cc-dt.com
@@ -10297,6 +10303,7 @@
 0.0.0.0 www.pedigree1.plus.com
 0.0.0.0 media.markethealth.com
 0.0.0.0 adseu.novem.pl
+0.0.0.0 www.chichomods.com
 0.0.0.0 ad33.checkm8.com
 0.0.0.0 pl.betclic.com
 0.0.0.0 z1.adserver.com
@@ -14269,6 +14276,7 @@
 0.0.0.0 w103.hitbox.com
 0.0.0.0 v0.extreme-dm.com
 0.0.0.0 eu-track.inside-graph.com
+0.0.0.0 www.blazesemipvp.com
 0.0.0.0 renov-landes.fr
 0.0.0.0 gcirm.muskogeephoenix.com
 0.0.0.0 counter2.sextracker.com
@@ -15428,6 +15436,7 @@
 0.0.0.0 www.system-live-media.cz
 0.0.0.0 fervortracer.com
 0.0.0.0 www.skvarsani.plus.com
+0.0.0.0 www.consultingbyelevate.com
 0.0.0.0 adv.gazeta.pl
 0.0.0.0 magicpayrecharge.com
 0.0.0.0 joyjak.st
@@ -16269,7 +16278,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 clickserve.uk.dartsearch.net
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
@@ -17250,6 +17258,7 @@
 0.0.0.0 app4.kromtech.net
 0.0.0.0 twoje-nagrody.pl
 0.0.0.0 bullgame.net
+0.0.0.0 www.softmillon.com
 0.0.0.0 acglgoa.com
 0.0.0.0 ads130.console.adtarget.com.tr
 0.0.0.0 www.loboclick.com
@@ -24348,6 +24357,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
