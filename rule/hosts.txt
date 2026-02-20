@@ -1,4 +1,4 @@
-# Update time: 2026-02-19 21:04:19
+# Update time: 2026-02-20 10:02:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8214,6 +8214,7 @@
 0.0.0.0 ofdb.fr
 0.0.0.0 gpaper119.112.2o7.net
 0.0.0.0 www.poker-new.com
+0.0.0.0 dhl-closeariu.kaixuankio.cn
 0.0.0.0 superfastcdn.com
 0.0.0.0 signup.advance.net
 0.0.0.0 bestgore.fun
@@ -9372,6 +9373,7 @@
 0.0.0.0 ma.5.p2l.info
 0.0.0.0 adserver.portalofevil.com
 0.0.0.0 www.vanguard-art.com
+0.0.0.0 www.airybotsh.pro
 0.0.0.0 font.liquidus.net
 0.0.0.0 linuxpark.adtech.fr
 0.0.0.0 p4.preppypm.com
@@ -10761,6 +10763,7 @@
 0.0.0.0 kinder.oewabox.at
 0.0.0.0 thestar.122.2o7.net
 0.0.0.0 web.hb.ad.cpe.dotomi.com
+0.0.0.0 www.zippylakeri.name
 0.0.0.0 gu.5.p2l.info
 0.0.0.0 soluclim.fr
 0.0.0.0 ectestlampsplus1.112.2o7.net
@@ -11711,6 +11714,7 @@
 0.0.0.0 prebid.adspro.it
 0.0.0.0 in.yimg.com
 0.0.0.0 gpaper139.112.2o7.net
+0.0.0.0 www.gradedoctortutoring.com
 0.0.0.0 the-counter.net
 0.0.0.0 metrics.lhj.com
 0.0.0.0 les-crisis.fr
@@ -12930,6 +12934,7 @@
 0.0.0.0 www.servedby-buysellads.com
 0.0.0.0 pituitosus.com
 0.0.0.0 ads.mysimon.com
+0.0.0.0 www.winecrazydesigns.com
 0.0.0.0 hit5.hotlog.ru
 0.0.0.0 cullligan.fr
 0.0.0.0 www.servitemequipos.cl
@@ -15027,6 +15032,7 @@
 0.0.0.0 ads.adaptv.advertising.com
 0.0.0.0 te.cleveland.net
 0.0.0.0 pier-import.fr
+0.0.0.0 www.digisubmission.com
 0.0.0.0 tc.tradetracker.net
 0.0.0.0 guidelon.fr
 0.0.0.0 viavh1com.112.2o7.net
@@ -15200,6 +15206,7 @@
 0.0.0.0 lcolissimo.fr
 0.0.0.0 salesforcecom.tt.omtrdc.net
 0.0.0.0 www.pureadexchange.com
+0.0.0.0 www.vetmanevi.com
 0.0.0.0 counter14.sextracker.com
 0.0.0.0 adtrak.net
 0.0.0.0 f2ncracker.112.2o7.net
@@ -16281,6 +16288,7 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
+0.0.0.0 h1.ripway.com
 0.0.0.0 clickserve.uk.dartsearch.net
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
@@ -17337,6 +17345,7 @@
 0.0.0.0 enablement.joethecpa.info
 0.0.0.0 adsqqclick.qq.com
 0.0.0.0 adsfac.net
+0.0.0.0 www.oliviathemes.com
 0.0.0.0 love-quest.blog
 0.0.0.0 sportssaint.net
 0.0.0.0 tracking.myunidays.com
@@ -17461,6 +17470,7 @@
 0.0.0.0 landing.aaroninjections.com
 0.0.0.0 www.3turtles.com
 0.0.0.0 openx2-match.dotomi.com
+0.0.0.0 www.parejaamateur.com
 0.0.0.0 maphonortea.com
 0.0.0.0 ics.hitbox.com
 0.0.0.0 mgtbo.112.2o7.net
@@ -18160,6 +18170,7 @@
 0.0.0.0 server44.dubhosting.co.uk
 0.0.0.0 opr.adx.opera.com
 0.0.0.0 zu1.november-lax.com
+0.0.0.0 www.iovenesweb.com
 0.0.0.0 www3.counter.bloke.com
 0.0.0.0 www.tanger.com.br
 0.0.0.0 www.iqoption.com
@@ -18445,6 +18456,7 @@
 0.0.0.0 yllix.com
 0.0.0.0 garciaestelles.com
 0.0.0.0 glittercases.net
+0.0.0.0 www.carolmassoterapia.com
 0.0.0.0 melthy.fr
 0.0.0.0 thanku.page
 0.0.0.0 edmundsinsideline.112.2o7.net
@@ -24360,7 +24372,6 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
-0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com

@@ -1,4 +1,4 @@
-# Update time: 2026-02-19 21:04:19
+# Update time: 2026-02-20 10:02:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2190,6 +2190,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||airupgreece.net^$doc
 pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 ||cracksway.com^$all
+/^https:\/\/[a-z]{5,20}-[0-9a-z]{16}\.z03\.azurefd\.net\/[0-9A-Za-z]+0[0-9A-Za-z]+\/index\.html/$doc,match-case,domain=z03.azurefd.net
 ||pornonenight.com^$all
 ||cpanel12wh.bkk1.cloud.z.com^$all
 /^https?:\/\/[a-f0-9]{32}\.[a-z]{7}\.sbs\b/$doc,to=sbs
@@ -2887,6 +2888,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||pages.dev/webs.mp4
 ||webapp.ghost.io^$all
 /trk?s1=*&type=2&brid=$doc
+||kensatsu.top^$all
 ||khcn-tindung-$doc
 ||7zip.cloud^$all
 ||ourtime-assist.members-authenticated.workers.dev^$all
