@@ -1,4 +1,4 @@
-# Update time: 2026-02-20 10:02:53
+# Update time: 2026-02-20 20:57:23
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -15596,6 +15596,7 @@
 0.0.0.0 www.farnazinternational.com
 0.0.0.0 kh4.kimhasa.com
 0.0.0.0 www.poponclick.com
+0.0.0.0 teak.gen.tr
 0.0.0.0 banners.zbs.ru
 0.0.0.0 vnumedia03.webtrekk.net
 0.0.0.0 6kup12tgxx.com
