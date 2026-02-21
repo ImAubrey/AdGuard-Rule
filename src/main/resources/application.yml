@@ -12,6 +12,7 @@ application:
   rule:
     #远程规则
     remote:
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt' # awavenue秋风广告规则
       - 'https://ublockorigin.github.io/uAssets/filters/badware.txt'
       - 'https://ruleset.skk.moe/Internal/reject-adguardhome.txt' #name: Sukka
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt' #name: AdAway Default Blocklist
