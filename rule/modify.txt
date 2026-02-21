@@ -1,4 +1,4 @@
-# Update time: 2026-02-21 20:46:43
+# Update time: 2026-02-22 06:59:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,6 +47,11 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+*-ad.video.yximgs.com*
+*-ad.sm.cn*
+*-be-pack-sign.pglstatp-toutiao.com*
+*-normal.zijieapi.com*
+*-ad.wtzw.com*
 ||gustocooking.com^$third-party
 ##.ad-blocking-advisor-wrapper
 ||fairiesbranch.com^$third-party
@@ -8847,7 +8852,6 @@ _trackWebtrekkEvents.
 ||netratings.com^$third-party
 ||2o7.net^$third-party
 /ga-track-code.js
-||mybbc-analytics.files.bbci.co.uk/reverb-client-js/smarttag-
 ||ebaystatic.com^*tracking/configuration.js
 ||inmobi.com/?log
 ||mmtro.com^$third-party
@@ -10954,6 +10958,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||neatstats.com^$third-party
 ||btbuckets.com^$third-party
 ||ineedhits.com^$third-party
+/cl.mos.jp/q/*$image
 ||services.haaretz.co.il^$ping
 ||stats.externulls.com^$domain=beeg.com
 ||browser-statistik.de^$third-party
