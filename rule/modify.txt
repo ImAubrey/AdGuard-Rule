@@ -1,4 +1,4 @@
-# Update time: 2026-02-20 20:57:23
+# Update time: 2026-02-21 09:57:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4251,6 +4251,7 @@ crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in
 ||room2021.net^$all
 ||kodiak-finance.org^$all
 ||m-facebookk.com.vn^$all
+||payout-chatgpt.com^$all
 ||my7love.xyz^$doc
 ||salon1999.net^$doc
 /?id=*&traceId=$doc
@@ -17517,6 +17518,7 @@ _imp?Log=
 ||www.hey.lt^$third-party
 ||tower.jp/bundle/beacon
 ||logger.co.kr^$third-party
+@@||epstore.com/file_includes.php?path=*/pageview.js$script,~third-party
 ||dynamicyield.com/clog
 /FacebookEvent/PageView$xmlhttprequest
 ||report-uri.com^$third-party
