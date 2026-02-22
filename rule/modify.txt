@@ -1,4 +1,4 @@
-# Update time: 2026-02-22 10:06:46
+# Update time: 2026-02-22 20:49:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2465,6 +2465,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||codeanyapp.com/*/spotii/$all
 ||attmailservice*.weebly.com^$all
 ||upcommunity.click^$doc
+##.fkrc-checkbox-window
 weightlossdiet.top##+js(acs, open, executeCode)
 ||easygoingecology.com^$doc
 ||mystery-forest.com^$doc
@@ -2904,6 +2905,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||mgirl.jp^$doc
 /^https:\/\/mbdk\d+\.com\//$doc,to=com|~mbbank.com.vn
 ||businesscreatorportal.com^$all
+##.fkrc-verifywin-window
 ||xyz/akbank/$doc
 ||nvcleanstal.$doc
 ||app.corn-staging.com^$all
@@ -3220,6 +3222,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||rigidconcrete.ca^$all
 ||dsu-adguard.pro^$all
 ||senuti.org^$doc
+||checkpointviewzen.com^$all
 ||msnoauth*.com/office-$all
 ||blastairdropclaims.pages.dev^$doc
 ||kmspico-mafia.com^$doc
@@ -3297,6 +3300,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||yupooclothing.com^$doc
 ||dtioykqj1u8de.cloudfront.net^$all
 ||blender3d.fr^$doc
+||opsecdefcloud.com^$all
 ||kodiakfinance.net^$doc
 ||windows.net/media/apked.mp4
 ||www.black-magic.jp^$doc
@@ -5697,6 +5701,7 @@ windowsreport.com##.code-block
 ^novobanco.pt-canais-digital-$doc,to=~novobanco.pt
 ||zingleflap.top^$all
 ||xcheckx.pages.dev^$all
+||tesseract-ocr.com^$all
 ||sugulove.com^$doc
 ||cloud.edgerapidcdn.com^$all
 ||recompensaszurichsantander.com.mx^$all
