@@ -1,4 +1,4 @@
-# Update time: 2026-02-23 10:07:32
+# Update time: 2026-02-23 21:03:24
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7147,6 +7147,7 @@ reuters.com##+js(aost, admiral, .js?)
 /tracking/events/*
 ||linximpulse.net/impulse/
 ||api.beleggersbelangen.nl//api/statistics/
+/__core/metrics.js
 /tracking/networktrackingservlet
 /pixel/email/*$image
 ||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
@@ -12449,6 +12450,7 @@ _WebVitalsReporter_
 ||rtp.pt/common/js/convivaAppTracker.js
 /trk2.*/open?$image
 ||innogamescdn.com/media/js/metrics-
+/gdm-user-insights.js
 .useinsider.com/pixel?$image
 /eloqua.js
 ||go.theregister.com^$image
@@ -18815,6 +18817,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /adobemarketing\./
 /pangolin-sdk-toutiao/
 /-tracker\.biliapi\.net/
+/packetsdk/
 /trksvg\.gbm\./
 /trksvg\.sustainablefinance\./
 /-ulog\.kwai-pro\.com/
