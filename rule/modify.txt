@@ -1,4 +1,4 @@
-# Update time: 2026-02-24 10:04:31
+# Update time: 2026-02-24 21:04:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2144,6 +2144,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 ||xir6y7ey3ate.com^$doc
 ||audacity.pl^$doc
 ||telet.me^$doc
+||core.windows.net/crypto-js.min.js
 ||skymods.net^$all
 ||clean-2-clean.club^$all
 ||infinityweet.me^$all
@@ -6814,7 +6815,6 @@ reuters.com##+js(aost, admiral, .js?)
 /b/ss/*&ndh=
 ||zineone.com^*/event
 ||your-analytics.org^$third-party
-||traveloka.com/api/v1/metrics
 ||addwish.com^$third-party
 ||measure.ly^$third-party
 ||gazzettaobjects.it^*/tracking/
@@ -9103,6 +9103,7 @@ _trackWebtrekkEvents.
 @@||assets.yasno.live/packs/assets/analytics-events-$script,~third-party
 /track.php?toggle=
 ||pussy.org^*/track.php
+||rubiconredirect.com^$third-party
 ||html5games.com/event/
 /pxf.gif?
 /botd.gif?
@@ -10401,7 +10402,6 @@ abema.tv##+js(rmnt, script, NREUM)
 ||agrvt.com^$third-party
 ||cca-lite.coinbase.com/amp
 ||onescreen.net/os/static/pixels/
-||unibling.com/eclytics/
 ||tentaculos.net^$third-party
 ||civitai.com/api/page-view
 ||spanishdict.com/page-view-metadata
@@ -12738,6 +12738,7 @@ _WebVitalsReporter_
 ||gameforge.de/init.gif?
 /api_ip_info.php
 ||bizo.com^$third-party
+||appvtexio.weni.ai/pixel.js
 /boost-sd-analytic.js
 ||navattic.com/api/events/
 ||vmweb.net/identity.min.js
@@ -13946,6 +13947,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 @@||opex.xplan.iress.com.au/js/xiled/util/pageview.js$~third-party
 .ne16.com/do/
 @@||lightning.bleacherreport.com/launch/*-source.min.js$~third-party
+/pxid?k=
 ||vuukle.com/getGeo
 ||trafficroots.com^$third-party
 ||youtube.com/api/stats/ads?
@@ -17620,7 +17622,6 @@ _imp?Log=
 /xtroi.js
 /js_log_error.js
 ||zillowstatic.com/contact-pixel/$image,domain=zillow.com
-||payments.amazon.com/cs/uedata
 /a/performance_timing/*
 ||sea-nov-1.com^$third-party
 .mailing.*/oo/$image
