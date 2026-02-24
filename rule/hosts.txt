@@ -1,4 +1,4 @@
-# Update time: 2026-02-23 21:03:24
+# Update time: 2026-02-24 10:04:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8743,6 +8743,7 @@
 0.0.0.0 grafix.xxxcounter.com
 0.0.0.0 j.2004cms.com
 0.0.0.0 c.ph.msn.com
+0.0.0.0 guthealth.sa.com
 0.0.0.0 ahzahg6ohb.com
 0.0.0.0 www.tvshowslist.com
 0.0.0.0 ad-411.com
@@ -8942,6 +8943,7 @@
 0.0.0.0 landwirt.oewabox.at
 0.0.0.0 admedia.com
 0.0.0.0 imitrex.1.p2l.info
+0.0.0.0 www.fripta.com
 0.0.0.0 f11098.privacy4browsers.com
 0.0.0.0 beauty.finaltips.com
 0.0.0.0 www.sidneyman.com
@@ -9023,6 +9025,7 @@
 0.0.0.0 e-2dj6wgkyomdpalp.stats.esomniture.com
 0.0.0.0 req.adsmogo.com
 0.0.0.0 www.webtrekk.net
+0.0.0.0 www.diffuselec.com
 0.0.0.0 ibg.hitbox.com
 0.0.0.0 www.wondertravelegypt.com
 0.0.0.0 a.rad.live.com
@@ -9272,6 +9275,7 @@
 0.0.0.0 sorbone.fr
 0.0.0.0 www.mpression.net
 0.0.0.0 fclb.fr
+0.0.0.0 www.hauloot.com
 0.0.0.0 clktrk.com
 0.0.0.0 noextramoney.com
 0.0.0.0 ac.atpanel.com
@@ -10392,6 +10396,7 @@
 0.0.0.0 tste.startribune.com
 0.0.0.0 shafou.com
 0.0.0.0 sonyglobal.112.2o7.net
+0.0.0.0 www.fmoviehd.com
 0.0.0.0 mmofreegames.online
 0.0.0.0 www.ads.revenue.net
 0.0.0.0 ads.townhall.com
@@ -11971,6 +11976,7 @@
 0.0.0.0 mngislctrib.112.2o7.net
 0.0.0.0 ads.adtiger.de
 0.0.0.0 s.go-mpulse.net
+0.0.0.0 yourhlth.ru.com
 0.0.0.0 productresearchpanel.com
 0.0.0.0 ldglob02.adtech.us
 0.0.0.0 mudmonster.org
@@ -12391,6 +12397,7 @@
 0.0.0.0 scrooge.newsnet5.com
 0.0.0.0 frecnhweb.fr
 0.0.0.0 oasc08008.247realmedia.com
+0.0.0.0 curejoint.sa.com
 0.0.0.0 ads.fuckingmachines.com
 0.0.0.0 pianolessons.fr
 0.0.0.0 ads.auctioncity.co.nz
@@ -13158,6 +13165,7 @@
 0.0.0.0 maillots-ffoot-actu.fr
 0.0.0.0 peomod.fr
 0.0.0.0 www.wppluginspro.com
+0.0.0.0 itprfft.sa.com
 0.0.0.0 les-oncheres.fr
 0.0.0.0 mobile.parkandpay-ca.com
 0.0.0.0 east.05tz2e9.com
@@ -15317,6 +15325,7 @@
 0.0.0.0 kissmetrics.com
 0.0.0.0 ads.cdnow.com
 0.0.0.0 p4psearch.china.alibaba.com
+0.0.0.0 www.fingertimer.com
 0.0.0.0 vendorlist.consensu.org
 0.0.0.0 ad.nicovideo.jp
 0.0.0.0 clicks.hurriyet.com.tr
@@ -16298,6 +16307,7 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
+0.0.0.0 h1.ripway.com
 0.0.0.0 clickserve.uk.dartsearch.net
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
@@ -17709,6 +17719,7 @@
 0.0.0.0 adsfac.us
 0.0.0.0 adserver2.atman.pl
 0.0.0.0 leadpub.com
+0.0.0.0 www.furcomics.com
 0.0.0.0 stats.canalblog.com
 0.0.0.0 pp.free.fr
 0.0.0.0 ultram.1.p2l.info
@@ -24385,7 +24396,6 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
-0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
