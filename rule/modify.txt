@@ -1,4 +1,4 @@
-# Update time: 2026-02-24 21:04:30
+# Update time: 2026-02-25 10:06:21
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2680,6 +2680,7 @@ crimsonav.com,ngsingleissues.nationalgeographic.com##+js(acs, atob, new Function
 ||orcaslice.$doc
 ||success-dream.jp^$doc
 &t=mono|$doc,to=info
+||sentinelbotcore.co.in^$all
 ||base-swap-frontend-*.vercel.app^$doc
 ||ultratime.info^$doc
 ||dlscrod*.$all
