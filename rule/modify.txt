@@ -1,4 +1,4 @@
-# Update time: 2026-02-25 21:03:40
+# Update time: 2026-02-26 10:01:52
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2767,7 +2767,6 @@ lewdgames.to,warezcrack.net,freeprosoftz.com,scracked.com,cyberspc.com,crackinto
 ||anpost.id-$doc
 ||methodsbillboardssurface.com^$doc
 ||amoredate.com^$doc
-/text_tel.js$domain=app|dev|fit|me|page|github.io
 ||simple-swap.to^$doc
 ||dwoetbarcrooplsloiwh.com^$doc
 ||glitch.me/adobe-auto*.html^$doc
@@ -3484,6 +3483,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||glitch.me/public/index_CNC.html^$doc
 /^https:\/\/[a-z]{12,15}\.com\/\?p=[0-9a-f]{32}&u=[0-9a-f]{138}\b/$doc,match-case
 ||revancedyoutube.org^$all,domain=~revanced.app
+||azurefd.net/media/beep.mp3
 ||ajmaboxanherulv*.b-cdn.net^$doc
 ||mybluehost.me/tracking-mail-delivery/$doc
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:club|com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&(?:s|pub)id=[-_0-9a-z{}]{1,32}(?:&s=0\.\d+)?(?:#\S+)?$/$doc,match-case,to=club|com|info|net|org
@@ -3877,6 +3877,7 @@ howtoremove.guide##div[style^="border:2px"]
 ||7sb3.com^$doc
 ||smsiak.pl^$doc
 ||core.windows.net/media/webs.mp4
+/text_tel.js$domain=app|dev|fit|me|page|site|github.io
 ||vodafonetopup.com^$all
 ||trustwallet-app.io^$all
 ||amcombank.co.com^$all
@@ -6703,6 +6704,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||counter.de^$third-party
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
 ||adrizer.com^$third-party
+||epoq.de/inbound-servletapi/event?
 ||siriusxmstore.com/api/collect
 ||intelligencefocus.com^*/websensor.aspx?
 ||rtp.pt/rtp-sensor/
@@ -7141,11 +7143,13 @@ reuters.com##+js(aost, admiral, .js?)
 ||stats.live-video.net^$domain=kick.com
 ||godhat.com^$third-party
 ||yimg.com/cx/vzm/cs.js
+@@||tag.aticdn.net^$script,domain=gouv.fr|openservices.enedis.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 ||instapagemetrics.com^$third-party
 ||lowes.com/pharos/api/webTelemetry?
 ||hubrus.com^$third-party
 ||ctr.nmg.de^$third-party
 /tracking/events/*
+||px-cloud.net/b/c/beacon
 ||linximpulse.net/impulse/
 ||api.beleggersbelangen.nl//api/statistics/
 /__core/metrics.js
@@ -9591,6 +9595,7 @@ _beacon?
 /leadtag.js
 ||merriam-webster.com/lapi/v1/mwol-search/stats/lookup
 /pqt.email/o/*$image
+||coolblue.de/js/mimir/
 @@||sams.spiegel.de/ee/irl1/v1/interact?$domain=spiegel.de
 ||trackedweb.net^$third-party
 ||id-visitors.com^$third-party
@@ -14132,6 +14137,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 @@||lacoste.com^*/click-analytics.js$~third-party
 ||modernus.is^$third-party
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
+||playox.de/analytics/
 ||txt.eu^$third-party
 @@||letmegpt.com/js/gpt.js$~third-party
 /aggbug.aspx?
@@ -17082,6 +17088,7 @@ _rpc/log?
 /hit/?r=
 ||pussy.org^*.cgi?pid=
 ||qualifioapp.com/egw/events
+||galaxus.com/_next/static/chunks/rum.$script
 /amazon_linker.min.js
 ||hscta.net^$third-party
 /drwebstat.js
@@ -17733,7 +17740,6 @@ _event_tracking?
 ||revlifter.io^$third-party
 ||directcounter.de^$third-party
 /bpsma.js
-@@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 ||reddit.com/timings/
 ||static.qiyi.com/js/pingback/
 ||opentracking.ru^$third-party
