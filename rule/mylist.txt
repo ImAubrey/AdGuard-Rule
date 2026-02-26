@@ -59,7 +59,7 @@
 !-------------黑名单--------------------
 
 # Netease
-||[0-9]{1,5}-[0-9]{1,5}-[0-9]{1,5}-[0-9]{1,5}.nstool.*
+||.nstool.^
 
 # custom-phishing-block.txt
 ||cloudflarecp.com^
