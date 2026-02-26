@@ -1,4 +1,4 @@
-# Update time: 2026-02-26 10:01:52
+# Update time: 2026-02-26 21:04:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11727,6 +11727,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 /wpstatistics/v1/hit?
 /lightspeed_tracker.js
 @@||c-web.cedyna.co.jp/customer/img/spacer.gif?$~third-party
+/snowplow-collector-prod.$xmlhttprequest
 /json/tracking/*
 ||agoda.net/v2/track
 ||amazonaws.com/frame-image-br/bg.png?
@@ -11784,6 +11785,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 /branchMetrics.js
 /events?rpId=
 ||googleapis.com^*/gen_204?
+||schottenland.de/na/ajax.php?ax=HiT&
 ||dtxngr.com^$third-party
 ||influ2.com/tracker?
 /coopcommerce-pixel.js
@@ -12815,6 +12817,7 @@ _logHuman=
 ||trackfeed.com^$third-party
 /tracking/cookies?
 @@||s.yimg.jp/images/listing/tool/cv/ytag.js$domain=redstoneonline.jp|store-jp.nintendo.com
+||apigw.scmp.com/metrics/monitoring
 ||hotels.com/api/bucketing/v1/evaluateExperimentsAndLog
 ||safe-click.net^$third-party
 ||ybotvisit.com^$third-party
@@ -16465,6 +16468,7 @@ _track_pixel.gif?
 ||coinnebula.com^$third-party
 .epicgames.com/O/
 ||holidaycheck.*/svc/ubt/v1/events
+||recommend.9gag.com/interact/event/
 /sentry-tracing.min.js
 /pushlog.min.js
 /taganalyticscnil.js
@@ -17369,6 +17373,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||pswec.com/px/$third-party
 ||mediaserver.emol.cl/rtracker/
 ||trugaze.io^$third-party
+||apigw.scmp.com/pwa-v2-unleash-proxy/proxy/client/metrics
 ||ctrmi.cn/t/
 ||iovation.com^$third-party
 ||termsfeed.com/track/
