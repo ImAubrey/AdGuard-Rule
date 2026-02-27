@@ -1,4 +1,4 @@
-# Update time: 2026-02-27 10:01:00
+# Update time: 2026-02-27 20:58:03
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9391,6 +9391,7 @@ _beacon?
 ||collserve.com^$third-party
 ||perplexity.ai/rest/event/analytics
 ||digitaloceanspaces.com/pixel.min.js
+@@||js-cdn.dynatrace.com/jstag/$domain=fido.ca
 /pmc-cxense.js
 ||auctiva.com/Default.aspx?query
 ||homedepot-static.com/data-collection/
