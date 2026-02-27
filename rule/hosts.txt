@@ -1,4 +1,4 @@
-# Update time: 2026-02-27 07:14:30
+# Update time: 2026-02-27 10:01:00
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10312,6 +10312,7 @@
 0.0.0.0 d6.zedo.com
 0.0.0.0 www9.servequake.com
 0.0.0.0 statistics.elsevier.nl
+0.0.0.0 www.sweetdominique.com
 0.0.0.0 w107.hitbox.com
 0.0.0.0 guerria-skateboard-tommy.tabrays.com
 0.0.0.0 adserver.adremedy.com
@@ -13611,6 +13612,7 @@
 0.0.0.0 add.f5haber.com
 0.0.0.0 rtl.oewabox.at
 0.0.0.0 garant.bos.ru
+0.0.0.0 www.stihil.com
 0.0.0.0 ads2-adnow.com
 0.0.0.0 ssp.seznam.cz
 0.0.0.0 www.bovadapromotions.lv
@@ -16335,7 +16337,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 clickserve.uk.dartsearch.net
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
@@ -24430,6 +24431,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
