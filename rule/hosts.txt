@@ -1,4 +1,4 @@
-# Update time: 2026-02-27 20:58:03
+# Update time: 2026-02-28 09:51:24
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8396,6 +8396,7 @@
 0.0.0.0 adultfriendfinder.com
 0.0.0.0 medicalcircle.net
 0.0.0.0 w136.hitbox.com
+0.0.0.0 www.smokyshadecj.name
 0.0.0.0 zazerygu.pro
 0.0.0.0 utrace.fr
 0.0.0.0 rts.pgmediaserve.com
@@ -10803,6 +10804,7 @@
 0.0.0.0 ads07.focalink.com
 0.0.0.0 ft2.autonomycloud.com
 0.0.0.0 ad15.checkm8.com
+0.0.0.0 www.yreta.com
 0.0.0.0 adzerk.net
 0.0.0.0 www1.xmediaserve.com
 0.0.0.0 margaretanddavid.com
@@ -12029,6 +12031,7 @@
 0.0.0.0 rp.hit.gemius.pl
 0.0.0.0 thetorrentz.fr
 0.0.0.0 webbug.seatreport.com	# web bugs
+0.0.0.0 www.mediamindpolska.com
 0.0.0.0 interpretation-reves.fr
 0.0.0.0 tracking.keywordmax.com
 0.0.0.0 cf.addthis.com
@@ -14212,6 +14215,7 @@
 0.0.0.0 unonoticias.net
 0.0.0.0 gwallet.com
 0.0.0.0 smartlifeguides.com
+0.0.0.0 www.gildedrosens.name
 0.0.0.0 www.swallowwire.sa.com
 0.0.0.0 europe.adserver.yahoo.com
 0.0.0.0 code.murdoog.com
@@ -14794,6 +14798,7 @@
 0.0.0.0 optimized.by.vitalads.net
 0.0.0.0 www.getagiftonline.com
 0.0.0.0 ph-ad18.focalink.com
+0.0.0.0 www.icyhivemy.name
 0.0.0.0 clicks.deskbabes.com
 0.0.0.0 main.exosrv.com
 0.0.0.0 ads42.console.adtarget.com.tr
@@ -17680,6 +17685,7 @@
 0.0.0.0 expertland.net
 0.0.0.0 ads.hollandsentinel.com
 0.0.0.0 yasmin.3.p2l.info
+0.0.0.0 www.xtremetechcr.com
 0.0.0.0 online-office365.com
 0.0.0.0 ms.5.p2l.info
 0.0.0.0 ajouny.com
