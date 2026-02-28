@@ -1,4 +1,4 @@
-# Update time: 2026-02-28 09:51:24
+# Update time: 2026-02-28 20:43:59
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3194,6 +3194,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||flirtyconnection.click^$all
 ||daddyclub.net^$doc
 ||zerocha.jp^$doc
+||vironexta.com^$all
 ||crowdstrike0day.com^$doc
 ||ondigitalocean.app/*^phone=+1-$doc
 ||fab-inst.com^$doc
@@ -4277,6 +4278,7 @@ crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in
 ||pub-*.r2.dev/traffic.html^$doc
 ||yourube.com^$all
 ||trfcbooost.com^$all
+||kexornero.co.in^$all
 ||lcskincarecenter.com^$all
 ||kby.oqp.mybluehost.me^$doc
 ||fly.storage.tigris.dev/pass-this-security-check.html?X-Amz-Algorithm=$doc
@@ -4349,6 +4351,7 @@ crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in
 ||global-riward77.com^$doc
 ||ins7ki.com^$doc
 ##.header-fix-tester-container
+/^https?:\/\/[a-z0-9]{10,}\.[a-z]{9,}\.co\.in\//$all,to=co.in
 ||s3.amazonaws.com/extpro/speed4.html$all
 ||helps-center-page-number-$doc
 ||pub-*.r2.dev/auth_gen.html^$doc
@@ -7948,6 +7951,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||gosupersonic.ai^$third-party
 ||ethereum-cashcard.com^$third-party
 /?swift-performance-tracking
+/emailtrack.offers-exchange.com/*$image
 ||appinthestore.com/click/
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
 ||rfksrv.com/rfkj/$image
@@ -12614,6 +12618,7 @@ _WebVitalsReporter_
 ||tailtarget.com^$third-party
 ||pdffiller.com/api_v3/experiment/
 ||kupona.de^$third-party
+||fem.gprod.postmedia.digital/*/IIQUniversalID.js
 ||whitepixel.com^$third-party
 @@||komplett.no/gtm.js$script,~third-party
 ||roistat.com^$third-party
@@ -13876,6 +13881,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 @@||vidible.tv^*/ComScore.Viewability.js
 ||cloudfront.net/lp.js
 /pxrc.php
+@@||asb.co.nz.ssl.d2.sc.omtrdc.net^$xmlhttprequest,domain=asb.co.nz
 ||deine-tierwelt.de/ajax/responsive/stats.php?
 ||fpctraffic2.com^$third-party
 ||t13.cl/hit/
@@ -17965,6 +17971,7 @@ abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allabo
 ||audacy.com/data-events/
 ||widerplanet.com^$third-party
 ||roblox.com/www/e.png?
+||asb.co.nz/analytics/
 ||pstatp.com^*/raven.js
 /r.rnc?
 ||lyngsat.com/system/loadclick.js
