@@ -1,4 +1,4 @@
-# Update time: 2026-03-02 20:57:32
+# Update time: 2026-03-03 10:06:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4006,6 +4006,7 @@ appuals.com##.appua-reimage-top
 ||hipma.jp^$doc
 ||deepseekapk.download^$all
 ||icha-kurakura.biz^$doc
+||tariprotocol.com^$doc
 ||gesas.it^$doc
 ||tu-tu.jp^$doc
 ||eika-akie220202.com^$doc
@@ -11362,6 +11363,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||umbel.com^$third-party
 ||datadoghq.eu^$third-party
 @@||bam.nr-data.net^$xmlhttprequest,domain=abema.tv
+||player.target-video.com/player/build/plugins/googleanalytics/
 ||quant.jp^$third-party
 /cgi-bin/refsd?
 ||resulticks.com^$third-party
