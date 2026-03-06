@@ -1,4 +1,4 @@
-# Update time: 2026-03-06 10:02:55
+# Update time: 2026-03-06 20:54:55
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6797,6 +6797,7 @@
 0.0.0.0 ads.wapx.cn
 0.0.0.0 ad.sensismediasmart.com.au
 0.0.0.0 creditmuteuel.fr
+0.0.0.0 www.auto-runmz.com
 0.0.0.0 www.moncasinoonline.com
 0.0.0.0 metrics.tulsaworld.com
 0.0.0.0 www.v61.com
@@ -11211,6 +11212,7 @@
 0.0.0.0 reports.wes.df.telemetry.microsoft.com
 0.0.0.0 dysoool.com
 0.0.0.0 media.adrcdn.com
+0.0.0.0 comineeis.vu
 0.0.0.0 floratelecom.com
 0.0.0.0 freelaptopreward.com
 0.0.0.0 img2.ru.redtram.com
@@ -12391,6 +12393,7 @@
 0.0.0.0 ordremek.fr
 0.0.0.0 zeroredirect11.com
 0.0.0.0 tracking.publicidees.com
+0.0.0.0 www.abnehmenkabofit.de
 0.0.0.0 adipics.com
 0.0.0.0 biaugerme.fr
 0.0.0.0 pageupdate.co
@@ -14404,6 +14407,7 @@
 0.0.0.0 pcblibraries.fr
 0.0.0.0 rtb2.adscience.nl
 0.0.0.0 e-2dj6wjnyagcpkko.stats.esomniture.com
+0.0.0.0 weddinglovers.pl
 0.0.0.0 retrofuture.fr
 0.0.0.0 swisslide.fr
 0.0.0.0 static.chartbeat.com
@@ -15327,6 +15331,7 @@
 0.0.0.0 mobevo.fr
 0.0.0.0 fepete.ch
 0.0.0.0 planearconsultoria.com.br
+0.0.0.0 online.analytiks.click
 0.0.0.0 stats6.lightningcast.net
 0.0.0.0 www.avemoo.com
 0.0.0.0 myusersonline.com
@@ -15981,6 +15986,7 @@
 0.0.0.0 ai.hitbox.com
 0.0.0.0 beap.gemini.yahoo.com
 0.0.0.0 crdp-strsbourg.fr
+0.0.0.0 www.walkhelp.net
 0.0.0.0 netextra.hu
 0.0.0.0 www1.belboon.de
 0.0.0.0 counter35.bravenet.com
@@ -17947,6 +17953,7 @@
 0.0.0.0 ph-ad08.focalink.com
 0.0.0.0 home.gelsennet.de
 0.0.0.0 app5.letitbefaster.website
+0.0.0.0 www.gandiatv.com
 0.0.0.0 ad.groupon.fr
 0.0.0.0 carisoprodol.1.p2l.info
 0.0.0.0 sugoicounter.com

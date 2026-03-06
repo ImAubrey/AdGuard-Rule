@@ -1,4 +1,4 @@
-# Update time: 2026-03-06 10:02:55
+# Update time: 2026-03-06 20:54:55
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -18387,6 +18387,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||tieszhu.com/e.html
 ||botsvisit.com^$third-party
 /shopify_stats.js
+||shallspark.com/athena/tracking/
 ||facebook.com/tr?
 ||6pm.com/err.cgi?
 ||c1exchange.com^$third-party
