@@ -1,4 +1,4 @@
-# Update time: 2026-03-07 09:55:17
+# Update time: 2026-03-07 20:46:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11521,7 +11521,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -16993,6 +16992,7 @@
 0.0.0.0 engage.everyone.net
 0.0.0.0 shorte.st
 0.0.0.0 adult.shengen.ru
+0.0.0.0 www.wildriderfuns.com
 0.0.0.0 mobileleads.msn.com
 0.0.0.0 marinescence.fr
 0.0.0.0 myprivatephotoalbum.top
@@ -24496,6 +24496,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com

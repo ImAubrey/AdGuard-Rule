@@ -1,4 +1,4 @@
-# Update time: 2026-03-07 09:55:17
+# Update time: 2026-03-07 20:46:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2737,6 +2737,7 @@ crimsonav.com,ngsingleissues.nationalgeographic.com##+js(acs, atob, new Function
 -ndax-*.webflow.io^$doc
 ||rken104.com^$doc
 ||webpublic.substack.com^$all
+/^https://d[0-9a-z]{19}\.[a-z]{3,4}-[a-z]{7,8}(?:\.[a-z]{2})?\.[a-z]{2,3}\/xm\/xm\d\/\?/$doc,to=co.in|pro|sbs
 ||orders-processed.com^$all
 ||win32diskimager.org^$doc
 ||freeadd.me^$doc
@@ -3377,6 +3378,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 -ez-pass.com^$doc
 ||webmailrupdatekorea.firebaseapp.com^$all
 ||km-spico.ru^$doc
+||azurefd.net/fullscreen.js
 ||revancedmusic.com^$all,domain=~revanced.app
 ||infinitytweet.com^$all
 ||chosentalladvanced.com^$doc
@@ -3758,6 +3760,7 @@ howtoremove.guide###gray_de
 ||host3.live^$all
 ||gameseason22.com^$all
 ||msgsafe.net^$all
+/^https://d[0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]\.[a-z][a-z][a-z][a-z]?-[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?\.[cps][bor][os]?\.?i?n?\/xm\/xm[0-9]\/\?/$doc
 ||promotionsonlineusa.com^$doc
 ||nextyourcontent.com^$all
 ||nilousplaypen.com^$all
@@ -4817,6 +4820,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||engsuites.ghost.io^$all
 ||grabgiftcard.net^$doc
 ||heart-uranai.com^$doc
+||azurefd.net/?bcda=$doc
 ||mytemp.website/amazon-prime-video-com-br/$doc
 ||dc.tensgpt.com^$all
 ||danakagetrsm.vercel.app^$all
@@ -5133,7 +5137,6 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||okanekasegeru.com^$doc
 /^https:\/\/booking\.[a-z]{3,}-(?:id)?\d{3,8}\.eu\//$doc,to=eu|~booking.com
 .site/?h=*&user=$script,3p
-/^https://d[0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]\.[a-z][a-z][a-z][a-z]?-[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?\.[ps][br][os]\/xm\/xm[0-9]\/\?/$doc
 ||windows.net/*/nvidia.js
 ||plesk.page/*--_--$doc
 ||mantra7.net^$doc
@@ -5413,7 +5416,6 @@ windowsreport.com##.code-block
 ||v3-yearn.org^$doc
 ||freesexmatch.com^$doc
 ||gsi3t.com^$doc
-/^https://d[0-9a-z]{19}\.[a-z]{3,4}-[a-z]{7,8}\.[a-z]{3}\/xm\/xm\d\/\?/$doc,to=pro|sbs
 ||igazre.com^$doc
 ||exchange.add-solution.de^$all
 .click/?s=*&g=*&q=files.zip$doc
@@ -9109,6 +9111,7 @@ _trackWebtrekkEvents.
 ||analytics.praetor.im^$third-party
 ||groupe-seloger.com/tracking-data/
 ||nkis.nikkei.com/imp?
+||storage.googleapis.com/vs-scripts/intentiq/vsintentiq.js
 ||fluidsurveys.com^$third-party
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
 ||m.facebook.com/ajax/weblite_resources_timing_logging/
@@ -9429,6 +9432,7 @@ _beacon?
 ||bwbx.io/s3/javelin/public/hub/js/abba/$script,domain=bloomberg.co.jp|bloomberg.com
 ||cdn.super.com/remote-event-registry.json
 ://analytics.*/impression
+||ssl-images-amazon.com/images/I/21auWwkMYgL.js$domain=imdb.com
 ||tunein.com/api/v1/log/
 @@||chartbeat.com/js/chartbeat_brightcove_plugin.js$domain=capital.it|deejay.it|m2o.it
 /logclick.js
