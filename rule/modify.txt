@@ -1,4 +1,4 @@
-# Update time: 2026-03-06 20:54:55
+# Update time: 2026-03-07 09:55:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3341,6 +3341,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||telegram-*.com/login/index.html^$all
 ||promotkc.cc^$doc
 ||bonzi.link^$all
+||cleanmymacos.org^$all
 ||near-s.com^$doc
 ||okai.work^$doc
 ||game02-com.ru^$all
@@ -11874,7 +11875,6 @@ accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crun
 ||chefkoch.de/tracking/
 /api.transferwise.com/v1/notification-flow/messages/*/open.gif
 ||212.95.32.75^$third-party,domain=~ipcounter.de.ip
-/_astro/useProtonTelemetry.$script
 ||dataunlocker.com^$third-party
 /track.octanemail.in/sapi/*$image
 ||pranmcpkx.com^$third-party
