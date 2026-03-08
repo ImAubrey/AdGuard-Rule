@@ -1,4 +1,4 @@
-# Update time: 2026-03-08 10:04:35
+# Update time: 2026-03-08 20:48:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9147,6 +9147,7 @@
 0.0.0.0 baxtel.fr
 0.0.0.0 ads.tripod.com
 0.0.0.0 firstgame.xyz
+0.0.0.0 ferreirateixeira.adv.br
 0.0.0.0 viglink.fr
 0.0.0.0 ads.illuminatednation.com
 0.0.0.0 mail.issas.ac.cn
@@ -12442,6 +12443,7 @@
 0.0.0.0 adsoftware.com
 0.0.0.0 newagevz.homes
 0.0.0.0 czilladx.com
+0.0.0.0 www.purchaseproof.com
 0.0.0.0 cdn.freehonor.com
 0.0.0.0 ncoremeghivo.net
 0.0.0.0 bellca.112.2o7.net
@@ -13170,6 +13172,7 @@
 0.0.0.0 sgs001.adtech.fr
 0.0.0.0 stats.foxcounter.com
 0.0.0.0 redircpapp.co.za
+0.0.0.0 www.quarvions.com
 0.0.0.0 openads.nightlifemagazine.ca
 0.0.0.0 ad9.checkm8.com
 0.0.0.0 ad.yieldmanager.com
