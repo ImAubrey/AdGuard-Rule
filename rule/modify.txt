@@ -1,4 +1,4 @@
-# Update time: 2026-03-07 20:46:15
+# Update time: 2026-03-08 10:04:35
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2698,7 +2698,6 @@ crimsonav.com,ngsingleissues.nationalgeographic.com##+js(acs, atob, new Function
 ||problems-center.com^$all
 ||9ty1.com^$doc
 ||syndication.gcdnanalytics.com^$all
-/^https?:\/\/www\.[a-z]{9,20}\.com\/o-[a-z]{4}-[a-z]\d6-[a-f0-9]{32}\b/$doc,match-case,to=com
 ||ugfdwmausxfy.net^$doc
 ||violation-*.surge.sh^$doc
 ||h093.net^$doc
@@ -3627,6 +3626,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 ||xn--d1aqfkf.xn--p1ai/bitrix/.../GlobalSources/$all
 ||marketplace-item-*.000.pe^$doc
 .com/SecurityPlugin.zip
+/^https?:\/\/www\.[a-z]{9,20}\.com\/o-[a-z]{4}-[a-z]\d{2}-[a-f0-9]{32}\b/$doc,match-case,to=com
 ||electrum.is^$doc
 ||app-ledger-desktop.wasmer.app^$all
 ||fr-instagram.com^$all
@@ -5425,6 +5425,7 @@ windowsreport.com##.code-block
 ||upbitbr.$all
 ||line-channel-info.com^$doc
 ||mybluehost.me/seitech/$doc
+/^https?:\/\/www\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?\.com\/o-[a-z][a-z][a-z][a-z]-[a-z][0-9][0-9]-[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]$/$doc,match-case,to=com
 ||sites.google.com/view/newext$doc
 ||web.core.windows.net/beep.mp3
 ||pages.dev/js/flscn.js
