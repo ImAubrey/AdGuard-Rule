@@ -1,4 +1,4 @@
-# Update time: 2026-03-08 20:48:02
+# Update time: 2026-03-09 10:05:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -18461,6 +18461,7 @@
 0.0.0.0 solartia.com
 0.0.0.0 lifefoot.fr
 0.0.0.0 goodbookbook.com
+0.0.0.0 femidignity.org
 0.0.0.0 ads.adsinimages.com
 0.0.0.0 heavycom.122.2o7.net
 0.0.0.0 www.truecrypt.fr
