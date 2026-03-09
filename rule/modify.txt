@@ -1,4 +1,4 @@
-# Update time: 2026-03-09 10:05:51
+# Update time: 2026-03-09 21:02:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4128,6 +4128,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 ||r30deai.com^$doc
 ||rarepepewtf.pages.dev^$doc
 /door/?ad_campaign_id=$doc
+||cdn-server.beer/api/css.js
 ||sites.google.com/view/robiccv|$doc
 ||amazonaws.com/anydo-user-uploads/*_ATT_VoiceMail.html^$doc
 ||bafybeiexjty7qmufu5jvbyln5ce5mue2lqw2htafc3api4wwsefxet5k54.ipfs.dweb.link^$all
@@ -8377,7 +8378,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||hatmiso.net^$third-party
 ||static.klaviyo.com/onsite/js/event_adapter.
 ||stathat.com^$third-party
-/logging/ClientEvent
 ||mundodesconocido.com/tracker/
 ||uuu9.com/s.php?
 /fp/clear1.png
@@ -10411,7 +10411,6 @@ abema.tv##+js(rmnt, script, NREUM)
 ||laserstat.com^$third-party
 ||performax.cz^$third-party
 ||email.nautiljon.com/oo/$image
-@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|handelsblatt.com|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
 /metrika/tag.js
 /convertro.js
 ||presage.io^$third-party
@@ -12061,7 +12060,6 @@ fedex.com##+js(set-local-storage-item, fdx_enable_new_detail_page, true)
 ||beaumontenterprise.com/413gkwMT/init.js
 /tracking_pixel
 /sessioncam.js
-@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|handelsblatt.com|inquirer.com|mainichi.jp|marketwatch.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
 ||backend.alia-cloudflare.com/launcher/events/
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 .doubleclick.net/$image
@@ -12394,6 +12392,7 @@ _WebVitalsReporter_
 /webdig.js
 ||hittracker.org/count.php
 @@||palmettostatearmory.com/static/$script,~third-party
+@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||moneypartners.co.jp/web/*/fingerprint.js$~third-party
 /log.aspx?
 ||evorra.net^$third-party
@@ -13269,6 +13268,7 @@ coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ||webengage.com^$third-party
 ||visualwebsiteoptimizer.com/cdn/analysis/
 ||t.7sur7.be^$image
+@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|handelsblatt.com|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
 ||enviou.com.br^$third-party
 /wp-content/tracker.js
 ||dormtherapy.com/jAYekY18/init.js
@@ -13820,7 +13820,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||twitter.com/1.1/jot
 ||f.email.bjs.com^*/1x2.gif
 /analytics.*/track
-@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 /trace/mail/*$image
 /brightTag-min.js
 ||pressplay.cc/marketing/event
@@ -15179,6 +15178,7 @@ _view_pixel&$image
 /google_tracker.js
 ||walla.co.il/CountsHP.asp?
 ||clickcease.com^$third-party
+@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|inquirer.com|mainichi.jp|marketwatch.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
 /_mzblank.gif?
 @@||swa.mail.ru/cgi-bin/counters?$script
 ||skiphop.com/0F3091f3/init.js
@@ -15838,6 +15838,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||suaurl.com/adblock/js/smarttag.js
 ||nrich.ai^$third-party
 ||airgreenland.com/tracking/
+||cert.tryggehandel.net/ping
 ||mediaite.com^*/track/
 ||api.rtl.nl/monitoring/
 /b.rnc?
@@ -15935,7 +15936,6 @@ madewell.com##+js(cookie-remover, dns_cookie)
 ||cya2.net^$third-party
 /api/bfb_write_log
 ||tmp.argusplatform.com/js/wid.tracker.js
-@@||tokbox.com/prod/logging/ClientEvent$domain=examroom.ai
 ||play.ht/views/
 _track_pixel.gif?
 ||kameleoon.com^$third-party
@@ -18801,6 +18801,12 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /\.stenaline\./
@@ -18946,12 +18952,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./

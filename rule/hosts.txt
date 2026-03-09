@@ -1,4 +1,4 @@
-# Update time: 2026-03-09 10:05:51
+# Update time: 2026-03-09 21:02:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -18077,6 +18077,7 @@
 0.0.0.0 gcirm.battlecreekenquirer.com
 0.0.0.0 cdn2.ad-center.com
 0.0.0.0 v8push.pinsightmedia.com
+0.0.0.0 bridgemanstt.com
 0.0.0.0 amoxicillin.ourtablets.com
 0.0.0.0 nt.new-cars.com.es
 0.0.0.0 ad.3dnews.ru
