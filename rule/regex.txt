@@ -1,4 +1,4 @@
-# Update time: 2026-03-09 21:02:13
+# Update time: 2026-03-10 09:58:38
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1462,6 +1462,7 @@
 ||mistat.*.xiaomi.com^
 ||ad*.ettoday.net^
 ||report*.appmetrica.webvisor.com^
+||bapi-*.moengage.com^
 ||impservice*.yodao.com^
 ||beacons*.gvt3.com^
 ||ads*.bojijulebu.com^
