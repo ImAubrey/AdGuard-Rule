@@ -1,4 +1,4 @@
-# Update time: 2026-03-10 09:58:38
+# Update time: 2026-03-10 20:59:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -14458,6 +14458,7 @@
 0.0.0.0 pix03.revsci.net
 0.0.0.0 ad.media-servers.net
 0.0.0.0 www.kuhdi.com
+0.0.0.0 www.bernoussiphone.com
 0.0.0.0 host-redirect.net
 0.0.0.0 www.idirect.com
 0.0.0.0 www.nationalsurveypanel.com
