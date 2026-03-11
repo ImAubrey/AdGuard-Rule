@@ -1,4 +1,4 @@
-# Update time: 2026-03-10 20:59:32
+# Update time: 2026-03-11 09:57:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3216,6 +3216,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||koun-yogen.com^$doc
 ||rblx-copier.vercel.app^$all
 ||pub-*.r2.dev/docuss_3456787654324567897865433456789.html^$doc
+||claude-code-$doc,to=edgeone.app|pages.dev|squarespace.com
 ||microsoft-verify.glitch.me^$all
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##th:has-text(/^Detection$/)
 /^https:\/\/amazon[a-z]\d\.com\//$doc,to=com
@@ -4045,6 +4046,7 @@ z13.web.core.windows.net##+js(aeld, DOMContentLoaded, fullscreenEnabled)
 /^https?:\/\/[-a-z][-a-z][-a-z][-a-z]+\.com[-.][-a-z0-9][-a-z0-9]+\.[a-z]+\//$doc,to=bid|cc|cfd|cyou|icu|live|online|shop|top|vip|win|world|xin
 ||dvjqvdfujjvvkuyvhjqdvbjcmioljbhjmijq.s3.ap-northeast-1.amazonaws.com^$all
 ||gotohouse2.cc^$all
+||remover-bg.com^$all
 ||mybluehost.me/wp-content/12/*.php^$doc
 /^https?:\/\/[-a-z0-9]{25,}\.vercel\.app\/id\/\d{15,17}\.html\b/$doc,match-case,to=vercel.app|~facebook.com
 ||belliniepecuniaimmobilisrl.$doc,to=belliniepecuniaimmobilisrl.*

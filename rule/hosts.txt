@@ -1,4 +1,4 @@
-# Update time: 2026-03-10 20:59:32
+# Update time: 2026-03-11 09:57:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6633,6 +6633,7 @@
 0.0.0.0 www.msxzff.com
 0.0.0.0 zc1.campaign-view.com.cn
 0.0.0.0 www.openinternetexchange.com
+0.0.0.0 www.ggdark.net
 0.0.0.0 www.strongarchzu.com
 0.0.0.0 match.sync.ad.cpe.dotomi.com
 0.0.0.0 ads24.focalink.com
@@ -7613,6 +7614,7 @@
 0.0.0.0 onedrive-cdn.com
 0.0.0.0 www.flexibletool.com
 0.0.0.0 iovation.co.uk
+0.0.0.0 www.rnleonard.com
 0.0.0.0 tele.oewabox.at
 0.0.0.0 c.my.msn.com
 0.0.0.0 ostalgie.fr
@@ -9292,6 +9294,7 @@
 0.0.0.0 forex-signal.hut1.ru
 0.0.0.0 ads.indiatimes.com
 0.0.0.0 tz284.com
+0.0.0.0 www.play-fever.com
 0.0.0.0 vnu.eu-adcenter.net
 0.0.0.0 twofish.freeuk.com
 0.0.0.0 adscendmedia.com
@@ -10812,6 +10815,7 @@
 0.0.0.0 www.deperiodista.com
 0.0.0.0 www212.paypopup.com
 0.0.0.0 clickthrutraffic.com
+0.0.0.0 www.jackpotcasinojeux.com
 0.0.0.0 longrich.fr
 0.0.0.0 emisja.contentstream.pl
 0.0.0.0 adnetworkperformance.com
@@ -11050,6 +11054,7 @@
 0.0.0.0 ads.ntadvice.com
 0.0.0.0 e-2dj6wjlyckcpelq.stats.esomniture.com
 0.0.0.0 pix521.adtech.us
+0.0.0.0 www.board-ly.com
 0.0.0.0 ad4.bannerbank.ru
 0.0.0.0 ehg-wss.hitbox.com
 0.0.0.0 advertisingbay.com
@@ -12290,6 +12295,7 @@
 0.0.0.0 ads159.console.adtarget.com.tr
 0.0.0.0 api.shoppingminds.net
 0.0.0.0 securisurf.com
+0.0.0.0 www.playtactics-hub.com
 0.0.0.0 vidstatb.taboola.com
 0.0.0.0 si.hit.gemius.pl
 0.0.0.0 mizvan.com
@@ -12566,6 +12572,7 @@
 0.0.0.0 ma-kaeser.ch
 0.0.0.0 ehg-usnewsworldreport.hitbox.com
 0.0.0.0 europr1.fr
+0.0.0.0 www.wingfoilmargarita.com
 0.0.0.0 telephoner-voyance.fr
 0.0.0.0 creatiby1.unicast.com
 0.0.0.0 openinternetexchange.com
@@ -13048,6 +13055,7 @@
 0.0.0.0 channelvue.com.au
 0.0.0.0 PAKpolice.com
 0.0.0.0 ad.groupon.com
+0.0.0.0 invelaconstructora.com
 0.0.0.0 ads.viber.com
 0.0.0.0 ad24digital.checkm8.com
 0.0.0.0 counteraport.spylog.com
@@ -13164,6 +13172,7 @@
 0.0.0.0 ad-generator.net
 0.0.0.0 mobile.webvisor.com
 0.0.0.0 h4.helenrosi.com
+0.0.0.0 www.pure-glance.com
 0.0.0.0 www.neptuneads.com
 0.0.0.0 audacity.de
 0.0.0.0 luniko.fr
@@ -15417,6 +15426,7 @@
 0.0.0.0 assodigitale.fr
 0.0.0.0 smartclip.com
 0.0.0.0 s.ntv.io
+0.0.0.0 cp.liferan.pro
 0.0.0.0 adserver.icmedienhaus.de
 0.0.0.0 ad42digital.checkm8.com
 0.0.0.0 spotchannel02.com
@@ -17087,6 +17097,7 @@
 0.0.0.0 js.tongji.linezing.com
 0.0.0.0 www.trourted.pro
 0.0.0.0 online-pharmacy-online.blogspot.com
+0.0.0.0 heshun.com.tw
 0.0.0.0 ads.cardea.se
 0.0.0.0 wf.taboola.com
 0.0.0.0 jitmj4.122.2o7.net

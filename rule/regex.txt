@@ -1,4 +1,4 @@
-# Update time: 2026-03-10 20:59:32
+# Update time: 2026-03-11 09:57:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1402,6 +1402,7 @@
 ||cj1*.online^
 ||orderana*.spankbang.com^
 ||sd.yhzzzs*.com^
+||trace-*.free-reels.com^
 ||counter*.stat.ovh^
 ||collector-*.pxchk.net^
 ||host*.carl-ras.dk^
