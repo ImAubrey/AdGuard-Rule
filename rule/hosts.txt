@@ -1,4 +1,4 @@
-# Update time: 2026-03-11 20:59:05
+# Update time: 2026-03-12 10:04:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7303,6 +7303,7 @@
 0.0.0.0 www.bigbrandrewards.com
 0.0.0.0 coinhive.com
 0.0.0.0 tcadops.ca
+0.0.0.0 www.assistdocklane.uk
 0.0.0.0 www.c2.taboola.com
 0.0.0.0 ads.revsci.net
 0.0.0.0 tracking.murdoog.com
@@ -7367,6 +7368,7 @@
 0.0.0.0 retargetly-match.dotomi.com
 0.0.0.0 pets.finaltips.com
 0.0.0.0 screenaddict.thewhizproducts.com
+0.0.0.0 www.barjacity.com
 0.0.0.0 partner-ts.groupon.be
 0.0.0.0 www.knowinteractive.com
 0.0.0.0 forex-broker.hut1.ru
@@ -7521,6 +7523,7 @@
 0.0.0.0 b.webwise.org
 0.0.0.0 canva2023.com
 0.0.0.0 ad04.focalink.com
+0.0.0.0 www.bestlabour.com
 0.0.0.0 protection.FRpolice.com
 0.0.0.0 hg2.hitbox.com
 0.0.0.0 jeu-jeux.fr
@@ -7636,6 +7639,7 @@
 0.0.0.0 ms-shopzone.su
 0.0.0.0 www.searchv.com
 0.0.0.0 yummie.fr
+0.0.0.0 www.lightcontest.com
 0.0.0.0 dclk-match.dotomi.com
 0.0.0.0 cs-kn.de
 0.0.0.0 ebayadvertising.triadretail.net
@@ -9667,6 +9671,7 @@
 0.0.0.0 netflixca-updateprofilehelp.com
 0.0.0.0 mt58.mtree.com
 0.0.0.0 lasopabowl158.weebly.com
+0.0.0.0 www.hunterspeed.com
 0.0.0.0 oascentral.sina.com
 0.0.0.0 e-2dj6wgkisnd5abo.stats.esomniture.com
 0.0.0.0 www.laugh-mail.net
@@ -9723,6 +9728,7 @@
 0.0.0.0 dqs001.adtech.fr
 0.0.0.0 psycho-test.fr
 0.0.0.0 photos3.pop6.com
+0.0.0.0 www.waterchamber.com
 0.0.0.0 www.howtotroll.org
 0.0.0.0 ve1.claker.top
 0.0.0.0 leroymerln.fr
@@ -11530,7 +11536,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -12031,6 +12036,7 @@
 0.0.0.0 divx.adbureau.net
 0.0.0.0 kdconstructionusa.com
 0.0.0.0 tj6w5.flx10.com
+0.0.0.0 www.dealresponse.com
 0.0.0.0 audicat.net
 0.0.0.0 rr1.xxxcounter.com
 0.0.0.0 kos.interseek.si
@@ -13474,6 +13480,7 @@
 0.0.0.0 www.binarysystem4u.com
 0.0.0.0 www.brightonclick.com
 0.0.0.0 tracker.consumerpackage.net
+0.0.0.0 www.carehigher.com
 0.0.0.0 stat.www.fi
 0.0.0.0 hbadz.eboz.com
 0.0.0.0 freeinvisiblecounters.com
@@ -14755,6 +14762,7 @@
 0.0.0.0 jgen18.cjt1.net
 0.0.0.0 lovittco.com.au
 0.0.0.0 owabgxis.wp.pl
+0.0.0.0 www.supportnestframe.uk
 0.0.0.0 ads.granadamedia.com
 0.0.0.0 coolnovelties.co.uk
 0.0.0.0 ts-shimada.com
@@ -14877,6 +14885,7 @@
 0.0.0.0 img-a2.ak.imagevz.net
 0.0.0.0 fls-na.amazon-adsystem.com
 0.0.0.0 coin-have.com
+0.0.0.0 www.futuredecide.com
 0.0.0.0 appleleaveit.co
 0.0.0.0 g.thinktarget.com
 0.0.0.0 y1.extreme-dm.com
@@ -15751,6 +15760,7 @@
 0.0.0.0 pain-relief.1.p2l.info
 0.0.0.0 www.7500.com
 0.0.0.0 beacon-1.newrelic.com
+0.0.0.0 www.paidsecure.com
 0.0.0.0 searchwe.com
 0.0.0.0 adsmart.co.uk
 0.0.0.0 lolhello.com
@@ -16313,6 +16323,7 @@
 0.0.0.0 stats.bbc.co.uk
 0.0.0.0 adbucks.brandreachsys.com
 0.0.0.0 hotelissimo.fr
+0.0.0.0 www.exteriorteam.com
 0.0.0.0 d5p.de17a.com
 0.0.0.0 ads.mediaodyssey.com
 0.0.0.0 lesindesradio.fr
@@ -17484,6 +17495,7 @@
 0.0.0.0 bnvxcfhdgf.blogspot.com.es
 0.0.0.0 ads.freebannertrade.com
 0.0.0.0 activity.serving-sys.com	#eyeblaster.com
+0.0.0.0 www.grandtables.com
 0.0.0.0 siteliner.fr
 0.0.0.0 zeroredirect5.com
 0.0.0.0 logv4.xiti.com
@@ -18140,6 +18152,7 @@
 0.0.0.0 webkurchatov.ru
 0.0.0.0 adserver.juicyads.com
 0.0.0.0 c0.adalyser.com
+0.0.0.0 www.supportwindowlane.uk
 0.0.0.0 twoje-nagrody.pl
 0.0.0.0 bullgame.net
 0.0.0.0 www.softmillon.com
@@ -24524,6 +24537,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
