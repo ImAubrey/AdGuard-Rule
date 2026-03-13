@@ -1,4 +1,4 @@
-# Update time: 2026-03-13 10:02:02
+# Update time: 2026-03-13 20:57:20
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3062,6 +3062,7 @@ appuals.com##.info.box
 ||org.gov-$doc
 support.ublock.org##div.hero-unit > div.search-box--hero-unit::before:style(content: 'uBlock is unrelated to the well-known uBlock Origin.' !important; font-size: var(--font-size-h2) !important; color: red !important; font-weight: bold !important;)
 ||windows.net/*/media/beep.mp3
+||rpcs5.com^$all
 ||o-rakuenn.com^$doc
 ||sale24-pills.com^$doc
 ||luckypatcherwin.com^$all,domain=~luckypatchers.com
@@ -3117,6 +3118,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||traveltraffic.cc^$all
 /Er0Wind0fsd0Security087/index.html$doc
 ||ytjon-d2s1ah.com^$doc
+##body > div[data-captcha-enable="true"] > div.cleanslate[id^="google-captcha-"] > div.captcha-box
 ||always-happy-fortune.com^$doc
 ||vercel.app/js/esc.js
 ||govuk.*.top^$doc
@@ -3671,6 +3673,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||sites.google.com/view/taskbar-themes^$all
 /index.html?ph0n=1-$doc
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.automatic_removal_list
+||rpcs4.com^$all
 ||fan-page-*.surge.sh^$doc
 /^https:\/\/[a-z]{14}\.azureedge\.net\/\d{4}j\b/$doc,to=azureedge.net
 ||crowdstrike-cloudtrail-storage-bb-126d5e.s3.us-west-1.amazonaws.com^$doc
@@ -4981,6 +4984,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||netcoislogin-zone.webflow.io^$all
 ||debridleech.com^$doc
 ||gruposabar.com^$all
+||aiclaude.jp^$all
 ||romancetime.jp^$doc
 ||koundayori.com^$doc
 ||pub-*.r2.dev/dse_sign.html^$doc
