@@ -1,4 +1,4 @@
-# Update time: 2026-03-12 20:59:02
+# Update time: 2026-03-13 10:02:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8061,6 +8061,7 @@ _stat_counter.php?
 ||clubcollector.com^$third-party
 ||lancenet.com.br/pw.js
 ||delivra.com/tracking/$third-party
+@@||prod-backend.jls-sto1.elastx.net/graphql$domain=webcamcollections.com
 /visitor_id.jsp
 ||overstock.com/analytics/
 ||mng.jiji.com/cookie.html
@@ -12422,6 +12423,7 @@ _WebVitalsReporter_
 /mintstats/?js
 ||cpmktg.com^$third-party
 ||oneroof.co.nz/*/record-log/
+coomer.st,kemono.cr,official.coomer.com.co##+js(set-local-storage-item, plausible_ignore, true)
 ||pulpulyy.club/cdn-cgi/trace
 ||dmtracker.com^$third-party
 ||tracking202.com^$third-party
@@ -13140,7 +13142,6 @@ _logHuman=
 ||cloudfront.net/autotracker
 /segmentify.js
 ||www.digikey.*/lO2Z493J/init.js
-coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ||gravitec.net^$third-party
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 /geoip/detect?
