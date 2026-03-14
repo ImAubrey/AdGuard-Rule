@@ -1,4 +1,4 @@
-# Update time: 2026-03-13 20:57:20
+# Update time: 2026-03-14 09:59:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7606,6 +7606,7 @@
 0.0.0.0 myheartbuild.com
 0.0.0.0 osd-onead.cdn.hinet.net
 0.0.0.0 skin-care.1.p2l.info
+0.0.0.0 www.formalcenter.com
 0.0.0.0 www.silentgateck.site
 0.0.0.0 counter6.sextracker.com
 0.0.0.0 chatgpt-premium.com
@@ -7939,6 +7940,7 @@
 0.0.0.0 www.media-motor.com
 0.0.0.0 canadapost-postescanada.uwpackege.top
 0.0.0.0 tradedoubler.sonvideopro.com
+0.0.0.0 www.exambased.com
 0.0.0.0 jbaventures.cjt1.net
 0.0.0.0 ehg-magicalia.hitbox.com
 0.0.0.0 videobox.com
@@ -10240,6 +10242,7 @@
 0.0.0.0 f4.p0y.com
 0.0.0.0 ad41.checkm8.com
 0.0.0.0 samsung3.solution.weborama.fr
+0.0.0.0 www.sailpirate.com
 0.0.0.0 i1.vaishnaviinterior.com
 0.0.0.0 ads163.console.adtarget.com.tr
 0.0.0.0 sonycomputerentertai.tt.omtrdc.net
@@ -10391,6 +10394,7 @@
 0.0.0.0 a.webwise.org
 0.0.0.0 www.tracklead.net
 0.0.0.0 n6.nskfyl.com
+0.0.0.0 www.sporttile.com
 0.0.0.0 servedbyadbutler.com
 0.0.0.0 cosmopolita.fr
 0.0.0.0 msnportal.112.2o7.net
@@ -11540,6 +11544,7 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
+0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -14645,6 +14650,7 @@
 0.0.0.0 neszmely.eu
 0.0.0.0 adv.webmd.com
 0.0.0.0 en.ultrex.ru
+0.0.0.0 www.nowreact.com
 0.0.0.0 www.kryzantor.uk
 0.0.0.0 www.clipsfan.com
 0.0.0.0 clickserve.cc-dt.com
@@ -15609,6 +15615,7 @@
 0.0.0.0 atdmt.com
 0.0.0.0 ehg-himedia.hitbox.com
 0.0.0.0 a-redirect.com
+0.0.0.0 www.simplyartful.com
 0.0.0.0 adv.virgilio.it
 0.0.0.0 cbsncaasports.112.2o7.net
 0.0.0.0 cnetaustralia.122.2o7.net
@@ -16898,6 +16905,7 @@
 0.0.0.0 ads.bizhut.com
 0.0.0.0 getrelator.com
 0.0.0.0 adclick.g.doubleclick.net
+0.0.0.0 www.goldentopics.com
 0.0.0.0 int.sitestat.com
 0.0.0.0 tax-canada2023.co
 0.0.0.0 myhst2024.com
@@ -17580,6 +17588,7 @@
 0.0.0.0 mlefigaro.fr
 0.0.0.0 7500.com
 0.0.0.0 sync.audtd.com
+0.0.0.0 www.promoskills.com
 0.0.0.0 hostpowermedium.112.2o7.net
 0.0.0.0 ut1capitole.fr
 0.0.0.0 citrio.com
@@ -17620,6 +17629,7 @@
 0.0.0.0 oascentral.upi.com
 0.0.0.0 secserv.adtech.de
 0.0.0.0 www.istats.nl
+0.0.0.0 www.sellpetrol.com
 0.0.0.0 ads.smartclicks.com
 0.0.0.0 www.images.taboola.com
 0.0.0.0 countrystore.fr
@@ -17969,6 +17979,7 @@
 0.0.0.0 iad-usadmm-ds.dotomi.com
 0.0.0.0 ads.currantbun.com
 0.0.0.0 morefastermac.trade
+0.0.0.0 www.wildroostli.com
 0.0.0.0 ultracet.1.p2l.info
 0.0.0.0 shopkeep.fr
 0.0.0.0 cookies.cmpnet.com
@@ -24547,7 +24558,6 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
-0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com

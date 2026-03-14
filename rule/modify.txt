@@ -1,4 +1,4 @@
-# Update time: 2026-03-13 20:57:20
+# Update time: 2026-03-14 09:59:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12915,6 +12915,7 @@ _logHuman=
 ||metro.co.uk/base/rta/
 ||rampanel.com^$third-party
 /uniclick.js?attribution=
+/op/op1.js?v=$script
 /flv_tracking.
 @@||imobiliare.ro/js/gtm.js$script,~third-party
 ||widgeo.net/hitparade.php
@@ -16121,6 +16122,7 @@ _track_pixel.gif?
 /mpel/mpel.js
 /web-vitals.iife.js
 ||p0y.cn^$third-party
+/gosquared.js$script
 /log/?pixel=
 ||webstat.com^$third-party
 ||chartbeat.com^$third-party
@@ -16365,6 +16367,7 @@ _track_pixel.gif?
 ||freestats.biz^$third-party
 ||tvgids.nl/collect
 ||corvidae.ai/pixel.min.js
+||openpanel.dev/op.js
 ||guarantee-cdn.com^$third-party
 ||fpad.jp^$third-party
 /znsrc.com/o/*$image

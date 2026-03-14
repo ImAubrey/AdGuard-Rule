@@ -1,4 +1,4 @@
-# Update time: 2026-03-13 20:57:20
+# Update time: 2026-03-14 09:59:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -128,10 +128,12 @@
 ||impservice*.youdao.com^
 ||d*.ruiwen.com^
 ||ping.*.sogou.com^
+||xscp0*xq.com^
 ||adsmogo*.*^
 ||ssc.southpark*^
 ||adservice*.*^
 ||ac*.786ip.com^
+||xdyn0*jy.com^
 ||xn--wxtr9fwyxk9c.*^
 ||d*.xinshipu.com^
 ||p*-ad-sign.byteimg.com^
