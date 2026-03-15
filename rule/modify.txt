@@ -1,4 +1,4 @@
-# Update time: 2026-03-15 10:24:51
+# Update time: 2026-03-15 20:52:35
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2555,6 +2555,7 @@ howtoremove.guide###solution_v2_de
 ||gnan.jp^$doc
 ||jujutsukaisengoods.com^$doc
 ||storage.googleapis.com/my*server/*/index.html$doc
+||audiveris.com^$doc
 ||fixedfloat.ac^$doc
 ||lvmeet.net^$doc
 ||amplifyapp.com/*/js/flscn.js
@@ -7095,6 +7096,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||blogroll.livedoor.net/img/blank.gif?
 ||lgforbes.akamaized.net/rtblog.php?
 ||webserviceaward.com^$third-party
+||userway.org/api/abn/events
 /log_view.php
 ||plecki.com^$third-party
 ||tmtarget.com/tracking/
@@ -10955,6 +10957,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 /zaius.js
 ||aawsat.com/pageview/
 ||df-srv.de^$third-party
+||grokipedia.com/api/stats
 ?logType=impression&
 ||trustiseverything.de^$third-party
 ||starzplay.com/resources/js/analytics.js
@@ -11637,6 +11640,7 @@ img.promio-connect.com$image
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 ||smsaffari.it/count_new.php?
 /pub/as?_ri_=$image
+||callindex.co.il/campaign/send_analytics.js
 ||dditscdn.com/log/
 ||pubexchange.com^$third-party
 ||dribbble.com/client_app/screenshot_boost_ad_events
@@ -13439,6 +13443,7 @@ _logHuman=
 ||trick17.it^$third-party
 ||tmssl.akamaized.net/js/news-viewport-tracking.js
 ||eggplant.cloud^$third-party
+||static.myshlf.us/Affiliates/sms_aff_clicktrack-deciem.js
 /AD/PageHits.
 ||fwpixel.com^$third-party
 /metricool.js
