@@ -1,4 +1,4 @@
-# Update time: 2026-03-16 10:25:54
+# Update time: 2026-03-16 21:11:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6762,6 +6762,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||vitals.groww.in/collect
 ||digitalproserver.com/mango-web-metrics/
 ||sitemeter.com^$third-party
+||posthog.com/api/signup-count
 /ss/o/*.gif
 /views_tracking/*
 ||phone-analytics.com^$third-party
@@ -8568,6 +8569,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||jiji.co.ke/tag_event
 ||sportnews.bz/pcookie?
 ||shiekh.com/iJ55yhVs/init.js
+||posthog.com/*/?ip=$xmlhttprequest
 ||marketingcloudfx.com^$third-party
 ||uni-duesseldorf.de/cgi-bin/nph-count?
 ||civitai.com/api/trpc/track.addView
@@ -9579,6 +9581,7 @@ _beacon?
 /roiengine.js
 ||trafic.ro^$third-party
 ||salesmartly.com/client/station/log?
+||posthog.com/*/logs?$xmlhttprequest
 /app.php/ads/*
 /mtifonttracker.js
 ||pikabu.ru/ajax/analytics.php
@@ -11260,6 +11263,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||legenhit.com^$third-party
 ||clicksen.se^$third-party
 ||clearspring.com/at/
+||chat.vica.gov.sg/api/v1/unleash/proxy/client/metrics
 ||cdnplanet.com/static/rum/rum.js
 /resxclsa.js
 ||simpleanalytics.com^$third-party,domain=~simpleanalyticscdn.com
@@ -16918,6 +16922,7 @@ _rpc/log?
 ||musescore.com/score/stats/
 .gif?stat=open
 ||glassboxcdn.com^$third-party
+||posthog.com/api/homepage-hits
 ||tag.contentanalytics.jp^$third-party
 ||ep4p.com^$third-party
 ||edisound.com/api/p/medias/stats
@@ -18666,6 +18671,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||bb.itwc.ca/js/cube.js
 /replay?ddsource=
 ||suedtirol.live/slc.js
+||deno.com/i/
 ||bzpics.com/jslib/st.js?
 ||edisound.com/api/p/stats
 ||nicovideo.jp/analyze/
