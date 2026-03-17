@@ -1,4 +1,4 @@
-# Update time: 2026-03-17 10:05:15
+# Update time: 2026-03-17 21:11:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7212,6 +7212,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||gso.amocrm.com/humans/
 ||u-on.eu^$third-party
 ||spiral.world/events/
+||pc-optimum.ada.support/api/business_events/track$domain=pcoptimum.ca
 ||redistats.com^$third-party
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
 ||vertical-n.de/scripts/*/immer_oben.js
@@ -9984,6 +9985,7 @@ _beacon?
 ||counterland.com^$third-party
 ||pagerank-online.eu^$third-party
 ||domaintools.com/buffer.pgif?
+||console.deno.com/_fresh/js/*/Posthog.js
 ||botdetector.ru^$third-party
 ||southwest.com/di/swadc/beacon/
 ||swetrix.com^$third-party
@@ -13453,6 +13455,7 @@ _logHuman=
 ||static.myshlf.us/Affiliates/sms_aff_clicktrack-deciem.js
 /AD/PageHits.
 ||fwpixel.com^$third-party
+||musescore.com/components/log/$ping
 /metricool.js
 ||trust-provider.com^*/trustlogo.js$third-party
 ||cognativex.com^$third-party
@@ -14936,11 +14939,13 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||v.blog.sohu.com/dostat.do?
 ||linestudio.ru/counter/
 ||cdn.jsdelivr.net/npm/@adshield/
+/cl.animate.co.jp/c/*$image
 ||tgtag.io^$third-party
 ||promotionengine.com^$third-party
 ||callreports.com^$third-party
 ||wp-engage.org/api/v5/post/activity/log/
 ||sugodeku.com^$third-party
+||api.pcid.ca/v1/client/logs
 ||mssdk.tiktokw.us/web/report?
 /disp_cnt.php
 /collector?report=
@@ -16279,6 +16284,7 @@ _track_pixel.gif?
 /onestat.js
 /frontend-gtag.js
 ||ups2up.fun/js/anti.js
+/image.info.jr-odekake.net/lib/*$image
 ||thesun.co.uk/assets/client/analyticsListeners~
 ||mymetal.ru/counter/
 ||globo.com/geo?

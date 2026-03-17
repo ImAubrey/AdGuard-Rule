@@ -1,4 +1,4 @@
-# Update time: 2026-03-17 10:05:15
+# Update time: 2026-03-17 21:11:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8211,6 +8211,7 @@
 0.0.0.0 exch.quantserve.com
 0.0.0.0 laptopreportcard.com
 0.0.0.0 ocdn.adsterra.com
+0.0.0.0 www.revivemore.com
 0.0.0.0 vh1com.112.2o7.net
 0.0.0.0 ias2.hitbox.com
 0.0.0.0 coreglead.co.uk
@@ -9936,6 +9937,7 @@
 0.0.0.0 www.pitakchon.com
 0.0.0.0 mail.cyberh.fr
 0.0.0.0 t-support.net
+0.0.0.0 www.oakridgeflows.uk
 0.0.0.0 reload-url.net
 0.0.0.0 publishing.kalooga.com
 0.0.0.0 ads.as4x.tmcs.net
@@ -11743,6 +11745,7 @@
 0.0.0.0 afftracking.justanswer.com
 0.0.0.0 nc.ru.redtram.com
 0.0.0.0 erectile.byethost33.com
+0.0.0.0 www.raremosssr.name
 0.0.0.0 d.adroll.com
 0.0.0.0 an.mlb.com
 0.0.0.0 site.adform.com
@@ -12877,6 +12880,7 @@
 0.0.0.0 yoursmartrewards.com
 0.0.0.0 s290.mxcdn.net
 0.0.0.0 thainationalparks.fr
+0.0.0.0 www.airypathsq.name
 0.0.0.0 ttoc8ok.com
 0.0.0.0 hg12.hitbox.com
 0.0.0.0 ploaz54.com
@@ -13930,6 +13934,7 @@
 0.0.0.0 vip.adpiano.com
 0.0.0.0 secure-fidosolutions.com
 0.0.0.0 gahu.hit.gemius.pl
+0.0.0.0 www.calmdockpb.name
 0.0.0.0 xenical.1.p2l.info
 0.0.0.0 www.portutopcas.com
 0.0.0.0 ad-u.com
@@ -14838,6 +14843,7 @@
 0.0.0.0 mybbc-analytics.files.bbci.co.uk
 0.0.0.0 www.lpmxp2017.com
 0.0.0.0 ads.multimania.lycos.fr
+0.0.0.0 www.reachtaxi.com
 0.0.0.0 stats.shopify.com
 0.0.0.0 windows-en-us-update.com
 0.0.0.0 cdn.onthe.io
@@ -15038,6 +15044,7 @@
 0.0.0.0 fin.adbureau.net
 0.0.0.0 flonase.3.p2l.info
 0.0.0.0 ps4ux.com
+0.0.0.0 www.yellowquartzkr.name
 0.0.0.0 valiumvalium.3xforum.ro
 0.0.0.0 www.ads234.com
 0.0.0.0 server-au.imrworldwide.com
