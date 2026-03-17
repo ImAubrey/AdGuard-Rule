@@ -1,4 +1,4 @@
-# Update time: 2026-03-16 21:11:19
+# Update time: 2026-03-17 10:05:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2886,6 +2886,7 @@ howtoremove.guide###alt_content_main_div > p:has-text(SpyHunter)
 app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([class])
 ||11093.jp^$doc
 ||telegra.ph/British-Telecommunication-08-22^$all
+||hmdv2.gogomailbali.eu.org^$doc
 ||exodus-wallets.io^$doc
 ||fortune-crystal.com^$doc
 ||messagerie*.wixsite.com^$doc
@@ -4583,6 +4584,7 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||g6-gonight.org^$doc
 ||bigosext69.com^$all
 ||wewe.web-chatgptt.com^$doc
+||hybridglobalnet.com^$doc
 ||kmspico.*^$doc,to=kmspico.*
 ||immobilibelliniepecunia.$doc,to=immobilibelliniepecunia.*
 ||pancake.run^$all
@@ -5624,6 +5626,7 @@ windowsreport.com##.code-block
 ||m2sg.jp^$doc
 ||fb-business.com^$all
 ||base-dawgz.web.app^$doc
+||storage.googleapis.com/hmdbox/$doc
 ||sfc.bz^$doc
 ||tenseikaiun.com^$doc
 ||c066b573.smrta.pages.dev^$all
