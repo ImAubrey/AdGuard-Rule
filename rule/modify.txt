@@ -1,4 +1,4 @@
-# Update time: 2026-03-18 10:08:55
+# Update time: 2026-03-18 21:11:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2385,6 +2385,7 @@ onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||github.io/*/js/flscn.js
 ||royalclass.info^$doc
 ||everydaykennsyou.com^$doc
+||anysoft.click^$all
 ||uspost.*.cfd^$all
 ||ee-pending-payment.firebaseapp.com^$all
 ||paynote.my^$doc
@@ -4252,6 +4253,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 ||b-cdn.net/verf-v*.html^$doc
 ||trfrc.com^$all
 ||x_x-more--followers-com.translate.goog^$all
+||zeof-defender.pro^$all
 ||discordgift.$all,domain=~discordgift.site
 crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in,haxpc.net,pcfullcrack.org,karancrack.com##.getox
 ||secure.mygov.$doc
@@ -4525,6 +4527,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 /click.php?key=*&dj_placement=$doc
 &dci=*&tds_campaign=$doc
 ##html > body.hold-transition.theme-primary.bg-img[style^="background-image"][style*="wallpaperaccess.com"][style*="background-repeat"][style*="background-size"]
+||tranyasy.com.cn^$all
 ||michiakagi.com^$doc
 ||fukusenkan.com^$doc
 ||simpleswap.to^$all
@@ -5265,6 +5268,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||ckre.net^$all
 ||pecuniatrck.com^$all
 ||syncwallet.pages.dev^$all
+||hydrax.live^$all
 ||edeetion.com^$all
 ||app-lido-finance-v2.com^$all
 ||altitudesim.ca/*/CHFINAL/$doc
@@ -5335,6 +5339,7 @@ windowsreport.com##.code-block
 &t=main9ljs|$doc,to=live
 ||simpleswap.ac^$all
 ||wjptf.top^$doc
+||laptopprivacyado.com^$all
 ||pages.dev/ai2.mp3$doc
 ||nakayama.chikarakosopower.com^$doc
 ||amazonaws.com/www.yournewlocalflingfinder7.com/$all
@@ -5752,6 +5757,7 @@ windowsreport.com##.code-block
 /rtbfeed.php?$image,3p
 /volt/*?nox=$doc,to=ai|com
 ||love2-mail.com^$doc
+||aps-wps.com.cn^$all
 ||tumalabo.net^$doc
 ||jumblefizz.top^$all
 ||mybluehost.me/*/amendes.org/$doc
