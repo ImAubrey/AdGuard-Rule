@@ -1,4 +1,4 @@
-# Update time: 2026-03-17 21:11:44
+# Update time: 2026-03-18 10:08:55
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5347,6 +5347,7 @@ windowsreport.com##.code-block
 ||freefilesync.com^$doc
 ||dones9.wixsite.com^$all
 ||mymercy.click^$doc
+||vtg.lol^$all
 /click.php?key=*&type=push&$doc
 ||dogado.net/stadlholz/$doc
 ||ty5r6a0atu5r.com^$doc
