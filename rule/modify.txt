@@ -1,4 +1,4 @@
-# Update time: 2026-03-19 10:09:49
+# Update time: 2026-03-19 21:03:55
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -16767,6 +16767,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 /plugins/wp-vgwort/*
 /emtj_tracker.js
 ||mxmfb.com/rsps/img/
+||wikipedia.org/ins-502b/v2/events
 ||sumsub.com/resources/fevents
 ||oghub.io^$third-party
 @@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
