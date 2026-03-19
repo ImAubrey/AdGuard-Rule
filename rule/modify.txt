@@ -1,4 +1,4 @@
-# Update time: 2026-03-18 21:11:11
+# Update time: 2026-03-19 10:09:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9175,7 +9175,6 @@ _beacon?
 /api/v1/firehose/batch
 ||link.tv-asahi.co.jp/tver/cookiesync?
 ||mixpanel.com/track?
-@@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
 .js?id=GTM-
 /splunk-logging-v2.js
 ||clickmap.ch^$third-party
@@ -16387,6 +16386,7 @@ _track_pixel.gif?
 ?action=tracking_script
 /codesters-analytics.
 /PixelPageView?
+@@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com|westjet.com
 ||freshplum.com^$third-party
 ||quantserve.com^$script,third-party
 /pixy.gif?

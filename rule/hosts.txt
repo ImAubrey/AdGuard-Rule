@@ -1,4 +1,4 @@
-# Update time: 2026-03-18 21:11:11
+# Update time: 2026-03-19 10:09:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7252,6 +7252,7 @@
 0.0.0.0 cinforama.fr
 0.0.0.0 ads7.console.adtarget.com.tr
 0.0.0.0 www.users.freenetname.co.uk
+0.0.0.0 www.makeupglobal.com
 0.0.0.0 www.atlantis-asia.com
 0.0.0.0 h1.msn.com
 0.0.0.0 as.webmd.com
@@ -13615,6 +13616,7 @@
 0.0.0.0 metrics.thedailybeast.com
 0.0.0.0 cdn.braun634.com
 0.0.0.0 seznam.hit.gemius.pl
+0.0.0.0 www.commuteinfo.com
 0.0.0.0 ads.yimg.com.edgesuite.net
 0.0.0.0 villagarden.pl
 0.0.0.0 ad15digital.checkm8.com
@@ -14298,6 +14300,7 @@
 0.0.0.0 sunmaker.com
 0.0.0.0 reklamy.sfd.pl
 0.0.0.0 adx.hendersonvillenews.com
+0.0.0.0 www.fluidfiber.com
 0.0.0.0 ad.pravda.ru
 0.0.0.0 ad.adition.net
 0.0.0.0 prfctlivs.click
@@ -17127,6 +17130,7 @@
 0.0.0.0 parronnotandone.info
 0.0.0.0 www.shinilchurch.net	# domain was hacked and had a trojan installed
 0.0.0.0 bam.nr-data.net
+0.0.0.0 www.paidtheme.com
 0.0.0.0 cbaol.112.2o7.net
 0.0.0.0 tidebuy.com
 0.0.0.0 visualsonics.fr
