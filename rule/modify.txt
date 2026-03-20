@@ -1,4 +1,4 @@
-# Update time: 2026-03-19 21:03:55
+# Update time: 2026-03-20 10:03:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2622,6 +2622,7 @@ howtoremove.guide###solution_v2_de
 ||bizerba-dot-azure-projectfiles.uk.r.appspot.com^$all
 ||jobb2nd.com^$doc
 /^https:\/\/[a-z]{7,}\.[a-z]{3,}\/img\/$/$script,3p,match-case,to=~edu|~gov
+ublockorigin.app###main::before:style(content: 'This is not the official uBlock Origin site.' !important; font-size: 32px !important; color: red !important; font-weight: bold !important;)
 /\.(?:click|pages\.dev|surge\.sh)\/help\/contact\/\d{14,19}\b/$doc,match-case,to=click|pages.dev|surge.sh|~facebook.com
 ||mn-meiun.com^$doc
 ||fair.alivio-platform.com^$doc
@@ -3828,6 +3829,7 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||aeru365.jp^$doc
 /^https:\/\/[a-z]{6,19}\.(?:com|net)\/js\?t=[_a-z0-9]+&ns=[a-z]{2}$/$script,3p,strict3p,match-case,to=com|net
 ||storage.googleapis.com/*/script7.js
+/^https?:\/\/[a-z]+\d\.gogomailbali(\.it)?\.eu\.org\/#\?act=/$doc,match-case,to=eu.org
 ||keep.secret-ace.com^$doc
 ||musicboxcr.com^$all
 ||cmprotraf.club^$all
@@ -5423,6 +5425,7 @@ windowsreport.com##.code-block
 ||secure---sso---robinhood---com-cdn.webflow.io^$doc
 ||ttt777.com^$doc
 ||lancerjp.com^$doc
+/^https:\/\/storage\.googleapis\.com\/[a-z]{5,}\/[a-z]+_v\d\.html\#\?act=/$doc,match-case,to=storage.googleapis.com
 ||sonvupload.xyz^$all
 ||pastebin.store/js.js
 ||yupoofrance.ru^$doc
@@ -14360,6 +14363,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||analyticson.com^$third-party
 ://links.flickr.com/s/eo/$image
 /link.oneplus.com/mo$image
+/t.notificationmail.microsoft.com/r/?id=$image
 .telekom-dienste.de/common/1x1_transparent.png
 ||srcip.com^$third-party
 ||countino.de^$third-party
