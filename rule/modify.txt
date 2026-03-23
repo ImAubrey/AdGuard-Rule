@@ -1,4 +1,4 @@
-# Update time: 2026-03-22 20:51:04
+# Update time: 2026-03-23 10:11:12
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5061,6 +5061,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||lererikal.org^$all
 ||cuocthiianhdepthieunhii2025.weebly.com^$all
 ||newgitgerto.xyz^$all
+||dyiket.com^$doc
 ||alex-kor.com^$doc
 /?l=*&ymid=$doc
 /^https:\/\/(?:[^.]+\.)?\d{6}-coinbase\.com\//$doc,to=com|~coinbase.com
@@ -7824,6 +7825,7 @@ reuters.com##+js(aost, admiral, .js?)
 /open?token=$image
 ||arc.io^$third-party
 ||sellsy.com^$third-party,domain=~sellsy.fr
+||grok.com/_data/v1/a/
 ||pdffiller.com/mpages/track/
 ||cohesionapps.com^$third-party
 ||instore.biz^$third-party
@@ -12628,6 +12630,7 @@ coomer.st,kemono.cr,official.coomer.com.co##+js(set-local-storage-item, plausibl
 /visit/record.gif?
 ||poweredbyeden.com/widget/tracker/
 /imp_img.php?
+||grok.com/api/log_metric
 ||tailtarget.com^$third-party
 ||pdffiller.com/api_v3/experiment/
 ||kupona.de^$third-party
@@ -16103,6 +16106,7 @@ _track_pixel.gif?
 /liferay-analytics-processor.js
 ||codecademy.com/analytics/
 /amp/log.json
+||grok.com/_data/v1/events
 ||mhtr.be/public/tr/tracker.min.js
 ||counteronline.de^$third-party
 ||clevertap-prod.com^$third-party
@@ -17909,6 +17913,7 @@ _event_tracking?
 @@||googleoptimize.com/optimize.js$domain=binglee.com.au|grasshopper.com|in.bookmyshow.com|inquirer.com|investing.com|lacomer.com.mx|lodgecastiron.com|tentree.ca|virginmedia.com
 ||foodpanda.com.bd/lJuB4eTB/init.js
 ||freesitemapgenerator.com^$third-party
+||grok.com/_data/v1/experiment/exposure
 ||api-v4.trbo.com*plvid=$third-party,xmlhttprequest
 ||ebis.ne.jp^$third-party
 .sp1-brevo.net/mk/op/$image
@@ -18821,12 +18826,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /\.stenaline\./
@@ -18972,6 +18971,12 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
