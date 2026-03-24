@@ -1,4 +1,4 @@
-# Update time: 2026-03-23 21:06:49
+# Update time: 2026-03-24 10:03:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -906,6 +906,7 @@ l-a-w.ru,mhelp.kz##.swal2-container
 ||gleamingcow.com^$third-party
 ##.ad_block_detected
 ||neighborlywatch.com^$third-party
+/^https?:\/\/pikabu\.ru\/ajax\/([A-Za-z0-9]{7,})+\?[A-Za-z0-9]+=[0-9a-z-]+[0-9a-z]$/$xmlhttprequest,domain=pikabu.ru
 ||binspiredtees.com^$third-party
 ||cuddlylunchroom.com^$third-party
 ||caringcast.com^$third-party
@@ -1136,7 +1137,6 @@ scantrad.net##.adbon
 ||trappush.com^$third-party
 ##.adblocker-message
 ||blushingbread.com^$third-party
-/^https?:\/\/pikabu\.ru\/ajax\/[A-Za-z0-9]+\?[A-Za-z0-9]+=[0-9a-z-]+[0-9a-z]$/$xmlhttprequest,domain=pikabu.ru
 ||relationrest.com^$third-party
 ||defensevest.com^$third-party
 ||exclusivebrass.com^$third-party
@@ -9687,6 +9687,8 @@ _beacon?
 ||amazonaws.com/ai-img/aia.js
 /email.t.*/o/*$image
 ||clickdensity.com^$third-party
+||player.mangomolo.com/stats/
+/api/sentry/tunnel$xmlhttprequest
 /spacer.gif?
 ||fraud.blockifyapp.com/s/api/block/update-time
 ||gus.host^$third-party
@@ -11220,6 +11222,7 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||recosenselabs.com^$third-party
 ||medibot.delling.care/api/counts/
 ||monsido.com^$third-party
+/get/live/web/_/*$script,~third-party
 ||lr-ingest.com^$third-party
 ||freihit.de^$third-party
 ||watchadsontape.com/stat/
@@ -15657,6 +15660,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||gannettdigital.com/capture_logger/
 ||dcf.espn.com/privacy/
 /javascripts/browserfp.min.js?templateId=
+||meiro.io^$third-party
 ||discover.hubpages.com/.bootscripts/analytics.min.js
 /analytics-ping.js
 ||counthis.com^$third-party
