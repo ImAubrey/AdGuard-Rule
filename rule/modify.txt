@@ -1,4 +1,4 @@
-# Update time: 2026-03-24 21:10:54
+# Update time: 2026-03-25 10:08:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10696,6 +10696,7 @@ $ping,third-party
 @@||services.chipotle.com/__imp_apg__/$~third-party
 ||fruitflan.com^$third-party
 ||pulselog.com^$third-party
+||cookiechimp.com/api/v1/visitors
 ||infinityscans.net/api/collect
 /page-events/trackclick/*
 @@||linksynergy.com/minified_logic.js$xmlhttprequest
@@ -12901,6 +12902,7 @@ _logHuman=
 ||simonsignal.com^$third-party
 /atrk.js
 ||arclk.net/trax?
+||ea-mct-live.com/revsdk.kes.KinesisEvent/
 @@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
 ||quillion.com^$third-party
 ||tongji2.vip.duba.net/__infoc.gif?
@@ -18144,6 +18146,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /utag.loader.js
 /web-pixel-*/worker.modern.js
 ||compendiumblog.com/sp.js
+||sharechat.com/event-tracking-service/
 ||countercentral.com^$third-party
 /awstats_misc_tracker
 ||adblocktape.store/stat/
