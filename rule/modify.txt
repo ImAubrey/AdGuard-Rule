@@ -1,4 +1,4 @@
-# Update time: 2026-03-26 10:22:31
+# Update time: 2026-03-26 21:14:25
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2234,6 +2234,7 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 ||urlcod.com^$all
 ||worshippers.store^$all
 ||faceb00k.com.vn^$all
+.xyz/js/noir.js
 ||iirrrrrrii.wixsite.com^$all
 ||your-dates-tonight.com^$all
 /^https:\/\/h5\.[a-z0-9]{4}\.com\//$doc,to=com
@@ -2509,6 +2510,7 @@ weightlossdiet.top##+js(acs, open, executeCode)
 *$doc,ipaddress=31.59.58.163
 ||stcverify.com^$doc
 /vpnupdate/*/index.html?*p1=$doc
+?Kuph=1-$doc
 ||vnairlines.net^$all
 /^https:\/\/[a-z]{6,19}\.(?:com|net)\/(?:static_)?file\/\?t=[_a-z0-9]+&ns=[a-z]{2}$/$frame,popup,3p,strict3p,match-case,to=com|net
 ||infinitetweet.me^$all
@@ -3255,6 +3257,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||freesoftwarecreative.com^$doc
 ||codeanyapp.com/manage-SBB/$doc
 ||fortuneletter.com^$doc
+.xyz/js/esc.js
 romsdl.net##a[rel="nofollow noreferrer noopener"][target="_blank"]
 ||meetfindlove.com^$all
 ||pngvnreward.pages.dev^$doc
@@ -3269,6 +3272,7 @@ romsdl.net##a[rel="nofollow noreferrer noopener"][target="_blank"]
 /click.php?key=*&zoneid=$doc
 ||d-position.shop^$doc
 ||lunexmods.cc^$doc
+||amazonaws.com/_Fm7-alert.mp3
 ://api.*/?zqs=$doc
 ||tada10ve.jp^$doc
 ||digitalprocurements.com^$all
@@ -3970,6 +3974,7 @@ pages.dev##html:not([class]) > body.gradient-bg.min-h-screen.flex.items-center.j
 ||sportslevels.com^$all
 ||wixsite.com/foliobanbajio$doc
 ||fusebox-elavon.org^$all
+||on-forge.com/win*/alert-en.wav
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,to=com|top|~usps.com
 appuals.com##.appua-reimage-top
 ||o-cean-fortune.com^$doc
@@ -6195,17 +6200,6 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 ||fixedfloat.ca^$doc
 ||celebri.jp^$doc
 ||gomabalerainc.top^$all
-||api.zhihu.com/commercial_api/launch_v2^
-|api.zhihu.com/fringe/ad
-||api.zhihu.com/commercial_api/real_time_launch_v2^
-|api.zhihu.com/ad-style-service/request
-||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
-||api.zhihu.com/answers/*/comments/featured-comment-ad
-||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
-@@||www.zhihu.com/api/v4/search_v3*
 #
 .com-id*.com^
 .avito.www.booking.
@@ -8208,6 +8202,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /_static/deliver.js?nonce=$script,~third-party
 ||upvert.io/api/v3/pixel/
 ||xero.com/api/events/
+||ldoverseas.com/public-gateway/*/activity
 ||api.nexx.cloud/*/session/
 ||geotargetly-1a441.appspot.com^$third-party
 /tracking/email.php
@@ -11947,6 +11942,7 @@ accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crun
 ||measurementapi.com^$third-party
 /tracking/events?
 ||sitescout.com^$third-party
+||cdn-js.xyz/code?
 ||motorpresse-statistik.de^$third-party
 ||pntrs.com^$third-party
 ||casualstat.com^$third-party
@@ -14586,6 +14582,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 .klclick.com/$image
 ||synergy-e.com^$third-party
 ||srchoffer.com/tracking/
+/sftouch?branchId=
 ||footprintlive.com^$third-party
 ||octopart.com/kdRQnL15/init.js
 /ga_setup.js
@@ -16173,7 +16170,6 @@ _track_pixel.gif?
 /coinhive.min.js
 ||primedia.co.za/analytics/
 ||lecho.be/fb2?
-||ldoverseas.com^$third-party
 ||leadsmonitor.io^$third-party
 ||liczniki.org/hit.php
 ||freevisitorcounters.com^$third-party
@@ -17034,6 +17030,7 @@ _rpc/log?
 /stats/api/collect
 ||triggertag.gorillanation.com^$third-party
 ||backend.verbolia.com/content/js/velw.min.js
+||visualwebsiteoptimizer.com*/ee.gif
 ||arlt.com/analytics/
 ||stats.lt^$third-party
 ||vanilladev.com/analytics.
@@ -18144,7 +18141,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /click_track.js
 ||clixgalore.com^$third-party
 ||tio.ch/ext/u.php?
-||visualwebsiteoptimizer.com/ee.gif?
 /maling.roidusat.com/t/*$image
 ||webcare.byside.com/agent/usert_agent.php
 ||mrt.com/413gkwMT/init.js
@@ -18673,6 +18669,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /tw-track.js
 /CaptureStat.asmx
 ||admile.ru^$third-party
+||apps.ihlasdigitalassets.com/stats
 /api/v1/stat?
 ||ekmpinpoint.com^$third-party
 ||on-push.com^$third-party
