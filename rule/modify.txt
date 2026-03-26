@@ -1,4 +1,4 @@
-# Update time: 2026-03-25 21:09:27
+# Update time: 2026-03-26 10:22:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3326,6 +3326,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||tokimekimaildesu.net^$doc
 ||sites.google.com/view/newtaskbar-themes^$all
 ||toythieves.com^$all
+/^https:\/\/xblock[0-9]+\.pages\.dev\//$doc,to=pages.dev
 ||office.org^$doc
 ||windows.net/js/jsd2.js
 ||cumshots.com^$all
@@ -4460,6 +4461,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 ||lovee-idol.tokyo^$doc
 ||crackdo.online^$doc
 ||million-vita128.com^$doc
+||xblockchecker*.pages.dev^$all
 ||y-comblnator.com^$all
 ||greenadblocker.com^$doc
 ||v-yummy.com^$doc
@@ -14920,6 +14922,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||tgtag.io^$third-party
 ||promotionengine.com^$third-party
 ||callreports.com^$third-party
+||app.elitedomains.de/js/service/statistics.service.js
 ||wp-engage.org/api/v5/post/activity/log/
 ||sugodeku.com^$third-party
 ||api.pcid.ca/v1/client/logs
