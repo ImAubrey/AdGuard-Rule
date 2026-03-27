@@ -1,4 +1,4 @@
-# Update time: 2026-03-26 21:14:25
+# Update time: 2026-03-27 10:23:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3221,6 +3221,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||dsu-adguard.pro^$all
 ||senuti.org^$doc
 ||checkpointviewzen.com^$all
+||plus.rustfacepunch.com^$all
 ||msnoauth*.com/office-$all
 ||blastairdropclaims.pages.dev^$doc
 ||kmspico-mafia.com^$doc
@@ -4557,6 +4558,7 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 /a0ler0tm0s.mp3$domain=dev|online|shop
 /post/FileRotator_ID*/download.php?subid=$xhr
 ||voice-ourtime.*.workers.dev^$doc
+/^https:\/\/([a-vx-z][a-z]{2,}\.)?[0-9a-z-]{3,}\.(com|net|org)\/index\.php\?main_page=product_info(&stl=\d)?&(cPath|products_id)=/$doc
 ||datelove.top^$doc
 ||scotanomect.cc^$all
 ||scotlacomp.cc^$all
@@ -6200,6 +6202,17 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 ||fixedfloat.ca^$doc
 ||celebri.jp^$doc
 ||gomabalerainc.top^$all
+||api.zhihu.com/commercial_api/launch_v2^
+|api.zhihu.com/fringe/ad
+||api.zhihu.com/commercial_api/real_time_launch_v2^
+|api.zhihu.com/ad-style-service/request
+||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
+||api.zhihu.com/answers/*/comments/featured-comment-ad
+||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
+@@||www.zhihu.com/api/v4/search_v3*
 #
 .com-id*.com^
 .avito.www.booking.
@@ -6660,6 +6673,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||e2ma.net/track/
 ?action=event&
 ||blogcounter.com^$third-party
+/rdtracker/rdtracker.min.js
 ||piccy.org.ua/c?
 ||imrtrack.com^$third-party
 ||emetriq.de^$third-party
@@ -7719,6 +7733,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||hello.myfonts.net/count/
 /tenant.min.js
 ||wanmei.com/public/js/stat.js
+||arukereso.hu/*.impression?tt=
 @@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
 ||linkedin.com/sensorCollect/
 ||endorsal.io/check/
@@ -7855,6 +7870,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||deprecated-custom-domains.b-cdn.net^$third-party
 @@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 ||app.adjust.com^$third-party
+||checkout.arukereso.hu^$ping
 ||slack.com/beacon/
 /c_track.php?
 /bi/doop/*$ping
@@ -13916,6 +13932,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 /rm-gtm-google-analytics-for-wordpress/js/gtm-player.js
 ||mp.weixin.qq.com/mp/report?
 ||tildacdn.com/pixel.png
+||mirakl.net^$third-party
 /ssl-intgr-net/*
 ||logz.ru^$third-party
 ||oe-static.de^*/wws.js
@@ -14877,6 +14894,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||metrika-informer.com^$third-party
 ||routeapp.io/route-analytics/
 /domcount.nsf/WebCounter?
+||startpage.com/sp/atq/ep2/sodar/sodar2.js
 /trcksp.
 ||lookmy.info^$third-party
 ||airtable.com/internal/
@@ -17801,6 +17819,7 @@ _event_tracking?
 ||revlifter.io^$third-party
 ||directcounter.de^$third-party
 /bpsma.js
+||givefreely.com/ingest/
 ||reddit.com/timings/
 ||static.qiyi.com/js/pingback/
 ||opentracking.ru^$third-party
