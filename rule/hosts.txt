@@ -1,4 +1,4 @@
-# Update time: 2026-03-27 21:05:33
+# Update time: 2026-03-28 10:06:57
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6903,6 +6903,7 @@
 0.0.0.0 offers.impower.com
 0.0.0.0 liberatiuon.fr
 0.0.0.0 xml.adtech.us
+0.0.0.0 www.adselector.com
 0.0.0.0 ale-gratka.pl
 0.0.0.0 w12.hitbox.com
 0.0.0.0 amateur.xxxcounter.com
@@ -7936,6 +7937,7 @@
 0.0.0.0 b.stats.paypal.com
 0.0.0.0 exchangemarket.fr
 0.0.0.0 redirect.hotkeys.com
+0.0.0.0 www.newshello.com
 0.0.0.0 counter8.sextracker.com
 0.0.0.0 www.suckdude.com
 0.0.0.0 fe1-au.imrworldwide.com
@@ -8639,6 +8641,7 @@
 0.0.0.0 track.msadcenter.wup.com
 0.0.0.0 www.fineclicks.com
 0.0.0.0 www.speedyclick.com
+0.0.0.0 www.instantcross.com
 0.0.0.0 www.redactiepartners.nl
 0.0.0.0 dclk.themarketer.com
 0.0.0.0 kasumikarate.hanagasumi.net
@@ -8813,6 +8816,7 @@
 0.0.0.0 server-no.imrworldwide.com
 0.0.0.0 advserver.xyz
 0.0.0.0 surveymonkeycom.tt.omtrdc.net
+0.0.0.0 www.activetrap.com
 0.0.0.0 youmakeashion.fr
 0.0.0.0 www.afform.co.uk
 0.0.0.0 onepager.fr
@@ -9269,6 +9273,7 @@
 0.0.0.0 www.hieroglyph.freeuk.com
 0.0.0.0 jpirate.cjt1.net
 0.0.0.0 tracking.veoxa.com
+0.0.0.0 www.basealloys.com
 0.0.0.0 www.pruialoatpmye.xyz
 0.0.0.0 ads.tripod.lycos.de
 0.0.0.0 2girls1cup-free.com
@@ -11569,6 +11574,7 @@
 0.0.0.0 e-2dj6wflikgdpodo.stats.esomniture.com
 0.0.0.0 downloadplayer.xyz
 0.0.0.0 inoreader.fr
+0.0.0.0 www.dailyazure.com
 0.0.0.0 www.videolove.clanteam.com
 0.0.0.0 radio42.fr
 0.0.0.0 oascentral.fashionmagazine.com
@@ -13131,6 +13137,7 @@
 0.0.0.0 spinbox.com
 0.0.0.0 chumtv.122.2o7.net
 0.0.0.0 wppluginspro.com
+0.0.0.0 www.steelbucks.com
 0.0.0.0 ws05.home.sapo.pt
 0.0.0.0 www.aerodriftcore.uk
 0.0.0.0 www.ftjcfx.com
