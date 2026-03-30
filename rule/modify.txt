@@ -1,4 +1,4 @@
-# Update time: 2026-03-30 10:29:05
+# Update time: 2026-03-30 21:18:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2518,6 +2518,7 @@ weightlossdiet.top##+js(acs, open, executeCode)
 /bonus/*.php?c=$doc,to=space|top
 ||supporthives.com/public/ita/$all
 ||r39-g003-h8ig0w-u8f0we8-fgw0rgf-0we880e-rhgth.obs.ap-southeast-2.myhuaweicloud.com^$all
+##body > div.captcha-container > div.captcha-card
 ||hapim.net^$doc
 ||welatera.com^$all
 ||kuhoot.it^$doc
@@ -4309,6 +4310,7 @@ crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in
 ||fortuneadvert.com^$all
 ||synd.edgecdnc.com^$all
 /^https:\/\/(?:[a-z]+\.)?hotel-(?:id)?\d{3,8}\.eu\//$doc,to=eu|~booking.com
+||canadamilksettlement.com^$all
 ||yy4rhgzd.com^$doc
 ||greenshot.fr^$doc
 ||fetishpartner.com^$all
@@ -9199,7 +9201,6 @@ _beacon?
 /track?name=
 ||salecycle.com^$third-party
 ||lypn.net^$third-party
-@@||js.datadome.co/tags.js$script,domain=monster.ca|sso.garena.com|thefork.at|thefork.be|thefork.ch|thefork.co.uk|thefork.com|thefork.de|thefork.es|thefork.fr|thefork.it|thefork.nl|thefork.pt|thefork.se|ugg.com
 /gatracking.js
 ||houzz.com/hsc/aetrk/
 ||haveamint.com^$third-party
@@ -15196,6 +15197,7 @@ _view_pixel&$image
 ||firebase.googleapis.com^$domain=terabox.fun
 ||advconversion.com^$third-party
 ||snapkit.com/v1/sdk/metrics/
+@@||js.datadome.co/tags.js$script,domain=monster.ca|serasa.com.br|sso.garena.com|thefork.at|thefork.be|thefork.ch|thefork.co.uk|thefork.com|thefork.de|thefork.es|thefork.fr|thefork.it|thefork.nl|thefork.pt|thefork.se|ugg.com
 /MailIsRead?$image
 /track.png?
 ||bstn-14-ma.com^$third-party
