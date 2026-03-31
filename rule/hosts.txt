@@ -1,4 +1,4 @@
-# Update time: 2026-03-31 10:23:54
+# Update time: 2026-03-31 21:17:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6692,6 +6692,7 @@
 0.0.0.0 vcm.oewabox.at
 0.0.0.0 rottentomatoes.fr
 0.0.0.0 detox.shengen.ru
+0.0.0.0 www.bicyclefan.com
 0.0.0.0 mideal.fr
 0.0.0.0 metrics.yellowpages.com
 0.0.0.0 xml.adtech.fr
@@ -6812,6 +6813,7 @@
 0.0.0.0 hit-counter.udub.com
 0.0.0.0 fitges.oewabox.at
 0.0.0.0 coinzilla.io
+0.0.0.0 www.workschat.com
 0.0.0.0 sportupdates.info
 0.0.0.0 appfixing.space
 0.0.0.0 pcmuzic.com
@@ -9672,6 +9674,7 @@
 0.0.0.0 x-album.net
 0.0.0.0 redshell.io
 0.0.0.0 www.bicoinsprofit.com
+0.0.0.0 www.timelyworks.com
 0.0.0.0 yas-jr.com
 0.0.0.0 cdbs.com.tr
 0.0.0.0 only2date.com
@@ -9816,6 +9819,7 @@
 0.0.0.0 imserv002.adtech.us
 0.0.0.0 m1.nedstatbasic.net
 0.0.0.0 ad.livere.co.kr
+0.0.0.0 www.breakslavery.com
 0.0.0.0 www.conversantmedia.com
 0.0.0.0 www.bus-offer.com
 0.0.0.0 mc.yandex.ru
@@ -10407,6 +10411,7 @@
 0.0.0.0 minero-proxy-03.now.sh
 0.0.0.0 q.azcentral.com
 0.0.0.0 getnexuscard.com
+0.0.0.0 www.pluseconomy.com
 0.0.0.0 www.laptoprewardszone.com
 0.0.0.0 thebitcrew.com
 0.0.0.0 www.edashealthcare.com
@@ -10625,6 +10630,7 @@
 0.0.0.0 www.work-offer.com
 0.0.0.0 search.buzzdock.com
 0.0.0.0 forbescom.112.2o7.net
+0.0.0.0 www.memorieson.com
 0.0.0.0 pubmatic-match.dotomi.com
 0.0.0.0 cyberscat.com
 0.0.0.0 pubserver.xl.pt
@@ -11376,6 +11382,7 @@
 0.0.0.0 gpaper114.112.2o7.net
 0.0.0.0 www.123counter.superstats.com
 0.0.0.0 mi.adinterax.com
+0.0.0.0 www.readyviews.com
 0.0.0.0 www.ptcasinoonline.com
 0.0.0.0 counter.cnw.cz
 0.0.0.0 redelivauthcentre.com
@@ -11696,6 +11703,7 @@
 0.0.0.0 trafficrevenue.net
 0.0.0.0 ads29.console.adtarget.com.tr
 0.0.0.0 sobolev.net.ru
+0.0.0.0 brides4you.sa.com
 0.0.0.0 www.jeuxfortuna.com
 0.0.0.0 oas.benchmark.fr
 0.0.0.0 datingadvertising.com
@@ -12352,6 +12360,7 @@
 0.0.0.0 buyfioricetonline.7h.com
 0.0.0.0 telstra.imrworldwide.com
 0.0.0.0 track.msadcenter.wfm.com
+0.0.0.0 crcdn.org
 0.0.0.0 ntralpenedhy.pro
 0.0.0.0 adw.sapo.pt
 0.0.0.0 rf-arch.com
@@ -12693,6 +12702,7 @@
 0.0.0.0 www.theexgirlfriends.com
 0.0.0.0 ads.techweb.com
 0.0.0.0 www.carolmassoterapia.com
+0.0.0.0 www.exactpharm.com
 0.0.0.0 thanku.page
 0.0.0.0 ad.gazeta.pl
 0.0.0.0 track.msadcenter.hnsl.com
@@ -13661,6 +13671,7 @@
 0.0.0.0 seznam.hit.gemius.pl
 0.0.0.0 www.commuteinfo.com
 0.0.0.0 ads.yimg.com.edgesuite.net
+0.0.0.0 www.watchesnew.com
 0.0.0.0 villagarden.pl
 0.0.0.0 ad15digital.checkm8.com
 0.0.0.0 usoasopersbe.xyz
@@ -13742,6 +13753,7 @@
 0.0.0.0 adexchangegate.com
 0.0.0.0 aca-languedoc.fr
 0.0.0.0 te.thestar.ca
+0.0.0.0 www.auditprint.com
 0.0.0.0 jlinks.industrybrains.com
 0.0.0.0 accounts.secure-ua.website
 0.0.0.0 statistik-gallup.net
@@ -15066,6 +15078,7 @@
 0.0.0.0 adsys.townnews.com
 0.0.0.0 adsspace.net
 0.0.0.0 zz.cqcounter.com
+0.0.0.0 www.bigpremiere.com
 0.0.0.0 counter1.sextracker.be
 0.0.0.0 your.dailytopdealz.com
 0.0.0.0 effectivespeech.net
@@ -16152,6 +16165,7 @@
 0.0.0.0 us.adserver.yahoo.com
 0.0.0.0 pixel.tapad.com
 0.0.0.0 cdn.augur.io
+0.0.0.0 www.duotrader.com
 0.0.0.0 promo.easy-dating.org
 0.0.0.0 e-kern.fr
 0.0.0.0 reklam.milliyet.com.tr
@@ -17768,6 +17782,7 @@
 0.0.0.0 xanax.ourtablets.com
 0.0.0.0 track.vscash.com
 0.0.0.0 ads.advance.net
+0.0.0.0 www.europelinen.com
 0.0.0.0 sitesofa.za.com
 0.0.0.0 toolbar.soso.com
 0.0.0.0 static.plugrush.com
