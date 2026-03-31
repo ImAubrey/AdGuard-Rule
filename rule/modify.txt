@@ -1,4 +1,4 @@
-# Update time: 2026-03-30 21:18:49
+# Update time: 2026-03-31 10:23:54
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2611,6 +2611,7 @@ howtoremove.guide###solution_v2_de
 *$xhr,3p,method=get,to=org|shop|win,ipaddress=178.16.53.137
 ||t1amo.jp^$doc
 ||cdn.metricastats.com^$all
+||qishmusic.com.cn^$all
 ||mirusiru.site^$doc
 ||hclsoftware.cloud/*/tdbanknotes^$all
 ||macclear.com^$doc
@@ -3317,6 +3318,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||cffsbbhost-aniamaria*.codeanyapp.com^$all
 /human-captcha-v*.html^$doc
 ||l-chat.jp^$doc
+||soougou.com.cn^$all
 ||marktplaats.ch^$doc
 ||vf5rkgirsir8ska.jpn.com^$doc
 ||a-ro-ma.com^$doc
@@ -4021,6 +4023,7 @@ appuals.com##.appua-reimage-top
 ||last-love.com^$doc
 ||pub-*.r2.dev/alt_type.html^$doc
 ||infinityweet.com^$all
+||x-sogou.com^$all
 ||tada1ove.com^$doc
 ||smartklick.biz^$all
 z13.web.core.windows.net##+js(aeld, DOMContentLoaded, fullscreenEnabled)
@@ -4080,6 +4083,7 @@ z13.web.core.windows.net##+js(aeld, DOMContentLoaded, fullscreenEnabled)
 ||anydebrid.com^$doc
 ||official.treasure-fan.com^$doc
 ||codeanyapp.com/Sus/*/sign.php^$doc
+-sogou.com.cn^$doc,to=com.cn
 ||facebooc.jp^$doc
 ||grand-minor.com^$doc
 /^https?:\/\/icloud\.apple\.[a-z]{6,}\.[a-z]+/$doc,to=co|cn
@@ -4238,6 +4242,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 ||info-top-letter.com^$doc
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##a:has-text(SpyHunter)
 ||jg5y2nkdg.com^$doc
+||pc-sogou.com.cn^$all
 ||b-cdn.net/verf-v*.html^$doc
 ||trfrc.com^$all
 ||x_x-more--followers-com.translate.goog^$all
@@ -4591,6 +4596,7 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||jukcha.com^$doc
 ||deepseekapp.download^$all
 ||ff-excharge.cyou^$doc
+||apps-sougoupinyin.com^$all
 ||antai-gouv-fr.troliga.sk^$all
 ||mybluehost.me/*/choronopost/$doc
 ||zhongwen-telegram.com^$all
@@ -4695,6 +4701,7 @@ pages.dev##html[lang="ja"] > body.flex.items-center.min-h-screen > div.w-full.ma
 ||pair-seat.net^$doc
 ||simpleswap.at^$all
 ||support-metahelpcenter-$doc,to=~facebook.com
+||ai-sogou.com.cn^$all
 ||tenkeiza.com^$doc
 ||catchmetalk.com^$doc
 ||mybluehost.me/SBB.CH/$doc
@@ -4769,6 +4776,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||kikon-match.co.jp^$doc
 /^https?:\/\/www\.[a-z]{8,11}\.com\/product\/(?:[0-9a-z]+-)*(?:%[%0-9a-z]{8,}-)+(?:[0-9a-z]+-)*(?:[%0-9a-z]{8,}-)*[%0-9a-z]+\/?$/$doc,match-case,ipaddress=/^173\.2(08|32)\.\d{3}\.\d{3}$/
 ||mediafire.com/folder/hh6g372sijmjr/$doc
+||sogoushurf.com^$all
 ||tadakyun.net^$doc
 ||mybestclick.net^$3p
 ||easybank.abojo.dev^$all
@@ -4969,6 +4977,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||host9.link^$all
 ||71l0b.com^$doc
 /^https:\/\/online\.[a-z]{7,}\.top\//$doc,to=top
+-sogou.com^$doc,to=com
 ||netcoislogin-zone.webflow.io^$all
 ||debridleech.com^$doc
 ||gruposabar.com^$all
@@ -5237,6 +5246,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||fi/a/Amendes/*.php^$doc,to=fi|~amendes.gouv.fr
 ||traffic-go.com^$all
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&$doc
+||bp-sogou.com.cn^$all
 ||machi-match.info^$doc
 ||mem44.com^$doc
 ||8yy-ca-w-i9-z.com^$doc
@@ -5814,6 +5824,7 @@ windowsreport.com##.code-block
 ||sokuh.net^$doc
 ||bndl-trp.com^$all
 ||stargate-spiritual.com^$doc
+||win-sogou.com^$all
 ||tubakinohimitsu.amebaownd.com^$doc
 ||bibian4k.com^$doc
 ||edfringe.com/*.php$all
@@ -13340,6 +13351,7 @@ accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crun
 ||mywebstats.com.au^$third-party
 /ck.m.honto.jp/c/*$image
 ||roi-rocket.net^$third-party
+/script.outbound-links.pageview-props.revenue.js
 ||volkswagen-italia.it^*/tracking/
 ||wogaa.sg/scripts/wogaa.js
 ||slack.com/clog/track/
@@ -14611,7 +14623,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||footprintlive.com^$third-party
 ||octopart.com/kdRQnL15/init.js
 /ga_setup.js
-@@||browser.sentry-cdn.com^$domain=acustica-audio.com|alphaxiv.org|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|members.bifa.film|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 ||target.com/rum_analytics/
 /logExecutionStats?
 /webmnr.min.js
@@ -16133,6 +16144,7 @@ _track_pixel.gif?
 /nb-collector|
 ||logxp.ru^$third-party
 ||googletagmanager.com/gtm.js?$domain=autobild.de
+@@||browser.sentry-cdn.com^$domain=acustica-audio.com|alphaxiv.org|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|members.bifa.film|menshealth.com|ocado.com|pocketguard.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 ||mail.ru/count/
 /amp_pingback/*
 /?livehit=
