@@ -1,4 +1,4 @@
-# Update time: 2026-04-01 10:34:13
+# Update time: 2026-04-01 21:20:58
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7064,6 +7064,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||priceline.com/svcs/mkt/tag/
 /x.gif?
 /tjp_beacon.js
+||nid.barrons.com/prod/sp/nid_sp.js
 ||go.fap18.net/ftt2/js.php
 ||predicta.net^$third-party
 ||shemsfm.net/fr/setStats/
@@ -12792,6 +12793,7 @@ abc17news.com,al.com,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwi
 /track/pixel/*
 ||envato.market/i/
 ||joggo.run/api/events
+@@||clarity.ms/tag/$script,domain=craiovaforum.ro
 @@||nobook.com/open-interface/official-sensors.git/$script,~third-party
 ||webtrends-optimize.com^$third-party
 ||argtesa.com/cdn-cgi/trace
@@ -18884,12 +18886,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /\.stenaline\./
@@ -19035,6 +19031,12 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
