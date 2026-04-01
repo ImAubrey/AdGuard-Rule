@@ -1,4 +1,4 @@
-# Update time: 2026-03-31 21:17:32
+# Update time: 2026-04-01 10:34:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6762,6 +6762,7 @@
 0.0.0.0 unetbootin.org
 0.0.0.0 ads135.console.adtarget.com.tr
 0.0.0.0 adsview2.qq.com
+0.0.0.0 www.oilbasics.com
 0.0.0.0 soniksports.fr
 0.0.0.0 c15.statcounter.com
 0.0.0.0 www.banstex.com
@@ -6936,6 +6937,7 @@
 0.0.0.0 ads.nexage.com
 0.0.0.0 ads.catholic.org
 0.0.0.0 loadm.exelator.com
+0.0.0.0 www.cookoven.com
 0.0.0.0 c.ie.msn.com
 0.0.0.0 c.es.msn.com
 0.0.0.0 ns38541.ovh.net
@@ -6957,6 +6959,7 @@
 0.0.0.0 w.ic.tynt.com
 0.0.0.0 ngads.smartage.com
 0.0.0.0 agroeconom.kz
+0.0.0.0 www.themesets.com
 0.0.0.0 media4021.videostrip.com
 0.0.0.0 nsoqa.com
 0.0.0.0 wms-na.amazon-adsystem.com
@@ -7233,6 +7236,7 @@
 0.0.0.0 meridiameridia.3xforum.ro
 0.0.0.0 ptagercity.fr
 0.0.0.0 www.lduhtrp.net
+0.0.0.0 www.dealsrate.com
 0.0.0.0 www.jerseyoffers.com
 0.0.0.0 netadclick.com
 0.0.0.0 e-2dj6wjkouhd5eao.stats.esomniture.com
@@ -10108,6 +10112,7 @@
 0.0.0.0 yumenetworks.com
 0.0.0.0 knowseminar.com
 0.0.0.0 cdn.fastclick.net	# sites. 
+0.0.0.0 www.forexhelps.com
 0.0.0.0 n4p.ru.redtram.com
 0.0.0.0 edchargina.pro
 0.0.0.0 ads12.focalink.com
@@ -10524,6 +10529,7 @@
 0.0.0.0 adserver.dnps.com
 0.0.0.0 sportreisen.de
 0.0.0.0 volksvagen.fr
+0.0.0.0 www.nextfeatures.com
 0.0.0.0 livsffer.sa.com
 0.0.0.0 acvs.mediaonenetwork.net
 0.0.0.0 httpaccess.com
@@ -11111,6 +11117,7 @@
 0.0.0.0 images.cybereps.com
 0.0.0.0 www.wu4652.com.tw
 0.0.0.0 oascentral.thenation.com
+0.0.0.0 apps-500star.com
 0.0.0.0 meetupcom.112.2o7.net
 0.0.0.0 9cd76b4462bb.com
 0.0.0.0 ads.ntadvice.com
@@ -11593,6 +11600,7 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
+0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -11966,6 +11974,7 @@
 0.0.0.0 www1-van-city-signon.com
 0.0.0.0 comfortykive.xyz
 0.0.0.0 ad26.checkm8.com
+0.0.0.0 new-ramboplay.com
 0.0.0.0 adtag.msn.ca
 0.0.0.0 ehg-hitent.hitbox.com
 0.0.0.0 www.friend-cards.net
@@ -12007,6 +12016,7 @@
 0.0.0.0 discoverdemo.com
 0.0.0.0 moddb.fr
 0.0.0.0 www.kahramananas.com
+0.0.0.0 www.hoursales.com
 0.0.0.0 securityscan.us
 0.0.0.0 mk.limonshel.de
 0.0.0.0 rassegnavermentino.it
@@ -12862,6 +12872,7 @@
 0.0.0.0 www.match3quests.com
 0.0.0.0 adserver.cams.com
 0.0.0.0 audacity.es
+0.0.0.0 aymxv.com
 0.0.0.0 www.romepartners.com
 0.0.0.0 webwise.net
 0.0.0.0 ph-ad01.focalink.com
@@ -14847,6 +14858,7 @@
 0.0.0.0 www.peachysailwv.pro
 0.0.0.0 adsrevenue.net
 0.0.0.0 www.805m.com
+0.0.0.0 www.technygrow.com
 0.0.0.0 tates.freestats.com
 0.0.0.0 adsrv.me
 0.0.0.0 ltk.pw
@@ -16811,6 +16823,7 @@
 0.0.0.0 insight.adsrvr.org
 0.0.0.0 firebaselogging.googleapis.com
 0.0.0.0 guiaconsumidor.com
+0.0.0.0 www.textdynamics.com
 0.0.0.0 leket.fr
 0.0.0.0 sol.adbureau.net
 0.0.0.0 premium-offers.space
@@ -18214,6 +18227,7 @@
 0.0.0.0 macworld.uk.intellitxt.com
 0.0.0.0 c.sg.msn.com
 0.0.0.0 mr-ginseng.fr
+0.0.0.0 www.softpebble.com
 0.0.0.0 harvest285.adgardener.com
 0.0.0.0 sysip.net
 0.0.0.0 mtrcs.popcap.com
@@ -24681,7 +24695,6 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
-0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
