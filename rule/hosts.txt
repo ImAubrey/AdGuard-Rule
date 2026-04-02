@@ -1,4 +1,4 @@
-# Update time: 2026-04-01 21:20:58
+# Update time: 2026-04-02 10:12:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8494,6 +8494,7 @@
 0.0.0.0 guerria-skateboard-tommy.tabrays.com
 0.0.0.0 adserver.adremedy.com
 0.0.0.0 cfg.adsmogo.com
+0.0.0.0 jzyygl.com
 0.0.0.0 blogreseller.net
 0.0.0.0 www.adloader.com
 0.0.0.0 ih.adscale.de
@@ -9235,6 +9236,7 @@
 0.0.0.0 zapadserver1.com
 0.0.0.0 ad2games.com
 0.0.0.0 www.clearacreonline.com
+0.0.0.0 www.nabtapharma.com
 0.0.0.0 media.b.lead.program3.com
 0.0.0.0 sortis.lt
 0.0.0.0 netflix.apple-green.net
@@ -9853,6 +9855,7 @@
 0.0.0.0 feeds.weselltraffic.com
 0.0.0.0 w167.hitbox.com
 0.0.0.0 buyfioricet.findmenow.info
+0.0.0.0 resumekeeper.com
 0.0.0.0 te.journalnow.com
 0.0.0.0 www.spinbox.com
 0.0.0.0 push-ad.com
@@ -10369,6 +10372,7 @@
 0.0.0.0 track.ziprecruiter.com
 0.0.0.0 s.dynad.net
 0.0.0.0 myyearbookdigital.checkm8.com
+0.0.0.0 www.onlinehint.com
 0.0.0.0 e.baidu.com
 0.0.0.0 fotoseiten.heimat.eu
 0.0.0.0 banner.coza.com
@@ -10896,6 +10900,7 @@
 0.0.0.0 seapower-italia.it
 0.0.0.0 sjc-usadmm-ds.dotomi.com
 0.0.0.0 xml.realtime-bid.com
+0.0.0.0 www.techyscope.com
 0.0.0.0 shockgore.com
 0.0.0.0 clk.atdmt.com
 0.0.0.0 cablyshaw.com
@@ -11214,6 +11219,7 @@
 0.0.0.0 bannerconnect.net
 0.0.0.0 bougyuestelecom.fr
 0.0.0.0 www.food-offer.com
+0.0.0.0 www.scrapzoneauto.com
 0.0.0.0 stat3.cybermonitor.com
 0.0.0.0 jlcarral.com
 0.0.0.0 ofracosmetics.fr
@@ -11600,7 +11606,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -11991,6 +11996,7 @@
 0.0.0.0 top.oewabox.at
 0.0.0.0 www.teltech.hu
 0.0.0.0 www.adjmps.com
+0.0.0.0 cnt-jrs.com
 0.0.0.0 giftcardchallenge.com
 0.0.0.0 letyoufall.com
 0.0.0.0 adserver.colleges.com
@@ -12435,6 +12441,7 @@
 0.0.0.0 zeroredirect8.com
 0.0.0.0 x-pictures.net
 0.0.0.0 r4.ritikajoshi.com
+0.0.0.0 data-ng28.com
 0.0.0.0 provenfeedback.com
 0.0.0.0 traffic.focuusing.com
 0.0.0.0 k3.karbilyazilim.com
@@ -13641,6 +13648,7 @@
 0.0.0.0 www.adotube.com
 0.0.0.0 cloudcrown.com
 0.0.0.0 ehg-tigerdirect2.hitbox.com
+0.0.0.0 www.chiefsale.com
 0.0.0.0 www2.tpgi.com.au
 0.0.0.0 e-2dj6wfk4ehd5afq.stats.esomniture.com
 0.0.0.0 adsrv2.wilmingtonstar.com
@@ -14876,6 +14884,7 @@
 0.0.0.0 www.supportnestframe.uk
 0.0.0.0 ads.granadamedia.com
 0.0.0.0 coolnovelties.co.uk
+0.0.0.0 www.xandermaker.com
 0.0.0.0 ts-shimada.com
 0.0.0.0 mikvr.comfortykive.xyz
 0.0.0.0 intelcorpcim.112.2o7.net
@@ -15462,6 +15471,7 @@
 0.0.0.0 ehg-affinitynet.hitbox.com
 0.0.0.0 tracking.vindicosuite.com
 0.0.0.0 www.mudfall.com
+0.0.0.0 with-anbo.com
 0.0.0.0 media6021.videostrip.com
 0.0.0.0 ad.moscowtimes.ru
 0.0.0.0 static.mediav.com
@@ -15684,6 +15694,7 @@
 0.0.0.0 t.mdn2015x3.com
 0.0.0.0 ads.adverline.com
 0.0.0.0 ad23digital.checkm8.com
+0.0.0.0 www.amomales.com
 0.0.0.0 tags.expo9.exponential.com
 0.0.0.0 esgic.1.p2l.info
 0.0.0.0 filmes-hd.com
@@ -16458,6 +16469,7 @@
 0.0.0.0 ivoirmixdj.fr
 0.0.0.0 123plays.com
 0.0.0.0 gemius.pl
+0.0.0.0 www.electrobell.com
 0.0.0.0 sendingurl.com
 0.0.0.0 live-msr.com
 0.0.0.0 bagslap.com
@@ -16995,6 +17007,7 @@
 0.0.0.0 te.versiontracker.com
 0.0.0.0 api.taboola.com
 0.0.0.0 oascentral.medbroadcast.com
+0.0.0.0 www.exposhot.com
 0.0.0.0 adserv006.adtech.fr
 0.0.0.0 free.internetspeedtracker.com
 0.0.0.0 sunsetdnsnow.com
@@ -18884,6 +18897,7 @@
 0.0.0.0 all-sex.shengen.ru
 0.0.0.0 ir-na.amazon-adsystem.com
 0.0.0.0 track.brucelead.com
+0.0.0.0 www.nanohistory.com
 0.0.0.0 ads.ign.com
 0.0.0.0 www.postnewsads.com
 0.0.0.0 cache.betweendigital.com
@@ -24695,6 +24709,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
