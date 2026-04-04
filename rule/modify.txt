@@ -1,4 +1,4 @@
-# Update time: 2026-04-04 10:06:47
+# Update time: 2026-04-04 20:55:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -289,7 +289,6 @@ freestore.app##.adbn2-wrap2
 audiotag.info##.dialog-fog
 ||untidyquestion.com^$third-party
 ||thicktrucks.com^$third-party
-sdamgia.ru##main > div[class*=" "]:nth-child(-n+2) > div ~ div
 ##adblocker
 /abb-msg.js
 ||sprydelta.com^$third-party
@@ -423,7 +422,6 @@ shuba.life##img[height][src^="https://shuba.life/static/banners/placeholders/"]
 ||subletyoke.com^$third-party
 @@||jeuxvideo-live.com/js/ads.js
 frkp.lol###film > #content > span[style="color:#ff6a00;"]
-reshu.by,reshuent.kz,sdamgia.ru#@#.googlead
 ||degreechariot.com^$third-party
 ||guildalpha.com^$third-party
 ||corgibeachday.com^$third-party
@@ -681,7 +679,6 @@ gismeteo.by,gismeteo.ru##div[class^="stopblock"]
 /adblock-alerter/js/adblock_alerter.js
 webofcomics.ru##.reklandvipinfo
 ||defeatedbadge.com^$third-party
-sdamgia.ru##.S29e4f5cdae
 ||exquisiteartisanship.com^$third-party
 ||tinyswans.com^$third-party
 @@||yacine-app.com^$generichide
@@ -1295,6 +1292,7 @@ wowhead.com##.block-bgimg
 ||sixscissors.com^$third-party
 ||buhgalter911.com^*/blocker.
 ||stockingsleet.com^$third-party
+reshuent.ru,sdamgia.ru#@#.googlead
 ||ludicrousarch.com^$third-party
 liga.net#@#div[id^="div-gpt-ad"]
 ||fairytaleflame.com^$third-party
@@ -1567,6 +1565,7 @@ finget.ru,katalog-aktsii.ru,rp5.by,rp5.kz,rp5.ru,sms24.info,sms24.me,vikings-war
 ||guardeddirection.com^$third-party
 ||smashshoe.com^$third-party
 ###fondAdblock
+reshuent.ru,sdamgia.ru##.S29e4f5cdae
 ||culturedcamera.com^$third-party
 ||friendlyfold.com^$third-party
 ||seedscissors.com^$third-party
@@ -1636,6 +1635,7 @@ asn.in.ua,beadeath.dclans.ru###mdl_ctnr
 ||familiarrod.com^$third-party
 /adsmatcher-anti-adblock/*
 ||rainyrule.com^$third-party
+reshuent.ru,sdamgia.ru##main > div[class*=" "]:nth-child(-n+2) > div ~ div
 ###detectadblock
 ###anti_adblock
 ||neatshade.com^$third-party
