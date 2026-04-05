@@ -1,4 +1,4 @@
-# Update time: 2026-04-05 10:28:27
+# Update time: 2026-04-05 20:56:37
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5415,7 +5415,6 @@ windowsreport.com##.code-block
 ||secure---sso---robinhood---com-cdn.webflow.io^$doc
 ||ttt777.com^$doc
 ||lancerjp.com^$doc
-/^https:\/\/storage\.googleapis\.com\/[a-z]{5,}\/[a-z]+_v\d\.html\#\?act=/$doc,match-case,to=storage.googleapis.com
 ||sonvupload.xyz^$all
 ||pastebin.store/js.js
 ||yupoofrance.ru^$doc
@@ -5867,6 +5866,7 @@ windowsreport.com##.code-block
 ||applynow-jobs.com^$all
 ||xiaobaixitong.com^$all
 ||celcol.jp^$doc
+/^https:\/\/storage\.googleapis\.com\/[a-z]{5,}\/[a-z]+_v\d\.html#\?act=/$doc,match-case,to=storage.googleapis.com
 ||koipara.jp^$doc
 ||kmspico.dev^$doc
 ||gparted.it^$doc
@@ -10794,7 +10794,6 @@ $ping,third-party
 ||asterpix.com/tagcloudview/
 ||pelisfree.site/cdn-cgi/trace
 ||sepyra.com^$third-party
-||klickly.com/track
 ||adinte.jp^$third-party
 ||24log.de^$third-party
 ||aaxdetect.com^$third-party
@@ -12589,6 +12588,7 @@ coomer.st,kemono.cr,official.coomer.com.co##+js(set-local-storage-item, plausibl
 @@||public.fbot.me/events/$domain=casper.com
 ||darkreader.org/elements/statistics.js
 ||trrsf.com/metrics/
+/_nostra/batch
 ||xing.com^$ping
 ||www-backend.strinova.com/api/common/uid
 ||cafemedia.com/topics/clickstream-event
@@ -14034,6 +14034,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||foreseeresults.com^$third-party
 /i2a.js
 ||tscounter.com^$third-party
+||klickly.com^$third-party
 /adobe/AppMeasurement-
 /stats/collector.js
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
@@ -14651,6 +14652,7 @@ accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crun
 /beacon/track/*
 ||cloudfront.net/clipkit_assets/beacon-
 ||dp.alma.iltalehti.fi/v1/cookie
+@@||snva.jp/javascripts/reco/$script,domain=abc-mart.net|store.charle.co.jp
 ||knorex.com^$third-party
 ||diabrowser.com/js/arcnet-script.js
 ||dmpcounter.com^$third-party
@@ -15477,6 +15479,7 @@ _view_pixel&$image
 /TrackView/*$xmlhttprequest
 ||yimg.com/ss/vops.js
 ||recipefy.net/analytics.js
+/_nostra/identity/*
 ||pto-slb-09.com^$third-party
 ||naver.com/PostView.nhn?$image
 ||fuel-design.com/js/script.js
@@ -15645,7 +15648,6 @@ _view_pixel&$image
 ||websuccess-data.com/tracker.js
 ||as.coinbase.com/metrics
 ||qualtrics.com^*/metrics
-@@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 .sendibt3.com/tr/op/$image
 ||webtuna.com^$third-party
 ||api-location-prd.pelcro.com^$domain=newsweek.com
@@ -18905,6 +18907,12 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /\.stenaline\./
@@ -19050,12 +19058,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
