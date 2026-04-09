@@ -1,4 +1,4 @@
-# Update time: 2026-04-09 10:12:12
+# Update time: 2026-04-09 21:26:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2307,6 +2307,7 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 ||eslplayers25.com^$all
 ||mid-round.com^$doc
 ||kms-tool.com^$doc
+||telega.me^$all
 ||play.google.com/store/apps/details?id=com.ola.yoitoki^$doc
 ||ee-network.web.app^$all
 ||wcomhost.com/impots-gouv/$doc
@@ -3553,6 +3554,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||att5h6.wixsite.com^$all
 ||online-ops.mypasschange.com^$all
 ||smdotcom.com^$doc
+||telega.info^$all
 ||telegramhcn.com^$all
 ||journey-of-truth.com^$doc
 ||route-since.com^$doc
@@ -10531,7 +10533,6 @@ abema.tv##+js(rmnt, script, NREUM)
 ||ela-3-tnk.com^$third-party
 ||youtubekids.com/api/stats/qoe?
 ||pxr.nl/v1/stats/
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
 /log_stats.php?
 ||subscribers.com^$third-party
 /js/_analytics.js
@@ -13107,6 +13108,7 @@ _logHuman=
 ||appliedsemantics.com/images/x.gif
 ||ebaystatic.com/cr/v/c01/ubt241024192c097b9ddc0a81e0a.js
 ||nabaza.com^$third-party
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|lowes.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 ||listrakbi.com/activity/
 ||sagetrc.com^$third-party
@@ -14635,6 +14637,7 @@ accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crun
 ||uarating.com^$third-party
 ||prime.rambler.ru^$~script
 /count/count.cgi?
+||blushingbread.com^$~script
 ||facebook.com/platform/scribe_endpoint.php/
 ||yandex.ru/cycounter?
 ||events.release.narrativ.com^$subdocument,xmlhttprequest
