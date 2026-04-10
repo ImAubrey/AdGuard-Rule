@@ -1,4 +1,4 @@
-# Update time: 2026-04-09 21:26:29
+# Update time: 2026-04-10 10:31:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2461,6 +2461,7 @@ onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||adserver*/?sdomain=$doc,popup
 ||kardon-rsa.com^$doc
 ||etcher.net^$all,domain=~etcher.balena.io
+||marketplace-item-details-*.zya.me^$all
 ||ntvpevnts.com^$all
 ||wanderlust.rocks^$all
 /^https:\/\/help\.[a-z]{3,}-x-[a-z]{3,}\.com\//$doc,to=com|~x.com
@@ -5672,7 +5673,6 @@ windowsreport.com##.code-block
 ||r2.dev/made-in-china.com/$doc
 ||update-protection.com^$all
 /click.php?key=*&cpc=0&$doc
-||http://marketplace-item-details-*.zya.me^$all
 ||coupletime2525.com^$doc
 ||datenabi.com^$doc
 ||rosarios.cloud^$doc
@@ -11192,6 +11192,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 @@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|goindigo.in|hungryroot.com|usa.experian.com
 /gingeranalytics.min.js
 /salog.js
+||aizhantj.com*/tjpv/?cc=
 ||awsapprunner.com/api/frontend/client/metrics
 ||trustedform.com/trustedform.js
 ||pornbox.com/stats/
@@ -12075,6 +12076,7 @@ _ad_impression.
 /emstrack.js
 ||advertisertape.com/stat/
 /event_log/*
+@@||js.datadome.co/tags.js$script,domain=monster.ca|rvtrader.com|serasa.com.br|sso.garena.com|thefork.at|thefork.be|thefork.ch|thefork.co.uk|thefork.com|thefork.de|thefork.es|thefork.fr|thefork.it|thefork.nl|thefork.pt|thefork.se|ugg.com
 ||recart.com/tracking/
 /rdir.baur.de/g.html?uid=$image
 /3.gif?
@@ -15276,7 +15278,6 @@ _view_pixel&$image
 ||firebase.googleapis.com^$domain=terabox.fun
 ||advconversion.com^$third-party
 ||snapkit.com/v1/sdk/metrics/
-@@||js.datadome.co/tags.js$script,domain=monster.ca|serasa.com.br|sso.garena.com|thefork.at|thefork.be|thefork.ch|thefork.co.uk|thefork.com|thefork.de|thefork.es|thefork.fr|thefork.it|thefork.nl|thefork.pt|thefork.se|ugg.com
 /MailIsRead?$image
 /track.png?
 ||bstn-14-ma.com^$third-party
@@ -18917,6 +18918,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /hints.netflame.cc/*
 ||adxvip.com^$third-party
 ||smarthint.co/Scripts/i/SmartHintTrack.Full.min.js
+/api/ads-bff-client/*
 ||web-stat.fr^$third-party
 ||breaktime.com.tw^$third-party
 ||zappos.com/err.cgi?
