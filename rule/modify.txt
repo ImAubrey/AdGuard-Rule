@@ -1,4 +1,4 @@
-# Update time: 2026-04-10 21:09:10
+# Update time: 2026-04-11 10:10:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2824,6 +2824,7 @@ lewdgames.to,warezcrack.net,freeprosoftz.com,scracked.com,cyberspc.com,crackinto
 ||meetandlovenow.com^$all
 ||conveyancingportal.com^$all
 ##html#html[sti][vic][lang] > body#allbody
+||lincolnforestlakeproject.com^$all
 ||gran-danker.jp^$doc
 /index/index/*Trade/tradelist^$doc
 ||chamsockhachang-$doc
@@ -10830,6 +10831,7 @@ $ping,third-party
 ||advanced-web-analytics.com^$third-party
 ||linkbucks.com/visitScript/
 ||spacehits.net^$third-party
+/dead-clicks-autocapture.js
 ||toutiao.com/action_log/
 /dataunlocker-prod.js
 ||hamburger-stadtplan.com/t.gif
@@ -13196,6 +13198,7 @@ _logHuman=
 /cdn_cookie_service.html
 ||theblock.co/api/analytics
 /perfmetrics.js
+||mediagroupnetwork.com/js/ua.js
 ||tnspro.com.tr/0/sendEventV2
 ||bobparsons.com/image.aspx?
 ||gotdns.com/track/blank.aspx?
@@ -18959,12 +18962,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*tsdk.vivo.com.cn^
-||*.mmstat.com^
-||*serror*.wo.com.cn^
-||*us*watcab*.blob.core.windows.net^
-||*mistat*.xiaomi.com^
-||*-analytics*.huami.com^
 /hostingcloud/
 /trkhinv\.sustainablefinance\./
 /\.stenaline\./
@@ -19110,6 +19107,12 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /-ad\.wtzw\.com/
 /\.bitiba\./
 /a8net\./
+||*tsdk.vivo.com.cn^
+||*.mmstat.com^
+||*serror*.wo.com.cn^
+||*us*watcab*.blob.core.windows.net^
+||*mistat*.xiaomi.com^
+||*-analytics*.huami.com^
 /^adsensor\./
 /^dwtrack\./
 /^domob\./
