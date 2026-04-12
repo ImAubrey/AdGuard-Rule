@@ -1,4 +1,4 @@
-# Update time: 2026-04-11 20:56:55
+# Update time: 2026-04-12 10:33:20
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2323,6 +2323,7 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 /?u1=*&o1=*&sid=t*~$doc
 ||amaenbo.jp^$doc
 ||cszavakjlvtlhojrui.com^$doc
+||prasquinor.jp^$all
 ||app-phantom.co.com^$all
 ||hi-a-so-bi.net^$doc
 ||yoloo-jp.com^$doc
@@ -2406,6 +2407,7 @@ onhax.in,igetintopc.info##[class*="buttonPress-"]
 ||pc2512.com^$doc
 ||curve.sbs^$doc
 ||for20-coco.com^$doc
+||roll-tooth.com^$all
 ||maroohost.online^$all
 ||web.core.windows.net/media/ados.mp3
 ||kaleempc.info^$doc
@@ -4231,6 +4233,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 ||agripro-fr-*.com^$doc
 ||pddeploy.com^$all
 ||u-to-u.com^$doc
+||vultenok.net^$all
 ||notepad2.com^$doc
 ||jp84434.com^$doc
 .sbs/c/*?s1=$doc
@@ -4303,6 +4306,7 @@ crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in
 ||room2021.net^$all
 ||kodiak-finance.org^$all
 ||ms.kuugo.cc^$all
+||life-certain.jp^$all
 ||m-facebookk.com.vn^$all
 ||payout-chatgpt.com^$all
 ||my7love.xyz^$doc
@@ -6040,6 +6044,7 @@ ublockdns.com##main>section>div:first-child::before:style(content: 'Not related 
 ||orcasslicer.$doc
 ||singles50.jp^$doc
 ||ets2.gr^$all
+||kyrelune.net^$all
 ||ricopin.com^$doc
 ||one-chan-love.love^$doc
 ||myprepaidcentre.net^$all
@@ -6048,6 +6053,7 @@ ublockdns.com##main>section>div:first-child::before:style(content: 'Not related 
 ||gocolonial.local-user.com^$all
 ||wwwservicemsnlive-*.hubspotpagebuilder.com^$all
 ||paid-task.com^$all
+||zalenith.com^$all
 ||rungamepc.ru^$all
 ||aaxr.shop^$doc
 ||insolvency-development.co.uk^$all
@@ -8984,6 +8990,7 @@ _trackWebtrekkEvents.
 ||s.pixfs.net/visitor.pixplug.in/
 ||coinwebmining.com^$third-party
 ||stat24.ru^$third-party
+||nekoweb.org/.nekoweb-api/count-view
 ||relevant-digital.com^$third-party
 ||siteimproveanalytics.io^$third-party
 ||chaport.com/api/public/v1/stats/
