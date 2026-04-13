@@ -1,4 +1,4 @@
-# Update time: 2026-04-13 10:38:08
+# Update time: 2026-04-13 21:24:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1466,6 +1466,7 @@
 ||display-ad-*.kgslb.com^
 ||marketplace-*.hyprmx.com^
 ||tnc*.tiktokv.us^
+||log*.boomplaymusic.com^
 ||mistat.*.xiaomi.com^
 ||ad*.ettoday.net^
 ||report*.appmetrica.webvisor.com^
@@ -1617,6 +1618,7 @@
 ||get*bannerads-6egeg2u34q-du.a.run.app^
 ||collector-*.px-cdn.net^
 ||ulog*.gifshow.com^
+||adapi*.boomplaymusic.com^
 ||ads*.zijieapi.com^
 ||host*.polaroid.com^
 ||www.xxmh*.com^
