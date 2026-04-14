@@ -1,4 +1,4 @@
-# Update time: 2026-04-14 10:31:56
+# Update time: 2026-04-14 21:24:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7727,6 +7727,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||yandex.ru/log?
 ||run.app/metrics/
 /joomla-visites.php
+||statlytic.net^$third-party
 ||redstatcounter.com^$third-party
 ||vimeocdn.com/ga/
 /page/load?
@@ -14777,6 +14778,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 @@||mclo.gs/js/logview.js$~third-party
 ||notifyvisitors.com^$third-party
 ||icreate-campaign.com^$third-party
+||datadome00.id.me/tags.js
 ||mtv3.fi/remarketing.js
 ||123compteur.com^$third-party
 ||listen.audiohook.com/*/pixel.png
