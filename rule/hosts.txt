@@ -1,4 +1,4 @@
-# Update time: 2026-04-14 21:24:44
+# Update time: 2026-04-15 10:30:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9349,6 +9349,7 @@
 0.0.0.0 serv.ad-rotator.com
 0.0.0.0 uelbdc74fn.s.ad6media.fr
 0.0.0.0 www.biz-offer.com
+0.0.0.0 www.princessuppies.com
 0.0.0.0 www35t.glam.com
 0.0.0.0 newscurrent.info
 0.0.0.0 ad12digital.checkm8.com
@@ -9633,6 +9634,7 @@
 0.0.0.0 statse.webtrendslive.com	# Fortune.com among others
 0.0.0.0 ldserv02.adtech.fr
 0.0.0.0 ad32.checkm8.com
+0.0.0.0 www.bevisgame.com
 0.0.0.0 yourofficialsurveysplace.store
 0.0.0.0 gillout.oewabox.at
 0.0.0.0 thebestone.click
@@ -10509,6 +10511,7 @@
 0.0.0.0 tools.spylog.ru
 0.0.0.0 post-canada-reschedule2024.com
 0.0.0.0 www.cheap-online-stamp.cast.cc
+0.0.0.0 www.controlpop.com
 0.0.0.0 secure.flashtalking.com
 0.0.0.0 ad.e-kolay.net
 0.0.0.0 www.abetterinternet.com
@@ -10972,6 +10975,7 @@
 0.0.0.0 fw.qq.com
 0.0.0.0 aolsearch.122.2o7.net
 0.0.0.0 stats.buysellads.com
+0.0.0.0 www.ogopond.com
 0.0.0.0 mybinaryoptionsrobot.com
 0.0.0.0 zendictees.fr
 0.0.0.0 canadapost.postescanadad.xyz
@@ -11644,7 +11648,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -11866,6 +11869,7 @@
 0.0.0.0 only.best-games.today
 0.0.0.0 clubsforus.net
 0.0.0.0 agamgreetingscom.112.2o7.net
+0.0.0.0 www.premiumbrandszonalibre.com
 0.0.0.0 bracabrac.fr
 0.0.0.0 screen-mates.com
 0.0.0.0 www.frontpagecash.com
@@ -12943,6 +12947,7 @@
 0.0.0.0 lead-analytics.nl
 0.0.0.0 reloading-page1.com
 0.0.0.0 c2.xxxcounter.com
+0.0.0.0 www.svipfulishipin.com
 0.0.0.0 video.cynogage.com
 0.0.0.0 idpix.media6degrees.com
 0.0.0.0 reporter001.adtech.fr
@@ -13674,6 +13679,7 @@
 0.0.0.0 www.idealcasino.net
 0.0.0.0 seezeit.fr
 0.0.0.0 systematixinfotech.fr
+0.0.0.0 www.randrongames.com
 0.0.0.0 nl.nedstatbasic.net
 0.0.0.0 ukrpts.net
 0.0.0.0 log.olark.com
@@ -14261,6 +14267,7 @@
 0.0.0.0 sclk.org
 0.0.0.0 pressealgerei.fr
 0.0.0.0 usbf.fr
+0.0.0.0 www.dictadosonline.com
 0.0.0.0 adservice.google.nl
 0.0.0.0 codeine.ourtablets.com
 0.0.0.0 3fns.com
@@ -15170,6 +15177,7 @@
 0.0.0.0 your.dailytopdealz.com
 0.0.0.0 effectivespeech.net
 0.0.0.0 strategy.lmobi.net
+0.0.0.0 www.stricklyhouses.com
 0.0.0.0 pc-gizmos-ssl.com
 0.0.0.0 t.extreme-dm.com
 0.0.0.0 ineediscounts.com
@@ -17581,6 +17589,7 @@
 0.0.0.0 gcirm.argusleader.gcion.com
 0.0.0.0 rdsa2012.com
 0.0.0.0 s.bl-1.com
+0.0.0.0 www.blanknightsmfg.com
 0.0.0.0 goautofinance.com
 0.0.0.0 mycashback.co.uk
 0.0.0.0 bicoinsprofit.com
@@ -18195,6 +18204,7 @@
 0.0.0.0 ads.astalavista.us
 0.0.0.0 c35000246.c.youradexchange.com
 0.0.0.0 adblock.fr
+0.0.0.0 www.necklaceu.com
 0.0.0.0 infospress.com
 0.0.0.0 media4.popmarker.com
 0.0.0.0 iad-usadmm-ds.dotomi.com
@@ -18459,6 +18469,7 @@
 0.0.0.0 www.credit-dreams.com
 0.0.0.0 yourrewardzone.com
 0.0.0.0 counter6.sextracker.be
+0.0.0.0 www.teresinaapartment.com
 0.0.0.0 cinediagonal.fr
 0.0.0.0 lindependnant.fr
 0.0.0.0 oyrfo.comfortykive.xyz
@@ -24796,6 +24807,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com

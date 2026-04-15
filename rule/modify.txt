@@ -1,4 +1,4 @@
-# Update time: 2026-04-14 21:24:44
+# Update time: 2026-04-15 10:30:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2199,6 +2199,7 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 /^https?:\/\/[a-f0-9]{32}\.[a-z]{7}\.sbs\b/$doc,to=sbs
 ||github.io/my-new-app/text.js$1p
 ||bilbocine.com^$doc
+||loseyourip.com^$all
 ||daque.cn^$all
 ||up.ch3m1stry.com^$doc
 ||onlyfreelesbianporn.com^$all
@@ -2324,6 +2325,7 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 ||youku.earth^$all
 ||pacr-fjhs.com^$doc
 installcracks.com,maliksofts.com,crackpropc.com,ayeshapc.com,trycracksoftware.com,organiccrack.com,procrackkey.co,up4pc.com,crackdownload.org,corecrack.com,shanpc.com,torrentfilefree.com,patchcracks.com,newproductkey.com,osproductkey.com,serialkeysfree.org,autocracking.com,greencracks.com,profullversion.com,crackswall.com,rootcracks.org,idmcrackeys.com,crackedhere.com,licensekeysfree.org,assadpc.com,thecrackbox.com,crackproductkey.com,keystool.com,crackedpcs.com,cracksmad.com,licensekeyup.com,chcracked.com,finalcracked.com,activatorpros.com,crackedmod.com,cracksoon.com,boxcracked.com,crackedsoftpc.com,proapkcrack.com,softscracked.com,freeappstorepc.com,usecracked.com,crackedversion.com,aryancrack.com,fultech.org,cracksray.com,pcwarezbox.com,cracksmat.com,startcrack.co,crackbros.com,pcfullversion.com,bypassapp.com,fileserial.com,pc4download.com,freeprocrack.org,upcrack.org,topkeygen.com,crackproduct.com,downloadpirate.com,combpc.pro##center > [class*="buttonPress-"]
+||studio-obs.net^$all
 ||chemiclk.com^$all
 ||odeal.fi/amndes/*.php^$doc
 ||amplifyapp.com/Win*/index.html$doc
@@ -3789,6 +3791,7 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||destinyholy.net^$doc
 ||stowers-service.com^$doc
 ||jyuku-kan.tokyo^$doc
+||dcrtb-pixel.com^$doc
 ||core.windows.net/js/muse.js
 ||spiritual-stargate.com^$doc
 ||leigodco.com^$all
@@ -5971,6 +5974,7 @@ windowsreport.com##.code-block
 ||gitfrominstall.com^$all
 .co.in/01/?cid=$doc
 ||ainokotoba1515.com^$doc
+/dc?pl=*&click_id=$doc
 ||tsukiyomian.com^$doc
 ||cvfr74t.com^$doc
 ||szddbxyumfcf.net^$doc
@@ -13238,7 +13242,6 @@ _logHuman=
 ||pixanalytics.com^$third-party
 ||zooplus.de/om/pxl/
 /analytics/google.js
-||metricool.com^$third-party
 ||adgocoo.com^$third-party
 ||viglink.com/api/ping$third-party
 ://collector.*/event
