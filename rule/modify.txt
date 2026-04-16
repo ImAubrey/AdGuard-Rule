@@ -1,4 +1,4 @@
-# Update time: 2026-04-15 21:23:16
+# Update time: 2026-04-16 10:37:03
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -14738,6 +14738,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||esmas.com/scripts/esmas_stats.js
 /ye-gatracker.js
 ||visualrevenue.com^$domain=autobild.de|spiegel.de
+||urldefense.com^$third-party
 ||api.odysee.com/locale/get
 ||worldssl.net/reporting.js
 ||myntelligence.com^$third-party
