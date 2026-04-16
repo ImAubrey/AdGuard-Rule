@@ -1,4 +1,4 @@
-# Update time: 2026-04-16 10:37:03
+# Update time: 2026-04-16 21:42:38
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -172,7 +172,6 @@
 |p.alimama.com^
 |s3.pfp.sina.net^
 |rmads.msn.com^
-|ad.jamster.co.uk^
 |dsp-x.jd.com^
 |cdn.matomo.cloud^
 |stat.v.baidu.com^
@@ -545,7 +544,6 @@
 |img-x.jd.com^
 |f7.market.xiaomi.com^
 |miui-fxcse.avlyun.com^
-|ad.api.mobile.youku.com^
 |ad.21cn.com^
 |mlog.hiido.com^
 |traffic.mogujie.com^
@@ -564,12 +562,12 @@
 |adgeo.163.com^
 |d2.sinaimg.cn^
 |httpdns.kg.qq.com^
-|fumiad.dxys.pro^
 |ceuswatcab01.blob.core.windows.net^
 |log.tidbcloud.com^
 |dsa-mfp.fengshows.cn^
 |adapi.izuiyou.com^
 |staging.admin.e.mi.com^
+|up.zpic.biz^
 |ad-cache.dopool.com^
 |ad.api.moji.com^
 |f4.market.xiaomi.com^
@@ -610,7 +608,6 @@
 |httpdns.platform.dbankcloud.cn^
 |ad-sh-sz-zb.wagbridge.tanx.alimama.com^
 |tmeadquic.y.qq.com^
-|a.macked.app^
 |store.iqiyi.com^
 |sax.sina.cn^
 |adver.qq.com^
@@ -970,7 +967,6 @@
 |nmobi.kuwo.cn^
 |ads5-normal-lf.zijieapi.com^
 |httpdns.music.163.com^
-|ems.cp12.wasu.tv^
 |ucstat.baidu.com^
 |m.simba.taobao.com^
 |wmlog.meituan.com^
@@ -1019,7 +1015,6 @@
 |c2.l.qq.com^
 |ads.gmodules.com^
 |adlaunch.qingting.fm^
-|ads2.mediaarmor.com^
 |prod.nexusrules.live.com^
 |advertising-api-fe.amazon.com^
 |p.kulp.in^
@@ -1146,7 +1141,6 @@
 |vd1.market.xiaomi.com^
 |monitor-stsdk.vivo.com.cn^
 |d3.sina.com.cn^
-|apps.mobilityware.com^
 |httpdns.ocloud.heytapmobi.com^
 |orange-dc.youku.com^
 |lstat.youku.com^
@@ -1245,7 +1239,6 @@
 |wxsnsad.tc.qq.com^
 |jp.as.pptv.com^
 |adsz.wagbridge.tmall.alimama.com^
-|fm.p0y.cn^
 |c753738.r38.cf2.rackcdn.com^
 |f6.market.xiaomi.com^
 |tracking.yorg.app^
@@ -1367,7 +1360,6 @@
 |c.uaa.iqiyi.com^
 |paopao.iqiyi.com^
 |httpdns.baidu.com^
-|c.yes.youku.com^
 |dw-collect.ksosoft.com^
 |stnetsdk.vivo.com.cn^
 |api.ts.feedback.qy.net^
