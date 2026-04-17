@@ -1,4 +1,4 @@
-# Update time: 2026-04-17 10:33:04
+# Update time: 2026-04-17 21:18:47
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10031,6 +10031,7 @@
 0.0.0.0 gpaper192.112.2o7.net
 0.0.0.0 ads.tromaville.com
 0.0.0.0 torjackan.info
+0.0.0.0 f006.backblazeb2.com
 0.0.0.0 kbd1.kpns.ijinshan.com
 0.0.0.0 graphics.adultfriendfinder.com
 0.0.0.0 nedstat.s0.nl
@@ -12757,6 +12758,7 @@
 0.0.0.0 s8t.teads.tv
 0.0.0.0 my.putlocker.to
 0.0.0.0 analytics.services.kirra.nl
+0.0.0.0 www.exceleratehelp.com
 0.0.0.0 file.ipinyou.com.cn
 0.0.0.0 w109.hitbox.com
 0.0.0.0 ptrads.mp3.com
@@ -13955,6 +13957,7 @@
 0.0.0.0 gingert.net
 0.0.0.0 www.hansvanderwerf.nl
 0.0.0.0 wileydumcom.112.2o7.net
+0.0.0.0 www.nursse.com
 0.0.0.0 c.adexchangemachine.com
 0.0.0.0 austria.oewabox.at
 0.0.0.0 technoit.fr
