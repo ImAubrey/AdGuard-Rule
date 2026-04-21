@@ -1,4 +1,4 @@
-# Update time: 2026-04-20 21:28:19
+# Update time: 2026-04-21 10:33:52
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6763,6 +6763,7 @@
 0.0.0.0 logs.spilgames.com
 0.0.0.0 unetbootin.org
 0.0.0.0 ads135.console.adtarget.com.tr
+0.0.0.0 www.whiskeyallys.com
 0.0.0.0 adsview2.qq.com
 0.0.0.0 www.oilbasics.com
 0.0.0.0 soniksports.fr
@@ -7193,6 +7194,7 @@
 0.0.0.0 tracker.baidu.com
 0.0.0.0 phoenixads.co.in
 0.0.0.0 analytics.foresee.com
+0.0.0.0 www.msmpokergamer.com
 0.0.0.0 resultatspmu.fr
 0.0.0.0 w159.hitbox.com
 0.0.0.0 www.djugoogs.com
@@ -7525,6 +7527,7 @@
 0.0.0.0 oascentral.redstate.com
 0.0.0.0 ads.webmd.com
 0.0.0.0 celexa.3.p2l.info
+0.0.0.0 www.kobotausa.com
 0.0.0.0 www.liveadexchanger.com
 0.0.0.0 postcanada.ship-express.info
 0.0.0.0 xml.explorads.com
@@ -10395,6 +10398,7 @@
 0.0.0.0 apodir.oewabox.at
 0.0.0.0 protection.JMpolice.com
 0.0.0.0 www.c.thecounter.de
+0.0.0.0 www.learnnessy.com
 0.0.0.0 www.realincestvideos.com
 0.0.0.0 pb.tynt.com
 0.0.0.0 app.monetizze.com.br
@@ -11657,6 +11661,7 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
+0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -14062,6 +14067,7 @@
 0.0.0.0 awuam.com
 0.0.0.0 ad16digital.checkm8.com
 0.0.0.0 db-z.fr
+0.0.0.0 www.liveorigamirisk.com
 0.0.0.0 c.pt.msn.com
 0.0.0.0 aureate.com
 0.0.0.0 conseil-coaching-jardinage.fr
@@ -14853,6 +14859,7 @@
 0.0.0.0 atlanticon.fr
 0.0.0.0 ad2digital.checkm8.com
 0.0.0.0 ads.fox.com
+0.0.0.0 www.wraploans.com
 0.0.0.0 js.bizographics.com
 0.0.0.0 oascentral.clearchannel.com
 0.0.0.0 metrics.ktvb.com
@@ -24832,7 +24839,6 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
-0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
