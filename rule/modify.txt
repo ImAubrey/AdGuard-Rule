@@ -1,4 +1,4 @@
-# Update time: 2026-04-21 10:33:52
+# Update time: 2026-04-21 21:25:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8959,6 +8959,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 /expcount/additional.php
 ||datadoghq-browser-agent.com^$third-party
 ||news.de/track.php
+||inventorycache.com^$~xmlhttprequest
 ||provesrc.com^$third-party
 ||thestat.net^$third-party
 ||gardpro.com/api/collect
@@ -14311,7 +14312,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||rantapallo.fi/s/redirect/tracking?
 ||daioncdn.net/events?
 ||wipe.de^$~script,third-party
-247sports.com,arstechnica.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
 ||deqwas.net^$third-party
 ||w4m.rs/tracker.js
 ||goaffpro.com/track
@@ -16139,6 +16139,7 @@ apnews.com,sidereel.com##+js(acs, document.getElementsByTagName, .pubads)
 /beacon/event?
 /track-imp?
 .keap-link016.com/$image
+||inventorycache.com^$redirect=noopjson,xmlhttprequest
 ||carambo.la/analytics/
 ||t1.daumcdn.net/*/static/kp.js
 ||mepirtedic.com^$third-party
@@ -17949,6 +17950,7 @@ _imp?Log=
 /wcount.php?
 ||reflow.tv/pixels/
 ||a.flux.jp/analytics.collect.v1.CollectService/Collect
+||acustomizedgift.com^$redirect=noopjs,script
 ||getfreebl.com^$third-party
 ||snplow.net^$third-party
 ||undom.net^$third-party
@@ -18465,6 +18467,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /jquery.browser-fingerprint-
 ||propelbon.com^$third-party
 ||britepool.com^$third-party
+247sports.com,al.com,arstechnica.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,cleveland.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,masslive.com,mlive.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,oregonlive.com,pennlive.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,silive.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
 ://plausible.*/js/script.
 /logging/pageView
 ||azurewebsites.net^*/telemetry.js
@@ -18595,8 +18598,8 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||cloudfront.net/code/keen-2.1.0-min.js
 /web_analytics/*
 ||soufun.com/stats/
-||kindhush.com^$redirect=noopjson,xmlhttprequest
 ||prudsys-rde.de^$third-party
+||kindhush.com^$redirect=noopjson,xmlhttprequest
 ||logaholic.com^$third-party
 ||waitrose.com/gDaVC7/
 ||trace-2000.com^$third-party
