@@ -1,4 +1,4 @@
-# Update time: 2026-04-21 21:25:44
+# Update time: 2026-04-22 10:32:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10503,6 +10503,7 @@
 0.0.0.0 lien-social.fr
 0.0.0.0 mt.5.p2l.info
 0.0.0.0 hefever.fr
+0.0.0.0 www.silverboxcreativestudio.com
 0.0.0.0 rivalo.network
 0.0.0.0 planrecanpost1.info
 0.0.0.0 www.ajalis.com
@@ -10601,6 +10602,7 @@
 0.0.0.0 ads.infi.net
 0.0.0.0 nytrsarasota.112.2o7.net
 0.0.0.0 starbuckssurvey.life
+0.0.0.0 www.ledfaucetlight.com
 0.0.0.0 heuither.sbs
 0.0.0.0 zfm.oewabox.at
 0.0.0.0 ehg-peoplesoft.hitbox.com
@@ -11661,7 +11663,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -12432,6 +12433,7 @@
 0.0.0.0 secimage.adtech.us
 0.0.0.0 plains.fr
 0.0.0.0 ad-sponsor.com
+0.0.0.0 www.maiecaffe.com
 0.0.0.0 imgg.marketgid.com
 0.0.0.0 buyfioricetonline.7h.com
 0.0.0.0 telstra.imrworldwide.com
@@ -13308,6 +13310,7 @@
 0.0.0.0 mg.mgid.com
 0.0.0.0 popups.infostart.com
 0.0.0.0 www.tattooshaha.info			# Facebook trojan
+0.0.0.0 dldyjy.com
 0.0.0.0 stompebi.link
 0.0.0.0 images.intellitxt.com
 0.0.0.0 turdgasm.com
@@ -15155,6 +15158,7 @@
 0.0.0.0 www.cryptocoinsad.com
 0.0.0.0 cgicounter.puretec.de
 0.0.0.0 adsmetadata.startappservice.com
+0.0.0.0 www.proxygeni.com
 0.0.0.0 www.sexpartnerx.com
 0.0.0.0 figato.fr
 0.0.0.0 www.incentivegateway.com
@@ -18028,6 +18032,7 @@
 0.0.0.0 blogvertising.pl
 0.0.0.0 parafiaukta.pl
 0.0.0.0 www.designbloxlive.com
+0.0.0.0 www.flaglergrill.com
 0.0.0.0 vice-ads-cdn.vice.com
 0.0.0.0 wa.and.co.uk
 0.0.0.0 stats.airfarewatchdog.com
@@ -18830,6 +18835,7 @@
 0.0.0.0 loirs.fr
 0.0.0.0 acceptable.a-ads.com
 0.0.0.0 www.adserver.com
+0.0.0.0 10-letter-words.com
 0.0.0.0 www.goat.cx
 0.0.0.0 breg.fr
 0.0.0.0 cmads.us.publicus.com
@@ -24839,6 +24845,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
