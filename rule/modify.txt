@@ -1,4 +1,4 @@
-# Update time: 2026-04-23 21:27:54
+# Update time: 2026-04-24 10:36:20
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10773,6 +10773,7 @@ $ping,third-party
 ||d2nq0f8d9ofdwv.cloudfront.net/track.js
 ||carambo.la/logging/
 ||tatadigital.com/analytics-engine/
+apnews.com,dpreview.com,hollywoodreporter.com,sidereel.com,superherohype.com,torontosun.com##+js(acs, document.getElementsByTagName, .pubads)
 ||leanplum.com^$third-party
 ||bettermeter.com^$third-party
 ||gez.io^$third-party
@@ -12047,6 +12048,7 @@ _ad_impression.
 ||bestpornsites.tv/i/js/extra/metrics.js
 /tracking.fanbridge.com/*
 ||kindhush.com^$~xmlhttprequest
+nj.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ||innovateads.com^$third-party
 ||mlno6.com^$third-party
 ||keytiles.com^$third-party
@@ -12625,7 +12627,6 @@ coomer.st,kemono.cr,official.coomer.com.co##+js(set-local-storage-item, plausibl
 ||pulpulyy.club/cdn-cgi/trace
 ||dmtracker.com^$third-party
 ||tracking202.com^$third-party
-apnews.com,dpreview.com,hollywoodreporter.com,sidereel.com##+js(acs, document.getElementsByTagName, .pubads)
 ||boomerang.com.au^$third-party
 ||refericon.pl^$third-party
 ||avmws.com^$third-party
