@@ -1,4 +1,4 @@
-# Update time: 2026-04-25 10:26:00
+# Update time: 2026-04-25 21:02:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8267,6 +8267,7 @@ _stat_counter.php?
 /plugins/wordfence/visitor.php?
 ||di-capt.com^$third-party
 ||baidu.com/x.js?
+||onboarding-ui.frontiersin.org/api/onboarding-ui/v1/session/logged
 /measure/visit/*
 ||springmetrics.com^$third-party
 ||traction.technologyadvice.com^$third-party
@@ -10050,6 +10051,7 @@ _beacon?
 ||tsphone.biz/pixelvoleur.jpg?
 ||testin.cn^$third-party
 ||persianstat.com^$third-party
+||bc.nejm.org/script.js
 ||newscom.com/js/v2/ga.js
 ||wrtn.ai/proxy/client/metrics
 ||pjatr.com^$third-party
@@ -10211,6 +10213,7 @@ e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !importa
 ://segment-api.
 ||staticmoly.me/metric.php
 ||almamedia.fi^*/scroll-monitor.min.js
+||cdn.reverso.net/rumjs/
 ||natero.com^$third-party
 ||b0e8.com^$third-party
 ||securitymetrics.com^$third-party
@@ -10684,6 +10687,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||iadvize.com/collector/
 ||call-tracking.by^$third-party
 ||snapchat.com/web/metrics
+||data.pendo.io/data/errorlog?
 ||mail.ru/grstat?
 ||statssheet.com^$third-party
 ||tdstats.com^$third-party
@@ -14264,6 +14268,7 @@ omni.soundestlink.com$image
 .intercom-mail.com/q/
 /custom-analytics.js
 ||awesomelytics.com^$third-party
+||data.pendo.io/data/guide.gif/
 ||ex.co/content/monetization/legacy-pixels/
 ||fideuram.it/js/cookie-manager/tracking-scripts.js
 ||streamtheworld.com/imp?
@@ -14450,6 +14455,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 .com/clk?
 ||blog-webkatalog.de^$third-party
 ||io.narrative.io/?$third-party
+||patient.info/a31h/
 ||tumblr.com/services/bblog
 /cnt.js
 ||market.samm.com/0/sendeventv2
@@ -16832,7 +16838,6 @@ apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,gold
 /mystats2.px?
 /set_optimizely_cookie.js
 ?event=impressions&
-||slideshare.net/frontend_tracking/
 ||youlead.pl/st?browserid
 @@||m1tm.insideevs.com/gtm.js$~third-party
 ||c-rings.net^$script,third-party
@@ -17375,6 +17380,7 @@ _rpc/log?
 @@||go-mpulse.net^$domain=costcobusinessdelivery.com
 ||res-x.com^$third-party
 ||freshclip.tv/tracking/
+||amboss.com/analytics/
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 /hit/?r=
 ||pussy.org^*.cgi?pid=
