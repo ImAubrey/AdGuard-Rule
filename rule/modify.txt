@@ -1,4 +1,4 @@
-# Update time: 2026-04-27 10:43:50
+# Update time: 2026-04-27 21:51:58
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2205,7 +2205,6 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 /^https?:\/\/[a-f0-9]{32}\.[a-z]{7}\.sbs\b/$doc,to=sbs
 ||github.io/my-new-app/text.js$1p
 ||bilbocine.com^$doc
-||loseyourip.com^$all
 ||daque.cn^$all
 ||up.ch3m1stry.com^$doc
 ||onlyfreelesbianporn.com^$all
@@ -11250,6 +11249,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /bineos.min.js
 ||way2traffic.com^$third-party
 @@||cohesionapps.com/cohesion/$domain=bankrate.com|frontier.com
+||cdn.pmweb.com.br/df/tag.js
 ||amazon.com/1/events/$domain=~aws.amazon.com
 ||redcounter.net^$third-party
 ||iqfp1.com^$third-party
@@ -12550,7 +12550,6 @@ accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crun
 ||feross.org/views
 ||365dmp.com^$third-party
 /_hcms/perf
-||pmweb.com.br^$third-party
 ||lamoda.ru/z?
 ||nickles.de/ivw/
 /clickheat.js
@@ -13536,6 +13535,7 @@ _logHuman=
 ||sitetracker.com^$third-party
 ||scribol.com/traffix/widget_tracker/
 ||sc.g-cdn.net/tracker/gsms.js
+||manscaped.com/rud-dataplane/
 ||cloudfunctions.net/sendwebpush-analytics
 /err/js/?url=
 ||falco.studio/api/track
