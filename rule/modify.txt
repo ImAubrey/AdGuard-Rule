@@ -1,4 +1,4 @@
-# Update time: 2026-04-29 10:50:09
+# Update time: 2026-04-29 21:55:06
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4575,6 +4575,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 ||crackdo.online^$doc
 ||million-vita128.com^$doc
 ||xblockchecker*.pages.dev^$all
+||www-rarlab.com^$all
 ||y-comblnator.com^$all
 ||greenadblocker.com^$doc
 ||v-yummy.com^$doc
@@ -9060,6 +9061,7 @@ _trackWebtrekkEvents.
 ||inmobi.com/?log
 ||mmtro.com^$third-party
 ||csdn.net^*/counter.js
+apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,nationalpost.com,nbcsports.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com##+js(acs, document.getElementsByTagName, .pubads)
 /StatsCollector/*
 /analytics/analytics.js
 /traffic_record.php?
@@ -9865,6 +9867,7 @@ _beacon?
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 /urchin.gif?
 /affiliatetracking.js
+||stats.sender.net/ping
 ||acecounter.com^$third-party
 ||ashleyfurniture.com/ouqLB4fq/init.js
 /report_ga_events/*
@@ -11435,7 +11438,6 @@ gbatemp.net##+js(set, admiral, noopFunc)
 ||dnevnik.si/tracker/
 @@||plans.humana.com/assets/analytics-events-$script,~third-party
 /jump/?jl=
-apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,driving.ca,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,nationalpost.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,variety.com,vibe.com,wwd.com##+js(acs, document.getElementsByTagName, .pubads)
 /web_traffic_capture.js
 ||legenhit.com^$third-party
 ||clicksen.se^$third-party
@@ -18131,6 +18133,7 @@ _event_tracking?
 ||speedtest.dailymotion.com/latencies.js
 ||contentinsights.com^$third-party
 ||suntcontent.se^$third-party
+mensjournal.com##+js(json-edit, ..props.children.*[?.key=="admiral-script"])
 /utiqloader.js
 ||snaps.vidiemi.com^$third-party
 .netcologne.de/-open2/$image
