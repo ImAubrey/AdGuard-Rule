@@ -1,4 +1,4 @@
-# Update time: 2026-04-30 10:51:57
+# Update time: 2026-04-30 21:53:06
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12058,7 +12058,6 @@ _ad_impression.
 ||dspgate.ru/pixel?
 ||bestpornsites.tv/i/js/extra/metrics.js
 /tracking.fanbridge.com/*
-||kindhush.com^$~xmlhttprequest
 ||innovateads.com^$third-party
 ||mlno6.com^$third-party
 ||keytiles.com^$third-party
@@ -18624,7 +18623,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /web_analytics/*
 ||soufun.com/stats/
 ||prudsys-rde.de^$third-party
-||kindhush.com^$redirect=noopjson,xmlhttprequest
 ||logaholic.com^$third-party
 ||waitrose.com/gDaVC7/
 ||trace-2000.com^$third-party

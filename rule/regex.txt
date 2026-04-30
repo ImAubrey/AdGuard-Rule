@@ -1,4 +1,4 @@
-# Update time: 2026-04-30 10:51:57
+# Update time: 2026-04-30 21:53:06
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1296,7 +1296,6 @@
 |err.taobao.com^
 |count.taobao.com^
 |crsoptimizer.conversionrate.store^
-|ad.broadstreetads.com^
 |adn-collector.voodoo-tech.io^
 |engine.lvehaisen.com^
 |rj.m.taobao.com^
