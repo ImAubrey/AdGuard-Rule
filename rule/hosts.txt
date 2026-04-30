@@ -1,4 +1,4 @@
-# Update time: 2026-04-29 21:55:06
+# Update time: 2026-04-30 10:51:57
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8637,6 +8637,7 @@
 0.0.0.0 bgre.kozow.com
 0.0.0.0 sync.credebat.com
 0.0.0.0 l.yieldmanager.net
+0.0.0.0 www.noithatphanthinh.com
 0.0.0.0 handbrake.es
 0.0.0.0 healthykids-food.com
 0.0.0.0 pl.web.toleadoo.com
@@ -9894,6 +9895,7 @@
 0.0.0.0 www.extreme-dm.com
 0.0.0.0 w126.hitbox.com
 0.0.0.0 ads.weather.ca
+0.0.0.0 www.miocardite.com
 0.0.0.0 join.pro-gaming-world.com
 0.0.0.0 banners.resultonline.com
 0.0.0.0 gntbcstwtsp.112.2o7.net
@@ -11684,6 +11686,7 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
+0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -16699,6 +16702,7 @@
 0.0.0.0 cguardai.com
 0.0.0.0 www.turn.com
 0.0.0.0 opentable.tt.omtrdc.net
+0.0.0.0 www.paseyourself.com
 0.0.0.0 www.myseostats.com
 0.0.0.0 wwb.hitbox.com
 0.0.0.0 whatishotnow.net
@@ -24889,7 +24893,6 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
-0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
