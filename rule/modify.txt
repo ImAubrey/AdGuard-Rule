@@ -1,4 +1,4 @@
-# Update time: 2026-05-01 11:21:13
+# Update time: 2026-05-01 21:17:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -14031,6 +14031,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||streem.com.au^$third-party
 ||app.qualified.com/*/sentry/
 /measure/pixel/*
+||ezoicanalytics.com/analytics.js
 @@||riverlink.etcchosted.com/widgets/com/mendix/widget/web/googletag/GoogleTag.js$~third-party
 ||mps.nbcuni.com/request/page/json/params/*&adunits=$xmlhttprequest
 /aptrk.js
@@ -14893,7 +14894,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||traders.co.kr/common/js/makePCookie.js
 ||simpli.fi^$third-party
 ||videostat.com^$third-party
-@@||wf.typesquare.com^$font,domain=morisawafonts.com
 /revinit.js
 ||k-analytix.com^$third-party
 /log/log.php?
@@ -18946,6 +18946,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /kaiseki/track.php?
 /dwanalytics-
 /t.paypal.com/*$image
+@@||wf.typesquare.com^$font,domain=app.studio.design|morisawafonts.com
 ||myroitracking.com^$third-party
 ||s.sofoot.com/script.js
 ||teltarif.de/scripts/ttt.js
