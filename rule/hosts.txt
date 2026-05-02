@@ -1,4 +1,4 @@
-# Update time: 2026-05-02 10:39:19
+# Update time: 2026-05-02 21:10:24
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11597,6 +11597,7 @@
 0.0.0.0 manntv.oewabox.at
 0.0.0.0 adexprts.com
 0.0.0.0 ms-home-live.com
+0.0.0.0 foreverprintco.com
 0.0.0.0 gcirm.cincinnati.com
 0.0.0.0 topconsumergifts.com
 0.0.0.0 protect-your-privacy.net
@@ -17594,6 +17595,7 @@
 0.0.0.0 objects.tremormedia.com
 0.0.0.0 adthru.com
 0.0.0.0 adxpose.com
+0.0.0.0 yanteaviation.com
 0.0.0.0 searscom.112.2o7.net
 0.0.0.0 ehg-qualcomm.hitbox.com
 0.0.0.0 y3.ifengimg.com
