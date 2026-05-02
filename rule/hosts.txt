@@ -1,4 +1,4 @@
-# Update time: 2026-05-01 21:17:04
+# Update time: 2026-05-02 10:39:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9157,6 +9157,7 @@
 0.0.0.0 advertere.zamunda.net
 0.0.0.0 track.msadcenter.vbug.com
 0.0.0.0 w110.hitbox.com
+0.0.0.0 www.caothusohoc.com
 0.0.0.0 imago-tv.fr
 0.0.0.0 geizhals.oewabox.at
 0.0.0.0 ads.youtube.com
@@ -12019,6 +12020,7 @@
 0.0.0.0 entrenador-personal.com
 0.0.0.0 gambero3.cs.tin.it
 0.0.0.0 dashingleather.com
+0.0.0.0 dentalfix.shop
 0.0.0.0 wrontonshatbona.pro
 0.0.0.0 jgen20.cjt1.net
 0.0.0.0 iq001.adtech.us
@@ -16040,6 +16042,7 @@
 0.0.0.0 www.xadsmart.com
 0.0.0.0 secure-za.imrworldwide.com
 0.0.0.0 pain-relief.1.p2l.info
+0.0.0.0 cloudalert.shop
 0.0.0.0 www.7500.com
 0.0.0.0 beacon-1.newrelic.com
 0.0.0.0 www.paidsecure.com
@@ -18915,6 +18918,7 @@
 0.0.0.0 immosuch.oewabox.at
 0.0.0.0 imgg.dt00.net
 0.0.0.0 tip-leisusports.com
+0.0.0.0 ppures.shop
 0.0.0.0 ads.servenobid.com
 0.0.0.0 ad.pickple.net
 0.0.0.0 lefirgaro.fr
