@@ -1,4 +1,4 @@
-# Update time: 2026-05-03 10:51:33
+# Update time: 2026-05-03 21:08:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9171,6 +9171,7 @@ apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,driv
 ||soska.us^$third-party
 /log?uuid=
 ||searchenginejournal.com/xcs0MhRsfxHG.js
+@@||public.profitwell.com^$domain=adblockplus.org|getadblock.com
 @@||cybozu.com/*/event.gif?$~third-party
 ||affilired.com^$third-party
 ||sortlist.cloud/log
