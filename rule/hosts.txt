@@ -1,4 +1,4 @@
-# Update time: 2026-05-03 21:08:52
+# Update time: 2026-05-04 10:49:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6823,6 +6823,7 @@
 0.0.0.0 coinzilla.io
 0.0.0.0 www.workschat.com
 0.0.0.0 sportupdates.info
+0.0.0.0 appfixing.space
 0.0.0.0 pcmuzic.com
 0.0.0.0 page-host.net
 0.0.0.0 www.shichihukuudon.com
@@ -11443,6 +11444,7 @@
 0.0.0.0 track.msadcenter.iuf.com
 0.0.0.0 thenewswire.fr
 0.0.0.0 85103.hittail.com
+0.0.0.0 pressmedieda.info
 0.0.0.0 dataidea.it
 0.0.0.0 clean-mobilephone.com
 0.0.0.0 www3.telus.net
@@ -12018,6 +12020,7 @@
 0.0.0.0 acsentia.fr
 0.0.0.0 entrenador-personal.com
 0.0.0.0 gambero3.cs.tin.it
+0.0.0.0 dashingleather.com
 0.0.0.0 dentalfix.shop
 0.0.0.0 wrontonshatbona.pro
 0.0.0.0 jgen20.cjt1.net
@@ -16567,6 +16570,7 @@
 0.0.0.0 stopsms.biz
 0.0.0.0 aka-cdn.adtechus.com
 0.0.0.0 jmvisuals.com
+0.0.0.0 bestadbid.com
 0.0.0.0 api.intentiq.com
 0.0.0.0 clicktracker.alloymarketing.com
 0.0.0.0 www.counter4.sextracker.be
@@ -17394,6 +17398,7 @@
 0.0.0.0 adlog.com.com # Used by Ziff Davis to serve 
 0.0.0.0 naturephotographie.fr
 0.0.0.0 viriginradio.fr
+0.0.0.0 cnrfms.pro
 0.0.0.0 cdn.freejars.com
 0.0.0.0 kabookk.fr
 0.0.0.0 oascentral.theonion.com
@@ -18174,6 +18179,7 @@
 0.0.0.0 adsload.co
 0.0.0.0 media8.popmarker.com
 0.0.0.0 sunny.oewabox.at
+0.0.0.0 app2.letmacworkfaster.site
 0.0.0.0 gamerz123.com
 0.0.0.0 foxsimpsons.112.2o7.net
 0.0.0.0 izmsj.co.jp
@@ -19903,7 +19909,6 @@
 0.0.0.0 lomtalay.com
 0.0.0.0 shopstickersbysandstone.com
 0.0.0.0 sandpiperchorus.us
-0.0.0.0 appfixing.space
 0.0.0.0 fhginformatica.com
 0.0.0.0 weboriginal.eu
 0.0.0.0 comistus.net
@@ -25244,7 +25249,6 @@
 0.0.0.0 sundbirsta.com
 0.0.0.0 nhhyxorxbxarxe.org
 0.0.0.0 transmercasa.com
-0.0.0.0 dashingleather.com
 0.0.0.0 52uo5k3t73ypjije.5kb3dl.top
 0.0.0.0 iomf.ch
 0.0.0.0 probudise.com
@@ -30024,7 +30028,6 @@
 0.0.0.0 emilychoy.com
 0.0.0.0 choopchirk.net
 0.0.0.0 drdianateachertraining.com
-0.0.0.0 bestadbid.com
 0.0.0.0 clariter.com
 0.0.0.0 unocl45trpuoefft.on2420.bid
 0.0.0.0 bha-group.eu
@@ -31738,7 +31741,6 @@
 0.0.0.0 omniworxinc.com
 0.0.0.0 theprick5k.com
 0.0.0.0 iphonewallpaperclub.com
-0.0.0.0 app2.letmacworkfaster.site
 0.0.0.0 tkustom.it
 0.0.0.0 gourmetlimes.com
 0.0.0.0 miel-maroc.com
