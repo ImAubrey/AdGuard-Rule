@@ -1,4 +1,4 @@
-# Update time: 2026-05-04 10:49:08
+# Update time: 2026-05-04 21:59:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10730,6 +10730,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /gc?refurl=
 $ping,third-party
 ||smartzonessva.com^$third-party
+||kindhush.com^$redirect=noopjs,script
 ||gostats.ru^$third-party
 ||gostats.vn^$third-party
 ||rudder-server-prd.arena.im/v1/track
