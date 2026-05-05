@@ -1,4 +1,4 @@
-# Update time: 2026-05-04 21:59:04
+# Update time: 2026-05-05 10:41:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11411,7 +11411,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||topstat.cn^$third-party
 /tealeaf.min.js
 ||stats2.algo.at^$third-party
-gbatemp.net##+js(set, admiral, noopFunc)
 ||adyen.com/checkoutshopper/v2/analytics/log?
 ||scriptshead.com^$third-party
 ||authedwebmine.cz^$third-party,domain=~webmine.cz
@@ -14964,6 +14963,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||pendo.io/data/ptm.gif/
 ||scribd.com/api/v1/events
 /tracking/digitaldata.js
+247sports.com,al.com,arstechnica.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,cleveland.com,collider.com,comingsoon.net,crooksandliars.com,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,masslive.com,mlive.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,oregonlive.com,pennlive.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,silive.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
 /wix-engage-visitors-
 /elqscr.js
 ||hqq.ac/cdn-cgi/trace
@@ -18491,7 +18491,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /jquery.browser-fingerprint-
 ||propelbon.com^$third-party
 ||britepool.com^$third-party
-247sports.com,al.com,arstechnica.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,cleveland.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,masslive.com,mlive.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,oregonlive.com,pennlive.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,silive.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
 ://plausible.*/js/script.
 /logging/pageView
 ||azurewebsites.net^*/telemetry.js
@@ -18587,6 +18586,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /eo?_t=$image
 ||dropbox.com/alternate_
 ||thoughtmetric.io^$third-party
+gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 .imgur.com/lumbar.gif
 /trk?t=$image
 ||tracker.netklix.com^$script
