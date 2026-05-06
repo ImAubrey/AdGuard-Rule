@@ -1,4 +1,4 @@
-# Update time: 2026-05-06 10:47:06
+# Update time: 2026-05-06 22:09:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7648,7 +7648,6 @@ reuters.com##+js(aost, admiral, .js?)
 /collect?r=
 ||thewise.com^$third-party
 ||tradingview.com/ping
-edmontonsun.com,nj.com,syracuse.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ||recobell.io/rest/logs?
 ||native.ai^$third-party
 ||storygize.net^$third-party
@@ -9259,6 +9258,7 @@ _trackWebtrekkEvents.
 /*JmVu.js?sp=
 /at.gif?
 ||luminate.com/track/
+attackofthefanboy.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,nj.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 /uem-ep.js
 ||sealmetrics.com^$third-party
 /cxense-entitlement.js
@@ -9353,6 +9353,7 @@ _beacon?
 ||modanisa.com/al/j/analytics.js
 ||rakuten.co.jp/com/js/omniture/
 ||indeed.com/cmp/_rpc/flog
+||static.shopmy.us/Affiliates/sms_aff_clicktrack.js
 /iris-t.js
 ||butterfly-api.masterworks.com/v1/
 ||iyi.net^$third-party
@@ -18790,6 +18791,7 @@ gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 ||services.haaretz.com/ms-gstat-campaign/
 ||feedperfect.com^$third-party
 ||silimbompom.com^$third-party
+@@||cdn.petametrics.com/*-nbc.js$script,domain=bringmethenews.com
 ||optimierung-der-website.de^$third-party
 /scripts/click.js.php
 ||data-dynamic.net^$third-party
