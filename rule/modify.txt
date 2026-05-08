@@ -1,4 +1,4 @@
-# Update time: 2026-05-07 22:06:33
+# Update time: 2026-05-08 10:52:05
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11010,6 +11010,7 @@ $ping,third-party
 ||qualtrics.com/WRSiteInterceptEngine/$third-party
 ||aftonbladet.se/cnp-assets/glimr-sdk.js
 /openpixel.js
+||target2sell.mirakl.net^$third-party
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 ||heymatic.com^$third-party
 ||fr.shopping.rakuten.com/rakuten-static-deliver/mob/*/js/track.js
@@ -11970,6 +11971,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|ringcentral.com|screwfix.com|secure.coventrybuildingsociety.co.uk|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 ||105app.com^$third-party
 ||reallyfreegeoip.org^$third-party
+/CI0/0$image
 ||wowow.co.jp/API/new_prg/get_tracking_url.php
 ||rumble.com/l/
 &event_name=view_item_list&
@@ -14192,7 +14194,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 /rm-gtm-google-analytics-for-wordpress/js/gtm-player.js
 ||mp.weixin.qq.com/mp/report?
 ||tildacdn.com/pixel.png
-||mirakl.net^$third-party
 /ssl-intgr-net/*
 ||logz.ru^$third-party
 ||oe-static.de^*/wws.js
@@ -14781,7 +14782,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||speee-ad.jp^$third-party
 ||julius.ai/monitoring
 ||maxmind.com/geoip/$third-party
-://line.karte.io/CI0/$image
 ||evergage.com^$third-party
 ||kaufland.de/uts/events/
 ||tianxun.com/ajax_website_statistics.
