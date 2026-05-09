@@ -1,4 +1,4 @@
-# Update time: 2026-05-08 21:45:38
+# Update time: 2026-05-09 10:46:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3709,6 +3709,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 ||electrum.is^$doc
 ||app-ledger-desktop.wasmer.app^$all
 ||fr-instagram.com^$all
+||safeageplan.link^$all
 ||riarialuvluv2023.com^$doc
 ||mysign-mircrosoft.com^$all
 ||one-sunnyday.com^$doc
@@ -7701,6 +7702,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||yelp.com/spice?
 ||freehitscounter.org^$third-party
 ||youku.com/log/
+||l.euronews.com/sdk.js
 ||ideoclick.com^$third-party
 /RecordClick.js
 .jp/pv?
@@ -10878,6 +10880,7 @@ $ping,third-party
 ||fortvision.com^$third-party
 ||elitesingles.com/cs/tp.png?
 .crsend.com/stats/$image
+@@||dd.subito.it.first-party-js.datadome.co^$script,xmlhttprequest,domain=areariservata.subito.it
 ||ehub.cz^$third-party
 ||adsmoloco.com^$third-party
 ||change.org/api-proxy/-/bandit/pull
