@@ -1,4 +1,4 @@
-# Update time: 2026-05-13 11:23:07
+# Update time: 2026-05-13 22:31:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5592,6 +5592,7 @@ windowsreport.com##.code-block
 ||revanced.$all,from=~revanced.app,to=~revanced.app
 ||upbitbr.$all
 ||line-channel-info.com^$doc
+||sagou.com.cn^$all
 ||mybluehost.me/seitech/$doc
 /^https?:\/\/www\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?\.com\/o-[a-z][a-z][a-z][a-z]-[a-z][0-9][0-9]-[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]$/$doc,match-case,to=com
 ||sites.google.com/view/newext$doc
@@ -8546,6 +8547,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /mongoose.fp.js
 ||drupal.org/VnPBBfwe/init.js
 .hash.outbound-links.js
+||ekitan.com/cmn/js/ekitan.log.js
 ||vcita.com/tr_
 ||get4click.ru^$third-party
 ||domainit.com/scripts/track.js
@@ -9951,6 +9953,7 @@ attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalis
 ||idmsa.apple.com/appleauth/jslog
 ||revcatch.com^$third-party
 ||tradablebits.com/pixels/
+||public.tableau.com/inst?v=
 ||provenpixel.com^$third-party
 ||data.cheatography.com/banana.js
 .intercom-mail.com/via/$image
@@ -12656,7 +12659,6 @@ accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crun
 /webdig.js
 ||hittracker.org/count.php
 @@||palmettostatearmory.com/static/$script,~third-party
-@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||moneypartners.co.jp/web/*/fingerprint.js$~third-party
 /log.aspx?
 ||evorra.net^$third-party
@@ -13021,6 +13023,7 @@ abc17news.com,al.com,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwi
 ||akanoo.com^$third-party
 ||pdffiller.com/click-stream/
 /track/pixel/*
+||public.tableau.com/public/apis/audit-event
 ||envato.market/i/
 ||joggo.run/api/events
 @@||clarity.ms/tag/$script,domain=craiovaforum.ro
@@ -13548,7 +13551,6 @@ _logHuman=
 ||webengage.com^$third-party
 ||visualwebsiteoptimizer.com/cdn/analysis/
 ||t.7sur7.be^$image
-@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|handelsblatt.com|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
 ||enviou.com.br^$third-party
 /wp-content/tracker.js
 ||dormtherapy.com/jAYekY18/init.js
@@ -13591,6 +13593,7 @@ _logHuman=
 ||wogaa.sg/scripts/wogaa.js
 ||slack.com/clog/track/
 /api/v2/jsonlogger
+@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 ||sitetracker.com^$third-party
 ||scribol.com/traffix/widget_tracker/
 ||sc.g-cdn.net/tracker/gsms.js
@@ -15478,7 +15481,6 @@ _view_pixel&$image
 /google_tracker.js
 ||walla.co.il/CountsHP.asp?
 ||clickcease.com^$third-party
-@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|inquirer.com|mainichi.jp|marketwatch.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
 /_mzblank.gif?
 @@||swa.mail.ru/cgi-bin/counters?$script
 ||skiphop.com/0F3091f3/init.js
@@ -16631,6 +16633,7 @@ _track_pixel.gif?
 /LogAmpHit?
 ||webstats4u.com^$third-party
 ||streamadblocker.cc/stat/
+@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
 ||youle55.com^$third-party
 /r/collect?
 ||trafikkfondet.no^$third-party
@@ -17010,6 +17013,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||dbfocus.jp^$third-party
 /counter5.min.js
 ||attn.tv^*/dtag.js
+@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|hochi.news|inquirer.com|mainichi.jp|marketwatch.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
 ||jeremiahlee.com/fanboynz.js
 ||websiteperform.com^$third-party
 ||run.app/api/pixel-event
