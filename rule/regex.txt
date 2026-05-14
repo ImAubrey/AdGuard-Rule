@@ -1,4 +1,4 @@
-# Update time: 2026-05-14 11:24:26
+# Update time: 2026-05-14 22:09:54
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -54,7 +54,7 @@
 ||avito.avito.www.avito.
 ||avito.avito.avito.
 ||yandex.pay.avito.
-||verify-att.app.^
+||httpdns.*^$important
 ||bc.geocities.
 ||stw.extreme-down.
 ||collector-*.luigisbox.com^
@@ -90,7 +90,6 @@
 ||aviasales.*-analytics.
 %2Fevent.gif%3F
 ||df.infra.shopee.
-||httpdns.*^$important
 ||da.hornbach.*^
 ||dm-*.toutiao.com^
 ||adsystem*.*^
@@ -182,7 +181,6 @@
 |mixers.sina.cn^
 |mbdlog.iqiyi.com^
 |inst.360safe.com^
-|cnc.fe01.lg.xiaomi.com^
 |bingads.microsoft.com^
 |floor.bz.mgtv.com^
 |stat.loli.net^
@@ -191,7 +189,6 @@
 |livep.l.qq.com^
 |update.9mod.com^
 |mixern.sina.cn^
-|static.m.sjzhushou.com^
 |adashx.ut.amap.com^
 |cwa.html.zone^
 |tnc3-aliec2.zijieapi.com^
@@ -216,7 +213,6 @@
 |ad.bayescom.com^
 |adsfilebssdlbig.ali.kugou.com^
 |tracking.*.miui.com^
-|mibi.xiaomi.com^
 |device-metrics-us.amazon.com^
 |mobilelog.kugou.com^
 |iflow.uczzd.cn^
@@ -227,7 +223,6 @@
 |masdk.3g.qq.com^
 |ulogjs.gifshow.com^
 |pg-ad-b1.ws.126.net^
-|sg.a.stat.mi.com^
 |resolver.msg.xiaomi.net^
 |vstat.v.blog.sohu.com^
 |wbapp.uve.weibo.com^
@@ -266,13 +261,10 @@
 |btrace.video.qq.com^
 |pl.cp31.ott.cibntv.net^
 |vip.bz.mgtv.com^
-|mibi.api.xiaomi.com^
 |iad0ssl.pcauto.com.cn^
-|ctc.fe02.c3.xiaomi.com^
 |doh.zjurl.cn^
 |ad.cyapi.cn^
 |events-analytics.apple.com^
-|test.xiaomi.com^
 |crash.163.com^
 |ads3-normal-lq.zijieapi.com^
 |analytics-js-cdn.liferay.com^
@@ -311,13 +303,12 @@
 |oppo.yidianzixun.com^
 |notice.iqiyi.com^
 |api-scout.vercel.app^
-|shenghuo.xiaomi.com^
 |cre.dp.sina.cn^
 |ads.sina.com^
 |eaus2watcab01.blob.core.windows.net^
-|huodong.xiaomi.com^
 |iflow.uczzd.net^
 |click.hd.sohu.com.cn^
+|osb.samsungqbe.com^
 |lb.l.qq.com^
 |tpns.qq.com^
 |api-ads.tiantianqutao.com^
@@ -341,17 +332,16 @@
 |du.163.com^
 |huichuan-mc.sm.cn^
 |ads.mojicdn.com^
-|info.analysis.kp.sec.miui.com^
 |tdc.qq.com^
 |dns.qiyipic.iqiyi.com^
 |vbk-reb0rn.ddns.net^
 |drd.hauchi.com.tw^
+|otn.samsungcloudcdn.com^
 |ttnet-doh.feishu.cn^
 |miniapp-ad.cdn.bcebos.com^
 |api.d.xiaomi.com^
 |pub.elevate14r.com^
 |edgecast-vod.yahoo.net^
-|fe02.lg.xiaomi.com^
 |api.adxpand.com^
 |yt-adv.bn.netease.com^
 |adpm.app.qq.com^
@@ -375,6 +365,7 @@
 |report.idqqimg.com^
 |a0.app.xiaomi.com^
 |ping.ifixit.com^
+|fkp.samsungcloudsolution.net^
 |jswebcollects.kugou.com^
 |acfeedbackws.icloud.com^
 |androidgo.duapp.com^
@@ -390,6 +381,7 @@
 |show.re.taobao.com^
 |sdk.m.youku.com^
 |stats.adityathebe.com^
+|oempprd.samsungcloudsolution.com^
 |badjs.weixinbridge.com^
 |rm.sina.com.cn^
 |ads.data.pplive.com^
@@ -397,6 +389,7 @@
 |d179kwmlpc4o47.cloudfront.net^
 |calopenupdate.comm.miui.com^
 |orbit.jd.com^
+|d2tnx644ijgq6i.cloudfront.net^
 |ifengad.3g.ifeng.com^
 |ad.zuimeitianqi.com^
 |test.ark.letv.com^
@@ -434,14 +427,12 @@
 |rt.funshion.net^
 |adlog.vivo.com.cn^
 |report.tv.kohesport.qq.com^
-|phonecallapi.micloud.xiaomi.net^
 |js.iterable.com^
 |adimg.uve.weibo.com^
 |alimelog.taobao.com^
 |vstat.my.tv.sohu.com^
 |vapi.tiandi.com^
 |httpdns-ocloud.heytapmobile.com^
-|hd02.lg.xiaomi.com^
 |api.touchxd.com^
 |mqtt.zhihu.com^
 |cc.map.qq.com^
@@ -461,7 +452,6 @@
 |tnc0-alisc1.zijieapi.com^
 |ada.baidu.com^
 |jqmt.qq.com^
-|pmall.migc.xiaomi.com^
 |delivery-pc.wasu.cn^
 |image.box.xiaomi.com^
 |udns.weixin.qq.com^
@@ -480,9 +470,9 @@
 |watson.live.com^
 |bs.l.qq.com^
 |ecmc.bdimg.com^
-|test.api.xlmc.sandai.net^
 |httpdns.kwd.inkuai.com^
 |onecollector.cloudapp.aria.akadns.net^
+|gpm.samsungqbe.com^
 |rc-topic-api.bz.mgtv.com^
 |trace2.rtbasia.com^
 |livem.l.qq.com^
@@ -498,7 +488,6 @@
 |adslvfile.qq.com^
 |ad-r.soulapp.cn^
 |preview.msn.com^
-|sfsapi.micloud.xiaomi.net^
 |pl.cp12.wasu.tv^
 |durdcn.doglobal.net^
 |httpdns.yunxindns.com^
@@ -535,19 +524,16 @@
 |idm-su.baidu.com^
 |api.hybrid.xiaomi.com^
 |ad.360in.com^
-|meihua.xiaomi.com^
 |pindao.huoban.taobao.com^
 |kde.qq.com^
 |click-bes.baidu.com^
 |api.g.micloud.xiaomi.net^
-|hk.mibi.xiaomi.com^
 |img-x.jd.com^
 |f7.market.xiaomi.com^
 |miui-fxcse.avlyun.com^
 |ad.21cn.com^
 |mlog.hiido.com^
 |traffic.mogujie.com^
-|blog.xiaomi.com^
 |guanggaoad.youku.com^
 |topapi.cp12.wasu.tv^
 |c.kuaiduizuoye.com^
@@ -560,17 +546,18 @@
 |iad.g.163.com^
 |api2.e.kuaishou.com^
 |adgeo.163.com^
+|samsung-klimatyzacja.pl^
 |d2.sinaimg.cn^
 |httpdns.kg.qq.com^
 |ceuswatcab01.blob.core.windows.net^
 |log.tidbcloud.com^
 |dsa-mfp.fengshows.cn^
 |adapi.izuiyou.com^
-|staging.admin.e.mi.com^
 |up.zpic.biz^
 |ad-cache.dopool.com^
 |ad.api.moji.com^
 |f4.market.xiaomi.com^
+|d1oxlq5h9kq8q5.cloudfront.net^
 |apd-pcdnwxlogin.teg.tencent-cloud.net^
 |d0.sinaimg.cn^
 |d2.sina.com.cn^
@@ -585,7 +572,6 @@
 |lxcdn.dl.files.xiaomi.net^
 |acs.56.com^
 |adcore.lenovomm.com^
-|ssl-cdn.static.browser.mi-img.com^
 |yaolu.yuedu.163.com^
 |ana.masky.biddingx.com^
 |adx.hupu.com^
@@ -599,13 +585,13 @@
 |r.dmp.sina.com.cn^
 |jobs.date-fns.org^
 |1oavsblobprodcus350.blob.core.windows.net^
-|cc.sys.intl.xiaomi.com^
 |api-analytics-cn.huami.com^
 |bk01.hh.xiaomi.com^
 |httpdns.bcelive.com^
 |sdfp.snssdk.com^
 |adstore-index-1252524079.file.myqcloud.com^
 |httpdns.platform.dbankcloud.cn^
+|osb-krsvc.samsungqbe.com^
 |ad-sh-sz-zb.wagbridge.tanx.alimama.com^
 |tmeadquic.y.qq.com^
 |store.iqiyi.com^
@@ -613,10 +599,8 @@
 |adver.qq.com^
 |d3g.qq.com^
 |qappcenterv6.3g.qq.com^
-|micardapi.micloud.xiaomi.net^
 |api.yuedu.iqiyi.com^
 |qapm.baidu.com^
-|api.hybrid.intl.xiaomi.com^
 |ylog.hiido.com^
 |adx.hzbxm.com^
 |ad.sinovision.net^
@@ -658,7 +642,6 @@
 |simba.m.taobao.com^
 |apiv4-iyes.youku.com^
 |ctr.hd.sohu.com^
-|contactapi.micloud.xiaomi.net^
 |analytics.immersivetranslate.com^
 |view.html.zone^
 |ac.dun.163yun.com^
@@ -704,10 +687,9 @@
 |httpdns-browser.platform.dbankcloud.cn^
 |clkservice2.dict.youdao.com^
 |crashstats-collector-2.opera.com^
-|tc.hd.xiaomi.com^
 |kepler.jd.com^
+|samsungeurope.eu.qualtrics.com^
 |vs.funshion.com^
-|migrate.driveapi.micloud.xiaomi.net^
 |awaken.amap.com^
 |stat.10jqka.com.cn^
 |ad.thsi.cn^
@@ -730,9 +712,7 @@
 |log.b612kaji.com^
 |doh.iqiyi.com^
 |l6urqh27.sina.cn^
-|sousuo.xm.sjzhushou.com^
 |d3ddidv77grh0f.cloudfront.net^
-|xiaomiir.yaokantv.com^
 |affportal.bhphoto.com^
 |afdconf.baidu.com^
 |qn-cdnfile1pcdn.msstatic.com^
@@ -749,6 +729,7 @@
 |ivy.pchouse.com.cn^
 |scene.vip.xunlei.com^
 |simba.6.cn^
+|lcprd1.samsungcloudsolution.net^
 |adsfile.bssdlbig.kugou.com^
 |adsz.wagbridge.tanx.alimama.com^
 |adsview.qq.com^
@@ -756,12 +737,12 @@
 |log.web.kugou.com^
 |dr.netease.im^
 |mcfg.sandai.net^
+|pcm-img.zhls.qq.com^
 |im-x.jd.com^
 |dyp2p-*.douyucdn.cn^
 |gvideo.qpic.cn^
 |nmbr.info^
 |httpdns.zybang.com^
-|mp.huangye.miui.com^
 |adimg.daumcdn.net^
 |ad.obuy.tw^
 |ad3.sina.com.cn^
@@ -784,7 +765,6 @@
 |vs.biz.weibo.com^
 |h.msn.com^
 |adapi.yynetwk.com^
-|weatherapi.market.xioami.com^
 |tab.volces.com^
 |crs.baidu.com^
 |httpdns-push.heytapmobile.com^
@@ -851,14 +831,12 @@
 |news-l.play.ott.video.qq.com^
 |stun1.douyucdn.cn^
 |xadx.file.market.xiaomi.com^
-|imgg.traffic-media.co^
 |umami.ubports.com^
 |livec.l.qq.com^
 |dns.iqiyi.com^
 |d.xiaomi.com^
 |cps.360buy.com^
 |adm.funshion.com^
-|userid.xiaomi.com^
 |sax2.sina.com.cn^
 |qchannel04.cn^
 |d1e1rbybdt265x.cloudfront.net^
@@ -898,18 +876,16 @@
 |alicoccdnct-xn.inter.71edge.com^
 |applogapi.autohome.com.cn^
 |adshow.58.com^
-|fe05.lg.xiaomi.com^
 |ppvabs.pplive.com^
 |u1.img.mobile.sina.cn^
 |api-ad.kajicam.com^
 |httpdnsmultiapi.meituan.com^
 |udata.namespace.so^
+|lcprd2.samsungcloudsolution.net^
 |feedbackws.icloud.com^
 |paopao0.qiyipic.com^
 |advertising-api-eu.amazon.com^
 |adimg3.search.naver.net^
-|video.xiaomi.com^
-|qiye.xiaomi.com^
 |credits2.bz.mgtv.com^
 |line3-h5-mobile-api.biligame.com^
 |spynetalt.microsoft.com^
@@ -923,6 +899,7 @@
 |video.market.xiaomi.com^
 |pv.dakawm.cc^
 |soul-ad.soulapp.cn^
+|samsung3.solution.weborama.fr^
 |msg.youku.com^
 |misc.wcd.qq.com^
 |splashimgbssdl.yun.kugou.com^
@@ -980,8 +957,8 @@
 ||tracking.*.miui.com^
 |httpdns.ocloud.oppomobile.com^
 |t.yesware.com^
+|fkp.samsungcloudsolution.com^
 |log.mmstat.com^
-|huosai.xiaomi.com^
 |timeserver.cnzz.net^
 |ad.hiiir.com^
 |msg.iqiyi.com^
@@ -999,9 +976,7 @@
 |dns2.q2cdn.com^
 |slog.sina.com.cn^
 |iflyad.bj.openstorage.cn^
-|ctc.fe01.c3.xiaomi.com^
 |da.mmarket.com^
-|bgp.fe01.c3.xiaomi.com^
 |analytics.newgenre.studio^
 |crab.baidu.com^
 |emoticon.sns.iqiyi.com^
@@ -1031,7 +1006,6 @@
 |pl.youku.com^
 |sax7.sina.com.cn^
 |adm.meiguo.com^
-|xiazai.xiaomi.com^
 |tmfsdk.m.qq.com^
 |p2pchunk-*.douyucdn.cn^
 |browserkernel.baidu.com^
@@ -1039,11 +1013,9 @@
 |us.l.qq.com^
 |popup.msn.com^
 |d7.sinaimg.cn^
-|heyue.xiaomi.com^
 |offnavi.map.baidu.com^
 |tw13b093.sandai.net^
 |o2oad.elemecdn.com^
-|i.xiaomi.com^
 |dns.weibo.cn^
 |s.snmi.cn^
 |pv.zol.com.cn^
@@ -1055,8 +1027,8 @@
 |ad-h5-station-cdn.soulapp.cn^
 |splashqqlive.gtimg.com^
 |httpdns.platform.dbankcloud.com^
+|acr0.samsungcloudsolution.com^
 |crashlytics.163.com^
-|xitong.xiaomi.com^
 |adx.maplehaze.cn^
 |alicoccdncnc-xn.inter.71edge.com^
 |scx.ddns.net^
@@ -1066,16 +1038,17 @@
 |analytics-pilot.kaggle.com^
 |optimus-ads-ykx.amap.com^
 |ads.eu.msn.com^
+|t.email1.samsung.ca^
 |xblgdvrassets3010.blob.core.windows.net^
 |hwpub-s01-drcn.cloud.dbankcloud.cn^
 |fbapi.guguread.com^
 |oct.pocoiq.cn^
+|s.w-x.co^
 |topapi.cp12.ott.cibntv.net^
 |d3.sinaimg.cn^
 |saxn.sina.com.cn^
 |jpush.html5.qq.com^
 |tnc3-bjlgy.zijieapi.com^
-|api.chat.xiaomi.net^
 |sa.api.intl.miui.com^
 |susapi.lenovomm.com^
 |app01.nodes.gslb.mi-idc.com^
@@ -1149,11 +1122,9 @@
 |splashimgretrybssdl.cloud.kugou.com^
 |credits.bz.mgtv.com^
 |stun*.douyucdn.cn^
-|static.mibi.xiaomi.com^
 |ggx.cmvideo.cn^
 |gecko-hl.snssdk.com^
 |xladapi.izuiyou.com^
-|ccc.sys.intl.xiaomi.com^
 |wkrd.tingyun.com^
 |vali.cp31.ott.cibntv.net.302.myalicdn.com^
 |user.ground.news^
@@ -1169,7 +1140,6 @@
 |mclick.simba.taobao.com^
 |umami.rss3.io^
 |e.pubtailer.com^
-|hd.xiaomi.com^
 |ads.95516.com^
 |adv.ccb.com^
 |api.e.kuaishou.com^
@@ -1193,6 +1163,7 @@
 |ad.caiyunapp.com^
 |v16.56.com^
 |cdn.24metrics.com^
+|osb-ussvc.samsungqbe.com^
 |ads-marketing-vivofs.vivo.com.cn^
 |applog-perf.uc.cn^
 |ggx03.miguvideo.com^
@@ -1202,7 +1173,6 @@
 |gtm.oasisfeng.com^
 ||data^
 |adashbc.m.taobao.com^
-|tv.app.migc.xiaomi.com^
 |abtest-ch.snssdk.com^
 |ads5-normal-hl.zijieapi.com^
 |mclean.cloud.360safe.com^
@@ -1243,7 +1213,6 @@
 |adsh.wagbridge.tanx.alimama.com^
 |ad.api.3g.youku.com^
 |zzy1.quyaoya.com^
-|order.music.xiaomi.com^
 |display.360totalsecurity.com^
 |acstatic-dun.126.net^
 |resolver.mi.xiaomi.com^
@@ -1254,7 +1223,6 @@
 |js.partnerstack.com^
 |ceuswatcab02.blob.core.windows.net^
 |pdc.micloud.xiaomi.net^
-|url8807.global.passport.xiaomi.com^
 |paopao-monitor.iqiyi.com^
 |aedns.weixin.qq.com^
 |dns.weixin.qq.com^
@@ -1303,7 +1271,6 @@
 |ggx10.miguvideo.com^
 |openjmacs.m.taobao.com^
 |trends.mobile.sina.cn^
-|sstc.ngrok.xiaomiqiu.cn^
 |ssp1.kfadx.tech^
 |kgmobilestatbak.kugou.com^
 |analytics.lucide.dev^
@@ -1323,12 +1290,10 @@
 |onlycash.ddns.net^
 |iadmatapk.nosdn.127.net^
 |adxlog.vivo.com.cn^
-|secode2.hd.xiaomi.com^
 |inside.rtbasia.com^
 |appuu.cn^
 |mon-va.byteoversea.com^
 |ls.l.qq.com^
-|app.migc.xiaomi.com^
 |adsh.wagbridge.taobao.alimama.com^
 |d3ahinqqx1dy5v.cloudfront.net^
 |adsh.m.taobao.com^
@@ -1345,12 +1310,13 @@
 |kuaikan.netmon.360safe.com^
 |analytics.msn.com^
 |vd.l.qq.com^
-|mis.migc.xiaomi.com^
+|api-hub.samsungyosemite.com^
 |analytics3.dopool.com^
 |adx.sogaha.cn^
 |log.byteoversea.com^
 |h-adashx.ut.youku.com^
 |tongji.meizu.com^
+|a460.cell.phone.ringtone.samsung.sms13.de^
 |37bvsblobprodcus311.blob.core.windows.net^
 |web-track.go2yd.com^
 |quickaplus-server-api-cn-zhangjiakou.aliyuncs.com^
@@ -1362,7 +1328,6 @@
 |api.ts.feedback.qy.net^
 |sdkapp.uve.weibo.com^
 |stat.dns.sb^
-|trial.api.huangye.miui.com^
 |yaolu.mh.163.com^
 |openpanel.follow.is^
 |report.yumobi.cn^
@@ -1377,7 +1342,6 @@
 |msg.video.qiyi.com^
 |analytics.workos.com^
 |free-aos-cdn-image.amap.com^
-|m.sjzhushou.com^
 |paopao2.qiyipic.com^
 |click.qianqian.com^
 |wbclick.mobile.sina.cn^
