@@ -1,4 +1,4 @@
-# Update time: 2026-05-14 22:09:54
+# Update time: 2026-05-15 11:27:57
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -54,6 +54,7 @@
 ||avito.avito.www.avito.
 ||avito.avito.avito.
 ||yandex.pay.avito.
+||verify-att.app.^
 ||httpdns.*^$important
 ||bc.geocities.
 ||stw.extreme-down.
@@ -737,7 +738,6 @@
 |log.web.kugou.com^
 |dr.netease.im^
 |mcfg.sandai.net^
-|pcm-img.zhls.qq.com^
 |im-x.jd.com^
 |dyp2p-*.douyucdn.cn^
 |gvideo.qpic.cn^
