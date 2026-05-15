@@ -1,4 +1,4 @@
-# Update time: 2026-05-15 11:27:57
+# Update time: 2026-05-15 22:05:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9962,6 +9962,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||rtoaster.jp/Rtoaster.js$domain=peachjohn.co.jp|satofull.jp
 ||trackingca.com^$third-party
 ||cloudfilt.com/analyz.js
+||fomo.azurewebsites.net/activity/batchTrack
 ||taplytics.com^$third-party
 ||researchnow.co.uk^$third-party,domain=~dynata.com
 ||segment.io^$third-party
@@ -10037,6 +10038,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 @@||odb.outbrain.com/utils/get?url=$script,domain=cnn.com
 @@||tvcom-static.ssl.cdn.cra.cz/*/videojs.ga.js$script,domain=tvcom.cz
 /collect/kasupport
+||etfstream.com/api/analytics/
 /i.png?id=
 /gp/r.html?$image
 ||clickpathmedia.com^$third-party
@@ -16495,6 +16497,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 @@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 /api/datafast/*
 ||k.p-n.io/event-stream
+||etfstream.com/api/proxy/get-search-sponsor
 ||exe.bid^$third-party
 ||email-reflex.com^$third-party
 ||wsimg.com/signals/$script,third-party
