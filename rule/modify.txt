@@ -1,4 +1,4 @@
-# Update time: 2026-05-17 11:24:04
+# Update time: 2026-05-17 21:19:14
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1660,7 +1660,6 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||makenoads.com^$all
 ||mgirl.jp^$doc
 /^https:\/\/mbdk\d+\.com\//$doc,to=com|~mbbank.com.vn
-||599cdn.com/Philippines/ph*.jpg$image,domain=top
 ##.fkrc-verifywin-window
 ||xyz/akbank/$doc
 ||nvcleanstal.$doc
@@ -4568,6 +4567,7 @@ windowsreport.com##.code-block
 ||gamingnewsanalyst.com^$all
 /wp-content/plugins/custom-login-styler/cls-script.js
 ||manpuku-ja.com^$doc
+||mkvtoolnix.org^$doc
 ||helpwithledgerdevice.com^$doc
 ||support-center-for-*.vercel.app^$all
 ||bitvavo*.cc^$doc
