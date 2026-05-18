@@ -1,4 +1,4 @@
-# Update time: 2026-05-18 11:37:59
+# Update time: 2026-05-18 23:30:24
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7259,7 +7259,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /mongoose.fp.js
 ||drupal.org/VnPBBfwe/init.js
 .hash.outbound-links.js
-||ekitan.com/cmn/js/ekitan.log.js
 ||vcita.com/tr_
 ||get4click.ru^$third-party
 ||domainit.com/scripts/track.js
@@ -9121,6 +9120,7 @@ abema.tv##+js(rmnt, script, NREUM)
 /eventLog.ajax
 /com_joomlawatch/img.php
 ||grabnetworks.com/ping?
+||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com|skinny.co.nz
 ||sitemaji.com/nownews.php?
 /evercookie.js
 ||captify.co.uk^$third-party
@@ -14991,7 +14991,6 @@ _track_pixel.gif?
 ||truehits1.gits.net.th^$third-party
 /umg-analytics/umgaal.min.js
 /ntpagetag.gif
-||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com
 /ClickTrack.js
 .com/g.gif?
 /stat?sid=
@@ -15653,6 +15652,7 @@ visible.com##+js(set-local-storage-item, browser-ids, $remove$)
 bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||plausible-analytics.xyz^$third-party
 ||s.pixfs.net/js/pixlogger.min.js
+||nresystems.com^$third-party
 @@||soundcore.com/metrics/gtd?id=$script,~third-party
 ||synthasite.net^$third-party
 ||wccftech.com/cnt7vfDVvWa3.js

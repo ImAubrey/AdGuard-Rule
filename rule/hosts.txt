@@ -1,4 +1,4 @@
-# Update time: 2026-05-18 11:37:59
+# Update time: 2026-05-18 23:30:24
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6823,7 +6823,6 @@
 0.0.0.0 coinzilla.io
 0.0.0.0 www.workschat.com
 0.0.0.0 sportupdates.info
-0.0.0.0 appfixing.space
 0.0.0.0 pcmuzic.com
 0.0.0.0 page-host.net
 0.0.0.0 www.shichihukuudon.com
@@ -11609,6 +11608,7 @@
 0.0.0.0 appdev.addthis.com
 0.0.0.0 howtobuildsoftware.com
 0.0.0.0 static.vertamedia.com
+0.0.0.0 www.bloomifllowers.com
 0.0.0.0 new.lerian-nti.be
 0.0.0.0 ad.adtegrity.net
 0.0.0.0 oascentral.itbusiness.ca
@@ -12647,6 +12647,7 @@
 0.0.0.0 ads.veloxia.com
 0.0.0.0 epost.122.2o7.net
 0.0.0.0 server.as5000.com
+0.0.0.0 www.casinorankerhub.com
 0.0.0.0 www.googdiy.com
 0.0.0.0 www.courtneywalker.plus.com
 0.0.0.0 wikidevs.com
@@ -15336,6 +15337,7 @@
 0.0.0.0 a.1nimo.com
 0.0.0.0 disccglobal.112.2o7.net
 0.0.0.0 office-2023.net
+0.0.0.0 www.spojrzenia.com
 0.0.0.0 francelbleu.fr
 0.0.0.0 media.superstats.com
 0.0.0.0 aaam.fr
@@ -16603,7 +16605,6 @@
 0.0.0.0 stopsms.biz
 0.0.0.0 aka-cdn.adtechus.com
 0.0.0.0 jmvisuals.com
-0.0.0.0 bestadbid.com
 0.0.0.0 api.intentiq.com
 0.0.0.0 clicktracker.alloymarketing.com
 0.0.0.0 www.counter4.sextracker.be
@@ -18220,7 +18221,6 @@
 0.0.0.0 adsload.co
 0.0.0.0 media8.popmarker.com
 0.0.0.0 sunny.oewabox.at
-0.0.0.0 app2.letmacworkfaster.site
 0.0.0.0 gamerz123.com
 0.0.0.0 foxsimpsons.112.2o7.net
 0.0.0.0 izmsj.co.jp
@@ -19955,6 +19955,7 @@
 0.0.0.0 lomtalay.com
 0.0.0.0 shopstickersbysandstone.com
 0.0.0.0 sandpiperchorus.us
+0.0.0.0 appfixing.space
 0.0.0.0 fhginformatica.com
 0.0.0.0 weboriginal.eu
 0.0.0.0 comistus.net
@@ -30074,6 +30075,7 @@
 0.0.0.0 emilychoy.com
 0.0.0.0 choopchirk.net
 0.0.0.0 drdianateachertraining.com
+0.0.0.0 bestadbid.com
 0.0.0.0 clariter.com
 0.0.0.0 unocl45trpuoefft.on2420.bid
 0.0.0.0 bha-group.eu
@@ -31787,6 +31789,7 @@
 0.0.0.0 omniworxinc.com
 0.0.0.0 theprick5k.com
 0.0.0.0 iphonewallpaperclub.com
+0.0.0.0 app2.letmacworkfaster.site
 0.0.0.0 tkustom.it
 0.0.0.0 gourmetlimes.com
 0.0.0.0 miel-maroc.com
