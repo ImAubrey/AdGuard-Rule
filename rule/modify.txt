@@ -1,4 +1,4 @@
-# Update time: 2026-05-18 23:30:24
+# Update time: 2026-05-19 11:31:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -15737,6 +15737,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||oadz.com^$third-party
 ||programmatica.com^$third-party
 ||komoot.*/api/t/event
+||api.begenuin.com/goservices/data/
 ||privacy-center.org^*/events
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 /shopify-boomerang-
