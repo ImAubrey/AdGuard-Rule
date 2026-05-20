@@ -1,4 +1,4 @@
-# Update time: 2026-05-20 11:32:08
+# Update time: 2026-05-20 23:17:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5135,10 +5135,6 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 .com-id*.com^
 .avito.www.booking.
 .com-id*.info^
-||*mercadolibre*^important
-||use-application-dns.net^$empty,important
-||*^$dnstype=HTTPS
-||.nstool.^
 /services/t/l?referrer=
 ||coinpot.co^$third-party
 ||smartctr.com^$third-party
@@ -8067,6 +8063,7 @@ _trackWebtrekkEvents.
 /pxf.gif?
 /botd.gif?
 ||rodale.com/ga/
+||fairprice.com.sg/VZl2n4/
 ||siteplug.com^$third-party
 ||mediaquark.com/tracker.js
 /amp-analytics/*
@@ -8296,6 +8293,7 @@ _beacon?
 @@||rt.rtoaster.jp^$image,domain=ec-store.net
 ||vkcdnservice.com^$third-party
 ||visioncriticalpanels.com^$third-party
+||js.dashfi.net/dashfinet-analytics.js
 /keen-tracking-
 ||webminerpool.com^$third-party
 ||hit-counter.info^$third-party
@@ -12495,6 +12493,7 @@ _logHuman=
 /js/ga_event_
 ||nojscontainer.pepperjam.com^$third-party
 ||united.web.de/confirm?
+||api.x.com/live_pipeline/events?
 ||streamelements.com/z/s.js
 ||go.toutapp.com^$third-party
 ||mlclick.com^$third-party
@@ -13047,6 +13046,7 @@ omni.soundestlink.com$image
 ://a869.$~image
 ||trusty-shovel-1234.paul-f22.workers.dev^$domain=sfist.com
 ||evs.sgmt.loom.com^$script
+||website-api.omni.fairprice.com.sg/api/tracking/
 ||ga.finam.ru/metrics
 ||ced-ns.sascdn.com/diff/js/smart.js
 ||contentpass.net/stats
@@ -14081,6 +14081,7 @@ _view_pixel&$image
 ||dsmstats.com^$third-party
 /trackit.pl?
 ||nik.io^$third-party
+||goddesslamps.com^$redirect=noopjs,script
 /opdc.js
 ||keywordmax.com^$third-party
 ||baidu.com/cpro/ui/f.js
@@ -14166,6 +14167,7 @@ _view_pixel&$image
 /track.png?
 ||bstn-14-ma.com^$third-party
 ||i-mobile.co.jp^$third-party
+apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com##+js(acs, document.getElementsByTagName, .pubads)
 ||push4site.com^$third-party
 @@||lamycosphere.com/cdn/shop/*/assets/pixel.gif$image,~third-party
 ||videa.hu/flvplayer_setcookie.php?
@@ -15220,7 +15222,6 @@ _track_pixel.gif?
 ://analytics.*/hits/
 ||frog.wix.com/fed?
 ||divolution.com^$third-party
-apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com##+js(acs, document.getElementsByTagName, .pubads)
 /tracking/common.html
 /metrics/umd.min.js$script
 ||worldztool.com^*/dotraceuser.php
@@ -17253,6 +17254,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ://signals.*/hardal
 ||essentiallysports.com/api/track/
 ||ipfind.com^$third-party
+||segmentapis.com/v1/t
 ||chron.com/413gkwMT/init.js
 ||dzen.ru/api/*/stats/
 ||l.fairblocker.com^$third-party
@@ -17871,6 +17873,10 @@ gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*mercadolibre*^important
+||use-application-dns.net^$empty,important
+||*^$dnstype=HTTPS
+||.nstool.^
 ||*tsdk.vivo.com.cn^
 ||*.mmstat.com^
 ||*serror*.wo.com.cn^
