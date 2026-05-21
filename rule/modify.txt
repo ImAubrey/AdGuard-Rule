@@ -1,4 +1,4 @@
-# Update time: 2026-05-21 11:38:16
+# Update time: 2026-05-21 23:23:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10339,6 +10339,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||filmvandaag.nl/pl/js/script.js
 /gen204/*
 ||womtp.com^$third-party
+attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,macwelt.de,mlive.com,news8000.com,nj.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ||whosclickingwho.com^$third-party
 /webstat.js
 ||umbel.com^$third-party
@@ -13412,7 +13413,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||sembox.it/js/sembox-tracking.js
 /edmonds.js
 ||massivecams.com/api/metrics
-attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,mlive.com,news8000.com,nj.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ||leadvision.dotmailer.co.uk^$third-party
 .microsoft.com/m/v2/d?$image
 ||dzeninfra.ru/ping?
