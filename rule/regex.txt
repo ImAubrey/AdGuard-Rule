@@ -1,4 +1,4 @@
-# Update time: 2026-05-20 23:17:48
+# Update time: 2026-05-21 11:38:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -55,6 +55,7 @@
 ||avito.avito.avito.
 ||yandex.pay.avito.
 ||verify-att.app.^
+||httpdns.*^$important
 ||bc.geocities.
 ||stw.extreme-down.
 ||collector-*.luigisbox.com^
@@ -90,7 +91,6 @@
 ||aviasales.*-analytics.
 %2Fevent.gif%3F
 ||df.infra.shopee.
-||httpdns.*^$important
 ||da.hornbach.*^
 ||dm-*.toutiao.com^
 ||adsystem*.*^
@@ -1356,13 +1356,11 @@
 |xshare.api.xiaomi.com^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
-||increase-rev*.static-cloudflare.workers.dev^
 ||ad-host-backup-*.s3.*.aliyuncs.com^
 ||ping*.qq.com^
 ||cj1*.online^
 ||orderana*.spankbang.com^
 ||sd.yhzzzs*.com^
-||increv*.static-cloudflare.workers.dev^
 ||trace-*.free-reels.com^
 ||counter*.stat.ovh^
 ||collector-*.pxchk.net^
@@ -1504,7 +1502,6 @@
 ||ad*.nexage.com^
 ||aj1*.xyz^
 ||discovery-ios-*.ertelecom.ru^
-||inc*-rev.static-cloudflare.workers.dev^
 ||util-*.simply-hentai.com^
 ||collect-elb-*.amazonaws.com^
 ||collector-*.px-cloud.net^
@@ -1565,7 +1562,6 @@
 ||lively-collect-elb-*.amazonaws.com^
 ||rum*.cdnvideo.ru^
 ||analytics-rollout-*.amazonaws.com^
-||increase*-rev.static-cloudflare.workers.dev^
 ||qn-*pcdn.cdn.huya.com^
 ||mssdk*.zijieapi.com^
 ||zazgiyoh*.world^
@@ -1685,10 +1681,8 @@
 ||log-*.zadn.vn^
 ||api*.moengage.com^
 ||hba*.hepsiburada.com^
-||increase*rev.static-cloudflare.workers.dev^
 ||reachableads-av.*.amazonaws.com^
 ||bdcpro*.techweb.com.cn^
-||inccrev*.static-cloudflare.workers.dev^
 ||qn-*pcdn.cdn.msstatic.com^
 ||mon-va*.capcutapi.com^
 ||js.*2023*.live^
