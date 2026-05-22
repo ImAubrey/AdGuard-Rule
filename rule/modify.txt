@@ -1,4 +1,4 @@
-# Update time: 2026-05-22 11:36:42
+# Update time: 2026-05-22 22:37:03
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7259,7 +7259,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /mongoose.fp.js
 ||drupal.org/VnPBBfwe/init.js
 .hash.outbound-links.js
-||ekitan.com/cmn/js/ekitan.log.js
 ||vcita.com/tr_
 ||get4click.ru^$third-party
 ||domainit.com/scripts/track.js
@@ -7604,6 +7603,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 ||econda-monitor.de^$third-party
 /log/event?
 ||typepad.com/t/stats?
+||arena.ai/rpc/i/v0/e/
 ||hotjar.com^$third-party
 .com/_.gif?
 ||snva.jp/api/bcon/basic?
@@ -11521,6 +11521,7 @@ coomer.st,kemono.cr,official.coomer.com.co##+js(set-local-storage-item, plausibl
 ||www-backend.strinova.com/api/common/uid
 ||cafemedia.com/topics/clickstream-event
 ||immanalytics.com^$third-party
+||surfer.com/.api/admiral
 ||terra.com.br/metrics/
 ||24log.it^$third-party
 ||trrsf.com.br/metrics/
@@ -17162,6 +17163,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /analytics-js/*
 /TrackVisitors/*
 ||yupp.ai/api/log-event
+||arena.ai/rpc/e/
 ||online-umwandeln.de/analytics.js
 /trackTimings.gif?
 ||mtsbank.ru/hustonwehaveaproblem/
