@@ -1,4 +1,4 @@
-# Update time: 2026-05-21 23:23:19
+# Update time: 2026-05-22 11:36:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6466,6 +6466,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||usemaxserver.de^$third-party
 /valnet-header.
 @@||themarker.com/logger/p.gif?$image,xmlhttprequest
+@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|gizmodo.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
 ||freshmarketer.com^$third-party
 /owa.tracker.js
 /logPerf?
@@ -15346,7 +15347,6 @@ _track_pixel.gif?
 /LogAmpHit?
 ||webstats4u.com^$third-party
 ||streamadblocker.cc/stat/
-@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
 ||youle55.com^$third-party
 /r/collect?
 ||trafikkfondet.no^$third-party
