@@ -1,4 +1,4 @@
-# Update time: 2026-05-23 10:53:51
+# Update time: 2026-05-23 21:23:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7669,6 +7669,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 /pxtrack.js
 ||toast.com/log
 /analysis?en=page_view&
+||thehackernews.com/ga4/c
 /track_event.
 ||trackedlink.net^$third-party
 /global_analytics/s_code.js
@@ -9925,6 +9926,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||tracify.ai^$third-party
 ||alljapanesepass.com/rstat
 @@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com|uphold.com
+@@||dishtv.in/scripts/adobeAnalytics.js$~third-party
 /postcounter.php?
 @@||tunein.com/api/v1/comscore$~third-party
 /event_logging/*
@@ -12361,6 +12363,7 @@ _logHuman=
 /egcs/v2/collect
 /?essb_counter_
 ||flaticon.com/_ga?
+||thehackernews.com/ga/c
 ||rtox.net^$third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||openfpcdn.io/fingerprintjs/v3/iife.min.js$script,domain=mos03education.ru
@@ -15826,7 +15829,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 /confiant.js
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 .keap-link003.com/$image
-||thehackernews.com/zscripts/
 ||mysocialpixel.com^$third-party
 ||customerlobby.com/ctrack-
 ||interstateanalytics.com^$third-party
