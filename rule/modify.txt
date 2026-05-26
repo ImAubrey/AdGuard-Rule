@@ -1,4 +1,4 @@
-# Update time: 2026-05-26 11:30:20
+# Update time: 2026-05-26 23:25:25
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -551,7 +551,6 @@ l-a-w.ru,mhelp.kz##.swal2-container
 shuba.life##img[height][src^="https://shuba.life/static/banners/placeholders/"]
 ##.adblock-message
 ###adBlockAlert
-/^https?:\/\/pikabu\.ru\/ajax\/([A-Za-z0-9]{7,})+\?[A-Za-z0-9]+=[0-9a-z-]+[0-9a-z]$/$xmlhttprequest,domain=pikabu.ru
 ###adblocker_announce
 @@||v.fwmrm.net/ad/g/1?$xmlhttprequest,domain=www.mycanal.fr
 @@||jeuxvideo-live.com/js/ads.js
@@ -606,6 +605,7 @@ vk.barkov.net##.alert-danger
 @@||anidub.com/ads.js|$script,domain=anidub.com
 lostfilm.tv##div[class^="alarm"]
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
+/^https?:\/\/pikabu\.ru\/ajax\/([A-Za-z0-9]{7,})+\?[A-Za-z0-9]+=[0-9a-z-]+[0-9a-z_]/$xmlhttprequest,domain=pikabu.ru
 @@||static.adsafeprotected.com/favicon.ico$domain=tf1info.fr
 @@/advertisement.js$script,~third-party,domain=fun-animes.fr|macupload.net|majorgeeks.com|upload.ac
 @@||peimg.fr/js/ads.js$script,domain=pubeco.fr
@@ -5135,6 +5135,10 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 .com-id*.com^
 .avito.www.booking.
 .com-id*.info^
+||*mercadolibre*^important
+||use-application-dns.net^$empty,important
+||*^$dnstype=HTTPS
+||.nstool.^
 /services/t/l?referrer=
 ||coinpot.co^$third-party
 ||smartctr.com^$third-party
@@ -10339,7 +10343,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||filmvandaag.nl/pl/js/script.js
 /gen204/*
 ||womtp.com^$third-party
-attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,macwelt.de,mlive.com,news8000.com,nj.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ||whosclickingwho.com^$third-party
 /webstat.js
 ||umbel.com^$third-party
@@ -15790,6 +15793,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 /somtag/logs/*
 ||cityua.net^$third-party
 ||parkwhiz.com/events/
+attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 /trackingEventsBlocks/*
 ||loginfra.com^$third-party
 ||ensighten.com/error/e.php?
@@ -17879,10 +17883,6 @@ gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*mercadolibre*^important
-||use-application-dns.net^$empty,important
-||*^$dnstype=HTTPS
-||.nstool.^
 ||*tsdk.vivo.com.cn^
 ||*.mmstat.com^
 ||*serror*.wo.com.cn^
