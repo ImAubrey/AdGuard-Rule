@@ -1,4 +1,4 @@
-# Update time: 2026-05-26 23:25:25
+# Update time: 2026-05-27 11:45:14
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4049,6 +4049,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||qf6tm5ug.com^$doc
 ||bs-03-6743-2266.net^$doc
 ||proeslgaming.com^$all
+||duskwander.com^$all
 ||orcaslicerdownload.$doc
 ||facebook-*.ubpages.com^$doc
 ||kmspico-$doc
@@ -5135,10 +5136,6 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 .com-id*.com^
 .avito.www.booking.
 .com-id*.info^
-||*mercadolibre*^important
-||use-application-dns.net^$empty,important
-||*^$dnstype=HTTPS
-||.nstool.^
 /services/t/l?referrer=
 ||coinpot.co^$third-party
 ||smartctr.com^$third-party
@@ -5269,6 +5266,7 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 /sync?visitor_id=
 ||georiot.com^$third-party
 ||peasy.so^$third-party
+||me-qr.com/metrics/
 ||arcteryx.com/943r4Fb8/init.js
 ||customerconversio.com^$third-party
 ||priv.gc.ca/m/m.js
@@ -12882,6 +12880,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 @@||1gr.cz/js/dtm/cache/satelliteLib-$domain=idnes.cz
 ||wisetrack.net^$third-party
 ||loomi-prod.xyz^$third-party
+||me-qr.com/statistic/collect/
 ||cookieless.tech^$third-party
 ||lederer.nl/incl/stats.js.php?
 ||serveipqs.com^$third-party
@@ -17883,6 +17882,10 @@ gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*mercadolibre*^important
+||use-application-dns.net^$empty,important
+||*^$dnstype=HTTPS
+||.nstool.^
 ||*tsdk.vivo.com.cn^
 ||*.mmstat.com^
 ||*serror*.wo.com.cn^
