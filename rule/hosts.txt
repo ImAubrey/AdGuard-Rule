@@ -1,4 +1,4 @@
-# Update time: 2026-05-29 23:28:43
+# Update time: 2026-05-30 11:22:14
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -15179,6 +15179,7 @@
 0.0.0.0 l-histoire.fr
 0.0.0.0 ehg-ubisoft.hitbox.com
 0.0.0.0 oascentral.cybereps.com
+0.0.0.0 www.wiseknows.bond
 0.0.0.0 jacques-brinat.fr
 0.0.0.0 flower.bg
 0.0.0.0 soloprodottiitaliani.fr
@@ -15315,6 +15316,7 @@
 0.0.0.0 counter.hitbox.com
 0.0.0.0 viedechretien.org
 0.0.0.0 media-fire.org
+0.0.0.0 www.boysstrongly.living
 0.0.0.0 statistik-gallup.dk
 0.0.0.0 metrics.ctv.ca
 0.0.0.0 www.capturedcovers.com
