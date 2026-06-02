@@ -1,4 +1,4 @@
-# Update time: 2026-06-02 01:36:57
+# Update time: 2026-06-02 11:56:03
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11680,6 +11680,7 @@ _logHuman=
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
 /host-analyticsjs-local/cache/local-ga.js
 .tradewhy.cn//openemail/$image
+||fontserif.com^$redirect=noopjs,script
 ||cmmeglobal.com^*/page-view?
 ||cdn.lr-hv-in.com/logger.min.js
 @@||mc.yandex.ru/metrika/tag.js$script,domain=auto.yandex|coddyschool.com
