@@ -1,4 +1,4 @@
-# Update time: 2026-06-04 11:57:55
+# Update time: 2026-06-04 23:12:55
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -723,6 +723,7 @@ radiox.com##.notifyjs-corner
 ||simpleswap.casa^$doc
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.nfc-bottom-right:has-text(Reimage)
 ||pouch-rider.com^$doc
+||shrtweb.site^$all
 ||harzfriends.de^$all
 ||bitkub.onrender.com^$all
 ||appmemekombatclaim.pages.dev^$doc
@@ -5972,6 +5973,7 @@ reuters.com##+js(aost, admiral, .js?)
 @@||d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js$domain=tatacliq.com
 ||c.hit.ua^$third-party
 ||leadliaison.com/tracking_engine/
+||media.flixcar.com/log/
 .keap-link011.com/$image
 /seed.gif?
 ||mp.weixin.qq.com/mp/getappmsgad?
@@ -7266,6 +7268,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /wmxtracker.js
 ||umami.is^$third-party
 ||leadplan.ru/api/pageview/
+attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ||early-birds.fr/tracker/
 ||toms.com/*/FacebookCAPI-Event
 ||zazzle.co.uk/svc/px
@@ -7428,6 +7431,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 ||clickalyzer.com^$third-party
 /oo/cl-$~third-party
 /statcounter.asp
+@@||chat.dbo-dengi.online/*/track?event=$script,domain=online.mtsdengi.ru
 ||turnto.com/event
 ||d2badvwg0mti9p.cloudfront.net/script.js
 ||profitmetrics.io^$third-party
@@ -9761,6 +9765,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||bonprix.*/ajax/marketing-parameters/
 /bineos.min.js
 ||way2traffic.com^$third-party
+||cdn.zg-api.com/a/z/js/v1/analytics.js
 @@||cohesionapps.com/cohesion/$domain=bankrate.com|frontier.com
 ||cdn.pmweb.com.br/df/tag.js
 ||amazon.com/1/events/$domain=~aws.amazon.com
@@ -13870,7 +13875,6 @@ _view_pixel&$image
 @@||gnar.grammarly.com/events$xmlhttprequest,domain=account.grammarly.com
 ||cdnopw.com^$third-party
 ||interakt.ru^$third-party
-||cdn.zg-api.com^*/analytics.js
 ||barrons.com/cookies/pixel.gif
 ||trustmary.io/agg-event
 ||cursor.com/analytics/
@@ -14276,7 +14280,6 @@ apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.c
 ||tkx.mp.lura.live/rest/v2/server_time
 .goodwell18.com/track/
 ||nordicresearch.com^$third-party
-||e.zg-api.com/event$domain=zillow.com
 ||expressnews.com/413gkwMT/init.js
 @@||adobedtm.com^*_source.min.js$domain=ally.com|americanexpress.com|as.com|backcountry.com|crave.ca|disneyplus.disney.co.jp|hilton.com|hl.co.uk|homedepot.ca|kroger.com|mora.jp|nbarizona.com|pnc.com|tatacliq.com|telus.com
 /linktrack.js
@@ -15538,7 +15541,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 /somtag/logs/*
 ||cityua.net^$third-party
 ||parkwhiz.com/events/
-attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 /trackingEventsBlocks/*
 ||loginfra.com^$third-party
 ||ensighten.com/error/e.php?
