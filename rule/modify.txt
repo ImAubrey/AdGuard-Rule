@@ -1,4 +1,4 @@
-# Update time: 2026-06-07 11:53:12
+# Update time: 2026-06-07 21:50:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -15422,6 +15422,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||nresystems.com^$third-party
 @@||soundcore.com/metrics/gtd?id=$script,~third-party
 ||synthasite.net^$third-party
+||thehealthsite.com/apstag.js
 ||wccftech.com/cnt7vfDVvWa3.js
 ||nude.hu/html/track.js
 /cnt-combined.php?
@@ -17618,6 +17619,7 @@ gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 ||vdoing.com^$third-party
 ||stripchat.com/pixel/
 ||sponsorcounter.de^$third-party
+||cfmediaview.com^$third-party
 ||wideangle.co^$third-party
 ||pvmax.net^$third-party
 ||newshinyd.com/tracking/click.gif
