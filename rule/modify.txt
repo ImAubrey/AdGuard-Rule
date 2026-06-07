@@ -1,4 +1,4 @@
-# Update time: 2026-06-06 21:41:06
+# Update time: 2026-06-07 11:53:12
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11623,6 +11623,7 @@ _logHuman=
 ||active24stats.nl^$third-party
 ||jst.ai/vck.js
 ||futurecdn.net^*/abp.js
+||api.tblcontent.com*/log/
 /c.wrating.com/*
 ||hm.baidu.com^$third-party
 ||sysomos.com^$third-party
@@ -12939,6 +12940,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||happysex.ch/app_jquery/Tracking.js
 ||monitis.com^$third-party
 ||js.monitor.azure.com/scripts/c/ms.analytics-web-4.min.js$domain=microsoft.com
+||ndtv.in/estatic/hindi-fcm.js
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 -universal-analytics/
 ||eluxer.net^$third-party
