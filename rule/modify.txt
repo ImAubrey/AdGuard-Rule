@@ -1,4 +1,4 @@
-# Update time: 2026-06-09 11:27:55
+# Update time: 2026-06-09 22:49:05
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7468,6 +7468,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 /mistat-data/onetrack/onetrack.js
 ||virgul.com^$third-party
 ||kmtx.io^$third-party
+@@||dc.services.visualstudio.com/v2/track$xmlhttprequest,domain=aiskillsnavigator.microsoft.com
 ||platform.twitter.com/impressions.js
 /expcount/additional.php
 ||datadoghq-browser-agent.com^$third-party
