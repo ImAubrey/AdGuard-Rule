@@ -1,4 +1,4 @@
-# Update time: 2026-06-11 11:55:54
+# Update time: 2026-06-11 23:58:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8060,6 +8060,7 @@ _beacon?
 /track-internal-links.js
 ||enecto.com^$third-party
 ||mozilla.org/page/*/open.gif$third-party
+||lmcdn.ru^*/statistics.js
 ||ptadsrv.de^$third-party
 ||uralweb.ru^$third-party
 ||eveonline.com/redir.asp$third-party
