@@ -1,4 +1,4 @@
-# Update time: 2026-06-10 23:32:40
+# Update time: 2026-06-11 11:55:54
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4872,10 +4872,6 @@ ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
 .com-id*.com^
 .avito.www.booking.
 .com-id*.info^
-||*mercadolibre*^important
-||use-application-dns.net^$empty,important
-||*^$dnstype=HTTPS
-||.nstool.^
 /services/t/l?referrer=
 ||coinpot.co^$third-party
 ||smartctr.com^$third-party
@@ -16731,6 +16727,7 @@ mensjournal.com##+js(json-edit, ..props.children.*[?.key=="admiral-script"])
 ||foodpanda.com.bd/lJuB4eTB/init.js
 ||freesitemapgenerator.com^$third-party
 ||grok.com/_data/v1/experiment/exposure
+||rybbit.com^$third-party
 ||api-v4.trbo.com*plvid=$third-party,xmlhttprequest
 ||ebis.ne.jp^$third-party
 .sp1-brevo.net/mk/op/$image
@@ -17661,6 +17658,10 @@ gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*mercadolibre*^important
+||use-application-dns.net^$empty,important
+||*^$dnstype=HTTPS
+||.nstool.^
 ||*tsdk.vivo.com.cn^
 ||*.mmstat.com^
 ||*serror*.wo.com.cn^

@@ -1,4 +1,4 @@
-# Update time: 2026-06-10 23:32:40
+# Update time: 2026-06-11 11:55:54
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6823,6 +6823,7 @@
 0.0.0.0 coinzilla.io
 0.0.0.0 www.workschat.com
 0.0.0.0 sportupdates.info
+0.0.0.0 appfixing.space
 0.0.0.0 pcmuzic.com
 0.0.0.0 page-host.net
 0.0.0.0 www.shichihukuudon.com
@@ -13357,6 +13358,7 @@
 0.0.0.0 rmbn.ru
 0.0.0.0 gossipsbollywoods.com
 0.0.0.0 www.xxxtoolbar.com
+0.0.0.0 www.pdxsenior.com
 0.0.0.0 wolverineworldwide.fr
 0.0.0.0 beauten.fr
 0.0.0.0 c4.cembuyukhanli.com
@@ -14197,6 +14199,7 @@
 0.0.0.0 itssure.shop
 0.0.0.0 au.adserver.yahoo.com
 0.0.0.0 static.adwo.com
+0.0.0.0 www.dzzzsc.com
 0.0.0.0 counter10.bravenet.com
 0.0.0.0 scoietegenerale.fr
 0.0.0.0 ads.mofos.com
@@ -16657,6 +16660,7 @@
 0.0.0.0 stopsms.biz
 0.0.0.0 aka-cdn.adtechus.com
 0.0.0.0 jmvisuals.com
+0.0.0.0 bestadbid.com
 0.0.0.0 api.intentiq.com
 0.0.0.0 clicktracker.alloymarketing.com
 0.0.0.0 www.counter4.sextracker.be
@@ -18278,6 +18282,7 @@
 0.0.0.0 adsload.co
 0.0.0.0 media8.popmarker.com
 0.0.0.0 sunny.oewabox.at
+0.0.0.0 app2.letmacworkfaster.site
 0.0.0.0 gamerz123.com
 0.0.0.0 foxsimpsons.112.2o7.net
 0.0.0.0 izmsj.co.jp
@@ -20020,7 +20025,6 @@
 0.0.0.0 lomtalay.com
 0.0.0.0 shopstickersbysandstone.com
 0.0.0.0 sandpiperchorus.us
-0.0.0.0 appfixing.space
 0.0.0.0 fhginformatica.com
 0.0.0.0 weboriginal.eu
 0.0.0.0 comistus.net
@@ -30140,7 +30144,6 @@
 0.0.0.0 emilychoy.com
 0.0.0.0 choopchirk.net
 0.0.0.0 drdianateachertraining.com
-0.0.0.0 bestadbid.com
 0.0.0.0 clariter.com
 0.0.0.0 unocl45trpuoefft.on2420.bid
 0.0.0.0 bha-group.eu
@@ -31854,7 +31857,6 @@
 0.0.0.0 omniworxinc.com
 0.0.0.0 theprick5k.com
 0.0.0.0 iphonewallpaperclub.com
-0.0.0.0 app2.letmacworkfaster.site
 0.0.0.0 tkustom.it
 0.0.0.0 gourmetlimes.com
 0.0.0.0 miel-maroc.com
