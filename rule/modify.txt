@@ -1,4 +1,4 @@
-# Update time: 2026-06-12 22:56:48
+# Update time: 2026-06-13 11:39:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4874,6 +4874,10 @@ ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
 .com-id*.com^
 .avito.www.booking.
 .com-id*.info^
+||*mercadolibre*^important
+||use-application-dns.net^$empty,important
+||*^$dnstype=HTTPS
+||.nstool.^
 /services/t/l?referrer=
 ||coinpot.co^$third-party
 ||smartctr.com^$third-party
@@ -10306,6 +10310,7 @@ al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjo
 ||terabox.com/api/analytics?
 /foresee-trigger.js
 ||vinted.nl/relay/events
+||tracking.cds.dmm.com^$image
 ||cactusmedia.com^$third-party
 /fingerprint2.min.js
 @@||onenote.com^*/aria-web-telemetry
@@ -12776,6 +12781,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||matelso.de^$third-party
 ||pbbl.co^$third-party
 ||statistiche.it^$third-party
+||tracking.cds.dmm.co.jp^$image
 /analytics-event.js
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
 /rum/events
@@ -13611,6 +13617,7 @@ accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capez
 ||belboon.de^$third-party
 ||sheego.de/ar/$third-party
 ||strtapewithadblock.xyz/stat/
+||weworkremotely.com/listing_ads/8/impression?
 /trackopen.cgi?
 ||mdstats.fr^$third-party
 ||adhslx.com^$third-party
@@ -17666,10 +17673,6 @@ gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*mercadolibre*^important
-||use-application-dns.net^$empty,important
-||*^$dnstype=HTTPS
-||.nstool.^
 ||*tsdk.vivo.com.cn^
 ||*.mmstat.com^
 ||*serror*.wo.com.cn^
