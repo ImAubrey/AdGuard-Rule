@@ -1,4 +1,4 @@
-# Update time: 2026-06-14 12:01:09
+# Update time: 2026-06-14 22:01:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1264,6 +1264,7 @@ howtoremove.guide###solution_v2_de
 ||honeyline.co.jp^$doc
 ||cheri-sh.net^$doc
 ||clearnetfab.net^$all
+||safe-device.com^$all
 ||lcldetecthumainweb*.firebaseapp.com^$all
 ||sso-*.webflow.io^$doc
 ||printslamdunk.com^$doc
