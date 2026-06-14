@@ -1,4 +1,4 @@
-# Update time: 2026-06-13 21:58:14
+# Update time: 2026-06-14 12:01:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8057,6 +8057,7 @@
 0.0.0.0 gpaper149.112.2o7.net
 0.0.0.0 openads.smithmag.net
 0.0.0.0 textion.g9y18u.cn
+0.0.0.0 rrg2mrb.matchwomanreal.com
 0.0.0.0 applyfix.tech
 0.0.0.0 adpatrof.com
 0.0.0.0 dap.digitalgov.gov
@@ -8613,6 +8614,7 @@
 0.0.0.0 azcentra.app.ur.gcion.com
 0.0.0.0 adexchangeprediction.com
 0.0.0.0 tcookie.usatoday.com
+0.0.0.0 emperors.bunkerhilltradingco.info
 0.0.0.0 www.jetseeker.com
 0.0.0.0 fratz.oewabox.at
 0.0.0.0 quizzitch.net
@@ -10325,6 +10327,7 @@
 0.0.0.0 mjxads.internet.com
 0.0.0.0 volksaddiction.nl
 0.0.0.0 w131.hitbox.com
+0.0.0.0 livsfs.today
 0.0.0.0 rtag.fr
 0.0.0.0 www.adpowerzone.com
 0.0.0.0 stats.independent.co.uk
@@ -10754,6 +10757,7 @@
 0.0.0.0 thebestwebpillplace.com
 0.0.0.0 www.work-offer.com
 0.0.0.0 search.buzzdock.com
+0.0.0.0 matchwomanreal.com
 0.0.0.0 forbescom.112.2o7.net
 0.0.0.0 www.memorieson.com
 0.0.0.0 pubmatic-match.dotomi.com
@@ -12697,6 +12701,7 @@
 0.0.0.0 reloadinput.com
 0.0.0.0 www.paviro.cfd
 0.0.0.0 voordeel.ad.nl
+0.0.0.0 sofia.whatcaniseeinkiev.info
 0.0.0.0 easytic.fr
 0.0.0.0 inpagepush.com
 0.0.0.0 adsoftware.com
