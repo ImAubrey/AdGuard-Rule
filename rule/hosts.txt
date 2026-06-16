@@ -1,4 +1,4 @@
-# Update time: 2026-06-16 01:13:11
+# Update time: 2026-06-16 12:03:28
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7259,6 +7259,7 @@
 0.0.0.0 www.dealsrate.com
 0.0.0.0 www.jerseyoffers.com
 0.0.0.0 netadclick.com
+0.0.0.0 www.gaicodon.com
 0.0.0.0 e-2dj6wjkouhd5eao.stats.esomniture.com
 0.0.0.0 stats.economist.com
 0.0.0.0 oascentral.onwisconsin.com
@@ -9665,6 +9666,7 @@
 0.0.0.0 www.friend-cards.com
 0.0.0.0 www.exoticainmotion.com
 0.0.0.0 ads.first-response.be
+0.0.0.0 www.luxeforher.com
 0.0.0.0 getyourgiftnow3.blogspot.com
 0.0.0.0 www.freedvddept.com
 0.0.0.0 d4.zedo.com
@@ -9873,6 +9875,7 @@
 0.0.0.0 imgg-cdn.adskeeper.co.uk
 0.0.0.0 imp.adsmogo.com
 0.0.0.0 coin-hive.com
+0.0.0.0 www.theskinnyschool.com
 0.0.0.0 hungfei.com
 0.0.0.0 i.casalemedia.com
 0.0.0.0 laptopmag.122.2o7.net
@@ -11196,6 +11199,7 @@
 0.0.0.0 adin.bigpoint.com
 0.0.0.0 showcount.honest.com
 0.0.0.0 najlepszedlaciebie.com
+0.0.0.0 www.whatsappvido.com
 0.0.0.0 d3.sina.com.cn
 0.0.0.0 cileni.seznam.cz
 0.0.0.0 ads.crakmedia.com
@@ -15896,6 +15900,7 @@
 0.0.0.0 yang.hitbox.com
 0.0.0.0 www.gekorn.com
 0.0.0.0 protection.CApolice.com
+0.0.0.0 www.soctoni.com
 0.0.0.0 ehg-researchinmotion.hitbox.com
 0.0.0.0 tradedealvip.su
 0.0.0.0 lactell.fr
@@ -19107,6 +19112,7 @@
 0.0.0.0 securecloud-smart.com
 0.0.0.0 ehg-tfl.hitbox.com
 0.0.0.0 beautytemple.fr
+0.0.0.0 www.iwantclothing.com
 0.0.0.0 server44.dubhosting.co.uk
 0.0.0.0 opr.adx.opera.com
 0.0.0.0 zu1.november-lax.com
