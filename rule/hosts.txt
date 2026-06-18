@@ -1,4 +1,4 @@
-# Update time: 2026-06-17 23:27:51
+# Update time: 2026-06-18 11:55:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11007,6 +11007,7 @@
 0.0.0.0 cengolio.fr
 0.0.0.0 suicidaltendencies.fr
 0.0.0.0 look.ufinkln.com
+0.0.0.0 www.wontake.skin
 0.0.0.0 www.vipnac.com
 0.0.0.0 pixel-geo.prfct.co
 0.0.0.0 adstest.reklamstore.com
@@ -11180,6 +11181,7 @@
 0.0.0.0 www.adverts.dcthomson.co.uk
 0.0.0.0 www.webstat.com
 0.0.0.0 cyberpanel.fr
+0.0.0.0 www.lowestincreases.bond
 0.0.0.0 kh1.kimhasa.com
 0.0.0.0 srothuynguyen.com
 0.0.0.0 lcolissimo.fr
@@ -11755,7 +11757,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -12137,6 +12138,7 @@
 0.0.0.0 dejoyaux.fr
 0.0.0.0 sonycorporate.122.2o7.net
 0.0.0.0 www1-van-city-signon.com
+0.0.0.0 www.lookimpression.beer
 0.0.0.0 comfortykive.xyz
 0.0.0.0 ad26.checkm8.com
 0.0.0.0 new-ramboplay.com
@@ -14924,6 +14926,7 @@
 0.0.0.0 www.keepass.com
 0.0.0.0 w139.hitbox.com
 0.0.0.0 www.emarketmakers.com
+0.0.0.0 www.digimininggame.com
 0.0.0.0 track.msadcenter.qsvv.com
 0.0.0.0 svpro7.oewabox.at
 0.0.0.0 clb.bazzacco.net
@@ -25049,6 +25052,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com

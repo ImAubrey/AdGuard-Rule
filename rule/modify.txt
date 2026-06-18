@@ -1,4 +1,4 @@
-# Update time: 2026-06-17 23:27:51
+# Update time: 2026-06-18 11:55:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5747,6 +5747,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||extole.com^$third-party
 /p/rp/*?mi_u=*=&sap_id=$image
 ||showstopped.com/owa/modules/base/dist/owa.tracker.js
+||app.nicealts.com/user/referral/visit
 /odoscope.js
 ||octotracking.com^$third-party
 ||uol.com.br/stats?
