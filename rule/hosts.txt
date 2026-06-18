@@ -1,4 +1,4 @@
-# Update time: 2026-06-18 11:55:36
+# Update time: 2026-06-18 23:21:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8265,6 +8265,7 @@
 0.0.0.0 exchangenerate.com
 0.0.0.0 ads.crapville.com
 0.0.0.0 vider-image.com
+0.0.0.0 www.ttcgg.com
 0.0.0.0 papageienseite.de
 0.0.0.0 medhiartis.com
 0.0.0.0 www.freefuelcard.com
@@ -12672,6 +12673,7 @@
 0.0.0.0 www.growthbuilder.name
 0.0.0.0 zeroredirect11.com
 0.0.0.0 tracking.publicidees.com
+0.0.0.0 www.thelaferianews.com
 0.0.0.0 www.abnehmenkabofit.de
 0.0.0.0 adipics.com
 0.0.0.0 biaugerme.fr
