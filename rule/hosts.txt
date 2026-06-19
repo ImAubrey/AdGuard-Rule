@@ -1,4 +1,4 @@
-# Update time: 2026-06-18 23:21:49
+# Update time: 2026-06-19 12:15:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6786,6 +6786,7 @@
 0.0.0.0 voil-le-travail.fr
 0.0.0.0 u.videoamp.com
 0.0.0.0 windowgolddealtheclicks.live
+0.0.0.0 www.sonparks.skin
 0.0.0.0 ads55.console.adtarget.com.tr
 0.0.0.0 rtb11.adscience.nl
 0.0.0.0 bhgmarketing.112.2o7.net
@@ -8029,6 +8030,7 @@
 0.0.0.0 videoamp.com
 0.0.0.0 www.adtrader.com
 0.0.0.0 conv.adengage.com
+0.0.0.0 orbit.benchmarx.info
 0.0.0.0 20mlinutes.fr
 0.0.0.0 ads.aspentimes.com
 0.0.0.0 banners.linkbuddies.com
@@ -9196,6 +9198,7 @@
 0.0.0.0 honeyburn.za.com
 0.0.0.0 www.wowjs.1www.cn
 0.0.0.0 rgp-ign.fr
+0.0.0.0 build.waikatocycleways.info
 0.0.0.0 ad10.checkm8.com
 0.0.0.0 headization.lexkd.cn
 0.0.0.0 c4.maxserving.com
@@ -9991,6 +9994,7 @@
 0.0.0.0 adexprt.me
 0.0.0.0 leparirien.fr
 0.0.0.0 counter.mtree.com
+0.0.0.0 marble.travelhealthreport.info
 0.0.0.0 adebooks.fr
 0.0.0.0 metrics.sun.com
 0.0.0.0 image.linkexchange.com
@@ -12288,6 +12292,7 @@
 0.0.0.0 rad.live.com
 0.0.0.0 k.intellitxt.com
 0.0.0.0 bankofamerica.tt.omtrdc.net
+0.0.0.0 mughal.sobiratel.info
 0.0.0.0 ej.progresas.lt
 0.0.0.0 look.kfiopkln.com
 0.0.0.0 lin31.metriweb.be
@@ -13883,6 +13888,7 @@
 0.0.0.0 nythglobe.112.2o7.net
 0.0.0.0 eventtracker.videostrip.com
 0.0.0.0 ne.5.p2l.info
+0.0.0.0 www.wwwmyboostnow.com
 0.0.0.0 w130.hitbox.com
 0.0.0.0 imrk.net
 0.0.0.0 abi83-schramberg.de
@@ -15111,6 +15117,7 @@
 0.0.0.0 adsrevenue.net
 0.0.0.0 www.805m.com
 0.0.0.0 www.technygrow.com
+0.0.0.0 www.gangtaylor.property
 0.0.0.0 tates.freestats.com
 0.0.0.0 adsrv.me
 0.0.0.0 ltk.pw

@@ -1,4 +1,4 @@
-# Update time: 2026-06-18 23:21:49
+# Update time: 2026-06-19 12:15:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3734,6 +3734,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 .online/js/esc.js
 ||vvetransfer-lo-web-online.glitch.me^$all
 ||praterage-colled.com^$all
+||karedeutschland.com^$all
 ||enenkatukatumail.com^$doc
 ||mihayume.com^$doc
 ||user.fm/files/*/ProofOfPayment.HTML^$doc
