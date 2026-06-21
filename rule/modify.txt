@@ -1,4 +1,4 @@
-# Update time: 2026-06-20 22:01:41
+# Update time: 2026-06-21 12:09:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2668,6 +2668,7 @@ appuals.com##.appua-reimage-top
 ||tg525.com^$doc
 ||pastelism02.jpn.com^$doc
 /jump/next.php?r=$doc
+||beroniw.com^$all,reason=malicious
 ||logtoatera.com^$all
 ||nicking-unding.com^$all
 /\.com(\.[a-z]{2})?\/wp-includes\/images\/smilies\/images?\/smili?es\/[a-z]{25,35}\.html/$doc
@@ -4440,6 +4441,7 @@ windowsreport.com##.code-block
 ||robloxt.cv^$all
 ||atelier-post.net^$doc
 ||stb-media.xyz^$all
+||daskljtitaskastvv.pro^$all,reason=malicious
 ||filexstorage.site^$all
 ||mysoftiloria.shop^$all
 ||duckdns.org/security-check/$doc
@@ -7005,6 +7007,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /mongoose.fp.js
 ||drupal.org/VnPBBfwe/init.js
 .hash.outbound-links.js
+||ekitan.com/cmn/js/ekitan.log.js
 ||vcita.com/tr_
 ||get4click.ru^$third-party
 ||domainit.com/scripts/track.js
@@ -8065,6 +8068,7 @@ _beacon?
 /track-internal-links.js
 ||enecto.com^$third-party
 ||mozilla.org/page/*/open.gif$third-party
+||lmcdn.ru^*/statistics.js
 ||ptadsrv.de^$third-party
 ||uralweb.ru^$third-party
 ||eveonline.com/redir.asp$third-party
