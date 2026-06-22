@@ -1,4 +1,4 @@
-# Update time: 2026-06-21 22:09:35
+# Update time: 2026-06-22 12:10:47
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12102,6 +12102,7 @@ _logHuman=
 /e.customeriomail.com/e/o/*$image
 ||yandex.*/data?referrer=
 ||meetrics.net^$domain=spiegel.de
+||mfilterit.net^$third-party
 ||clickyab.com^$third-party
 ||eperfectdata.com^$third-party
 ||platformpanda.com^$third-party
@@ -13791,6 +13792,7 @@ _webanalytics.
 ||glancecdn.net^$third-party,domain=~glance.net
 /click_metrics-jquery.js
 ||tanks.lv/top/stats.php
+||qq.com/report.cgi?
 ||wo-cloud.com^$ping
 &&sub19=undefined&sub20=undefined
 ||unidays.world^$third-party,domain=~myunidays.com
