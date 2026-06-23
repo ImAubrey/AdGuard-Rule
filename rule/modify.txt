@@ -1,4 +1,4 @@
-# Update time: 2026-06-23 00:54:42
+# Update time: 2026-06-23 11:31:06
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -13793,6 +13793,7 @@ _webanalytics.
 ||glancecdn.net^$third-party,domain=~glance.net
 /click_metrics-jquery.js
 ||tanks.lv/top/stats.php
+||qq.com/report.cgi?
 ||wo-cloud.com^$ping
 &&sub19=undefined&sub20=undefined
 ||unidays.world^$third-party,domain=~myunidays.com
