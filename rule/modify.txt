@@ -1,4 +1,4 @@
-# Update time: 2026-06-23 22:46:40
+# Update time: 2026-06-24 11:32:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4947,6 +4947,7 @@ ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
 ||imtwjwoasak.com^$third-party
 ||getkudos.me/a?$image
 ||rapidtrk.net^$third-party
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ||webest.info^$third-party
 @@||pladform.ru/player$subdocument
 ||trail-web.com^$third-party
@@ -10092,7 +10093,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /logviewedpage?
 ||github.dev/diagnostic?
 /smart-pixel.min.js
-al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 /statscollector.min.gz.js
 ||cloudfront.net*/keywee.min.js
 /gate.amnesty-international.*/open.php?
@@ -15044,6 +15044,7 @@ _track_pixel.gif?
 .tagged-events.outbound-links.js
 ||jockey.com/event/
 ||zeerat.com^$third-party
+||fastly.com/metrics/gtm/
 ||datafeedfile.com^$third-party
 ||shroughtened.com^$third-party
 @@||p11.techlab-cdn.com^$domain=wizzair.com
@@ -15209,6 +15210,7 @@ _track_pixel.gif?
 ||usertracks.live^$third-party
 ||crosswalkmail.com^$third-party
 ||akamai.net/*.babylon.com/trans_box/
+@@||an-sm.naughtycdn.com/js/lti-analytics-*.min.js$domain=members.naughtyamerica.com
 ||prchecker.info^$third-party
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 ||blogcounter.de^$third-party
