@@ -1,4 +1,4 @@
-# Update time: 2026-06-25 22:31:11
+# Update time: 2026-06-26 11:38:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11186,6 +11186,7 @@ coomer.st,kemono.cr,official.coomer.com.co##+js(set-local-storage-item, plausibl
 ||iogous.com^$third-party
 /email-link.adtidy.org/open/*$image
 ||faphouse.com/collector/
+||majikichi.com/js/tracking.js
 ||sfchronicle.com/413gkwMT/init.js
 ||revprotect.com^$third-party
 /misites/*
@@ -13799,7 +13800,6 @@ _webanalytics.
 ||glancecdn.net^$third-party,domain=~glance.net
 /click_metrics-jquery.js
 ||tanks.lv/top/stats.php
-||qq.com/report.cgi?
 ||wo-cloud.com^$ping
 &&sub19=undefined&sub20=undefined
 ||unidays.world^$third-party,domain=~myunidays.com

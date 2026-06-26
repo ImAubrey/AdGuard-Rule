@@ -1,4 +1,4 @@
-# Update time: 2026-06-25 22:31:11
+# Update time: 2026-06-26 11:38:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6774,6 +6774,7 @@
 0.0.0.0 united-domaine.tech
 0.0.0.0 ph-ad09.focalink.com
 0.0.0.0 adserver2.creative.com
+0.0.0.0 www.meecheck.com
 0.0.0.0 ying.hitbox.com
 0.0.0.0 www.ttnet.yandex.com.tr
 0.0.0.0 viagraviagra.3xforum.ro
@@ -10088,6 +10089,7 @@
 0.0.0.0 ads.as4x.tmcs.net
 0.0.0.0 st.videojam.tv
 0.0.0.0 www.adfactor.nl
+0.0.0.0 www.nftnavigator.com
 0.0.0.0 c.za.msn.com
 0.0.0.0 loestrin.1.p2l.info
 0.0.0.0 smser.net
@@ -11766,7 +11768,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -16428,6 +16429,7 @@
 0.0.0.0 www.modelsailboat.net
 0.0.0.0 pixel.adssafeprotected.com
 0.0.0.0 supplements.1.p2l.info
+0.0.0.0 www.ponhap.com
 0.0.0.0 deposit-et-1interac.help
 0.0.0.0 colisismo.fr
 0.0.0.0 a.twiago.com
@@ -25072,6 +25074,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
