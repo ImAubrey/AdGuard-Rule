@@ -1,4 +1,4 @@
-# Update time: 2026-06-27 21:41:09
+# Update time: 2026-06-28 11:44:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1998,7 +1998,6 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||up-community.wiki^$doc
 ||yupooclothing.com^$doc
 ||dtioykqj1u8de.cloudfront.net^$all
-||access.invite-track.click^$all
 ||blender3d.fr^$doc
 ||opsecdefcloud.com^$all
 ||kodiakfinance.net^$doc
@@ -3661,6 +3660,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||i.redi-ana.jp^$doc
 ||modii.xyz^$doc
 ||webtelegram.eu.org^$all
+||invite-track.click^$all
 ?brand=*&fingerprint_=$doc
 ||atelier-toukyo.com^$doc
 ||mightembarrassedlaw.com^$doc
@@ -8201,7 +8201,6 @@ _beacon?
 ||pop6serve.com^$third-party
 @@||plugin.intuitcdn.net/vep-collab-smlk-ui/assets/vendor/glance/cobrowse/
 ||xtremline.com^$third-party
-||kick.com/UcggFnr2hNhLCwLf/
 ||17173.com/ping.js
 ||216.18.176.4/logger/
 ||dailymail.co.uk/rta2/
@@ -11718,6 +11717,7 @@ _logHuman=
 ||onesignal.com^$domain=androidauthority.com|iphoneincanada.ca|rockpapershotgun.com|senpa.io|shineads.org
 ||ifengimg.com/sta_collection.*.js
 &ev=PageView&
+@@||directg.jp/js/fingerprint2.js$~third-party
 ||comitiumanalytics.com^$third-party
 /owa.tracker-combined-min.js
 ||freelogs.com^$third-party
@@ -14156,7 +14156,6 @@ _view_pixel&$image
 /StatsPage.php
 /media.sailthru.com/5ik/1k4/9/*.gif
 .acemlna.com/lt.php?$image
-||kick.com/149e9513-01fa-4fb0-aad4-566afd725d1b/
 ||carts.guru^$third-party
 ||wordpress.com/geo/
 ||rutube.ru/dbg/player_stat?
@@ -14618,6 +14617,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||sdqoi2d.com^$third-party
 ||azureedge.net/sdrive/zero-tracking.js
 ||awswaf.com^*/report
+@@||a.run.app/api/stat?$domain=cocowa.app
 ||ihg.com/logging/
 ||extole.io/core.js
 &hitType=pageview&
