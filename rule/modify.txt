@@ -1,4 +1,4 @@
-# Update time: 2026-06-29 11:52:16
+# Update time: 2026-06-29 23:44:21
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12649,6 +12649,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||potsdamer-stadtplan.com/t.gif
 ||adgainersolutions.com^$third-party
 ||secretbenefits.com/js/script.js
+@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|farmaciabolli1833.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|nihontsushin.com|o2.co.uk|oko.sh|oxylabs.io|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|proxyorb.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|wps.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
 ||beyondsecurity.com^$third-party
 ||apartmenttherapy.com/jAYekY18/init.js
@@ -13480,7 +13481,6 @@ accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capez
 /logstat.js
 ||lr-in.com^$third-party
 ||crypto-webminer.com^$third-party
-@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|farmaciabolli1833.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|nihontsushin.com|o2.co.uk|oko.sh|oxylabs.io|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|proxyorb.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 /hittrack.cgi?
 ||impdesk.com/smartpix/
 @@||sohotheatre.com^*/PageView.js$~third-party
@@ -13811,7 +13811,6 @@ _webanalytics.
 ||glancecdn.net^$third-party,domain=~glance.net
 /click_metrics-jquery.js
 ||tanks.lv/top/stats.php
-||qq.com/report.cgi?
 ||wo-cloud.com^$ping
 &&sub19=undefined&sub20=undefined
 ||unidays.world^$third-party,domain=~myunidays.com
@@ -14854,6 +14853,7 @@ _track_pixel.gif?
 @@||dict.rambler.ru/fcgi-bin/$xmlhttprequest,domain=rambler.ru
 ||abysscdn.com/cdn-cgi/trace
 ||jal.co.jp/common_rn/js/rtam.js
+||nlab.itmedia.co.jp/scripts/cx.js
 @@||optimove.net^$domain=app.touchnote.com
 .mgmailer.binance.com/o/$image
 ||jennifersoft.com^$third-party
