@@ -1,4 +1,4 @@
-# Update time: 2026-06-30 11:36:11
+# Update time: 2026-06-30 22:16:59
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2275,6 +2275,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 ||belliniepecuniaimmobili.$doc,to=belliniepecuniaimmobili.*
 ||dienlanhmayxanh.com^$all
 /W*ity0*00Er00*/index.$doc
+||meetu.usd1.party^$doc
 ||hr-systemmet.dk^$all
 ||meltsweetbite.com^$doc
 ||tracklyfast.com^$all
@@ -7016,7 +7017,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /mongoose.fp.js
 ||drupal.org/VnPBBfwe/init.js
 .hash.outbound-links.js
-||ekitan.com/cmn/js/ekitan.log.js
 ||vcita.com/tr_
 ||get4click.ru^$third-party
 ||domainit.com/scripts/track.js
@@ -14708,6 +14708,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||p0.com/1x1
 ||tedo-stats.de^$third-party
 ||pix.speedbit.com^$third-party
+||storage.eko.com/efu/ekoanalytics/
 ||naj.sk^$third-party
 ||d3hb14vkzrxvla.cloudfront.net/health-check
 ||tongjiniao.com^$third-party
@@ -17728,6 +17729,7 @@ gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 /trkhinv\.business\./
 /a8aspconv\./
 /\.net\.daraz\./
+/ebis-tracking\./
 /flightsy/
 /-ulogl2\.kwai-pro\.com/
 /cp-home-pl-/
