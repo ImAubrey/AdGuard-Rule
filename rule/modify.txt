@@ -1,4 +1,4 @@
-# Update time: 2026-06-29 23:44:21
+# Update time: 2026-06-30 11:36:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3634,6 +3634,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||privatelife.jp^$doc
 ||spiritual-stargate.jp^$doc
 ||acttas.com^$doc
+||idverification-cdn.info^$all
 ||z-lib.lol^$doc
 ||l0ve-zer0.com^$doc
 ##body > .page > .verify-row
@@ -3678,6 +3679,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||mybluehost.me/*/impo/$doc
 ||sonshinus.com^$doc
 .online/media/webs.mp4
+gemfellowship.org##+js(rmnt, script, TextDecoder)
 ||hootbio.com/bellmail$all
 ||deliver-departure.com^$doc
 ||forever.luna-malina.com^$doc
@@ -3850,6 +3852,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||kmspico-$doc
 ||happiness-cats.net^$doc
 ||indeedlikewise-342.com^$doc
+##html > #bw-cf-root
 ||luvmlp.com^$doc
 ||aliique.fr^$all
 ||cs-portalintranet.com/pf/$doc
