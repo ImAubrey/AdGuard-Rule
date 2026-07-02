@@ -1,4 +1,4 @@
-# Update time: 2026-07-01 22:33:16
+# Update time: 2026-07-02 11:31:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6922,6 +6922,7 @@
 0.0.0.0 www.groundofsuccess.com
 0.0.0.0 amateur.xxxcounter.com
 0.0.0.0 counter39.bravenet.com
+0.0.0.0 www.haikuservices.com
 0.0.0.0 medleyads.com
 0.0.0.0 www3.addfreestats.com
 0.0.0.0 service.adtech.fr
@@ -10706,6 +10707,7 @@
 0.0.0.0 www.careertake.com
 0.0.0.0 gcirm.muskogeephoenix.com
 0.0.0.0 id5576.al21.luxup.ru
+0.0.0.0 www.erincranor.com
 0.0.0.0 www.monetizemore.com
 0.0.0.0 crrect.sa.com
 0.0.0.0 directoffers.go2cloud.org
@@ -14325,6 +14327,7 @@
 0.0.0.0 organikusok.blogspot.hu
 0.0.0.0 ads.pni.com
 0.0.0.0 ssl-msn.oewabox.at
+0.0.0.0 www.feudlands.com
 0.0.0.0 npmpecd.com
 0.0.0.0 shortcut-links.com
 0.0.0.0 buy-valium.hut1.ru
@@ -14407,6 +14410,7 @@
 0.0.0.0 www.webtrekk.net
 0.0.0.0 www.diffuselec.com
 0.0.0.0 topshoponline.ru
+0.0.0.0 www.sealabour.living
 0.0.0.0 cache.addthis.com
 0.0.0.0 tracking.vcommission.com
 0.0.0.0 delivery.adnuntius.com

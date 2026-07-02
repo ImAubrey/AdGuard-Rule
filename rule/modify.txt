@@ -1,4 +1,4 @@
-# Update time: 2026-07-01 22:33:16
+# Update time: 2026-07-02 11:31:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8457,6 +8457,7 @@ _beacon?
 ||connect.bolt.com/v1/log
 ||bestcontactform.com^$~image,third-party
 ||datafront.co^$third-party
+||netpoint-media.de^$third-party
 /adobe-prd/*
 @@||c.lytics.io/api/tag/$script,domain=time.com
 ||theoplayer.com/t?
@@ -13820,7 +13821,6 @@ _webanalytics.
 ||glancecdn.net^$third-party,domain=~glance.net
 /click_metrics-jquery.js
 ||tanks.lv/top/stats.php
-||qq.com/report.cgi?
 ||wo-cloud.com^$ping
 &&sub19=undefined&sub20=undefined
 ||unidays.world^$third-party,domain=~myunidays.com
