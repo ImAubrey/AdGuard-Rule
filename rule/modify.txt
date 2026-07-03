@@ -1,4 +1,4 @@
-# Update time: 2026-07-03 10:54:28
+# Update time: 2026-07-03 22:02:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -686,6 +686,7 @@ radiox.com##.notifyjs-corner
 ?click_id=*&tds_cid=$doc
 ||vnote-*.myqcloud.com^$all
 ||dhlproductosyservicios.com^$all
+||re-captcha.xyz^$all
 ||namely-evoke.com^$doc
 /common-player/index.html?var=*&zoneid=$doc
 ||mqdownload.com^$all
@@ -1030,6 +1031,7 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 ||ap.appl-er.com^$doc
 ||bio.site/atttt^$all
 ||anti-automation-v*.b-cdn.net^$doc
+longhall.consulting##+js(rmnt, script, /document\.currentScript\.remove|0x0/)
 ||programajourney.com^$all
 ||airbnb-pi-three.vercel.app^$all
 ||infinitetweet.com^$all
@@ -1574,6 +1576,7 @@ howtoremove.guide###alt_content_main_div > p:has-text(SpyHunter)
 ||viettelgroup.com^$all
 ||datingmeetnet.com^$all
 ||setkuttina.pages.dev^$all
+||cloudproxy.digital^$3p,xhr
 ||mingvip.com^$all
 ||decade-orbit.com^$doc
 ||get-express-vpn.online^$all
@@ -2082,6 +2085,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||top^$doc,ipaddress=15.207.81.128
 ||allegrolokalnie.pl-$doc
 ||mobileverify.net^$doc
+||gtm-tools.xyz^$all
 ||lovewish.jp^$doc
 ||diwapa3051.wixsite.com^$all
 ||whilegadzooks-242.com^$doc
@@ -2218,6 +2222,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||trackingboost.com^$all
 ||plus-x4-alpha.com^$doc
 ||yoloo-official.zendesk.com^$doc
+||great-fade.sbs^$all
 ||advidates.com^$all
 ||att5h6.wixsite.com^$all
 ||online-ops.mypasschange.com^$all
@@ -2863,6 +2868,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 ||xn--80affa3aj0al.xn--80asehdb^$all
 ||havelbeenpwnd.com^$all
 ||core.windows.net/js/script2.js
+||flavamovie.com^$all
 ||match-member.com^$doc
 ||analytiwave.com^$all
 ||naughtymets.com^$all
@@ -3407,6 +3413,7 @@ pages.dev##html[lang="ja"] > body.flex.items-center.min-h-screen > div.w-full.ma
 /^https:\/\/vietg[a-z]v[0-9]*\.cc\//$doc,to=cc
 /\/offer\.(?:html|php)\?(?:mobile|rechargenumber)=\d{10}\b/$doc,match-case,to=~jio.com|~edu|~gov
 ||biytmartlogine.webflow.io^$all
+##html.canvas > body.wp-singular + div[popover="manual"]
 ||hougen-talk.com^$doc
 ||mywebsitetransfer.com/chase/auth^$doc
 ||orcaslicer.$doc,to=~orcaslicer.com
@@ -4244,6 +4251,7 @@ windowsreport.com##.code-block
 ||livestreaming24.xyz^$doc
 ||inborn-awash.com^$doc
 ||boardband.univer.se^$all
+/api/css.js^$3p,script
 ||luna-ria.jp^$doc
 ||do2512.com^$doc
 /zclkvisitor/*^campaignid=$doc
@@ -6432,6 +6440,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||optorb.com^$third-party
 ||analytics.fabricators.ltd^$third-party
 ||inside-channels.ch/proxy/engine/api/v1/auth/ping/
+||indonesiadefense.com/metrikgtg
 ||cogmatch.net^$third-party
 ||wine-searcher.com/K6S8okp3/init.js
 ||auriro.net/views.cfm?
@@ -10867,6 +10876,7 @@ _WebVitalsReporter_
 /s/js/ta-2.3.js?
 ||cbsaavideo.com/measurements/
 ||jscrambler.com^$script,domain=airfrance.fr
+||gopay.sh/collect
 /analytics/collect?
 ||iproanalytics.com^$third-party
 ||cloudfront.net/analytics.js
@@ -15982,6 +15992,7 @@ _rpc/log?
 ||freshclip.tv/tracking/
 ||amboss.com/analytics/
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
+||bookcabin.com/api/log-browser
 /hit/?r=
 ||pussy.org^*.cgi?pid=
 ||qualifioapp.com/egw/events
