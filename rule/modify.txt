@@ -1,4 +1,4 @@
-# Update time: 2026-07-04 21:23:51
+# Update time: 2026-07-05 11:20:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2299,6 +2299,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 /^https?:\/\/gitcoin-[a-z]+\.com\//$all,reason="Blatant scammers who are not related to GitHub or Gitcoin whatsoever."
 ||info-top-letter.com^$doc
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##a:has-text(SpyHunter)
+||immanitys.com^$all
 ||b-cdn.net/verf-v*.html^$doc
 ||trfrc.com^$all
 ||x_x-more--followers-com.translate.goog^$all
@@ -2586,6 +2587,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 ||tranyasy.com.cn^$all
 ||michiakagi.com^$doc
 ||fukusenkan.com^$doc
+||imtolenplex.com^$all
 ||simpleswap.to^$all
 ||l-partner.jp^$doc
 ||tr1net.com^$all
@@ -3189,6 +3191,7 @@ majorgeeks.com##b:has(a[target^="reimage"])
 energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(trusted-replace-argument, String.prototype.includes, 0, undefined, condition, /^checkout$/)
 ||ateraslog.com^$all
 ||trustwallct.cc^$all
+||e261.net^$all
 ||okanekasegeru.com^$doc
 /^https:\/\/booking\.[a-z]{3,}-(?:id)?\d{3,8}\.eu\//$doc,to=eu|~booking.com
 .site/?h=*&user=$script,3p
@@ -3811,6 +3814,7 @@ windowsreport.com##.code-block
 ||romsns.com^$all
 /?clck=*&sid=$doc
 ||alnobala.ae/owasetup/$all
+||tagesschau.tech^$doc
 ||audacity.es^$doc
 ||childernplay.online^$all
 ||mpinsureit.com^$doc
@@ -5744,6 +5748,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||aan.amazon.com^$third-party
 ||percentmobile.com^$third-party
 /.netlify/scripts/rum
+||adguard-dns.io/-/event/
 ||leafmedia.io^$third-party
 ||citypaketet.se^$third-party
 ||reurl.cc/javascripts/tagtoo.js
@@ -6249,6 +6254,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||properm.ru/top/counter_new.php?
 ||pass-1234.com^$third-party
 @@||solr.sas.com/query/$xmlhttprequest,domain=jmp.com
+||adguardcheckout.com/-/logs/
 .eurowings.com/cl.aspx?$image
 ||i-cable.com/ci/tracking/
 &pagegroup=*&url=$script
@@ -10224,6 +10230,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /pixel_identifier.js
 ||amcdn.vn^$third-party
 /discourse-fingerprint_
+||adguard-dns.io/-/logs/
 ||docomo-analytics.com^$third-party
 ||info.com/pingback
 /amp-analytics-
@@ -10251,6 +10258,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /yad_sortab_cetlog.js
 ||mno.link^$third-party
 ||xhit.com^$third-party
+||adguardcheckout.com/-/metrics/
 ||journity.com^$third-party
 ||scw.systems^$third-party
 ||up-rank.com^$third-party
@@ -11718,6 +11726,7 @@ _logHuman=
 ||spotifycdn.com/cdn/js/retargeting-pixels.
 ||sensor.grubhub.com/O97ybH4J/init.js
 ||letv.com/env/
+||adguardcheckout.com/-/event/
 @@||ubisoft.com.first-party-js.datadome.co^$script,domain=connect.ubisoft.com
 ||histats.com^$third-party
 ||mail.qq.com/cgi-bin/getinvestigate?
@@ -12619,6 +12628,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 /measure/pixel/*
 ||ezoicanalytics.com/analytics.js
 @@||riverlink.etcchosted.com/widgets/com/mendix/widget/web/googletag/GoogleTag.js$~third-party
+||adguard-dns.io/-/metrics/
 ||mps.nbcuni.com/request/page/json/params/*&adunits=$xmlhttprequest
 /aptrk.js
 ||contx.net/collect.js
@@ -13832,6 +13842,7 @@ _webanalytics.
 ||glancecdn.net^$third-party,domain=~glance.net
 /click_metrics-jquery.js
 ||tanks.lv/top/stats.php
+||qq.com/report.cgi?
 ||wo-cloud.com^$ping
 &&sub19=undefined&sub20=undefined
 ||unidays.world^$third-party,domain=~myunidays.com
@@ -14469,6 +14480,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 /xiti.js
 ||pushowl.com^$third-party
 ||aicontents.net^$third-party
+||xstats.st^$third-party
 ||pbstck.com^$third-party
 ||webtrack.savoysystems.co.uk^$third-party
 ||sulia.com/papi/sulia_partner.js/$third-party
