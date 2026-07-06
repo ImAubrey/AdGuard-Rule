@@ -1,4 +1,4 @@
-# Update time: 2026-07-05 21:37:04
+# Update time: 2026-07-06 11:28:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7851,6 +7851,7 @@ _trackWebtrekkEvents.
 ||storage.googleapis.com/vs-scripts/intentiq/vsintentiq.js
 ||fluidsurveys.com^$third-party
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
+||wallethacks.com/js/w
 ||m.facebook.com/ajax/weblite_resources_timing_logging/
 @@||ignitetv.shaw.ca/js/api/fingerprint.js$~third-party
 @@||toggo.de/static/js/sourcepoint.js$domain=toggo.de
@@ -8262,6 +8263,7 @@ _beacon?
 ||blozoo.info/js/ranktool/
 /trackBatchEvents?
 /unbxdAnalytics.js
+||wallethacks.com/js/t/|
 ||ogt.jp^$third-party
 ||custom.search.yahoo.co.jp/images/window/*.gif
 ||bpath.com/count.dll?
@@ -8414,7 +8416,6 @@ _beacon?
 ||gsght.com^$third-party
 ||expedia.com/static/default/default/scripts/siteAnalytics.js
 ||foodpanda.com.kh/lJuB4eTB/init.js
-://estats.*/code/e.js
 ||ooyala.com/sas/analytics?
 /TeaLeafCfg.js
 ||cracataum.com^$third-party
@@ -8614,7 +8615,6 @@ _beacon?
 ||ultimate-guitar.com/components/ab/event?
 ||engageplatform.com/api/trace/d/record?
 /link.morningbrew.com/img/*.gif
-://stats.*/code/e.js
 /rrweb-record-pack.js
 ||faktor.io^$third-party
 ||thehill.com/6zcfGH4h/init.js
@@ -15227,6 +15227,7 @@ _track_pixel.gif?
 ||corvidae.ai/pixel.min.js
 ||openpanel.dev/op.js
 ||guarantee-cdn.com^$third-party
+/code/e.js|$~third-party
 ||fpad.jp^$third-party
 /znsrc.com/o/*$image
 /js/counter.js?
