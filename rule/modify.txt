@@ -1,4 +1,4 @@
-# Update time: 2026-07-07 11:18:52
+# Update time: 2026-07-07 22:31:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -856,6 +856,7 @@ radiox.com##.notifyjs-corner
 ||k0ikana.com^$doc
 /^https:\/\/ee(?:-[a-z]{5,}){1,2}\.web\.app\//$doc,to=web.app|~ee.co.uk
 ||pcapp.store^$doc
+||fitgirl-repacks.$all,from=~fitgirl-repacks.site,to=~fitgirl-repacks.site
 ||nuide.net^$doc
 /?track=*&key=$all
 ||di-ana.jp^$doc
@@ -3248,7 +3249,6 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||rustdesk.pl^$doc
 ||fukunoha211013.com^$doc
 ||uraaka.net^$doc
-||fitgirl-repacks.*^$all,domain=~fitgirl-repacks.site,to=~fitgirl-repacks.site
 ||pub-*.r2.dev/ledge.html^$doc
 ||u-tronscan.com^$all
 /^https?:\/\/[a-z]{7}\.[a-z]{8,11}\.com\/products\/(?:[0-9a-z]+-)*(?:%[%0-9A-F]{8,}-)+(?:[0-9a-z]+-)*(?:[%0-9A-F]{8,}-)*[-%0-9A-Fa-z]+\/?$/$doc,match-case,ipaddress=/^23\.2\d{2}\.\d{2}\.\d{2}$/
@@ -3782,6 +3782,7 @@ gemfellowship.org##+js(rmnt, script, TextDecoder)
 ||rkn71nkr.com^$doc
 ||f.digital-*.com/igit/$doc
 .online/js/script6.js
+||shuru-baidu.com.cn^$all
 ||sevensmooon.com^$doc
 ||tiurll.com^$all
 ||kaiunnookite.com^$doc
@@ -4716,6 +4717,7 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 ||tokujirou.stores.jp^$doc
 ||utorrent.it^$doc
 ||request-page-violation-*.surge.sh^$all
+||fitgirl-repacks.$doc,frame,xhr,script,css,to=~fitgirl-repacks.site
 ||panoramacharter.click^$doc
 ||com/go/$doc,to=com,ipaddress=3.0.178.139
 ||coup-ling.net^$all
@@ -15236,6 +15238,7 @@ _track_pixel.gif?
 ||mvtracker.com^$third-party
 /analytics4.php$ping
 /page.bsigroup.com/*
+||gitfut.com/*/view
 ||outbrain.com^*/widgetStatistics.js
 /stats.gif?
 /.webscale/rum?
