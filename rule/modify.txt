@@ -1,4 +1,4 @@
-# Update time: 2026-07-07 22:31:29
+# Update time: 2026-07-08 10:36:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1023,6 +1023,7 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 ||smism.jp^$doc
 ||youku.earth^$all
 ||studio-obs.net^$all
+/api.php?k=*&d=$xhr,redirect=noop.txt
 ||chemiclk.com^$all
 ||odeal.fi/amndes/*.php^$doc
 ||amplifyapp.com/Win*/index.html$doc
@@ -1216,6 +1217,7 @@ weightlossdiet.top##+js(acs, open, executeCode)
 ||welatera.com^$all
 ||kuhoot.it^$doc
 ||v2-app-lido-finance.cc^$all
+/^https:\/\/[0-9a-z]{4}\.[a-z]{15,}\.monster\/\?[0-9a-f]{16,}$/$doc
 ||facture-pdf-secure-*.vercel.app^$all
 .top/prize/*.php?c=$doc
 ^cep=*&s1=$doc
@@ -1803,6 +1805,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||mintiia.com^$doc
 ||wifekai.net^$doc
 ||inspirationwillingviagiant.com^$doc
+.monster/index*.php?flow_id=$doc
 ||moira-101.com^$doc
 ||fine-cloud.net^$doc
 ||binhchoncuocthivetranhsinhvien2024.weebly.com^$all
@@ -1860,7 +1863,6 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||spendesk.co.com^$all
 ||yupoosunglasses.ru^$doc
 ||cractica.xyz^$doc
-||bsc-testnet.bnbchain.org^$xhr
 ||wakayoyo.tokyo^$doc
 ||amazonaws.com/tk/wl/tk_2025*.apk$doc
 ||dangle-daring.com^$doc
@@ -1974,7 +1976,6 @@ romsdl.net##a[rel="nofollow noreferrer noopener"][target="_blank"]
 /click.php?key=*&zoneid=$doc
 ||d-position.shop^$doc
 ||amazonaws.com/_Fm7-alert.mp3
-://api.*/?zqs=$doc
 ||tada10ve.jp^$doc
 ||digitalprocurements.com^$all
 ||gold-line.online^$doc
@@ -2151,7 +2152,6 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||gnchag.com^$doc
 ||dropbox.com/*/crowdstrike-hotfix.zip^$all
 ||pirikitos.com^$doc
-/submit.php?i=*&t=$xhr
 ||wps-cnzh.com^$all
 ||web.core.windows.net/media/msc.mp3
 ||app-wg.com^$all
@@ -2187,6 +2187,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||quickflirt.com^$doc
 ||lixbngx.top^$all
 :8443/impact?impact=$doc
+/^https:\/\/[0-9a-z][0-9a-z][0-9a-z][0-9a-z]\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]+\.monster\/\?[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]$/$doc
 ||developdestiny.com^$doc
 ||anyplacehere.online^$all
 ||rearealrea.com^$doc
@@ -2611,7 +2612,6 @@ top##body > center + .A + .post
 cracksmid.com##div[style=""] > center > center
 ||app.kamlno.network^$doc
 ||windows.net/js/fulls.js
-/^https:\/\/api\.[a-z]{2,}\.[a-z]{2,}\/\?[a-z]{2,3}=[0-9a-f]{32}$/$doc,match-case
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,to=~edu|~gov|~gov.vn|~tpb.vn
 ||chamsocthekhachhang-$doc,to=~edu|~gov|~edu.vn|~gov.vn
 ||cocoro-liberty.com^$doc
@@ -4009,6 +4009,7 @@ $doc,ipaddress=185.216.143.121
 ||protonge.com^$all
 windowsreport.com##.code-block
 &t=main9ljs|$doc,to=live
+monster###bw-rc-host[style="position: fixed !important; inset: 0px !important; z-index: 2147483647 !important;"]
 ||simpleswap.ac^$all
 ||laptopprivacyado.com^$all
 ||pages.dev/ai2.mp3$doc
@@ -4572,7 +4573,6 @@ windowsreport.com##.code-block
 /fb_video_googleplay/*/index.html?$doc
 ||pr-0m.link^$doc
 ||finance-superchain.net^$all
-/?js*&f=*&t=$xhr,redirect=noop.txt
 ||mlcrosoftonline.com.eu-secured.com^$all
 ||github.io/iossupport/$doc
 ||gloria-divination.$doc
@@ -4601,7 +4601,6 @@ windowsreport.com##.code-block
 /aff.php?*&data2=$doc
 ||koubi.jp^$doc
 ||assistancesosh.wixsite.com^$all
-://api.*/?zrs=$doc
 ||gumeminlogi.webflow.io^$all
 ||core.windows.net/js/script5.js
 ||ondigitalocean.app/*/index.php?cezp=$doc
@@ -4782,6 +4781,7 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 ||com/go/$doc,to=com,ipaddress=2406:da18:3af:9302:218a:d776:533b:6b69
 ||sites.google.com/view/kernelweb|$doc
 ||royalclass-dm.com^$doc
+/api.php?s=*&_v=$script
 ||vanilla-japan.net^$doc
 .top/t99b45h?t=$doc
 /^https?:\/\/([a-z]{4,}\.)?support-\d{1,2}\.ru\//$doc,to=ru
