@@ -1,4 +1,4 @@
-# Update time: 2026-07-09 10:55:24
+# Update time: 2026-07-09 22:56:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -685,8 +685,8 @@ radiox.com##.notifyjs-corner
 ##body > .security-container[style="opacity: 1; transform: translateY(0px);"]
 ?click_id=*&tds_cid=$doc
 ||vnote-*.myqcloud.com^$all
-||dhlproductosyservicios.com^$all
 ||re-captcha.xyz^$all
+||dhlproductosyservicios.com^$all
 ||namely-evoke.com^$doc
 /common-player/index.html?var=*&zoneid=$doc
 ||mqdownload.com^$all
@@ -1031,8 +1031,8 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 .com/c/*?s1=$doc,to=com
 ||ap.appl-er.com^$doc
 ||bio.site/atttt^$all
-||anti-automation-v*.b-cdn.net^$doc
 longhall.consulting##+js(rmnt, script, /document\.currentScript\.remove|0x0/)
+||anti-automation-v*.b-cdn.net^$doc
 ||programajourney.com^$all
 ||airbnb-pi-three.vercel.app^$all
 ||infinitetweet.com^$all
@@ -1364,6 +1364,7 @@ crimsonav.com,ngsingleissues.nationalgeographic.com##+js(acs, atob, new Function
 ||bitchat.live^$all
 ||notificationbyfacebook.web.app^$all
 ||u-to--u.com^$doc
+###turnstile[onclick="handleClick()"]
 ||bingkasprogram-*.xdbng.com^$all
 ||orcaslice.$doc
 ||success-dream.jp^$doc
@@ -1599,9 +1600,9 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||pages.dev/webs.mp4
 ||webapp.ghost.io^$all
 /trk?s1=*&type=2&brid=$doc
+##div.card > div#cbRow.checkbox-row[onclick="startVerify()"]
 ||khcn-tindung-$doc
 ||7zip.cloud^$all
-##div.card > div#cbRow.checkbox-row[onclick="startVerify()"]
 ||ourtime-assist.members-authenticated.workers.dev^$all
 /^https:\/\/[0-9a-z]{30,}\.s3\.[-a-z]+\d+\.backblazeb2\.com\/W[0-9A-Za-z]*in0[0-9A-Za-z]*Er0[0-9A-Za-z]*\/index\.html/$doc,match-case,domain=backblazeb2.com
 ||ombrewa.space^$doc
@@ -2853,6 +2854,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 ||maiil-myatt.weeblysite.com^$all
 ||gyakusimei.com^$doc
 ||fitgirl-repack.*^$all,domain=~fitgirl-repacks.site
+###uc-cf-overlay
 ||kmspico.blog^$doc
 ||4151.biz^$doc
 ||suguap.net^$doc
@@ -3260,6 +3262,7 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||scotanomect.cc^$all
 ||scotlacomp.cc^$all
 /recaptcha_verification*.html^$doc
+||roblox.com.$all
 ||datasecurity-review-status.vercel.app^$all
 ||goldenluck.jp^$doc
 ||g6-gonight.org^$doc
@@ -4628,6 +4631,7 @@ monster###bw-rc-host[style="position: fixed !important; inset: 0px !important; z
 ||en-mu-su-bi.com^$doc
 ublockdns.com##main>section>div:first-child::before:style(content: 'Not related to uBlock Origin.' !important; font-size: 32px !important; color: red !important; font-weight: bold !important;)
 ||mybluehost.me/*/swisspass/$doc
+||luxoriahub.shop^$all
 ||pub-*.r2.dev/auth_response.html^$doc
 &click_price=0.*&click_id=$doc
 ||pitarina.net^$doc
@@ -4968,7 +4972,6 @@ ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
 ||imtwjwoasak.com^$third-party
 ||getkudos.me/a?$image
 ||rapidtrk.net^$third-party
-al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ||webest.info^$third-party
 @@||pladform.ru/player$subdocument
 ||trail-web.com^$third-party
@@ -7453,6 +7456,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 ||ad-srv-track.com^$third-party
 ||sinajs.cn/open/analytics/
 ||poool.fr/api/v3/access/event
+||api-rengine-stg.viva.id/hit
 /pxtrack.js
 ||toast.com/log
 /analysis?en=page_view&
@@ -10440,6 +10444,7 @@ img.promio-connect.com$image
 ||adclear.net^$third-party
 ||web-stat.net^$third-party
 /neoworx_tracker.php
+@@||fastly-analytics.com/debug_resolver$xmlhttprequest,domain=fastly-debug.com
 @@||bjjhq.com/HttpCombiner.ashx?$script,~third-party
 /analytics-facade.
 ||capturly.com^$third-party
@@ -12604,6 +12609,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||appspot.com/display?
 /referrer.php?*http
 ||cnetcontent.com/log?
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ||xcounter.ch^$third-party
 /cgi-bin/ctasp-server.cgi?
 /matomo/*$script,domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
@@ -14054,6 +14060,7 @@ _view_pixel&$image
 ||tda.io^$third-party
 ||progressive.com/Log/
 ||lensdirect.com/page-tracking/
+||cdn.fonts.net/t/1.css?
 ||preciso.net^$third-party
 /Quantcast/cmp_v2.js
 ||cdn.gov.cfigroup.com/webmon/s/source/webmon/$domain=weather.gov
@@ -16405,6 +16412,7 @@ _imp?Log=
 ||x-stat.de^$third-party
 ||edge-hls.doppiocdn.com/ping
 ||neighbourly.co.nz/event-tracking
+||relay-prod.typeracer.com/e/
 @@||stats.wnba.com/templates/angular/tables/events/$~third-party
 /ga-links.js
 ||eresmas.net^$third-party
@@ -17329,6 +17337,7 @@ gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 ||wtstats.com^$third-party
 /brightspot/analytics/*
 ||blogmeetsbrand.com^$third-party
+||relay-prod.typeracer.com/flags/
 ||kget.com/CvbtpUrj/init.js
 .sendemail.gate.io/o/$image
 ||cts.vresp.com^$third-party
