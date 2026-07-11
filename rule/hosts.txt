@@ -1,4 +1,4 @@
-# Update time: 2026-07-10 22:24:30
+# Update time: 2026-07-11 10:34:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8093,6 +8093,7 @@
 0.0.0.0 dashboard.adcalls.nl
 0.0.0.0 ads.baazee.com
 0.0.0.0 paintnet.fr
+0.0.0.0 www.sapiatinsurance.com
 0.0.0.0 www.baiakstyle.com
 0.0.0.0 ad19digital.checkm8.com
 0.0.0.0 adsrv.lua.pl
@@ -11786,7 +11787,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -12324,6 +12324,7 @@
 0.0.0.0 www.specificpop.com
 0.0.0.0 core.insightexpressai.com
 0.0.0.0 app4.kromtech.net
+0.0.0.0 www.improvingthe.com
 0.0.0.0 acglgoa.com
 0.0.0.0 ads130.console.adtarget.com.tr
 0.0.0.0 secretosdelagua.fr
@@ -13006,6 +13007,7 @@
 0.0.0.0 deechtebol.com
 0.0.0.0 piecediscount24.fr
 0.0.0.0 impnl.tradedoubler.com
+0.0.0.0 healthit.live
 0.0.0.0 corp-downloads.com
 0.0.0.0 proximityads.flipcorp.com
 0.0.0.0 www.31d.net
@@ -16390,6 +16392,7 @@
 0.0.0.0 ads.mytelus.com
 0.0.0.0 cdn.assets.craveonline.com
 0.0.0.0 lexapro.1.p2l.info
+0.0.0.0 www.iconatsbs.com
 0.0.0.0 logi8.xiti.com
 0.0.0.0 jhumour.cjt1.net
 0.0.0.0 www.iovation.co.uk
@@ -25116,6 +25119,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
