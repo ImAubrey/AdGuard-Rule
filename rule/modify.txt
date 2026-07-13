@@ -1,4 +1,4 @@
-# Update time: 2026-07-12 21:17:14
+# Update time: 2026-07-13 10:42:41
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9268,6 +9268,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||iadvize.com/collector/
 ||call-tracking.by^$third-party
 ||snapchat.com/web/metrics
+||transcend.io/collect
 ||data.pendo.io/data/errorlog?
 ||mail.ru/grstat?
 ||statssheet.com^$third-party
@@ -12847,6 +12848,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||fpjs.io^$third-party
 /amp/analytics
 /api/pagevisits
+||api.intelligems.io/v3/track
 /_ga?send&
 ||ub-analytics.com^$third-party
 ||quintelligence.com^$third-party
@@ -16390,6 +16392,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 ||gegenstimme.tv/tracker/
 ||uplift-platform.com^$third-party
 ||pdfcrowd.com/static/3rd/js/fpr.js
+||fjordsand.com^$redirect=noopjs,script
 ||estat.com^$third-party
 ||birdsend.email/pixel
 ||iocnt.net^$third-party
