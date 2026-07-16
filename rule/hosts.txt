@@ -1,4 +1,4 @@
-# Update time: 2026-07-15 21:41:30
+# Update time: 2026-07-16 10:31:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9588,6 +9588,7 @@
 0.0.0.0 unclechunk.com
 0.0.0.0 ehg-learningco.hitbox.com
 0.0.0.0 s10.histats.com
+0.0.0.0 www.guashastone.com
 0.0.0.0 reloadpage.net
 0.0.0.0 webload101.hitbox.com
 0.0.0.0 protonix.shengen.ru
@@ -11789,7 +11790,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -12130,6 +12130,7 @@
 0.0.0.0 jgen20.cjt1.net
 0.0.0.0 iq001.adtech.us
 0.0.0.0 ehg-cbc.hitbox.com
+0.0.0.0 www.dbcorporation.com
 0.0.0.0 www.view4cash.de
 0.0.0.0 hg6a.hitbox.com
 0.0.0.0 lg.brandreachsys.com
@@ -17918,6 +17919,7 @@
 0.0.0.0 e-2dj6wjk4amd5mfp.stats.esomniture.com
 0.0.0.0 buy-hydrocodone.aca.ru
 0.0.0.0 www.a2uu36g43l.download
+0.0.0.0 www.elfralalo.com
 0.0.0.0 www.trafficnetworkads24.com
 0.0.0.0 livreral.fr
 0.0.0.0 office365-us-update.com
@@ -18614,6 +18616,7 @@
 0.0.0.0 updating-url.com
 0.0.0.0 server-lv.imrworldwide.com
 0.0.0.0 informacja-dnia.com
+0.0.0.0 www.artssets.com
 0.0.0.0 www.likethis.mbosoft.com		# Facebook trojan
 0.0.0.0 widget5.linkwithin.com
 0.0.0.0 oascentral.poconorecord.com
@@ -25124,6 +25127,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com

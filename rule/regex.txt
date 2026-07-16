@@ -1,4 +1,4 @@
-# Update time: 2026-07-15 21:41:30
+# Update time: 2026-07-16 10:31:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -275,7 +275,6 @@
 |onrt-stsdk.vivo.com.cn^
 |httpdns-sdk.n.netease.com^
 |analysis.yozocloud.cn^
-|03.lzzncm.com^
 |c.l.qq.com^
 |dig.zjurl.cn^
 |test.surepush.cn^
@@ -348,7 +347,6 @@
 |yt-adv.bn.netease.com^
 |game.wostore.cn^
 |mobilead.kuwo.cn^
-|a.dounanhuahui.com^
 |adashx.ut.ele.me^
 |mou.niu.xunlei.com^
 |iad0ssl.pconline.com.cn^
@@ -421,7 +419,6 @@
 |www-analytics.ripe.net^
 |ackee.tangly1024.com^
 |news.l.qq.com^
-|04.lzzncm.com^
 |analytics.spotify.com^
 |trackapp.guahao.cn^
 |rt.funshion.net^
