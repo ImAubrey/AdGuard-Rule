@@ -1,4 +1,4 @@
-# Update time: 2026-07-17 10:33:52
+# Update time: 2026-07-17 21:25:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4910,10 +4910,10 @@ ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
 ||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
 ||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
 @@||www.zhihu.com/api/v4/search_v3*
+#
 .com-id*.com^
 .avito.www.booking.
 .com-id*.info^
-#
 /services/t/l?referrer=
 ||coinpot.co^$third-party
 ||smartctr.com^$third-party
@@ -13862,7 +13862,6 @@ _webanalytics.
 ||glancecdn.net^$third-party,domain=~glance.net
 /click_metrics-jquery.js
 ||tanks.lv/top/stats.php
-||qq.com/report.cgi?
 ||wo-cloud.com^$ping
 &&sub19=undefined&sub20=undefined
 ||unidays.world^$third-party,domain=~myunidays.com
