@@ -1,4 +1,4 @@
-# Update time: 2026-07-18 21:12:40
+# Update time: 2026-07-19 10:38:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6699,6 +6699,7 @@ reuters.com##+js(aost, admiral, .js?)
 @@||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk
 ||codata.ru^$third-party
 .starbucks.com/a/
+||verybark.com^$redirect=noopjs,script
 ||y.aram.zone/pageview
 @@||dmp.theadex.com^*/adex.js$domain=kino.de
 ||flux-cdn.com/plugin/common/analytics/
@@ -6873,7 +6874,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||exitintel.com/log/$third-party
 ||gazzetta.it^*/stats.php?
 ||meteored.com/cmp/web/events/analytic/
-||x.com/i/api/1.1/flow/viewer.json
 ://track.*/dye
 ||pushpro.io/api/logging/
 ||tourradar.com/def/partner?$third-party
@@ -12619,7 +12619,6 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||appspot.com/display?
 /referrer.php?*http
 ||cnetcontent.com/log?
-al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ||xcounter.ch^$third-party
 /cgi-bin/ctasp-server.cgi?
 /matomo/*$script,domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
@@ -12933,6 +12932,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 /countertab.js
 ||facebook.com/xti.php?
 ||grokipedia.com/api/analytics
+||ripples.sh^$third-party
 /RadioAnalytics.js
 /atapixel.js
 /analytics.*/ping/?
@@ -13324,6 +13324,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||lightning.ncaa.com/launch/$script
 /omniunih.js
 @@||yjtag.yahoo.co.jp/tag?$script,domain=bousai.yahoo.co.jp
+||abs.twimg.com/responsive-web/client-web/main.$script,replace=/\,_\.send\(e\.data\)/\,_.send()/
 ||speedtracker.de^$third-party
 ||widgetserver.com/metrics/
 /retarget_pixel.php
@@ -17132,6 +17133,7 @@ abc17news.com,al.com,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwi
 ||yieldsoftware.com^$third-party
 ||sbi-push.com^$third-party
 /log?kc=
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,primagames.com,progameguides.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ://signals.*/hardal
 ||essentiallysports.com/api/track/
 ||ipfind.com^$third-party
