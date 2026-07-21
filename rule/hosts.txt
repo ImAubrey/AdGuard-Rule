@@ -1,4 +1,4 @@
-# Update time: 2026-07-20 22:03:12
+# Update time: 2026-07-21 10:35:40
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8302,6 +8302,7 @@
 0.0.0.0 www3.smartadserver.com
 0.0.0.0 superlecker.info
 0.0.0.0 oas.sciencemag.org
+0.0.0.0 www.learningfound.com
 0.0.0.0 www.likethislist.biz			# Facebook trojan
 0.0.0.0 myprivateemails.com
 0.0.0.0 w1.hitbox.com
@@ -15838,6 +15839,7 @@
 0.0.0.0 avworld.activehosted.com
 0.0.0.0 cdn.betgorebysson.club
 0.0.0.0 timetunnel.net
+0.0.0.0 www.hoabridal.com
 0.0.0.0 cnetasiapacific.122.2o7.net
 0.0.0.0 annuaire-autosurf.com
 0.0.0.0 prebid.adspro.it
@@ -19240,6 +19242,7 @@
 0.0.0.0 qfsya.comfortykive.xyz
 0.0.0.0 phentermine.t-amo.net
 0.0.0.0 home.townisp.com
+0.0.0.0 www.ibenefi.com
 0.0.0.0 clit4.sextracker.com
 0.0.0.0 www.utarget.co.uk
 0.0.0.0 scrippsbathvert.112.2o7.net
