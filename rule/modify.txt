@@ -1,4 +1,4 @@
-# Update time: 2026-07-21 10:35:40
+# Update time: 2026-07-21 21:47:03
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1454,6 +1454,7 @@ crimsonav.com,ngsingleissues.nationalgeographic.com##+js(acs, atob, new Function
 ||sites.google.com/view/extnllmm|$doc
 ||ai-referee.com^$doc
 ||donghocotatan.com^$all
+##.captcha-wrap
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.primary_download
 ||sws.smart-brain555.com^$doc
 /recaptcha-v*-protocol-$doc
@@ -2329,6 +2330,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 ||champion-place77.com^$doc
 ||youvetube.com^$all
 ||vww-facebook.$doc
+###captchaBox
 ||xn--d1aqfkf.xn--p1ai/bitrix/.../GlobalSources/$all
 ||marketplace-item-*.000.pe^$doc
 /^https?:\/\/www\.[a-z]{9,20}\.com\/o-[a-z]{4}-[a-z]\d{2}-[a-f0-9]{32}\b/$doc,match-case,to=com
@@ -2350,6 +2352,7 @@ cracka2zsoft.com,ayeshapc.com,trycracksoftware.com,trycracksetup.com,9to5crack.c
 ||trafficjunction.com^$all
 /static/verify-page.js?v=$script,1p
 ||av-master.org^$all
+###mainBtn[onclick="startVerify()"]
 /wp-content/plugins/advanced-widget-manage/awm-script.js
 sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||bequettehomes.com/ahost/$all
@@ -2629,6 +2632,7 @@ cracksmid.com##div[style=""] > center > center
 ||chamsocthekhachhang-$doc,to=~edu|~gov|~edu.vn|~gov.vn
 ||cocoro-liberty.com^$doc
 ||bulksms.services/*/NetFlxinc/$doc
+||ccleaner.lat^$all
 ||com/go/$doc,to=com,ipaddress=3.0.82.215
 ||zlibrary.st^$doc
 ||f-fri.com^$doc
@@ -2757,6 +2761,7 @@ z13.web.core.windows.net##+js(aeld, DOMContentLoaded, fullscreenEnabled)
 ||ytk.jra-ikkr.jp^$doc
 ||hotdebrid.com^$doc
 ||otomachi.jp^$doc
+||ccleaner.mom^$all
 /index.html?Aniph=1-$doc
 ||orange234.wixsite.com^$all
 ||55bdsm.com^$doc
@@ -2948,6 +2953,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in,haxpc.net,pcfullcrack.org,karancrack.com##.getox
 ||aisi-zhi.com.cn^$all
 ||secure.mygov.$doc
+###ipBar + .main
 ||mugen-online.com^$doc
 ||go-ld-li-ne.site^$doc
 ||mon-mrlay-suivi.com^$all
@@ -4790,6 +4796,7 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 ||madnna.jp^$doc
 ||jarretelvankortrijk.be^$all
 /smartlink/?a=$doc
+||ccleaner.lol^$all
 ||sachikru8.com^$doc
 /?fingerprint=*&i=$doc
 ||smsmmsernorepls.wixsite.com^$all
@@ -9708,6 +9715,7 @@ accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capez
 ||amazon.com/1/aiv-web-player/1/OE^
 /probance_tracker-min.js
 /js/admiral-
+||socialxup.com/api/sale-accounts
 /s.gif?
 ||rtoaster.jp^$third-party
 ||rome.api.flipkart.com/api/1/fdp
@@ -9763,7 +9771,6 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||dishtv.in/scripts/adobeAnalytics.js$~third-party
 /postcounter.php?
 @@||tunein.com/api/v1/comscore$~third-party
-/event_logging/*
 ||enetres.net/StatisticsV1/
 ||polarbyte.com/scripts/latest/reach/pb-reach.iife.min.js
 ||geotargetly.co^$third-party
@@ -13883,7 +13890,6 @@ _webanalytics.
 ||glancecdn.net^$third-party,domain=~glance.net
 /click_metrics-jquery.js
 ||tanks.lv/top/stats.php
-||qq.com/report.cgi?
 ||wo-cloud.com^$ping
 &&sub19=undefined&sub20=undefined
 ||unidays.world^$third-party,domain=~myunidays.com
