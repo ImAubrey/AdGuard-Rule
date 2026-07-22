@@ -1,4 +1,4 @@
-# Update time: 2026-07-21 21:47:03
+# Update time: 2026-07-22 10:34:00
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7224,6 +7224,7 @@
 0.0.0.0 ads.program3.com
 0.0.0.0 www.goldendoodlez.com
 0.0.0.0 r.turn.com
+0.0.0.0 www.dutchoutlet.com
 0.0.0.0 residence.bunkerhilltradingco.info
 0.0.0.0 oz.valueclick.ne.jp
 0.0.0.0 adserver.100free.com
@@ -9596,6 +9597,7 @@
 0.0.0.0 webload101.hitbox.com
 0.0.0.0 protonix.shengen.ru
 0.0.0.0 puppygames.fr
+0.0.0.0 www.cruzresorts.com
 0.0.0.0 imitrex.4.p2l.info
 0.0.0.0 gcirm.rgj.com
 0.0.0.0 pub-251d6c694a0641dd9e95aeca9e3219e8.r2.dev
@@ -11793,7 +11795,6 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
-0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -15626,6 +15627,7 @@
 0.0.0.0 pfepfe.cc
 0.0.0.0 trafsearchonline.com
 0.0.0.0 guiltygear.fr
+0.0.0.0 www.webdesignmetric.com
 0.0.0.0 gpaper120.112.2o7.net
 0.0.0.0 mcleaks.fr
 0.0.0.0 telefoniabologna.it
@@ -25135,6 +25137,7 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
+0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
