@@ -1,4 +1,4 @@
-# Update time: 2026-07-22 21:50:38
+# Update time: 2026-07-23 10:39:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10349,6 +10349,7 @@
 0.0.0.0 rtb28.adscience.nl
 0.0.0.0 ma.wp.pl
 0.0.0.0 www.autohipnose.com
+0.0.0.0 www.gaiis.com
 0.0.0.0 ads4.console.adtarget.com.tr
 0.0.0.0 ads.paxnet.co.kr
 0.0.0.0 photos2.pop6.com
@@ -13829,6 +13830,7 @@
 0.0.0.0 www.kitaramedia.com
 0.0.0.0 www.binarysystem4u.com
 0.0.0.0 www.brightonclick.com
+0.0.0.0 www.patelshop.com
 0.0.0.0 tracker.consumerpackage.net
 0.0.0.0 www.carehigher.com
 0.0.0.0 stat.www.fi
@@ -17961,6 +17963,7 @@
 0.0.0.0 metrics.post-gazette.com
 0.0.0.0 track.msadcenter.kfgy.com
 0.0.0.0 rd.speakol.com
+0.0.0.0 www.iesaber.com
 0.0.0.0 johnlewis.112.2o7.net
 0.0.0.0 ads10.focalink.com
 0.0.0.0 www.irlandalk.com
@@ -19429,6 +19432,7 @@
 0.0.0.0 te.boston.com
 0.0.0.0 hg14.hitbox.com
 0.0.0.0 adv-mydarkness.ggcorp.me
+0.0.0.0 www.quipla.com
 0.0.0.0 cf.kampyle.com
 0.0.0.0 nkcache.brandreachsys.com
 0.0.0.0 stackoverflow.xyz
@@ -19464,6 +19468,7 @@
 0.0.0.0 tennis.oewabox.at
 0.0.0.0 tracking.3com.com
 0.0.0.0 boutique-papillon.fr
+0.0.0.0 www.nostalgicroses.com
 0.0.0.0 oascentral.wkrn.com
 0.0.0.0 www.da-ads.com
 0.0.0.0 wpni.112.2o7.net
