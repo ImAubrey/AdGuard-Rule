@@ -1,4 +1,4 @@
-# Update time: 2026-07-24 21:43:08
+# Update time: 2026-07-25 10:33:55
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -16139,6 +16139,7 @@
 0.0.0.0 www.everifymatch.com
 0.0.0.0 ad.ae.doubleclick.net
 0.0.0.0 pt21na.com
+0.0.0.0 www.bocastyle.com
 0.0.0.0 projectpoi.com
 0.0.0.0 hb.mediafuse.com
 0.0.0.0 www.expolearn.com
@@ -16902,6 +16903,7 @@
 0.0.0.0 cguardai.com
 0.0.0.0 www.turn.com
 0.0.0.0 opentable.tt.omtrdc.net
+0.0.0.0 www.roundtopbooks.com
 0.0.0.0 www.paseyourself.com
 0.0.0.0 www.myseostats.com
 0.0.0.0 wwb.hitbox.com
