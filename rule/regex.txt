@@ -1,4 +1,4 @@
-# Update time: 2026-07-27 10:50:35
+# Update time: 2026-07-27 22:31:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -376,6 +376,7 @@
 |httpdns.push.oppomobile.com^
 |recommend-drcn.hms.dbankcloud.cn^
 |pushapi.lenovomm.com^
+|analytics.crdroid.net^
 |rms-drcn.platform.dbankcloud.cn^
 |sdk.m.youku.com^
 |show.re.taobao.com^

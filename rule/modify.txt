@@ -1,4 +1,4 @@
-# Update time: 2026-07-27 10:50:35
+# Update time: 2026-07-27 22:31:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5442,6 +5442,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||popin.cc/js/pixel.js
 ||myomnistar.com^$third-party
 ||onesignal.com/webPushAnalytics
+||mercari.com/gtm/
 ||analyzz.com^$third-party
 ||contentsfeed.com^$third-party
 ||performancefirst.jp^$third-party
@@ -9960,6 +9961,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||hindustantimes.com/res/images/one-pixel.png
 @@||globalatlanticannuity.com/assets/embed/gtm.js$script,~third-party
 ||getadblock.com/js/log.js
+&tag_exp=*&e=gtm.
 ||api.usestoryteller.com/api/app/activity/recordActivity?
 ||canem-auris.com^$third-party
 /prepixel?
@@ -17191,7 +17193,6 @@ al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjo
 ||gstatic.com/retail/v2_event.js
 ||early-birds.io^$third-party
 ||videopress.com/plugins/stats/
-||receptions.smart-bdash.com/receptions/action/click
 ||webhits.de^$third-party
 /click-tracking.js
 ||servernews.ru/track?
