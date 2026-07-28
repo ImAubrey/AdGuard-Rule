@@ -1,4 +1,4 @@
-# Update time: 2026-07-28 10:28:18
+# Update time: 2026-07-28 22:04:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -758,6 +758,7 @@ radiox.com##.notifyjs-corner
 ||guidance.ghost.io^$doc
 ||tg.sv/panggahokeee^$all
 ||afflatus.consulting/deutschepost/$all
+sgp1.cdn.digitaloceanspaces.com###frame[title="encrypted shop"][allowfullscreen][allow="fullscreen"][src^="blob"][style="display: block;"]
 ||youtube.com/@kinunhadou^$doc
 ||wildmeets.com^$doc
 ||gyakunan.net^$doc
@@ -13387,6 +13388,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||mialbj6.com^$third-party
 /anametrix/cas.js
 /rum?ddsource=
+@@||fate-go.jp/anniv_11th_sns/assets/js/services/gtm.js$~third-party
 ||px-cdn.net^*/collector
 /diffuser.js
 ||trustcommander.net/iab-tcfapi/
