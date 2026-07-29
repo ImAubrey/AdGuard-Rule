@@ -1,4 +1,4 @@
-# Update time: 2026-07-29 10:32:39
+# Update time: 2026-07-29 22:07:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -581,7 +581,6 @@ myanimelist.net##._unit
 @@||static.admysports.com/hb/site/als/hb_allosurf.js$domain=allosurf.net
 gdekluet.ru##body > div[class^="stop-block"]
 ||vazhno.ru/cdn-cgi/apps/head/*.js
-animedub.ru##.poverh
 ||i140.ru/js/etxm*.js|$script
 ivi.ru##.ivi-footer ~ div[class] > style + div[class]
 @@||animedigitalnetwork.fr/templates/*/js/advertising.min.js?$script,~third-party
@@ -10705,7 +10704,6 @@ _ad_impression.
 /v60.js
 ||hh.ru/stat?
 ||optimizely.com/log
-@@||wpfc.ml/b.gif$image,domain=holybooks.com
 ||hybrid.ai^$third-party
 ||useinsider.com^$third-party
 ||adalytics.io/api/view
