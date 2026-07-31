@@ -1,4 +1,4 @@
-# Update time: 2026-07-30 21:58:20
+# Update time: 2026-07-31 10:44:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -402,6 +402,7 @@ pkmods.com##body > div[style*="z-index"][style*="background"]
 gta.com.ua##body > div[id][style*="background"][style*="visible"]
 it-enginer.ru##body > #modal[style*="blur"]
 nexusmods.com##.areplacer
+/^https?:\/\/pikabu\.ru\/ajax\/([A-Za-z0-9_]{7,})+\?[A-Za-z0-9]+=[0-9a-z-]+[0-9a-z_]/$xmlhttprequest,domain=pikabu.ru
 ||gameblog.fr/images/ablock/
 ||skyrock.net/img/*/adblock/
 @@||manga-news.com/js/advert.js$script
@@ -526,7 +527,6 @@ etr.fr##.no_block
 professorweb.ru###submain > div[class^="a"][style]
 topcraft.ru##.ad-info
 kinoafisha.ua##.turn-off-add-block-text
-kanobu.ru##.c-moneyPlace_empty
 ||pastedownload.com/template/nova/js/adb/
 aratta-ukraine.com,drawnstories.ru,gisclub.tv,kinda.media,teremok.org.ua,webos-forums.ru###mdl_adb
 @@||cyberdean.fr/js/advertisement.js
@@ -605,7 +605,6 @@ vk.barkov.net##.alert-danger
 @@||anidub.com/ads.js|$script,domain=anidub.com
 lostfilm.tv##div[class^="alarm"]
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
-/^https?:\/\/pikabu\.ru\/ajax\/([A-Za-z0-9]{7,})+\?[A-Za-z0-9]+=[0-9a-z-]+[0-9a-z_]/$xmlhttprequest,domain=pikabu.ru
 @@||static.adsafeprotected.com/favicon.ico$domain=tf1info.fr
 @@/advertisement.js$script,~third-party,domain=fun-animes.fr|macupload.net|majorgeeks.com|upload.ac
 @@||peimg.fr/js/ads.js$script,domain=pubeco.fr
@@ -9115,6 +9114,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||dtc-v6t.com^$third-party
 /jquery.analytics.js
 ||adblockeronstape.me/stat/
+11alive.com,9news.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,cbs19.tv,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kcentv.com,kgw.com,krem.com,lfpress.com,nationalpost.com,nbcsports.com,newswest9.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,weareiowa.com,wfaa.com,windsorstar.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com##+js(acs, document.getElementsByTagName, .pubads)
 @@||businessclick.ch/index.js$domain=finanzen.ch
 ||heg-cp.com/upm/$third-party
 ://data.*/v1/interact?
@@ -12467,6 +12467,7 @@ _logHuman=
 ||outbid.io^$third-party
 ||activate.latimes.com/pc/caltimes/?pulse2001=
 ||fullscreen.nz/v1/tracking/$domain=threenow.co.nz
+||loggerx.com^$third-party
 ||blogmura.com/js/*/gtag-event-
 ||filesonic.com/referral/$third-party
 ||ipfrom.com^$third-party
@@ -13402,7 +13403,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 /rum?ddsource=
 @@||fate-go.jp/anniv_11th_sns/assets/js/services/gtm.js$~third-party
 ||px-cdn.net^*/collector
-11alive.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,cbs19.tv,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kcentv.com,kgw.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com##+js(acs, document.getElementsByTagName, .pubads)
 /diffuser.js
 ||trustcommander.net/iab-tcfapi/
 ||yotpo.com/widget-assets/yotpo-pixel/
