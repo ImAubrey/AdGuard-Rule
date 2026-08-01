@@ -1,4 +1,4 @@
-# Update time: 2026-07-31 22:03:36
+# Update time: 2026-08-01 10:42:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -16486,6 +16486,7 @@
 0.0.0.0 www2.addfreestats.com
 0.0.0.0 rbc-clientsupport1.com
 0.0.0.0 www.modelsailboat.net
+0.0.0.0 www.negativesphere.com
 0.0.0.0 pixel.adssafeprotected.com
 0.0.0.0 supplements.1.p2l.info
 0.0.0.0 www.ponhap.com
