@@ -1,4 +1,4 @@
-# Update time: 2026-08-03 22:36:01
+# Update time: 2026-08-04 10:26:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -13122,6 +13122,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 /kimonix_analytics.js
 /trackconversion?
 ||zynga.com/track/
+/tracking/affiliate|$image
 ||foxpush.net^$third-party
 ||early-birds.fr/events/
 /PushexSDK.js
@@ -14002,6 +14003,7 @@ _webanalytics.
 ||glancecdn.net^$third-party,domain=~glance.net
 /click_metrics-jquery.js
 ||tanks.lv/top/stats.php
+||qq.com/report.cgi?
 ||wo-cloud.com^$ping
 &&sub19=undefined&sub20=undefined
 ||unidays.world^$third-party,domain=~myunidays.com
@@ -17336,6 +17338,7 @@ abc17news.com,al.com,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwi
 ||leadlife.com^$third-party
 ||statistiche-web.com^$third-party
 ||grabify.link/api/js
+||lowes.com/baymax/events/track?
 ||rbc.ru/redir/stat/
 ||justuno.com^$third-party
 ||cccpmo.com^$third-party
