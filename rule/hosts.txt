@@ -1,4 +1,4 @@
-# Update time: 2026-08-04 22:08:04
+# Update time: 2026-08-05 10:26:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -17163,6 +17163,7 @@
 0.0.0.0 sinochem.fr
 0.0.0.0 stats.adultswim.com
 0.0.0.0 freecamerasource.com
+0.0.0.0 www.ampervid.com
 0.0.0.0 pro.hit.gemius.pl
 0.0.0.0 i.simpli.fi
 0.0.0.0 www.comfortykive.xyz

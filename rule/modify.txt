@@ -1,4 +1,4 @@
-# Update time: 2026-08-04 22:08:04
+# Update time: 2026-08-05 10:26:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1916,6 +1916,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 ||gz-gmy.com^$all
 ||spiritual-leading.com^$doc
 ||web3-projects-beta.vercel.app^$all
+/text_tel.js$domain=amplifyapp.com|app|azurestaticapps.net|dev|fit|me|page|site|github.io|herokuapp.com
 ||huoronggw.org.cn^$all
 ||carrierzone.com/sharepoint/$doc
 ||axdsz.pro^$all
@@ -2186,7 +2187,6 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||wixsite.com/att-support/$doc
 ||sharedrop.io^$all
 ||discord*.gift^$all,domain=~discord.gift
-/text_tel.js$domain=app|azurestaticapps.net|dev|fit|me|page|site|github.io|herokuapp.com
 ||pdfsam.com^$doc
 ||jukuen-club.com^$doc
 ||youtunbe.com^$all
@@ -4112,7 +4112,6 @@ windowsreport.com##.code-block
 &t=main9ljs|$doc,to=live
 monster###bw-rc-host[style="position: fixed !important; inset: 0px !important; z-index: 2147483647 !important;"]
 ||simpleswap.ac^$all
-azurefd.net,ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
 ||laptopprivacyado.com^$all
 ||pages.dev/ai2.mp3$doc
 ||paters.club^$doc
@@ -4557,6 +4556,7 @@ azurefd.net,ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
 ||childernplay.online^$all
 ||mpinsureit.com^$doc
 /^https:\/\/([a-z]-){10,15}[a-z]\.(?:com|net|org)\.tr\//$doc,to=com.tr|net.tr|org.tr
+azurefd.net,azurestaticapps.net,ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
 ||getnaughty.com^$doc
 ||beckoning-whitecat.com^$doc
 ||freewebhostmost.com/consegna-pacchi/avviso/$doc
@@ -8436,6 +8436,7 @@ _beacon?
 ||logofa.st/js/script.js
 /csp_204?
 ||flocktory.com^$third-party
+||observer.marketing^$third-party
 ||getstat.net^$third-party
 /roiengine.js
 ||trafic.ro^$third-party
@@ -14005,6 +14006,7 @@ _webanalytics.
 ||glancecdn.net^$third-party,domain=~glance.net
 /click_metrics-jquery.js
 ||tanks.lv/top/stats.php
+||qq.com/report.cgi?
 ||wo-cloud.com^$ping
 &&sub19=undefined&sub20=undefined
 ||unidays.world^$third-party,domain=~myunidays.com
