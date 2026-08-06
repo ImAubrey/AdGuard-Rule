@@ -1,4 +1,4 @@
-# Update time: 2026-08-05 22:06:16
+# Update time: 2026-08-06 10:28:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7190,7 +7190,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||seo-master.net^$third-party
 ||baremetrics.com^$third-party
 ||nedstatbasic.net^$third-party
-al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,oregonlive.com,pcwelt.de,pennlive.com,primagames.com,progameguides.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ||youramigo.com^$third-party
 ||reedbusiness.net^$third-party
 /aap/stats
@@ -14009,6 +14008,7 @@ _webanalytics.
 ||glancecdn.net^$third-party,domain=~glance.net
 /click_metrics-jquery.js
 ||tanks.lv/top/stats.php
+||qq.com/report.cgi?
 ||wo-cloud.com^$ping
 &&sub19=undefined&sub20=undefined
 ||unidays.world^$third-party,domain=~myunidays.com
@@ -17283,6 +17283,7 @@ abc17news.com,al.com,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwi
 ||yieldsoftware.com^$third-party
 ||sbi-push.com^$third-party
 /log?kc=
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,primagames.com,progameguides.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ://signals.*/hardal
 ||essentiallysports.com/api/track/
 ||ipfind.com^$third-party
