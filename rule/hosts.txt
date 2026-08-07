@@ -1,4 +1,4 @@
-# Update time: 2026-08-06 22:05:54
+# Update time: 2026-08-07 10:36:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7935,6 +7935,7 @@
 0.0.0.0 ehg-sonymusic.hitbox.com
 0.0.0.0 rtb16.adscience.nl
 0.0.0.0 k6.karbilyazilim.com
+0.0.0.0 www.lamaisonhind.com
 0.0.0.0 stat.detelefoongids.nl
 0.0.0.0 gdelv.hit.gemius.pl
 0.0.0.0 www.dorminvaders.com
@@ -14164,6 +14165,7 @@
 0.0.0.0 o0.winfuture.de
 0.0.0.0 e-2dj6wfkokjajseq.stats.esomniture.com
 0.0.0.0 www.realdrjudy.com
+0.0.0.0 www.konceptseven.com
 0.0.0.0 ads.realmedia.de
 0.0.0.0 canadaalltax.com
 0.0.0.0 www69.findhere.org
@@ -14683,6 +14685,7 @@
 0.0.0.0 www.kittayaroyalbeauty.com
 0.0.0.0 partnerprogramma.bol.com
 0.0.0.0 kliniksam.com
+0.0.0.0 www.massagetherapybyjuli.com
 0.0.0.0 vmcsatellite.com
 0.0.0.0 eauchan.fr
 0.0.0.0 ph-ad06.focalink.com
@@ -15908,6 +15911,7 @@
 0.0.0.0 s.ntv.io
 0.0.0.0 cp.liferan.pro
 0.0.0.0 adserver.icmedienhaus.de
+0.0.0.0 www.ksiargentina.com
 0.0.0.0 ad42digital.checkm8.com
 0.0.0.0 spotchannel02.com
 0.0.0.0 egeszsegespont.hu
@@ -17926,6 +17930,7 @@
 0.0.0.0 www.wwt-ag.ch
 0.0.0.0 verisonwildcard.112.2o7.net
 0.0.0.0 www.smart-scripts.com
+0.0.0.0 www.ilyasasseban.com
 0.0.0.0 ads.fileindexer.com
 0.0.0.0 www.olimpgokart.com
 0.0.0.0 c2.thecounter.de

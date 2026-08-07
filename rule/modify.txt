@@ -1,4 +1,4 @@
-# Update time: 2026-08-06 22:05:54
+# Update time: 2026-08-07 10:36:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2353,7 +2353,6 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 /^https:\/\/(?:[a-z]{3,5}|[ej][ac])\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9A-Za-z]{10}|\d{8}|[0-9a-f]{32})\.html$/$doc,match-case,to=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|qpon|quest|rest|sale|sbs|skin|today|top|wiki|work|world|xyz
 ||twitterfollowers.site^$doc
 ||autolocksmithpro.com/spt/$all
-||steamcommunity.^$doc,to=~steamcommunity.com
 ||ksds.jp^$doc
 ||reminders-infraction-account.netlify.app^$all
 ||trezor.la^$doc
@@ -3284,6 +3283,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 ||michiakagi.com^$doc
 ||fukusenkan.com^$doc
 ||imtolenplex.com^$all
+||kai-search.com^$all
 ||simpleswap.to^$all
 ||l-partner.jp^$doc
 ||tr1net.com^$all
@@ -4782,6 +4782,7 @@ ublockdns.com##main>section>div:first-child::before:style(content: 'Not related 
 ||wwwservicemsnlive-*.hubspotpagebuilder.com^$all
 ||zalenith.com^$all
 ||rungamepc.ru^$all
+||steamcommunity.$doc,to=~steamcommunity.com|~steamcommunity.rocks
 ||aaxr.shop^$doc
 ||insolvency-development.co.uk^$all
 ||0spot.online^$doc
