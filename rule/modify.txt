@@ -1,4 +1,4 @@
-# Update time: 2026-08-10 09:42:58
+# Update time: 2026-08-10 21:04:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -132,6 +132,7 @@ mnogoto4ka.ru###sb-site > div[class][style*="z-index"][style*="999999"]
 ###adbWarnContainer
 fotoshop-online.org##section > .col-full + script + center[class]
 animeland.su,itcats.ru,nekto.me,noadsradio.ru,sharkgame.ru,studies.in.ua,w10.jeanzzz.ru##.no-adb
+/^https?:\/\/pikabu\.ru\/ajax\/+[A-Za-z0-9_.-]{7,}\?[A-Za-z0-9]+=[0-9a-z_-]+/$xmlhttprequest,domain=pikabu.ru
 ||nextinpact.com/assets/images/autopromo-adblock-1280.jpg
 @@||play.bokracdn.run/v2/adsjs/ads.js$script,~third-party
 /bloackdas.js
@@ -288,7 +289,6 @@ pausecafein.fr###adb-pop
 provinceinfo.ru###header > .container > a[href="/menu"] ~ h2
 /gogl_detector$script,domain=meddaily.ru|newsru.com
 /testAB.bundle.
-/^https?:\/\/pikabu\.ru\/ajax\/([A-Za-z0-9_-]{7,})+\?[A-Za-z0-9]+=[0-9a-z_-]+/$xmlhttprequest,domain=pikabu.ru
 ||www.google.*/ajax/pi/phd?abd=0$xmlhttprequest
 ###adblocker_message
 ||rockstargame.su/adb_script$script
@@ -4907,6 +4907,10 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 .com-id*.com^
 .avito.www.booking.
 .com-id*.info^
+||*mercadolibre*^important
+||use-application-dns.net^$empty,important
+||*^$dnstype=HTTPS
+||.nstool.^
 /services/t/l?referrer=
 ||coinpot.co^$third-party
 ||smartctr.com^$third-party
@@ -6391,6 +6395,7 @@ accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capez
 /viewcount/record-page-view?
 /analyticsFooter.js
 ||yandex.ru/log?
+||realself.com/v1/page-interactions-events
 ||run.app/metrics/
 /joomla-visites.php
 ||statlytic.net^$third-party
@@ -10684,7 +10689,6 @@ _ad_impression.
 /v60.js
 ||hh.ru/stat?
 ||optimizely.com/log
-@@||wpfc.ml/b.gif$image,domain=holybooks.com
 ||hybrid.ai^$third-party
 ||useinsider.com^$third-party
 ||adalytics.io/api/view
@@ -13893,7 +13897,6 @@ _webanalytics.
 ||glancecdn.net^$third-party,domain=~glance.net
 /click_metrics-jquery.js
 ||tanks.lv/top/stats.php
-||qq.com/report.cgi?
 ||wo-cloud.com^$ping
 &&sub19=undefined&sub20=undefined
 ||unidays.world^$third-party,domain=~myunidays.com
@@ -16502,6 +16505,7 @@ _imp?Log=
 ||apextwo.com^$third-party
 ||vtracy.de^$third-party
 ://email.*/o/$image
+||realself.com/v1/browser-logging-service/browser/log
 ||freegeoip.app^$third-party
 ||orcapia.com^$third-party
 ||mapmyuser.com^$third-party
@@ -17795,10 +17799,6 @@ gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 ||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
-||*mercadolibre*^important
-||use-application-dns.net^$empty,important
-||*^$dnstype=HTTPS
-||.nstool.^
 ||*tsdk.vivo.com.cn^
 ||*.mmstat.com^
 ||*serror*.wo.com.cn^
