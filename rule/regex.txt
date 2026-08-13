@@ -1,4 +1,4 @@
-# Update time: 2026-08-12 21:05:52
+# Update time: 2026-08-13 09:53:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -262,6 +262,7 @@
 |btrace.video.qq.com^
 |vip.bz.mgtv.com^
 |pl.cp31.ott.cibntv.net^
+|automation.vuejs.org^
 |iad0ssl.pcauto.com.cn^
 |doh.zjurl.cn^
 |ad.cyapi.cn^
@@ -939,6 +940,7 @@
 |httpdns.music.163.com^
 |ucstat.baidu.com^
 |m.simba.taobao.com^
+|sponsors.vite.dev^
 |wmlog.meituan.com^
 |ykrec.youku.com^
 |commdata.v.qq.com^
@@ -1073,6 +1075,7 @@
 |httpdnsvip.meituan.com^
 |adstat.izuiyou.com^
 |c.msn.com.cn^
+|marketplacestats.service.spaceship.com^
 |doh.ptqy.gitv.tv^
 |cm.bilibili.com^
 |cl2.webterren.com^
