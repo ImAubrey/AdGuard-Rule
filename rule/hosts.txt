@@ -1,4 +1,4 @@
-# Update time: 2026-08-13 09:53:22
+# Update time: 2026-08-13 21:07:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7623,6 +7623,7 @@
 0.0.0.0 les-toiles-cinema.fr
 0.0.0.0 ads128.console.adtarget.com.tr
 0.0.0.0 e2.wetterkameras.com
+0.0.0.0 zoologyfibre.com
 0.0.0.0 ask.webatall.com
 0.0.0.0 stat.onestat.com
 0.0.0.0 moncialrelay.fr
@@ -8648,6 +8649,7 @@
 0.0.0.0 huffingtopost.fr
 0.0.0.0 eelsoup.net
 0.0.0.0 jgen46.cjt1.net
+0.0.0.0 realizationnewestfangs.com
 0.0.0.0 jbeet.cjt1.net
 0.0.0.0 0stats.com
 0.0.0.0 e-2dj6wjloagc5oco.stats.esomniture.com
@@ -9156,6 +9158,7 @@
 0.0.0.0 www.videonhadat.com
 0.0.0.0 www.pressurespot.com
 0.0.0.0 mononoteapp.firebaseio.com
+0.0.0.0 workdeadlinededicate.com
 0.0.0.0 incuirfes.beauty
 0.0.0.0 www69.byinter.net
 0.0.0.0 ad2.firehousezone.com
@@ -11028,6 +11031,7 @@
 0.0.0.0 protection.GApolice.com
 0.0.0.0 www.shoppingminds.net
 0.0.0.0 popec.net
+0.0.0.0 spendsdetachment.com
 0.0.0.0 greenwatermovement.com
 0.0.0.0 rs1.qq.com
 0.0.0.0 c5.cembuyukhanli.com
@@ -11811,6 +11815,7 @@
 0.0.0.0 adserver.home.pl
 0.0.0.0 beta.hotkeys.com
 0.0.0.0 fichier-pdfr.fr
+0.0.0.0 h1.ripway.com
 0.0.0.0 mailcheckisp.biz	# "spam bugs"
 0.0.0.0 ehg-womanswallstreet.hitbox.com
 0.0.0.0 clients-share.com
@@ -12338,6 +12343,7 @@
 0.0.0.0 rr1.xxxcounter.com
 0.0.0.0 kos.interseek.si
 0.0.0.0 ehg-communityconnect.hitbox.com
+0.0.0.0 thedirecthor.com
 0.0.0.0 dkb01.webtrekk.net
 0.0.0.0 rad.live.com
 0.0.0.0 k.intellitxt.com
@@ -25185,7 +25191,6 @@
 0.0.0.0 sizegenixreview.com
 0.0.0.0 prmiramar.com
 0.0.0.0 yundun.web.fc2.com
-0.0.0.0 h1.ripway.com
 0.0.0.0 bizforward.ru
 0.0.0.0 drsaude.net.br
 0.0.0.0 ecotucan.com
