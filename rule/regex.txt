@@ -1,4 +1,4 @@
-# Update time: 2026-08-13 21:07:17
+# Update time: 2026-08-14 09:50:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -647,7 +647,6 @@
 |tools.3g.qq.com^
 |static.vuevideo.net^
 |eu-nilupool.ddns.net^
-|adashx.m.taobao.com^
 |rmads.eu.msn.com^
 |jzt.jd.com^
 |cm.ipinyou.com^
@@ -1274,7 +1273,6 @@
 |pnrt-stsdk.vivo.com.cn^
 |public.gdtimg.com^
 |hdns.ksyun.com^
-|qzs.gdtimg.com^
 |apidns-js.kwd.inkuai.com^
 |d1.sina.com.cn^
 |onlycash.ddns.net^
