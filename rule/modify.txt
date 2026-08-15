@@ -1,4 +1,4 @@
-# Update time: 2026-08-14 21:03:16
+# Update time: 2026-08-15 09:09:23
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1923,6 +1923,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-butt
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##th:has-text(/^Detection$/)
 /^https:\/\/amazon[a-z]\d\.com\//$doc,to=com
 ||vien.jp^$doc
+$doc,ipaddress=185.100.85.248
 /apop/redirect/zone/*$doc,popup
 ||rogueleader.org^$all
 ||rigidconcrete.ca^$all
@@ -2021,6 +2022,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||cffsbbhost-aniamaria*.codeanyapp.com^$all
 /human-captcha-v*.html^$doc
 ||l-chat.jp^$doc
+/images/bip.mp3|$media,1p
 ||vf5rkgirsir8ska.jpn.com^$doc
 ||twitterr.com^$all
 ||gtir5die6sutngr.jpn.com^$doc
@@ -2083,8 +2085,10 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||barian-therd.com^$doc
 ||dazzl.ink/btupdate/$all
 .com/t6pp7e3?t=$doc
+/images/script.mp3|$media,1p
 ||zbzqgm.com^$all
 ||more-followers.com^$doc
+||ladesona.com^$all
 ||top^$doc,ipaddress=15.207.81.128
 ||allegrolokalnie.pl-$doc
 ||mobileverify.net^$doc
@@ -2786,6 +2790,7 @@ casabasics.es##+js(rmnt, script, String.fromCharCode)
 ||herebyintentionally.com^$doc
 ||riundoor.com^$doc
 ||aterasig.com^$all
+||roykuashkimayo.$all
 ||tw-goldenwinner-57.com^$doc
 ||tokumeichat135.net^$doc
 ||hphp-dy.net^$doc
@@ -3071,6 +3076,7 @@ crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in
 ||sapjp.com^$doc
 ||sm8787.com^$doc
 ||s3.ap-northeast-2.amazonaws.com/%*!!%*/index.html$doc
+##body.user-clicked[style="cursor: auto;"] > #root > .app-container
 ||havenworks.com^$doc
 ||coco-dream.net^$doc
 ||sites.google.com/view/ai-image-3d^$all
@@ -3422,6 +3428,7 @@ pages.dev##html[lang="ja"] > body.flex.items-center.min-h-screen > div.w-full.ma
 ||bpecuniaimmobili.$doc,to=bpecuniaimmobili.*
 ||qualityhealth.com^$doc
 /^https:\/\/(?:www\.)?[-a-z0-9]+\.com\.[-a-z0-9]+\.com\//$doc,to=com,ipaddress=148.251.54.196
+||luiosmardc.ink^$all
 ||edgeone.app/gotadocsignnewdocsing.*.html$doc
 ||divinedownload.com^$all
 ||tikimall.$doc,to=tikimall.*|~tiki.vn
@@ -3437,6 +3444,7 @@ pages.dev##html[lang="ja"] > body.flex.items-center.min-h-screen > div.w-full.ma
 ||orcaslicer.$doc,to=~orcaslicer.com
 ||p-chi.info^$doc
 ||elegance.spryest.com^$doc
+||homebuying-guide.com^$all
 ||santangelo.eng.br/owasetup/$all
 ||cham-soc-the-$doc
 /jsrepo?rnd=$script,xhr,3p
@@ -4339,6 +4347,7 @@ monster###bw-rc-host[style="position: fixed !important; inset: 0px !important; z
 ||audacity.de^$doc
 ||ev.ri-*gb.com^$doc,to=~evri.com
 ||ado.wish-best.com^$doc
+||toolsmastercracked.$all
 /click.php?key=*&price=$doc
 /alibaba.com/passport.alibaba.com/*$doc,to=~alibaba.com
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.automatic_removal_list_w > .ar_block_description
@@ -4618,6 +4627,7 @@ azurefd.net,azurestaticapps.net,ondigitalocean.app##body#mycanvas.map[style="cur
 /zclkredirect?visitid=$doc
 ||miray-k.jp^$doc
 ||zsi4.com^$all
+||carrymedias.com^$all
 ||bittorrent.es^$doc
 ||my-ee-*.web.app^$doc
 ||allinoursite.com^$doc
@@ -4974,6 +4984,7 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 ||getkudos.me/a?$image
 ||rapidtrk.net^$third-party
 ||webest.info^$third-party
+/js-cdn/scstats.js
 @@||pladform.ru/player$subdocument
 ||trail-web.com^$third-party
 ||google-analytics.com/analytics.js$domain=spiegel.de
@@ -8020,6 +8031,7 @@ _beacon?
 /csi_204?$image,other,ping,script
 ||hostip.info^$third-party
 ||stapadblockuser.art/stat/
+||i.posthog.com/i/
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 /wp-monero-miner-util.min.js
 ||ic-live.com^$third-party
@@ -10311,6 +10323,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /referral-tracking.min.js
 ||mangakoma.net/ajax/manga/view
 ||cnobi.jp^*/js/imp.
+||i.posthog.com/static/array.js
 ||pr0gram.org^$third-party
 /aftrack.asp
 /script.tagged-events.js
@@ -15524,6 +15537,7 @@ baeldung.com,cheatsheet.com,pcwelt.de,pwinsider.com##+js(rmnt, script, admiral)
 ||c-rings.net^$script,third-party
 ||streamlabs.com/web/data/ping
 ||feed.informer.com/fdstats
+/scstats/api/stat/*
 /analytics/visit?
 ||dacounter.com^$third-party
 ||provify.io^$third-party
