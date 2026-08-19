@@ -1,4 +1,4 @@
-# Update time: 2026-08-19 09:10:20
+# Update time: 2026-08-19 20:43:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5560,7 +5560,6 @@ reuters.com##+js(aost, admiral, .js?)
 ||personyze.com^$third-party
 ||collection.e-satisfaction.com^$third-party
 ||adinsight.com^$third-party
-||puutarha.net/statb.asp
 ||anonm.io^$third-party
 ||gmdigital.it/vtrack-staging.js
 /CreateCookieSSO_
@@ -5724,7 +5723,6 @@ reuters.com##+js(aost, admiral, .js?)
 ||nastydollars.com/trk/
 ||slogantrend.de^$third-party
 ||adblockplustape.xyz/stat/
-||omataloyhtio.fi/statb.asp
 ||crall.io/beacon/
 ||apple.com/hvr/mw/v1/spile
 ||instant.page^$third-party
@@ -7182,7 +7180,6 @@ abc17news.com,al.com,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwi
 /plugins/userinfo.gif?
 ||accesswire.com/img.ashx
 /cdn-cgi/rum|
-||mha.fi/simple.gif?
 ||tinystat.ir^$third-party
 /sitestats.gif?
 ||sirdata.eu^$third-party
@@ -9624,7 +9621,6 @@ $ping,third-party
 ||ourstats.de^$third-party
 /stats/ga.js
 ||vidsrc.icu/js/script-custom.js
-||rakentaja.fi/kuvat/pi.gif$image
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
 ||rudderlabs.com^$third-party
 ||cdn.lesnumeriques.com/assets/*/js/eventsTracker-
@@ -10011,7 +10007,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||chefkoch-cdn.de/search/tracking/
 ||calltrk.com/companies/
 ||chargebee.com/api/internal/track_info_error
-||omataloyhtio.fi/ffsw-pushcrew.js
 .animatebookstore.com/c/$image
 /piwik1.
 ||brandlock.io^$third-party
@@ -10120,7 +10115,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /GoogleAnalyticsModule.min.js
 ||js.static.m1905.cn/pingd.js
 /services/pixel.html?
-||omataloyhtio.fi/kuvat/pi.gif$image
 ||ntm.pstatic.net/scripts/ntm_$domain=naver.com
 ||womm.com.tr/0/sendEventV2
 @@||adobedtm.com^*/satellite-$script
@@ -12823,7 +12817,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||ssgdfs.com/kr/common/getPageIcfCd
 ||ga.chickgoddess.com/gs_api/stats/
 ||cleantalk.org/pixel/
-||tori.fi/img/none.gif$image
 ||adsettings.com^$third-party
 @@||uwufufu.com/_nuxt/mixpanel.$~third-party
 @@||playep.pro/log_event$~third-party,xmlhttprequest
@@ -13600,7 +13593,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||notifyvisitors.com^$third-party
 ||icreate-campaign.com^$third-party
 ||datadome00.id.me/tags.js
-||mtv3.fi/remarketing.js
 ||123compteur.com^$third-party
 ||listen.audiohook.com/*/pixel.png
 ||appocalypsis.com^$third-party
@@ -13705,7 +13697,6 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||reklama.lv/services/espy.php
 ||nytimes.com/v1/purr-cache
 ||rays-counter.com^$third-party
-10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,oregonlive.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,tasteofhome.com,thv11.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com##+js(acs, document.getElementsByTagName, .pubads)
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||hatarako.net/api/recommend/analyze_logger
 ||coca-cola.com.br/synerise/tracker.js
@@ -14555,6 +14546,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 /xiti.js
 ||pushowl.com^$third-party
 ||aicontents.net^$third-party
+10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,oregonlive.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,tasteofhome.com,thv11.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com##+js(acs, document.getElementsByTagName, .pubads)
 ||xstats.st^$third-party
 ||pbstck.com^$third-party
 ||webtrack.savoysystems.co.uk^$third-party
@@ -17238,7 +17230,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||estore.jp/beacon/
 /digital-data-enrichment.min.js
 ||itop.cz^$third-party
-||io-tech.fi/io/www/delvr/lokiz.php
 ||clearspring.com/t/
 /roversync/?
 ||servestats.com^$third-party
@@ -17811,7 +17802,6 @@ gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 ||asda.com/px/PX1UGLZTko/init.js
 /trkga.js
 ||devtribu.fr/t.php?
-||puutarha.net/ffsw-pushcrew.js
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
 ||*mercadolibre*^important
