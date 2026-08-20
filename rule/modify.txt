@@ -1,4 +1,4 @@
-# Update time: 2026-08-19 20:43:10
+# Update time: 2026-08-20 09:09:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6443,6 +6443,7 @@ accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capez
 ||netcounter.de^$third-party
 ||prm.ua/en/events/
 /page/unload?
+@@||cloudimanage.com/admin/api/audithub/v1/customers/*/analytics/events/crawl$~third-party
 ||adme.media/metric-collector
 ||winitout.com^$third-party
 ||heystaks.com^$third-party
