@@ -1,4 +1,4 @@
-# Update time: 2026-08-23 20:36:59
+# Update time: 2026-08-24 09:12:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -115,6 +115,7 @@ bdmbase.ru##html > .q1
 4algeria.com###exposeMask
 @@||fundingchoicesmessages.google.com^$script,domain=hurriyet.com.tr|milliyet.com.tr
 tvcook.ru##.cat
+||polygon.com/fetch/next/mural/
 anticollector.biz.ua,cnc3018.ru,factorio.su##body > div[class][style*="background"][style*="display: block"]
 @@||jeux.meteocity.com^$generichide
 @@||ency-educ.com^$generichide
@@ -6680,6 +6681,7 @@ accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capez
 ||ruwiki.ru/w/rest.php/metrics/
 /collect/stats?
 ||amazonaws.com^*/prod_analytics
+||api.bus-location.1507t.xyz/3.0/ping
 ||useproof.com^$third-party
 ||1dmp.io^$third-party
 ||webpu.sh^$third-party
@@ -8616,6 +8618,7 @@ _beacon?
 ||etoro.com/tradesmonitor/
 @@||coremetrics.com*/eluminate.js
 /faciliti-tag.min.js
+||beehiiv.com/page_view
 ||easyhitcounters.com^$third-party
 ||heyday.io/idx/
 /awstats.js
@@ -10261,7 +10264,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||auth.services.adobe.com/signin/v1/audit
 ||kroger.com/clickstream/
 ||e.m6web.fr/events
-||lwadm.com^$third-party
 ||secure.golf365.com/tag/
 /edapi/event?
 @@||api.apolomedia.com/static/libs/event-tracking.min.js$script
@@ -15661,6 +15663,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 /trackmerchant.js
 ||gigya.com^*/cimp.gif?
 /stataffs/track.php?
+||beehiiv.com/nectar_analytics
 /wf-beacon-
 ||link2.strawberrynet.com^$image
 ||analyzee.io^$third-party
@@ -17274,7 +17277,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||justuno.com^$third-party
 ||cccpmo.com^$third-party
 ||microanalytics.io^$third-party
-@@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 /px/*/blank.gif?
 /koko-analytics-collect.php
 ||odysee.com/log/

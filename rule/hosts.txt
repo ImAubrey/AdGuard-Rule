@@ -1,4 +1,4 @@
-# Update time: 2026-08-23 20:36:59
+# Update time: 2026-08-24 09:12:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -16886,6 +16886,7 @@
 0.0.0.0 237online.fr
 0.0.0.0 oascentral.post-gazette.com
 0.0.0.0 chu-bordeau.fr
+0.0.0.0 2.maaqkj.com
 0.0.0.0 ad10.bannerbank.ru
 0.0.0.0 rtl.oewabox.at
 0.0.0.0 garant.bos.ru

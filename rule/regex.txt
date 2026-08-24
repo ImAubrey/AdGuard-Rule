@@ -1,4 +1,4 @@
-# Update time: 2026-08-23 20:36:59
+# Update time: 2026-08-24 09:12:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1024,6 +1024,7 @@
 |encounter.bz.mgtv.com^
 |ad-h5-station-cdn.soulapp.cn^
 |splashqqlive.gtimg.com^
+|tracker.searchableanalytics.com^
 |httpdns.platform.dbankcloud.com^
 |crashlytics.163.com^
 |acr0.samsungcloudsolution.com^
