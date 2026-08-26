@@ -1,4 +1,4 @@
-# Update time: 2026-08-25 20:43:32
+# Update time: 2026-08-26 09:13:39
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11599,6 +11599,7 @@
 0.0.0.0 dolohen.com
 0.0.0.0 www.text-link-ads.com
 0.0.0.0 ad.clickotmedia.com
+0.0.0.0 www.topluckystars.com
 0.0.0.0 oascentral.adageglobal.com
 0.0.0.0 moviestarpllanet.fr
 0.0.0.0 p3p.mmstat.com
@@ -13276,6 +13277,7 @@
 0.0.0.0 logs.eresmas.net
 0.0.0.0 ehg-techtarget.hitbox.com
 0.0.0.0 s1.shinystat.it
+0.0.0.0 dragonfly-express.duckdns.org
 0.0.0.0 windows-service-en.com
 0.0.0.0 adserve.profit-smart.com
 0.0.0.0 www.click4click.com
@@ -13946,6 +13948,7 @@
 0.0.0.0 cloudcrown.com
 0.0.0.0 ehg-tigerdirect2.hitbox.com
 0.0.0.0 www.chiefsale.com
+0.0.0.0 www.topopulentwin.com
 0.0.0.0 www2.tpgi.com.au
 0.0.0.0 e-2dj6wfk4ehd5afq.stats.esomniture.com
 0.0.0.0 adsrv2.wilmingtonstar.com
@@ -16045,6 +16048,7 @@
 0.0.0.0 exotic-wax.surge.sh
 0.0.0.0 meteon.org
 0.0.0.0 pix.revsci.net
+0.0.0.0 www.listadegames.com
 0.0.0.0 mm.chitika.net
 0.0.0.0 counter4.bravenet.com
 0.0.0.0 phorm.ch
@@ -18852,6 +18856,7 @@
 0.0.0.0 www.drivegoals.com
 0.0.0.0 angiba.112.2o7.net
 0.0.0.0 banners.webmasterplan.com
+0.0.0.0 www.mynepalshop.com
 0.0.0.0 www.credit-dreams.com
 0.0.0.0 yourrewardzone.com
 0.0.0.0 counter6.sextracker.be
