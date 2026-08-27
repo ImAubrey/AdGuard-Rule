@@ -1,4 +1,4 @@
-# Update time: 2026-08-27 15:42:01
+# Update time: 2026-08-28 05:49:40
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -186,6 +186,7 @@ ftuapps.dev##[style*="cursor: no-drop;"]
 ##.adBlockNotification
 forum.pcastuces.com##div > [src] + [id] + [class][style^="display: block;"]
 pythonworld.ru##.pythonworld-contributor
+/^https?:\/\/pikabu\.ru\/ajax\/{1,2}[A-Za-z0-9_-]{8,}(?:\.[A-Za-z0-9_-]{1,2})?\?[A-Za-z0-9]+=[0-9a-z_-]+/$xmlhttprequest,domain=pikabu.ru
 ||baeldung.com/*/library/dist/js/pro-recovery.
 budport.com.ua##body > div[style^="position:fixed;"][style*="z-index"][style*="background"]
 @@||goha.ru/app/video/adblock.teaser.js|$script,domain=goha.ru
@@ -203,7 +204,6 @@ ppc.world##.js-detected-block
 reshuent.ru,sdamgia.ru##.S29e4f5cdae
 ##.adblocker-wrap
 sprashivalka.com##.ad
-/^https?:\/\/pikabu\.ru\/ajax\/+[A-Za-z0-9_-]+(\.[A-Za-z0-9]{1,2})?\?[A-Za-z0-9]+=[0-9a-z_-]+/$xmlhttprequest,domain=pikabu.ru
 ||corrosif.science^$domain=filerev.cc|pencurimovie.pw
 /adbl_dtct1.
 nautiljon.com###cmsg
@@ -5068,6 +5068,7 @@ azurefd.net,azurestaticapps.net,ondigitalocean.app,web.core.windows.net##body#my
 ||app.trytada.com/addImpression
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 /wp-monero-miner-class.js
+@@||navacom.info/count.php?$~third-party
 ||acc-hd.de^$third-party
 ||people.cn/js/pa.js
 ||onecount.net/onecount/oc_track/
@@ -7381,6 +7382,7 @@ abc17news.com,al.com,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwi
 ||goodreads.com/logging
 @@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
 /pixeljs/*
+al.com,attackofthefanboy.com,beavertonvalleytimes.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,portlandtribune.com,primagames.com,progameguides.com,queerty.com,siliconera.com,sporcle.com,syracuse.com,techcrunch.com,thebeenews.com,themarysue.com,theoutlookonline.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ||epochtimes.de/epoch-mp/epoch_mp.min.js
 /clicklog.js
 ||freedownloadmanager.org/ajax/th_view.php
@@ -12394,6 +12396,7 @@ _logHuman=
 @@||plugins.matomo.org^$image,~third-party
 /htdocs/js/admiral/init.js
 ||leaddyno.com^$third-party
+||rmc-cx.api.rakuten.co.jp/v3/web/events
 ||uptolike.com^$third-party,domain=~uptolike.ru
 ||smartracker.net^$third-party
 ||fastly.net/sp.js
@@ -15089,7 +15092,6 @@ baeldung.com,cheatsheet.com,pcwelt.de,pwinsider.com##+js(rmnt, script, admiral)
 /liferay-analytics-processor.js
 ||codecademy.com/analytics/
 /amp/log.json
-al.com,attackofthefanboy.com,beavertonvalleytimes.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,portlandtribune.com,primagames.com,progameguides.com,queerty.com,siliconera.com,syracuse.com,techcrunch.com,thebeenews.com,themarysue.com,theoutlookonline.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 ||grok.com/_data/v1/events
 ||mhtr.be/public/tr/tracker.min.js
 ||counteronline.de^$third-party

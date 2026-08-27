@@ -1,4 +1,4 @@
-# Update time: 2026-08-27 15:42:01
+# Update time: 2026-08-28 05:49:40
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6827,7 +6827,6 @@
 0.0.0.0 coinzilla.io
 0.0.0.0 www.workschat.com
 0.0.0.0 sportupdates.info
-0.0.0.0 appfixing.space
 0.0.0.0 pcmuzic.com
 0.0.0.0 page-host.net
 0.0.0.0 www.shichihukuudon.com
@@ -12147,6 +12146,7 @@
 0.0.0.0 nimes-olympique.fr
 0.0.0.0 ticketspy.fr
 0.0.0.0 c.be.msn.com
+0.0.0.0 www.texasmyxoomenergy.com
 0.0.0.0 medianet-match.dotomi.com
 0.0.0.0 quickfilmz.com
 0.0.0.0 ads.people.com.cn
@@ -16825,7 +16825,6 @@
 0.0.0.0 stopsms.biz
 0.0.0.0 aka-cdn.adtechus.com
 0.0.0.0 jmvisuals.com
-0.0.0.0 bestadbid.com
 0.0.0.0 api.intentiq.com
 0.0.0.0 clicktracker.alloymarketing.com
 0.0.0.0 www.counter4.sextracker.be
@@ -18471,7 +18470,6 @@
 0.0.0.0 adsload.co
 0.0.0.0 media8.popmarker.com
 0.0.0.0 sunny.oewabox.at
-0.0.0.0 app2.letmacworkfaster.site
 0.0.0.0 gamerz123.com
 0.0.0.0 foxsimpsons.112.2o7.net
 0.0.0.0 izmsj.co.jp
@@ -20227,6 +20225,7 @@
 0.0.0.0 lomtalay.com
 0.0.0.0 shopstickersbysandstone.com
 0.0.0.0 sandpiperchorus.us
+0.0.0.0 appfixing.space
 0.0.0.0 fhginformatica.com
 0.0.0.0 weboriginal.eu
 0.0.0.0 comistus.net
@@ -30346,6 +30345,7 @@
 0.0.0.0 emilychoy.com
 0.0.0.0 choopchirk.net
 0.0.0.0 drdianateachertraining.com
+0.0.0.0 bestadbid.com
 0.0.0.0 clariter.com
 0.0.0.0 unocl45trpuoefft.on2420.bid
 0.0.0.0 bha-group.eu
@@ -32059,6 +32059,7 @@
 0.0.0.0 omniworxinc.com
 0.0.0.0 theprick5k.com
 0.0.0.0 iphonewallpaperclub.com
+0.0.0.0 app2.letmacworkfaster.site
 0.0.0.0 tkustom.it
 0.0.0.0 gourmetlimes.com
 0.0.0.0 miel-maroc.com
