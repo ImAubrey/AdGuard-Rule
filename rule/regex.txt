@@ -1,4 +1,4 @@
-# Update time: 2026-08-28 05:49:40
+# Update time: 2026-08-28 17:44:20
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -54,6 +54,7 @@
 ||avito.avito.www.avito.
 ||avito.avito.avito.
 ||yandex.pay.avito.
+||verify-att.app.^
 ||bc.geocities.
 ||stw.extreme-down.
 ||collector-*.luigisbox.com^
@@ -89,7 +90,6 @@
 ||aviasales.*-analytics.
 %2Fevent.gif%3F
 ||df.infra.shopee.
-||verify-att.app.^
 ||httpdns.*^$important
 ||da.hornbach.*^
 ||dm-*.toutiao.com^
@@ -418,6 +418,7 @@
 |www-analytics.ripe.net^
 |ackee.tangly1024.com^
 |news.l.qq.com^
+|lives.l.aiseet.atianqi.com^
 |analytics.spotify.com^
 |trackapp.guahao.cn^
 |rt.funshion.net^
@@ -532,6 +533,7 @@
 |traffic.mogujie.com^
 |guanggaoad.youku.com^
 |topapi.cp12.wasu.tv^
+|andrqd.play.aiseet.atianqi.com^
 |c.kuaiduizuoye.com^
 |miav-cse.avlyun.com^
 |business.inveno.com^
@@ -760,6 +762,7 @@
 |advertpay-vip-ssl.xunlei.com^
 |adrdir.qq.com^
 |vcardsdkservice.vivo.com.cn^
+|livep.l.aiseet.atianqi.com^
 |vs.biz.weibo.com^
 |h.msn.com^
 |adapi.yynetwk.com^
@@ -868,6 +871,7 @@
 |susapi.dev.surepush.cn^
 |vlive.qqvideo.tc.qq.com^
 |simaba.taobao.com^
+|monitor-uu.play.aiseet.atianqi.com^
 |qqdata.ab.qq.com^
 |sxcdn5.herokuapp.com^
 |applogapi.autohome.com.cn^
@@ -970,8 +974,10 @@
 |nlog.baidu.com^
 |d00.sina.com.cn^
 |vv84.bj.bcebos.com^
+|otheve.play.aiseet.atianqi.com^
 |p.store.qq.com^
 |umdc.aliapp.org^
+|sdkconfig.play.aiseet.atianqi.com^
 |dns2.q2cdn.com^
 |slog.sina.com.cn^
 |iflyad.bj.openstorage.cn^
@@ -1208,6 +1214,7 @@
 |tracking.yorg.app^
 |adsh.wagbridge.tanx.alimama.com^
 |ad.api.3g.youku.com^
+|omgmta.play.aiseet.atianqi.com^
 |display.360totalsecurity.com^
 |acstatic-dun.126.net^
 |log.ys7.com^
@@ -1315,6 +1322,7 @@
 |quickaplus-server-api-cn-zhangjiakou.aliyuncs.com^
 |paopao.iqiyi.com^
 |httpdns.baidu.com^
+|sv-video.play.aiseet.atianqi.com^
 |dw-collect.ksosoft.com^
 |stnetsdk.vivo.com.cn^
 |api.ts.feedback.qy.net^
