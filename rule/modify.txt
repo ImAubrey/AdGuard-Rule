@@ -1,4 +1,4 @@
-# Update time: 2026-08-28 17:44:20
+# Update time: 2026-08-29 05:44:50
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -355,6 +355,7 @@ journaldugeek.com##.banner__content
 101.ru##.showMessageAdBlock
 forum.bestflowers.ru##.xenOverlay
 ukr.net##body > .yellow-die
+||savefiles.com/js/noadblocker.js
 audiotag.info##.dialog-fog
 forum.flprog.ru###phpbb_announcement
 ||shellcat.ru^$third-party
@@ -634,6 +635,7 @@ objavlenija.respublika.cz##.sweet-alert,.sweet-overlay
 @@||toplien.fr^$generichide
 just-for-fun.ru##body > div[class*="-container"][class*="-hide"]
 fairytailmx.com#@##sponsored-ad
+firestream.to##.adblock-overlay
 ###adbcontainer-popup
 @@||cdn4.tennistemple.com/js/advert.js|$script,~third-party
 ###js-popup-blocker
@@ -2322,6 +2324,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.primary_download
 ||v2-solavre.com^$doc
 ||ralphclothing-jp.com^$doc
 ||chiyouranai.base.shop^$doc
+||openai-backup.one^$all
 .click/*/?partner=*&pg=$script,3p
 ||mouse-clicker.com^$doc
 ||revanced-extended.com^$all,domain=~revanced.app
