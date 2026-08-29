@@ -1,4 +1,4 @@
-# Update time: 2026-08-29 05:44:50
+# Update time: 2026-08-29 13:47:06
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -13269,6 +13269,7 @@
 0.0.0.0 antispywareexpert.com
 0.0.0.0 www.plasmatv4free.com
 0.0.0.0 filateliadimauro.com
+0.0.0.0 www.globlepoker.com
 0.0.0.0 www.inpicklenaton.com
 0.0.0.0 webpageupdate.co
 0.0.0.0 okclub.org.uk
