@@ -1,4 +1,4 @@
-# Update time: 2026-08-30 00:15:45
+# Update time: 2026-08-30 11:50:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2242,6 +2242,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||kotoanata.jp^$doc
 ||pages.dev/*/Fm7-alert.wav
 ||euromaillinnk.com^$doc
+||web.core.windows.net/js/01d1fgshfddfg.js
 ||amazonaws.com/*.*.*.*.*.*.*.*/*/index*.html$doc
 ||ffr548tyfhe.jp^$doc
 ||machimatch.jp^$doc
@@ -2493,6 +2494,7 @@ howtoremove.guide###gray_de
 ||232323.eu.org^$all
 ||msgsafe.net^$all
 ||promotionsonlineusa.com^$doc
+||web.core.windows.net/hel0sgfy.mp4
 ||nextyourcontent.com^$all
 ||nilousplaypen.com^$all
 ||olt-nw.com^$doc
@@ -3096,6 +3098,7 @@ crackkits.com,procrackerz.com,haxmac.cc,cracka2zsoft.com,crackpropc.com,onhax.in
 ||mybach.xyz^$doc
 ||global-riward77.com^$doc
 ||ins7ki.com^$doc
+ondigitalocean.app##+js(aeld, mousemove, loadSecret)
 ##.header-fix-tester-container
 ||s3.amazonaws.com/extpro/speed4.html$all
 ||helps-center-page-number-$doc
@@ -3250,6 +3253,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.js-download_butto
 ||female-good.work^$doc
 /werrx01/^$doc
 ||smrturl.co/o/*/53458494^$doc
+||web.core.windows.net/js/04shesc1.js
 /JSKADull.html^$doc
 ||globalreward77.com^$doc
 ||eujsiyajep.niigata.jp^$doc
@@ -3652,6 +3656,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[on
 ||blob.core.windows.net/$web/*index.html$doc
 ||logatera.net^$all
 ||callyourdate.com^$doc
+azurefd.net,azurestaticapps.net,ondigitalocean.app,web.core.windows.net###frame[title="encrypted shop"][allowfullscreen][src^="blob:https"][style="display: block;"]
 ||massgrave.hopto.org^$doc
 ||truecrypt.fr^$doc
 ||germanytechsupport.pages.dev^$all
@@ -4344,6 +4349,7 @@ monster###bw-rc-host[style="position: fixed !important; inset: 0px !important; z
 ||soccer-jersey-yupoo.com^$doc
 ||mybluehost.me/wp-admin/amz/$doc
 /^https:\/\/pancake(?:dro|swa)pclick\d+\.vercel\.app\//$doc,to=vercel.app|~pancakeswap.finance
+||web.core.windows.net/js/02dgdsg3d.js
 ||mygeomanager.org^$all
 ||taikhoanvps.com.vn^$all
 ||meeting-tencent.org^$all
@@ -4633,6 +4639,7 @@ web.core.windows.net##+js(aeld, beforeunload, workerBomb)
 /fb_video_googleplay/*/index.html?$doc
 ||pr-0m.link^$doc
 ||mlcrosoftonline.com.eu-secured.com^$all
+||web.core.windows.net/dgdh1.wav
 ||github.io/iossupport/$doc
 ||gloria-divination.$doc
 ||property-rental-seven.vercel.app^$all
@@ -4861,6 +4868,7 @@ azurefd.net,azurestaticapps.net,ondigitalocean.app,web.core.windows.net##body#my
 ||f1nancier.com^$doc
 ||get-treezr-suit-en.framer.media^$all
 ||vssid.*.cc^$doc
+||web.core.windows.net/js/03fgsskryeivh.js
 ||deal-defeat.com^$doc
 ||mamagathering.org^$doc
 ||cheri-sh.jp^$doc
@@ -10383,6 +10391,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 /aftrack.asp
 /script.tagged-events.js
 ||gatorleads.co.uk^$third-party
+||ondigitalocean.app/tracker.js
 ||indeed.com/rpc/pageload/perf
 ||weltbild.de/tracking/
 ||wheredoyoucomefrom.ovh^$third-party
