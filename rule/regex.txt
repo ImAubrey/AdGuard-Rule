@@ -1,4 +1,4 @@
-# Update time: 2026-08-30 11:50:33
+# Update time: 2026-08-31 00:06:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -798,6 +798,7 @@
 |ad.maoyan.com^
 |game.weibo.com^
 |mj.weimob.net^
+|data.bilibili.com^
 |log.star.ele.me^
 |zuimeitianqi.inveno.com^
 |pre-adv.alimama.com^
@@ -821,6 +822,7 @@
 |visitors.thingiverse.com^
 |soup.v.qq.com^
 |eco.taobao.com^
+|upos-sz-302*.bilivideo.com^
 |choice.microsoft.com^
 |dsp.simba.taobao.com^
 |ddd.1sapp.com^
@@ -1293,6 +1295,7 @@
 |inside.rtbasia.com^
 |appuu.cn^
 |ls.l.qq.com^
+|ssdata.zenrows.com^
 |mon-va.byteoversea.com^
 |adsh.wagbridge.taobao.alimama.com^
 |adsh.m.taobao.com^

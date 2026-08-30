@@ -1,4 +1,4 @@
-# Update time: 2026-08-30 11:50:33
+# Update time: 2026-08-31 00:06:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1687,6 +1687,7 @@ ublockorigin.com##.title::before:style(content: 'This is not the official uBlock
 ||google-zhcn-chrome.com.cn^$all
 ||t1a.jp^$doc
 ||getalia.org^$all
+||cookie-whitelist.$all
 ||upforit.com^$doc
 ||exceed-curio.com^$doc
 ||pages.dev/*_Fm7-alert.mp3
@@ -3486,6 +3487,7 @@ pages.dev##html[lang="ja"] > body.flex.items-center.min-h-screen > div.w-full.ma
 ||homebuying-guide.com^$all
 ||santangelo.eng.br/owasetup/$all
 ||cham-soc-the-$doc
+||whale-alert.$all
 /jsrepo?rnd=$script,xhr,3p
 ||lineapps.com.cn^$all
 ||akuto23.com^$doc
@@ -4328,6 +4330,7 @@ monster###bw-rc-host[style="position: fixed !important; inset: 0px !important; z
 /api/css.js^$3p,script
 ||luna-ria.jp^$doc
 ||do2512.com^$doc
+||ggle-analytics.$all
 /zclkvisitor/*^campaignid=$doc
 ||eniedu.com^$doc
 ||oolontya.com^$doc
@@ -5443,6 +5446,7 @@ reuters.com##+js(aost, admiral, .js?)
 /mediametrie.js
 ||sina.com.cn/view?
 ||bhaskar.com/comscore-ajax/
+||reibootmac.com/script/rn_event_track_v2.min.js
 @@||log.go.com/log$xmlhttprequest,domain=disneyvacationclub.disney.go.com
 ||taiwanplus.com/api/video/startVideo
 @@||cmp.telerama.fr/js/telerama.min.js$~third-party
@@ -7218,6 +7222,7 @@ abc17news.com,al.com,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwi
 ||flixcar.com/gvid
 /wp-stats-manager/js/wsm_new.js
 ||digimedia.com/pageviews.php?
+||marriott.com/mi/api/shop-renderer/logger
 ||slidedeck.com^$image,third-party
 /optiextension.dll?$script
 ||pushauction.com^$third-party
@@ -8085,6 +8090,7 @@ _beacon?
 ||rnlabs.com^$third-party
 ||chibanippo.co.jp/api/page-tracker
 /metrica/sp.js
+||api.transtore.app/api/v2/storefront/tracking
 ||mpio.io^$third-party
 @@||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de
 /csi_204?$image,other,ping,script
@@ -9993,6 +9999,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||trustedform.com/trustedform.js
 ||pornbox.com/stats/
 /rd-js-integration.min.js
+||aeis.alicdn.com/awsc/fireyejs/$script,domain=alibaba.com
 ||dtksoft.com/ajax/log^
 ||altruja.de/js/micro/integration-ga.js
 /pbasitetracker.min.js
@@ -10490,6 +10497,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||meebo.com/cim/sandbox.php?
 /gtm.min.js
 ||trafficregenerator.com^$third-party
+||aplus.aliexpress.$image,ping,~third-party
 ||trk.pinterest.com^$third-party
 ||1gr.cz/log/
 ||thronecdn.com/analytics/
@@ -13128,6 +13136,7 @@ nicovideo.jp##+js(no-fetch-if, stella)
 ||connectif.cloud^$third-party
 ||pushible.com^$third-party
 ||wizaly.com^$third-party
+aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, OfflineAudioContext, undefined)
 ||brightfunnel.com^$third-party
 ||streeteasy.com/cZdhF737/init.js
 @@||lacoste.com^*/click-analytics.js$~third-party
@@ -14026,7 +14035,6 @@ _webanalytics.
 .vzbv.de/-open2/$image
 /itgdtracksdk.js
 /adblockLogger/*
-||g.alicdn.com/AWSC/fireyejs/
 _view_pixel&$image
 ||xnxx.com/picserror/
 @@||blueconic.net/bostonglobemedia.js$domain=bostonglobe.com
@@ -16622,6 +16630,7 @@ _imp?Log=
 ||derwesten.de/stats/
 @@||clcouncil.org/wp-content/plugins/counter-block/assets/js/counter.js?$script,~third-party
 ||zapcdn.space/zapret.js
+aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefined)
 ||ts.fi^*/spring.js
 ||fastly-insights.com^$third-party
 ||caast.tv/v1/record.gif?
