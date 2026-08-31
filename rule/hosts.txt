@@ -1,4 +1,4 @@
-# Update time: 2026-08-31 11:53:04
+# Update time: 2026-09-01 02:49:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11588,6 +11588,7 @@
 0.0.0.0 www.advertpro.com
 0.0.0.0 www.fortunoxx.com
 0.0.0.0 stats.hitbox.com
+0.0.0.0 www.silhouetteamerican.com
 0.0.0.0 www.stellarium.fr
 0.0.0.0 wap.casee.cn
 0.0.0.0 surplus-suppliers.com
@@ -12237,6 +12238,7 @@
 0.0.0.0 giftcardchallenge.com
 0.0.0.0 letyoufall.com
 0.0.0.0 adserver.colleges.com
+0.0.0.0 www.orchidfootspa.com
 0.0.0.0 ads.open.pl
 0.0.0.0 ads.usatoday.com
 0.0.0.0 f-voyance.fr
@@ -17735,6 +17737,7 @@
 0.0.0.0 adtrak.net
 0.0.0.0 f2ncracker.112.2o7.net
 0.0.0.0 rtb26.adscience.nl
+0.0.0.0 www.eqinenow.com
 0.0.0.0 ad3.nationalreview.com
 0.0.0.0 appale.fr
 0.0.0.0 hit39.chart.dk

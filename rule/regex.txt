@@ -1,4 +1,4 @@
-# Update time: 2026-08-31 11:53:04
+# Update time: 2026-09-01 02:49:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -284,6 +284,7 @@
 |conf.funshion.com^
 |mdevstat.qqlive.qq.com^
 |mgepodownload.mediatek.com^
+|px.liteapks.com^
 |front-perf.imoim.net^
 |pcweb.v1.mgtv.com^
 |img.ads.mobilefuse.net^
@@ -1099,6 +1100,7 @@
 |soft.data.weather.360.cn^
 |stun.douyucdn.cn^
 |ct.niu.xunlei.com^
+|usage-ping.brave.com^
 |cdn.exp.xiaomi.com^
 |optimus-ads.amap.com^
 |adavideo.baidu.com^
