@@ -1,4 +1,4 @@
-# Update time: 2026-09-01 02:49:07
+# Update time: 2026-09-01 11:44:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -12215,6 +12215,7 @@
 0.0.0.0 sonycorporate.122.2o7.net
 0.0.0.0 www1-van-city-signon.com
 0.0.0.0 www.lookimpression.beer
+0.0.0.0 www.kccreamation.com
 0.0.0.0 comfortykive.xyz
 0.0.0.0 ad26.checkm8.com
 0.0.0.0 new-ramboplay.com
