@@ -1,4 +1,4 @@
-# Update time: 2026-09-02 11:03:32
+# Update time: 2026-09-03 00:00:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1561,7 +1561,6 @@ lewdgames.to,warezcrack.net,freeprosoftz.com,scracked.com,cyberspc.com,crackinto
 ||mamak.jp^$doc
 ||inspirationhistorical.com^$all
 ||fanta-stic.net^$doc
-/^https:\/\/[a-z]+\.[a-z]+\/[a-z]+\?rnd=[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]&ts=[0-9]+$/$script,xhr,3p,match-case
 ||m-ateria.com^$doc
 ||googleeplay.com^$all
 ||10mintimer.com^$doc
@@ -1710,6 +1709,7 @@ ublockorigin.com##.title::before:style(content: 'This is not the official uBlock
 /\/n\/js(?:drive|nom|sp|v)\.js\b/$script,1p,strict1p
 ||world.ex-advantage.jp^$doc
 ||majiainc.com^$doc
+||sites.google.com/view/brewapp$doc
 ||linguette.net^$doc
 ||serev.net^$doc
 ||loveru.jp^$doc
@@ -1995,6 +1995,7 @@ $doc,ipaddress=185.100.85.248
 ||windows.net/?tk=$doc
 ||nikutjyjgchr*.b-cdn.net^$doc
 /?camp=*&cost=0.$doc
+/^https:\/\/[a-z]+\.[a-z]+\/[a-z]+\?rnd=[a-z0-9]{8}&ts=\d+$/$script,xhr,3p,match-case
 ||local-bang.com^$all
 ||freesoftwarecreative.com^$doc
 ||codeanyapp.com/manage-SBB/$doc
@@ -2220,6 +2221,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||glitch.me/public/index_CNC.html^$doc
 /^https:\/\/[a-z]{12,15}\.com\/\?p=[0-9a-f]{32}&u=[0-9a-f]{138}\b/$doc,match-case
 ||revancedyoutube.org^$all,domain=~revanced.app
+||openlive.chat^$all
 ||azurefd.net/media/beep.mp3
 ||ajmaboxanherulv*.b-cdn.net^$doc
 ||mybluehost.me/tracking-mail-delivery/$doc
@@ -2595,6 +2597,7 @@ top##body > center + .A + .post
 ||cpa.8na4zpze.com^$doc
 ||storage.googleapis.com/*/noir.js
 ||llq.rsq.mybluehost.me^$all
+||cdn.streameet.top^$all
 ||immobiliarebelliniepecunia.$doc,to=immobiliarebelliniepecunia.*
 ||claudverification-id.beer/api.php
 ||multilocal-leboncoin.com^$all
@@ -3409,6 +3412,7 @@ pages.dev##html[lang="ja"] > body.flex.items-center.min-h-screen > div.w-full.ma
 ||vroom24.com^$doc
 ||app.vision6.com/em/message/email/$all
 ||k1wa.jp^$doc
+/^https:\/\/telegram-[a-z]{3,4}\.com\//$doc,to=com|~telegram.org|~telegram-gif.com
 ||sites.google.com/view/drcheats6|$doc
 /t2dolalrwe/*$doc
 ||sorteiosbrasil.netlify.app^$all
@@ -4944,7 +4948,6 @@ igualdad.iaa.csic.es##+js(acs, String.prototype.toLowerCase, Contract)
 ||z52r-hm7c3-e8qx.com^$doc
 ||smore91.net^$all
 ||orca-finance.org^$all
-/^https:\/\/telegram-[a-z]{3,4}\.com\//$doc,to=com|~telegram.org
 ||cfd/mnllcontent-$popup
 ||web3projects.substack.com^$all
 ||disk-redial.com^$doc
@@ -6547,6 +6550,7 @@ accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capez
 ||azurewebsites.net/TrackView/
 ||scinable.net/access?
 ||taringa.net/ajax/track-visit.php
+@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 /analytics_tag.js
 ||optorb.com^$third-party
 ||analytics.fabricators.ltd^$third-party
@@ -6748,6 +6752,7 @@ accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capez
 /collect/stats?
 ||amazonaws.com^*/prod_analytics
 ||api.bus-location.1507t.xyz/3.0/ping
+.samsung.net/mail/*/status/update?$image
 ||useproof.com^$third-party
 ||1dmp.io^$third-party
 ||webpu.sh^$third-party
@@ -9117,6 +9122,7 @@ abema.tv##+js(rmnt, script, NREUM)
 @@||addthis.com/*-angularjs.min.js$script,domain=ead.senac.br|missingkids.com|missingkids.org
 ||ups.com/img/icp.gif
 ||scriptil.com^$third-party
+||ipcheck.blogsys.jp^$redirect=noop.js,script
 ||herz-fuer-tiere.de^*/sunshine.gif?
 ||wpfc.ml^$third-party
 ||hubspot.com/usage-logging/
@@ -12287,7 +12293,6 @@ _logHuman=
 ||wogaa.sg/scripts/wogaa.js
 ||slack.com/clog/track/
 /api/v2/jsonlogger
-@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 ||sitetracker.com^$third-party
 ||scribol.com/traffix/widget_tracker/
 ||sc.g-cdn.net/tracker/gsms.js
@@ -12723,6 +12728,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||kck.st/web/track
 ||cetrk.com^$third-party
 /ezoicanalytics.js
+@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|farmaciabolli1833.it|game.anymanager.io|gamelog.apexlegends-leaksnews.com|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|nihontsushin.com|o2.co.uk|oko.sh|oxylabs.io|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|proxyorb.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|wps.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 ||vesti.ru/counter/
 ||liquipedia.net/stats/
 ||skoom.de/gratis-counter/
@@ -12843,7 +12849,6 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||potsdamer-stadtplan.com/t.gif
 ||adgainersolutions.com^$third-party
 ||secretbenefits.com/js/script.js
-@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|farmaciabolli1833.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|nihontsushin.com|o2.co.uk|oko.sh|oxylabs.io|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|proxyorb.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|wps.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
 ||beyondsecurity.com^$third-party
 ||apartmenttherapy.com/jAYekY18/init.js
@@ -13921,6 +13926,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, OfflineAudioContext, undefi
 ||tgtag.io^$third-party
 ||promotionengine.com^$third-party
 ||callreports.com^$third-party
+@@||regatta.com/gtg/gtm.js$~third-party
 ||app.elitedomains.de/js/service/statistics.service.js
 ||wp-engage.org/api/v5/post/activity/log/
 ||sugodeku.com^$third-party
@@ -15408,6 +15414,7 @@ baeldung.com,cheatsheet.com,pcwelt.de,pwinsider.com##+js(rmnt, script, admiral)
 ||tokopedia.com/helios-client/client-log
 ||mobtop.com^$third-party
 ||video.oms.eu^$third-party
+@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|hochi.news|inquirer.com|mainichi.jp|marketwatch.com|nikkansports.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
 ||tvgids.nl/collect
 ||corvidae.ai/pixel.min.js
 ||openpanel.dev/op.js
@@ -15756,7 +15763,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||dbfocus.jp^$third-party
 /counter5.min.js
 ||attn.tv^*/dtag.js
-@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|hochi.news|inquirer.com|mainichi.jp|marketwatch.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
 ||jeremiahlee.com/fanboynz.js
 ||websiteperform.com^$third-party
 ||run.app/api/pixel-event
@@ -17600,6 +17606,7 @@ gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 /analytics/?event=
 ||tracking*.euroads.fi^$third-party
 ||betsmart.media^$third-party
+||player.fabster.com/event/
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=core.app|orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
 /csi?v=3&s=
 ||browsealoud.com/plus/scripts/$script

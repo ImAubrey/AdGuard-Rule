@@ -1,4 +1,4 @@
-# Update time: 2026-09-02 11:03:32
+# Update time: 2026-09-03 00:00:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1162,6 +1162,7 @@
 |adv.app.qq.com^
 |adx.yiche.com^
 |mepodownload.mediatek.com^
+|stat.nodeseek.org^
 |redirect.simba.taobao.com^
 |dev.iyuba.cn^
 |aiseet.aa.atianqi.com^
