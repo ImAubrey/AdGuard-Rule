@@ -1,4 +1,4 @@
-# Update time: 2026-09-02 00:07:39
+# Update time: 2026-09-02 11:03:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8840,6 +8840,7 @@
 0.0.0.0 www.yreta.com
 0.0.0.0 adzerk.net
 0.0.0.0 www.fluffyappyp.com
+0.0.0.0 securesweep.pro
 0.0.0.0 margaretanddavid.com
 0.0.0.0 05tz2e9.com
 0.0.0.0 burns.adtech.fr
@@ -15153,6 +15154,7 @@
 0.0.0.0 stat.alibaba.com
 0.0.0.0 save-plan.com
 0.0.0.0 codegur.com
+0.0.0.0 www.elmerdiner.com
 0.0.0.0 w107.hitbox.com
 0.0.0.0 nathna.fr
 0.0.0.0 www.alexyastro.com
@@ -16832,7 +16834,6 @@
 0.0.0.0 stopsms.biz
 0.0.0.0 aka-cdn.adtechus.com
 0.0.0.0 jmvisuals.com
-0.0.0.0 bestadbid.com
 0.0.0.0 api.intentiq.com
 0.0.0.0 clicktracker.alloymarketing.com
 0.0.0.0 www.counter4.sextracker.be
@@ -30357,6 +30358,7 @@
 0.0.0.0 emilychoy.com
 0.0.0.0 choopchirk.net
 0.0.0.0 drdianateachertraining.com
+0.0.0.0 bestadbid.com
 0.0.0.0 clariter.com
 0.0.0.0 unocl45trpuoefft.on2420.bid
 0.0.0.0 bha-group.eu
