@@ -1,4 +1,4 @@
-# Update time: 2026-09-03 11:07:23
+# Update time: 2026-09-03 23:50:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -15348,6 +15348,7 @@
 0.0.0.0 zem.outbrainimg.com
 0.0.0.0 minence.fr
 0.0.0.0 www.celestia.fr
+0.0.0.0 www.pashcams.com
 0.0.0.0 origer.info
 0.0.0.0 c2.gostats.com
 0.0.0.0 gdelt.hit.gemius.pl
