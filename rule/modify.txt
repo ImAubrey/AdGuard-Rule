@@ -1,4 +1,4 @@
-# Update time: 2026-09-03 00:00:49
+# Update time: 2026-09-03 11:07:23
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7468,6 +7468,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ||novanthealth.org/v1/tagular/beam
 ||emarketeer.com/tracker/
 /track_click?
+||unleash.zenchef.com/api/frontend/client/metrics
 ||pubperf.com^$third-party
 /ns.html?id=GTM-
 ||maxtraffic.com^$third-party
@@ -12165,6 +12166,7 @@ _logHuman=
 ||dubz.live/analytics/
 ||imgur.com/albumview.gif?
 ||maxmind.com^*/geoip2.js
+||joomag.com/collect-bulk?
 ||onedollarstats.com^$third-party
 ||target.com/consumers/v1/ttms/events?
 ||247-inc.com^$third-party
@@ -17261,6 +17263,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 .substack.com/o/$image
 ||cdn.c-i.as^$script,third-party
 /img?eid=
+||eventbrite.com/metrics/
 ||interia.pl^*/hit.
 ||scannary.com^$third-party
 ||secure.planetf1.com/tag/
