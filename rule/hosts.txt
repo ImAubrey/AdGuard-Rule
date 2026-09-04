@@ -1,4 +1,4 @@
-# Update time: 2026-09-03 23:50:29
+# Update time: 2026-09-04 11:05:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9274,6 +9274,7 @@
 0.0.0.0 certifiedwinners.info
 0.0.0.0 newclk.com
 0.0.0.0 match.ads.betweendigital.com
+0.0.0.0 www.stanthedonutman.com
 0.0.0.0 ad.ghfusion.com
 0.0.0.0 ping.chartbeat.net
 0.0.0.0 a.visualrevenue.com
@@ -10025,7 +10026,6 @@
 0.0.0.0 protection.TNpolice.com
 0.0.0.0 www.myexclusiverewards.com
 0.0.0.0 larivieracasino.com
-0.0.0.0 ads.realcastmedia.com
 0.0.0.0 bumerangshowsites.hurriyet.com.tr
 0.0.0.0 lnads.osdn.com
 0.0.0.0 meteof.fr

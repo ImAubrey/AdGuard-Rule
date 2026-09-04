@@ -1,4 +1,4 @@
-# Update time: 2026-09-03 23:50:29
+# Update time: 2026-09-04 11:05:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -406,6 +406,7 @@
 |g1.163.com^
 |hd.xiaojukeji.com^
 |ad.hzyoka.com^
+|snssdk.huazhu.com^
 |in.vipliangmei.com^
 |api.jr.mi.com^
 |httpdns-sc.aliyuncs.com^
@@ -1328,7 +1329,6 @@
 |quickaplus-server-api-cn-zhangjiakou.aliyuncs.com^
 |paopao.iqiyi.com^
 |httpdns.baidu.com^
-|sv-video.play.aiseet.atianqi.com^
 |dw-collect.ksosoft.com^
 |stnetsdk.vivo.com.cn^
 |api.ts.feedback.qy.net^
