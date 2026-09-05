@@ -1,4 +1,4 @@
-# Update time: 2026-09-04 23:48:51
+# Update time: 2026-09-05 11:06:58
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -9020,6 +9020,7 @@
 0.0.0.0 www.cool-downloads.com
 0.0.0.0 schoorsteen.geenstijl.nl
 0.0.0.0 retaildetail.fr
+0.0.0.0 www.codeademy.com
 0.0.0.0 ads.lfstmedia.com
 0.0.0.0 i.w.inmobi.com
 0.0.0.0 ssl-top.oewabox.at
@@ -11941,6 +11942,7 @@
 0.0.0.0 gautmont.fr
 0.0.0.0 ads.adroar.com
 0.0.0.0 trafficrevenue.net
+0.0.0.0 www.ointrest.com
 0.0.0.0 ads29.console.adtarget.com.tr
 0.0.0.0 sobolev.net.ru
 0.0.0.0 brides4you.sa.com
@@ -16113,6 +16115,7 @@
 0.0.0.0 sync-eu.exe.bid
 0.0.0.0 kilomniadst.info
 0.0.0.0 www.linkhut.com
+0.0.0.0 dsfdsfxcfddsf.blob.core.windows.net
 0.0.0.0 groupom.fr
 0.0.0.0 cabrerapelaez.com
 0.0.0.0 adsyndication.msn.com
