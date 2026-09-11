@@ -1,4 +1,4 @@
-# Update time: 2026-09-10 23:53:25
+# Update time: 2026-09-11 11:11:12
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -617,6 +617,7 @@ doctorrouter.ru##.jgcabd-container
 /arlinablock.js
 ##.ad-block__overlay
 rtlxl.nl##.adblock
+@@||tpi.li^$generichide
 ##.svg-adblock-full--box
 ##.fuckYouAdBlock2
 /adblock-warning-teaser/*
@@ -644,6 +645,7 @@ pic4you.ru,pic5you.ru##body > #bb
 coontool.com###fc-main-dialog
 /adblocker-detected.
 ##.js-ad-whitelist-notice
+||antiadblockcore.com^$third-party
 bouweenpc.nl###header-banner
 ###adblockinfo
 ##.adace-popup-detector
@@ -2377,6 +2379,7 @@ abogadosrosarinos.com,aptisweb.com,avene-hebergement.com,caesarjaco.co.id,https-
 ||fr-instagram.com^$all
 ||quickassistapp.com^$doc
 ||safeageplan.link^$all
+/^https:\/\/[a-z]{7,}\.sbs\/[a-z0-9]{8}\.js$/$script,3p,match-case,to=sbs
 ||riarialuvluv2023.com^$doc
 ||dating4lover.com^$doc
 cracka2zsoft.com,ayeshapc.com,trycracksoftware.com,trycracksetup.com,9to5crack.com,crackmak.com,yasir-252.net##center > a
@@ -2721,7 +2724,6 @@ pages.dev##html:not([class]) > body.gradient-bg.min-h-screen.flex.items-center.j
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{3,}\.[a-z]{2,11}\.?[a-z]{0,7}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]{7}(?:&t=\d+)?&o=[0-9a-z]{7}/$doc,frame,match-case
 /landing/windows.html?src=$frame,3p
 ||sabito.kamadonezuko.com^$doc
-/^https:\/\/[a-z]{7}\.sbs\/[a-z0-9]{8}\.js$/$script,3p,match-case,to=sbs
 ||spacesniffer.app^$doc
 ||stomatico.com^$doc
 ||sportslevels.com^$all
@@ -2843,6 +2845,7 @@ casabasics.es##+js(rmnt, script, String.fromCharCode)
 ||herebyintentionally.com^$doc
 ||riundoor.com^$doc
 ||aterasig.com^$all
+||sbs^$domain=testmyspeed.com
 ||roykuashkimayo.$all
 ||tw-goldenwinner-57.com^$doc
 ||tokumeichat135.net^$doc
@@ -7165,6 +7168,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /mongoose.fp.js
 ||drupal.org/VnPBBfwe/init.js
 .hash.outbound-links.js
+||ekitan.com/cmn/js/ekitan.log.js
 ||vcita.com/tr_
 ||get4click.ru^$third-party
 ||domainit.com/scripts/track.js
