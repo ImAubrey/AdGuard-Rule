@@ -1,4 +1,4 @@
-# Update time: 2026-09-11 23:55:37
+# Update time: 2026-09-12 11:17:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -6071,6 +6071,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||chefkoch.de/search/tracking/
 @@||onesignal.com/api/v1/sync/$domain=oshibuta.com
 ||doceree.com^$third-party
+||atendimen.to^$third-party
 ||a.wishabi.com/track.gif?
 ||tapeadvertisement.com/stat/
 /wp-sentry-browser.min.js
@@ -17594,6 +17595,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||trustarc.com/cap?
 /analytics-amplitude-
 ||brandmetrics.com^$third-party
+||osuper.com.br/beta/bundles/analytics/analytics-$script
 ||gizmodo.jp/api/SurveyCountCollection?
 ||strtapeadblock.club/stat/
 ||clipcentric.com^$third-party
