@@ -1,4 +1,4 @@
-# Update time: 2026-09-12 23:03:05
+# Update time: 2026-09-13 11:21:58
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5967,6 +5967,7 @@ reuters.com##+js(aost, admiral, .js?)
 /tracking/events/*
 ||px-cloud.net/b/c/beacon
 ||linximpulse.net/impulse/
+||comdirect.de/cp/log/
 ||api.beleggersbelangen.nl//api/statistics/
 /__core/metrics.js
 /tracking/networktrackingservlet
@@ -6404,6 +6405,7 @@ accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capez
 ||snipesusa.com/6XNN2xkk/init.js
 /track_pixel?
 /comscore_pageview
+@@||dd.qwant.com.first-party-js.datadome.co^$domain=qwant.com
 /tracking-events.js
 ||iperceptions.com^$third-party
 ||tmvtp.com^$third-party
@@ -6632,6 +6634,7 @@ accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capez
 /smg_tracking/js/onthe.io.js
 ||api.pearcommerce.com/v1/client_request_log?
 ||akamaized.net/?u=
+||api.inboxburn.com/api/events
 ||metricswave.com^$third-party
 ||goadopt.io^$third-party
 /ruxitagentjs_
@@ -6890,6 +6893,7 @@ _stat_counter.php?
 @@||prod-backend.jls-sto1.elastx.net/graphql$domain=webcamcollections.com
 /visitor_id.jsp
 ||overstock.com/analytics/
+||fe.imdada.cn/meridian/unify.min.js
 ||mng.jiji.com/cookie.html
 ||genieesspv.jp^$third-party
 ||alaskaair.com/AlXMT4Ma/init.js
@@ -6977,7 +6981,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /videotracking.js
 /geocompteur.php
 ||eolcdn.com^$third-party
-||wl.jd.com^$third-party
 ||ma-petite-recette.fr/visites
 ||businessinsider.nl^*/tr.php
 /js-sdk-event.min.js
@@ -7562,6 +7565,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 ||ligainsider.de/*.gif?d=
 ||rockincontent.net^$third-party
 /gtm.js
+||h5speed.m.jd.com/event/log
 ||monstat.com^$third-party
 @@||trackonomics.net/client/$script,domain=popsugar.com
 /event/tracking
@@ -8093,6 +8097,7 @@ _beacon?
 ||disquscdn.com/next/embed/alfalfalfa.
 /freecgi/count.cgi?
 /webstats_counter/*
+||gias.jd.com/js/pc-tk.js
 /ecanalytics.js
 ||udc.yahoo.com/v2/public/yql?
 /tracking/uct?v=
@@ -8427,6 +8432,7 @@ _beacon?
 .flipboard.com/usage?
 /stats/pv.php?
 ||rewe.de/shop/api/productlist/impressions
+||base.imdada.cn/rum/spa.js
 ||standvirtual.com^$ping
 /logger/?referer=
 /LandingPageHitLog.aspx?
@@ -13695,6 +13701,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, OfflineAudioContext, undefi
 ://tralut.*/collect/value?
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=eloan.co.il
 /t.gif?
+||sofoot.com/home/stats
 ||traders.co.kr/common/js/makePCookie.js
 ||simpli.fi^$third-party
 ||videostat.com^$third-party
