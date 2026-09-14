@@ -1,4 +1,4 @@
-# Update time: 2026-09-14 11:33:23
+# Update time: 2026-09-15 01:46:12
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11455,6 +11455,7 @@
 0.0.0.0 get-express-vpn.com
 0.0.0.0 critiquefilm.fr
 0.0.0.0 www.russian-sex.com
+0.0.0.0 www.diperformancetransmissions.com
 0.0.0.0 www.gmads.net
 0.0.0.0 adspaces.ero-advertising.com
 0.0.0.0 click.maaxmarket.com

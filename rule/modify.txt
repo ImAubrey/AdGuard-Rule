@@ -1,4 +1,4 @@
-# Update time: 2026-09-14 11:33:23
+# Update time: 2026-09-15 01:46:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2062,6 +2062,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 ||secure-57v.pages.dev^$all
 ||hausbank-ssk-cuxhaven.de^$all
 ||appinstallcheck.com^$all
+/click?key=*&zone=$doc
 ||qh-qishuiyinyue.hl.cn^$all
 ||z-lib.io^$all
 ||geoflix.me^$all
@@ -2522,7 +2523,6 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||mediafire.com/folder/ofa1qju50ffaz/$doc
 ||yupooshoes.org^$doc
 ||pub-*.r2.dev/utility_base.html^$doc
-||nachhilfeteam.net^$all
 ||onega.jp^$doc
 .net/c/*?s1=$doc,to=net
 ||tadade-navi.com^$doc
@@ -5476,6 +5476,7 @@ reuters.com##+js(aost, admiral, .js?)
 @@||parsely.com/keys/$script,domain=wmmr.com|wrif.com
 ||acxiomapac.com^$third-party
 /countstat.php?
+||smartbrokerplus.de/_ingenious-script.js
 ||replyat.com/gadgetpagecounter.asp?
 @@||att.tv^*/VisitorAPI.js$script,~third-party
 ||cdn.jsdelivr.net/gh/bmhtech07/adTorch/js/collect.min.js$script,domain=propanefitness.com
@@ -5498,6 +5499,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||khamsat.com/ajax/account_stats?
 ||decibelinsight.net^$third-party
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|corriereadriatico.it|couriermail.com.au|dailyexaminer.com.au|fanpage.it|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ipswichadvertiser.com.au|la7.it|last.fm|leggo.it|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|quotidianodipuglia.it|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
+||chatgpt.com/ces/v1/telemetry/
 ||facebook.com/platform/cavalry_endpoint.php?
 ||lightboxcdn.com/static/identity.html
 ||lendingtree.com/analytics/
@@ -7065,7 +7067,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /mongoose.fp.js
 ||drupal.org/VnPBBfwe/init.js
 .hash.outbound-links.js
-||ekitan.com/cmn/js/ekitan.log.js
 ||vcita.com/tr_
 ||get4click.ru^$third-party
 ||domainit.com/scripts/track.js
@@ -11999,6 +12000,7 @@ _logHuman=
 /gigyaGAIntegration.js
 /track_page_view?
 ||alkemics.com^$third-party
+||swissquote.com/SQB.Microsoft.Tracking/TrackPage.aspx?
 ||statistichegratis.net^$third-party
 ||thron.com/shared/plugins/tracking/
 .emlfiles4.com/cmpimg/t/$image
