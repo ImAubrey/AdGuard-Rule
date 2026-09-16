@@ -1,4 +1,4 @@
-# Update time: 2026-09-16 00:20:46
+# Update time: 2026-09-16 11:30:39
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11378,6 +11378,7 @@
 0.0.0.0 helpint.mywebsearch.com
 0.0.0.0 tracking.quisma.com
 0.0.0.0 w144.hitbox.com
+0.0.0.0 www.aplogia.com
 0.0.0.0 b.ads2.msn.com
 0.0.0.0 www.pickupclean.com
 0.0.0.0 www.brandsclothingco.com
@@ -19475,6 +19476,7 @@
 0.0.0.0 www.adcash.com
 0.0.0.0 networkingproperty.com
 0.0.0.0 postmasterdirect.com
+0.0.0.0 www.beheerflvsebox.com
 0.0.0.0 ztriskl.divisionfair.homes
 0.0.0.0 www.poukladanyswiat.com
 0.0.0.0 launch.adserver.yahoo.com
