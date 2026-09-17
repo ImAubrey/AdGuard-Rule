@@ -1,4 +1,4 @@
-# Update time: 2026-09-17 00:12:34
+# Update time: 2026-09-17 11:36:14
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -11094,6 +11094,7 @@
 0.0.0.0 emisja.contentstream.pl
 0.0.0.0 adnetworkperformance.com
 0.0.0.0 callfor-articles.com
+0.0.0.0 www.enargic.com
 0.0.0.0 www.helvora.help
 0.0.0.0 www.igameup.com
 0.0.0.0 aan.amazon.com
@@ -17416,6 +17417,7 @@
 0.0.0.0 nomorewarnow.com
 0.0.0.0 messagent.duvalguillaume.com
 0.0.0.0 selling-group.com
+0.0.0.0 www.autoaler.com
 0.0.0.0 ads.businessweek.com
 0.0.0.0 www.statcount.com
 0.0.0.0 wewillrocknow.com
@@ -19276,6 +19278,7 @@
 0.0.0.0 api.vodus.com
 0.0.0.0 tag.yieldoptimizer.com
 0.0.0.0 cablevision.112.2o7.net
+0.0.0.0 www.githubuser.com
 0.0.0.0 opcwdns.opcw.nl
 0.0.0.0 www.hebdotop.com
 0.0.0.0 aarth.net
