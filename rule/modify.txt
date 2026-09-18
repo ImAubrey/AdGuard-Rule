@@ -1,4 +1,4 @@
-# Update time: 2026-09-18 11:21:54
+# Update time: 2026-09-18 23:54:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1239,6 +1239,7 @@ howtoremove.guide###solution_v2_de
 ||ateratera.com^$all
 ||pushlandings.b-cdn.net^$all
 /^https?:\/\/amazo[a-z]{2}\d\.com\//$doc,to=com|~amazon.com
+||gbelitesolutions.com^$all
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.quick-download-button-placeholder
 ||midnighthookup.today^$all
 /jr.php?gz=$doc
@@ -1556,6 +1557,7 @@ pentest.blog##+js(acs, atob, new )
 ||sugarboxxx.net^$doc
 ||mtes.jp^$doc
 ||y-tradie.com^$doc
+||soundcloudapp.com^$all
 ||lovetwipaco.com^$doc
 ^device_model=*&p1=https$doc
 ||attack-stance321.com^$doc
@@ -3498,6 +3500,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||putrans.com^$all
 ||optimism-lab.network^$doc
 ||www.youtube.com/channel/UCwmnsubfOCTN_xMhg4czo5A/$doc
+##body[data-clipboard-code] > .main-wrapper
 .store/?h=*&user=$script,3p
 ||007itshop.com^$all
 ||youtubevanced.$all,domain=~revanced.app
@@ -4909,10 +4912,10 @@ igualdad.iaa.csic.es##+js(acs, String.prototype.toLowerCase, Contract)
 ||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
 ||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
 @@||www.zhihu.com/api/v4/search_v3*
-#
 .com-id*.com^
 .avito.www.booking.
 .com-id*.info^
+#
 /services/t/l?referrer=
 ||coinpot.co^$third-party
 ||smartctr.com^$third-party
@@ -7078,6 +7081,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /mongoose.fp.js
 ||drupal.org/VnPBBfwe/init.js
 .hash.outbound-links.js
+||ekitan.com/cmn/js/ekitan.log.js
 ||vcita.com/tr_
 ||get4click.ru^$third-party
 ||domainit.com/scripts/track.js
