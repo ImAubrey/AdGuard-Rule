@@ -1,4 +1,4 @@
-# Update time: 2026-09-19 11:18:14
+# Update time: 2026-09-19 23:25:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5518,7 +5518,6 @@ reuters.com##+js(aost, admiral, .js?)
 ||khamsat.com/ajax/account_stats?
 ||decibelinsight.net^$third-party
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|corriereadriatico.it|couriermail.com.au|dailyexaminer.com.au|fanpage.it|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ipswichadvertiser.com.au|la7.it|last.fm|leggo.it|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|quotidianodipuglia.it|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
-||chatgpt.com/ces/v1/telemetry/
 ||facebook.com/platform/cavalry_endpoint.php?
 ||lightboxcdn.com/static/identity.html
 ||lendingtree.com/analytics/
@@ -5954,6 +5953,7 @@ reuters.com##+js(aost, admiral, .js?)
 ||cloudfront.net/scripts/cookies.js
 ||datayze.com/callback/record_visit?
 ||infinity-tracking.net^$third-party
+||miao.baidu.com/abdr?
 ||terra.com.mx/js/metricspar_
 ||libs.platform.californiatimes.com/meteringjs/
 ||widgetbox.com/syndication/track/
@@ -10134,6 +10134,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||addthis.com^$third-party
 ||banggood.com/collectException
 /eluminate?
+||dap-cn.c.hihonor.com/dap/jssdk.js
 /monetate.js
 ||linksynergy.com^$third-party
 @@||stats.sports.bellmedia.ca^$domain=rds.ca|tsn.ca
@@ -10639,6 +10640,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 /pongAudienceLS?
 /oo/*/lsync.
 /onetag/*
+||api.oaistatsig.com/v1/sdk_exception^$xmlhttprequest,domain=chatgpt.com
 /trackingheader.js
 ||app.termly.io/api/*/statistics
 ||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js
@@ -11829,6 +11831,7 @@ _logHuman=
 ||blog104.com^$third-party
 ||insight.rapid7.com^$third-party
 ||dep-x.com^$third-party
+||chatgpt.com/ces/v1/telemetry/intake^$ping,xmlhttprequest
 .mozilla.org/eos/$image
 @@||api.twitter.com/1.1/onboarding/referrer.json$~third-party
 ||ssl.pstatic.net/static.news/*/js/generated/aside.statistics.js$domain=media.naver.com|news.naver.com
@@ -13341,6 +13344,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, OfflineAudioContext, undefi
 ||x.com/1.1/graphql/error_log.json
 ||cloudfront.net/beaver.js
 ||igaming.biz^$third-party
+||chatgpt.com/unauth-mweb/events/$ping,xmlhttprequest
 ||adku.com^$third-party
 ||arena.im/v2/collect
 ||turnsocial.com^$third-party
@@ -14441,6 +14445,7 @@ _view_pixel&$image
 /v.gif?
 /logcollect.js
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
+||chatgpt.com/backend-api/codex/app-download-signal^$xmlhttprequest
 ||contadorweb.com^$third-party
 ||crypto-pool.fr^$third-party
 ||informz.net^$third-party
@@ -14838,6 +14843,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ||api.rtl.nl/monitoring/
 /b.rnc?
 ||fastpic.org/viewed.php?url=/*.html&ref=$xmlhttprequest
+||m1.lefile.cn/le_sdk/le-shop-track-sdk.js
 ||online.marketing/a.js
 /gasocialtracking.js
 /analytics.analytics/analytics.min.js
@@ -17239,6 +17245,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 /cohesion-latest.min.js
 ||sunios.de^$third-party
 ||tapenoads.com/stat/
+||retail.hihonor.com/survey/base/analysis/
 ||busuanzi.ibruce.info^$third-party
 ||onestat.com^$third-party
 /wpengine-analytics/js/main.js
@@ -17886,6 +17893,7 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||asda.com/px/PX1UGLZTko/init.js
 /trkga.js
 ||devtribu.fr/t.php?
+||chatgpt.com/awe/api/v2/rum^$ping,xmlhttprequest
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
 ||*mercadolibre*^important
