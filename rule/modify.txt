@@ -1,4 +1,4 @@
-# Update time: 2026-09-19 23:25:30
+# Update time: 2026-09-20 11:35:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1996,6 +1996,7 @@ romsdl.net##a[rel="nofollow noreferrer noopener"][target="_blank"]
 ||dana-indone*.id^$doc,to=my.id|web.id|~dana.id
 ||reviewstudio.com/-/en/gp/mas/your-account/$doc
 ||sites.google.com/view/lyxnteam/$doc
+||cloudflare-check.net^$all
 ||inkscape.es^$doc
 /click.php?key=*&zoneid=$doc
 ||d-position.shop^$doc
@@ -2676,6 +2677,7 @@ howtoremove.guide##.entry-content > div:has-text(Special Offer)
 ||furykms.com^$doc
 ||mybluehost.me/comssss/$doc
 ||datinglive-jp.com^$all
+darumasushiantofagasta.cl##+js(aost, Function, /bxslider|wow/)
 ||bitchats.app^$all
 ||pages.dev/fullscreen.js
 ||smarttvnew.vercel.app^$all
@@ -7088,7 +7090,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /mongoose.fp.js
 ||drupal.org/VnPBBfwe/init.js
 .hash.outbound-links.js
-||ekitan.com/cmn/js/ekitan.log.js
 ||vcita.com/tr_
 ||get4click.ru^$third-party
 ||domainit.com/scripts/track.js
