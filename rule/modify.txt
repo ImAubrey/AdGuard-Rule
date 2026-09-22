@@ -1,4 +1,4 @@
-# Update time: 2026-09-22 01:54:29
+# Update time: 2026-09-22 11:29:04
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5973,6 +5973,7 @@ reuters.com##+js(aost, admiral, .js?)
 ://fallback.*/collector
 /sophus3/logging.js
 ||hunkal.com^$third-party
+||shoperatech.com/s/collect?
 ://i.*@groovehq.com.gif$image
 ||jcm.jd.com^$script,third-party
 /pageview?key=
@@ -8097,7 +8098,6 @@ _beacon?
 ||disquscdn.com/next/embed/alfalfalfa.
 /freecgi/count.cgi?
 /webstats_counter/*
-||gias.jd.com/js/pc-tk.js
 /ecanalytics.js
 ||udc.yahoo.com/v2/public/yql?
 /tracking/uct?v=
@@ -8272,6 +8272,7 @@ _beacon?
 /analytics/analytics.min.js
 /rm.gif?
 ||reverbnation.com/api/user/app_events
+||static.guance.com/browser-sdk/
 ||riastats.com^$third-party
 /boost_stats.php
 ||flex.msn.com/mstag/
@@ -11048,6 +11049,7 @@ fedex.com##+js(set-local-storage-item, fdx_enable_new_detail_page, true)
 .qualtrics.com/subscription/watermark.gif?
 _WebVitalsReporter_
 ||tripadvisor.*/BALinkImpressionTracking/
+||engagelab.com/ma-report/
 ||events.launchdarkly.com^$third-party
 ||navlink.com/__utmala.js
 /mnt/imp?
@@ -14264,6 +14266,7 @@ _view_pixel&$image
 /hit/tracker
 ||lookawoman.com/t/
 /video/tracking.js
+/monitor_web/settings/browser-settings?
 ||pc-agency24.de^$third-party
 ||livecounter.dk^$third-party
 ||ebtrk1.com^$third-party
@@ -15963,6 +15966,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||traceparts.com/lib/piano-analytics/piano-analytics.js$script,~third-party
 ||buondua.com/hit/
 ||vihtori-analytics.fi^$third-party
+@@/ga-tracking.min.js$script,domain=boots.no|checkout.platekompaniet.no
 /TrackWebPage?
 ||aiv-delivery.net/Events/
 /outbrainAd.
@@ -17290,7 +17294,6 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||cux.io^$third-party
 ||4kporn.xxx/static/analytics/
 ||lporirxe.com^$third-party
-||chatgpt.com/backend-api/sentinel/ping
 ||etp-prod.com^$third-party
 ||content-garden.com^$third-party
 ||conversionly.com^$third-party
