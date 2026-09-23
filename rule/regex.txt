@@ -1,4 +1,4 @@
-# Update time: 2026-09-23 11:29:47
+# Update time: 2026-09-24 00:10:58
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1321,7 +1321,6 @@
 |adx.sogaha.cn^
 |analytics3.dopool.com^
 |log.byteoversea.com^
-|tongji.meizu.com^
 |h-adashx.ut.youku.com^
 |a460.cell.phone.ringtone.samsung.sms13.de^
 |37bvsblobprodcus311.blob.core.windows.net^
@@ -1361,7 +1360,6 @@
 |ic.ksosoft.com^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
-||ad-host-backup-*.s3.*.aliyuncs.com^
 ||ping*.qq.com^
 ||cj1*.online^
 ||orderana*.spankbang.com^
@@ -1418,6 +1416,7 @@
 ||api*.bidmachine.io^
 ||t*.playdigo.live^
 ||sock*-goguardian.pusher.com^
+||ad-host-backup-*.s3.*.amazonaws.com^
 ||tnc16-*.hypic.com^
 ||wslog-global-dual.cool*cloud.com^
 ||mcs-va-*.tiktokv.com^
