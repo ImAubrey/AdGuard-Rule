@@ -1,4 +1,4 @@
-# Update time: 2026-09-23 00:20:47
+# Update time: 2026-09-23 11:29:47
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7174,6 +7174,7 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /mongoose.fp.js
 ||drupal.org/VnPBBfwe/init.js
 .hash.outbound-links.js
+||ekitan.com/cmn/js/ekitan.log.js
 ||vcita.com/tr_
 ||get4click.ru^$third-party
 ||domainit.com/scripts/track.js
@@ -9105,7 +9106,6 @@ abema.tv##+js(rmnt, script, NREUM)
 ||globetrackr.com^$third-party
 ||acrosspf.com^$third-party
 ||vast.com/vimpressions.js$third-party
-||fitanalytics.com^$third-party
 /click?track=
 ||api.takealot.com^$ping
 ||marker.io/widget/ping
@@ -10995,6 +10995,7 @@ _stat.php?referer=
 _c.gif?c=
 ||froomle.com^$third-party
 /click.email.$image
+/go.email.fly.io/e/o/*$image
 ||apextag.com^$third-party
 ||ymetrica1.com^$third-party
 ||swiss-counter.com^$third-party
@@ -12228,6 +12229,7 @@ _logHuman=
 ||top100webshops.com^$third-party
 /counter/acnt.php?
 ||pymx5.com^$third-party
+||spin.bergfreunde.*/wt?$image
 /msq.tracker.min.js
 /ga_tracker.js
 ||totaljobs.com/analytics/
