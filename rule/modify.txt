@@ -1,4 +1,4 @@
-# Update time: 2026-10-01 12:21:34
+# Update time: 2026-10-02 02:05:12
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1311,6 +1311,7 @@ howtoremove.guide###solution_v2_de
 ||pairpure.jp.net^$doc
 ||xn--4dkua4c8143c.jp^$doc
 ||hotrokhachhang-$doc
+||d3so1q8pr29y0t.cloudfront.net^$all
 /^https:\/\/[a-z]{3,30}\.[a-z]{2,4}\/socket\.io\/socket\.io\.js$/$header=nel:/report_to":"cf-nel/,script,1p,strict1p,match-case,domain=ci|ge|eu|life
 ||pages.dev/errors/validateCaptcha^$doc
 ||privage.club^$doc
@@ -8599,6 +8600,7 @@ _beacon?
 ||api.doodle.com/data-layer/track
 ||configurator.ecom-mobile-samsung.com/api/logger
 ||tiser.com.au^$third-party
+@@||browser-intake-datadoghq.eu^$xmlhttprequest,domain=sncf-connect.com
 ||tripadvisor.*/GARecord^
 /ajax/eulerian/*
 ||gsght.com^$third-party

@@ -1,4 +1,4 @@
-# Update time: 2026-10-01 12:21:34
+# Update time: 2026-10-02 02:05:12
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -164,7 +164,6 @@
 |wxa79ef55c1a84e284.wx.ckjr001.com^
 |adshmmsg.qq.com^
 |activeqq.3g.qq.com^
-|gatherer.m.qq.com^
 |adping.qq.com^
 |misc.in.duokanbox.com^
 |hwad.zuimeitianqi.com^
@@ -508,7 +507,6 @@
 |543874163.ddns.net^
 |adx-bid.tianzhuobj.com^
 |mvconf.lato.cloud.360safe.com^
-|browsertdidticket.m.qq.com^
 |pfp.sina.com.cn^
 |agoodm.m.taobao.com^
 |valatm.cp12.wasu.tv^
