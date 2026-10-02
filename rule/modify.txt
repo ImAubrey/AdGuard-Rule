@@ -1,4 +1,4 @@
-# Update time: 2026-10-02 12:14:34
+# Update time: 2026-10-03 01:31:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5184,6 +5184,7 @@ igualdad.iaa.csic.es##+js(acs, String.prototype.toLowerCase, Contract)
 ||calendly.com/telemetry.js
 ||kxcdn.com/assets/js/script.js
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
+oregonlive.com,reuters.com##+js(aost, admiral, .js?)
 ||allanalpass.com/track/
 ||roispy.com^$third-party
 ||klix.ba/pixel/
@@ -5389,7 +5390,6 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 ||dc-tag.jp^$third-party
 @@||ebanking.meezanbank.com/AmbitRetailFrontEnd/js/fingerprint2.min.js$~third-party
 ||btncdn.com^$third-party
-reuters.com##+js(aost, admiral, .js?)
 /bootstrap/metrics.js
 /newrelic.min.js
 ||sitetistik.com^$third-party
@@ -6835,6 +6835,7 @@ accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capez
 ||museter.com/track.php?
 ||dhl.com/g8Dj6P8TAg/
 ||browserpusher.com^$third-party
+||acustomizedgift.com^$domain=masslive.com|silive.com
 ||retargeted.co^$third-party
 ||performgroup.com/metrics/
 /stats_js.asp
@@ -10137,7 +10138,6 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||lemrock.com/v1/publishers/tracking/
 ||player.instaread.co/js/inarticle-metrics.js
 ||zazzle.co.nz/botdefender/init.js
-||acustomizedgift.com^$domain=masslive.com|oregonlive.com|silive.com
 @@||signalshares.com/webtrends.min.js$script,~third-party
 ||aspservice.jp^$third-party
 .klclick1.com/$image
