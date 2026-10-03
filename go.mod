@@ -1,0 +1,15 @@
+module adguardhome-rule-gen
+
+go 1.25.5
+
+require (
+	github.com/v2fly/v2ray-core/v5 v5.49.0
+	google.golang.org/protobuf v1.36.11
+	gopkg.in/yaml.v3 v3.0.1
+)
+
+require (
+	github.com/adrg/xdg v0.5.3 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
+	golang.org/x/sys v0.43.0 // indirect
+)
