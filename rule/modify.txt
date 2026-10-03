@@ -1,4 +1,4 @@
-# Update time: 2026-10-03 11:57:02
+# Update time: 2026-10-03 23:46:10
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -247,6 +247,7 @@ sgp1.cdn.digitaloceanspaces.com###frame[title="encrypted shop"][allowfullscreen]
 ||nuide.net^$doc
 /?track=*&key=$all
 ||di-ana.jp^$doc
+msm-wroclaw.pl##+js(noeval-if, _0x)
 ||alisongaudino992.wixsite.com^$all
 ||shengsizhanchang.com^$all
 ||thetollroads-$doc,to=top|xin|world
@@ -1431,6 +1432,7 @@ romsdl.net##a[rel="nofollow noreferrer noopener"][target="_blank"]
 ||miles-plume-network.pages.dev^$all
 ||car-na.jp^$doc
 zuketcreation.net##.cente-1
+||ohhhhhmoney.com^$xhr,redirect=noop.txt
 ||go2go.bkxdlsivyfsjapsokq.com^$doc
 -ledger.live^$doc
 kalicrack.com##center > .button-container:has(> #directDownload)
@@ -4614,6 +4616,7 @@ biggestplayer.me##.masr
 ###anti_adblock
 usgang.ch###rectangle-wrapper
 gisher.org##body > div[id^="ban"][style]
+||oceancloudhosts.com^$~xmlhttprequest
 lr-club.com##a[href="https://adblockplus.org/ru/faq_basics#disable"]
 /wp-content/uploads/an-temp/*$script,stylesheet
 ###adblock_msg
@@ -14498,7 +14501,6 @@ _view_pixel&$image
 ||amikay.com^$third-party
 /plugins/nimiq/*$script
 ||adabra.com^$third-party
-||oceancloudhosts.com^$~xmlhttprequest
 /monitus.js
 ||103bees.com^$third-party
 ||finalyticsdata.com^$third-party
