@@ -1,4 +1,4 @@
-# Update time: 2026-10-05 00:29:52
+# Update time: 2026-10-05 12:15:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -13067,6 +13067,7 @@
 0.0.0.0 castortama.fr
 0.0.0.0 spaces.slimspots.com
 0.0.0.0 pixel.wp.com
+0.0.0.0 edge.cuddlybeside.com
 0.0.0.0 LUXpolice.com
 0.0.0.0 ad.71i.de
 0.0.0.0 hradware.fr
