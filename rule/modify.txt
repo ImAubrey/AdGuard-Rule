@@ -1,4 +1,4 @@
-# Update time: 2026-10-05 12:15:18
+# Update time: 2026-10-06 04:19:56
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2461,6 +2461,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||u--to-u.com^$doc
 .xyz/*/?partner=*&pg=$script,3p
 ||revancedapp.$all,domain=~revanced.app
+||canxe.cojoystreut.com^$all
 ||seloriva.com^$doc
 ||pub-3b4d978c14114185847089b100168c84.r2.dev^$all
 ||audacity.fr^$doc
