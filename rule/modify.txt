@@ -1,4 +1,4 @@
-# Update time: 2026-10-06 04:19:56
+# Update time: 2026-10-06 13:03:31
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -16564,6 +16564,7 @@ anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 /ent_counter?
 ||altervista.org^*/tb_hits_
 ||salesloft.com/sl.js
+@@||heimdall.hearstapps.com/voltron$third-party,xmlhttprequest,domain=caranddriver.com
 /pixel.track
 /hawkeye.js
 ||vedomosti.ru/boom?
