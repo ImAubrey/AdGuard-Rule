@@ -1,4 +1,4 @@
-# Update time: 2026-10-07 01:58:44
+# Update time: 2026-10-07 12:30:28
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10972,6 +10972,7 @@ _ad_impression.
 @@||cdn-pci.optimizely.com/public/*/sales_snippet.js$domain=talktalk.co.uk
 ||sumatra.ai^$third-party
 ||volantix.com^$third-party
+||numative.com^$third-party
 ||pagefly.io/pagefly/core/analytics.js
 /showcounter.php
 ||sterlingwoods.com^$third-party
