@@ -1,4 +1,4 @@
-# Update time: 2026-10-08 02:28:29
+# Update time: 2026-10-08 12:41:24
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5045,10 +5045,6 @@ igualdad.iaa.csic.es##+js(acs, String.prototype.toLowerCase, Contract)
 .com-id*.com^
 .avito.www.booking.
 .com-id*.info^
-||*mercadolibre*^important
-||use-application-dns.net^$empty,important
-||*^$dnstype=HTTPS
-||.nstool.^
 /services/t/l?referrer=
 ||coinpot.co^$third-party
 ||smartctr.com^$third-party
@@ -10597,6 +10593,7 @@ mwed.jp##+js(acs, document.createElement, keen-tracking)
 ||vidible.tv/trk/
 ||ifolder.ru/stat/?
 ||acuris.com/wat/v2/data-event
+@@||sdk-analytics-web.cloud.itau.com.br/index.js$script,domain=meu.userede.com.br
 ||streamsend.com^$third-party
 ||accounts.google.com/gsi/log
 ||userreplay.net^$third-party
@@ -18065,6 +18062,10 @@ ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}
 ||chatgpt.com/awe/api/v2/rum^$ping,xmlhttprequest
 ||blogtoppen.dk^*/bt_tracker.js
 ||odnoklassniki.ru/dk?cmd=videoStatNew
+||*mercadolibre*^important
+||use-application-dns.net^$empty,important
+||*^$dnstype=HTTPS
+||.nstool.^
 ||*tsdk.vivo.com.cn^
 ||*.mmstat.com^
 ||*serror*.wo.com.cn^
