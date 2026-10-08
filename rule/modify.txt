@@ -1,4 +1,4 @@
-# Update time: 2026-10-08 12:41:24
+# Update time: 2026-10-09 02:27:50
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -7216,7 +7216,6 @@ usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 /mongoose.fp.js
 ||drupal.org/VnPBBfwe/init.js
 .hash.outbound-links.js
-||ekitan.com/cmn/js/ekitan.log.js
 ||vcita.com/tr_
 ||get4click.ru^$third-party
 ||domainit.com/scripts/track.js
@@ -8197,6 +8196,7 @@ _beacon?
 ||ic-live.com^$third-party
 ||cloudfront.net/customers/24868.min.js
 ||eventhub.us01.miro.com/api/stream
+||ekitan.com/common/ek-tracker/
 ||socialprofitmachine.com^$third-party
 /countpixel.asp
 ||stat.pl^$third-party
@@ -8802,7 +8802,6 @@ _beacon?
 ||tagtoo.co/js/unitrack.js
 ||admeira.ch^$third-party
 ||diena.lv/statistics/
-||ekitan.com/*-tracker.js
 ||geocontatore.com^$third-party
 ||raenonx.cc/g/usage/
 ||enter-system.com^$third-party
@@ -10713,6 +10712,7 @@ img.promio-connect.com$image
 ||burstcloud.co/jwe?
 ||justanswer.com/jatag/
 ||gc.zgo.at^$third-party
+||community.netweather.tv/4p9v/
 ||xn--e1aaipcdgnfsn.su^*/counter.php
 ||mylocal.co.uk/api/trpc/analytics.
 ||twitter.com/oct.js
@@ -11438,6 +11438,7 @@ _WebVitalsReporter_
 ||steamchina.com/events/
 /web-pixel-shopify-app-pixel@
 ||bpi.zip.co/trx/
+||ekitan.com/*-analytics.js
 ||libero.it/cgi-bin/ajaxtrace?
 ||aptrinsic.com^$third-party
 @@||zoominfo.com/c/amplitude-js$script,~third-party
