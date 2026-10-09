@@ -1,4 +1,4 @@
-# Update time: 2026-10-09 12:44:21
+# Update time: 2026-10-10 02:00:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -1403,8 +1403,6 @@
 ||mon*-*.tiktokv.us^
 ||pxl-*.ozone.ru^
 ||kbox-analytics-prod.s*.amazonaws.com^
-||asd8900.oss-*.aliyuncs.com^
-||ky891.oss-*.aliyuncs.com^
 ||ads*.production-public.tubi.io^
 ||ads-*-nfl.yinzcam.com^
 ||iptracker-lb-*.amazonaws.com^
@@ -1732,4 +1730,3 @@
 ||analytics*.prezly.com^
 ||collector*.ex.co^
 ||union*.365inews.com^
-||vns86.oss-*.aliyuncs.com^
