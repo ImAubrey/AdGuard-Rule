@@ -25,3 +25,8 @@ hs_err_pid*
 .idea
 target
 src/test
+
+# Go build output and runtime logs
+/adguardhome-rule-gen
+/adguardhome-rule-gen.exe
+/logs/
