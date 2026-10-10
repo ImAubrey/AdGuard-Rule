@@ -1,4 +1,4 @@
-# Update time: 2026-10-10 12:30:12
+# Update time: 2026-10-11 01:00:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -2402,7 +2402,6 @@ abogadosrosarinos.com,aptisweb.com,avene-hebergement.com,caesarjaco.co.id,https-
 ||champion-place77.com^$doc
 ||youvetube.com^$all
 ||vww-facebook.$doc
-###captchaBox
 ||xn--d1aqfkf.xn--p1ai/bitrix/.../GlobalSources/$all
 ||marketplace-item-*.000.pe^$doc
 /^https?:\/\/www\.[a-z]{9,20}\.com\/o-[a-z]{4}-[a-z]\d{2}-[a-f0-9]{32}\b/$doc,match-case,to=com
@@ -13991,6 +13990,7 @@ al.com,attackofthefanboy.com,beavertonvalleytimes.com,destructoid.com,gamepur.co
 ||cdn.clkmc.com/cmc.js
 /metrics/track/*
 /partner/transparent_pixel-$image
+search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||metrika-informer.com^$third-party
 ||routeapp.io/route-analytics/
 /domcount.nsf/WebCounter?
